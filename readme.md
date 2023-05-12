@@ -54,11 +54,11 @@ Legend: 📝 blog posts · 💡 examples · 📚 docs · 🔌 libraries · 🔧 
 
 
 ## Official Communities
-- [Snapmaker Forum](https://forum.snapmaker.com/) - library of deep knowledge about snapmaker machines.
+- [Snapmaker Forum](https://forum.snapmaker.com/) - Library of deep knowledge about snapmaker machines.
 - [Snapmaker Original/2.0 Owners](https://www.facebook.com/groups/snapmaker) - Facebook group of Snapmaker 2.0 & Snapmaker Original owners.
 - [Snapmaker Artisan Owners](https://www.facebook.com/groups/591569232338285) - Facebook group of Artisan owners.
 - [Snapmaker J1 Owners](https://www.facebook.com/groups/snapmakerj1) - Facebook group of Snapmaker J1 owners.
-- [Snapmaker GitHub](https://github.com/Snapmaker) - home of the Snapmaker source code.
+- [Snapmaker GitHub](https://github.com/Snapmaker) - Home of the Snapmaker source code.
 
 <!-- END CONTENT
 
