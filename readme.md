@@ -83,11 +83,12 @@ Legend: 📝 blog posts · 💡 examples · 📚 docs · 🔧 tools · 📹 talk
 
 ## How to calibrate stuff
 
-## Snapmaker 2.0 "musthave" Mods
+## Snapmaker "musthave" Mods
 - Overall Platform related
   - Stiffness
-  - DIY Enclosure controls
-- 3D Printing related
+- Enclosure
+  - [DIY Filtration system](https://github.com/nevermore3d/Nevermore_Micro) - opensource closedloop filtration system. Also check out other sizes in the same repository.
+  - [DIY Enclosure controls](https://forum.snapmaker.com/t/diy-enclosure-controller-prototype-on-arduino/22094) - awesome project by [Ronin](https://forum.snapmaker.com/u/Ronin). Files availible in description of the [video](https://www.youtube.com/watch?v=9gOlhEzB8m4).
 
 # Tools
 ## Specific for Snapmaker
@@ -122,7 +123,7 @@ Legend: 📝 blog posts · 💡 examples · 📚 docs · 🔧 tools · 📹 talk
 - LASER CUTTING AND ENGRAVING
   - 🔧 [Lightburn](https://lightburnsoftware.com/pages/trial-version-try-before-you-buy) [WIN/NIX/MAC] - Ultimate solution for all your laser needs. Guides availible in this list. Worth every penny.
 - CNC
-  - 🔧 [Fusion360](https://www.autodesk.com/products/fusion-360/personal-form) - CNC toolpath generating.
+  - 🔧 [Fusion360](https://www.autodesk.com/products/fusion-360/personal-form) - Cad system. CNC toolpath generating.
   - 🔧 [FreeCAD](https://www.freecad.org/downloads.php) - Free CAD system. Can be used for toolpath generation with postprocessor from thislist.
 
 
@@ -145,6 +146,7 @@ Legend: 📝 blog posts · 💡 examples · 📚 docs · 🔧 tools · 📹 talk
 - [Axis bearings](https://a.aliexpress.com/_mtelvv4) - SG10 Groove bearings
 - [Filament runout switch](https://www.digikey.com/short/5vw8wd9j) - Omron P/N 	
 D2F-01L3-D3
+- [All Metal Heatbreak](https://www.aliexpress.us/item/3256803782710454.html) - All metal heatbreak. Look for CR6-SE heatbreak. Matches overall dimentions.
 
 
 
