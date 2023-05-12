@@ -87,8 +87,8 @@ Legend: 📝 blog posts · 💡 examples · 📚 docs · 🔧 tools · 📹 talk
 ## Specific for Snapmaker
 
 ## Generic Tools
-- [Slicers]
-  - [Kiri:Moto](https://grid.space/kiri/) - browser based slicer for 3DP/Laser/CNC. Has some unique features like slicing model in layers for lasre cutting.
+- SLICERS
+  - [Kiri:Moto](https://grid.space/kiri/) - 3DP/Laser/CNC in browser. Has some unique features like slicing model in layers for lasre cutting.
 
 # Handy Files & Models
 
