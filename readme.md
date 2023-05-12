@@ -2,7 +2,7 @@
 
 <!-- title -->
 
-<!--lint ignore no-dead-urls-->
+<!--lint disable git-repo-age-->
 
 # Awesome Snapmaker [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![lint](https://github.com/shurushetr/awesome-snapmaker/actions/workflows/lint.yaml/badge.svg)](https://github.com/shurushetr/awesome-snapmaker/actions/workflows/lint.yaml)
 
