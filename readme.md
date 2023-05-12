@@ -20,7 +20,7 @@ Snapmaker Artisan</a>
 
 <!-- image -->
 
-<a href="https://snapmaker.com/" target="_blank" rel="noopener noreferrer">
+<a href="https://shop.snapmaker.com/" target="_blank" rel="noopener noreferrer">
   <img src="images/Snapmmaker_2.0.jpg" />
 </a>
 
