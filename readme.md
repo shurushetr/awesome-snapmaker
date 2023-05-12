@@ -141,6 +141,11 @@ Legend: 📝 blog posts · 💡 examples · 📚 docs · 🔧 tools · 📹 talk
  - 💾 [Snapmaker 2.0 A350 platform drawing](files/files_from_snapmaker_team/Snapmake_2.0_A350_new_platform_design.dwg) - DWG file of the platform.
 
  # Aftermarket Parts
+ ## Snapmaker 2.0
+- [Axis bearings](https://a.aliexpress.com/_mtelvv4) - SG10 Groove bearings
+- [Filament runout switch](https://www.digikey.com/short/5vw8wd9j) - Omron P/N 	
+D2F-01L3-D3
+
 
 
 <!-- END CONTENT
