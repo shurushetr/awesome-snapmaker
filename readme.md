@@ -50,7 +50,6 @@ Legend: 📝 blog posts · 💡 examples · 📚 docs · 🔧 tools · 📹 talk
 
 # Official Docs & Quickstarts
 
-- 🔧 [Snapmaker Luban](https://snapmaker.com/snapmaker-luban) - Official software that works with all Snapmaker functions.
 - 📚 [G-Code Reference](https://snapmaker.github.io/Documentation/gcode/G000-G001) - G-Code reference guide.
 ### Snapmaker 2.0 guides
   - 📚 [3D PRINTING](https://support.snapmaker.com/hc/en-us/articles/360041733553-Snapmaker-2-0-3D-Printing-V1-0-0) - quick start guide by Snapmaker team.
@@ -85,10 +84,43 @@ Legend: 📝 blog posts · 💡 examples · 📚 docs · 🔧 tools · 📹 talk
 
 # Tools
 ## Specific for Snapmaker
+- 3D PRINTING
+  - Snapmaker 2.0
+    - [Ulltimaker Cura profiles ](https://github.com/Kaouthia/Snapmaker-2) - Cura profiles by @Kaouthia.
+    - [PrusaSlicer profiles](https://github.com/mrworf/snapmaker-prusa) - Profiles by @mrworf
+  - Snapmaker J1
+    - [PrusaSlicer Profiles](https://github.com/leandrolima-nyc/SnapmakerJ1) - Prusa profiles to setup Snapmaker J1. Credit - @leandrolima-nyc.
+- LASER CUTTING AND ENGRAVING
+  - 🔧 [Test Grid Generator](https://github.com/nunorvoliveira/Snapmaker-Laser-Test-Grid) [WIN] - Generates G-Code to test your materials best speed/power ratio. Credit - @nunorvoliveira
+  - 🔧 [Camera capture in Lightburn](https://github.com/PolymerPrints/SnapmakerLightBurnHost) [WIN] - emulates camera for Lightburn. Credit - @PolymerPrints, [Slynold](https://forum.snapmaker.com/u/slynold) - https://forum.snapmaker.com/t/working-camera-capture-with-lightburn/28397.
+- CNC
+  - 🔧 [Fusion360 Post Processor](https://github.com/nunorvoliveira/snapmaker-2.0/tree/main/Fusion%20360) - Fusion360 postprocessor. Credit - @nunorvoliveira.
+  - 🔧 [Snapmaker2Postprocessor](https://github.com/clsergent/Snapmaker2Postprocessor) - FreeCAD postporcessor. Credit - @clsergent.
+  - [3D Touchprobe controller](https://github.com/brvdboss/3D-touchprobe-controller) - designed to work with a 3D touch probe on the SnapMaker 2 device and a 3D touchprobe. DIY version can be found here: https://github.com/brvdboss/3d-touchprobe. Credit - @brvdboss
+- G-CODE
+  - 🔧 [SM2Uploader](https://github.com/macdylan/sm2uploader) [WIN/NIX/MAC] - A command-line tool for send the gcode file to Snapmaker Printers via WiFi connection. Supports Cura/PrusaSlicer/SuperSlicer/ideaMaker with Snapmaker 2 A150/250/350, J1, Artisan. Credit - @macdylan
+  - 🔧 [Snapmaker2Slic3rPostProcessor](https://github.com/macdylan/Snapmaker2Slic3rPostProcessor) [WIN/NIX/MAC] - A Snapmaker G-Code Post Processor for PrusaSlicer and SuperSlicer to create compatible files for Snapmaker Touchscreen. Like thumbnail of the print on the screen. Supports PrusaSlicer and SuperSlicer with Snapmaker 2 A150/250/350, J1, Artisan. Credit - @macdylan
+
 
 ## Generic Tools
-- SLICERS
-  - [Kiri:Moto](https://grid.space/kiri/) - 3DP/Laser/CNC in browser. Has some unique features like slicing model in layers for lasre cutting.
+- MULTIFUNCTION SLICERS
+  - 🔧 [Snapmaker Luban](https://snapmaker.com/snapmaker-luban) [WIN/NIX/MAC] - Official software that works with all Snapmaker functions.
+  - 🔧 [Kiri:Moto](https://grid.space/kiri/) [BROWSER] - 3DP/Laser/CNC slicer in browser. Has some unique features like slicing model in layers for laser cutting.
+
+- 3DP SLICERS
+  - 🔧 [PrusaSlicer](https://github.com/prusa3d/PrusaSlicer) [WIN/NIX/MAC] - Popular alternative to Luban for 3D printing. Alpha versions availible with latest functionality via Github.
+  - 🔧 [Ulltimaker Cura](https://ultimaker.com/software/ultimaker-cura) [WIN/NIX/MAC] - Another popular alternative to Luban for 3D printing.
+
+- LASER CUTTING AND ENGRAVING
+  - 🔧 [Lightburn](https://lightburnsoftware.com/pages/trial-version-try-before-you-buy) [WIN/NIX/MAC] - Ultimate solution for all your laser needs. Guides availible in this list. Worth every penny.
+- CNC
+  - 🔧 [Fusion360](https://www.autodesk.com/products/fusion-360/personal-form) - CNC toolpath generating.
+  - [FreeCAD](https://www.freecad.org/downloads.php) - Free CAD system. Can be used for toolpath generation with postprocessor from thislist.
+
+
+
+
+
 
 # Handy Files & Models
 
