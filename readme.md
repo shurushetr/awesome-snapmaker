@@ -32,37 +32,41 @@ High performance - 3D printer / Laser / CNC - with a large build volume.
 
 <!-- TOC -->
 
-## Contents
+# Contents
 
 - 📚 [Official Docs & Quickstarts](#official-docs--quickstarts)
 - 👋 [Official Communities](#official-communities)
 - 📝 [Comunity Guides](#community-guides)
-- 🔧 [Tools specific to Snapmaker](#tools-specific-to-snapmaker)
-- 💾 [Handy Files](#handy-files)
+- 🔧 [Tools](#tools) - software tools created by communty members.
+  - [Specific for Snapmaker](#specific-for-snapmaker)
+  - [Generic Tools](#generic-tools)
+- 💾 [Handy Files & Models](#handy-files--models) - files hosted in this repo.
+  - [Released By Community members - UNOFFICIAL](#released-by-community-members---unofficial)
+  - [Released by Snapmaker Team - OFFICIAL](#released-by-snapmaker-team---official)
+- 🛒 [Aftermarket Parts](#aftermarket-parts) -  Parts that were recommended by community members as spare/mods.
 
-Legend: 📝 blog posts · 💡 examples · 📚 docs · 🔧 tools · 📹 talks/video · 💾 files
+Legend: 📝 blog posts · 💡 examples · 📚 docs · 🔧 tools · 📹 talks/video · 💾 files · 🛒 shopping items
 <!-- CONTENT -->
 
-## Official Docs & Quickstarts
+# Official Docs & Quickstarts
 
-- [Snapmaker](https://snapmaker.com/) - Official website.
 - 🔧 [Snapmaker Luban](https://snapmaker.com/snapmaker-luban) - Official software that works with all Snapmaker functions.
 - 📚 [G-Code Reference](https://snapmaker.github.io/Documentation/gcode/G000-G001) - G-Code reference guide.
-- Snapmaker 2.0
+### Snapmaker 2.0 guides
   - 📚 [3D PRINTING](https://support.snapmaker.com/hc/en-us/articles/360041733553-Snapmaker-2-0-3D-Printing-V1-0-0) - quick start guide by Snapmaker team.
     - 📝 [3D Printing tips&tricks](https://support.snapmaker.com/hc/en-us/sections/360008076253-3D-Printing) - 3D Printing related tips and tricks by Snapmaker team.
   - 📚 [LASER ENGRAVING AND CUTTING](https://support.snapmaker.com/hc/en-us/articles/360041254874-Snapmaker-2-0-Laser-V1-0-0) -  quick start guide by Snapmaker team.
     - 📝 [Laser tips&tricks](https://support.snapmaker.com/hc/en-us/sections/360009734754-Laser) - Laser Engraving and Cutting tips&tricks by Snapmaker team.
   - 📚 [CNC](https://support.snapmaker.com/hc/en-us/articles/360041252474-CNC-Carving) -  quick start guide by Snapmaker team.
     - 📝 [CNC tips&tricks](https://support.snapmaker.com/hc/en-us/sections/360009349014-CNC) - CNC tips&tricks by Snapmaker team.
-- Artisan
+### Artisan guides
   - 📚 [Artisan Guides WiKi](https://wiki.snapmaker.com/en/snapmaker_artisan) - WiKi for Artisan by Snapmaker Team
-- Snapmaker J1
+### Snapmaker J1 guides
   - 📚 [Snapmaker J1 WiKi](https://wiki.snapmaker.com/en/snapmaker_j1) - WiKi for J1 by Snapmaker Team
 
 
 
-## Official Communities
+# Official Communities
 - [Snapmaker Forum](https://forum.snapmaker.com/) - Library of deep knowledge about snapmaker machines.
 - [Snapmaker Original/2.0 Owners](https://www.facebook.com/groups/snapmaker) - Facebook group of Snapmaker 2.0 & Snapmaker Original owners.
 - [Snapmaker Artisan Owners](https://www.facebook.com/groups/591569232338285) - Facebook group of Artisan owners.
@@ -70,6 +74,34 @@ Legend: 📝 blog posts · 💡 examples · 📚 docs · 🔧 tools · 📹 talk
 - [Snapmaker GitHub](https://github.com/Snapmaker) - Home of the Snapmaker source code.
 - [Snapmaker Youtube](https://www.youtube.com/c/snapmaker) - Youtube channel by Snapmaker team.
 - [Snapmaker Community Page](https://snapmaker.com/community) - Contests, Creators spotlight etc.
+- [Snapmaker Thingivers repo](https://www.thingiverse.com/snapmakerinc) - Official Snapmaker profile on thingaverse with bunch of models.
+
+# Community Guides
+## Snapmaker 2.0 "musthave" Mods
+- Overall Platform related
+  - Stiffness
+  - DIY Enclosure controls
+- 3D Printing related
+
+# Tools
+## Specific for Snapmaker
+
+## Generic Tools
+- [Slicers]
+  - [Kiri:Moto](https://grid.space/kiri/) - browser based slicer for 3DP/Laser/CNC. Has some unique features like slicing model in layers for lasre cutting.
+
+# Handy Files & Models
+
+## Released By Community members - UNOFFICIAL
+### Snapmaker 2.0 A350 CAD Models - UNOFFICIAL
+- 💾 [Model By Stefix](files/models/Snapmaker_2.5_A351_v34_v9_by_stefix.f3d) - Created by forum member [Stefix](https://forum.snapmaker.com/u/stefix/), he called his machine A351 after all the modes installed.
+- 💾 [Model by Sebastien Deux Vagues](files/models/Snapmaker_2_a350_v32_By_Sebastien_Deux_Vagues.f3d) - Created by FB Group member [Sebastien](https://www.facebook.com/groups/371401856611467/user/1418260509/), based on model by [Stefix](https://forum.snapmaker.com/u/stefix/)
+
+## Released by Snapmaker Team - OFFICIAL
+ - 💾 [Snapmaker 2.0 A350 platform drawing](files/files_from_snapmaker_team/Snapmake_2.0_A350_new_platform_design.dwg) - DWG file of the platform.
+
+ # Aftermarket Parts
+
 
 <!-- END CONTENT
 
