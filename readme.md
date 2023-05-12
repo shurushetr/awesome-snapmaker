@@ -76,6 +76,13 @@ Legend: 📝 blog posts · 💡 examples · 📚 docs · 🔧 tools · 📹 talk
 - [Snapmaker Thingivers repo](https://www.thingiverse.com/snapmakerinc) - Official Snapmaker profile on thingaverse with bunch of models.
 
 # Community Guides
+## How to make stuff
+- Snapmaker 2.0
+  - CNC
+    - [PCB milling process by tommy-vaux](https://github.com/tommy-vaux/Snapmaker_2_PCB_Milling_Process)
+
+## How to calibrate stuff
+
 ## Snapmaker 2.0 "musthave" Mods
 - Overall Platform related
   - Stiffness
@@ -100,6 +107,7 @@ Legend: 📝 blog posts · 💡 examples · 📚 docs · 🔧 tools · 📹 talk
 - G-CODE
   - 🔧 [SM2Uploader](https://github.com/macdylan/sm2uploader) [WIN/NIX/MAC] - A command-line tool for send the gcode file to Snapmaker Printers via WiFi connection. Supports Cura/PrusaSlicer/SuperSlicer/ideaMaker with Snapmaker 2 A150/250/350, J1, Artisan. Credit - @macdylan
   - 🔧 [Snapmaker2Slic3rPostProcessor](https://github.com/macdylan/Snapmaker2Slic3rPostProcessor) [WIN/NIX/MAC] - A Snapmaker G-Code Post Processor for PrusaSlicer and SuperSlicer to create compatible files for Snapmaker Touchscreen. Like thumbnail of the print on the screen. Supports PrusaSlicer and SuperSlicer with Snapmaker 2 A150/250/350, J1, Artisan. Credit - @macdylan
+   - 🔧 [A Snapmaker 2.0 PrusaSlicer Post-Processor to create compatible files for the Snapmaker terminal.](https://github.com/daniel-starke/sm2pspp) - Another g-code postprocessor for Prusaslicer. Credit - @daniel-starke
 
 
 ## Generic Tools
@@ -115,7 +123,7 @@ Legend: 📝 blog posts · 💡 examples · 📚 docs · 🔧 tools · 📹 talk
   - 🔧 [Lightburn](https://lightburnsoftware.com/pages/trial-version-try-before-you-buy) [WIN/NIX/MAC] - Ultimate solution for all your laser needs. Guides availible in this list. Worth every penny.
 - CNC
   - 🔧 [Fusion360](https://www.autodesk.com/products/fusion-360/personal-form) - CNC toolpath generating.
-  - [FreeCAD](https://www.freecad.org/downloads.php) - Free CAD system. Can be used for toolpath generation with postprocessor from thislist.
+  - 🔧 [FreeCAD](https://www.freecad.org/downloads.php) - Free CAD system. Can be used for toolpath generation with postprocessor from thislist.
 
 
 
