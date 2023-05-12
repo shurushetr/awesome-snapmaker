@@ -2,7 +2,7 @@
 
 <!-- title -->
 
-<!--lint ignore git-repo-age-->
+<!--lint ignore awesome-git-repo-age-->
 
 # Awesome Snapmaker [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![lint](https://github.com/shurushetr/awesome-snapmaker/actions/workflows/lint.yaml/badge.svg)](https://github.com/shurushetr/awesome-snapmaker/actions/workflows/lint.yaml)
 
@@ -21,7 +21,7 @@ Snapmaker Artisan</a>
 <!-- image -->
 
 <a href="https://shop.snapmaker.com/" target="_blank" rel="noopener noreferrer">
-  <img src="images/Snapmmaker_2.0.jpg" />
+  <img src="images/Snapmmaker_2.0.png" />
 </a>
 
 <!-- description -->
@@ -34,23 +34,32 @@ High performance - 3D printer / Laser / CNC - with a large build volume.
 
 ## Contents
 
-- [Official Docs & Quickstarts](#official-docs--quickstarts)
-- [Official Communities](#official-communities)
+- 📚 [Official Docs & Quickstarts](#official-docs--quickstarts)
+- 👋 [Official Communities](#official-communities)
+- 📝 [Comunity Guides](#community-guides)
+- 🔧 [Tools specific to Snapmaker](#tools-specific-to-snapmaker)
+- 💾 [Handy Files](#handy-files)
 
-Legend: 📝 blog posts · 💡 examples · 📚 docs · 🔌 libraries · 🔧 tools · 📹 talks/video
+Legend: 📝 blog posts · 💡 examples · 📚 docs · 🔧 tools · 📹 talks/video · 💾 files
 <!-- CONTENT -->
 
 ## Official Docs & Quickstarts
 
 - [Snapmaker](https://snapmaker.com/) - Official website.
 - 🔧 [Snapmaker Luban](https://snapmaker.com/snapmaker-luban) - Official software that works with all Snapmaker functions.
-- Snapmaker Academy - learn your machine with official guides
+- 📚 [G-Code Reference](https://snapmaker.github.io/Documentation/gcode/G000-G001) - G-Code reference guide.
+- Snapmaker 2.0
   - 📚 [3D PRINTING](https://support.snapmaker.com/hc/en-us/articles/360041733553-Snapmaker-2-0-3D-Printing-V1-0-0) - quick start guide by Snapmaker team.
     - 📝 [3D Printing tips&tricks](https://support.snapmaker.com/hc/en-us/sections/360008076253-3D-Printing) - 3D Printing related tips and tricks by Snapmaker team.
   - 📚 [LASER ENGRAVING AND CUTTING](https://support.snapmaker.com/hc/en-us/articles/360041254874-Snapmaker-2-0-Laser-V1-0-0) -  quick start guide by Snapmaker team.
     - 📝 [Laser tips&tricks](https://support.snapmaker.com/hc/en-us/sections/360009734754-Laser) - Laser Engraving and Cutting tips&tricks by Snapmaker team.
   - 📚 [CNC](https://support.snapmaker.com/hc/en-us/articles/360041252474-CNC-Carving) -  quick start guide by Snapmaker team.
     - 📝 [CNC tips&tricks](https://support.snapmaker.com/hc/en-us/sections/360009349014-CNC) - CNC tips&tricks by Snapmaker team.
+- Artisan
+  - 📚 [Artisan Guides WiKi](https://wiki.snapmaker.com/en/snapmaker_artisan) - WiKi for Artisan by Snapmaker Team
+- Snapmaker J1
+  - 📚 [Snapmaker J1 WiKi](https://wiki.snapmaker.com/en/snapmaker_j1) - WiKi for J1 by Snapmaker Team
+
 
 
 ## Official Communities
@@ -59,6 +68,8 @@ Legend: 📝 blog posts · 💡 examples · 📚 docs · 🔌 libraries · 🔧 
 - [Snapmaker Artisan Owners](https://www.facebook.com/groups/591569232338285) - Facebook group of Artisan owners.
 - [Snapmaker J1 Owners](https://www.facebook.com/groups/snapmakerj1) - Facebook group of Snapmaker J1 owners.
 - [Snapmaker GitHub](https://github.com/Snapmaker) - Home of the Snapmaker source code.
+- [Snapmaker Youtube](https://www.youtube.com/c/snapmaker) - Youtube channel by Snapmaker team.
+- [Snapmaker Community Page](https://snapmaker.com/community) - Contests, Creators spotlight etc.
 
 <!-- END CONTENT
 
