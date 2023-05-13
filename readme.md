@@ -164,7 +164,7 @@ Legend: 📝 blog posts · 💡 examples · 📚 docs · 🔧 tools · 📹 talk
 - [Axis bearings](https://a.aliexpress.com/_mtelvv4) - SG10 Groove bearings
 - [Filament runout switch](https://www.digikey.com/short/5vw8wd9j) - Omron P/N 	
 D2F-01L3-D3
-- [All Metal Heat break](https://www.aliexpress.us/item/3256803782710454.html) - All metal heatbreak. Look for CR6-SE heatbreak. Matches overall dimentions. You will need an insert cut for the throat.
+- [All Metal Heat break](https://www.aliexpress.us/item/3256803782710454.html) - All metal heatbreak. Look for CR6-SE heatbreak. Matches overall dimensions. You will need an insert cut for the throat.
 
 
 
