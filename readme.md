@@ -96,7 +96,7 @@ Legend: 📝 blog posts · 💡 examples · 📚 docs · 🔧 tools · 📹 talk
   - 📝 [Snapmaker 2.0 Cable Chain Brackets](https://www.thingiverse.com/thing:4909694)
 - Enclosure
   - 📝 [DIY Filtration system](https://github.com/nevermore3d/Nevermore_Micro) - opensource closedloop filtration system. Also check out other sizes in the same repository.
-  - [DIY Enclosure controls](https://forum.snapmaker.com/t/diy-enclosure-controller-prototype-on-arduino/22094) - awesome project by [Ronin](https://forum.snapmaker.com/u/Ronin). Files available in description of the [video](https://www.youtube.com/watch?v=9gOlhEzB8m4).
+  - 📝 [DIY Enclosure controls](https://forum.snapmaker.com/t/diy-enclosure-controller-prototype-on-arduino/22094) - awesome project by [Ronin](https://forum.snapmaker.com/u/Ronin). Files available in description of the [video](https://www.youtube.com/watch?v=9gOlhEzB8m4).
 - 3D Printing
   - 📝 [All metal hot end simple mod](https://forum.snapmaker.com/t/fyi-snapmaker-2-all-metal-hotend-simple-mod/10046/63) - Writeup by [Franky](https://forum.snapmaker.com/u/Franky) followed by discussion about installing all metal heat break.
 - CNC
