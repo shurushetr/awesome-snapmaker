@@ -92,23 +92,24 @@ Legend: 📝 blog posts · 💡 examples · 📚 docs · 🔧 tools · 📹 talk
   - 💾 [E-Step calibration](/files/pdf/e-step_calibration.pdf) - Writeup by [Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr) for e-steps calibration.
 ## How to modify stuff
 - Overall Platform related
-  - 📝 [CNC Bracing For Added Rigidity & Other Mods](https://forum.snapmaker.com/t/cnc-bracing-for-added-rigidity-other-mods/29444) - collection of mods designed by [Elliot](https://forum.snapmaker.com/u/Elliot)
+  - 📝 [CNC Bracing For Added Rigidity & Other Mods](https://forum.snapmaker.com/t/cnc-bracing-for-added-rigidity-other-mods/29444) - Collection of mods designed by [Elliot](https://forum.snapmaker.com/u/Elliot)
   - 📝 [Snapmaker 2.0 Cable Chain Brackets](https://www.thingiverse.com/thing:4909694)
 - Enclosure
-  - 📝 [DIY Filtration system](https://github.com/nevermore3d/Nevermore_Micro) - opensource closedloop filtration system. Also check out other sizes in the same repository.
-  - 📝 [DIY Enclosure controls](https://forum.snapmaker.com/t/diy-enclosure-controller-prototype-on-arduino/22094) - awesome project by [Ronin](https://forum.snapmaker.com/u/Ronin). Files available in description of the [video](https://www.youtube.com/watch?v=9gOlhEzB8m4).
+  - 📝 [DIY Filtration system](https://github.com/nevermore3d/Nevermore_Micro) - Opensource closedloop filtration system. Also check out other sizes in the same repository.
+  - 📝 [DIY Enclosure controls](https://forum.snapmaker.com/t/diy-enclosure-controller-prototype-on-arduino/22094) - Awesome project by [Ronin](https://forum.snapmaker.com/u/Ronin). Files available in description of the [video](https://www.youtube.com/watch?v=9gOlhEzB8m4).
 - 3D Printing
   - 📝 [All metal hot end simple mod](https://forum.snapmaker.com/t/fyi-snapmaker-2-all-metal-hotend-simple-mod/10046/63) - Writeup by [Franky](https://forum.snapmaker.com/u/Franky) followed by discussion about installing all metal heat break.
+  - 💾 [Glass bed leveling probe](files/models/FiFix_glass_probe_mod_by_stefix.zip) - Clever way by [Stefix](https://forum.snapmaker.com/u/stefix/) to allow leveling on glass using OEM probe. Find more information about it [here](https://forum.snapmaker.com/t/for-all-who-want-level-on-glass/12437).
 - CNC
-  - 📝 [CNC self-impelled vacuum dust shoe (no external vacuum required)](https://forum.snapmaker.com/t/cnc-self-impelled-vacuum-dust-shoe-no-external-vacuum-required/24972) - design by [gil.a.ramirez](https://forum.snapmaker.com/u/gil.a.ramirez).
+  - 📝 [CNC self-impelled vacuum dust shoe (no external vacuum required)](https://forum.snapmaker.com/t/cnc-self-impelled-vacuum-dust-shoe-no-external-vacuum-required/24972) - Design by [gil.a.ramirez](https://forum.snapmaker.com/u/gil.a.ramirez).
  
 
 # Tools
 ## Specific for Snapmaker
 - 3D PRINTING
-  - Snapmaker 2.0
-    - [Ulltimaker Cura profiles ](https://github.com/Kaouthia/Snapmaker-2) - Cura profiles by @Kaouthia.
-    - [PrusaSlicer profiles](https://github.com/mrworf/snapmaker-prusa) - Profiles by @mrworf
+   - Snapmaker 2.0
+      - [Ulltimaker Cura profiles ](https://github.com/Kaouthia/Snapmaker-2) - Cura profiles by @Kaouthia.
+      - [PrusaSlicer profiles](https://github.com/mrworf/snapmaker-prusa) - Profiles by @mrworf
   - Snapmaker J1
     - [PrusaSlicer Profiles](https://github.com/leandrolima-nyc/SnapmakerJ1) - Prusa profiles to setup Snapmaker J1. Credit - @leandrolima-nyc.
 - LASER CUTTING AND ENGRAVING
@@ -119,10 +120,12 @@ Legend: 📝 blog posts · 💡 examples · 📚 docs · 🔧 tools · 📹 talk
   - 🔧 [Fusion360 Post Processor](https://github.com/nunorvoliveira/snapmaker-2.0/tree/main/Fusion%20360) - Fusion360 postprocessor. Credit - @nunorvoliveira.
   - 🔧 [Snapmaker2Postprocessor](https://github.com/clsergent/Snapmaker2Postprocessor) - FreeCAD postporcessor. Credit - @clsergent.
   - [3D Touchprobe controller](https://github.com/brvdboss/3D-touchprobe-controller) - designed to work with a 3D touch probe on the SnapMaker 2 device and a 3D touchprobe. DIY version can be found here: https://github.com/brvdboss/3d-touchprobe. Credit - @brvdboss
-- G-CODE
+- G-CODE and machine control
   - 🔧 [SM2Uploader](https://github.com/macdylan/sm2uploader) [WIN/NIX/MAC] - A command-line tool for send the G-code file to Snapmaker Printers via WiFi connection. Supports Cura/PrusaSlicer/SuperSlicer/ideaMaker with Snapmaker 2 A150/250/350, J1, Artisan. Credit - @macdylan
   - 🔧 [Snapmaker2Slic3rPostProcessor](https://github.com/macdylan/Snapmaker2Slic3rPostProcessor) [WIN/NIX/MAC] - A Snapmaker G-Code Post Processor for PrusaSlicer and SuperSlicer to create compatible files for Snapmaker Touchscreen. Like thumbnail of the print on the screen. Supports PrusaSlicer and SuperSlicer with Snapmaker 2 A150/250/350, J1, Artisan. Credit - @macdylan
-   - 🔧 [A Snapmaker 2.0 PrusaSlicer Post-Processor to create compatible files for the Snapmaker terminal.](https://github.com/daniel-starke/sm2pspp) - Another g-code postprocessor for Prusaslicer. Credit - @daniel-starke
+   - 🔧 [A Snapmaker 2.0 PrusaSlicer Post-Processor to create compatible files for the Snapmaker terminal.](https://github.com/daniel-starke/sm2pspp) - Another g-code postprocessor for Prusaslicer. Credit - @daniel-starke.
+   - 🔧[Snapmaker Command Line Tool](https://github.com/hauti123/Snapmaker) - control your snapmaker via command line. Credit - [hauti123](https://github.com/hauti123)
+   - 🔧 [Gamepad Controls for Snapmaker](https://github.com/PolymerPrints/snapmaker-gamepad-control) - control your machine with an xbox controller. Credit - [PolymerPrints](https://github.com/PolymerPrints)
 
 
 ## Generic Tools
@@ -161,10 +164,10 @@ Legend: 📝 blog posts · 💡 examples · 📚 docs · 🔧 tools · 📹 talk
 
  # Aftermarket Parts
  ## Snapmaker 2.0
-- [Axis bearings](https://a.aliexpress.com/_mtelvv4) - SG10 Groove bearings
-- [Filament runout switch](https://www.digikey.com/short/5vw8wd9j) - Omron P/N 	
+- 🛒 [Axis bearings](https://a.aliexpress.com/_mtelvv4) - SG10 Groove bearings
+- 🛒 [Filament runout switch](https://www.digikey.com/short/5vw8wd9j) - Omron P/N 	
 D2F-01L3-D3
-- [All Metal Heat break](https://www.aliexpress.us/item/3256803782710454.html) - All metal heatbreak. Look for CR6-SE heatbreak. Matches overall dimensions. You will need an insert cut for the throat.
+- 🛒 [All Metal Heat break](https://www.aliexpress.us/item/3256803782710454.html) - All metal heatbreak. Look for CR6-SE heatbreak. Matches overall dimensions. You will need an insert cut for the throat.
 
 
 
