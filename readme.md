@@ -92,7 +92,8 @@ Legend: 📝 blog posts · 💡 examples · 📚 docs · 🔧 tools · 📹 talk
   - 💾 [E-Step calibration](/files/pdf/e-step_calibration.pdf) - Writeup by [Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr) for e-steps calibration.
 ## How to modify stuff
 - Overall Platform related
-  - 📝 [CNC Bracing For Added Rigidity & Other Mods](https://forum.snapmaker.com/t/cnc-bracing-for-added-rigidity-other-mods/29444) - Collection of mods designed by [Elliot](https://forum.snapmaker.com/u/Elliot)
+  - 💾 [Take a look at 3d Models from this list](#handy-files--models) - they have some modes modeled on them.
+  - 📝 [CNC Bracing For Added Rigidity & Other Mods](https://forum.snapmaker.com/t/cnc-bracing-for-added-rigidity-other-mods/29444) - Collection of mods designed by [Elliot](https://forum.snapmaker.com/u/Elliot).
   - 📝 [Snapmaker 2.0 Cable Chain Brackets](https://www.thingiverse.com/thing:4909694)
 - Enclosure
   - 📝 [DIY Filtration system](https://github.com/nevermore3d/Nevermore_Micro) - Opensource closedloop filtration system. Also check out other sizes in the same repository.
@@ -129,9 +130,10 @@ Legend: 📝 blog posts · 💡 examples · 📚 docs · 🔧 tools · 📹 talk
 
 
 ## Generic Tools
-- CALIBRATION
+- CALIBRATION & PRINTER TUNING
   - [Teaching Tech 3D Printer Calibration](https://teachingtechyt.github.io/calibration.html) - the go to for proper calibration. Use CAUTION.
-  - [3D Printer Auto Bed Leveling Mesh Visualizer](https://lokspace.eu/3d-printer-auto-bed-leveling-mesh-visualizer/) - you might need to brin values down (i.e. subtract whole number from data points => +7.1892 to 0.1892) for it to function.  
+  - [Ellis' Print Tuning Guide](https://ellis3dp.com/Print-Tuning-Guide/) - another awesome resource for calibration, using different approach. 
+  - [3D Printer Auto Bed Leveling Mesh Visualizer](https://lokspace.eu/3d-printer-auto-bed-leveling-mesh-visualizer/) - you might need to bring the values down (i.e. subtract whole number from data points => +7.1892 to 0.1892) for it to function.  
   
 - MULTIFUNCTION SLICERS
   - 🔧 [Snapmaker Luban](https://snapmaker.com/snapmaker-luban) [WIN/NIX/MAC] - Official software that works with all Snapmaker functions.
@@ -146,6 +148,13 @@ Legend: 📝 blog posts · 💡 examples · 📚 docs · 🔧 tools · 📹 talk
 - CNC
   - 🔧 [Fusion360](https://www.autodesk.com/products/fusion-360/personal-form) - Cad system. CNC toolpath generating.
   - 🔧 [FreeCAD](https://www.freecad.org/downloads.php) - Free CAD system. Can be used for toolpath generation with postprocessor from [this list](#specific-for-snapmaker).
+
+- G-CODE
+  - Learn G-Code
+    - 📹 [Learn G-Code for 3D Printing](https://www.youtube.com/watch?v=2TByiMNduss) - a good introduction to G-Code by CNC Kitchen Youtube channel.
+    - 📚 [Snapmaker G-Code Reference Doc - up in this list](#official-docs--quickstarts)
+  - [Online G-Code simulators & Visualizers](https://all3dp.com/2/gcode-viewer-3d-printer-simulator-best-tools/) - an article by All3DP reviewing different tools.
+
 
 
 
