@@ -122,19 +122,20 @@ Legend: 📝 blog posts · 💡 examples · 📚 docs · 🔧 tools · 📹 talk
   - 🔧 [Snapmaker2Postprocessor](https://github.com/clsergent/Snapmaker2Postprocessor) - FreeCAD postporcessor. Credit - @clsergent.
   - [3D Touchprobe controller](https://github.com/brvdboss/3D-touchprobe-controller) - designed to work with a 3D touch probe on the SnapMaker 2 device and a 3D touchprobe. DIY version can be found here: https://github.com/brvdboss/3d-touchprobe. Credit - @brvdboss
 - G-CODE and machine control
-  - 🔧 [SM2Uploader](https://github.com/macdylan/sm2uploader) [WIN/NIX/MAC] - A command-line tool for send the G-code file to Snapmaker Printers via WiFi connection. Supports Cura/PrusaSlicer/SuperSlicer/ideaMaker with Snapmaker 2 A150/250/350, J1, Artisan. Credit - @macdylan. [Here is how to set it up](https://forum.snapmaker.com/t/great-sharing-prusaslicer-profiles-by-dylan-and-mcgybeer/28796/133?u=nweolu).
-  - 🔧 [Snapmaker2Slic3rPostProcessor](https://github.com/macdylan/Snapmaker2Slic3rPostProcessor) [WIN/NIX/MAC] - A Snapmaker G-Code Post Processor for PrusaSlicer and SuperSlicer to create compatible files for Snapmaker Touchscreen. Like thumbnail of the print on the screen. Supports PrusaSlicer and SuperSlicer with Snapmaker 2 A150/250/350, J1, Artisan. Credit - @macdylan
-   - 🔧 [A Snapmaker 2.0 PrusaSlicer Post-Processor to create compatible files for the Snapmaker terminal.](https://github.com/daniel-starke/sm2pspp) - Another g-code postprocessor for Prusaslicer. Credit - @daniel-starke.
-   - 🔧[Snapmaker Command Line Tool](https://github.com/hauti123/Snapmaker) - control your snapmaker via command line. Credit - [hauti123](https://github.com/hauti123)
+  - 🔧 [SM2Uploader](https://github.com/macdylan/sm2uploader) [WIN/NIX/MAC] - A command-line tool for send the G-code file to Snapmaker Printers via WiFi connection. Supports Cura/PrusaSlicer/SuperSlicer/ideaMaker with Snapmaker 2 A150/250/350, J1, Artisan. Credit - [@macdylan](https://github.com/macdylan). And [here is how to set it up](https://forum.snapmaker.com/t/great-sharing-prusaslicer-profiles-by-dylan-and-mcgybeer/28796/133?u=nweolu).
+  - 🔧 [Snapmaker2Slic3rPostProcessor](https://github.com/macdylan/Snapmaker2Slic3rPostProcessor) [WIN/NIX/MAC] - A Snapmaker G-Code Post Processor for PrusaSlicer and SuperSlicer to create compatible files for Snapmaker Touchscreen. Like thumbnail of the print on the screen. Supports PrusaSlicer and SuperSlicer with Snapmaker 2 A150/250/350, J1, Artisan. Credit - [@macdylan](https://github.com/macdylan)
+   - 🔧 [A Snapmaker 2.0 PrusaSlicer Post-Processor to create compatible files for the Snapmaker terminal.](https://github.com/daniel-starke/sm2pspp) - Another g-code postprocessor for Prusaslicer. Credit - [@daniel-starke](https://github.com/daniel-starke).
+   - [Snapmaker 2.0 Lightburn post-Processor](https://github.com/daniel-starke/sm2lbpp) - Adding thumbnails to your g-code from Lightburn. Credit - [@daniel-starke](https://github.com/daniel-starke).
+   - 🔧 [Snapmaker Command Line Tool](https://github.com/hauti123/Snapmaker) - control your snapmaker via command line. Credit - [hauti123](https://github.com/hauti123)
    - 🔧 [Gamepad Controls for Snapmaker](https://github.com/PolymerPrints/snapmaker-gamepad-control) - control your machine with an xbox controller. Credit - [PolymerPrints](https://github.com/PolymerPrints)
 
 
 ## Generic Tools
 - CALIBRATION & PRINTER TUNING
-  - [Teaching Tech 3D Printer Calibration](https://teachingtechyt.github.io/calibration.html) - the go to for proper calibration. Use CAUTION.
-  - [Ellis' Print Tuning Guide](https://ellis3dp.com/Print-Tuning-Guide/) - another awesome resource for calibration, using different approach. 
-  - [3D Printer Auto Bed Leveling Mesh Visualizer](https://lokspace.eu/3d-printer-auto-bed-leveling-mesh-visualizer/) - you might need to bring the values down (i.e. subtract whole number from data points => +7.1892 to 0.1892) for it to function.  
-  
+  - 📝 [Teaching Tech 3D Printer Calibration](https://teachingtechyt.github.io/calibration.html) - the go to for proper calibration. Use CAUTION.
+  - 📝 [Ellis' Print Tuning Guide](https://ellis3dp.com/Print-Tuning-Guide/) - another awesome resource for calibration, using different approach. 
+  - 🔧 [3D Printer Auto Bed Leveling Mesh Visualizer](https://lokspace.eu/3d-printer-auto-bed-leveling-mesh-visualizer/) - you might need to bring the values down (i.e. subtract whole number from data points => +7.1892 to 0.1892) for it to function.  
+  - 💾 [Calibration shapes](https://github.com/5axes/Calibration-Shapes) - collection of test shapes with Cura plugin to really dial in your printer. You can use STLs out of Cura too. 
 - MULTIFUNCTION SLICERS
   - 🔧 [Snapmaker Luban](https://snapmaker.com/snapmaker-luban) [WIN/NIX/MAC] - Official software that works with all Snapmaker functions.
   - 🔧 [Kiri:Moto](https://grid.space/kiri/) [BROWSER] - 3DP/Laser/CNC slicer in browser. Has some unique features like slicing model in layers for laser cutting.
@@ -151,7 +152,7 @@ Legend: 📝 blog posts · 💡 examples · 📚 docs · 🔧 tools · 📹 talk
 
 - G-CODE
   - Learn G-Code
-    - 📹 [Learn G-Code for 3D Printing](https://www.youtube.com/watch?v=2TByiMNduss) - a good introduction to G-Code by CNC Kitchen Youtube channel.
+    - 📹 [Learn G-Code for 3D Printing](https://www.cnckitchen.com/blog/g-code-basics-for-3d-printing) - a good introduction to G-Code by CNC Kitchen Youtube channel.
     - 📚 [Snapmaker G-Code Reference Doc - up in this list](#official-docs--quickstarts)
   - [Online G-Code simulators & Visualizers](https://all3dp.com/2/gcode-viewer-3d-printer-simulator-best-tools/) - an article by All3DP reviewing different tools.
 
