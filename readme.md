@@ -52,6 +52,7 @@ Legend: 📝 blog posts · 💡 examples · 📚 docs · 🔧 tools · 📹 talk
 
 - 📚 [G-Code Reference](https://snapmaker.github.io/Documentation/gcode/G000-G001) - G-Code reference guide.
 ### Snapmaker 2.0 guides
+  - 📚 [SPECS](https://snapmaker.com/snapmaker-2/specs)
   - 📚 [3D PRINTING](https://support.snapmaker.com/hc/en-us/articles/360041733553-Snapmaker-2-0-3D-Printing-V1-0-0) - quick start guide by Snapmaker team.
     - 📝 [3D Printing tips&tricks](https://support.snapmaker.com/hc/en-us/sections/360008076253-3D-Printing) - 3D Printing related tips and tricks by Snapmaker team.
   - 📚 [LASER ENGRAVING AND CUTTING](https://support.snapmaker.com/hc/en-us/articles/360041254874-Snapmaker-2-0-Laser-V1-0-0) -  quick start guide by Snapmaker team.
@@ -59,8 +60,10 @@ Legend: 📝 blog posts · 💡 examples · 📚 docs · 🔧 tools · 📹 talk
   - 📚 [CNC](https://support.snapmaker.com/hc/en-us/articles/360041252474-CNC-Carving) -  quick start guide by Snapmaker team.
     - 📝 [CNC tips&tricks](https://support.snapmaker.com/hc/en-us/sections/360009349014-CNC) - CNC tips&tricks by Snapmaker team.
 ### Artisan guides
+  - 📚 [SPECS](https://snapmaker.com/snapmaker-artisan/specs)
   - 📚 [Artisan Guides WiKi](https://wiki.snapmaker.com/en/snapmaker_artisan) - WiKi for Artisan by Snapmaker Team
 ### Snapmaker J1 guides
+  - 📚 [SPECS](https://support.snapmaker.com/hc/en-us/articles/9773156785175-What-are-the-specs-of-J1-)
   - 📚 [Snapmaker J1 WiKi](https://wiki.snapmaker.com/en/snapmaker_j1) - WiKi for J1 by Snapmaker Team
 
 
@@ -110,9 +113,11 @@ Legend: 📝 blog posts · 💡 examples · 📚 docs · 🔧 tools · 📹 talk
 - 3D PRINTING
    - Snapmaker 2.0
       - [Ulltimaker Cura profiles ](https://github.com/Kaouthia/Snapmaker-2) - Cura profiles by @Kaouthia.
-      - [PrusaSlicer profiles](https://github.com/mrworf/snapmaker-prusa) - Profiles by @mrworf
+      - [PrusaSlicer profiles](https://github.com/mrworf/snapmaker-prusa) - Profiles by [@mrworf](https://forum.snapmaker.com/u/MrWorf)
+      - [PrusaSlicer profiles](https://forum.snapmaker.com/t/prusa-slicer-profile/5657/7) - By Snapmaker Team.
   - Snapmaker J1
     - [PrusaSlicer Profiles](https://github.com/leandrolima-nyc/SnapmakerJ1) - Prusa profiles to setup Snapmaker J1. Credit - @leandrolima-nyc.
+    - [PrusSLicer Profiles](https://forum.snapmaker.com/t/great-sharing-prusaslicer-profiles-by-dylan-and-mcgybeer/28796) - By [@macdylan](https://github.com/macdylan) and [@McGybeer](https://forum.snapmaker.com/u/mcgybeer)
 - LASER CUTTING AND ENGRAVING
   - 🔧 [Test Grid Generator](https://github.com/nunorvoliveira/Snapmaker-Laser-Test-Grid) [WIN] - Generates G-Code to test your materials best speed/power ratio. Credit - @nunorvoliveira
   - 🔧 [Camera capture in Lightburn](https://github.com/PolymerPrints/SnapmakerLightBurnHost) [WIN] - emulates camera for Lightburn. Credit - @PolymerPrints, [Slynold](https://forum.snapmaker.com/u/slynold) - https://forum.snapmaker.com/t/working-camera-capture-with-lightburn/28397.
@@ -125,7 +130,7 @@ Legend: 📝 blog posts · 💡 examples · 📚 docs · 🔧 tools · 📹 talk
   - 🔧 [SM2Uploader](https://github.com/macdylan/sm2uploader) [WIN/NIX/MAC] - A command-line tool for send the G-code file to Snapmaker Printers via WiFi connection. Supports Cura/PrusaSlicer/SuperSlicer/ideaMaker with Snapmaker 2 A150/250/350, J1, Artisan. Credit - [@macdylan](https://github.com/macdylan). And [here is how to set it up](https://forum.snapmaker.com/t/great-sharing-prusaslicer-profiles-by-dylan-and-mcgybeer/28796/133?u=nweolu).
   - 🔧 [Snapmaker2Slic3rPostProcessor](https://github.com/macdylan/Snapmaker2Slic3rPostProcessor) [WIN/NIX/MAC] - A Snapmaker G-Code Post Processor for PrusaSlicer and SuperSlicer to create compatible files for Snapmaker Touchscreen. Like thumbnail of the print on the screen. Supports PrusaSlicer and SuperSlicer with Snapmaker 2 A150/250/350, J1, Artisan. Credit - [@macdylan](https://github.com/macdylan)
    - 🔧 [A Snapmaker 2.0 PrusaSlicer Post-Processor to create compatible files for the Snapmaker terminal.](https://github.com/daniel-starke/sm2pspp) - Another g-code postprocessor for Prusaslicer. Credit - [@daniel-starke](https://github.com/daniel-starke).
-   - [Snapmaker 2.0 Lightburn post-Processor](https://github.com/daniel-starke/sm2lbpp) - Adding thumbnails to your g-code from Lightburn. Credit - [@daniel-starke](https://github.com/daniel-starke).
+   - 🔧 [Snapmaker 2.0 Lightburn post-Processor](https://github.com/daniel-starke/sm2lbpp) - Adding thumbnails to your g-code from Lightburn. Credit - [@daniel-starke](https://github.com/daniel-starke).
    - 🔧 [Snapmaker Command Line Tool](https://github.com/hauti123/Snapmaker) - control your snapmaker via command line. Credit - [hauti123](https://github.com/hauti123)
    - 🔧 [Gamepad Controls for Snapmaker](https://github.com/PolymerPrints/snapmaker-gamepad-control) - control your machine with an xbox controller. Credit - [PolymerPrints](https://github.com/PolymerPrints)
 
@@ -136,6 +141,7 @@ Legend: 📝 blog posts · 💡 examples · 📚 docs · 🔧 tools · 📹 talk
   - 📝 [Ellis' Print Tuning Guide](https://ellis3dp.com/Print-Tuning-Guide/) - another awesome resource for calibration, using different approach. 
   - 🔧 [3D Printer Auto Bed Leveling Mesh Visualizer](https://lokspace.eu/3d-printer-auto-bed-leveling-mesh-visualizer/) - you might need to bring the values down (i.e. subtract whole number from data points => +7.1892 to 0.1892) for it to function.  
   - 💾 [Calibration shapes](https://github.com/5axes/Calibration-Shapes) - collection of test shapes with Cura plugin to really dial in your printer. You can use STLs out of Cura too. 
+  - 🔧 [retractioncalibration.com](http://retractioncalibration.com/) - tool to dial in your retraction. [Discussed here](https://forum.snapmaker.com/t/retraction-calibration-tool/17894).
 - MULTIFUNCTION SLICERS
   - 🔧 [Snapmaker Luban](https://snapmaker.com/snapmaker-luban) [WIN/NIX/MAC] - Official software that works with all Snapmaker functions.
   - 🔧 [Kiri:Moto](https://grid.space/kiri/) [BROWSER] - 3DP/Laser/CNC slicer in browser. Has some unique features like slicing model in layers for laser cutting.
@@ -149,6 +155,7 @@ Legend: 📝 blog posts · 💡 examples · 📚 docs · 🔧 tools · 📹 talk
 - CNC
   - 🔧 [Fusion360](https://www.autodesk.com/products/fusion-360/personal-form) - Cad system. CNC toolpath generating.
   - 🔧 [FreeCAD](https://www.freecad.org/downloads.php) - Free CAD system. Can be used for toolpath generation with postprocessor from [this list](#specific-for-snapmaker).
+  - 📝 [CNC WOOD Feed & Speed Calculator](https://www.cnccookbook.com/feeds-speeds-cnc-wood-cutting/) - Cookbook with guide and Easy Tips.
 
 - G-CODE
   - Learn G-Code
@@ -172,13 +179,16 @@ Legend: 📝 blog posts · 💡 examples · 📚 docs · 🔧 tools · 📹 talk
 ## Released by Snapmaker Team - OFFICIAL
  - 💾 [Snapmaker 2.0 A350 platform drawing](files/files_from_snapmaker_team/Snapmake_2.0_A350_new_platform_design.dwg) - DWG file of the platform.
 
- # Aftermarket Parts
- ## Snapmaker 2.0
+ # Shopping List
+ ## Aftermarket parts - Snapmaker 2.0
 - 🛒 [Axis bearings](https://a.aliexpress.com/_mtelvv4) - SG10 Groove bearings
 - 🛒 [Filament runout switch](https://www.digikey.com/short/5vw8wd9j) - Omron P/N 	
 D2F-01L3-D3
 - 🛒 [All Metal Heat break](https://www.aliexpress.us/item/3256803782710454.html) - All metal heatbreak. Look for CR6-SE heatbreak. Matches overall dimensions. You will need an insert cut for the throat.
 
+## Tooling
+ - CNC
+   - 🛒 [CNC Plastic cutting bits](https://www.amanatool.com/products/cnc-router-bits/plastic-cutting-cnc-router-bits.html) - Plastic Cutting Router Bits - Industrial, ZrN & Spektra Coated by Amana Tool
 
 
 <!-- END CONTENT
