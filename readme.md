@@ -30,10 +30,11 @@ High performance - 3D printer / Laser / CNC - with a large build volume.
 </br></br></br>
 # SUPPORT
 
-| If you encounter any problems, please submit a ticket first.  |
+| If you encounter any problems, please submit a ticket first to snapmaker.  |
 :---:
 | [SUBMIT TICKET](https://snapmaker.formcrafts.com/support-ticket)  |
 
+Youc could also seek help within [official communities](#official-communities).
 </div>
 </br>
 <!-- TOC -->
