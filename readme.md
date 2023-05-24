@@ -27,9 +27,15 @@ Snapmaker Artisan</a>
 <!-- description -->
 
 High performance - 3D printer / Laser / CNC - with a large build volume.
+</br></br></br>
+# SUPPORT
+
+| If you encounter any problems, please submit a ticket first.  |
+:---:
+| [SUBMIT TICKET](https://snapmaker.formcrafts.com/support-ticket)  |
 
 </div>
-
+</br>
 <!-- TOC -->
 
 # Contents
@@ -142,21 +148,19 @@ Legend: 📝 blog posts · 💡 examples · 📚 docs · 🔧 tools · 📹 talk
   - 🔧 [3D Printer Auto Bed Leveling Mesh Visualizer](https://lokspace.eu/3d-printer-auto-bed-leveling-mesh-visualizer/) - you might need to bring the values down (i.e. subtract whole number from data points => +7.1892 to 0.1892) for it to function.  
   - 💾 [Calibration shapes](https://github.com/5axes/Calibration-Shapes) - collection of test shapes with Cura plugin to really dial in your printer. You can use STLs out of Cura too. 
   - 🔧 [retractioncalibration.com](http://retractioncalibration.com/) - tool to dial in your retraction. [Discussed here](https://forum.snapmaker.com/t/retraction-calibration-tool/17894).
+  - 📝 [3D Print Problems (w/Photos & Solutions)](https://forum.snapmaker.com/t/3d-print-problems-w-photos-solutions/29200) - collection of issues and possible solutions by [@Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr).
 - MULTIFUNCTION SLICERS
   - 🔧 [Snapmaker Luban](https://snapmaker.com/snapmaker-luban) [WIN/NIX/MAC] - Official software that works with all Snapmaker functions.
   - 🔧 [Kiri:Moto](https://grid.space/kiri/) [BROWSER] - 3DP/Laser/CNC slicer in browser. Has some unique features like slicing model in layers for laser cutting.
-
 - 3DP SLICERS
   - 🔧 [PrusaSlicer](https://github.com/prusa3d/PrusaSlicer) [WIN/NIX/MAC] - Popular alternative to Luban for 3D printing. Alpha versions available with latest functionality via Github.
   - 🔧 [Ulltimaker Cura](https://ultimaker.com/software/ultimaker-cura) [WIN/NIX/MAC] - Another popular alternative to Luban for 3D printing.
-
 - LASER CUTTING AND ENGRAVING
   - 🔧 [Lightburn](https://lightburnsoftware.com/pages/trial-version-try-before-you-buy) [WIN/NIX/MAC] - Ultimate solution for all your laser needs. Guides available in this list. Worth every penny.
 - CNC
   - 🔧 [Fusion360](https://www.autodesk.com/products/fusion-360/personal-form) - Cad system. CNC toolpath generating.
   - 🔧 [FreeCAD](https://www.freecad.org/downloads.php) - Free CAD system. Can be used for toolpath generation with postprocessor from [this list](#specific-for-snapmaker).
   - 📝 [CNC WOOD Feed & Speed Calculator](https://www.cnccookbook.com/feeds-speeds-cnc-wood-cutting/) - Cookbook with guide and Easy Tips.
-
 - G-CODE
   - Learn G-Code
     - 📹 [Learn G-Code for 3D Printing](https://www.cnckitchen.com/blog/g-code-basics-for-3d-printing) - a good introduction to G-Code by CNC Kitchen Youtube channel.
