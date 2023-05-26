@@ -34,7 +34,7 @@ High performance - 3D printer / Laser / CNC - with a large build volume.
 :---:
 | [SUBMIT TICKET](https://snapmaker.formcrafts.com/support-ticket)  |
 
-Youc could also seek help within [official communities](#official-communities).
+Youc could also seek help from like-minded within [official communities](#official-communities).
 </div>
 </br>
 <!-- TOC -->
@@ -51,13 +51,14 @@ Youc could also seek help within [official communities](#official-communities).
   - [Released By Community members - UNOFFICIAL](#released-by-community-members---unofficial)
   - [Released by Snapmaker Team - OFFICIAL](#released-by-snapmaker-team---official)
 - 🛒 [Aftermarket Parts](#aftermarket-parts) -  Parts that were recommended by community members as spare/mods.
+- 💡 [Contributing to this list](#contributing)
 
-Legend: 📝 blog posts · 💡 examples · 📚 docs · 🔧 tools · 📹 talks/video · 💾 files · 🛒 shopping items
+Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 files · 🛒 shopping items
 <!-- CONTENT -->
 
 # Official Docs & Quickstarts
 
-- 📚 [G-Code Reference](https://snapmaker.github.io/Documentation/gcode/G000-G001) - G-Code reference guide.
+- 📚 [G-Code Reference](https://snapmaker.github.io/Documentation/gcode/G000-G001) - G-Code reference guide. Snapmaker G-Code is Marlin compatible.
 ### Snapmaker 2.0 guides
   - 📚 [SPECS](https://snapmaker.com/snapmaker-2/specs)
   - 📚 [3D PRINTING](https://support.snapmaker.com/hc/en-us/articles/360041733553-Snapmaker-2-0-3D-Printing-V1-0-0) - quick start guide by Snapmaker team.
@@ -68,7 +69,7 @@ Legend: 📝 blog posts · 💡 examples · 📚 docs · 🔧 tools · 📹 talk
     - 📝 [CNC tips&tricks](https://support.snapmaker.com/hc/en-us/sections/360009349014-CNC) - CNC tips&tricks by Snapmaker team.
 ### Artisan guides
   - 📚 [SPECS](https://snapmaker.com/snapmaker-artisan/specs)
-  - 📚 [Artisan Guides WiKi](https://wiki.snapmaker.com/en/snapmaker_artisan) - WiKi for Artisan by Snapmaker Team
+  - 📚 [Artisan Guides WiKi](https://wiki.snapmaker.com/en/snapmaker_artisan) - WiKi for Artisan by Snapmaker Team.
 ### Snapmaker J1 guides
   - 📚 [SPECS](https://support.snapmaker.com/hc/en-us/articles/9773156785175-What-are-the-specs-of-J1-)
   - 📚 [Snapmaker J1 WiKi](https://wiki.snapmaker.com/en/snapmaker_j1) - WiKi for J1 by Snapmaker Team
@@ -88,11 +89,13 @@ Legend: 📝 blog posts · 💡 examples · 📚 docs · 🔧 tools · 📹 talk
 # Community Guides
 
 ## How to set stuff up
-- Snapmaker 2.0
-  - [Lightburn Full Control Guide](https://forum.snapmaker.com/t/full-lightburn-control-guide/27638) - Writeup by [Skreelink](https://forum.snapmaker.com/u/Skreelink) on how to make Lightburn talk to Snapmaker 2.0. Might work for Artisan.
+- Laser
+  - 📝 [Lightburn Full Control Guide](https://forum.snapmaker.com/t/full-lightburn-control-guide/27638) - [SM2.0 / ARTISAN] - Writeup by [Skreelink](https://forum.snapmaker.com/u/Skreelink) on how to make Lightburn talk to Snapmaker 2.0.
+  - 📝 [Working camera capture with Lightburn](https://forum.snapmaker.com/t/working-camera-capture-with-lightburn/28397) - thanks to [@Slynold](https://forum.snapmaker.com/u/Slynold) & [@Mayco](https://forum.snapmaker.com/u/mayco) - we have working camera.
+- CNC
+  - 📝 [Rotary Module with Fusion360: It works! (good enough)](https://forum.snapmaker.com/t/rotary-module-with-fusion360-it-works-good-enough/24367) - [SM2.0 / ARTISAN] - Writeup by [@brvdboss](https://forum.snapmaker.com/u/brvdboss) on how to setup Fusion360 with Rotary Module.
 ## How to make stuff
-- Snapmaker 2.0
-  - CNC
+- CNC
     - 📝 [PCB milling process by tommy-vaux](https://github.com/tommy-vaux/Snapmaker_2_PCB_Milling_Process)
 
 ## How to fix stuff
@@ -102,7 +105,7 @@ Legend: 📝 blog posts · 💡 examples · 📚 docs · 🔧 tools · 📹 talk
   - 💾 [E-Step calibration](/files/pdf/e-step_calibration.pdf) - Writeup by [Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr) for e-steps calibration.
 ## How to modify stuff
 - Overall Platform related
-  - 💾 [Take a look at 3d Models from this list](#handy-files--models) - they have some modes modeled on them.
+  - 💾 [Take a look at 3d Models from this list](#handy-files--models) - they have some mods modeled on them.
   - 📝 [CNC Bracing For Added Rigidity & Other Mods](https://forum.snapmaker.com/t/cnc-bracing-for-added-rigidity-other-mods/29444) - Collection of mods designed by [Elliot](https://forum.snapmaker.com/u/Elliot).
   - 📝 [Snapmaker 2.0 Cable Chain Brackets](https://www.thingiverse.com/thing:4909694)
 - Enclosure
@@ -132,7 +135,7 @@ Legend: 📝 blog posts · 💡 examples · 📚 docs · 🔧 tools · 📹 talk
 - CNC
   - 🔧 [Fusion360 Post Processor](https://github.com/nunorvoliveira/snapmaker-2.0/tree/main/Fusion%20360) - Fusion360 postprocessor. Credit - @nunorvoliveira.
   - 🔧 [Snapmaker2Postprocessor](https://github.com/clsergent/Snapmaker2Postprocessor) - FreeCAD postporcessor. Credit - @clsergent.
-  - [3D Touchprobe controller](https://github.com/brvdboss/3D-touchprobe-controller) - designed to work with a 3D touch probe on the SnapMaker 2 device and a 3D touchprobe. DIY version can be found here: https://github.com/brvdboss/3d-touchprobe. Credit - @brvdboss
+  - [3D Touchprobe controller](https://github.com/brvdboss/3D-touchprobe-controller) - designed to work with a 3D touch probe on the SnapMaker 2 device and a 3D touchprobe. [DIY version can be found here](https://github.com/brvdboss/3d-touchprobe). Credit - [@brvdboss](https://forum.snapmaker.com/u/brvdboss)
 - G-CODE and machine control
   - 🔧 [SM2Uploader](https://github.com/macdylan/sm2uploader) [WIN/NIX/MAC] - A command-line tool for send the G-code file to Snapmaker Printers via WiFi connection. Supports Cura/PrusaSlicer/SuperSlicer/ideaMaker with Snapmaker 2 A150/250/350, J1, Artisan. Credit - [@macdylan](https://github.com/macdylan). And [here is how to set it up](https://forum.snapmaker.com/t/great-sharing-prusaslicer-profiles-by-dylan-and-mcgybeer/28796/133?u=nweolu).
   - 🔧 [Snapmaker2Slic3rPostProcessor](https://github.com/macdylan/Snapmaker2Slic3rPostProcessor) [WIN/NIX/MAC] - A Snapmaker G-Code Post Processor for PrusaSlicer and SuperSlicer to create compatible files for Snapmaker Touchscreen. Like thumbnail of the print on the screen. Supports PrusaSlicer and SuperSlicer with Snapmaker 2 A150/250/350, J1, Artisan. Credit - [@macdylan](https://github.com/macdylan)
@@ -196,19 +199,12 @@ D2F-01L3-D3
    - 🛒 [CNC Plastic cutting bits](https://www.amanatool.com/products/cnc-router-bits/plastic-cutting-cnc-router-bits.html) - Plastic Cutting Router Bits - Industrial, ZrN & Spektra Coated by Amana Tool
 
 
-<!-- END CONTENT
 
-## Follow
-
-
-
-Who else should we be following!?
-
-## Contributing
+# Contributing
 
 [Contributions of any kind welcome, just follow the guidelines](contributing.md)!
 
 ### Contributors
 
 [Thanks goes to these contributors](https://github.com/shurushetr/awesome-snapmaker/graphs/contributors)!
--->
+
