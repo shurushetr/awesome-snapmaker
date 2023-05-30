@@ -53,7 +53,7 @@ Youc could also seek help from like-minded within [official communities](#offici
 - 🛒 [Aftermarket Parts](#aftermarket-parts) -  Parts that were recommended by community members as spare/mods.
 - 💡 [Contributing to this list](#contributing)
 
-Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 files · 🛒 shopping items
+Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 files · 🛒 shopping items · 💻 ccoding
 <!-- CONTENT -->
 
 # Official Docs & Quickstarts
@@ -90,10 +90,14 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 
 ## How to set stuff up
 - Laser
+  - 📝 📹 [Safety first - what plastic is safe to work with](https://laserengravingtips.com/what-plastics-are-safe-to-laser-cut/) - also how to test plastic for chlorine.
   - 📝 [Lightburn Full Control Guide](https://forum.snapmaker.com/t/full-lightburn-control-guide/27638) - [SM2.0 / ARTISAN] - Writeup by [Skreelink](https://forum.snapmaker.com/u/Skreelink) on how to make Lightburn talk to Snapmaker 2.0.
   - 📝 [Working camera capture with Lightburn](https://forum.snapmaker.com/t/working-camera-capture-with-lightburn/28397) - thanks to [@Slynold](https://forum.snapmaker.com/u/Slynold) & [@Mayco](https://forum.snapmaker.com/u/mayco) - we have working camera.
 - CNC
   - 📝 [Rotary Module with Fusion360: It works! (good enough)](https://forum.snapmaker.com/t/rotary-module-with-fusion360-it-works-good-enough/24367) - [SM2.0 / ARTISAN] - Writeup by [@brvdboss](https://forum.snapmaker.com/u/brvdboss) on how to setup Fusion360 with Rotary Module.
+- Code Development
+  - 💻 [Snapmaker2 update bundle tools](https://github.com/zauguin/SnapmakerUpdate) - toolkit to assemble snapmaker firmware, created by [@zauguin](https://github.com/zauguin)
+  
 ## How to make stuff
 - CNC
     - 📝 [PCB milling process by tommy-vaux](https://github.com/tommy-vaux/Snapmaker_2_PCB_Milling_Process)
@@ -101,8 +105,9 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 ## How to fix stuff
 - 3D Printing related
   - 📝 [Hot End Clogs - The How & Why](https://forum.snapmaker.com/t/hot-end-clogs-the-how-why/30376) - Writeup by [Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr) about all metal heat break. Find one in [parts list below](#aftermarket-parts).
-   - 📝 [Bed Leveling - Revisited & Detailed](https://forum.snapmaker.com/t/bed-leveling-revisited-detailed/30508) - Writeup by [Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr) about bed leveling and issues along the way.
+  - 📝 [Bed Leveling - Revisited & Detailed](https://forum.snapmaker.com/t/bed-leveling-revisited-detailed/30508) - Writeup by [Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr) about bed leveling and issues along the way.
   - 💾 [E-Step calibration](/files/pdf/e-step_calibration.pdf) - Writeup by [Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr) for e-steps calibration.
+  - 📝 📹 [GUIDE: Resuming a failed 3D print](https://www.cnckitchen.com/blog/guide-resuming-a-failed-3d-print)
 ## How to modify stuff
 - Overall Platform related
   - 💾 [Take a look at 3d Models from this list](#handy-files--models) - they have some mods modeled on them.
@@ -121,8 +126,9 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 # Tools
 ## Specific for Snapmaker
 - 3D PRINTING
+  - [CURA plugin made by Snapmaker](https://github.com/Snapmaker/SnapmakerCuraPlugin) - [SM2.0 / ARTISAN / J1]
    - Snapmaker 2.0
-      - [Ulltimaker Cura profiles ](https://github.com/Kaouthia/Snapmaker-2) - Cura profiles by @Kaouthia.
+      - [Ulltimaker Cura profiles](https://github.com/Kaouthia/Snapmaker-2) - Cura profiles by @Kaouthia.
       - [PrusaSlicer profiles](https://github.com/mrworf/snapmaker-prusa) - Profiles by [@mrworf](https://forum.snapmaker.com/u/MrWorf)
       - [PrusaSlicer profiles](https://forum.snapmaker.com/t/prusa-slicer-profile/5657/7) - By Snapmaker Team.
   - Snapmaker J1
@@ -140,7 +146,7 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
   - 🔧 [SM2Uploader](https://github.com/macdylan/sm2uploader) [WIN/NIX/MAC] - A command-line tool for send the G-code file to Snapmaker Printers via WiFi connection. Supports Cura/PrusaSlicer/SuperSlicer/ideaMaker with Snapmaker 2 A150/250/350, J1, Artisan. Credit - [@macdylan](https://github.com/macdylan). And [here is how to set it up](https://forum.snapmaker.com/t/great-sharing-prusaslicer-profiles-by-dylan-and-mcgybeer/28796/133?u=nweolu).
   - 🔧 [Snapmaker2Slic3rPostProcessor](https://github.com/macdylan/Snapmaker2Slic3rPostProcessor) [WIN/NIX/MAC] - A Snapmaker G-Code Post Processor for PrusaSlicer and SuperSlicer to create compatible files for Snapmaker Touchscreen. Like thumbnail of the print on the screen. Supports PrusaSlicer and SuperSlicer with Snapmaker 2 A150/250/350, J1, Artisan. Credit - [@macdylan](https://github.com/macdylan)
    - 🔧 [A Snapmaker 2.0 PrusaSlicer Post-Processor to create compatible files for the Snapmaker terminal.](https://github.com/daniel-starke/sm2pspp) - Another g-code postprocessor for Prusaslicer. Credit - [@daniel-starke](https://github.com/daniel-starke).
-   - 🔧 [Snapmaker 2.0 Lightburn post-Processor](https://github.com/daniel-starke/sm2lbpp) - Adding thumbnails to your g-code from Lightburn. Credit - [@daniel-starke](https://github.com/daniel-starke).
+   - 🔧 [Snapmaker 2.0 Lightburn post-Processor](https://github.com/daniel-starke/sm2lbpp) - Adding thumbnails to your g-code from Lightburn. Credit - [@daniel-starke](https://github.com/daniel-starke). This is hopefully will be implemented in Lightburn with v1.5.0 - [source](https://forum.snapmaker.com/t/lightburn-post-processor/31433/8).
    - 🔧 [Snapmaker Command Line Tool](https://github.com/hauti123/Snapmaker) - control your snapmaker via command line. Credit - [hauti123](https://github.com/hauti123)
    - 🔧 [Gamepad Controls for Snapmaker](https://github.com/PolymerPrints/snapmaker-gamepad-control) - control your machine with an xbox controller. Credit - [PolymerPrints](https://github.com/PolymerPrints)
 
@@ -161,6 +167,7 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
   - 🔧 [Ulltimaker Cura](https://ultimaker.com/software/ultimaker-cura) [WIN/NIX/MAC] - Another popular alternative to Luban for 3D printing.
 - LASER CUTTING AND ENGRAVING
   - 🔧 [Lightburn](https://lightburnsoftware.com/pages/trial-version-try-before-you-buy) [WIN/NIX/MAC] - Ultimate solution for all your laser needs. Guides available in this list. Worth every penny.
+  - 🔧 [Create boxes and more!](https://www.festi.info/boxes.py/) - amazing online vector generator for designing boxes, shelfes, bins, tests and much more. 
 - CNC
   - 🔧 [Fusion360](https://www.autodesk.com/products/fusion-360/personal-form) - Cad system. CNC toolpath generating.
   - 🔧 [FreeCAD](https://www.freecad.org/downloads.php) - Free CAD system. Can be used for toolpath generation with postprocessor from [this list](#specific-for-snapmaker).
