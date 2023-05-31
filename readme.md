@@ -118,7 +118,7 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
   - 📝 [DIY Enclosure controls](https://forum.snapmaker.com/t/diy-enclosure-controller-prototype-on-arduino/22094) - Awesome project by [Ronin](https://forum.snapmaker.com/u/Ronin). Files available in description of the [video](https://www.youtube.com/watch?v=9gOlhEzB8m4).
 - 3D Printing
   - 📝 [All metal hot end simple mod](https://forum.snapmaker.com/t/fyi-snapmaker-2-all-metal-hotend-simple-mod/10046/63) - Writeup by [Franky](https://forum.snapmaker.com/u/Franky) followed by discussion about installing all metal heat break.
-  - 💾 [Glass bed leveling probe](files/models/FiFix_glass_probe_mod_by_stefix.zip) - Clever way by [Stefix](https://forum.snapmaker.com/u/stefix/) to allow leveling on glass using OEM probe. Find more information about it [here](https://forum.snapmaker.com/t/for-all-who-want-level-on-glass/12437).
+  - 💾 [Glass bed leveling probe - FiFix Mod](files/models/FiFix_glass_probe_mod_by_stefix.zip) - Clever way by [Stefix](https://forum.snapmaker.com/u/stefix/) to allow leveling on glass using OEM probe. Find more information about it [here](https://forum.snapmaker.com/t/for-all-who-want-level-on-glass/12437).
 - CNC
   - 📝 [CNC self-impelled vacuum dust shoe (no external vacuum required)](https://forum.snapmaker.com/t/cnc-self-impelled-vacuum-dust-shoe-no-external-vacuum-required/24972) - Design by [gil.a.ramirez](https://forum.snapmaker.com/u/gil.a.ramirez).
  
@@ -195,7 +195,8 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
  - 💾 [Snapmaker 2.0 A350 platform drawing](files/files_from_snapmaker_team/Snapmake_2.0_A350_new_platform_design.dwg) - DWG file of the platform.
 
  # Shopping List
- ## Aftermarket parts - Snapmaker 2.0
+ ## Aftermarket parts
+ ### Snapmaker 2.0
 - 🛒 [Axis bearings](https://a.aliexpress.com/_mtelvv4) - SG10 Groove bearings
 - 🛒 [Filament runout switch](https://www.digikey.com/short/5vw8wd9j) - Omron P/N 	
 D2F-01L3-D3
@@ -205,8 +206,8 @@ D2F-01L3-D3
  - CNC
    - 🛒 [CNC Plastic cutting bits](https://www.amanatool.com/products/cnc-router-bits/plastic-cutting-cnc-router-bits.html) - Plastic Cutting Router Bits - Industrial, ZrN & Spektra Coated by Amana Tool
 
-
-
+## 3d Printing
+ - [Pick Filament by Color](https://filamentcolors.xyz)
 # Contributing
 
 [Contributions of any kind welcome, just follow the guidelines](contributing.md)!
