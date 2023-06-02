@@ -109,18 +109,25 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
   - 💾 [E-Step calibration](/files/pdf/e-step_calibration.pdf) - Writeup by [Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr) for e-steps calibration.
   - 📝 📹 [GUIDE: Resuming a failed 3D print](https://www.cnckitchen.com/blog/guide-resuming-a-failed-3d-print)
 ## How to modify stuff
+
 - Overall Platform related
   - 💾 [Take a look at 3d Models from this list](#handy-files--models) - they have some mods modeled on them.
   - 📝 [CNC Bracing For Added Rigidity & Other Mods](https://forum.snapmaker.com/t/cnc-bracing-for-added-rigidity-other-mods/29444) - Collection of mods designed by [Elliot](https://forum.snapmaker.com/u/Elliot).
   - 📝 [Snapmaker 2.0 Cable Chain Brackets](https://www.thingiverse.com/thing:4909694)
+
 - Enclosure
   - 📝 [DIY Filtration system](https://github.com/nevermore3d/Nevermore_Micro) - Opensource closedloop filtration system. Also check out other sizes in the same repository.
   - 📝 [DIY Enclosure controls](https://forum.snapmaker.com/t/diy-enclosure-controller-prototype-on-arduino/22094) - Awesome project by [Ronin](https://forum.snapmaker.com/u/Ronin). Files available in description of the [video](https://www.youtube.com/watch?v=9gOlhEzB8m4).
+
 - 3D Printing
   - 📝 [All metal hot end simple mod](https://forum.snapmaker.com/t/fyi-snapmaker-2-all-metal-hotend-simple-mod/10046/63) - Writeup by [Franky](https://forum.snapmaker.com/u/Franky) followed by discussion about installing all metal heat break.
   - 💾 [Glass bed leveling probe - FiFix Mod](files/models/FiFix_glass_probe_mod_by_stefix.zip) - Clever way by [Stefix](https://forum.snapmaker.com/u/stefix/) to allow leveling on glass using OEM probe. Find more information about it [here](https://forum.snapmaker.com/t/for-all-who-want-level-on-glass/12437). No Firmware modification required.
   - 📝 [Automatic bed leveling on glass](https://forum.snapmaker.com/t/automatic-bed-leveling-on-glass/29601) - Another mod by [@TobIY](https://forum.snapmaker.com/u/TobIY). No Firmware modification required. Check the [Shopping list](#shopping-list) for exact part.
   - 📝 [Advanced leveling mod](https://forum.snapmaker.com/t/for-all-who-want-level-on-glass/12437/129) - By [@stewl](https://forum.snapmaker.com/u/stewl). Instructions here - [Google drive link](https://drive.google.com/drive/folders/1JTZ811Tx-dTD35J4a-u2fsokln20INpR). Firmware modification required. Ultimate accuracy.
+
+- Laser
+  - 📝 💾 [Add airassist to your 10W laser](https://www.facebook.com/groups/snapmaker/posts/1694540740964232/) [SM2.0 / ARTISAN] -  a facebook post that shows an implementation of internal air assist with external air pump, cheap and effective mod to make your laser path clean. STL file is in the [handy files list below](#handy-files--models). Original design by [@Raagnarix](https://www.youtube.com/@Raagnarix) form [this video](https://www.youtube.com/watch?v=zg8jiem-8v8)
+
 - CNC
   - 📝 [CNC self-impelled vacuum dust shoe (no external vacuum required)](https://forum.snapmaker.com/t/cnc-self-impelled-vacuum-dust-shoe-no-external-vacuum-required/24972) - Design by [gil.a.ramirez](https://forum.snapmaker.com/u/gil.a.ramirez).
  
@@ -181,14 +188,11 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
   - [Online G-Code simulators & Visualizers](https://all3dp.com/2/gcode-viewer-3d-printer-simulator-best-tools/) - an article by All3DP reviewing different tools.
 
 
-
-
-
-
-
 # Handy Files & Models
 
 ## Released By Community members - UNOFFICIAL
+  ### Lasering
+- 💾 [10W Laser air assist insert](/files/models/10w_laser_air_assist_mod_by_Raagnarix.stl) - model by [@Raagnarix](https://www.youtube.com/@Raagnarix) form [this video](https://www.youtube.com/watch?v=zg8jiem-8v8)
 ### Snapmaker 2.0 A350 CAD Models - UNOFFICIAL
 - 💾 [Model By Stefix](files/models/Snapmaker_2.5_A351_v34_v9_by_stefix.f3d) - Created by forum member [Stefix](https://forum.snapmaker.com/u/stefix/), he called his machine A351 after all the modes installed. Find more info [here](https://forum.snapmaker.com/t/my-new-snapmaker-2-0-a351/16502).
 - 💾 [Model by Sebastien Deux Vagues](files/models/Snapmaker_2_a350_v32_By_Sebastien_Deux_Vagues.f3d) - Created by FB Group member [Sebastien](https://www.facebook.com/groups/371401856611467/user/1418260509/), based on model by [Stefix](https://forum.snapmaker.com/u/stefix/)
