@@ -64,13 +64,13 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 
 - 📚 [G-Code Reference](https://snapmaker.github.io/Documentation/gcode/G000-G001) - G-Code reference guide. Snapmaker G-Code is Marlin compatible.
 ### Snapmaker 2.0 guides
-  - 📚 [SPECS](https://snapmaker.com/snapmaker-2/specs)
-  - 📚 [3D PRINTING](https://support.snapmaker.com/hc/en-us/articles/360041733553-Snapmaker-2-0-3D-Printing-V1-0-0) - quick start guide by Snapmaker team.
-    - 📝 [3D Printing tips&tricks](https://support.snapmaker.com/hc/en-us/sections/360008076253-3D-Printing) - 3D Printing related tips and tricks by Snapmaker team.
-  - 📚 [LASER ENGRAVING AND CUTTING](https://support.snapmaker.com/hc/en-us/articles/360041254874-Snapmaker-2-0-Laser-V1-0-0) -  quick start guide by Snapmaker team.
-    - 📝 [Laser tips&tricks](https://support.snapmaker.com/hc/en-us/sections/360009734754-Laser) - Laser Engraving and Cutting tips&tricks by Snapmaker team.
-  - 📚 [CNC](https://support.snapmaker.com/hc/en-us/articles/360041252474-CNC-Carving) -  quick start guide by Snapmaker team.
-    - 📝 [CNC tips&tricks](https://support.snapmaker.com/hc/en-us/sections/360009349014-CNC) - CNC tips&tricks by Snapmaker team.
+- 📚 [SPECS](https://snapmaker.com/snapmaker-2/specs)
+- 📚 [3D PRINTING](https://support.snapmaker.com/hc/en-us/articles/360041733553-Snapmaker-2-0-3D-Printing-V1-0-0) - quick start guide by Snapmaker team.
+  - 📝 [3D Printing tips&tricks](https://support.snapmaker.com/hc/en-us/sections/360008076253-3D-Printing) - 3D Printing related tips and tricks by Snapmaker team.
+- 📚 [LASER ENGRAVING AND CUTTING](https://support.snapmaker.com/hc/en-us/articles/360041254874-Snapmaker-2-0-Laser-V1-0-0) -  quick start guide by Snapmaker team.
+  - 📝 [Laser tips&tricks](https://support.snapmaker.com/hc/en-us/sections/360009734754-Laser) - Laser Engraving and Cutting tips&tricks by Snapmaker team.
+- 📚 [CNC](https://support.snapmaker.com/hc/en-us/articles/360041252474-CNC-Carving) -  quick start guide by Snapmaker team.
+  - 📝 [CNC tips&tricks](https://support.snapmaker.com/hc/en-us/sections/360009349014-CNC) - CNC tips&tricks by Snapmaker team.
 ### Artisan guides
   - 📚 [SPECS](https://snapmaker.com/snapmaker-artisan/specs)
   - 📚 [Artisan Guides WiKi](https://wiki.snapmaker.com/en/snapmaker_artisan) - WiKi for Artisan by Snapmaker Team.
@@ -87,7 +87,7 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 - [Snapmaker Artisan Owners](https://www.facebook.com/groups/591569232338285) - Facebook group of Artisan owners.
 - [Snapmaker J1 Owners](https://www.facebook.com/groups/snapmakerj1) - Facebook group of Snapmaker J1 owners.
 - [Snapmaker GitHub](https://github.com/Snapmaker) - Home of the Snapmaker source code.
-- [Snapmaker Youtube](https://www.youtube.com/c/snapmaker) - Youtube channel by Snapmaker team.
+- [Snapmaker YouTube](https://www.youtube.com/c/snapmaker) - YouTube channel by Snapmaker team.
 - [Snapmaker Community Page](https://snapmaker.com/community) - Contests, Creators spotlight etc.
 - [Snapmaker Thingivers repo](https://www.thingiverse.com/snapmakerinc) - Official Snapmaker profile on thingaverse with bunch of models.
 
@@ -142,7 +142,7 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 # Tools
 ## Specific for Snapmaker
 - 3D PRINTING
-  - [CURA plugin made by Snapmaker](https://github.com/Snapmaker/SnapmakerCuraPlugin) - [SM2.0 / ARTISAN / J1]
+  - [CURA plugin made by Snapmaker](https://github.com/Snapmaker/SnapmakerCuraPlugin) - [SM2.0 / ARTISAN / J1].
    - Snapmaker 2.0
       - [Ulltimaker Cura profiles](https://github.com/Kaouthia/Snapmaker-2) - Cura profiles by @Kaouthia.
       - [PrusaSlicer profiles](https://github.com/mrworf/snapmaker-prusa) - Profiles by [@mrworf](https://forum.snapmaker.com/u/MrWorf)
@@ -179,7 +179,7 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
   - 🔧 [Snapmaker Luban](https://snapmaker.com/snapmaker-luban) [WIN/NIX/MAC] - Official software that works with all Snapmaker functions.
   - 🔧 [Kiri:Moto](https://grid.space/kiri/) [BROWSER] - 3DP/Laser/CNC slicer in browser. Has some unique features like slicing model in layers for laser cutting.
 - 3DP SLICERS
-  - 🔧 [PrusaSlicer](https://github.com/prusa3d/PrusaSlicer) [WIN/NIX/MAC] - Popular alternative to Luban for 3D printing. Alpha versions available with latest functionality via Github.
+  - 🔧 [PrusaSlicer](https://github.com/prusa3d/PrusaSlicer) [WIN/NIX/MAC] - Popular alternative to Luban for 3D printing. Alpha versions available with latest functionality via GitHub.
   - 🔧 [Ulltimaker Cura](https://ultimaker.com/software/ultimaker-cura) [WIN/NIX/MAC] - Another popular alternative to Luban for 3D printing.
 - LASER CUTTING AND ENGRAVING
   - 🔧 [Lightburn](https://lightburnsoftware.com/pages/trial-version-try-before-you-buy) [WIN/NIX/MAC] - Ultimate solution for all your laser needs. Guides available in this list. Worth every penny.
@@ -190,26 +190,26 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
   - 📝 [CNC WOOD Feed & Speed Calculator](https://www.cnccookbook.com/feeds-speeds-cnc-wood-cutting/) - Cookbook with guide and Easy Tips.
 - G-CODE
   - Learn G-Code
-    - 📹 [Learn G-Code for 3D Printing](https://www.cnckitchen.com/blog/g-code-basics-for-3d-printing) - a good introduction to G-Code by CNC Kitchen Youtube channel.
+    - 📹 [Learn G-Code for 3D Printing](https://www.cnckitchen.com/blog/g-code-basics-for-3d-printing) - a good introduction to G-Code by CNC Kitchen YouTube channel.
     - 📚 [Snapmaker G-Code Reference Doc - up in this list](#official-docs--quickstarts)
-  - [Online G-Code simulators & Visualizers](https://all3dp.com/2/gcode-viewer-3d-printer-simulator-best-tools/) - an article by All3DP reviewing different tools.
+  - 📝 [Online G-Code simulators & Visualizers](https://all3dp.com/2/gcode-viewer-3d-printer-simulator-best-tools/) - an article by All3DP reviewing different tools.
 
 
 # Handy Files & Models
 
 ## Released By Community members - UNOFFICIAL
-  ### Lasering
+### Lasering
 - 💾 [10W Laser air assist insert](/files/models/10w_laser_air_assist_mod_by_Raagnarix.stl) - model by [@Raagnarix](https://www.youtube.com/@Raagnarix) form [this video](https://www.youtube.com/watch?v=zg8jiem-8v8)
 ### Snapmaker 2.0 A350 CAD Models - UNOFFICIAL
 - 💾 [Model By Stefix](files/models/Snapmaker_2.5_A351_v34_v9_by_stefix.f3d) - Created by forum member [Stefix](https://forum.snapmaker.com/u/stefix/), he called his machine A351 after all the modes installed. Find more info [here](https://forum.snapmaker.com/t/my-new-snapmaker-2-0-a351/16502).
 - 💾 [Model by Sebastien Deux Vagues](files/models/Snapmaker_2_a350_v32_By_Sebastien_Deux_Vagues.f3d) - Created by FB Group member [Sebastien](https://www.facebook.com/groups/371401856611467/user/1418260509/), based on model by [Stefix](https://forum.snapmaker.com/u/stefix/)
 
 ## Released by Snapmaker Team - OFFICIAL
- - 💾 [Snapmaker 2.0 A350 platform drawing](files/files_from_snapmaker_team/Snapmake_2.0_A350_new_platform_design.dwg) - DWG file of the platform.
+- 💾 [Snapmaker 2.0 A350 platform drawing](files/files_from_snapmaker_team/Snapmake_2.0_A350_new_platform_design.dwg) - DWG file of the platform.
 
- # Shopping List
- ## Aftermarket parts
- ### Snapmaker 2.0
+# Shopping List
+## Aftermarket parts
+### Snapmaker 2.0
 - 🛒 [Axis bearings](https://a.aliexpress.com/_mtelvv4) - SG10 Groove bearings
 - 🛒 [Filament runout switch](https://www.digikey.com/short/5vw8wd9j) - Omron P/N 	
 D2F-01L3-D3
@@ -218,11 +218,11 @@ D2F-01L3-D3
 - 🛒 [All Metal Heat break](https://www.aliexpress.us/item/3256803782710454.html) - All metal heatbreak. Look for CR6-SE heatbreak. Matches overall dimensions. You will need an insert cut for the throat.
 
 ## Tooling
- - CNC
-   - 🛒 [CNC Plastic cutting bits](https://www.amanatool.com/products/cnc-router-bits/plastic-cutting-cnc-router-bits.html) - Plastic Cutting Router Bits - Industrial, ZrN & Spektra Coated by Amana Tool
+- CNC
+  - 🛒 [CNC Plastic cutting bits](https://www.amanatool.com/products/cnc-router-bits/plastic-cutting-cnc-router-bits.html) - Plastic Cutting Router Bits - Industrial, ZrN & Spektra Coated by Amana Tool
 
 ## 3d Printing
- - [Pick Filament by Color](https://filamentcolors.xyz)
+- [Pick Filament by Color](https://filamentcolors.xyz)
 # Contributing
 
 [Contributions of any kind welcome, just follow the guidelines](contributing.md)!
