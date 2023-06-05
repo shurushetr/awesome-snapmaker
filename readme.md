@@ -44,6 +44,10 @@ Youc could also seek help from like-minded within [official communities](#offici
 - 📚 [Official Docs & Quickstarts](#official-docs--quickstarts)
 - 👋 [Official Communities](#official-communities)
 - 📝 [Community Guides](#community-guides)
+  - [How to set stuff up](#how-to-set-stuff-up)
+  - [How to make stuff](#how-to-make-stuff)
+  - [How to fix stuff](#how-to-fix-stuff)
+  - [How to modify stuff](#how-to-modify-stuff)
 - 🔧 [Tools](#tools) - software tools created by community members.
   - [Specific for Snapmaker](#specific-for-snapmaker)
   - [Generic Tools](#generic-tools)
@@ -53,7 +57,7 @@ Youc could also seek help from like-minded within [official communities](#offici
 - 🛒 [Aftermarket Parts](#aftermarket-parts) -  Parts that were recommended by community members as spare/mods.
 - 💡 [Contributing to this list](#contributing)
 
-Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 files · 🛒 shopping items · 💻 ccoding
+Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 files · 🛒 shopping items · 💻 coding
 <!-- CONTENT -->
 
 # Official Docs & Quickstarts
@@ -70,6 +74,7 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 ### Artisan guides
   - 📚 [SPECS](https://snapmaker.com/snapmaker-artisan/specs)
   - 📚 [Artisan Guides WiKi](https://wiki.snapmaker.com/en/snapmaker_artisan) - WiKi for Artisan by Snapmaker Team.
+  - 📚 [Artisan FAQ](https://docs.google.com/document/d/1JVNMFgKufcrd4NxP66wY99-6UNxSoRhwG8EZyJzQZWI/) - Google doc with frequently asked questions gathered by Snapmaker Team to support the community. Updated through [SNapmaker Artisan Owners facebook group](https://www.facebook.com/groups/snapmakerartisan/)  by [Mandy Wu](https://www.facebook.com/groups/591569232338285/user/100092628331708/)
 ### Snapmaker J1 guides
   - 📚 [SPECS](https://support.snapmaker.com/hc/en-us/articles/9773156785175-What-are-the-specs-of-J1-)
   - 📚 [Snapmaker J1 WiKi](https://wiki.snapmaker.com/en/snapmaker_j1) - WiKi for J1 by Snapmaker Team
@@ -121,9 +126,11 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 
 - 3D Printing
   - 📝 [All metal hot end simple mod](https://forum.snapmaker.com/t/fyi-snapmaker-2-all-metal-hotend-simple-mod/10046/63) - Writeup by [Franky](https://forum.snapmaker.com/u/Franky) followed by discussion about installing all metal heat break.
-  - 💾 [Glass bed leveling probe - FiFix Mod](files/models/FiFix_glass_probe_mod_by_stefix.zip) - Clever way by [Stefix](https://forum.snapmaker.com/u/stefix/) to allow leveling on glass using OEM probe. Find more information about it [here](https://forum.snapmaker.com/t/for-all-who-want-level-on-glass/12437). No Firmware modification required.
-  - 📝 [Automatic bed leveling on glass](https://forum.snapmaker.com/t/automatic-bed-leveling-on-glass/29601) - Another mod by [@TobIY](https://forum.snapmaker.com/u/TobIY). No Firmware modification required. Check the [Shopping list](#shopping-list) for exact part.
-  - 📝 [Advanced leveling mod](https://forum.snapmaker.com/t/for-all-who-want-level-on-glass/12437/129) - By [@stewl](https://forum.snapmaker.com/u/stewl). Instructions here - [Google drive link](https://drive.google.com/drive/folders/1JTZ811Tx-dTD35J4a-u2fsokln20INpR). Firmware modification required. Ultimate accuracy.
+  - Leveling
+    - 💾 [Glass bed leveling probe - FiFix Mod](files/models/FiFix_glass_probe_mod_by_stefix.zip) - Clever way by [Stefix](https://forum.snapmaker.com/u/stefix/) to allow leveling on glass using OEM probe. Find more information about it [here](https://forum.snapmaker.com/t/for-all-who-want-level-on-glass/12437). No Firmware modification required.
+    - 📝 [Automatic bed leveling on glass](https://forum.snapmaker.com/t/automatic-bed-leveling-on-glass/29601) - Another mod by [@TobIY](https://forum.snapmaker.com/u/TobIY). No Firmware modification required. Check the [Shopping list](#shopping-list) for exact part.
+    - 📝 [Advanced leveling mod](https://forum.snapmaker.com/t/for-all-who-want-level-on-glass/12437/129) - By [@stewl](https://forum.snapmaker.com/u/stewl). Instructions here - [Google drive link](https://drive.google.com/drive/folders/1JTZ811Tx-dTD35J4a-u2fsokln20INpR). Firmware modification required. Ultimate accuracy.
+  - 📝 [The (mostly) Complete Guide to Bondtech, Slice, and the Snapmaker 2.0](https://forum.snapmaker.com/t/the-mostly-complete-guide-to-bondtech-slice-and-the-snapmaker-2-0/29762) - if you want ultimate performance upgrade - this is an awesome mod by [@nsclemmer](https://forum.snapmaker.com/u/nsclemmer)
 
 - Laser
   - 📝 💾 [Add airassist to your 10W laser](https://www.facebook.com/groups/snapmaker/posts/1694540740964232/) [SM2.0 / ARTISAN] -  a facebook post that shows an implementation of internal air assist with external air pump, cheap and effective mod to make your laser path clean. STL file is in the [handy files list below](#handy-files--models). Original design by [@Raagnarix](https://www.youtube.com/@Raagnarix) form [this video](https://www.youtube.com/watch?v=zg8jiem-8v8)
