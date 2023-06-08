@@ -4,7 +4,7 @@
 
 <!--lint ignore awesome-git-repo-age-->
 
-# Awesome Snapmaker [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![lint](https://github.com/shurushetr/awesome-snapmaker/actions/workflows/lint.yaml/badge.svg)](https://github.com/shurushetr/awesome-snapmaker/actions/workflows/lint.yaml)
+# Awesome Snapmaker </br>[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)  [![lint](https://github.com/shurushetr/awesome-snapmaker/actions/workflows/lint.yaml/badge.svg)](https://github.com/shurushetr/awesome-snapmaker/actions/workflows/lint.yaml)
 
 <!-- subtitle -->
 
@@ -34,7 +34,9 @@ High performance - 3D printer / Laser / CNC - with a large build volume.
 :---:
 | [SUBMIT TICKET](https://snapmaker.formcrafts.com/support-ticket)  |
 
-Youc could also seek help from like-minded within [official communities](#official-communities).
+You could also seek help from like-minded within [official communities](#official-communities).
+</br>
+If you think that [official Wiki](https://wiki.snapmaker.com/) is missing something - [Wiki Content Request](https://formcrafts.com/a/qmvudac)
 </div>
 </br>
 <!-- TOC -->
@@ -72,12 +74,12 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 - 📚 [CNC](https://support.snapmaker.com/hc/en-us/articles/360041252474-CNC-Carving) -  quick start guide by Snapmaker team.
   - 📝 [CNC tips&tricks](https://support.snapmaker.com/hc/en-us/sections/360009349014-CNC) - CNC tips&tricks by Snapmaker team.
 ### Artisan guides
-  - 📚 [SPECS](https://snapmaker.com/snapmaker-artisan/specs)
-  - 📚 [Artisan Guides WiKi](https://wiki.snapmaker.com/en/snapmaker_artisan) - WiKi for Artisan by Snapmaker Team.
-  - 📚 [Artisan FAQ](https://docs.google.com/document/d/1JVNMFgKufcrd4NxP66wY99-6UNxSoRhwG8EZyJzQZWI/) - Google doc with frequently asked questions gathered by Snapmaker Team to support the community. Updated through [SNapmaker Artisan Owners facebook group](https://www.facebook.com/groups/snapmakerartisan/)  by [Mandy Wu](https://www.facebook.com/groups/591569232338285/user/100092628331708/)
+- 📚 [SPECS](https://snapmaker.com/snapmaker-artisan/specs)
+- 📚 [Artisan Guides WiKi](https://wiki.snapmaker.com/en/snapmaker_artisan) - WiKi for Artisan by Snapmaker Team.
+- 📚 [Artisan FAQ](https://docs.google.com/document/d/1JVNMFgKufcrd4NxP66wY99-6UNxSoRhwG8EZyJzQZWI/) - Google doc with frequently asked questions gathered by Snapmaker Team to support the community. Updated through [SNapmaker Artisan Owners facebook group](https://www.facebook.com/groups/snapmakerartisan/)  by [Mandy Wu](https://www.facebook.com/groups/591569232338285/user/100092628331708/)
 ### Snapmaker J1 guides
-  - 📚 [SPECS](https://support.snapmaker.com/hc/en-us/articles/9773156785175-What-are-the-specs-of-J1-)
-  - 📚 [Snapmaker J1 WiKi](https://wiki.snapmaker.com/en/snapmaker_j1) - WiKi for J1 by Snapmaker Team
+- 📚 [SPECS](https://support.snapmaker.com/hc/en-us/articles/9773156785175-What-are-the-specs-of-J1-)
+- 📚 [Snapmaker J1 WiKi](https://wiki.snapmaker.com/en/snapmaker_j1) - WiKi for J1 by Snapmaker Team
 
 
 
@@ -96,7 +98,7 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 ## How to set stuff up
 - Laser
   - 📝 📹 [Safety first - what plastic is safe to work with](https://laserengravingtips.com/what-plastics-are-safe-to-laser-cut/) - also how to test plastic for chlorine.
-  - 📝 [Lightburn Full Control Guide](https://forum.snapmaker.com/t/full-lightburn-control-guide/27638) - [SM2.0 / ARTISAN] - Writeup by [Skreelink](https://forum.snapmaker.com/u/Skreelink) on how to make Lightburn talk to Snapmaker 2.0.
+  - 📝 [Lightburn Full Control Guide](https://forum.snapmaker.com/t/full-lightburn-control-guide/27638) - [SM2.0 / ARTISAN] - Writeup by [@Skreelink](https://forum.snapmaker.com/u/Skreelink) on how to make Lightburn talk to Snapmaker 2.0.
   - 📝 [Working camera capture with Lightburn](https://forum.snapmaker.com/t/working-camera-capture-with-lightburn/28397) - thanks to [@Slynold](https://forum.snapmaker.com/u/Slynold) & [@Mayco](https://forum.snapmaker.com/u/mayco) - we have working camera.
 - CNC
   - 📝 [Rotary Module with Fusion360: It works! (good enough)](https://forum.snapmaker.com/t/rotary-module-with-fusion360-it-works-good-enough/24367) - [SM2.0 / ARTISAN] - Writeup by [@brvdboss](https://forum.snapmaker.com/u/brvdboss) on how to setup Fusion360 with Rotary Module.
@@ -109,10 +111,14 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 
 ## How to fix stuff
 - 3D Printing related
-  - 📝 [Hot End Clogs - The How & Why](https://forum.snapmaker.com/t/hot-end-clogs-the-how-why/30376) - Writeup by [Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr) about all metal heat break. Find one in [parts list below](#aftermarket-parts).
-  - 📝 [Bed Leveling - Revisited & Detailed](https://forum.snapmaker.com/t/bed-leveling-revisited-detailed/30508) - Writeup by [Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr) about bed leveling and issues along the way.
-  - 💾 [E-Step calibration](/files/pdf/e-step_calibration.pdf) - Writeup by [Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr) for e-steps calibration.
+  - 📝 [Hot End Clogs - The How & Why](https://forum.snapmaker.com/t/hot-end-clogs-the-how-why/30376) - Writeup by [@Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr) about all metal heat break. Find one in [parts list below](#aftermarket-parts).
+  - 📝 [Bed Leveling - Revisited & Detailed](https://forum.snapmaker.com/t/bed-leveling-revisited-detailed/30508) - Writeup by [@Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr) about bed leveling and issues along the way.
+  - 💾 [E-Step calibration](/files/pdf/e-step_calibration.pdf) - Writeup by [@Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr) for e-steps calibration.
   - 📝 📹 [GUIDE: Resuming a failed 3D print](https://www.cnckitchen.com/blog/guide-resuming-a-failed-3d-print)
+  - Dual Extruder related - [SM2.0 / ARTISAN]
+    - 📝 [Dual Extruder design / Dry box setups](https://forum.snapmaker.com/t/dual-extruder-design-dry-box-setups/29697) - [@Spaced](https://forum.snapmaker.com/u/Spaced) discussing why you might have inconsistent nozzle heights and rough prints when you feed filament via bowden tube.
+    - 📚 [Dual Extruder heatcreep temporary solution provided by Snapmaker](https://forum.snapmaker.com/t/dual-extrusion-head-heat-creep-discussion-thread/30010/140) - post by [@Jade](https://forum.snapmaker.com/u/Jade) in response to big discussion started by community in [Dual Extrusion Head: Heat creep discussion thread](https://forum.snapmaker.com/t/dual-extrusion-head-heat-creep-discussion-thread/30010). Sounds like there will be a shipment from snapmaker to owners of dual extruder for permanent proper fix.
+    - 📚 [The extruder buckle of the Dual Extrusion Module gets loose](https://wiki.snapmaker.com/general/troubleshooting/dual_extrusion_module_extruder_buckle_get_loose) - Wiki article addressing a widespread problem described by community members across Facebook groups and snapmaker forum. Sounds like there will be a shipment from snapmaker to owners of dual extruder for permanent proper fix.
 ## How to modify stuff
 
 - Overall Platform related
@@ -122,18 +128,18 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 
 - Enclosure
   - 📝 [DIY Filtration system](https://github.com/nevermore3d/Nevermore_Micro) - Opensource closedloop filtration system. Also check out other sizes in the same repository.
-  - 📝 [DIY Enclosure controls](https://forum.snapmaker.com/t/diy-enclosure-controller-prototype-on-arduino/22094) - Awesome project by [Ronin](https://forum.snapmaker.com/u/Ronin). Files available in description of the [video](https://www.youtube.com/watch?v=9gOlhEzB8m4).
+  - 📝 [DIY Enclosure controls](https://forum.snapmaker.com/t/diy-enclosure-controller-prototype-on-arduino/22094) - Awesome project by [@Ronin](https://forum.snapmaker.com/u/Ronin). Files available in description of the [video](https://www.youtube.com/watch?v=9gOlhEzB8m4).
 
 - 3D Printing
-  - 📝 [All metal hot end simple mod](https://forum.snapmaker.com/t/fyi-snapmaker-2-all-metal-hotend-simple-mod/10046/63) - Writeup by [Franky](https://forum.snapmaker.com/u/Franky) followed by discussion about installing all metal heat break.
+  - 📝 [All metal hot end simple mod](https://forum.snapmaker.com/t/fyi-snapmaker-2-all-metal-hotend-simple-mod/10046/63) - Writeup by [@Franky](https://forum.snapmaker.com/u/Franky) followed by discussion about installing all metal heat break.
   - Leveling
-    - 💾 [Glass bed leveling probe - FiFix Mod](files/models/FiFix_glass_probe_mod_by_stefix.zip) - Clever way by [Stefix](https://forum.snapmaker.com/u/stefix/) to allow leveling on glass using OEM probe. Find more information about it [here](https://forum.snapmaker.com/t/for-all-who-want-level-on-glass/12437). No Firmware modification required.
+    - 💾 [Glass bed leveling probe - FiFix Mod](files/models/FiFix_glass_probe_mod_by_stefix.zip) - Clever way by [@Stefix](https://forum.snapmaker.com/u/stefix/) to allow leveling on glass using OEM probe. Find more information about it [here](https://forum.snapmaker.com/t/for-all-who-want-level-on-glass/12437). No Firmware modification required.
     - 📝 [Automatic bed leveling on glass](https://forum.snapmaker.com/t/automatic-bed-leveling-on-glass/29601) - Another mod by [@TobIY](https://forum.snapmaker.com/u/TobIY). No Firmware modification required. Check the [Shopping list](#shopping-list) for exact part.
     - 📝 [Advanced leveling mod](https://forum.snapmaker.com/t/for-all-who-want-level-on-glass/12437/129) - By [@stewl](https://forum.snapmaker.com/u/stewl). Instructions here - [Google drive link](https://drive.google.com/drive/folders/1JTZ811Tx-dTD35J4a-u2fsokln20INpR). Firmware modification required. Ultimate accuracy.
   - 📝 [The (mostly) Complete Guide to Bondtech, Slice, and the Snapmaker 2.0](https://forum.snapmaker.com/t/the-mostly-complete-guide-to-bondtech-slice-and-the-snapmaker-2-0/29762) - if you want ultimate performance upgrade - this is an awesome mod by [@nsclemmer](https://forum.snapmaker.com/u/nsclemmer)
 
 - Laser
-  - 📝 💾 [Add airassist to your 10W laser](https://www.facebook.com/groups/snapmaker/posts/1694540740964232/) [SM2.0 / ARTISAN] -  a facebook post that shows an implementation of internal air assist with external air pump, cheap and effective mod to make your laser path clean. STL file is in the [handy files list below](#handy-files--models). Original design by [@Raagnarix](https://www.youtube.com/@Raagnarix) form [this video](https://www.youtube.com/watch?v=zg8jiem-8v8)
+  - 📝 💾 [Add airassist to your 10W laser](https://www.facebook.com/groups/snapmaker/posts/1694540740964232/) - [SM2.0 / ARTISAN] -  a facebook post that shows an implementation of internal air assist with external air pump, cheap and effective mod to make your laser path clean. STL file is in the [handy files list below](#handy-files--models). Original design by [@Raagnarix](https://www.youtube.com/@Raagnarix) form [this video](https://www.youtube.com/watch?v=zg8jiem-8v8)
 
 - CNC
   - 📝 [CNC self-impelled vacuum dust shoe (no external vacuum required)](https://forum.snapmaker.com/t/cnc-self-impelled-vacuum-dust-shoe-no-external-vacuum-required/24972) - Design by [gil.a.ramirez](https://forum.snapmaker.com/u/gil.a.ramirez).
