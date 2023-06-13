@@ -43,7 +43,11 @@ If you think that [official Wiki](https://wiki.snapmaker.com/) is missing someth
 
 # Contents
 
-- 📚 [Official Docs & Quickstarts](#official-docs--quickstarts)
+- 📚 [Official Docs & Firmware & Software](#official-docs--firmware--software)
+  - [Snapmaker 2.0](#snapmaker-20)
+  - [Snapmaker Artisan](#snapmaker-artisan)
+  - [Snapmaker J1](#snapmaker-j1)
+  - [Luban Software](#snapmaker-luban)
 - 👋 [Official Communities](#official-communities)
 - 📝 [Community Guides](#community-guides)
   - [How to set stuff up](#how-to-set-stuff-up)
@@ -62,24 +66,46 @@ If you think that [official Wiki](https://wiki.snapmaker.com/) is missing someth
 Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 files · 🛒 shopping items · 💻 coding
 <!-- CONTENT -->
 
-# Official Docs & Quickstarts
+# Official Docs & Firmware & Software
 
 - 📚 [G-Code Reference](https://snapmaker.github.io/Documentation/gcode/G000-G001) - G-Code reference guide. Snapmaker G-Code is Marlin compatible.
-### Snapmaker 2.0 guides
-- 📚 [SPECS](https://snapmaker.com/snapmaker-2/specs)
-- 📚 [3D PRINTING](https://support.snapmaker.com/hc/en-us/articles/360041733553-Snapmaker-2-0-3D-Printing-V1-0-0) - quick start guide by Snapmaker team.
-  - 📝 [3D Printing tips&tricks](https://support.snapmaker.com/hc/en-us/sections/360008076253-3D-Printing) - 3D Printing related tips and tricks by Snapmaker team.
-- 📚 [LASER ENGRAVING AND CUTTING](https://support.snapmaker.com/hc/en-us/articles/360041254874-Snapmaker-2-0-Laser-V1-0-0) -  quick start guide by Snapmaker team.
-  - 📝 [Laser tips&tricks](https://support.snapmaker.com/hc/en-us/sections/360009734754-Laser) - Laser Engraving and Cutting tips&tricks by Snapmaker team.
-- 📚 [CNC](https://support.snapmaker.com/hc/en-us/articles/360041252474-CNC-Carving) -  quick start guide by Snapmaker team.
-  - 📝 [CNC tips&tricks](https://support.snapmaker.com/hc/en-us/sections/360009349014-CNC) - CNC tips&tricks by Snapmaker team.
-### Artisan guides
-- 📚 [SPECS](https://snapmaker.com/snapmaker-artisan/specs)
-- 📚 [Artisan Guides WiKi](https://wiki.snapmaker.com/en/snapmaker_artisan) - WiKi for Artisan by Snapmaker Team.
-- 📚 [Artisan FAQ](https://docs.google.com/document/d/1JVNMFgKufcrd4NxP66wY99-6UNxSoRhwG8EZyJzQZWI/) - Google doc with frequently asked questions gathered by Snapmaker Team to support the community. Updated through [SNapmaker Artisan Owners facebook group](https://www.facebook.com/groups/snapmakerartisan/)  by [Mandy Wu](https://www.facebook.com/groups/591569232338285/user/100092628331708/)
-### Snapmaker J1 guides
-- 📚 [SPECS](https://support.snapmaker.com/hc/en-us/articles/9773156785175-What-are-the-specs-of-J1-)
-- 📚 [Snapmaker J1 WiKi](https://wiki.snapmaker.com/en/snapmaker_j1) - WiKi for J1 by Snapmaker Team
+### Snapmaker 2.0
+- Docs
+  - 📚 [SPECS](https://snapmaker.com/snapmaker-2/specs)
+  - 📚 [Snapmaker 2.0 Wiki](https://wiki.snapmaker.com/en/Snapmaker_2) - all content [from support center](https://support.snapmaker.com/) will be moved to the wiki. Use [Wiki Content Request](https://formcrafts.com/a/qmvudac) to request updates.
+    - 📚 [2.0 Wiki Content Updates](https://forum.snapmaker.com/t/2-0-wiki-content-updates/31757) - follow this thread to keep an eye on Wiki Updates from Snapmaker.
+  - 📚 [3D PRINTING](https://support.snapmaker.com/hc/en-us/articles/360041733553-Snapmaker-2-0-3D-Printing-V1-0-0) - quick start guide by Snapmaker team.
+    - 📝 [3D Printing tips&tricks](https://support.snapmaker.com/hc/en-us/sections/360008076253-3D-Printing) - 3D Printing related tips and tricks by Snapmaker team.
+  - 📚 [LASER ENGRAVING AND CUTTING](https://support.snapmaker.com/hc/en-us/articles/360041254874-Snapmaker-2-0-Laser-V1-0-0) -  quick start guide by Snapmaker team.
+    - 📝 [Laser tips&tricks](https://support.snapmaker.com/hc/en-us/sections/360009734754-Laser) - Laser Engraving and Cutting tips&tricks by Snapmaker team.
+  - 📚 [CNC](https://support.snapmaker.com/hc/en-us/articles/360041252474-CNC-Carving) -  quick start guide by Snapmaker team.
+    - 📝 [CNC tips&tricks](https://support.snapmaker.com/hc/en-us/sections/360009349014-CNC) - CNC tips&tricks by Snapmaker team.
+- Firmware
+  - 💾 [Snapmaker 2.0 Firmware Updates and Downloads](https://forum.snapmaker.com/t/snapmaker-2-0-firmware-updates-and-downloads/5443/) - official forum thread where stable firmware releases are posted.
+    - 👋 [Discussion of Snapmaker 2.0 Firmware Updates](https://forum.snapmaker.com/t/discussion-of-snapmaker-2-0-firmware-updates/5441) - dedicated discussion topic to stable firmware updates.
+  - 💾 👋 [Vibration Compensation Beta Firmware for 2.0 Series: Stable Print Quality at Higher Speed](https://forum.snapmaker.com/t/now-compatible-with-8-lead-vibration-compensation-beta-firmware-for-2-0-series-stable-print-quality-at-higher-speed/29136) - forum thread dedicated to the new vibration compensation firmware by Snapmaker. Same as J1.
+
+### Snapmaker Artisan
+- Docs
+  - 📚 [SPECS](https://snapmaker.com/snapmaker-artisan/specs)
+  - 📚 [Artisan Guides Wiki](https://wiki.snapmaker.com/en/snapmaker_artisan) - Wiki for Artisan by Snapmaker Team.
+    - 📚 [Artisan Wiki Content Updates](https://forum.snapmaker.com/t/artisan-wiki-content-updates/30892) - follow this thread to keep an eye on Wiki Updates from Snapmaker.
+  - 📚 [Artisan FAQ](https://docs.google.com/document/d/1JVNMFgKufcrd4NxP66wY99-6UNxSoRhwG8EZyJzQZWI/) - Google doc with frequently asked questions gathered by Snapmaker Team to support the community. Updated through [Snapmaker Artisan Owners facebook group](https://www.facebook.com/groups/snapmakerartisan/)  by [Mandy Wu](https://www.facebook.com/groups/591569232338285/user/100092628331708/)
+- Firmware
+  - 💾 [Snapmaker Artisan Firmware Updates and Downloads](https://forum.snapmaker.com/t/snapmaker-artisan-firmware-updates-and-downloads/29975) - official forum thread where stable firmware releases are posted.
+    - 👋 [Discussion of Snapmaker Artisan Firmware Updates](https://forum.snapmaker.com/t/discussion-of-snapmaker-artisan-firmware-updates/29974) - dedicated discussion topic to stable firmware updates.
+
+### Snapmaker J1
+- Docs
+  - 📚 [SPECS](https://support.snapmaker.com/hc/en-us/articles/9773156785175-What-are-the-specs-of-J1-)
+  - 📚 [Snapmaker J1 Wiki](https://wiki.snapmaker.com/en/snapmaker_j1) - WiKi for J1 by Snapmaker Team
+    - 📚 [J1 Wiki Updates](https://forum.snapmaker.com/t/j1-wiki-updates/30973)- follow this thread to keep an eye on Wiki Updates from Snapmaker.
+- Firmware
+  - 💾 [Snapmaker J1 Firmware Updates and Downloads](https://forum.snapmaker.com/t/snapmaker-j1-firmware-updates-and-downloads/29972) - official forum thread where stable firmware releases are posted.
+    - 👋 [Discussion of Snapmaker J1 Firmware Updates](https://forum.snapmaker.com/t/discussion-of-snapmaker-j1-firmware-updates/29973) - dedicated discussion topic to stable firmware updates.
+
+### Snapmaker Luban
+  - 💾 [Snapmaker Luban Downloads and Updates](https://forum.snapmaker.com/t/snapmaker-luban-downloads-and-updates/4949) - official forum thread where stable Luban releases are posted.
 
 
 
@@ -114,11 +140,12 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
   - 📝 [Hot End Clogs - The How & Why](https://forum.snapmaker.com/t/hot-end-clogs-the-how-why/30376) - Writeup by [@Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr) about all metal heat break. Find one in [parts list below](#aftermarket-parts).
   - 📝 [Bed Leveling - Revisited & Detailed](https://forum.snapmaker.com/t/bed-leveling-revisited-detailed/30508) - Writeup by [@Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr) about bed leveling and issues along the way.
   - 💾 [E-Step calibration](/files/pdf/e-step_calibration.pdf) - Writeup by [@Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr) for e-steps calibration.
-  - 📝 📹 [GUIDE: Resuming a failed 3D print](https://www.cnckitchen.com/blog/guide-resuming-a-failed-3d-print)
+  - 📝 📹 [GUIDE: Resuming a failed 3D print](https://www.cnckitchen.com/blog/guide-resuming-a-failed-3d-print) - a way to save your 3d print. Printer got clogged and printed air for a while or the model got loose - it can be saved.
   - Dual Extruder related - [SM2.0 / ARTISAN]
     - 📝 [Dual Extruder design / Dry box setups](https://forum.snapmaker.com/t/dual-extruder-design-dry-box-setups/29697) - [@Spaced](https://forum.snapmaker.com/u/Spaced) discussing why you might have inconsistent nozzle heights and rough prints when you feed filament via bowden tube.
     - 📚 [Dual Extruder heatcreep temporary solution provided by Snapmaker](https://forum.snapmaker.com/t/dual-extrusion-head-heat-creep-discussion-thread/30010/140) - post by [@Jade](https://forum.snapmaker.com/u/Jade) in response to big discussion started by community in [Dual Extrusion Head: Heat creep discussion thread](https://forum.snapmaker.com/t/dual-extrusion-head-heat-creep-discussion-thread/30010). Sounds like there will be a shipment from snapmaker to owners of dual extruder for permanent proper fix.
-    - 📚 [The extruder buckle of the Dual Extrusion Module gets loose](https://wiki.snapmaker.com/general/troubleshooting/dual_extrusion_module_extruder_buckle_get_loose) - Wiki article addressing a widespread problem described by community members across Facebook groups and snapmaker forum. Sounds like there will be a shipment from snapmaker to owners of dual extruder for permanent proper fix.
+    - 📚 ARTICLE WAS REMOVED FROM WIKI - [The extruder buckle of the Dual Extrusion Module gets loose](https://wiki.snapmaker.com/general/troubleshooting/dual_extrusion_module_extruder_buckle_get_loose) - Wiki article addressing a widespread problem described by community members across Facebook groups and snapmaker forum. Sounds like there will be a shipment from snapmaker to owners of dual extruder for permanent proper fix.
+    - 📚 [Troubleshooting articles related to Dual Extruder issues](https://wiki.snapmaker.com/t/dual%20extrusion)
 ## How to modify stuff
 
 - Overall Platform related
@@ -216,16 +243,23 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 # Shopping List
 ## Aftermarket parts
 ### Snapmaker 2.0
-- 🛒 [Axis bearings](https://a.aliexpress.com/_mtelvv4) - SG10 Groove bearings
-- 🛒 [Filament runout switch](https://www.digikey.com/short/5vw8wd9j) - Omron P/N 	
+- Axis
+  - 🛒 [Axis bearings](https://a.aliexpress.com/_mtelvv4) - SG10 Groove bearings
+- Single extruder 3D print head
+  - 🛒 [Filament runout switch](https://www.digikey.com/short/5vw8wd9j) - Omron P/N 	
 D2F-01L3-D3
-- 🛒 [OEM proximity sensor for leveling](https://www.digikey.com/en/products/detail/panasonic-industrial-automation-sales/GX-H8A/3899742) - Look for Panasonic GX-H8A - According to [this post](https://forum.snapmaker.com/t/anyone-have-the-proximity-sensor-part/14191/67).
-- 🛒 [Aftermarket Capacitive proximity sensor for glass leveling](https://www.amazon.com/Capacitive-Proximity-Leveling-Detection-Distance/dp/B0BNBWN9CV) - as described in the writeup by [@TobIY](https://forum.snapmaker.com/u/TobIY). You can find the write up in [How to modify stuff](#how-to-modify-stuff) section. Part number provided by [Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr) in his post [here](https://forum.snapmaker.com/t/automatic-bed-leveling-on-glass/29601/23).
-- 🛒 [All Metal Heat break](https://www.aliexpress.us/item/3256803782710454.html) - All metal heatbreak. Look for CR6-SE heatbreak. Matches overall dimensions. You will need an insert cut for the throat.
-- 🛒 [Garolite G10 build surface for A350/F350](https://www.ebay.com/itm/334898149660) - Better then glass? [G10 vs Ultrabase Build Plate | My FAVORITE 3D Printing Surface](https://www.youtube.com/watch?v=qHSe0Y0dF4M)
+  - 🛒 [OEM proximity sensor for leveling](https://www.digikey.com/en/products/detail/panasonic-industrial-automation-sales/GX-H8A/3899742) - Look for Panasonic GX-H8A - According to [this post](https://forum.snapmaker.com/t/anyone-have-the-proximity-sensor-part/14191/67).
+  - 🛒 [Aftermarket Capacitive proximity sensor for glass leveling](https://www.amazon.com/Capacitive-Proximity-Leveling-Detection-Distance/dp/B0BNBWN9CV) - as described in the writeup by [@TobIY](https://forum.snapmaker.com/u/TobIY). You can find the write up in [How to modify stuff](#how-to-modify-stuff) section. Part number provided by [Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr) in his post [here](https://forum.snapmaker.com/t/automatic-bed-leveling-on-glass/29601/23).
+  - 🛒 [All Metal Heat break](https://www.aliexpress.us/item/3256803782710454.html) - All metal heatbreak. Look for CR6-SE heatbreak. Matches overall dimensions. You will need an insert cut for the throat.
+- Build Surface
+  - 🛒 [Garolite G10 build surface for A350/F350](https://www.ebay.com/itm/334898149660) - Better then glass? [G10 vs Ultrabase Build Plate | My FAVORITE 3D Printing Surface](https://www.youtube.com/watch?v=qHSe0Y0dF4M)
+
+### 10W Laser module
+  - 🛒 [Antenna that sticks to top cover](https://a.aliexpress.com/_EGsZqBB) - in case you print a custom cover for air assist. Look for P/N - TX2400-FPC-2509. Shared by [@Florian Wick](https://www.facebook.com/groups/snapmakerartisan/posts/820110829484123/).
 
 ## Tooling
 - CNC
+  - 🛒 [Collet ER11](https://www.maritool.com/Collets-And-Sleeves-ER-Collets-ER11-Collets/c21_56_60/index.html) - if you want to use 1/4 bits get a different collet. 
   - 🛒 [CNC Plastic cutting bits](https://www.amanatool.com/products/cnc-router-bits/plastic-cutting-cnc-router-bits.html) - Plastic Cutting Router Bits - Industrial, ZrN & Spektra Coated by Amana Tool
 
 ## 3d Printing
