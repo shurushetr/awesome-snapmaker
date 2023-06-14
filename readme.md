@@ -128,9 +128,6 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
   - 📝 [Working camera capture with Lightburn](https://forum.snapmaker.com/t/working-camera-capture-with-lightburn/28397) - thanks to [@Slynold](https://forum.snapmaker.com/u/Slynold) & [@Mayco](https://forum.snapmaker.com/u/mayco) - we have working camera.
 - CNC
   - 📝 [Rotary Module with Fusion360: It works! (good enough)](https://forum.snapmaker.com/t/rotary-module-with-fusion360-it-works-good-enough/24367) - [SM2.0 / ARTISAN] - Writeup by [@brvdboss](https://forum.snapmaker.com/u/brvdboss) on how to setup Fusion360 with Rotary Module.
-- Code Development
-  - 💻 [Snapmaker2 update bundle tools](https://github.com/zauguin/SnapmakerUpdate) - toolkit to assemble snapmaker firmware, created by [@zauguin](https://github.com/zauguin)
-  
 ## How to make stuff
 - CNC
     - 📝 [PCB milling process by tommy-vaux](https://github.com/tommy-vaux/Snapmaker_2_PCB_Milling_Process)
@@ -144,9 +141,15 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
   - Dual Extruder related - [SM2.0 / ARTISAN]
     - 📝 [Dual Extruder design / Dry box setups](https://forum.snapmaker.com/t/dual-extruder-design-dry-box-setups/29697) - [@Spaced](https://forum.snapmaker.com/u/Spaced) discussing why you might have inconsistent nozzle heights and rough prints when you feed filament via bowden tube.
     - 📚 [Dual Extruder heatcreep temporary solution provided by Snapmaker](https://forum.snapmaker.com/t/dual-extrusion-head-heat-creep-discussion-thread/30010/140) - post by [@Jade](https://forum.snapmaker.com/u/Jade) in response to big discussion started by community in [Dual Extrusion Head: Heat creep discussion thread](https://forum.snapmaker.com/t/dual-extrusion-head-heat-creep-discussion-thread/30010). Sounds like there will be a shipment from snapmaker to owners of dual extruder for permanent proper fix.
-    - 📚 ARTICLE WAS REMOVED FROM WIKI - [The extruder buckle of the Dual Extrusion Module gets loose](https://wiki.snapmaker.com/general/troubleshooting/dual_extrusion_module_extruder_buckle_get_loose) - Wiki article addressing a widespread problem described by community members across Facebook groups and snapmaker forum. Sounds like there will be a shipment from snapmaker to owners of dual extruder for permanent proper fix.
+    - 📚 [The extruder buckle of the Dual Extrusion Module gets loose](https://forum.snapmaker.com/t/temporary-solution-buckle-wedge-stl-file-for-extruder-buckle-issues/31716) - forum topic with temp. wedge solution,  addressing a widespread problem described by community members across Facebook groups and snapmaker forum. Sounds like there will be a shipment from snapmaker to owners of dual extruder for permanent proper fix.
     - 📚 [Troubleshooting articles related to Dual Extruder issues](https://wiki.snapmaker.com/t/dual%20extrusion)
 ## How to modify stuff
+- Firmware
+  - Snapmaker 2.0
+    - Tools
+      - 💻 [Snapmaker2 update bundle tools](https://github.com/zauguin/SnapmakerUpdate) - toolkit to assemble snapmaker firmware, created by [@zauguin](https://github.com/zauguin)
+    - Firmware mods by community
+      - 💾 📝 [Use Dual Extruder to autolevel on any surface](https://github.com/Maycuz/Snapmaker2-Controller) - read the readme. Credit to [@Mayco](https://forum.snapmaker.com/u/Mayco). Forum thread where this firmware was first published - [Dual Extruder: bed leveling with nozzle i.s.o. proximity sensor](https://forum.snapmaker.com/t/dual-extruder-bed-leveling-with-nozzle-i-s-o-proximity-sensor/31613/16).
 
 - Overall Platform related
   - 💾 [Take a look at 3d Models from this list](#handy-files--models) - they have some mods modeled on them.
@@ -185,7 +188,7 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
     - [PrusSLicer Profiles](https://forum.snapmaker.com/t/great-sharing-prusaslicer-profiles-by-dylan-and-mcgybeer/28796) - By [@macdylan](https://github.com/macdylan) and [@McGybeer](https://forum.snapmaker.com/u/mcgybeer)
 - LASER CUTTING AND ENGRAVING
   - 🔧 [Test Grid Generator](https://github.com/nunorvoliveira/Snapmaker-Laser-Test-Grid) [WIN] - Generates G-Code to test your materials best speed/power ratio. Credit - @nunorvoliveira
-  - 🔧 [Camera capture in Lightburn](https://github.com/PolymerPrints/SnapmakerLightBurnHost) [WIN] - emulates camera for Lightburn. Credit - @PolymerPrints, [Slynold](https://forum.snapmaker.com/u/slynold) - https://forum.snapmaker.com/t/working-camera-capture-with-lightburn/28397.
+  - 🔧 [Camera capture in Lightburn](https://github.com/PolymerPrints/SnapmakerLightBurnHost) [WIN] - emulates camera for Lightburn. Credit - [@Maycuz](https://github.com/Maycuz), @PolymerPrints, [Slynold](https://forum.snapmaker.com/u/slynold) - https://forum.snapmaker.com/t/working-camera-capture-with-lightburn/28397.
   - 🔧 [Laser Calibration Tool](https://github.com/daniel-starke/LaserCalibrationTool) [BROWSER] - Laser calibration pattern generator.
 - CNC
   - 🔧 [Fusion360 Post Processor](https://github.com/nunorvoliveira/snapmaker-2.0/tree/main/Fusion%20360) - Fusion360 postprocessor. Credit - @nunorvoliveira.
