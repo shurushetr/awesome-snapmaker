@@ -148,7 +148,7 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
   - Snapmaker 2.0
     - Tools
       - 💻 [Snapmaker2 update bundle tools](https://github.com/zauguin/SnapmakerUpdate) - toolkit to assemble snapmaker firmware, created by [@zauguin](https://github.com/zauguin)
-    - Firmware mods by community
+    - Firmware mods
       - 💾 📝 [Use Dual Extruder to autolevel on any surface](https://github.com/Maycuz/Snapmaker2-Controller) - read the readme. Credit to [@Mayco](https://forum.snapmaker.com/u/Mayco). Forum thread where this firmware was first published - [Dual Extruder: bed leveling with nozzle i.s.o. proximity sensor](https://forum.snapmaker.com/t/dual-extruder-bed-leveling-with-nozzle-i-s-o-proximity-sensor/31613/16).
 
 - Overall Platform related
