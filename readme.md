@@ -234,6 +234,8 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 # Handy Files & Models
 
 ## Released By Community members - UNOFFICIAL
+### Pics of stock parts
+  - 💾 [Snapmaker 2.0 stock pictures](/images/Snapmaker_Parts/SP_2.0/) - hosted here collection of stock parts and internals of Snapmaker 2.0. You can find there measurements for hot end electrical components and other such things.
 ### Lasering
 - 💾 [10W Laser air assist insert](/files/models/10w_laser_air_assist_mod_by_Raagnarix.stl) - model by [@Raagnarix](https://www.youtube.com/@Raagnarix) form [this video](https://www.youtube.com/watch?v=zg8jiem-8v8)
 ### Snapmaker 2.0 A350 CAD Models - UNOFFICIAL
