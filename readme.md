@@ -179,27 +179,28 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 ## Specific to Snapmaker machines
 - 3D PRINTING
   - [CURA plugin made by Snapmaker](https://github.com/Snapmaker/SnapmakerCuraPlugin) - [SM2.0 / ARTISAN / J1].
+  - [Dual Extruder and Prusaslicer](https://forum.snapmaker.com/t/dual-extruder-and-prusaslicer/29792/) - [SM2.0 / ARTISAN] - forum thread dedicated to setting up dual extruder with PrusaSlicer.
    - Snapmaker 2.0
       - [Ulltimaker Cura profiles](https://github.com/Kaouthia/Snapmaker-2) - Cura profiles by @Kaouthia.
-      - [PrusaSlicer profiles](https://github.com/mrworf/snapmaker-prusa) - Profiles by [@mrworf](https://forum.snapmaker.com/u/MrWorf)
+      - [PrusaSlicer profiles](https://github.com/mrworf/snapmaker-prusa) - Profiles by [@mrworf](https://forum.snapmaker.com/u/MrWorf).
       - [PrusaSlicer profiles](https://forum.snapmaker.com/t/prusa-slicer-profile/5657/7) - By Snapmaker Team.
   - Snapmaker J1
     - [PrusaSlicer Profiles](https://github.com/leandrolima-nyc/SnapmakerJ1) - Prusa profiles to setup Snapmaker J1. Credit - @leandrolima-nyc.
-    - [PrusSLicer Profiles](https://forum.snapmaker.com/t/great-sharing-prusaslicer-profiles-by-dylan-and-mcgybeer/28796) - By [@macdylan](https://github.com/macdylan) and [@McGybeer](https://forum.snapmaker.com/u/mcgybeer)
+    - [PrusSLicer Profiles](https://forum.snapmaker.com/t/great-sharing-prusaslicer-profiles-by-dylan-and-mcgybeer/28796) - By [@macdylan](https://github.com/macdylan) and [@McGybeer](https://forum.snapmaker.com/u/mcgybeer).
 - LASER CUTTING AND ENGRAVING
-  - 🔧 [Test Grid Generator](https://github.com/nunorvoliveira/Snapmaker-Laser-Test-Grid) [WIN] - Generates G-Code to test your materials best speed/power ratio. Credit - @nunorvoliveira
+  - 🔧 [Test Grid Generator](https://github.com/nunorvoliveira/Snapmaker-Laser-Test-Grid) [WIN] - Generates G-Code to test your materials best speed/power ratio. Credit - @nunorvoliveira.
   - 🔧 [Camera capture in Lightburn](https://github.com/PolymerPrints/SnapmakerLightBurnHost) [WIN] - emulates camera for Lightburn. Credit - [@Maycuz](https://github.com/Maycuz), @PolymerPrints, [Slynold](https://forum.snapmaker.com/u/slynold) - https://forum.snapmaker.com/t/working-camera-capture-with-lightburn/28397.
   - 🔧 [Laser Calibration Tool](https://github.com/daniel-starke/LaserCalibrationTool) [BROWSER] - Laser calibration pattern generator.
 - CNC
   - 🔧 [Fusion360 Post Processor](https://github.com/nunorvoliveira/snapmaker-2.0/tree/main/Fusion%20360) - Fusion360 postprocessor. Credit - @nunorvoliveira.
   - 🔧 [Snapmaker2Postprocessor](https://github.com/clsergent/Snapmaker2Postprocessor) - FreeCAD postporcessor. Credit - @clsergent.
-  - [3D Touchprobe controller](https://github.com/brvdboss/3D-touchprobe-controller) - designed to work with a 3D touch probe on the SnapMaker 2 device and a 3D touchprobe. [DIY version can be found here](https://github.com/brvdboss/3d-touchprobe). Credit - [@brvdboss](https://forum.snapmaker.com/u/brvdboss)
+  - [3D Touchprobe controller](https://github.com/brvdboss/3D-touchprobe-controller) - designed to work with a 3D touch probe on the SnapMaker 2 device and a 3D touchprobe. [DIY version can be found here](https://github.com/brvdboss/3d-touchprobe). Credit - [@brvdboss](https://forum.snapmaker.com/u/brvdboss).
 - G-CODE and machine control
   - 🔧 [SM2Uploader](https://github.com/macdylan/sm2uploader) [WIN/NIX/MAC] - A command-line tool for send the G-code file to Snapmaker Printers via WiFi connection. Supports Cura/PrusaSlicer/SuperSlicer/ideaMaker with Snapmaker 2 A150/250/350, J1, Artisan. Credit - [@macdylan](https://github.com/macdylan). And [here is how to set it up](https://forum.snapmaker.com/t/great-sharing-prusaslicer-profiles-by-dylan-and-mcgybeer/28796/133?u=nweolu).
-  - 🔧 [Snapmaker2Slic3rPostProcessor](https://github.com/macdylan/Snapmaker2Slic3rPostProcessor) [WIN/NIX/MAC] - A Snapmaker G-Code Post Processor for PrusaSlicer and SuperSlicer to create compatible files for Snapmaker Touchscreen. Like thumbnail of the print on the screen. Supports PrusaSlicer and SuperSlicer with Snapmaker 2 A150/250/350, J1, Artisan. Credit - [@macdylan](https://github.com/macdylan)
+  - 🔧 [Snapmaker2Slic3rPostProcessor](https://github.com/macdylan/Snapmaker2Slic3rPostProcessor) [WIN/NIX/MAC] - A Snapmaker G-Code Post Processor for PrusaSlicer and SuperSlicer to create compatible files for Snapmaker Touchscreen. Like thumbnail of the print on the screen. Supports PrusaSlicer and SuperSlicer with Snapmaker 2 A150/250/350, J1, Artisan. Credit - [@macdylan](https://github.com/macdylan).
    - 🔧 [A Snapmaker 2.0 PrusaSlicer Post-Processor to create compatible files for the Snapmaker terminal.](https://github.com/daniel-starke/sm2pspp) - Another g-code postprocessor for Prusaslicer. Credit - [@daniel-starke](https://github.com/daniel-starke).
    - 🔧 [Snapmaker 2.0 Lightburn post-Processor](https://github.com/daniel-starke/sm2lbpp) - Adding thumbnails to your g-code from Lightburn. Credit - [@daniel-starke](https://github.com/daniel-starke). This is hopefully will be implemented in Lightburn with v1.5.0 - [source](https://forum.snapmaker.com/t/lightburn-post-processor/31433/8).
-   - 🔧 [Snapmaker Command Line Tool](https://github.com/hauti123/Snapmaker) - control your snapmaker via command line. Credit - [hauti123](https://github.com/hauti123)
+   - 🔧 [Snapmaker Command Line Tool](https://github.com/hauti123/Snapmaker) - control your snapmaker via command line. Credit - [hauti123](https://github.com/hauti123).
    - 🔧 [Gamepad Controls for Snapmaker](https://github.com/PolymerPrints/snapmaker-gamepad-control) - control your machine with an xbox controller. Credit - [PolymerPrints](https://github.com/PolymerPrints)
 
 
