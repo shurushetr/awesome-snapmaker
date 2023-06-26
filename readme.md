@@ -69,6 +69,7 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 # Official Docs & Firmware & Software
 
 - 📚 [G-Code Reference](https://snapmaker.github.io/Documentation/gcode/G000-G001) - G-Code reference guide. Snapmaker G-Code is Marlin compatible.
+- 📚 [Snapmaker 2.0 Enclosure & Air Purifier Specs](https://snapmaker.com/filter-enclosure/specs)
 ### Snapmaker 2.0
 - Docs
   - 📚 [SPECS](https://snapmaker.com/snapmaker-2/specs)
