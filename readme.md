@@ -126,12 +126,17 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 - Laser
   - 📝 📹 [Safety first - what plastic is safe to work with](https://laserengravingtips.com/what-plastics-are-safe-to-laser-cut/) - also how to test plastic for chlorine.
   - 📝 [Lightburn Full Control Guide](https://forum.snapmaker.com/t/full-lightburn-control-guide/27638) - [SM2.0 / ARTISAN] - Writeup by [@Skreelink](https://forum.snapmaker.com/u/Skreelink) on how to make Lightburn talk to Snapmaker 2.0.
+  - 📝 [Full Control Lightburn + Rotary Attachment Guide](https://forum.snapmaker.com/t/full-control-lightburn-rotary-guide/28584) - Writeup by [@Skreelink](https://forum.snapmaker.com/u/Skreelink).
   - 📝 [Working camera capture with Lightburn](https://forum.snapmaker.com/t/working-camera-capture-with-lightburn/28397) - thanks to [@Slynold](https://forum.snapmaker.com/u/Slynold) & [@Mayco](https://forum.snapmaker.com/u/mayco) - we have working camera.
 - CNC
   - 📝 [Rotary Module with Fusion360: It works! (good enough)](https://forum.snapmaker.com/t/rotary-module-with-fusion360-it-works-good-enough/24367) - [SM2.0 / ARTISAN] - Writeup by [@brvdboss](https://forum.snapmaker.com/u/brvdboss) on how to setup Fusion360 with Rotary Module.
 ## How to make stuff
+- Laser
+  - 📝 [Laser on Ceramics (tiles): How to Make It Not Only Black on White](https://support.snapmaker.com/hc/en-us/articles/9589024708759-Laser-on-Ceramics-How-to-Make-It-Not-Only-Black-on-White) - an awesome tutorial written by community member [@Eugene Fedorov](https://www.facebook.com/groups/371401856611467/user/1608278798/) and posted on snapmaker website.
+  - 📝 [Guide: Easier Titanium Coverage for Tile](https://forum.snapmaker.com/t/guide-easier-titanium-coverage-for-tile/30863) - Huge time saving tip from [@Skreelink](https://forum.snapmaker.com/u/Skreelink).
+  - 📝 [Shadow board or tool cutouts - Ultimate guide](https://www.youtube.com/watch?v=Wcxh1lLltAE) - this is the proper way of making the tool organizers known as shadow boards. Can also be used with CNC.
 - CNC
-    - 📝 [PCB milling process by tommy-vaux](https://github.com/tommy-vaux/Snapmaker_2_PCB_Milling_Process)
+    - 📝 [PCB milling process](https://github.com/tommy-vaux/Snapmaker_2_PCB_Milling_Process) - Detailed writeup by [@tommy-vaux](https://github.com/tommy-vaux).
 
 ## How to fix stuff
 - 3D Printing related
@@ -154,8 +159,11 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 
 - Overall Platform related
   - 💾 [Take a look at 3d Models from this list](#handy-files--models) - they have some mods modeled on them.
-  - 📝 [CNC Bracing For Added Rigidity & Other Mods](https://forum.snapmaker.com/t/cnc-bracing-for-added-rigidity-other-mods/29444) - Collection of mods designed by [Elliot](https://forum.snapmaker.com/u/Elliot).
-  - 📝 [Snapmaker 2.0 Cable Chain Brackets](https://www.thingiverse.com/thing:4909694)
+  - 📝 [CNC Bracing For Added Rigidity & Other Mods](https://forum.snapmaker.com/t/cnc-bracing-for-added-rigidity-other-mods/29444) - Collection of mods designed by [@Elliot](https://forum.snapmaker.com/u/Elliot).
+  - 📝 [Snapmaker 2.0 Cable Chain Brackets](https://www.thingiverse.com/thing:4909694) - Stop your cables from flopping around during the print - reduce kinks and damage.
+  - 📝 [Minimize bed rocking along Y axis at the forum](https://forum.snapmaker.com/t/minimize-rocking/19215/) - the biggest problem with the platform is it's unstable bed that get's worse overtime. Illustrated in [this video from Facebook post among many others](https://www.facebook.com/groups/snapmaker/posts/1706559253095714/). 
+     - Purchase SBR16-800mm rails will solve this issue. Links for exact rail - [Shopping list](#shopping-list).
+     - [3D Print these adapters](https://www.thingiverse.com/thing:6104662) - Best way to install (minimal modifications and no drilling).
 
 - Enclosure
   - 📝 [DIY Filtration system](https://github.com/nevermore3d/Nevermore_Micro) - Opensource closedloop filtration system. Also check out other sizes in the same repository.
@@ -168,6 +176,7 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
     - 📝 [Automatic bed leveling on glass](https://forum.snapmaker.com/t/automatic-bed-leveling-on-glass/29601) - Another mod by [@TobIY](https://forum.snapmaker.com/u/TobIY). No Firmware modification required. Check the [Shopping list](#shopping-list) for exact part.
     - 📝 [Advanced leveling mod](https://forum.snapmaker.com/t/for-all-who-want-level-on-glass/12437/129) - By [@stewl](https://forum.snapmaker.com/u/stewl). Instructions here - [Google drive link](https://drive.google.com/drive/folders/1JTZ811Tx-dTD35J4a-u2fsokln20INpR). Firmware modification required. Ultimate accuracy.
   - 📝 [The (mostly) Complete Guide to Bondtech, Slice, and the Snapmaker 2.0](https://forum.snapmaker.com/t/the-mostly-complete-guide-to-bondtech-slice-and-the-snapmaker-2-0/29762) - if you want ultimate performance upgrade - this is an awesome mod by [@nsclemmer](https://forum.snapmaker.com/u/nsclemmer)
+  - 📝 [Snapmaker-2 A350 Heated Bed Cable Adapter (Chain) (Hidden)](https://forum.snapmaker.com/t/snapmaker-2-a350-heated-bed-cable-adapter-chain-hidden/19952) - advanced but 100% fixes all issues related to the heated bed cable being prematurely worn out / damaged, due to bed movement.
 
 - Laser
   - 📝 💾 [Add airassist to your 10W laser](https://www.facebook.com/groups/snapmaker/posts/1694540740964232/) - [SM2.0 / ARTISAN] -  a facebook post that shows an implementation of internal air assist with external air pump, cheap and effective mod to make your laser path clean. STL file is in the [handy files list below](#handy-files--models). Original design by [@Raagnarix](https://www.youtube.com/@Raagnarix) form [this video](https://www.youtube.com/watch?v=zg8jiem-8v8)
@@ -190,14 +199,20 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
     - [PrusSLicer Profiles](https://forum.snapmaker.com/t/great-sharing-prusaslicer-profiles-by-dylan-and-mcgybeer/28796) - By [@macdylan](https://github.com/macdylan) and [@McGybeer](https://forum.snapmaker.com/u/mcgybeer).
 - LASER CUTTING AND ENGRAVING
   - 🔧 [Test Grid Generator](https://github.com/nunorvoliveira/Snapmaker-Laser-Test-Grid) [WIN] - Generates G-Code to test your materials best speed/power ratio. Credit - @nunorvoliveira.
-  - 🔧 [Camera capture in Lightburn](https://github.com/PolymerPrints/SnapmakerLightBurnHost) [WIN] - emulates camera for Lightburn. Credit - [@Maycuz](https://github.com/Maycuz), @PolymerPrints, [Slynold](https://forum.snapmaker.com/u/slynold) - https://forum.snapmaker.com/t/working-camera-capture-with-lightburn/28397.
+  - 🔧 [Camera capture in Lightburn](https://github.com/PolymerPrints/SnapmakerLightBurnHost) [WIN] - emulates camera for Lightburn. Credit - [@Maycuz](https://github.com/Maycuz), @PolymerPrints, [Slynold](https://forum.snapmaker.com/u/slynold)
+     - [Forum thread](https://forum.snapmaker.com/t/working-camera-capture-with-lightburn/28397).
   - 🔧 [Laser Calibration Tool](https://github.com/daniel-starke/LaserCalibrationTool) [BROWSER] - Laser calibration pattern generator.
+  - Design
+    - 🔧 [Potrace](https://potrace.sourceforge.net/) - [WIN] - Genious and free little tool for transforming bitmaps into vector graphics.
 - CNC
-  - 🔧 [Fusion360 Post Processor](https://github.com/nunorvoliveira/snapmaker-2.0/tree/main/Fusion%20360) - Fusion360 postprocessor. Credit - @nunorvoliveira.
-  - 🔧 [Snapmaker2Postprocessor](https://github.com/clsergent/Snapmaker2Postprocessor) - FreeCAD postporcessor. Credit - @clsergent.
+  - 🔧 [Fusion360 Post Processor](https://github.com/nunorvoliveira/snapmaker-2.0/tree/main/Fusion%20360)[Fusin360] - Fusion360 postprocessor. Credit - @nunorvoliveira.
+  - 🔧 [Snapmaker2Postprocessor](https://github.com/clsergent/Snapmaker2Postprocessor) - [FreeCad] - FreeCAD postporcessor. Credit - @clsergent.
+  - 🔧 (https://github.com/Snapmaker/snapmaker_cnc_post_process) - [Fusion360 / FreeCAD / ArtCAM / Aspire / Vcarve] - collection of developed by [@whimsycwd](https://github.com/whimsycwd/)  - post processing tools. 
+    - [Forum post](https://forum.snapmaker.com/t/cnc-post-processor-ask-for-testing/5864)
   - [3D Touchprobe controller](https://github.com/brvdboss/3D-touchprobe-controller) - designed to work with a 3D touch probe on the SnapMaker 2 device and a 3D touchprobe. [DIY version can be found here](https://github.com/brvdboss/3d-touchprobe). Credit - [@brvdboss](https://forum.snapmaker.com/u/brvdboss).
 - G-CODE and machine control
-  - 🔧 [SM2Uploader](https://github.com/macdylan/sm2uploader) [WIN/NIX/MAC] - A command-line tool for send the G-code file to Snapmaker Printers via WiFi connection. Supports Cura/PrusaSlicer/SuperSlicer/ideaMaker with Snapmaker 2 A150/250/350, J1, Artisan. Credit - [@macdylan](https://github.com/macdylan). And [here is how to set it up](https://forum.snapmaker.com/t/great-sharing-prusaslicer-profiles-by-dylan-and-mcgybeer/28796/133?u=nweolu).
+  - 🔧 [SM2Uploader](https://github.com/macdylan/sm2uploader) [WIN/NIX/MAC] - A command-line tool for send the G-code file to Snapmaker Printers via WiFi connection. Supports Cura/PrusaSlicer/SuperSlicer/ideaMaker with Snapmaker 2 A150/250/350, J1, Artisan. Credit - [@macdylan](https://github.com/macdylan). 
+    - And [here is how to set it up](https://forum.snapmaker.com/t/great-sharing-prusaslicer-profiles-by-dylan-and-mcgybeer/28796/133?u=nweolu).
   - 🔧 [Snapmaker2Slic3rPostProcessor](https://github.com/macdylan/Snapmaker2Slic3rPostProcessor) [WIN/NIX/MAC] - A Snapmaker G-Code Post Processor for PrusaSlicer and SuperSlicer to create compatible files for Snapmaker Touchscreen. Like thumbnail of the print on the screen. Supports PrusaSlicer and SuperSlicer with Snapmaker 2 A150/250/350, J1, Artisan. Credit - [@macdylan](https://github.com/macdylan).
    - 🔧 [A Snapmaker 2.0 PrusaSlicer Post-Processor to create compatible files for the Snapmaker terminal.](https://github.com/daniel-starke/sm2pspp) - Another g-code postprocessor for Prusaslicer. Credit - [@daniel-starke](https://github.com/daniel-starke).
    - 🔧 [Snapmaker 2.0 Lightburn post-Processor](https://github.com/daniel-starke/sm2lbpp) - Adding thumbnails to your g-code from Lightburn. Credit - [@daniel-starke](https://github.com/daniel-starke). This is hopefully will be implemented in Lightburn with v1.5.0 - [source](https://forum.snapmaker.com/t/lightburn-post-processor/31433/8).
@@ -251,18 +266,22 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 ## Aftermarket parts
 ### Snapmaker 2.0
 - Axis
-  - 🛒 [Axis bearings](https://a.aliexpress.com/_mtelvv4) - SG10 Groove bearings
+  - 🛒 [Axis bearings](https://s.click.aliexpress.com/e/_DEBBddP) - SG10 Groove bearings
+  - To minimize bed rocking.
+    - 🛒 [SBR16-800mm rails link on AliExpress](https://s.click.aliexpress.com/e/_DBM4OqH)
+    - 🛒 [SBR16-800mm rails link on Amazon US](https://amzn.to/3NEwHB1)
 - Single extruder 3D print head
   - 🛒 [Filament runout switch](https://www.digikey.com/short/5vw8wd9j) - Omron P/N 	
 D2F-01L3-D3
   - 🛒 [OEM proximity sensor for leveling](https://www.digikey.com/en/products/detail/panasonic-industrial-automation-sales/GX-H8A/3899742) - Look for Panasonic GX-H8A - According to [this post](https://forum.snapmaker.com/t/anyone-have-the-proximity-sensor-part/14191/67).
-  - 🛒 [Aftermarket Capacitive proximity sensor for glass leveling](https://www.amazon.com/Capacitive-Proximity-Leveling-Detection-Distance/dp/B0BNBWN9CV) - as described in the writeup by [@TobIY](https://forum.snapmaker.com/u/TobIY). You can find the write up in [How to modify stuff](#how-to-modify-stuff) section. Part number provided by [Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr) in his post [here](https://forum.snapmaker.com/t/automatic-bed-leveling-on-glass/29601/23).
-  - 🛒 [All Metal Heat break](https://www.aliexpress.us/item/3256803782710454.html) - All metal heatbreak. Look for CR6-SE heatbreak. Matches overall dimensions. You will need an insert cut for the throat.
+  - 🛒 [Aftermarket Capacitive proximity sensor for glass leveling](https://amzn.to/3NXl75n) - as described in the writeup by [@TobIY](https://forum.snapmaker.com/u/TobIY). You can find the write up in [How to modify stuff](#how-to-modify-stuff) section. Part number provided by [Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr) in his post [here](https://forum.snapmaker.com/t/automatic-bed-leveling-on-glass/29601/23).
+  - 🛒 [All Metal Heat break](https://s.click.aliexpress.com/e/_DC7Vg8h) - All metal heatbreak. Look for CR6-SE heatbreak. Matches overall dimensions. You will need an insert cut for the throat.
 - Build Surface
   - 🛒 [Garolite G10 build surface for A350/F350](https://www.ebay.com/itm/334898149660) - Better then glass? [G10 vs Ultrabase Build Plate | My FAVORITE 3D Printing Surface](https://www.youtube.com/watch?v=qHSe0Y0dF4M)
 
+
 ### 10W Laser module
-  - 🛒 [Antenna that sticks to top cover](https://a.aliexpress.com/_EGsZqBB) - in case you print a custom cover for air assist. Look for P/N - TX2400-FPC-2509. Shared by [@Florian Wick](https://www.facebook.com/groups/snapmakerartisan/posts/820110829484123/).
+  - 🛒 [Antenna that sticks to top cover](https://s.click.aliexpress.com/e/_DeWSkup) - in case you print a custom cover for air assist. Look for P/N - TX2400-FPC-2509. Shared by [@Florian Wick](https://www.facebook.com/groups/snapmakerartisan/posts/820110829484123/).
 
 ## Tooling
 - CNC
