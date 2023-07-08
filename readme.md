@@ -123,6 +123,9 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 # Community Guides
 
 ## How to set stuff up
+- 3D Printing
+  - 📝 [Bed Leveling - Revisited & Detailed](https://forum.snapmaker.com/t/bed-leveling-revisited-detailed/30508) - Writeup by [@Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr) about bed leveling and issues along the way.
+    - 📝 [11x11 calibration with heated bed](https://forum.snapmaker.com/t/11x11-calibration-with-heated-bed-possible/22426) by [@Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr).
 - Laser
   - 📝 📹 [Safety first - what plastic is safe to work with](https://laserengravingtips.com/what-plastics-are-safe-to-laser-cut/) - also how to test plastic for chlorine.
   - 📝 [Lightburn Full Control Guide](https://forum.snapmaker.com/t/full-lightburn-control-guide/27638) - [SM2.0 / ARTISAN] - Writeup by [@Skreelink](https://forum.snapmaker.com/u/Skreelink) on how to make Lightburn talk to Snapmaker 2.0.
@@ -141,7 +144,6 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 ## How to fix stuff
 - 3D Printing related
   - 📝 [Hot End Clogs - The How & Why](https://forum.snapmaker.com/t/hot-end-clogs-the-how-why/30376) - Writeup by [@Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr) about all metal heat break. Find one in [parts list below](#aftermarket-parts).
-  - 📝 [Bed Leveling - Revisited & Detailed](https://forum.snapmaker.com/t/bed-leveling-revisited-detailed/30508) - Writeup by [@Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr) about bed leveling and issues along the way.
   - 💾 [E-Step calibration](/files/pdf/e-step_calibration.pdf) - Writeup by [@Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr) for e-steps calibration.
   - 📝 📹 [GUIDE: Resuming a failed 3D print](https://www.cnckitchen.com/blog/guide-resuming-a-failed-3d-print) - a way to save your 3d print. Printer got clogged and printed air for a while or the model got loose - it can be saved.
   - Dual Extruder related - [SM2.0 / ARTISAN]
@@ -166,7 +168,8 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
      - [3D Print these adapters](https://www.thingiverse.com/thing:6104662) - Best way to install (minimal modifications and no drilling).
 
 - Enclosure
-  - 📝 [DIY Filtration system](https://github.com/nevermore3d/Nevermore_Micro) - Opensource closedloop filtration system. Also check out other sizes in the same repository.
+  - 📝 [DIY Fumes Filtration system - BentoBox](https://www.printables.com/model/272525-bentobox-v20-carbon-filter-for-bambu-lab-x1c-enclo) - Closedloop, combines HEPA filter and activated carbon filter.
+  - 📝 [DIY Fumes Filtration system - NeverMore](https://github.com/nevermore3d/Nevermore_Micro) - Opensource closedloop activated carbon filtration system. Also check out other sizes in the same repository.
   - 📝 [DIY Enclosure controls](https://forum.snapmaker.com/t/diy-enclosure-controller-prototype-on-arduino/22094) - Awesome project by [@Ronin](https://forum.snapmaker.com/u/Ronin). Files available in description of the [video](https://www.youtube.com/watch?v=9gOlhEzB8m4).
 
 - 3D Printing
@@ -267,7 +270,7 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 ### Snapmaker 2.0
 - Axis
   - 🛒 [Axis bearings](https://s.click.aliexpress.com/e/_DEBBddP) - SG10 Groove bearings
-  - To minimize bed rocking.
+  - To minimize bed rocking - details in [How to modify stuff](#how-to-modify-stuff):
     - 🛒 [SBR16-800mm rails link on AliExpress](https://s.click.aliexpress.com/e/_DBM4OqH)
     - 🛒 [SBR16-800mm rails link on Amazon US](https://amzn.to/3NEwHB1)
 - Single extruder 3D print head
