@@ -123,22 +123,23 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 # Community Guides
 
 ## How to set stuff up
-- 3D Printing
+- **3D Printing**
   - 📝 [Bed Leveling - Revisited & Detailed](https://forum.snapmaker.com/t/bed-leveling-revisited-detailed/30508) - Writeup by [@Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr) about bed leveling and issues along the way.
     - 📝 [11x11 calibration with heated bed](https://forum.snapmaker.com/t/11x11-calibration-with-heated-bed-possible/22426) by [@Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr).
-- Laser
+
+- **Laser**
   - 📝 📹 [Safety first - what plastic is safe to work with](https://laserengravingtips.com/what-plastics-are-safe-to-laser-cut/) - also how to test plastic for chlorine.
   - 📝 [Lightburn Full Control Guide](https://forum.snapmaker.com/t/full-lightburn-control-guide/27638) - [SM2.0 / ARTISAN] - Writeup by [@Skreelink](https://forum.snapmaker.com/u/Skreelink) on how to make Lightburn talk to Snapmaker 2.0.
   - 📝 [Full Control Lightburn + Rotary Attachment Guide](https://forum.snapmaker.com/t/full-control-lightburn-rotary-guide/28584) - Writeup by [@Skreelink](https://forum.snapmaker.com/u/Skreelink).
   - 📝 [Working camera capture with Lightburn](https://forum.snapmaker.com/t/working-camera-capture-with-lightburn/28397) - thanks to [@Slynold](https://forum.snapmaker.com/u/Slynold) & [@Mayco](https://forum.snapmaker.com/u/mayco) - we have working camera.
-- CNC
+- **CNC**
   - 📝 [Rotary Module with Fusion360: It works! (good enough)](https://forum.snapmaker.com/t/rotary-module-with-fusion360-it-works-good-enough/24367) - [SM2.0 / ARTISAN] - Writeup by [@brvdboss](https://forum.snapmaker.com/u/brvdboss) on how to setup Fusion360 with Rotary Module.
 ## How to make stuff
-- Laser
+- **Laser**
   - 📝 [Laser on Ceramics (tiles): How to Make It Not Only Black on White](https://support.snapmaker.com/hc/en-us/articles/9589024708759-Laser-on-Ceramics-How-to-Make-It-Not-Only-Black-on-White) - an awesome tutorial written by community member [@Eugene Fedorov](https://www.facebook.com/groups/371401856611467/user/1608278798/) and posted on snapmaker website.
   - 📝 [Guide: Easier Titanium Coverage for Tile](https://forum.snapmaker.com/t/guide-easier-titanium-coverage-for-tile/30863) - Huge time saving tip from [@Skreelink](https://forum.snapmaker.com/u/Skreelink).
   - 📝 [Shadow board or tool cutouts - Ultimate guide](https://www.youtube.com/watch?v=Wcxh1lLltAE) - this is the proper way of making the tool organizers known as shadow boards. Can also be used with CNC.
-- CNC
+- **CNC**
     - 📝 [PCB milling process](https://github.com/tommy-vaux/Snapmaker_2_PCB_Milling_Process) - Detailed writeup by [@tommy-vaux](https://github.com/tommy-vaux).
 
 ## How to fix stuff
@@ -151,15 +152,18 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
     - 📚 [Dual Extruder heatcreep temporary solution provided by Snapmaker](https://forum.snapmaker.com/t/dual-extrusion-head-heat-creep-discussion-thread/30010/140) - post by [@Jade](https://forum.snapmaker.com/u/Jade) in response to big discussion started by community in [Dual Extrusion Head: Heat creep discussion thread](https://forum.snapmaker.com/t/dual-extrusion-head-heat-creep-discussion-thread/30010). Sounds like there will be a shipment from snapmaker to owners of dual extruder for permanent proper fix.
     - 📚 [The extruder buckle of the Dual Extrusion Module gets loose](https://forum.snapmaker.com/t/temporary-solution-buckle-wedge-stl-file-for-extruder-buckle-issues/31716) - forum topic with temp. wedge solution,  addressing a widespread problem described by community members across Facebook groups and snapmaker forum. Sounds like there will be a shipment from snapmaker to owners of dual extruder for permanent proper fix.
     - 📚 [Troubleshooting articles related to Dual Extruder issues](https://wiki.snapmaker.com/t/dual%20extrusion)
+- CNC
+  - 📝 [CNC routing arbitrary circles](https://forum.snapmaker.com/t/cnc-routing-arbitrary-circles/32055) - if you have issues with milling simple circles on CNC take a look at this thread.
 ## How to modify stuff
-- Firmware
-  - Snapmaker 2.0
+### Snapmaker 2.0 Mods
+- **Firmware**
+  - **Snapmaker 2.0**
     - Tools
       - 💻 [Snapmaker2 update bundle tools](https://github.com/zauguin/SnapmakerUpdate) - toolkit to assemble snapmaker firmware, created by [@zauguin](https://github.com/zauguin)
     - Firmware mods
       - 💾 📝 [Use Dual Extruder to autolevel on any surface](https://github.com/Maycuz/Snapmaker2-Controller) - read the readme. Credit to [@Mayco](https://forum.snapmaker.com/u/Mayco). Forum thread where this firmware was first published - [Dual Extruder: bed leveling with nozzle i.s.o. proximity sensor](https://forum.snapmaker.com/t/dual-extruder-bed-leveling-with-nozzle-i-s-o-proximity-sensor/31613/16).
 
-- Overall Platform related
+- **Overall Platform related**
   - 💾 [Take a look at 3d Models from this list](#handy-files--models) - they have some mods modeled on them.
   - 📝 [CNC Bracing For Added Rigidity & Other Mods](https://forum.snapmaker.com/t/cnc-bracing-for-added-rigidity-other-mods/29444) - Collection of mods designed by [@Elliot](https://forum.snapmaker.com/u/Elliot).
   - 📝 [Snapmaker 2.0 Cable Chain Brackets](https://www.thingiverse.com/thing:4909694) - Stop your cables from flopping around during the print - reduce kinks and damage.
@@ -167,27 +171,29 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
      - Purchase SBR16-800mm rails will solve this issue. Links for exact rail - [Shopping list](#shopping-list).
      - [3D Print these adapters](https://www.thingiverse.com/thing:6104662) - Best way to install (minimal modifications and no drilling).
 
-- Enclosure
+- **Enclosure**
   - 📝 [DIY Fumes Filtration system - BentoBox](https://www.printables.com/model/272525-bentobox-v20-carbon-filter-for-bambu-lab-x1c-enclo) - Closedloop, combines HEPA filter and activated carbon filter.
   - 📝 [DIY Fumes Filtration system - NeverMore](https://github.com/nevermore3d/Nevermore_Micro) - Opensource closedloop activated carbon filtration system. Also check out other sizes in the same repository.
   - 📝 [DIY Enclosure controls](https://forum.snapmaker.com/t/diy-enclosure-controller-prototype-on-arduino/22094) - Awesome project by [@Ronin](https://forum.snapmaker.com/u/Ronin). Files available in description of the [video](https://www.youtube.com/watch?v=9gOlhEzB8m4).
 
-- 3D Printing
-  - 📝 [All metal hot end simple mod](https://forum.snapmaker.com/t/fyi-snapmaker-2-all-metal-hotend-simple-mod/10046/63) - Writeup by [@Franky](https://forum.snapmaker.com/u/Franky) followed by discussion about installing all metal heat break.
-  - Leveling
-    - 💾 [Glass bed leveling probe - FiFix Mod](files/models/FiFix_glass_probe_mod_by_stefix.zip) - Clever way by [@Stefix](https://forum.snapmaker.com/u/stefix/) to allow leveling on glass using OEM probe. Find more information about it [here](https://forum.snapmaker.com/t/for-all-who-want-level-on-glass/12437). No Firmware modification required.
-    - 📝 [Automatic bed leveling on glass](https://forum.snapmaker.com/t/automatic-bed-leveling-on-glass/29601) - Another mod by [@TobIY](https://forum.snapmaker.com/u/TobIY). No Firmware modification required. Check the [Shopping list](#shopping-list) for exact part.
-    - 📝 [Advanced leveling mod](https://forum.snapmaker.com/t/for-all-who-want-level-on-glass/12437/129) - By [@stewl](https://forum.snapmaker.com/u/stewl). Instructions here - [Google drive link](https://drive.google.com/drive/folders/1JTZ811Tx-dTD35J4a-u2fsokln20INpR). Firmware modification required. Ultimate accuracy.
-  - 📝 [The (mostly) Complete Guide to Bondtech, Slice, and the Snapmaker 2.0](https://forum.snapmaker.com/t/the-mostly-complete-guide-to-bondtech-slice-and-the-snapmaker-2-0/29762) - if you want ultimate performance upgrade - this is an awesome mod by [@nsclemmer](https://forum.snapmaker.com/u/nsclemmer)
-  - 📝 [Snapmaker-2 A350 Heated Bed Cable Adapter (Chain) (Hidden)](https://forum.snapmaker.com/t/snapmaker-2-a350-heated-bed-cable-adapter-chain-hidden/19952) - advanced but 100% fixes all issues related to the heated bed cable being prematurely worn out / damaged, due to bed movement.
-
-- Laser
+- **3D Printing**
+  - **Snapmaker 2.0 mods**
+    - 📝 [All metal hot end simple mod](https://forum.snapmaker.com/t/fyi-snapmaker-2-all-metal-hotend-simple-mod/10046/63) - Writeup by [@Franky](https://forum.snapmaker.com/u/Franky) followed by discussion about installing all metal heat break.
+    - **Leveling**
+      - 💾 [Glass bed leveling probe - FiFix Mod](files/models/FiFix_glass_probe_mod_by_stefix.zip) - Clever way by [@Stefix](https://forum.snapmaker.com/u/stefix/) to allow leveling on glass using OEM probe. Find more information about it [here](https://forum.snapmaker.com/t/for-all-who-want-level-on-glass/12437). No Firmware modification required.
+      - 📝 [Automatic bed leveling on glass](https://forum.snapmaker.com/t/automatic-bed-leveling-on-glass/29601) - Another mod by [@TobIY](https://forum.snapmaker.com/u/TobIY). No Firmware modification required. Check the [Shopping list](#shopping-list) for exact part.
+      - 📝 [Advanced leveling mod](https://forum.snapmaker.com/t/for-all-who-want-level-on-glass/12437/129) - By [@stewl](https://forum.snapmaker.com/u/stewl). Instructions here - [Google drive link](https://drive.google.com/drive/folders/1JTZ811Tx-dTD35J4a-u2fsokln20INpR). Firmware modification required. Ultimate accuracy.
+    - 📝 [The (mostly) Complete Guide to Bondtech, Slice, and the Snapmaker 2.0](https://forum.snapmaker.com/t/the-mostly-complete-guide-to-bondtech-slice-and-the-snapmaker-2-0/29762) - if you want ultimate performance upgrade - this is an awesome mod by [@nsclemmer](https://forum.snapmaker.com/u/nsclemmer)
+    - 📝 [Snapmaker-2 A350 Heated Bed Cable Adapter (Chain) (Hidden)](https://forum.snapmaker.com/t/snapmaker-2-a350-heated-bed-cable-adapter-chain-hidden/19952) - advanced but 100% fixes all issues related to the heated bed cable being prematurely worn out / damaged, due to bed movement.
+  
+  - **Snapmaker J1/J1s mods**
+    - 📝 [J1/J1s nozzle & heatbreak upgrade - anti clogging solution](https://forum.snapmaker.com/t/findings-and-solution-for-the-snapmaker-j1-clogging-problem/30472/190) - parts gathered by [@StephenM](https://forum.snapmaker.com/u/StephenM).
+- **Laser**
   - 📝 💾 [Add airassist to your 10W laser](https://www.facebook.com/groups/snapmaker/posts/1694540740964232/) - [SM2.0 / ARTISAN] -  a facebook post that shows an implementation of internal air assist with external air pump, cheap and effective mod to make your laser path clean. STL file is in the [handy files list below](#handy-files--models). Original design by [@Raagnarix](https://www.youtube.com/@Raagnarix) form [this video](https://www.youtube.com/watch?v=zg8jiem-8v8)
 
-- CNC
+- **CNC**
   - 📝 [CNC self-impelled vacuum dust shoe (no external vacuum required)](https://forum.snapmaker.com/t/cnc-self-impelled-vacuum-dust-shoe-no-external-vacuum-required/24972) - Design by [gil.a.ramirez](https://forum.snapmaker.com/u/gil.a.ramirez).
  
-
 # Tools
 ## Specific to Snapmaker machines
 - 3D PRINTING
@@ -197,14 +203,14 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
       - [Ulltimaker Cura profiles](https://github.com/Kaouthia/Snapmaker-2) - Cura profiles by @Kaouthia.
       - [PrusaSlicer profiles](https://github.com/mrworf/snapmaker-prusa) - Profiles by [@mrworf](https://forum.snapmaker.com/u/MrWorf).
       - [PrusaSlicer profiles](https://forum.snapmaker.com/t/prusa-slicer-profile/5657/7) - By Snapmaker Team.
-  - Snapmaker J1
+  - Snapmaker J1/J1s
     - [PrusaSlicer Profiles](https://github.com/leandrolima-nyc/SnapmakerJ1) - Prusa profiles to setup Snapmaker J1. Credit - @leandrolima-nyc.
     - [PrusSLicer Profiles](https://forum.snapmaker.com/t/great-sharing-prusaslicer-profiles-by-dylan-and-mcgybeer/28796) - By [@macdylan](https://github.com/macdylan) and [@McGybeer](https://forum.snapmaker.com/u/mcgybeer).
 - LASER CUTTING AND ENGRAVING
   - 🔧 [Test Grid Generator](https://github.com/nunorvoliveira/Snapmaker-Laser-Test-Grid) [WIN] - Generates G-Code to test your materials best speed/power ratio. Credit - @nunorvoliveira.
   - 🔧 [Camera capture in Lightburn](https://github.com/PolymerPrints/SnapmakerLightBurnHost) [WIN] - emulates camera for Lightburn. Credit - [@Maycuz](https://github.com/Maycuz), @PolymerPrints, [Slynold](https://forum.snapmaker.com/u/slynold)
      - [Forum thread](https://forum.snapmaker.com/t/working-camera-capture-with-lightburn/28397).
-  - 🔧 [Laser Calibration Tool](https://github.com/daniel-starke/LaserCalibrationTool) [BROWSER] - Laser calibration pattern generator.
+  - 🔧 [Laser Calibration Tool](https://github.com/daniel-starke/LaserCalibrationTool) [WEB] - Laser calibration pattern generator.
   - Design
     - 🔧 [Potrace](https://potrace.sourceforge.net/) - [WIN] - Genious and free little tool for transforming bitmaps into vector graphics.
 - CNC
@@ -233,7 +239,7 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
   - 📝 [3D Print Problems (w/Photos & Solutions)](https://forum.snapmaker.com/t/3d-print-problems-w-photos-solutions/29200) - collection of issues and possible solutions by [@Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr).
 - MULTIFUNCTION SLICERS
   - 🔧 [Snapmaker Luban](https://snapmaker.com/snapmaker-luban) [WIN/NIX/MAC] - Official software that works with all Snapmaker functions.
-  - 🔧 [Kiri:Moto](https://grid.space/kiri/) [BROWSER] - 3DP/Laser/CNC slicer in browser. Has some unique features like slicing model in layers for laser cutting.
+  - 🔧 [Kiri:Moto](https://grid.space/kiri/) [WEB] - 3DP/Laser/CNC slicer in browser. Has some unique features like slicing model in layers for laser cutting.
 - 3DP SLICERS
   - 🔧 [PrusaSlicer](https://github.com/prusa3d/PrusaSlicer) [WIN/NIX/MAC] - Popular alternative to Luban for 3D printing. Alpha versions available with latest functionality via GitHub.
   - 🔧 [Ulltimaker Cura](https://ultimaker.com/software/ultimaker-cura) [WIN/NIX/MAC] - Another popular alternative to Luban for 3D printing.
@@ -249,6 +255,7 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
     - 📹 [Learn G-Code for 3D Printing](https://www.cnckitchen.com/blog/g-code-basics-for-3d-printing) - a good introduction to G-Code by CNC Kitchen YouTube channel.
     - 📚 [Snapmaker G-Code Reference Doc - up in this list](#official-docs--quickstarts)
   - 📝 [Online G-Code simulators & Visualizers](https://all3dp.com/2/gcode-viewer-3d-printer-simulator-best-tools/) - an article by All3DP reviewing different tools.
+    - 🔧 [NCViewer](https://ncviewer.com/) - [WEB] - this one is recommended by Snapmaker for troubleshooting toolpath issues.
 
 
 # Handy Files & Models
@@ -261,7 +268,8 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 ### Snapmaker 2.0 A350 CAD Models - UNOFFICIAL
 - 💾 [Model By Stefix](files/models/Snapmaker_2.5_A351_v34_v9_by_stefix.f3d) - Created by forum member [Stefix](https://forum.snapmaker.com/u/stefix/), he called his machine A351 after all the modes installed. Find more info [here](https://forum.snapmaker.com/t/my-new-snapmaker-2-0-a351/16502).
 - 💾 [Model by Sebastien Deux Vagues](files/models/Snapmaker_2_a350_v32_By_Sebastien_Deux_Vagues.f3d) - Created by FB Group member [Sebastien](https://www.facebook.com/groups/371401856611467/user/1418260509/), based on model by [Stefix](https://forum.snapmaker.com/u/stefix/)
-
+ - 💾 [3D Models for A350,A250, A350T platforms and A350 Beds](https://cults3d.com/en/users/Namakemono/3d-models) - created by [Namakemono](https://forum.snapmaker.com/u/Namakemono) accurate models of platform and beds.
+    - [Forum thread.](https://forum.snapmaker.com/t/3d-models-for-a350-a250-a350t-platforms-and-a350-beds/25281)
 ## Released by Snapmaker Team - OFFICIAL
 - 💾 [Snapmaker 2.0 A350 platform drawing](files/files_from_snapmaker_team/Snapmake_2.0_A350_new_platform_design.dwg) - DWG file of the platform.
 
