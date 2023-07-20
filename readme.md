@@ -37,9 +37,14 @@ High performance - 3D printer / Laser / CNC - with a large build volume.
 You could also seek help from like-minded within [official communities](#official-communities).
 </br>
 If you think that [official Wiki](https://wiki.snapmaker.com/) is missing something - [Wiki Content Request](https://formcrafts.com/a/qmvudac)
+</br></br>
+# HOW TO USE THIS LIST
+Hit CTRL+F on your keyboard to search in page and type the keyword you are looking for. Try several and I'm sure you will find the thing you are looking for.
 </div>
 </br>
 <!-- TOC -->
+
+
 
 # Contents
 
@@ -278,24 +283,23 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 
 # Shopping List
 ## Aftermarket parts
-### Snapmaker 2.0
-- Axis
-  - 🛒 [Axis bearings](https://s.click.aliexpress.com/e/_DEBBddP) - SG10 Groove bearings
-  - To minimize bed rocking - details in [How to modify stuff](#how-to-modify-stuff):
-    - 🛒 [SBR16-800mm rails link on AliExpress](https://s.click.aliexpress.com/e/_DBM4OqH)
-    - 🛒 [SBR16-800mm rails link on Amazon US](https://amzn.to/3NEwHB1)
-- Single extruder 3D print head
-  - 🛒 [Filament runout switch](https://www.digikey.com/short/5vw8wd9j) - Omron P/N 	
-D2F-01L3-D3
-  - 🛒 [OEM proximity sensor for leveling](https://www.digikey.com/en/products/detail/panasonic-industrial-automation-sales/GX-H8A/3899742) - Look for Panasonic GX-H8A - According to [this post](https://forum.snapmaker.com/t/anyone-have-the-proximity-sensor-part/14191/67).
-  - 🛒 [Aftermarket Capacitive proximity sensor for glass leveling](https://amzn.to/3NXl75n) - as described in the writeup by [@TobIY](https://forum.snapmaker.com/u/TobIY). You can find the write up in [How to modify stuff](#how-to-modify-stuff) section. Part number provided by [Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr) in his post [here](https://forum.snapmaker.com/t/automatic-bed-leveling-on-glass/29601/23).
-  - 🛒 [All Metal Heat break](https://s.click.aliexpress.com/e/_DC7Vg8h) - All metal heatbreak. Look for CR6-SE heatbreak. Matches overall dimensions. You will need an insert cut for the throat.
-- Build Surface
-  - 🛒 [Garolite G10 build surface for A350/F350](https://www.ebay.com/itm/334898149660) - Better then glass? [G10 vs Ultrabase Build Plate | My FAVORITE 3D Printing Surface](https://www.youtube.com/watch?v=qHSe0Y0dF4M)
+- **SNAPMAKER 2.0**
+  - Axis
+    - 🛒 [Axis bearings](https://s.click.aliexpress.com/e/_DEBBddP) - SG10 Groove bearings.
+    - To minimize bed rocking - details in [How to modify stuff](#how-to-modify-stuff):
+      - 🛒 [SBR16-800mm rails link on AliExpress](https://s.click.aliexpress.com/e/_DBM4OqH).
+      - 🛒 [SBR16-800mm rails link on Amazon US](https://amzn.to/3NEwHB1).
+  - Single extruder 3D print head
+    - 🛒 [Filament runout switch](https://www.digikey.com/short/5vw8wd9j) - Omron P/N D2F-01L3-D3.
+    - 🛒 [OEM proximity sensor for leveling](https://www.digikey.com/en/products/detail/panasonic-industrial-automation-sales/GX-H8A/3899742) - Look for Panasonic GX-H8A - According to [this post](https://forum.snapmaker.com/t/anyone-have-the-proximity-sensor-part/14191/67).
+    - 🛒 [Aftermarket Capacitive proximity sensor for glass leveling](https://amzn.to/3NXl75n) - as described in the writeup by [@TobIY](https://forum.snapmaker.com/u/TobIY). You can find the write up in [How to modify stuff](#how-to-modify-stuff) section. Part number provided by [Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr) in his post [here](https://forum.snapmaker.com/t/automatic-bed-leveling-on-glass/29601/23).
+    - 🛒 [All Metal Heat break](https://s.click.aliexpress.com/e/_DC7Vg8h) - All metal heatbreak. Look for CR6-SE heatbreak. Matches overall dimensions. You will need an insert cut for the throat.
+  - Build Surface
+    - 🛒 [Garolite G10 build surface for A350/F350](https://www.ebay.com/itm/334898149660) - Better then glass? [G10 vs Ultrabase Build Plate | My FAVORITE 3D Printing Surface](https://www.youtube.com/watch?v=qHSe0Y0dF4M).
 
-
-### 10W Laser module
-  - 🛒 [Antenna that sticks to top cover](https://s.click.aliexpress.com/e/_DeWSkup) - in case you print a custom cover for air assist. Look for P/N - TX2400-FPC-2509. Shared by [@Florian Wick](https://www.facebook.com/groups/snapmakerartisan/posts/820110829484123/).
+- **UNIVERSAL**
+  - 10W Laser module
+    - 🛒 [Antenna that sticks to top cover](https://s.click.aliexpress.com/e/_DeWSkup) - in case you print a custom cover for air assist. Look for P/N - TX2400-FPC-2509. Shared by [@Florian Wick](https://www.facebook.com/groups/snapmakerartisan/posts/820110829484123/).
 
 ## Tooling
 - CNC
