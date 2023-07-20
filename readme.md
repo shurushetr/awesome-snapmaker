@@ -130,6 +130,7 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 - **Laser**
   - 📝 📹 [Safety first - what plastic is safe to work with](https://laserengravingtips.com/what-plastics-are-safe-to-laser-cut/) - also how to test plastic for chlorine.
   - 📝 [Lightburn Full Control Guide](https://forum.snapmaker.com/t/full-lightburn-control-guide/27638) - [SM2.0 / ARTISAN] - Writeup by [@Skreelink](https://forum.snapmaker.com/u/Skreelink) on how to make Lightburn talk to Snapmaker 2.0.
+    - 💾 [PDF summary of the "Lightburn Full Control Guide"](files/pdf/Full_Lightburn_Control_Guide_v1.0.pdf) - created by [@Burgerboy](https://forum.snapmaker.com/u/Burgerboy) and published [on the forum](https://forum.snapmaker.com/t/full-lightburn-control-guide/27638/215) summary of all the knwoledge in the thread.
   - 📝 [Full Control Lightburn + Rotary Attachment Guide](https://forum.snapmaker.com/t/full-control-lightburn-rotary-guide/28584) - Writeup by [@Skreelink](https://forum.snapmaker.com/u/Skreelink).
   - 📝 [Working camera capture with Lightburn](https://forum.snapmaker.com/t/working-camera-capture-with-lightburn/28397) - thanks to [@Slynold](https://forum.snapmaker.com/u/Slynold) & [@Mayco](https://forum.snapmaker.com/u/mayco) - we have working camera.
 - **CNC**
@@ -246,6 +247,7 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 - LASER CUTTING AND ENGRAVING
   - 🔧 [Lightburn](https://lightburnsoftware.com/pages/trial-version-try-before-you-buy) [WIN/NIX/MAC] - Ultimate solution for all your laser needs. Guides available in this list. Worth every penny.
   - 🔧 [Create boxes and more!](https://www.festi.info/boxes.py/) - amazing online vector generator for designing boxes, shelfes, bins, tests and much more. 
+  - 🔧 [1-Touch Laser Photo](https://www.ulsinc.com/discover-uls-innovations/1-touch-laser-photo) - very easy to use tool to convert photos to good quality engravings.
 - CNC
   - 🔧 [Fusion360](https://www.autodesk.com/products/fusion-360/personal-form) - Cad system. CNC toolpath generating.
   - 🔧 [FreeCAD](https://www.freecad.org/downloads.php) - Free CAD system. Can be used for toolpath generation with postprocessor from [this list](#specific-for-snapmaker).
@@ -263,6 +265,7 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 ## Released By Community members - UNOFFICIAL
 ### Pics of stock parts
   - 💾 [Snapmaker 2.0 stock pictures](/images/Snapmaker_Parts/SP_2.0/) - hosted here collection of stock parts and internals of Snapmaker 2.0. You can find there measurements for hot end electrical components and other such things.
+  - 💾 [Snapmaker 2.0 1600mW laser autopsy](https://forum.snapmaker.com/t/snapmaker-2-0-laser-autopsy/19408) - detailed disassembly and analisys of internal componetns by [@Geared](https://forum.snapmaker.com/u/Geared).
 ### Lasering
 - 💾 [10W Laser air assist insert](/files/models/10w_laser_air_assist_mod_by_Raagnarix.stl) - model by [@Raagnarix](https://www.youtube.com/@Raagnarix) form [this video](https://www.youtube.com/watch?v=zg8jiem-8v8)
 ### Snapmaker 2.0 A350 CAD Models - UNOFFICIAL
