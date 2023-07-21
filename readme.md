@@ -277,7 +277,8 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 ### Snapmaker 2.0 A350 CAD Models - UNOFFICIAL
 - 💾 [Model By Stefix](files/models/Snapmaker_2.5_A351_v34_v9_by_stefix.f3d) - Created by forum member [Stefix](https://forum.snapmaker.com/u/stefix/), he called his machine A351 after all the modes installed. Find more info [here](https://forum.snapmaker.com/t/my-new-snapmaker-2-0-a351/16502).
 - 💾 [Model by Sebastien Deux Vagues](files/models/Snapmaker_2_a350_v32_By_Sebastien_Deux_Vagues.f3d) - Created by FB Group member [Sebastien](https://www.facebook.com/groups/371401856611467/user/1418260509/), based on model by [Stefix](https://forum.snapmaker.com/u/stefix/)
- - 💾 [3D Models for A350,A250, A350T platforms and A350 Beds](https://cults3d.com/en/users/Namakemono/3d-models) - created by [Namakemono](https://forum.snapmaker.com/u/Namakemono) accurate models of platform and beds.
+- 💾 [Snapmaker 2.0 A350 Model in OnSHape](https://cad.onshape.com/documents/62cf14c42bffce0a7b08acf9/w/30314df13cc0199e746100d2/e/7a6692332d9c4b7e83c673c4) - created by Ryan Tuscher in his video [Designing a Snapmaker 2.0 A350 3D Model](https://www.youtube.com/watch?v=nPmqX5T6Yts).
+- 💾 [3D Models for A350,A250, A350T platforms and A350 Beds](https://cults3d.com/en/users/Namakemono/3d-models) - created by [Namakemono](https://forum.snapmaker.com/u/Namakemono) accurate models of platform and beds.
     - [Forum thread.](https://forum.snapmaker.com/t/3d-models-for-a350-a250-a350t-platforms-and-a350-beds/25281)
 ## Released by Snapmaker Team - OFFICIAL
 - 💾 [Snapmaker 2.0 A350 platform drawing](files/files_from_snapmaker_team/Snapmake_2.0_A350_new_platform_design.dwg) - DWG file of the platform.
