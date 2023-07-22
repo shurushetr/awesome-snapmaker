@@ -186,7 +186,7 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
   - **Snapmaker 2.0 mods**
     - 📝 [All metal hot end simple mod](https://forum.snapmaker.com/t/fyi-snapmaker-2-all-metal-hotend-simple-mod/10046/63) - Writeup by [@Franky](https://forum.snapmaker.com/u/Franky) followed by discussion about installing all metal heat break.
     - **Leveling**
-      - 💾 📝 [Klicky probe - bed leveling on anything! Stealth mod for single extruder](https://forum.snapmaker.com/t/klicky-probe-bed-leveling-on-anything-stealth-mod-for-single-extruder/32229) - Klicky probe for snapmaker single extruder. Level on anything, simple, no firmware changes.
+      - 💾 📝 [Klicky probe - bed leveling on anything! Stealth mod for single extruder](https://forum.snapmaker.com/t/klicky-probe-bed-leveling-on-anything-stealth-mod-for-single-extruder/32229) - Klicky probe for snapmaker single extruder. Level on anything, simple, no firmware changes. You can find parts in the [Shopping list](#shopping-list)
       - 💾 [Glass bed leveling probe - FiFix Mod](files/models/FiFix_glass_probe_mod_by_stefix.zip) - Clever way by [@Stefix](https://forum.snapmaker.com/u/stefix/) to allow leveling on glass using OEM probe. Find more information about it [here](https://forum.snapmaker.com/t/for-all-who-want-level-on-glass/12437). No Firmware modification required.
       - 📝 [Automatic bed leveling on glass](https://forum.snapmaker.com/t/automatic-bed-leveling-on-glass/29601) - Another mod by [@TobIY](https://forum.snapmaker.com/u/TobIY). No Firmware modification required. Check the [Shopping list](#shopping-list) for exact part.
       - 📝 [Advanced leveling mod](https://forum.snapmaker.com/t/for-all-who-want-level-on-glass/12437/129) - By [@stewl](https://forum.snapmaker.com/u/stewl). Instructions here - [Google drive link](https://drive.google.com/drive/folders/1JTZ811Tx-dTD35J4a-u2fsokln20INpR). Firmware modification required. Ultimate accuracy.
@@ -218,8 +218,6 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
   - 🔧 [Camera capture in Lightburn](https://github.com/PolymerPrints/SnapmakerLightBurnHost) [WIN] - emulates camera for Lightburn. Credit - [@Maycuz](https://github.com/Maycuz), @PolymerPrints, [Slynold](https://forum.snapmaker.com/u/slynold)
      - [Forum thread](https://forum.snapmaker.com/t/working-camera-capture-with-lightburn/28397).
   - 🔧 [Laser Calibration Tool](https://github.com/daniel-starke/LaserCalibrationTool) [WEB] - Laser calibration pattern generator.
-  - Design
-    - 🔧 [Potrace](https://potrace.sourceforge.net/) - [WIN] - Genious and free little tool for transforming bitmaps into vector graphics.
 - CNC
   - 🔧 [Fusion360 Post Processor](https://github.com/nunorvoliveira/snapmaker-2.0/tree/main/Fusion%20360)[Fusin360] - Fusion360 postprocessor. Credit - @nunorvoliveira.
   - 🔧 [Snapmaker2Postprocessor](https://github.com/clsergent/Snapmaker2Postprocessor) - [FreeCad] - FreeCAD postporcessor. Credit - @clsergent.
@@ -265,7 +263,8 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
   - 📝 [Online G-Code simulators & Visualizers](https://all3dp.com/2/gcode-viewer-3d-printer-simulator-best-tools/) - an article by All3DP reviewing different tools.
     - 🔧 [NCViewer](https://ncviewer.com/) - [WEB] - this one is recommended by Snapmaker for troubleshooting toolpath issues.
 
-
+- DESIGN
+  - 🔧 [Potrace](https://potrace.sourceforge.net/) - [WIN] - Genious and free little tool for transforming bitmaps into vector graphics.
 # Handy Files & Models
 
 ## Released By Community members - UNOFFICIAL
@@ -296,6 +295,7 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
     - 🛒 [OEM proximity sensor for leveling](https://www.digikey.com/en/products/detail/panasonic-industrial-automation-sales/GX-H8A/3899742) - Look for Panasonic GX-H8A - According to [this post](https://forum.snapmaker.com/t/anyone-have-the-proximity-sensor-part/14191/67).
     - 🛒 [Aftermarket Capacitive proximity sensor for glass leveling](https://amzn.to/3NXl75n) - as described in the writeup by [@TobIY](https://forum.snapmaker.com/u/TobIY). You can find the write up in [How to modify stuff](#how-to-modify-stuff) section. Part number provided by [Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr) in his post [here](https://forum.snapmaker.com/t/automatic-bed-leveling-on-glass/29601/23).
     - 🛒 [All Metal Heat break](https://s.click.aliexpress.com/e/_DC7Vg8h) - All metal heatbreak. Look for CR6-SE heatbreak. Matches overall dimensions. You will need an insert cut for the throat.
+    - 🛒 [Klicky Probe Snapmaker 2.0 components](https://www.ebay.com/itm/334960089782) - Klicky Probe components.
   - Build Surface
     - 🛒 [Garolite G10 build surface for A350/F350](https://www.ebay.com/itm/334898149660) - Better then glass? [G10 vs Ultrabase Build Plate | My FAVORITE 3D Printing Surface](https://www.youtube.com/watch?v=qHSe0Y0dF4M).
 
