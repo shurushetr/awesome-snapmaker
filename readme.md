@@ -149,6 +149,9 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
     - 📝 [PCB milling process](https://github.com/tommy-vaux/Snapmaker_2_PCB_Milling_Process) - Detailed writeup by [@tommy-vaux](https://github.com/tommy-vaux).
 
 ## How to fix stuff
+ - AXIS
+  - [Snapmaker 2 milling kit for the brass nut in the linear axis](https://www.thingiverse.com/thing:4491190) - For all Snapmaker 2 users who have problems with the wear of the plastic nut in the linear guides, the milling program in conjunction with the clamping device offers the possibility of milling freely available brass trapezoidal nuts TR8x8 with anti Backslash so that they can be machined into the Snapmaker 2 compatible nut. By [@gojoetofly](https://www.thingiverse.com/gojoetofly)
+
 - 3D Printing related
   - 📝 [Hot End Clogs - The How & Why](https://forum.snapmaker.com/t/hot-end-clogs-the-how-why/30376) - Writeup by [@Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr) about all metal heat break. Find one in [parts list below](#aftermarket-parts).
   - 💾 [E-Step calibration](/files/pdf/e-step_calibration.pdf) - Writeup by [@Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr) for e-steps calibration.
@@ -279,6 +282,8 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 - 💾 [Snapmaker 2.0 A350 Model in OnSHape](https://cad.onshape.com/documents/62cf14c42bffce0a7b08acf9/w/30314df13cc0199e746100d2/e/7a6692332d9c4b7e83c673c4) - created by Ryan Tuscher in his video [Designing a Snapmaker 2.0 A350 3D Model](https://www.youtube.com/watch?v=nPmqX5T6Yts).
 - 💾 [3D Models for A350,A250, A350T platforms and A350 Beds](https://cults3d.com/en/users/Namakemono/3d-models) - created by [Namakemono](https://forum.snapmaker.com/u/Namakemono) accurate models of platform and beds.
     - [Forum thread.](https://forum.snapmaker.com/t/3d-models-for-a350-a250-a350t-platforms-and-a350-beds/25281)
+### Snapmaker 2.0 A250 CAD models - UNOFFICIAL
+ - 💾 [Snapmaker 2.0 A250T - Fusion360 model](https://grabcad.com/library/snapmaker-2-0-a250t-1) - hosted at GrabCAD model of A250T.
 ## Released by Snapmaker Team - OFFICIAL
 - 💾 [Snapmaker 2.0 A350 platform drawing](files/files_from_snapmaker_team/Snapmake_2.0_A350_new_platform_design.dwg) - DWG file of the platform.
 
