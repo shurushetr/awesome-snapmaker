@@ -59,6 +59,7 @@ Hit CTRL+F on your keyboard to search in page and type the keyword you are looki
   - [How to make stuff](#how-to-make-stuff)
   - [How to fix stuff](#how-to-fix-stuff)
   - [How to modify stuff](#how-to-modify-stuff)
+  - [Settings Collection](#settings-collection)
 - 🔧 [Tools](#tools) - software tools created by community members.
   - [Specific to Snapmaker machines](#specific-to-snapmaker-machines)
   - [Generic Tools](#generic-tools)
@@ -140,6 +141,7 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
   - 📝 [Working camera capture with Lightburn](https://forum.snapmaker.com/t/working-camera-capture-with-lightburn/28397) - thanks to [@Slynold](https://forum.snapmaker.com/u/Slynold) & [@Mayco](https://forum.snapmaker.com/u/mayco) - we have working camera.
 - **CNC**
   - 📝 [Rotary Module with Fusion360: It works! (good enough)](https://forum.snapmaker.com/t/rotary-module-with-fusion360-it-works-good-enough/24367) - [SM2.0 / ARTISAN] - Writeup by [@brvdboss](https://forum.snapmaker.com/u/brvdboss) on how to setup Fusion360 with Rotary Module.
+  - 📝📹[Snapmaker 2.0 by Koka-Bora Creations](https://www.youtube.com/playlist?list=PLWlW9PTm7_qvYvXytlfXZib--P-qIz3fp) - a 20 episode video series on using snapmaker 2.0 for projects. Bunch of CNC material.
 ## How to make stuff
 - **Laser**
   - 📝 [Laser on Ceramics (tiles): How to Make It Not Only Black on White](https://support.snapmaker.com/hc/en-us/articles/9589024708759-Laser-on-Ceramics-How-to-Make-It-Not-Only-Black-on-White) - an awesome tutorial written by community member [@Eugene Fedorov](https://www.facebook.com/groups/371401856611467/user/1608278798/) and posted on snapmaker website.
@@ -203,7 +205,20 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 
 - **CNC**
   - 📝 [CNC self-impelled vacuum dust shoe (no external vacuum required)](https://forum.snapmaker.com/t/cnc-self-impelled-vacuum-dust-shoe-no-external-vacuum-required/24972) - Design by [gil.a.ramirez](https://forum.snapmaker.com/u/gil.a.ramirez).
- 
+
+# Settings Collection
+This is a collection of settings/hacks for processing various materials with various tools shared by community members.
+Snapmaker published settings are available through following links:
+  - 📚 [The Definitive Guide to Laser Engraving and Cutting with the 10W High Power Laser Module.](https://support.snapmaker.com/hc/en-us/articles/8072478934935-The-Definitive-Guide-to-Laser-Engraving-and-Cutting-with-the-10W-High-Power-Laser-Module-)
+  - 📚 [The Definitive Guide to Laser Engraving and Cutting with the 200mW and 1600mW Laser Module ](https://support.snapmaker.com/hc/en-us/articles/360019025954-The-Definitive-Guide-to-Laser-Engraving-and-Cutting-with-the-200mW-and-1600mW-Laser-Module)
+## Laser settings
+Air assist is recommended for any laser module you use. Some mods are listed in here.
+
+| Material | Operation | Thickness <br> (mm) | Method | Work Speed <br> (mm/min) | Power <br> (%) | Notes | Source |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Acrilic Clear | Engrave | N/A | Fill <br> Line interval 0.25mm | 500 | 100 | Place sheet of paper on top of acrylic | [Facebook post](https://www.facebook.com/groups/snapmaker/posts/1794963157588656)
+
+| Stainless Steal | Engrave | N/A | Fill <br> Line interval 0.1mm | 450 | 100 | Clean steel surface | [Marking SS with 10W laser](https://forum.snapmaker.com/t/marking-ss-with-10w-laser/25577)|
 # Tools
 ## Specific to Snapmaker machines
 - 3D PRINTING
@@ -312,6 +327,8 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 - CNC
   - 🛒 [Collet ER11](https://www.maritool.com/Collets-And-Sleeves-ER-Collets-ER11-Collets/c21_56_60/index.html) - if you want to use 1/4 bits get a different collet. 
   - 🛒 [CNC Plastic cutting bits](https://www.amanatool.com/products/cnc-router-bits/plastic-cutting-cnc-router-bits.html) - Plastic Cutting Router Bits - Industrial, ZrN & Spektra Coated by Amana Tool
+  - 🛒 [Lakeshore Carbide](https://www.lakeshorecarbide.com/) - good source of quality bits.
+  - 🛒 [Edge of Arlington Saw & Tool](https://www.eoasaw.com/) - good source of quality bits.
 
 ## 3d Printing
 - [Pick Filament by Color](https://filamentcolors.xyz)
