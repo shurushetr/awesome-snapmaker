@@ -17,6 +17,8 @@ Snapmaker 2.0 (AT/F models)</a> ·
 Snapmaker J1</a> · 
 <a href="https://snapmaker.com/snapmaker-artisan" target="_blank" rel="noopener noreferrer">
 Snapmaker Artisan</a>
+<a href="https://snapmaker.com/snapmaker-ray-20w-40w-laser-engraver-and-cutter-with-air-assist" target="_blank" rel="noopener noreferrer">
+Snapmaker Ray</a>
 
 <!-- image -->
 
@@ -60,6 +62,7 @@ Hit CTRL+F on your keyboard to search in page and type the keyword you are looki
   - [How to fix stuff](#how-to-fix-stuff)
   - [How to modify stuff](#how-to-modify-stuff)
   - [Settings Collection](#settings-collection)
+    - [Laser](#laser-settings)
 - 🔧 [Tools](#tools) - software tools created by community members.
   - [Specific to Snapmaker machines](#specific-to-snapmaker-machines)
   - [Generic Tools](#generic-tools)
@@ -110,9 +113,13 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 - Firmware
   - 💾 [Snapmaker J1 Firmware Updates and Downloads](https://forum.snapmaker.com/t/snapmaker-j1-firmware-updates-and-downloads/29972) - official forum thread where stable firmware releases are posted.
     - 👋 [Discussion of Snapmaker J1 Firmware Updates](https://forum.snapmaker.com/t/discussion-of-snapmaker-j1-firmware-updates/29973) - dedicated discussion topic to stable firmware updates.
-
+### Snapmaker Ray
+- Docs
+  - 📚 [SPECS](https://snapmaker.com/snapmaker-ray-20w-40w-laser-engraver-and-cutter-with-air-assist/specs)
+  - 📚 [Ray presale FAQ](https://support.snapmaker.com/hc/en-us/articles/16411847512087-Pre-sale-FAQ-for-Ray-20W-40W-Laser-Engraver-and-Cutter)
 ### Snapmaker Luban
   - 💾 [Snapmaker Luban Downloads and Updates](https://forum.snapmaker.com/t/snapmaker-luban-downloads-and-updates/4949) - official forum thread where stable Luban releases are posted.
+  - - 📚 [Luban Wiki](https://wiki.snapmaker.com/en/Snapmaker_Luban)
 
 
 
@@ -211,14 +218,17 @@ This is a collection of settings/hacks for processing various materials with var
 Snapmaker published settings are available through following links:
   - 📚 [The Definitive Guide to Laser Engraving and Cutting with the 10W High Power Laser Module.](https://support.snapmaker.com/hc/en-us/articles/8072478934935-The-Definitive-Guide-to-Laser-Engraving-and-Cutting-with-the-10W-High-Power-Laser-Module-)
   - 📚 [The Definitive Guide to Laser Engraving and Cutting with the 200mW and 1600mW Laser Module ](https://support.snapmaker.com/hc/en-us/articles/360019025954-The-Definitive-Guide-to-Laser-Engraving-and-Cutting-with-the-200mW-and-1600mW-Laser-Module)
+  - 📝[List of materials you shoudn't be lasering](https://cpl.org/wp-content/uploads/NEVER-CUT-THESE-MATERIALS.pdf)
 ## Laser settings
 Air assist is recommended for any laser module you use. Some mods are listed in here.
+
 
 | Material | Operation | Thickness <br> (mm) | Method | Work Speed <br> (mm/min) | Power <br> (%) | Notes | Source |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Acrilic Clear | Engrave | N/A | Fill <br> Line interval 0.25mm | 500 | 100 | Place sheet of paper on top of acrylic | [Facebook post](https://www.facebook.com/groups/snapmaker/posts/1794963157588656)
-
 | Stainless Steal | Engrave | N/A | Fill <br> Line interval 0.1mm | 450 | 100 | Clean steel surface | [Marking SS with 10W laser](https://forum.snapmaker.com/t/marking-ss-with-10w-laser/25577)|
+| YETTI cups | Engrave | N/A | Fill <br> Line interval 0.07 | 3500 | 40 | Quick rub with a magic eraser and then I use a chrome polish on a drill buffer to make it pop. Wash in the sink after| [Facebook post](https://www.facebook.com/groups/snapmaker/posts/1797922073959431/) |
+|||||||||
 # Tools
 ## Specific to Snapmaker machines
 - 3D PRINTING
