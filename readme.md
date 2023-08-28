@@ -16,7 +16,7 @@ Snapmaker 2.0 (AT/F models)</a> ·
 <a href="https://us.snapmaker.com/products/snapmaker-j1-independent-dual-extruder-3d-printer" target="_blank" rel="noopener noreferrer">
 Snapmaker J1</a> · 
 <a href="https://snapmaker.com/snapmaker-artisan" target="_blank" rel="noopener noreferrer">
-Snapmaker Artisan</a>
+Snapmaker Artisan</a> ·
 <a href="https://snapmaker.com/snapmaker-ray-20w-40w-laser-engraver-and-cutter-with-air-assist" target="_blank" rel="noopener noreferrer">
 Snapmaker Ray</a>
 
