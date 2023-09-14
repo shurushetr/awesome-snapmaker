@@ -59,6 +59,7 @@ Hit CTRL+F on your keyboard to search in page and type the keyword you are looki
 - 📝 [Community Guides](#community-guides)
   - [How to set stuff up](#how-to-set-stuff-up)
   - [How to make stuff](#how-to-make-stuff)
+    - [Online stuff generators](#online-stuff-generators)
   - [How to fix stuff](#how-to-fix-stuff)
   - [How to modify stuff](#how-to-modify-stuff)
   - [Settings Collection](#settings-collection)
@@ -80,7 +81,7 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 - 📚 [G-Code Reference](https://snapmaker.github.io/Documentation/gcode/G000-G001) - G-Code reference guide. Snapmaker G-Code is Marlin compatible.
 - 📚 [Snapmaker 2.0 Enclosure & Air Purifier Specs](https://snapmaker.com/filter-enclosure/specs)
 ### Snapmaker 2.0
-- Docs
+- **Docs**
   - 📚 [SPECS](https://snapmaker.com/snapmaker-2/specs)
   - 📚 [Snapmaker 2.0 Wiki](https://wiki.snapmaker.com/en/Snapmaker_2) - all content [from support center](https://support.snapmaker.com/) will be moved to the wiki. Use [Wiki Content Request](https://formcrafts.com/a/qmvudac) to request updates.
     - 📚 [2.0 Wiki Content Updates](https://forum.snapmaker.com/t/2-0-wiki-content-updates/31757) - follow this thread to keep an eye on Wiki Updates from Snapmaker.
@@ -90,31 +91,33 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
     - 📝 [Laser tips&tricks](https://support.snapmaker.com/hc/en-us/sections/360009734754-Laser) - Laser Engraving and Cutting tips&tricks by Snapmaker team.
   - 📚 [CNC](https://support.snapmaker.com/hc/en-us/articles/360041252474-CNC-Carving) -  quick start guide by Snapmaker team.
     - 📝 [CNC tips&tricks](https://support.snapmaker.com/hc/en-us/sections/360009349014-CNC) - CNC tips&tricks by Snapmaker team.
-- Firmware
+  - 📚 [QuickSwap Kit](https://wiki.snapmaker.com/Snapmaker_2/manual/qsg_for_2_0_quick_swap_kit) - HTML and PDF versions available.
+
+- **Firmware**
   - 💾 [Snapmaker 2.0 Firmware Updates and Downloads](https://forum.snapmaker.com/t/snapmaker-2-0-firmware-updates-and-downloads/5443/) - official forum thread where stable firmware releases are posted.
     - 👋 [Discussion of Snapmaker 2.0 Firmware Updates](https://forum.snapmaker.com/t/discussion-of-snapmaker-2-0-firmware-updates/5441) - dedicated discussion topic to stable firmware updates.
   - 💾 👋 [Vibration Compensation Beta Firmware for 2.0 Series: Stable Print Quality at Higher Speed](https://forum.snapmaker.com/t/now-compatible-with-8-lead-vibration-compensation-beta-firmware-for-2-0-series-stable-print-quality-at-higher-speed/29136) - forum thread dedicated to the new vibration compensation firmware by Snapmaker. Same as J1.
 
 ### Snapmaker Artisan
-- Docs
+- **Docs**
   - 📚 [SPECS](https://snapmaker.com/snapmaker-artisan/specs)
   - 📚 [Artisan Guides Wiki](https://wiki.snapmaker.com/en/snapmaker_artisan) - Wiki for Artisan by Snapmaker Team.
     - 📚 [Artisan Wiki Content Updates](https://forum.snapmaker.com/t/artisan-wiki-content-updates/30892) - follow this thread to keep an eye on Wiki Updates from Snapmaker.
   - 📚 [Artisan FAQ](https://docs.google.com/document/d/1JVNMFgKufcrd4NxP66wY99-6UNxSoRhwG8EZyJzQZWI/) - Google doc with frequently asked questions gathered by Snapmaker Team to support the community. Updated through [Snapmaker Artisan Owners facebook group](https://www.facebook.com/groups/snapmakerartisan/)  by [Mandy Wu](https://www.facebook.com/groups/591569232338285/user/100092628331708/)
-- Firmware
+- **Firmware**
   - 💾 [Snapmaker Artisan Firmware Updates and Downloads](https://forum.snapmaker.com/t/snapmaker-artisan-firmware-updates-and-downloads/29975) - official forum thread where stable firmware releases are posted.
     - 👋 [Discussion of Snapmaker Artisan Firmware Updates](https://forum.snapmaker.com/t/discussion-of-snapmaker-artisan-firmware-updates/29974) - dedicated discussion topic to stable firmware updates.
 
 ### Snapmaker J1
-- Docs
+- **Docs**
   - 📚 [SPECS](https://support.snapmaker.com/hc/en-us/articles/9773156785175-What-are-the-specs-of-J1-)
   - 📚 [Snapmaker J1 Wiki](https://wiki.snapmaker.com/en/snapmaker_j1) - WiKi for J1 by Snapmaker Team
     - 📚 [J1 Wiki Updates](https://forum.snapmaker.com/t/j1-wiki-updates/30973)- follow this thread to keep an eye on Wiki Updates from Snapmaker.
-- Firmware
+- **Firmware**
   - 💾 [Snapmaker J1 Firmware Updates and Downloads](https://forum.snapmaker.com/t/snapmaker-j1-firmware-updates-and-downloads/29972) - official forum thread where stable firmware releases are posted.
     - 👋 [Discussion of Snapmaker J1 Firmware Updates](https://forum.snapmaker.com/t/discussion-of-snapmaker-j1-firmware-updates/29973) - dedicated discussion topic to stable firmware updates.
 ### Snapmaker Ray
-- Docs
+- **Docs**
   - 📚 [SPECS](https://snapmaker.com/snapmaker-ray-20w-40w-laser-engraver-and-cutter-with-air-assist/specs)
   - 📚 [Ray presale FAQ](https://support.snapmaker.com/hc/en-us/articles/16411847512087-Pre-sale-FAQ-for-Ray-20W-40W-Laser-Engraver-and-Cutter)
 ### Snapmaker Luban
@@ -136,6 +139,11 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 # Community Guides
 
 ## How to set stuff up
+- **Connectivity**
+  - 📝 [Connect via Ethernet](https://forum.snapmaker.com/t/works-usb-to-ethernet-adapter/8074/) - you can use usb adapter to connect via ethernet to your machine.
+  - 📝 [Direct communication over serial port](https://forum.snapmaker.com/t/android-cell-phone-terminal-console/12838/6) - Using the MINIUSB port, you can connect to machines console (like with Luban) to run commands directly. This post shows settings for Putty - terminal app. Snapmaker has simple serial to USB converter inside.
+  - 📝 [USB port forwarding](https://forum.snapmaker.com/t/usb-forwarding-of-the-snapmaker/32831) - has it's dangers, but you can trick you host machine into thinking that snapmaker is connected directly via usb, when it is actually connected to a different machine.
+
 - **3D Printing**
   - 📝 [Bed Leveling - Revisited & Detailed](https://forum.snapmaker.com/t/bed-leveling-revisited-detailed/30508) - Writeup by [@Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr) about bed leveling and issues along the way.
     - 📝 [11x11 calibration with heated bed](https://forum.snapmaker.com/t/11x11-calibration-with-heated-bed-possible/22426) by [@Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr).
@@ -149,6 +157,7 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 - **CNC**
   - 📝 [Rotary Module with Fusion360: It works! (good enough)](https://forum.snapmaker.com/t/rotary-module-with-fusion360-it-works-good-enough/24367) - [SM2.0 / ARTISAN] - Writeup by [@brvdboss](https://forum.snapmaker.com/u/brvdboss) on how to setup Fusion360 with Rotary Module.
   - 📝📹[Snapmaker 2.0 by Koka-Bora Creations](https://www.youtube.com/playlist?list=PLWlW9PTm7_qvYvXytlfXZib--P-qIz3fp) - a 20 episode video series on using snapmaker 2.0 for projects. Bunch of CNC material.
+
 ## How to make stuff
 - **Laser**
   - 📝 [Laser on Ceramics (tiles): How to Make It Not Only Black on White](https://support.snapmaker.com/hc/en-us/articles/9589024708759-Laser-on-Ceramics-How-to-Make-It-Not-Only-Black-on-White) - an awesome tutorial written by community member [@Eugene Fedorov](https://www.facebook.com/groups/371401856611467/user/1608278798/) and posted on snapmaker website.
@@ -156,6 +165,12 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
   - 📝 [Shadow board or tool cutouts - Ultimate guide](https://www.youtube.com/watch?v=Wcxh1lLltAE) - this is the proper way of making the tool organizers known as shadow boards. Can also be used with CNC.
 - **CNC**
     - 📝 [PCB milling process](https://github.com/tommy-vaux/Snapmaker_2_PCB_Milling_Process) - Detailed writeup by [@tommy-vaux](https://github.com/tommy-vaux).
+
+### Online stuff generators
+- **3D Printing**
+  - [Watertight outdoor enclosure generator](https://bruceborrett.github.io/easy-enclosure/) - EasyEnclosure is an open-source 3D modeling software tailored specifically for designing 3D-printable enclosures. 
+- **Laser**
+  - [Create boxes and more!](https://www.festi.info/boxes.py/) - amazing online vector generator for designing boxes, shelfes, bins, tests and much more. 
 
 ## How to fix stuff
  - AXIS
@@ -278,7 +293,6 @@ Air assist is recommended for any laser module you use. Some mods are listed in 
   - 🔧 [Ulltimaker Cura](https://ultimaker.com/software/ultimaker-cura) [WIN/NIX/MAC] - Another popular alternative to Luban for 3D printing.
 - LASER CUTTING AND ENGRAVING
   - 🔧 [Lightburn](https://lightburnsoftware.com/pages/trial-version-try-before-you-buy) [WIN/NIX/MAC] - Ultimate solution for all your laser needs. Guides available in this list. Worth every penny.
-  - 🔧 [Create boxes and more!](https://www.festi.info/boxes.py/) - amazing online vector generator for designing boxes, shelfes, bins, tests and much more. 
   - 🔧 [1-Touch Laser Photo](https://www.ulsinc.com/discover-uls-innovations/1-touch-laser-photo) - very easy to use tool to convert photos to good quality engravings.
 - CNC
   - 🔧 [Fusion360](https://www.autodesk.com/products/fusion-360/personal-form) - Cad system. CNC toolpath generating.
