@@ -167,10 +167,29 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
     - 📝 [PCB milling process](https://github.com/tommy-vaux/Snapmaker_2_PCB_Milling_Process) - Detailed writeup by [@tommy-vaux](https://github.com/tommy-vaux).
 
 ### Online stuff generators
+- **Universal**
+  - [Caligrapher](https://www.calligrapher.ai/) - [LASER / CNC / 3DP]- handwriting generator with SVG export.
+  - [STL2PNG heightmap generator](https://fenrus75.github.io/FenrusCNCtools/javascript/stl2png.html) - [LASER / CNC] This website lets you convert STL files to PNG height images.
+  - [HeightMaps to STL](https://imagetostl.com/) - [CNC / 3DP] - Use this free and fast online tool to convert your PNG and JPG 2D heightmap images or logo into 3D STL (stereolithography) mesh/model files suitable for printing with a 3D printer, CNC machining or for loading into your favourite 3D editing package.
 - **3D Printing**
-  - [Watertight outdoor enclosure generator](https://bruceborrett.github.io/easy-enclosure/) - EasyEnclosure is an open-source 3D modeling software tailored specifically for designing 3D-printable enclosures. 
+  - [Watertight outdoor enclosure generator](https://bruceborrett.github.io/easy-enclosure/) - EasyEnclosure is an open-source 3D modeling software tailored specifically for designing 3D-printable enclosures.
+  - [Dildo generator](http://dildo-generator.com/) - to make molds, lined with wax and pouring silicone dildos or other objects.
+  - [Parametric models only](https://models.makewithtech.com/) - you can customize every model. Even print some velcro. [How it works.](https://www.youtube.com/watch?v=r5YJxmw6lKQ).
+  - [Lithophanes](https://lithophanemaker.com/) - all you need for lithophanes in one place.
+  - [ItsLitho](https://itslitho.com/) - another lithophanes generator.
+  - [Full control G-Code](http://fullcontrolgcode.com/) - this is not for the faint of heart. God level 3d models generator. [Check this video out.](https://www.youtube.com/watch?v=ZgytQDoaD5M&t=584s)
+  - [Tray generator](https://deckinabox.sgenoud.com/) - make up any tray in a few minutes with or without lids.
 - **Laser**
-  - [Create boxes and more!](https://www.festi.info/boxes.py/) - amazing online vector generator for designing boxes, shelfes, bins, tests and much more. 
+  - [Create boxes and more! - One site to rule them all](https://www.festi.info/boxes.py/) - amazing online vector generator for designing boxes, shelfes, bins, tests and much more.
+  - [Keychaines, Name-Snowflakes, Connected Text and more](https://cuttle.xyz/templates) - some are free for personal use, some are pro only.
+  - [Stencil Generator](https://www.stencilcreator.org/) - The interface on this website can support you to generate a multi-layer stencil from an input image.
+  - [Treasure trove of templates generators](https://www.blocklayer.com/calculatordirectory) - a huge number of various calculators and template generators that you can export in SVG. Diameter Tape, Compass, Spirals, Bolt Patterns and much much more.
+  - [Snowflakes generator](https://github.com/bleeptrack/fr0zen-system-laser) - made by [Bleeptrack](https://github.com/bleeptrack) - Fr0zenSystem is a little snowflake generator. This version is optimized to be used with lasercutters but might also be used with pen- or cutter plotters. The idea is to cut out two different layers that in combination form a nice snowflake shape.
+  - [Numerical Dial Generator and more](https://www.oliverboorman.biz/projects/tools/dial.php) - This interactive generator produces an image of a numerical dial, based on your settings and requirements. They have more generators related to dials.
+  - [Paper box generator](https://deckinabox.sgenoud.com/) - ever wanted to cut a foldable box?
+  - [Wave pattern generator](https://tinkersynth.com/slopes) - get an SVG with wave pattern.
+- **CNC**
+  - [Japanese joints - "Tsugite" -  generator](http://ma-la.com/tsugite.html) - Interactive system for designing and fabricating wood joints for frame structures.
 
 ## How to fix stuff
  - AXIS
