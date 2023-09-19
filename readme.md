@@ -169,7 +169,7 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 ### Online stuff generators
 - **Universal**
   - [Caligrapher](https://www.calligrapher.ai/) - [LASER / CNC / 3DP]- handwriting generator with SVG export.
-  - [STL2PNG heightmap generator](https://fenrus75.github.io/FenrusCNCtools/javascript/stl2png.html) - [LASER / CNC] This website lets you convert STL files to PNG height images.
+  - [STL2PNG heightmap (depth map) generator](https://fenrus75.github.io/FenrusCNCtools/javascript/stl2png.html) - [LASER / CNC] This website lets you convert STL files to PNG height images. You can do things like this with laser for example - [How To... 3D Grayscale](https://www.youtube.com/watch?v=O01POwqfMbQ)
   - [HeightMaps to STL](https://imagetostl.com/) - [CNC / 3DP] - Use this free and fast online tool to convert your PNG and JPG 2D heightmap images or logo into 3D STL (stereolithography) mesh/model files suitable for printing with a 3D printer, CNC machining or for loading into your favourite 3D editing package.
 - **3D Printing**
   - [Watertight outdoor enclosure generator](https://bruceborrett.github.io/easy-enclosure/) - EasyEnclosure is an open-source 3D modeling software tailored specifically for designing 3D-printable enclosures.
