@@ -222,6 +222,7 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
   - 📝 [Minimize bed rocking along Y axis at the forum](https://forum.snapmaker.com/t/minimize-rocking/19215/) - the biggest problem with the platform is it's unstable bed that get's worse overtime. Illustrated in [this video from Facebook post among many others](https://www.facebook.com/groups/snapmaker/posts/1706559253095714/). 
      - Purchase SBR16-800mm rails will solve this issue. Links for exact rail - [Shopping list](#shopping-list).
      - [3D Print these adapters](https://www.thingiverse.com/thing:6104662) - Best way to install (minimal modifications and no drilling).
+  - 📚 [Related to bed rocking - adjusting bearings in linear module](https://support.snapmaker.com/hc/en-us/articles/1500000110341-What-should-I-do-when-the-slider-of-the-Linear-Module-comes-loose-) - official guide on how to disassemble the linear module and adjust bearings.
 
 - **Enclosure**
   - 📝 [DIY Fumes Filtration system - BentoBox](https://www.printables.com/model/272525-bentobox-v20-carbon-filter-for-bambu-lab-x1c-enclo) - Closedloop, combines HEPA filter and activated carbon filter.
