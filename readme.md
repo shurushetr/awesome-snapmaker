@@ -143,6 +143,7 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
   - 📝 [Connect via Ethernet](https://forum.snapmaker.com/t/works-usb-to-ethernet-adapter/8074/) - you can use usb adapter to connect via ethernet to your machine.
   - 📝 [Direct communication over serial port](https://forum.snapmaker.com/t/android-cell-phone-terminal-console/12838/6) - Using the MINIUSB port, you can connect to machines console (like with Luban) to run commands directly. This post shows settings for Putty - terminal app. Snapmaker has simple serial to USB converter inside.
   - 📝 [USB port forwarding](https://forum.snapmaker.com/t/usb-forwarding-of-the-snapmaker/32831) - has it's dangers, but you can trick you host machine into thinking that snapmaker is connected directly via usb, when it is actually connected to a different machine.
+  - 📝 [USB to Ethernet adapter](https://forum.snapmaker.com/t/works-usb-to-ethernet-adapter/8074/) - no wifi no problem - use ethernet adater with your snapmaker.
 
 - **3D Printing**
   - 📝 [Bed Leveling - Revisited & Detailed](https://forum.snapmaker.com/t/bed-leveling-revisited-detailed/30508) - Writeup by [@Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr) about bed leveling and issues along the way.
@@ -219,7 +220,7 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
   - 💾 [Take a look at 3d Models from this list](#handy-files--models) - they have some mods modeled on them.
   - 📝 [CNC Bracing For Added Rigidity & Other Mods](https://forum.snapmaker.com/t/cnc-bracing-for-added-rigidity-other-mods/29444) - Collection of mods designed by [@Elliot](https://forum.snapmaker.com/u/Elliot).
   - 📝 [Snapmaker 2.0 Cable Chain Brackets](https://www.thingiverse.com/thing:4909694) - Stop your cables from flopping around during the print - reduce kinks and damage.
-  - 📝 [Minimize bed rocking along Y axis at the forum](https://forum.snapmaker.com/t/minimize-rocking/19215/) - the biggest problem with the platform is it's unstable bed that get's worse overtime. Illustrated in [this video from Facebook post among many others](https://www.facebook.com/groups/snapmaker/posts/1706559253095714/). 
+  - 📝 [Minimize bed rocking along Y axis at the forum](https://forum.snapmaker.com/t/minimize-rocking/19215/) - the biggest problem with the platform is it's unstable bed that get's worse overtime. Illustrated in [this video from Facebook post among many others](https://www.facebook.com/groups/snapmaker/posts/1706559253095714/).
      - Purchase SBR16-800mm rails will solve this issue. Links for exact rail - [Shopping list](#shopping-list).
      - [3D Print these adapters](https://www.thingiverse.com/thing:6104662) - Best way to install (minimal modifications and no drilling).
   - 📚 [Related to bed rocking - adjusting bearings in linear module](https://support.snapmaker.com/hc/en-us/articles/1500000110341-What-should-I-do-when-the-slider-of-the-Linear-Module-comes-loose-) - official guide on how to disassemble the linear module and adjust bearings.
