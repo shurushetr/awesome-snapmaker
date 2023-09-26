@@ -29,7 +29,7 @@ Snapmaker Ray</a>
 <!-- description -->
 
 High performance - 3D printer / Laser / CNC - with a large build volume.
-</br></br></br>
+</br></br>
 
 # SUPPORT
 
@@ -149,10 +149,12 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 ## How to set stuff up
 
 - **Connectivity**
-  - 📝 [Connect via Ethernet](https://forum.snapmaker.com/t/works-usb-to-ethernet-adapter/8074/) - you can use usb adapter to connect via ethernet to your machine.
+  - 📝 [USB to Ethernet adapter](https://forum.snapmaker.com/t/works-usb-to-ethernet-adapter/8074/) - you can use usb adapter to connect via ethernet to your machine.
   - 📝 [Direct communication over serial port](https://forum.snapmaker.com/t/android-cell-phone-terminal-console/12838/6) - Using the MINI-USB port, you can connect to machines console (like with Luban) to run commands directly. This post shows settings for Putty - terminal app. Snapmaker has simple serial to USB converter inside.
   - 📝 [USB port forwarding](https://forum.snapmaker.com/t/usb-forwarding-of-the-snapmaker/32831) - has it's dangers, but you can trick you host machine into thinking that snapmaker is connected directly via usb, when it is actually connected to a different machine.
-  - 📝 [USB to Ethernet adapter](https://forum.snapmaker.com/t/works-usb-to-ethernet-adapter/8074/) - no wifi no problem - use ethernet adapter with your snapmaker.
+  - 🔧 [SM2Uploader](https://github.com/macdylan/sm2uploader) - [WIN/NIX/MAC] - A command-line tool for sending the files to Snapmaker machines via network connection. Can act as Octoprint to emulate upload for Cura/PrusaSlicer/SuperSlicer/ideaMaker. Use it with NC and CNC files on  Snapmaker 2 A150/250/350, J1, Artisan. Credit - [@macdylan](https://github.com/macdylan).
+    - [How to setup sm2uploader with slicers](https://forum.snapmaker.com/t/great-sharing-prusaslicer-profiles-by-dylan-and-mcgybeer/28796/133).
+    - [How to add sm2uploader to context menu of Windows 11](https://forum.snapmaker.com/t/upload-files-to-any-snapmaker-with-right-click-menu-windows-11-guide/33041)
 
 - **3D Printing**
   - 📝 [Bed Leveling - Revisited & Detailed](https://forum.snapmaker.com/t/bed-leveling-revisited-detailed/30508) - Writeup by [@Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr) about bed leveling and issues along the way.
@@ -225,11 +227,10 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 ### Snapmaker 2.0 Mods
 
 - **Firmware**
-  - **Snapmaker 2.0**
-    - **Tools**
-      - 💻 [Snapmaker2 update bundle tools](https://github.com/zauguin/SnapmakerUpdate) - toolkit to assemble snapmaker firmware, created by [@zauguin](https://github.com/zauguin)
-    - Firmware mods
-      - 💾 📝 [Use Dual Extruder to autolevel on any surface](https://github.com/Maycuz/Snapmaker2-Controller) - read the readme. Credit to [@Mayco](https://forum.snapmaker.com/u/Mayco). Forum thread where this firmware was first published - [Dual Extruder: bed leveling with nozzle i.s.o. proximity sensor](https://forum.snapmaker.com/t/dual-extruder-bed-leveling-with-nozzle-i-s-o-proximity-sensor/31613/16).
+  - Tools
+    - 💻 [Snapmaker2 update bundle tools](https://github.com/zauguin/SnapmakerUpdate) - toolkit to assemble snapmaker firmware, created by [@zauguin](https://github.com/zauguin)
+  - Firmware mods
+    - 💾 📝 [Use Dual Extruder to autolevel on any surface](https://github.com/Maycuz/Snapmaker2-Controller) - read the readme. Credit to [@Mayco](https://forum.snapmaker.com/u/Mayco). Forum thread where this firmware was first published - [Dual Extruder: bed leveling with nozzle i.s.o. proximity sensor](https://forum.snapmaker.com/t/dual-extruder-bed-leveling-with-nozzle-i-s-o-proximity-sensor/31613/16).
 
 - **Overall Platform related**
   - 💾 [Take a look at 3d Models from this list](#handy-files--models) - they have some mods modeled on them.
@@ -248,6 +249,7 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 - **3D Printing**
   - **Snapmaker 2.0 mods**
     - 📝 [All metal hot end simple mod](https://forum.snapmaker.com/t/fyi-snapmaker-2-all-metal-hotend-simple-mod/10046/63) - Writeup by [@Franky](https://forum.snapmaker.com/u/Franky) followed by discussion about installing all metal heat break.
+    
     - **Leveling**
       - 💾 📝 [Klicky probe - bed leveling on anything! Stealth mod for single extruder](https://forum.snapmaker.com/t/klicky-probe-bed-leveling-on-anything-stealth-mod-for-single-extruder/32229) - Klicky probe for snapmaker single extruder. Level on anything, simple, no firmware changes. You can find parts in the [Shopping list](#shopping-list)
       - 💾 [Glass bed leveling probe - FiFix Mod](files/models/FiFix_glass_probe_mod_by_stefix.zip) - Clever way by [@Stefix](https://forum.snapmaker.com/u/stefix/) to allow leveling on glass using OEM probe. Find more information about it [here](https://forum.snapmaker.com/t/for-all-who-want-level-on-glass/12437). No Firmware modification required.
@@ -258,6 +260,7 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
   
   - **Snapmaker J1/J1s mods**
     - 📝 [J1/J1s nozzle & heatbreak upgrade - anti clogging solution](https://forum.snapmaker.com/t/findings-and-solution-for-the-snapmaker-j1-clogging-problem/30472/190) - parts gathered by [@StephenM](https://forum.snapmaker.com/u/StephenM).
+
 - **Laser**
   - 📝 💾 [Add airassist to your 10W laser](https://www.facebook.com/groups/snapmaker/posts/1694540740964232/) - [SM2.0 / ARTISAN] -  a facebook post that shows an implementation of internal air assist with external air pump, cheap and effective mod to make your laser path clean. STL file is in the [handy files list below](#handy-files--models). Original design by [@Raagnarix](https://www.youtube.com/@Raagnarix) form [this video](https://www.youtube.com/watch?v=zg8jiem-8v8)
 
@@ -300,7 +303,6 @@ Air assist is recommended for any laser module you use. Some mods are listed in 
     - [PrusSLicer Profiles](https://forum.snapmaker.com/t/great-sharing-prusaslicer-profiles-by-dylan-and-mcgybeer/28796) - By [@macdylan](https://github.com/macdylan) and [@McGybeer](https://forum.snapmaker.com/u/mcgybeer).
 - **LASER CUTTING AND ENGRAVING**
   - 🔧 [Test Grid Generator](https://github.com/nunorvoliveira/Snapmaker-Laser-Test-Grid) - [WIN] - Generates G-Code to test your materials best speed/power ratio. Credit - @nunorvoliveira.
-  - 🔧 [Camera capture in Lightburn](https://github.com/PolymerPrints/SnapmakerLightBurnHost) - [WIN] - emulates camera for Lightburn. Credit - [@Maycuz](https://github.com/Maycuz), @PolymerPrints, [Slynold](https://forum.snapmaker.com/u/slynold). And link to the [forum thread](https://forum.snapmaker.com/t/working-camera-capture-with-lightburn/28397).
   - 🔧 [Laser Calibration Tool](https://github.com/daniel-starke/LaserCalibrationTool) - [WEB] - Laser calibration pattern generator.
 - CNC
   - 🔧 [Fusion360 Post Processor](https://github.com/nunorvoliveira/snapmaker-2.0/tree/main/Fusion%20360) - [Fusion360] - Fusion360 postprocessor. Credit - @nunorvoliveira.
@@ -309,8 +311,6 @@ Air assist is recommended for any laser module you use. Some mods are listed in 
     - [Forum post](https://forum.snapmaker.com/t/cnc-post-processor-ask-for-testing/5864)
   - [3D Touchprobe controller](https://github.com/brvdboss/3D-touchprobe-controller) - designed to work with a 3D touch probe on the SnapMaker 2 device and a 3D touchprobe. [DIY version can be found here](https://github.com/brvdboss/3d-touchprobe). Credit - [@brvdboss](https://forum.snapmaker.com/u/brvdboss).
 - **G-CODE and machine control**
-  - 🔧 [SM2Uploader](https://github.com/macdylan/sm2uploader) - [WIN/NIX/MAC] - A command-line tool for send the G-code file to Snapmaker Printers via WiFi connection. Supports Cura/PrusaSlicer/SuperSlicer/ideaMaker with Snapmaker 2 A150/250/350, J1, Artisan. Credit - [@macdylan](https://github.com/macdylan).
-    - And [here is how to set it up](https://forum.snapmaker.com/t/great-sharing-prusaslicer-profiles-by-dylan-and-mcgybeer/28796/133?u=nweolu).
   - 🔧 [Snapmaker2Slic3rPostProcessor](https://github.com/macdylan/Snapmaker2Slic3rPostProcessor) - [WIN/NIX/MAC] - A Snapmaker G-Code Post Processor for PrusaSlicer and SuperSlicer to create compatible files for Snapmaker Touchscreen. Like thumbnail of the print on the screen. Supports PrusaSlicer and SuperSlicer with Snapmaker 2 A150/250/350, J1, Artisan. Credit - [@macdylan](https://github.com/macdylan).
   - 🔧 [A Snapmaker 2.0 PrusaSlicer Post-Processor to create compatible files for the Snapmaker terminal.](https://github.com/daniel-starke/sm2pspp) - Another g-code postprocessor for Prusaslicer. Credit - [@daniel-starke](https://github.com/daniel-starke).
   - 🔧 [Snapmaker 2.0 Lightburn post-Processor](https://github.com/daniel-starke/sm2lbpp) - Adding thumbnails to your g-code from Lightburn. Credit - [@daniel-starke](https://github.com/daniel-starke). This is hopefully will be implemented in Lightburn with v1.5.0 - [source](https://forum.snapmaker.com/t/lightburn-post-processor/31433/8).
