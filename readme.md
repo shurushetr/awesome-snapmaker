@@ -244,6 +244,7 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 - **Enclosure**
   - 📝 [DIY Fumes Filtration system - BentoBox](https://www.printables.com/model/272525-bentobox-v20-carbon-filter-for-bambu-lab-x1c-enclo) - Closedloop, combines HEPA filter and activated carbon filter.
   - 📝 [DIY Fumes Filtration system - NeverMore](https://github.com/nevermore3d/Nevermore_Micro) - Opensource closedloop activated carbon filtration system. Also check out other sizes in the same repository.
+  - 📝 [DIY Fumes Filtration system - 3D Printer Enclosure Air Filter ](https://www.printables.com/model/445976-3d-printer-enclosure-air-filter) - Largest filtration media size - 400hrs of print with one filter, advanced module for efficient filtration.
   - 📝 [DIY Enclosure controls](https://forum.snapmaker.com/t/diy-enclosure-controller-prototype-on-arduino/22094) - Awesome project by [@Ronin](https://forum.snapmaker.com/u/Ronin). Files available in description of the [video](https://www.youtube.com/watch?v=9gOlhEzB8m4).
 
 - **3D Printing**
