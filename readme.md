@@ -65,6 +65,7 @@ Hit CTRL+F on your keyboard to search in page and type the keyword you are looki
   - [How to modify stuff](#how-to-modify-stuff)
   - [Settings Collection](#settings-collection)
     - [Laser](#laser-settings)
+    - [3D Printing](#3d-printing-settings)
 - 🔧 [Tools](#tools) - software tools created by community members.
   - [Specific to Snapmaker machines](#specific-to-snapmaker-machines)
   - [Generic Tools](#generic-tools)
@@ -288,7 +289,7 @@ Air assist is recommended for any laser module you use. Some mods are listed in 
 | YETTI cups | Engrave | N/A | Fill <br/> Line interval 0.07 | 3500 | 40 | Quick rub with a magic eraser and then I use a chrome polish on a drill buffer to make it pop. Wash in the sink after| [Facebook post](https://www.facebook.com/groups/snapmaker/posts/1797922073959431/) |
 |||||||||
 
-## 3D Printing
+## 3D Printing settings
 
 A collection of profiles for various slicers.
 | Supported <br/> printers | Slicer | Support for Dual extruder (DE) <br> Single extruder (SE) | Author | Profiles download link | Link to publication post | Notes |
