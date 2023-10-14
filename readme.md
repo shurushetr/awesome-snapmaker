@@ -288,6 +288,20 @@ Air assist is recommended for any laser module you use. Some mods are listed in 
 | YETTI cups | Engrave | N/A | Fill <br/> Line interval 0.07 | 3500 | 40 | Quick rub with a magic eraser and then I use a chrome polish on a drill buffer to make it pop. Wash in the sink after| [Facebook post](https://www.facebook.com/groups/snapmaker/posts/1797922073959431/) |
 |||||||||
 
+## 3D Printing
+
+A collection of profiles for various slicers.
+| Supported <br/> printers | Slicer | Support for Dual extruder (DE) <br> Single extruder (SE) | Author | Profiles download link | Link to publication post | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+|Snapmaker 2.0 A350|Ulltimaker Cura|SE|[@Kaouthia](https://github.com/Kaouthia)|[GitHub](https://github.com/Kaouthia/Snapmaker-2)|N/A||
+|Snapmaker 2.0 A350 <br> Snapmaker 2.0 A250|PrusaSlicer|SE|[@mrworf](https://forum.snapmaker.com/u/MrWorf)|[GitHub](https://github.com/mrworf/snapmaker-prusa)|N/A||
+|Snapmaker 2.0 A350|PrusaSlicer|SE|[Snapmaker Team](https://forum.snapmaker.com/u/Edwin)|[Google Drive](https://drive.google.com/open?id=1xfBgXZzwjKaeZ3iqscdpe2xosgFV03G0)|[Snapmaker Forum](https://forum.snapmaker.com/t/prusa-slicer-profile/5657/7)||
+|Snapmaker J1/J1s|PrusaSlicer|N/A|[@leandrolima-nyc ](https://github.com/leandrolima-nyc)|[GitHub](https://github.com/leandrolima-nyc/SnapmakerJ1)|N/A||
+|Snapmaker 2.0 A250 <br> Snapmaker 2.0 A350 <br> Snapmaker J1/J1s|PrusaSlicer|SE|[@MacDylan](https://forum.snapmaker.com/u/macdylan)|[GitHub](https://github.com/macdylan/3dp-configs/blob/main/README-en.md)|N/A|[Additional description translated in Chinese](https://github.com/macdylan/3dp-configs/)|
+|Snapmaker 2.0 A250|PrusaSLicer|DE|[@takeota](https://forum.snapmaker.com/u/takeota)|[Snapmaker Forum](https://forum.snapmaker.com/uploads/short-url/dRORxfm5l4wQNFRicH3umRi72HV.zip)|[Posted at Snapmaker Forum](https://forum.snapmaker.com/t/dual-extruder-and-prusaslicer/29792/62)|This is for A250, but Dual Extruder settings are easy to adopt for A350|
+|Snapmaker 2.0 A250 <br> Snapmaker 2.0 A350 <br> Snapmaker J1/J1s|OrcaSlicer|SE|[@MacDylan](https://forum.snapmaker.com/u/macdylan)|[GitHub](https://github.com/macdylan/3dp-configs/blob/main/README-en.md)|N/A|[Additional description translated in Chinese](https://github.com/macdylan/3dp-configs/)|
+||||[]()|[]()|||
+||||[]()|[]()|||
 # Tools
 
 ## Specific to Snapmaker machines
@@ -295,13 +309,6 @@ Air assist is recommended for any laser module you use. Some mods are listed in 
 - **3D PRINTING**
   - [CURA plugin made by Snapmaker](https://github.com/Snapmaker/SnapmakerCuraPlugin) - [SM2.0 / ARTISAN / J1].
   - [Dual Extruder and Prusaslicer](https://forum.snapmaker.com/t/dual-extruder-and-prusaslicer/29792/) - [SM2.0 / ARTISAN] - forum thread dedicated to setting up dual extruder with PrusaSlicer.
-  - **Snapmaker 2.0**
-    - [Ulltimaker Cura profiles](https://github.com/Kaouthia/Snapmaker-2) - Cura profiles by @Kaouthia.
-      - [PrusaSlicer profiles](https://github.com/mrworf/snapmaker-prusa) - Profiles by [@mrworf](https://forum.snapmaker.com/u/MrWorf).
-      - [PrusaSlicer profiles](https://forum.snapmaker.com/t/prusa-slicer-profile/5657/7) - By Snapmaker Team.
-  - **Snapmaker J1/J1s**
-    - [PrusaSlicer Profiles](https://github.com/leandrolima-nyc/SnapmakerJ1) - Prusa profiles to setup Snapmaker J1. Credit - @leandrolima-nyc.
-    - [PrusSLicer Profiles](https://forum.snapmaker.com/t/great-sharing-prusaslicer-profiles-by-dylan-and-mcgybeer/28796) - By [@macdylan](https://github.com/macdylan) and [@McGybeer](https://forum.snapmaker.com/u/mcgybeer).
 - **LASER CUTTING AND ENGRAVING**
   - 🔧 [Test Grid Generator](https://github.com/nunorvoliveira/Snapmaker-Laser-Test-Grid) - [WIN] - Generates G-Code to test your materials best speed/power ratio. Credit - @nunorvoliveira.
   - 🔧 [Laser Calibration Tool](https://github.com/daniel-starke/LaserCalibrationTool) - [WEB] - Laser calibration pattern generator.
