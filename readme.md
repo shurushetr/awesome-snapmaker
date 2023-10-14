@@ -282,7 +282,7 @@ Snapmaker published settings are available through following links:
 Air assist is recommended for any laser module you use. Some mods are listed in here.
 
 | Material | Operation | Thickness <br/> (mm) | Method | Work Speed <br/> (mm/min) | Power <br/> (%) | Notes | Source |
-| --- | --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | :---:  | --- | :---:  | :---:  | --- | --- |
 | Acrilic Clear | Engrave | N/A | Fill <br/> Line interval 0.25mm | 500 | 100 | Place sheet of paper on top of acrylic | [Facebook post](https://www.facebook.com/groups/snapmaker/posts/1794963157588656)
 | Stainless Steal | Engrave | N/A | Fill <br/> Line interval 0.1mm | 450 | 100 | Clean steel surface | [Marking SS with 10W laser](https://forum.snapmaker.com/t/marking-ss-with-10w-laser/25577)|
 | YETTI cups | Engrave | N/A | Fill <br/> Line interval 0.07 | 3500 | 40 | Quick rub with a magic eraser and then I use a chrome polish on a drill buffer to make it pop. Wash in the sink after| [Facebook post](https://www.facebook.com/groups/snapmaker/posts/1797922073959431/) |
@@ -292,7 +292,7 @@ Air assist is recommended for any laser module you use. Some mods are listed in 
 
 A collection of profiles for various slicers.
 | Supported <br/> printers | Slicer | Support for Dual extruder (DE) <br> Single extruder (SE) | Author | Profiles download link | Link to publication post | Notes |
-| --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | :---:  | --- | --- | --- | --- |
 |Snapmaker 2.0 A350|Ulltimaker Cura|SE|[@Kaouthia](https://github.com/Kaouthia)|[GitHub](https://github.com/Kaouthia/Snapmaker-2)|N/A||
 |Snapmaker 2.0 A350 <br> Snapmaker 2.0 A250|PrusaSlicer|SE|[@mrworf](https://forum.snapmaker.com/u/MrWorf)|[GitHub](https://github.com/mrworf/snapmaker-prusa)|N/A||
 |Snapmaker 2.0 A350|PrusaSlicer|SE|[Snapmaker Team](https://forum.snapmaker.com/u/Edwin)|[Google Drive](https://drive.google.com/open?id=1xfBgXZzwjKaeZ3iqscdpe2xosgFV03G0)|[Snapmaker Forum](https://forum.snapmaker.com/t/prusa-slicer-profile/5657/7)||
