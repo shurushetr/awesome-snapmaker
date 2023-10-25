@@ -66,6 +66,7 @@ Hit CTRL+F on your keyboard to search in page and type the keyword you are looki
   - [Settings Collection](#settings-collection)
     - [Laser](#laser-settings)
     - [3D Printing](#3d-printing-settings)
+    - [CNC Settings](#cnc-settings)
 - 🔧 [Tools](#tools) - software tools created by community members.
   - [Specific to Snapmaker machines](#specific-to-snapmaker-machines)
   - [Generic Tools](#generic-tools)
@@ -303,6 +304,13 @@ A collection of profiles for various slicers.
 |Snapmaker 2.0 A250 <br> Snapmaker 2.0 A350 <br> Snapmaker J1/J1s|OrcaSlicer|SE|[@MacDylan](https://forum.snapmaker.com/u/macdylan)|[GitHub](https://github.com/macdylan/3dp-configs/blob/main/README-en.md)|N/A|[Additional description translated in Chinese](https://github.com/macdylan/3dp-configs/)|
 ||||[]()|[]()|||
 ||||[]()|[]()|||
+
+## CNC Settings
+| Material | Operation | Tool | Tool RPM | Feed rate <br/> (mm/min) | Stepdown <br/> (mm)| Notes | Source |
+| --- | --- | :---:  | --- | :---:  | :---:  | --- | --- |
+| Clear Acrylic | Milling | Standard 1.5mm 1 flute bit from Snapmaker | 12000 | 1000 | 0.5 | In plastic you are better off moving fast and taking small cuts otherwise you will get that melted blob of doom | [Facebook post](https://www.facebook.com/groups/371401856611467/user/100027477288104/)|
+||||||||[]()|
+
 # Tools
 
 ## Specific to Snapmaker machines
