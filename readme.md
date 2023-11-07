@@ -59,6 +59,7 @@ Hit CTRL+F on your keyboard to search in page and type the keyword you are looki
 - 👋 [Official Communities](#official-communities)
 - 📝 [Community Guides](#community-guides)
   - [How to set stuff up](#how-to-set-stuff-up)
+    - [HomeAssistant Automation]
   - [How to make stuff](#how-to-make-stuff)
     - [Online stuff generators](#online-stuff-generators)
   - [How to fix stuff](#how-to-fix-stuff)
@@ -172,6 +173,11 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
   - 📝 [Rotary Module with Fusion360: It works! (good enough)](https://forum.snapmaker.com/t/rotary-module-with-fusion360-it-works-good-enough/24367) - [SM2.0 / ARTISAN] - Writeup by [@brvdboss](https://forum.snapmaker.com/u/brvdboss) on how to setup Fusion360 with Rotary Module.
   - 📝📹[Snapmaker 2.0 by Koka-Bora Creations](https://www.youtube.com/playlist?list=PLWlW9PTm7_qvYvXytlfXZib--P-qIz3fp) - a 20 episode video series on using snapmaker 2.0 for projects. Bunch of CNC material.
 
+### Home Assistant Automation
+
+- 📝 [Send machine status to Home Assistant](https://www.steffr.ch/snapmaker-2-0-and-home-assistant/) - you can recieve notification when your job is finished to your phone! Published by [@NightCrawler](https://forum.snapmaker.com/u/NightCrawler) in this post - [forum.snapmaker.com](https://forum.snapmaker.com/t/do-snapmaker-2-0-devices-have-a-webpage/5455/55).
+- 📝 [Enclosure mods including flame sensor](https://forum.snapmaker.com/t/facbook-post-repost-next-level-enclosure-mods/32637) - not a guide but demo of a what is possible setup made by a communty member.
+
 ## How to make stuff
 
 - **Laser**
@@ -273,13 +279,12 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 # Settings Collection
 
 This is a collection of settings/hacks for processing various materials with various tools shared by community members.
-Snapmaker published settings are available through following links:
+
+## Laser settings
 
 - 📚 [The Definitive Guide to Laser Engraving and Cutting with the 10W High Power Laser Module.](https://support.snapmaker.com/hc/en-us/articles/8072478934935-The-Definitive-Guide-to-Laser-Engraving-and-Cutting-with-the-10W-High-Power-Laser-Module-)
 - 📚 [The Definitive Guide to Laser Engraving and Cutting with the 200mW and 1600mW Laser Module](https://support.snapmaker.com/hc/en-us/articles/360019025954-The-Definitive-Guide-to-Laser-Engraving-and-Cutting-with-the-200mW-and-1600mW-Laser-Module)
-- 📝[List of materials you shoudn't be lasering](https://cpl.org/wp-content/uploads/NEVER-CUT-THESE-MATERIALS.pdf)
-
-## Laser settings
+- 📝[List of materials you shouldn't be lasering](https://cpl.org/wp-content/uploads/NEVER-CUT-THESE-MATERIALS.pdf)
 
 Air assist is recommended for any laser module you use. Some mods are listed in here.
 
