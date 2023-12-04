@@ -179,6 +179,9 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 
 ## How to make stuff
 
+- **3D Printing**
+  - 📝 [Tabletop miniature with 0.2 mm nozzle and PVA support (Dual Extruder)](https://forum.snapmaker.com/t/tabletop-miniature-with-0-2-mm-nozzle-and-pva-support-dual-extruder/33809?u=hauke) - Great results with printing miniatures using 2.0 nozzle [@hauke](https://forum.snapmaker.com/u/hauke).
+
 - **Laser**
   - 📝 [Laser on Ceramics (tiles): How to Make It Not Only Black on White](https://support.snapmaker.com/hc/en-us/articles/9589024708759-Laser-on-Ceramics-How-to-Make-It-Not-Only-Black-on-White) - an awesome tutorial written by community member [@Eugene Fedorov](https://www.facebook.com/groups/371401856611467/user/1608278798/) and posted on snapmaker website.
   - 📝 [Guide: Easier Titanium Coverage for Tile](https://forum.snapmaker.com/t/guide-easier-titanium-coverage-for-tile/30863) - Huge time saving tip from [@Skreelink](https://forum.snapmaker.com/u/Skreelink).
