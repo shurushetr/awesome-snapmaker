@@ -231,6 +231,7 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
     - 📚 [Dual Extruder heatcreep temporary solution provided by Snapmaker](https://forum.snapmaker.com/t/dual-extrusion-head-heat-creep-discussion-thread/30010/140) - post by [@Jade](https://forum.snapmaker.com/u/Jade) in response to big discussion started by community in [Dual Extrusion Head: Heat creep discussion thread](https://forum.snapmaker.com/t/dual-extrusion-head-heat-creep-discussion-thread/30010). Sounds like there will be a shipment from snapmaker to owners of dual extruder for permanent proper fix.
     - 📚 [The extruder buckle of the Dual Extrusion Module gets loose](https://forum.snapmaker.com/t/temporary-solution-buckle-wedge-stl-file-for-extruder-buckle-issues/31716) - forum topic with temp. wedge solution,  addressing a widespread problem described by community members across Facebook groups and snapmaker forum. Sounds like there will be a shipment from snapmaker to owners of dual extruder for permanent proper fix.
     - 📚 [Troubleshooting articles related to Dual Extruder issues](https://wiki.snapmaker.com/t/dual%20extrusion)
+    - 📝 [Replacing the leveling sensor](https://www.facebook.com/groups/snapmaker/posts/1853853658366272/) - [@Claire Elliot Matthews](https://www.facebook.com/groups/371401856611467/user/100000288498499/).
 - CNC
   - 📝 [CNC routing arbitrary circles](https://forum.snapmaker.com/t/cnc-routing-arbitrary-circles/32055) - if you have issues with milling simple circles on CNC take a look at this thread.
 
