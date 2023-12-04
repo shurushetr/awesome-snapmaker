@@ -59,7 +59,6 @@ Hit CTRL+F on your keyboard to search in page and type the keyword you are looki
 - 👋 [Official Communities](#official-communities)
 - 📝 [Community Guides](#community-guides)
   - [How to set stuff up](#how-to-set-stuff-up)
-    - [HomeAssistant Automation]
   - [How to make stuff](#how-to-make-stuff)
     - [Online stuff generators](#online-stuff-generators)
   - [How to fix stuff](#how-to-fix-stuff)
@@ -184,6 +183,8 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
   - 📝 [Laser on Ceramics (tiles): How to Make It Not Only Black on White](https://support.snapmaker.com/hc/en-us/articles/9589024708759-Laser-on-Ceramics-How-to-Make-It-Not-Only-Black-on-White) - an awesome tutorial written by community member [@Eugene Fedorov](https://www.facebook.com/groups/371401856611467/user/1608278798/) and posted on snapmaker website.
   - 📝 [Guide: Easier Titanium Coverage for Tile](https://forum.snapmaker.com/t/guide-easier-titanium-coverage-for-tile/30863) - Huge time saving tip from [@Skreelink](https://forum.snapmaker.com/u/Skreelink).
   - 📝 [Shadow board or tool cutouts - Ultimate guide](https://www.youtube.com/watch?v=Wcxh1lLltAE) - this is the proper way of making the tool organizers known as shadow boards. Can also be used with CNC.
+  - 📝 [Tapered glasses engraving](https://forum.snapmaker.com/t/rotary-10w-laser-tapered-16oz-beer-glasses/33577) - detailed instructions on how to engrave beer glasses by [@Mads0100](https://forum.snapmaker.com/u/Mads0100).
+  - 📝 [Guide: Etching Glass with 10 Watt Laser with Dry Moly](https://forum.snapmaker.com/t/guide-etching-glass-with-10-watt-laser-with-dry-moly/33914?u=gil.a.ramirez) - Using 10W laser to etch glass with DryMoly [@gil.a.ramirez](https://forum.snapmaker.com/u/gil.a.ramirez).
 - **CNC**
   - 📝 [PCB milling process](https://github.com/tommy-vaux/Snapmaker_2_PCB_Milling_Process) - Detailed writeup by [@tommy-vaux](https://github.com/tommy-vaux).
 
@@ -293,6 +294,8 @@ Air assist is recommended for any laser module you use. Some mods are listed in 
 | Acrilic Clear | Engrave | N/A | Fill <br/> Line interval 0.25mm | 500 | 100 | Place sheet of paper on top of acrylic | [Facebook post](https://www.facebook.com/groups/snapmaker/posts/1794963157588656)
 | Stainless Steal | Engrave | N/A | Fill <br/> Line interval 0.1mm | 450 | 100 | Clean steel surface | [Marking SS with 10W laser](https://forum.snapmaker.com/t/marking-ss-with-10w-laser/25577)|
 | YETTI cups | Engrave | N/A | Fill <br/> Line interval 0.07 | 3500 | 40 | Quick rub with a magic eraser and then I use a chrome polish on a drill buffer to make it pop. Wash in the sink after| [Facebook post](https://www.facebook.com/groups/snapmaker/posts/1797922073959431/) |
+| Rubber Stamps | Engrave | N/A | Fill <br/> Line interval 0.15 | 880 | 100 | 1 pass | [Facebook comment by Darien Kruss](https://www.facebook.com/groups/snapmaker/posts/1851724585245846/) |
+| Rubber Stamps | Cut | N/A | On the line| 400 | 100 | 4 pass <br/> z-step 1.00 mm | [Facebook comment by Darien Kruss](https://www.facebook.com/groups/snapmaker/posts/1851724585245846/) |
 |||||||||
 
 ## 3D Printing settings
