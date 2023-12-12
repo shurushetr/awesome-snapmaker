@@ -296,6 +296,7 @@ Air assist is recommended for any laser module you use. Some mods are listed in 
 | Material | Operation | Thickness <br/> (mm) | Method | Work Speed <br/> (mm/min) | Power <br/> (%) | Notes | Source |
 | --- | --- | :---:  | --- | :---:  | :---:  | --- | --- |
 | Acrilic Clear | Engrave | N/A | Fill <br/> Line interval 0.25mm | 500 | 100 | Place sheet of paper on top of acrylic | [Facebook post](https://www.facebook.com/groups/snapmaker/posts/1794963157588656)
+| Acrilic Clear | Dot-filled Engraving | N/A | Fill <br/> Dot interval 0.14mm | 5ms/dot | 30 | Put liquid chalk on top (either marker or spray) | [Snapmaker forum](https://forum.snapmaker.com/t/10w-laser-clear-acrylic-engraved-logo-with-light-base/26105)
 | Stainless Steal | Engrave | N/A | Fill <br/> Line interval 0.1mm | 450 | 100 | Clean steel surface | [Marking SS with 10W laser](https://forum.snapmaker.com/t/marking-ss-with-10w-laser/25577)|
 | YETTI cups | Engrave | N/A | Fill <br/> Line interval 0.07 | 3500 | 40 | Quick rub with a magic eraser and then I use a chrome polish on a drill buffer to make it pop. Wash in the sink after| [Facebook post](https://www.facebook.com/groups/snapmaker/posts/1797922073959431/) |
 | Rubber Stamps | Engrave | N/A | Fill <br/> Line interval 0.15 | 880 | 100 | 1 pass | [Facebook comment by Darien Kruss](https://www.facebook.com/groups/snapmaker/posts/1851724585245846/) |
