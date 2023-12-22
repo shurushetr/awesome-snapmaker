@@ -287,6 +287,7 @@ This is a collection of settings/hacks for processing various materials with var
 
 ## Laser settings
 
+- 📚 [Recommended Parameters for Snapmaker 20W and 40W Laser Modules](https://wiki.snapmaker.com/Snapmaker_2/manual/recommended_parameters_for_20w_and_40w_laser_modules)
 - 📚 [The Definitive Guide to Laser Engraving and Cutting with the 10W High Power Laser Module.](https://support.snapmaker.com/hc/en-us/articles/8072478934935-The-Definitive-Guide-to-Laser-Engraving-and-Cutting-with-the-10W-High-Power-Laser-Module-)
 - 📚 [The Definitive Guide to Laser Engraving and Cutting with the 200mW and 1600mW Laser Module](https://support.snapmaker.com/hc/en-us/articles/360019025954-The-Definitive-Guide-to-Laser-Engraving-and-Cutting-with-the-200mW-and-1600mW-Laser-Module)
 - 📝[List of materials you shouldn't be lasering](https://cpl.org/wp-content/uploads/NEVER-CUT-THESE-MATERIALS.pdf)
