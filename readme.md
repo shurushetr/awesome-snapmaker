@@ -221,6 +221,7 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 
 - **AXIS**
   - [Snapmaker 2 milling kit for the brass nut in the linear axis](https://www.thingiverse.com/thing:4491190) - For all Snapmaker 2 users who have problems with the wear of the plastic nut in the linear guides, the milling program in conjunction with the clamping device offers the possibility of milling freely available brass trapezoidal nuts TR8x8 with anti Backslash so that they can be machined into the Snapmaker 2 compatible nut. By [@gojoetofly](https://www.thingiverse.com/gojoetofly)
+  - [DIY step motor drive repair](https://forum.snapmaker.com/t/i-have-successfully-repaired-my-dead-linear-module-fried-driver-chip/34459?u=cyb0124) - nice writeup about installing aftermarket drive for step motor.
 
 - **3D Printing related**
   - 📝 [Hot End Clogs - The How & Why](https://forum.snapmaker.com/t/hot-end-clogs-the-how-why/30376) - Writeup by [@Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr) about all metal heat break. Find one in [parts list below](#aftermarket-parts).
@@ -294,19 +295,23 @@ This is a collection of settings/hacks for processing various materials with var
 
 Air assist is recommended for any laser module you use. Some mods are listed in here.
 
-| Material | Operation | Thickness <br/> (mm) | Method | Work Speed <br/> (mm/min) | Power <br/> (%) | Notes | Source |
-| --- | --- | :---:  | --- | :---:  | :---:  | --- | --- |
-| Acrilic Clear | Engrave | N/A | Fill <br/> Line interval 0.25mm | 500 | 100 | Place sheet of paper on top of acrylic | [Facebook post](https://www.facebook.com/groups/snapmaker/posts/1794963157588656)
-| Acrilic Clear | Dot-filled Engraving | N/A | Fill <br/> Dot interval 0.14mm | 5ms/dot | 30 | Put liquid chalk on top (either marker or spray) | [Snapmaker forum](https://forum.snapmaker.com/t/10w-laser-clear-acrylic-engraved-logo-with-light-base/26105)
-| Stainless Steal | Engrave | N/A | Fill <br/> Line interval 0.1mm | 450 | 100 | Clean steel surface | [Marking SS with 10W laser](https://forum.snapmaker.com/t/marking-ss-with-10w-laser/25577)|
-| YETTI cups | Engrave | N/A | Fill <br/> Line interval 0.07 | 3500 | 40 | Quick rub with a magic eraser and then I use a chrome polish on a drill buffer to make it pop. Wash in the sink after| [Facebook post](https://www.facebook.com/groups/snapmaker/posts/1797922073959431/) |
-| Rubber Stamps | Engrave | N/A | Fill <br/> Line interval 0.15 | 880 | 100 | 1 pass | [Facebook comment by Darien Kruss](https://www.facebook.com/groups/snapmaker/posts/1851724585245846/) |
-| Rubber Stamps | Cut | N/A | On the line| 400 | 100 | 4 pass <br/> z-step 1.00 mm | [Facebook comment by Darien Kruss](https://www.facebook.com/groups/snapmaker/posts/1851724585245846/) |
-|||||||||
+| Material | Laser Module | Operation | Thickness <br/> (mm) | Method | Work Speed <br/> (mm/min) | Power <br/> (%) | Notes | Source |
+| --- | :---: | --- | :---:  | --- | :---:  | :---:  | --- | --- |
+| Acrilic Clear | 10W | Engrave | N/A | Fill <br/> Line interval 0.25mm | 500 | 100 | Place sheet of paper on top of acrylic | [Facebook post](https://www.facebook.com/groups/snapmaker/posts/1794963157588656)
+| Acrilic Clear | 10W | Dot-filled Engraving | N/A | Fill <br/> Dot interval 0.14mm | 5ms/dot | 30 | Put liquid chalk on top (either marker or spray) | [Snapmaker forum](https://forum.snapmaker.com/t/10w-laser-clear-acrylic-engraved-logo-with-light-base/26105)
+| Stainless Steal | 10W | Engrave | N/A | Fill <br/> Line interval 0.1mm | 450 | 100 | Clean steel surface | [Marking SS with 10W laser](https://forum.snapmaker.com/t/marking-ss-with-10w-laser/25577)|
+| YETTI cups | 10W | Engrave | N/A | Fill <br/> Line interval 0.07 | 3500 | 40 | Quick rub with a magic eraser and then I use a chrome polish on a drill buffer to make it pop. Wash in the sink after| [Facebook post](https://www.facebook.com/groups/snapmaker/posts/1797922073959431/) |
+| Rubber Stamps | 10W | Engrave | N/A | Fill <br/> Line interval 0.15 | 880 | 100 | 1 pass | [Facebook comment by Darien Kruss](https://www.facebook.com/groups/snapmaker/posts/1851724585245846/) |
+| Rubber Stamps | 10W | Cut | N/A | On the line| 400 | 100 | 4 pass <br/> z-step 1.00 mm | [Facebook comment by Darien Kruss](https://www.facebook.com/groups/snapmaker/posts/1851724585245846/) |
+|[Synthetic leather](https://www.jpplus.com/saddle-collection-sheet)| 1.6W | Engrave | N/A | Fill <br> Dot interval 0.1mm | Jog 1500 <br> Dwell time 3ms/dot | 70 | 10W module was too strong for this | [Forum post by Shamuscg](https://forum.snapmaker.com/t/laser-settings-for-saddles-collection-laser-safe-synthetic-leather/34590?u=shamuscg) |
+||||||||||
 
 ## 3D Printing settings
 
 A collection of profiles for various slicers.
+
+- 📝[Printing figurines with 0.2mm nozzle on Dual Extruder](https://forum.snapmaker.com/t/tabletop-miniature-with-0-2-mm-nozzle-and-pva-support-dual-extruder/33809?u=hauke)
+
 | Supported <br/> printers | Slicer | Support for Dual extruder (DE) <br> Single extruder (SE) | Author | Profiles download link | Link to publication post | Notes |
 | --- | --- | :---:  | --- | --- | --- | --- |
 |Snapmaker 2.0 A350|Ulltimaker Cura|SE|[@Kaouthia](https://github.com/Kaouthia)|[GitHub](https://github.com/Kaouthia/Snapmaker-2)|N/A||
