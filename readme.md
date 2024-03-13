@@ -352,7 +352,7 @@ A collection of profiles for various slicers.
   - 🔧 [Snapmaker 2.0 Lightburn post-Processor](https://github.com/daniel-starke/sm2lbpp) - Adding thumbnails to your g-code from Lightburn. Credit - [@daniel-starke](https://github.com/daniel-starke). This is hopefully will be implemented in Lightburn with v1.5.0 - [source](https://forum.snapmaker.com/t/lightburn-post-processor/31433/8).
   - 🔧 [Snapmaker Command Line Tool](https://github.com/hauti123/Snapmaker) - control your snapmaker via command line. Credit - [hauti123](https://github.com/hauti123).
   - 🔧 [Gamepad Controls for Snapmaker](https://github.com/PolymerPrints/snapmaker-gamepad-control) - control your machine with an xbox controller. Credit - [PolymerPrints](https://github.com/PolymerPrints)
-
+  - 🔧 [Serial UART Connection to a Snapmaker 2.0 Controller - for adding rotary enocder and other physical buttons](https://forum.snapmaker.com/t/add-a-serial-uart-connection-to-a-snapmaker-2-0-controller/34030?u=seppo) - control your machine with an xbox controller. Credit - [Seppo](https://forum.snapmaker.com/t/add-a-serial-uart-connection-to-a-snapmaker-2-0-controller/34030?u=seppo)
 ## Generic Tools
 
 - **CALIBRATION & PRINTER TUNING**
@@ -440,11 +440,14 @@ A collection of profiles for various slicers.
 ## Tooling
 
 - **CNC**
-  - 🛒 [Collet ER11](https://www.maritool.com/Collets-And-Sleeves-ER-Collets-ER11-Collets/c21_56_60/index.html) - if you want to use 1/4 bits get a different collet.
-  - 🛒 [CNC Plastic cutting bits](https://www.amanatool.com/products/cnc-router-bits/plastic-cutting-cnc-router-bits.html) - Plastic Cutting Router Bits - Industrial, ZrN & Spektra Coated by Amana Tool
-  - 🛒 [Lakeshore Carbide](https://www.lakeshorecarbide.com/) - good source of quality bits.
-  - 🛒 [Edge of Arlington Saw & Tool](https://www.eoasaw.com/) - good source of quality bits.
+  - 🛒 [Collet ER11](https://www.maritool.com/Collets-And-Sleeves-ER-Collets-ER11-Collets/c21_56_60/index.html) - if you want to use 1/4 bits get a different collet. (not affiliated)
+  - 🛒 [CNC Plastic cutting bits](https://www.amanatool.com/products/cnc-router-bits/plastic-cutting-cnc-router-bits.html) - Plastic Cutting Router Bits - Industrial, ZrN & Spektra Coated by Amana Tool. (not affiliated)
+  - 🛒 [Lakeshore Carbide](https://www.lakeshorecarbide.com/) - good source of metalwork quality bits. (not affiliated)
+  - 🛒 [Edge of Arlington Saw & Tool](https://www.eoasaw.com/) - good source of metalwork quality bits. (not affiliated)
+  - 🛒 [IDC Woodcraft](https://idcwoodcraft.com/) - good source of woodwork quality bits. (not affiliated). Thanks to Robert Reade from FB group.
 
+## Materials
+ - 🛒 [Ocooch Hardwoods](https://ocoochhardwoods.com/) - good source of quality precut wood for your projects. (not affiliated)
 ## 3d Printing
 
 - [Pick Filament by Color](https://filamentcolors.xyz)
