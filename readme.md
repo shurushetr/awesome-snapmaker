@@ -73,7 +73,10 @@ Hit CTRL+F on your keyboard to search in page and type the keyword you are looki
 - 💾 [Handy Files & Models](#handy-files--models) - files hosted in this repo.
   - [Released By Community members - UNOFFICIAL](#released-by-community-members---unofficial)
   - [Released by Snapmaker Team - OFFICIAL](#released-by-snapmaker-team---official)
-- 🛒 [Aftermarket Parts](#aftermarket-parts) -  Parts that were recommended by community members as spare/mods.
+- 🛒 [Shopping list](#shopping-list)
+  - 🛒 [Aftermarket Parts](#aftermarket-parts) -  Parts that were recommended by community members as spare/mods.
+  - 🛒 [Tooling](#tooling)
+  - 🛒 [Raw Material](#materials)
 - 💡 [Contributing to this list](#contributing)
 
 Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 files · 🛒 shopping items · 💻 coding
