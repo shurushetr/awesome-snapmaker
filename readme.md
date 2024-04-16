@@ -45,9 +45,6 @@ If you think that [official Wiki](https://wiki.snapmaker.com/) is missing someth
 # HOW TO USE THIS LIST
 
 Hit CTRL+F on your keyboard to search in page and type the keyword you are looking for. Try several and I'm sure you will find the thing you are looking for.
-
-# THIS LIST IN OTHER LANGUAGES
-[![German](image.png)](readme-de.md) [![English](image-1.png)](readme.md)
 </div>
 </br>
 <!-- TOC -->
