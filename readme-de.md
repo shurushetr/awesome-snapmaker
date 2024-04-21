@@ -8,7 +8,7 @@
 
 <!-- subtitle -->
 
-The most up to date list of Snapmaker docs, talks, tools, examples & articles the internet has to offer. </br>
+Die aktuellste Sammlung von Snapmaker Dokumenten, Diskussionen, Hilfsmittel, Beispielen & Artikeln, die das Internet zu bieten hat. </br>
 <a href="https://snapmaker.com/snapmaker-original" target="_blank" rel="noopener noreferrer">
 Snapmaker Original</a> ·
 <a href="https://snapmaker.com/snapmaker-2" target="_blank" rel="noopener noreferrer">
@@ -33,27 +33,27 @@ High performance - 3D printer / Laser / CNC - with a large build volume.
 
 # SUPPORT
 
-| If you encounter any problems, please submit a ticket first to Snapmaker.|
+| Wenn Probleme technische Probleme auftreten, schreibt hier an den Snapmaker Support .|
 :---:
 | [SUBMIT TICKET](https://snapmaker.formcrafts.com/support-ticket)  |
 
-You could also seek help from like-minded within [official communities](#official-communities).
+Du kannst auch Hilfe von Gleichgesinnten in den [Offiziellen Communities](#official-communities) finden.
 </br>
-If you think that [official Wiki](https://wiki.snapmaker.com/) is missing something - [Wiki Content Request](https://formcrafts.com/a/qmvudac)
+Wenn du denkst , das im  [offiziellen Wiki](https://wiki.snapmaker.com/) etwas fehlt - [Wiki Inhalts Anfrage](https://formcrafts.com/a/qmvudac)
 </br></br>
 
-# HOW TO USE THIS LIST
+# Wie benutze ich diese Liste
 
-Hit CTRL+F on your keyboard to search in page and type the keyword you are looking for. Try several and I'm sure you will find the thing you are looking for.
+Drücke CTRL+F auf der Tastatur für die Suche und gebe ein Suchwort ein, nach dem du auf der Seite suchen willst. Versuche verschiedene Suchwörter und ich bin sicher du findest wonach du gesucht hast.
 
-# THIS LIST IN OTHER LANGUAGES
+# Diese Liste in anderen Sprachen
 
 [![German](image.png)](readme-de.md) [![English](image-1.png)](readme.md)
 </div>
 </br>
 <!-- TOC -->
 
-# Contents
+# Inhalte
 
 - 📚 [Official Docs & Firmware & Software](#official-docs--firmware--software)
   - [Snapmaker 2.0](#snapmaker-20)
@@ -163,12 +163,11 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 - **3D Printing**
   - 📝 [Bed Leveling - Revisited & Detailed](https://forum.snapmaker.com/t/bed-leveling-revisited-detailed/30508) - Writeup by [@Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr) about bed leveling and issues along the way.
 
-
 - **Laser**
   - 📝 📹 [Safety first - what plastic is safe to work with](https://laserengravingtips.com/what-plastics-are-safe-to-laser-cut/) - also how to test plastic for chlorine.
 
 - **CNC**
-  - 📝 [Rotary Module with Fusion360: It works! (good enough)](https://forum.snapmaker.com/t/rotary-module-with-fusion360-it-works-good-enough/24367) - [SM2.0 / ARTISAN] - Writeup by [@brvdboss](https://forum.snapmaker.com/u/brvdboss) on how to setup Fusion360 with 
+  - 📝 [Rotary Module with Fusion360: It works! (good enough)](https://forum.snapmaker.com/t/rotary-module-with-fusion360-it-works-good-enough/24367) - [SM2.0 / ARTISAN] - Writeup by [@brvdboss](https://forum.snapmaker.com/u/brvdboss) on how to setup Fusion360 with
 
 ### Home Assistant Automation
 
@@ -194,7 +193,7 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
   - [Watertight outdoor enclosure generator](https://bruceborrett.github.io/easy-enclosure/) - EasyEnclosure is an open-source 3D modeling software tailored specifically for designing 3D-printable enclosures.
 
 - **Laser**
-  - [Create boxes and more! - One site to rule them all](https://www.festi.info/boxes.py/) 
+  - [Create boxes and more! - One site to rule them all](https://www.festi.info/boxes.py/)
 - **CNC**
   - [Japanese joints - "Tsugite" -  generator](http://ma-la.com/tsugite.html) - Interactive system for designing and fabricating wood joints for frame structures.
 
@@ -222,7 +221,7 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 - **Enclosure**
 
 - **3D Printing**
-  - **Snapmaker 2.0 mods**    
+  - **Snapmaker 2.0 mods**
     - **Leveling**
   
   - **Snapmaker J1/J1s mods**
@@ -266,7 +265,7 @@ A collection of profiles for various slicers.
 |Snapmaker 2.0 A350|Ulltimaker Cura|SE|[@Kaouthia](https://github.com/Kaouthia)|[GitHub](https://github.com/Kaouthia/Snapmaker-2)|N/A||
 |Snapmaker 2.0 A350 <br> Snapmaker 2.0 A250|PrusaSlicer|SE|[@mrworf](https://forum.snapmaker.com/u/MrWorf)|[GitHub](https://github.com/mrworf/snapmaker-prusa)|N/A||
 |Snapmaker 2.0 A350|PrusaSlicer|SE|[Snapmaker Team](https://forum.snapmaker.com/u/Edwin)|[Google Drive](https://drive.google.com/open?id=1xfBgXZzwjKaeZ3iqscdpe2xosgFV03G0)|[Snapmaker Forum](https://forum.snapmaker.com/t/prusa-slicer-profile/5657/7)||
-|Snapmaker J1/J1s|PrusaSlicer|N/A|[@leandrolima-nyc ](https://github.com/leandrolima-nyc)|[GitHub](https://github.com/leandrolima-nyc/SnapmakerJ1)|N/A||
+|Snapmaker J1/J1s|PrusaSlicer|N/A|[@leandrolima-nyc](https://github.com/leandrolima-nyc)|[GitHub](https://github.com/leandrolima-nyc/SnapmakerJ1)|N/A||
 |Snapmaker 2.0 A250 <br> Snapmaker 2.0 A350 <br> Snapmaker J1/J1s|PrusaSlicer|SE|[@MacDylan](https://forum.snapmaker.com/u/macdylan)|[GitHub](https://github.com/macdylan/3dp-configs/blob/main/README-en.md)|N/A|[Additional description translated in Chinese](https://github.com/macdylan/3dp-configs/)|
 |Snapmaker 2.0 A250|PrusaSLicer|DE|[@takeota](https://forum.snapmaker.com/u/takeota)|[Snapmaker Forum](https://forum.snapmaker.com/uploads/short-url/dRORxfm5l4wQNFRicH3umRi72HV.zip)|[Posted at Snapmaker Forum](https://forum.snapmaker.com/t/dual-extruder-and-prusaslicer/29792/62)|This is for A250, but Dual Extruder settings are easy to adopt for A350|
 |Snapmaker 2.0 A250 <br> Snapmaker 2.0 A350 <br> Snapmaker J1/J1s|OrcaSlicer|SE|[@MacDylan](https://forum.snapmaker.com/u/macdylan)|[GitHub](https://github.com/macdylan/3dp-configs/blob/main/README-en.md)|N/A|[Additional description translated in Chinese](https://github.com/macdylan/3dp-configs/)|
@@ -274,6 +273,7 @@ A collection of profiles for various slicers.
 ||||[]()|[]()|||
 
 ## CNC Settings
+
 | Material | Operation | Tool | Tool RPM | Feed rate <br/> (mm/min) | Stepdown <br/> (mm)| Notes | Source |
 | --- | --- | :---:  | --- | :---:  | :---:  | --- | --- |
 | Clear Acrylic | Milling | Standard 1.5mm 1 flute bit from Snapmaker | 12000 | 1000 | 0.5 | In plastic you are better off moving fast and taking small cuts otherwise you will get that melted blob of doom | [Facebook post](https://www.facebook.com/groups/371401856611467/user/100027477288104/)|
@@ -317,15 +317,11 @@ A collection of profiles for various slicers.
 
 ### Lasering
 
-
 ### Snapmaker 2.0 A350 CAD Models - UNOFFICIAL
-
 
 ### Snapmaker 2.0 A250 CAD models - UNOFFICIAL
 
-
 ## Released by Snapmaker Team - OFFICIAL
-
 
 # Shopping List
 
