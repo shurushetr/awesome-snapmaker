@@ -28,7 +28,7 @@ Snapmaker Ray</a>
 
 <!-- description -->
 
-High performance - 3D printer / Laser / CNC - with a large build volume.
+High performance - 3D# printer / Laser / CNC - with a large build volume.
 </br></br>
 
 # SUPPORT
