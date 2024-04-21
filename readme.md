@@ -28,7 +28,7 @@ Snapmaker Ray</a>
 
 <!-- description -->
 
-High performance - 3D# printer / Laser / CNC - with a large build volume.
+High performance - 3D printer / Laser / CNC - with a large build volume.
 </br></br>
 
 # SUPPORT
@@ -438,7 +438,7 @@ A collection of profiles for various slicers.
     - 🛒 [All Metal Heat break](https://s.click.aliexpress.com/e/_DC7Vg8h) - All metal heatbreak. Look for CR6-SE heatbreak. Matches overall dimensions. You will need an insert cut for the throat.
     - 🛒 [Klicky Probe Snapmaker 2.0 components](https://www.ebay.com/itm/335056686393) - Klicky Probe components.
   - Build Surface
-    - 🛒 [Garolite G10 build surface for A350/F350](https://www.ebay.com/itm/334898149660) - Better then glass? [G10 vs Ultrabase Build Plate | My FAVORITE 3D Printing Surface](https://www.youtube.com/watch?v=qHSe0Y0dF4M).
+    - 🛒 [Garolite G10 build surface for A350/F350](https://www.ebay.com/itm/335359670056) - Better then glass? [G10 vs Ultrabase Build Plate | My FAVORITE 3D Printing Surface](https://www.youtube.com/watch?v=qHSe0Y0dF4M).
 
 - **UNIVERSAL**
   - 10W Laser module
