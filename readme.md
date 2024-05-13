@@ -45,13 +45,14 @@ If you think that [official Wiki](https://wiki.snapmaker.com/) is missing someth
 # HOW TO USE THIS LIST
 
 Hit CTRL+F on your keyboard to search in page and type the keyword you are looking for. Try several and I'm sure you will find the thing you are looking for.
-
+<!--
 # THIS LIST IN OTHER LANGUAGES
 
 [![German](image.png)](readme-de.md) [![English](image-1.png)](readme.md)
+-->
 </div>
 </br>
-<!-- TOC -->
+
 
 # Contents
 
@@ -452,6 +453,7 @@ A collection of profiles for various slicers.
   - 🛒 [Lakeshore Carbide](https://www.lakeshorecarbide.com/) - good source of metalwork quality bits. (not affiliated)
   - 🛒 [Edge of Arlington Saw & Tool](https://www.eoasaw.com/) - good source of metalwork quality bits. (not affiliated)
   - 🛒 [IDC Woodcraft](https://idcwoodcraft.com/) - good source of woodwork quality bits. (not affiliated). Thanks to Robert Reade from FB group.
+  - 🛒 [Precise Bits](https://www.precisebits.com) - amazing store with ability to pick bits for your application. Has calculators and guides for bits. (not affiliated).
 
 ## Materials
  - 🛒 [Ocooch Hardwoods](https://ocoochhardwoods.com/) - good source of quality precut wood for your projects. (not affiliated)
