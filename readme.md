@@ -196,6 +196,7 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
   - 📝 [Shadow board or tool cutouts - Ultimate guide](https://www.youtube.com/watch?v=Wcxh1lLltAE) - this is the proper way of making the tool organizers known as shadow boards. Can also be used with CNC.
   - 📝 [Tapered glasses engraving](https://forum.snapmaker.com/t/rotary-10w-laser-tapered-16oz-beer-glasses/33577) - detailed instructions on how to engrave beer glasses by [@Mads0100](https://forum.snapmaker.com/u/Mads0100).
   - 📝 [Guide: Etching Glass with 10 Watt Laser with Dry Moly](https://forum.snapmaker.com/t/guide-etching-glass-with-10-watt-laser-with-dry-moly/33914?u=gil.a.ramirez) - Using 10W laser to etch glass with DryMoly [@gil.a.ramirez](https://forum.snapmaker.com/u/gil.a.ramirez).
+  - 📝 [Guide: Luban - how to use layers](/files/pdf/Luban_Layer_Tutorial_by_David_Key.pdf) - good tutorial on how to use multi-process functionality of Luban. [David Key](https://www.facebook.com/groups/371401856611467/user/1429482431/).
 - **CNC**
   - 📝 [PCB milling process](https://github.com/tommy-vaux/Snapmaker_2_PCB_Milling_Process) - Detailed writeup by [@tommy-vaux](https://github.com/tommy-vaux).
 
@@ -266,13 +267,12 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 - **Enclosure**
   - 📝 [DIY Fumes Filtration system - BentoBox](https://www.printables.com/model/272525-bentobox-v20-carbon-filter-for-bambu-lab-x1c-enclo) - Closedloop, combines HEPA filter and activated carbon filter.
   - 📝 [DIY Fumes Filtration system - NeverMore](https://github.com/nevermore3d/Nevermore_Micro) - Opensource closedloop activated carbon filtration system. Also check out other sizes in the same repository.
-  - 📝 [DIY Fumes Filtration system - 3D Printer Enclosure Air Filter ](https://www.printables.com/model/445976-3d-printer-enclosure-air-filter) - Largest filtration media size - 400hrs of print with one filter, advanced module for efficient filtration.
+  - 📝 [DIY Fumes Filtration system - 3D Printer Enclosure Air Filter](https://www.printables.com/model/445976-3d-printer-enclosure-air-filter) - Largest filtration media size - 400hrs of print with one filter, advanced module for efficient filtration.
   - 📝 [DIY Enclosure controls](https://forum.snapmaker.com/t/diy-enclosure-controller-prototype-on-arduino/22094) - Awesome project by [@Ronin](https://forum.snapmaker.com/u/Ronin). Files available in description of the [video](https://www.youtube.com/watch?v=9gOlhEzB8m4).
 
 - **3D Printing**
   - **Snapmaker 2.0 mods**
     - 📝 [All metal hot end simple mod](https://forum.snapmaker.com/t/fyi-snapmaker-2-all-metal-hotend-simple-mod/10046/63) - Writeup by [@Franky](https://forum.snapmaker.com/u/Franky) followed by discussion about installing all metal heat break.
-    
     - **Leveling**
       - 💾 📝 [Klicky probe - bed leveling on anything! Stealth mod for single extruder](https://forum.snapmaker.com/t/klicky-probe-bed-leveling-on-anything-stealth-mod-for-single-extruder/32229) - Klicky probe for snapmaker single extruder. Level on anything, simple, no firmware changes. You can find parts in the [Shopping list](#shopping-list)
       - 💾 [Glass bed leveling probe - FiFix Mod](files/models/FiFix_glass_probe_mod_by_stefix.zip) - Clever way by [@Stefix](https://forum.snapmaker.com/u/stefix/) to allow leveling on glass using OEM probe. Find more information about it [here](https://forum.snapmaker.com/t/for-all-who-want-level-on-glass/12437). No Firmware modification required.
