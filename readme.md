@@ -197,6 +197,8 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
   - 📝 [Tapered glasses engraving](https://forum.snapmaker.com/t/rotary-10w-laser-tapered-16oz-beer-glasses/33577) - detailed instructions on how to engrave beer glasses by [@Mads0100](https://forum.snapmaker.com/u/Mads0100).
   - 📝 [Guide: Etching Glass with 10 Watt Laser with Dry Moly](https://forum.snapmaker.com/t/guide-etching-glass-with-10-watt-laser-with-dry-moly/33914?u=gil.a.ramirez) - Using 10W laser to etch glass with DryMoly [@gil.a.ramirez](https://forum.snapmaker.com/u/gil.a.ramirez).
   - 📝 [Guide: Luban - how to use layers](/files/pdf/Luban_Layer_Tutorial_by_David_Key.pdf) - good tutorial on how to use multi-process functionality of Luban. [David Key](https://www.facebook.com/groups/371401856611467/user/1429482431/).
+  - 📝 [Script - non planar laser engraving](https://forum.snapmaker.com/t/guide-for-non-planar-laser-engraving/25120/5?u=Sudecki) - If you want to engrave in 3D (using Z axis), like on a carved artwork - this is what you need to use. Convert CNC job into Laser engraving. [@Sudecki](https://forum.snapmaker.com/u/Sudecki).
+
 - **CNC**
   - 📝 [PCB milling process](https://github.com/tommy-vaux/Snapmaker_2_PCB_Milling_Process) - Detailed writeup by [@tommy-vaux](https://github.com/tommy-vaux).
 
