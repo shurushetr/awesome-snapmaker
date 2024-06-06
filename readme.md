@@ -330,7 +330,8 @@ A collection of profiles for various slicers.
 |Snapmaker J1/J1s|PrusaSlicer|N/A|[@leandrolima-nyc ](https://github.com/leandrolima-nyc)|[GitHub](https://github.com/leandrolima-nyc/SnapmakerJ1)|N/A||
 |Snapmaker 2.0 A250 <br> Snapmaker 2.0 A350 <br> Snapmaker J1/J1s|PrusaSlicer|SE|[@MacDylan](https://forum.snapmaker.com/u/macdylan)|[GitHub](https://github.com/macdylan/3dp-configs/blob/main/README-en.md)|N/A|[Additional description translated in Chinese](https://github.com/macdylan/3dp-configs/)|
 |Snapmaker 2.0 A250|PrusaSLicer|DE|[@takeota](https://forum.snapmaker.com/u/takeota)|[Snapmaker Forum](https://forum.snapmaker.com/uploads/short-url/dRORxfm5l4wQNFRicH3umRi72HV.zip)|[Posted at Snapmaker Forum](https://forum.snapmaker.com/t/dual-extruder-and-prusaslicer/29792/62)|This is for A250, but Dual Extruder settings are easy to adopt for A350|
-|Snapmaker 2.0 A250 <br> Snapmaker 2.0 A350 <br> Snapmaker J1/J1s|OrcaSlicer|SE|[@MacDylan](https://forum.snapmaker.com/u/macdylan)|[GitHub](https://github.com/macdylan/3dp-configs/blob/main/README-en.md)|N/A|[Additional description translated in Chinese](https://github.com/macdylan/3dp-configs/)|
+|Snapmaker 2.0 A250 <br> Snapmaker 2.0 A350 <br> Snapmaker J1/J1s|OrcaSlicer & PrusaSlicer|SE DE Qswap|[@MacDylan](https://forum.snapmaker.com/u/macdylan)|[GitHub](https://github.com/macdylan/3dp-configs/blob/main/README-en.md)|N/A|[Additional description translated in Chinese](https://github.com/macdylan/3dp-configs/)|
+|Snapmaker Artisan|OrcaSlicer & PrusaSlicer|DE|[@MacDylan](https://forum.snapmaker.com/u/macdylan)|[GitHub](https://github.com/macdylan/3dp-configs/blob/main/README-en.md)|N/A|[Additional description translated in Chinese](https://github.com/macdylan/3dp-configs/)|
 ||||[]()|[]()|||
 ||||[]()|[]()|||
 
