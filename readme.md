@@ -395,6 +395,7 @@ A collection of profiles for various slicers.
 
 - **DESIGN**
   - 🔧 [Potrace](https://potrace.sourceforge.net/) - [WIN] - Genious and free little tool for transforming bitmaps into vector graphics.
+  - 🔧 [Tiled ZoeDepth, v3.ipynb](https://colab.research.google.com/drive/1Wi-1Ji_fhcoGpK-drT4dVrl5AjfVUQ5M#scrollTo=cQclg8UkclFu) - [WEB] - Another genious and free tool for generating depth maps from 2d images, useful for CNC, 3D Printing and Laser engraving!
 
 # Handy Files & Models
 
