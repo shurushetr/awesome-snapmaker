@@ -425,6 +425,8 @@ A collection of profiles for various slicers.
 ## Released by Snapmaker Team - OFFICIAL
 
 - 💾 [Snapmaker 2.0 A350 platform drawing](files/files_from_snapmaker_team/Snapmake_2.0_A350_new_platform_design.dwg) - DWG file of the platform.
+- 💾 [Model of the 200w CNC Shell](files/files_from_snapmaker_team/200WCNC_Shell.STL) - STL file released by Snapmaker team to allow acelerate community contribution for accessories.
+- 💾 [Model of the Dual Extruder Shell](files/files_from_snapmaker_team/Dual_Extruder_Shell_3DP.STL) - STL file released by Snapmaker team to allow acelerate community contribution for accessories.
 
 # Shopping List
 
