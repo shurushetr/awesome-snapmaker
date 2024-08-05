@@ -307,6 +307,7 @@ Air assist is recommended for any laser module you use. Some mods are listed in 
 
 | Material | Laser Module | Operation | Thickness <br/> (mm) | Method | Work Speed <br/> (mm/min) | Power <br/> (%) | Notes | Source |
 | --- | :---: | --- | :---:  | --- | :---:  | :---:  | --- | --- |
+|Lightburn Profiles Official|All|||||||[Official Wiki Article](https://wiki.snapmaker.com/en/general/manual/use_ray_with_lightburn_guide)|
 | Acrilic Clear | 10W | Engrave | N/A | Fill <br/> Line interval 0.25mm | 500 | 100 | Place sheet of paper on top of acrylic | [Facebook post](https://www.facebook.com/groups/snapmaker/posts/1794963157588656)
 | Acrilic Clear | 10W | Dot-filled Engraving | N/A | Fill <br/> Dot interval 0.14mm | 5ms/dot | 30 | Put liquid chalk on top (either marker or spray) | [Snapmaker forum](https://forum.snapmaker.com/t/10w-laser-clear-acrylic-engraved-logo-with-light-base/26105)
 | Stainless Steal | 10W | Engrave | N/A | Fill <br/> Line interval 0.1mm | 450 | 100 | Clean steel surface | [Marking SS with 10W laser](https://forum.snapmaker.com/t/marking-ss-with-10w-laser/25577)|
@@ -328,11 +329,9 @@ A collection of profiles for various slicers.
 |Snapmaker 2.0 A350 <br> Snapmaker 2.0 A250|PrusaSlicer|SE|[@mrworf](https://forum.snapmaker.com/u/MrWorf)|[GitHub](https://github.com/mrworf/snapmaker-prusa)|N/A||
 |Snapmaker 2.0 A350|PrusaSlicer|SE|[Snapmaker Team](https://forum.snapmaker.com/u/Edwin)|[Google Drive](https://drive.google.com/open?id=1xfBgXZzwjKaeZ3iqscdpe2xosgFV03G0)|[Snapmaker Forum](https://forum.snapmaker.com/t/prusa-slicer-profile/5657/7)||
 |Snapmaker J1/J1s|PrusaSlicer|N/A|[@leandrolima-nyc ](https://github.com/leandrolima-nyc)|[GitHub](https://github.com/leandrolima-nyc/SnapmakerJ1)|N/A||
-|Snapmaker 2.0 A250 <br> Snapmaker 2.0 A350 <br> Snapmaker J1/J1s|PrusaSlicer|SE|[@MacDylan](https://forum.snapmaker.com/u/macdylan)|[GitHub](https://github.com/macdylan/3dp-configs/blob/main/README-en.md)|N/A|[Additional description translated in Chinese](https://github.com/macdylan/3dp-configs/)|
 |Snapmaker 2.0 A250|PrusaSLicer|DE|[@takeota](https://forum.snapmaker.com/u/takeota)|[Snapmaker Forum](https://forum.snapmaker.com/uploads/short-url/dRORxfm5l4wQNFRicH3umRi72HV.zip)|[Posted at Snapmaker Forum](https://forum.snapmaker.com/t/dual-extruder-and-prusaslicer/29792/62)|This is for A250, but Dual Extruder settings are easy to adopt for A350|
-|Snapmaker 2.0 A250 <br> Snapmaker 2.0 A350 <br> Snapmaker J1/J1s|OrcaSlicer & PrusaSlicer|SE DE Qswap|[@MacDylan](https://forum.snapmaker.com/u/macdylan)|[GitHub](https://github.com/macdylan/3dp-configs/blob/main/README-en.md)|N/A|[Additional description translated in Chinese](https://github.com/macdylan/3dp-configs/)|
-|Snapmaker Artisan|OrcaSlicer & PrusaSlicer|DE|[@MacDylan](https://forum.snapmaker.com/u/macdylan)|[GitHub](https://github.com/macdylan/3dp-configs/blob/main/README-en.md)|N/A|[Additional description translated in Chinese](https://github.com/macdylan/3dp-configs/)|
-||||[]()|[]()|||
+|Snapmaker 2.0 <br> Snapmaker J1/J1s <br> Snapmaker Artisan|OrcaSlicer & PrusaSlicer|SE DE Qswap|[@MacDylan](https://forum.snapmaker.com/u/macdylan)|Profiles are built into the OrcaSlicer and PrusaSlicer starting Jan. 2024. No extra steps needed.|N/A|[GitHub (archived)](https://github.com/macdylan/3dp-configs/blob/main/README-en.md) <br> [Additional description translated in Chinese](https://github.com/macdylan/3dp-configs/)|
+|Snapmaker 2.0 <br> Snapmaker J1/J1s <br> Snapmaker Artisan |Cura||Snapmaker Official|[Cura Plugin Link](https://wiki.snapmaker.com/en/Snapmaker_Luban/cura_plugin)|||
 ||||[]()|[]()|||
 
 ## CNC Settings
