@@ -169,6 +169,9 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 - **3D Printing**
   - 📝 [Bed Leveling - Revisited & Detailed](https://forum.snapmaker.com/t/bed-leveling-revisited-detailed/30508) - Writeup by [@Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr) about bed leveling and issues along the way.
     - 📝 [11x11 calibration with heated bed](https://forum.snapmaker.com/t/11x11-calibration-with-heated-bed-possible/22426) by [@Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr).
+  - 📝 [3D Chameleon for multicolor prints with Snapmaker 2.0 and single extruder - REPO](https://github.com/shurushetr/3DChameleon_Snapmaker_2.0) plus forum topic for discussion - 
+  
+
 
 - **Laser**
   - 📝 📹 [Safety first - what plastic is safe to work with](https://laserengravingtips.com/what-plastics-are-safe-to-laser-cut/) - also how to test plastic for chlorine.
@@ -216,6 +219,7 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
   - [ItsLitho](https://itslitho.com/) - another lithophanes generator.
   - [Full control G-Code](http://fullcontrolgcode.com/) - this is not for the faint of heart. God level 3d models generator. [Check this video out.](https://www.youtube.com/watch?v=ZgytQDoaD5M&t=584s)
   - [Tray generator](https://deckinabox.sgenoud.com/) - make up any tray in a few minutes with or without lids.
+  - [Cookie Cutter Generator](https://app.cookiecad.com/) - Turn an image into a cookie cutter by uploading it.
 - **Laser**
   - [Create boxes and more! - One site to rule them all](https://www.festi.info/boxes.py/) - amazing online vector generator for designing boxes, shelfes, bins, tests and much more.
   - [Keychaines, Name-Snowflakes, Connected Text and more](https://cuttle.xyz/templates) - some are free for personal use, some are pro only.
@@ -291,6 +295,7 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 
 - **CNC**
   - 📝 [CNC self-impelled vacuum dust shoe (no external vacuum required)](https://forum.snapmaker.com/t/cnc-self-impelled-vacuum-dust-shoe-no-external-vacuum-required/24972) - Design by [gil.a.ramirez](https://forum.snapmaker.com/u/gil.a.ramirez).
+  - 📝 [Snapmaker Stiffy Kit by CTZcnc](https://github.com/christopz/snapmakerstiffy) - Make Snapmaker rigid for heavy load cnc work - Design by [christopz](https://github.com/christopz).
 
 # Settings Collection
 
@@ -368,7 +373,6 @@ A collection of profiles for various slicers.
 - **CALIBRATION & PRINTER TUNING**
   - 📝 [Teaching Tech 3D Printer Calibration](https://teachingtechyt.github.io/calibration.html) - the go to for proper calibration. Use CAUTION.
   - 📝 [Ellis' Print Tuning Guide](https://ellis3dp.com/Print-Tuning-Guide/) - another awesome resource for calibration, using different approach.
-  - 🔧 [3D Printer Auto Bed Leveling Mesh Visualizer](https://lokspace.eu/3d-printer-auto-bed-leveling-mesh-visualizer/) - you might need to bring the values down (i.e. subtract whole number from data points => +7.1892 to 0.1892) for it to function.  
   - 💾 [Calibration shapes](https://github.com/5axes/Calibration-Shapes) - collection of test shapes with Cura plugin to really dial in your printer. You can use STLs out of Cura too.
   - 🔧 [retractioncalibration.com](http://retractioncalibration.com/) - tool to dial in your retraction. [Discussed here](https://forum.snapmaker.com/t/retraction-calibration-tool/17894).
   - 📝 [3D Print Problems (w/Photos & Solutions)](https://forum.snapmaker.com/t/3d-print-problems-w-photos-solutions/29200) - collection of issues and possible solutions by [@Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr).
