@@ -109,7 +109,7 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 - **Firmware**
   - 💾 [Snapmaker 2.0 Firmware Updates and Downloads](https://forum.snapmaker.com/t/snapmaker-2-0-firmware-updates-and-downloads/5443/) - official forum thread where stable firmware releases are posted.
     - 👋 [Discussion of Snapmaker 2.0 Firmware Updates](https://forum.snapmaker.com/t/discussion-of-snapmaker-2-0-firmware-updates/5441) - dedicated discussion topic to stable firmware updates.
-  - 💾 👋 [Vibration Compensation Beta Firmware for 2.0 Series: Stable Print Quality at Higher Speed](https://forum.snapmaker.com/t/now-compatible-with-8-lead-vibration-compensation-beta-firmware-for-2-0-series-stable-print-quality-at-higher-speed/29136) - forum thread dedicated to the new vibration compensation firmware by Snapmaker. Same as J1.
+  - 💾 👋 [Vibration Compensation Beta Firmware for 2.0 Series: Stable Print Quality at Higher Speed](https://forum.snapmaker.com/t/now-compatible-with-8-lead-vibration-compensation-beta-firmware-for-2-0-series-stable-print-quality-at-higher-speed/29136) - forum thread dedicated to the new vibration compensation firmware by Snapmaker. Same as J1. Considered to be stable starting from v2.3.1.
 
 ## Snapmaker Artisan
 
@@ -170,9 +170,6 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
   - 📝 [Bed Leveling - Revisited & Detailed](https://forum.snapmaker.com/t/bed-leveling-revisited-detailed/30508) - Writeup by [@Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr) about bed leveling and issues along the way.
     - 📝 [11x11 calibration with heated bed](https://forum.snapmaker.com/t/11x11-calibration-with-heated-bed-possible/22426) by [@Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr).
   - 📝 [3D Chameleon for multicolor prints with Snapmaker 2.0 and single extruder - REPO](https://github.com/shurushetr/3DChameleon_Snapmaker_2.0) plus forum topic for discussion - 
-  
-
-
 - **Laser**
   - 📝 📹 [Safety first - what plastic is safe to work with](https://laserengravingtips.com/what-plastics-are-safe-to-laser-cut/) - also how to test plastic for chlorine.
   - 📝 [Lightburn Full Control Guide](https://forum.snapmaker.com/t/full-lightburn-control-guide/27638) - [SM2.0 / ARTISAN] - Writeup by [@Skreelink](https://forum.snapmaker.com/u/Skreelink) on how to make Lightburn talk to Snapmaker 2.0.
@@ -278,15 +275,16 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
   - 📝 [DIY Enclosure controls](https://forum.snapmaker.com/t/diy-enclosure-controller-prototype-on-arduino/22094) - Awesome project by [@Ronin](https://forum.snapmaker.com/u/Ronin). Files available in description of the [video](https://www.youtube.com/watch?v=9gOlhEzB8m4).
 
 - **3D Printing**
-  - **Snapmaker 2.0 mods**
-    - 📝 [All metal hot end simple mod](https://forum.snapmaker.com/t/fyi-snapmaker-2-all-metal-hotend-simple-mod/10046/63) - Writeup by [@Franky](https://forum.snapmaker.com/u/Franky) followed by discussion about installing all metal heat break.
+    - 📝 [All metal hot end simple mod for SM2.0](https://forum.snapmaker.com/t/fyi-snapmaker-2-all-metal-hotend-simple-mod/10046/63) - Writeup by [@Franky](https://forum.snapmaker.com/u/Franky) followed by discussion about installing all metal heat break.
     - **Leveling**
-      - 💾 📝 [Klicky probe - bed leveling on anything! Stealth mod for single extruder](https://forum.snapmaker.com/t/klicky-probe-bed-leveling-on-anything-stealth-mod-for-single-extruder/32229) - Klicky probe for snapmaker single extruder. Level on anything, simple, no firmware changes. You can find parts in the [Shopping list](#shopping-list)
-      - 💾 [Glass bed leveling probe - FiFix Mod](files/models/FiFix_glass_probe_mod_by_stefix.zip) - Clever way by [@Stefix](https://forum.snapmaker.com/u/stefix/) to allow leveling on glass using OEM probe. Find more information about it [here](https://forum.snapmaker.com/t/for-all-who-want-level-on-glass/12437). No Firmware modification required.
-      - 📝 [Automatic bed leveling on glass](https://forum.snapmaker.com/t/automatic-bed-leveling-on-glass/29601) - Another mod by [@TobIY](https://forum.snapmaker.com/u/TobIY). No Firmware modification required. Check the [Shopping list](#shopping-list) for exact part.
-      - 📝 [Advanced leveling mod](https://forum.snapmaker.com/t/for-all-who-want-level-on-glass/12437/129) - By [@stewl](https://forum.snapmaker.com/u/stewl). Instructions here - [Google drive link](https://drive.google.com/drive/folders/1JTZ811Tx-dTD35J4a-u2fsokln20INpR). Firmware modification required. Ultimate accuracy.
+      - 💾 📝 [Klicky probe - bed leveling on anything! Stealth mod for SM2.0 single extruder ](https://forum.snapmaker.com/t/klicky-probe-bed-leveling-on-anything-stealth-mod-for-single-extruder/32229) - Klicky probe for snapmaker single extruder. Level on anything, simple, no firmware changes. You can find parts in the [Shopping list](#shopping-list)
+      - 💾 📝 [Klicky probe for DUAL Extruder](https://www.printables.com/model/918381-klicky-abl-probe-for-snapmaker-dual-extrusion-modu) - Klicky probe for DUAL EXTRUDER!!! Level on anything, simple, no firmware changes.
+      - 💾 [Glass bed leveling probe - FiFix Mod for SM2.0](files/models/FiFix_glass_probe_mod_by_stefix.zip) - Clever way by [@Stefix](https://forum.snapmaker.com/u/stefix/) to allow leveling on glass using OEM probe. Find more information about it [here](https://forum.snapmaker.com/t/for-all-who-want-level-on-glass/12437). No Firmware modification required.
+      - 📝 [Automatic bed leveling on glass for SM2.0](https://forum.snapmaker.com/t/automatic-bed-leveling-on-glass/29601) - Another mod by [@TobIY](https://forum.snapmaker.com/u/TobIY). No Firmware modification required. Check the [Shopping list](#shopping-list) for exact part.
+      - 📝 [Advanced leveling mod for SM2.0](https://forum.snapmaker.com/t/for-all-who-want-level-on-glass/12437/129) - By [@stewl](https://forum.snapmaker.com/u/stewl). Instructions here - [Google drive link](https://drive.google.com/drive/folders/1JTZ811Tx-dTD35J4a-u2fsokln20INpR). Firmware modification required. Ultimate accuracy.
     - 📝 [The (mostly) Complete Guide to Bondtech, Slice, and the Snapmaker 2.0](https://forum.snapmaker.com/t/the-mostly-complete-guide-to-bondtech-slice-and-the-snapmaker-2-0/29762) - if you want ultimate performance upgrade - this is an awesome mod by [@nsclemmer](https://forum.snapmaker.com/u/nsclemmer)
-    - 📝 [Snapmaker-2 A350 Heated Bed Cable Adapter (Chain) (Hidden)](https://forum.snapmaker.com/t/snapmaker-2-a350-heated-bed-cable-adapter-chain-hidden/19952) - advanced but 100% fixes all issues related to the heated bed cable being prematurely worn out / damaged, due to bed movement.
+    - 📝 [Snapmaker 2.0 A350 Heated Bed Cable Adapter (Chain) (Hidden)](https://forum.snapmaker.com/t/snapmaker-2-a350-heated-bed-cable-adapter-chain-hidden/19952) - advanced but 100% fixes all issues related to the heated bed cable being prematurely worn out / damaged, due to bed movement.
+    
   
   - **Snapmaker J1/J1s mods**
     - 📝 [J1/J1s nozzle & heatbreak upgrade - anti clogging solution](https://forum.snapmaker.com/t/findings-and-solution-for-the-snapmaker-j1-clogging-problem/30472/190) - parts gathered by [@StephenM](https://forum.snapmaker.com/u/StephenM).
@@ -321,6 +319,7 @@ Air assist is recommended for any laser module you use. Some mods are listed in 
 | Rubber Stamps | 10W | Engrave | N/A | Fill <br/> Line interval 0.15 | 880 | 100 | 1 pass | [Facebook comment by Darien Kruss](https://www.facebook.com/groups/snapmaker/posts/1851724585245846/) |
 | Rubber Stamps | 10W | Cut | N/A | On the line| 400 | 100 | 4 pass <br/> z-step 1.00 mm | [Facebook comment by Darien Kruss](https://www.facebook.com/groups/snapmaker/posts/1851724585245846/) |
 |[Synthetic leather](https://www.jpplus.com/saddle-collection-sheet)| 1.6W | Engrave | N/A | Fill <br> Dot interval 0.1mm | Jog 1500 <br> Dwell time 3ms/dot | 70 | 10W module was too strong for this | [Forum post by Shamuscg](https://forum.snapmaker.com/t/laser-settings-for-saddles-collection-laser-safe-synthetic-leather/34590?u=shamuscg) |
+| Maple Wood | 10W | Engrave | N/A | Fill <br/> Dot <br> Fill interval 0.1 | Jog - 3000 <br> Dwell - 4mm/dot | 50 | Lots of great notes in the FB post| [Facebook post by Alex Jennings](https://www.facebook.com/groups/snapmaker/posts/2114673665617602/) |
 ||||||||||
 
 ## 3D Printing settings
@@ -409,6 +408,7 @@ A collection of profiles for various slicers.
 
 - 💾 [Snapmaker 2.0 stock pictures](/images/Snapmaker_Parts/SP_2.0/) - hosted here collection of stock parts and internals of Snapmaker 2.0. You can find there measurements for hot end electrical components and other such things.
 - 💾 [Snapmaker 2.0 1600mW laser autopsy](https://forum.snapmaker.com/t/snapmaker-2-0-laser-autopsy/19408) - detailed disassembly and analisys of internal componetns by [@Geared](https://forum.snapmaker.com/u/Geared).
+- 💾 [Laser 40w Fan](images/Snapmaker_Parts/Laser_40W/40w_Laser_Fan.jpg) - detailed disassembly and analisys of internal componetns by [@Geared](https://forum.snapmaker.com/u/Geared) - Standard 6025 fan, 24v DC, 0.34A.  
 
 ### Lasering
 
@@ -421,10 +421,12 @@ A collection of profiles for various slicers.
 - 💾 [Snapmaker 2.0 A350 Model in OnSHape](https://cad.onshape.com/documents/62cf14c42bffce0a7b08acf9/w/30314df13cc0199e746100d2/e/7a6692332d9c4b7e83c673c4) - created by Ryan Tuscher in his video [Designing a Snapmaker 2.0 A350 3D Model](https://www.youtube.com/watch?v=nPmqX5T6Yts).
 - 💾 [3D Models for A350,A250, A350T platforms and A350 Beds](https://cults3d.com/en/users/Namakemono/3d-models) - created by [Namakemono](https://forum.snapmaker.com/u/Namakemono) accurate models of platform and beds.
   - [Forum thread.](https://forum.snapmaker.com/t/3d-models-for-a350-a250-a350t-platforms-and-a350-beds/25281)
-
-### Snapmaker 2.0 A250 CAD models - UNOFFICIAL
-
 - 💾 [Snapmaker 2.0 A250T - Fusion360 model](https://grabcad.com/library/snapmaker-2-0-a250t-1) - hosted at GrabCAD model of A250T.
+
+### Accessories
+- [Snapmaker 2.0 & Artisan Rotary Module](https://grabcad.com/library/snapmaker-2-0-artisan-rotary-module-slimtechcnc-1) - thanks to Christopher Kalada for creating the model.
+  - 🛒 [Rotarty module in the snapmaker store.](https://us.snapmaker.com/products/snapmaker-2-0-rotary-module)
+  - 💾 [Archived (git copy) of the model files.](files/models/snapmaker-2-0-artisan-rotary-module-slimtechcnc-1.snapshot.5.zip)
 
 ## Released by Snapmaker Team - OFFICIAL
 
@@ -454,6 +456,8 @@ A collection of profiles for various slicers.
 - **UNIVERSAL**
   - 10W Laser module
     - 🛒 [Antenna that sticks to top cover](https://s.click.aliexpress.com/e/_DeWSkup) - in case you print a custom cover for air assist. Look for P/N - TX2400-FPC-2509. Shared by [@Florian Wick](https://www.facebook.com/groups/snapmakerartisan/posts/820110829484123/).
+
+  - 🛒 [Fire extinguisher for your safety](https://www.whambamsystems.com/pages/the-cloud) - passive fire extinguisher that sits very close to your work area and is activetad by flame.
 
 ## Tooling
 
