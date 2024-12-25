@@ -413,6 +413,7 @@ A collection of profiles for various slicers.
 ### Lasering
 
 - 💾 [10W Laser air assist insert](/files/models/10w_laser_air_assist_mod_by_Raagnarix.stl) - model by [@Raagnarix](https://www.youtube.com/@Raagnarix) form [this video](https://www.youtube.com/watch?v=zg8jiem-8v8)
+- 💾 [10W Laser Toolhead CAD model](https://www.printables.com/model/1097903-snapmaker-10w-laser-toolhead) ([model](files/models/Snapmaker%202.0%2010w%20laser%20v3.f3d)) - Created by [nivekmai](https://forum.snapmaker.com/u/nivekmai/)
 
 ### Snapmaker 2.0 A350 CAD Models - UNOFFICIAL
 
