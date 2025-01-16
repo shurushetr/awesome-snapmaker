@@ -169,7 +169,7 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 - **3D Printing**
   - 📝 [Bed Leveling - Revisited & Detailed](https://forum.snapmaker.com/t/bed-leveling-revisited-detailed/30508) - Writeup by [@Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr) about bed leveling and issues along the way.
     - 📝 [11x11 calibration with heated bed](https://forum.snapmaker.com/t/11x11-calibration-with-heated-bed-possible/22426) by [@Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr).
-  - 📝 [3D Chameleon for multicolor prints with Snapmaker 2.0 and single extruder - REPO](https://github.com/shurushetr/3DChameleon_Snapmaker_2.0) plus forum topic for discussion - 
+  - 📝 [3D Chameleon for multicolor prints with Snapmaker 2.0 and single extruder - REPO](https://github.com/shurushetr/3DChameleon_Snapmaker_2.0) plus forum topic for discussion - [3d Chameleon - up to 4 color/material printing with Single Extruder](https://forum.snapmaker.com/t/3d-chameleon-up-to-4-color-material-printing-with-single-extruder/37069/)
 - **Laser**
   - 📝 📹 [Safety first - what plastic is safe to work with](https://laserengravingtips.com/what-plastics-are-safe-to-laser-cut/) - also how to test plastic for chlorine.
   - 📝 [Lightburn Full Control Guide](https://forum.snapmaker.com/t/full-lightburn-control-guide/27638) - [SM2.0 / ARTISAN] - Writeup by [@Skreelink](https://forum.snapmaker.com/u/Skreelink) on how to make Lightburn talk to Snapmaker 2.0.
@@ -179,6 +179,9 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 - **CNC**
   - 📝 [Rotary Module with Fusion360: It works! (good enough)](https://forum.snapmaker.com/t/rotary-module-with-fusion360-it-works-good-enough/24367) - [SM2.0 / ARTISAN] - Writeup by [@brvdboss](https://forum.snapmaker.com/u/brvdboss) on how to setup Fusion360 with Rotary Module.
   - 📝📹[Snapmaker 2.0 by Koka-Bora Creations](https://www.youtube.com/playlist?list=PLWlW9PTm7_qvYvXytlfXZib--P-qIz3fp) - a 20 episode video series on using snapmaker 2.0 for projects. Bunch of CNC material.
+  - 📝 [Simulate with machine in Fusion360 for SM 2.0](https://www.facebook.com/groups/snapmaker/permalink/2119754895109479/) - Chris Kaladstrodamus created a full blown simulation for Fusion360 that allowes you to simulate toolpath including the rotary attachment. Check out his post in the FB group for details or you can download the machine model from [his GitHub](https://github.com/christopz/snapmaker/tree/main) or links below:
+    - 💾 [Fusion360 Machine file](/files/Fusion360_Machine_Model/Snapmaker_2.0_A350T_CTZ.mch) - Mirror file from Github link above.
+    - 💾 [STEP file for the model](/files/Fusion360_Machine_Model/Snapmaker_2.0_A350T_CTZ%20v3.9.7z) - 7z archive of the STEP file from [GrabCad.com](https://grabcad.com/library/ctz-snapmaker-a350t-1)
 
 ### Home Assistant Automation
 
@@ -493,6 +496,7 @@ A collection of profiles for various slicers.
   - 🛒 [Edge of Arlington Saw & Tool](https://www.eoasaw.com/) - good source of metalwork quality bits. (not affiliated)
   - 🛒 [IDC Woodcraft](https://idcwoodcraft.com/) - good source of woodwork quality bits. (not affiliated). Thanks to Robert Reade from FB group.
   - 🛒 [Precise Bits](https://www.precisebits.com) - amazing store with ability to pick bits for your application. Has calculators and guides for bits. (not affiliated).
+  - 🛒 [IDC Woodcraft](https://idcwoodcraft.com/) - another good source of CNC bits for woodworking recommended in FB Group.
 
 ## Materials
  - 🛒 [Ocooch Hardwoods](https://ocoochhardwoods.com/) - good source of quality precut wood for your projects. (not affiliated)
