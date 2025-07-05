@@ -92,6 +92,9 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 - 📚 [G-Code Reference](https://snapmaker.github.io/Documentation/gcode/G000-G001) - G-Code reference guide. Snapmaker G-Code is Marlin compatible.
 - 📚 [Snapmaker 2.0 Enclosure & Air Purifier Specs](https://snapmaker.com/filter-enclosure/specs)
 
+## Snapmaker U1
+ - 🎇 something is cooking, stay tuned :)
+
 ## Snapmaker 2.0
 
 - **Docs**
@@ -146,6 +149,9 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
 # Official Communities
 
 - [Snapmaker Forum](https://forum.snapmaker.com/) - Library of deep knowledge about snapmaker machines.
+- [Snapmaker Discord server](https://discord.gg/uKynRxFW8D) - created by community members. Supported by Snapmaker.
+- [Snapmaker sub Reddit](https://www.reddit.com/r/snapmaker/) - if you are into this kind of thing.
+- [Snapmaker U1](https://www.facebook.com/groups/snapmakeru1) - Facebook group of Snapmaker U1 printer owners.
 - [Snapmaker Original/2.0 Owners](https://www.facebook.com/groups/snapmaker) - Facebook group of Snapmaker 2.0 & Snapmaker Original owners.
 - [Snapmaker Artisan Owners](https://www.facebook.com/groups/591569232338285) - Facebook group of Artisan owners.
 - [Snapmaker J1 Owners](https://www.facebook.com/groups/snapmakerj1) - Facebook group of Snapmaker J1 owners.
