@@ -23,7 +23,7 @@ Snapmaker Ray</a>
 <!-- image -->
 
 <a href="https://shop.snapmaker.com/" target="_blank" rel="noopener noreferrer">
-  <img src="images/Snapmmaker_2.0.png" />
+  <img src="images/AwesomeList_TopImage.jpg" />
 </a>
 
 <!-- description -->
