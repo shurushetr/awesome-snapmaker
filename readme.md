@@ -236,6 +236,7 @@ Legend: 📝 blog posts · 📚 docs · 🔧 tools · 📹 talks/video · 💾 f
   - [Numerical Dial Generator and more](https://www.oliverboorman.biz/projects/tools/dial.php) - This interactive generator produces an image of a numerical dial, based on your settings and requirements. They have more generators related to dials.
   - [Paper box generator](https://deckinabox.sgenoud.com/) - ever wanted to cut a foldable box?
   - [Wave pattern generator](https://tinkersynth.com/slopes) - get an SVG with wave pattern.
+  - [DIY Rotary for Snapmaker 2.0](https://www.instructables.com/DIY-Rotary-for-Snapmaker-20/)
 - **CNC**
   - [Japanese joints - "Tsugite" -  generator](http://ma-la.com/tsugite.html) - Interactive system for designing and fabricating wood joints for frame structures.
 
