@@ -15,9 +15,9 @@
     --focus-ring: rgba(13, 110, 253, 0.25);
 }
 
-/* Dark Theme Support via System Preference */
+/* Dark Theme Support via System Preference OR Explicit Override */
 @media (prefers-color-scheme: dark) {
-    :root {
+    :root:not([data-theme="light"]) {
         --bg-color: #121212;
         --text-color: #e0e0e0;
         --card-bg: #1e1e1e;
@@ -30,6 +30,20 @@
         --tag-text: #d1d5db;
         --header-overlay: rgba(0,0,0,0.7);
     }
+}
+
+:root[data-theme="dark"] {
+    --bg-color: #121212;
+    --text-color: #e0e0e0;
+    --card-bg: #1e1e1e;
+    --card-border: #333333;
+    --primary-color: #3b82f6;
+    --primary-hover: #60a5fa;
+    --secondary-bg: #2d2d2d;
+    --secondary-text: #a0a0a0;
+    --tag-bg: #374151;
+    --tag-text: #d1d5db;
+    --header-overlay: rgba(0,0,0,0.7);
 }
 
 /* CSS Reset & Accessibility Base */
@@ -103,11 +117,21 @@ a:hover {
     font-weight: bold;
 }
 
-.submit-btn {
-    display: inline-block;
+.header-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
     margin-top: 15px;
+}
+
+.submit-btn {
     font-size: 1.1rem;
     padding: 10px 20px;
+}
+
+.theme-btn {
+    font-size: 1.5rem;
+    padding: 5px 15px;
 }
 
 /* Main Container */
@@ -287,10 +311,14 @@ select {
 
 /* Dark mode adjustments for specific tags */
 @media (prefers-color-scheme: dark) {
-    .tag.machine { background-color: rgba(59, 130, 246, 0.2); color: #93c5fd; }
-    .tag.tool { background-color: rgba(52, 211, 153, 0.2); color: #6ee7b7; }
-    .tag.type { background-color: rgba(248, 113, 113, 0.2); color: #fca5a5; }
+    :root:not([data-theme="light"]) .tag.machine { background-color: rgba(59, 130, 246, 0.2); color: #93c5fd; }
+    :root:not([data-theme="light"]) .tag.tool { background-color: rgba(52, 211, 153, 0.2); color: #6ee7b7; }
+    :root:not([data-theme="light"]) .tag.type { background-color: rgba(248, 113, 113, 0.2); color: #fca5a5; }
 }
+
+:root[data-theme="dark"] .tag.machine { background-color: rgba(59, 130, 246, 0.2); color: #93c5fd; }
+:root[data-theme="dark"] .tag.tool { background-color: rgba(52, 211, 153, 0.2); color: #6ee7b7; }
+:root[data-theme="dark"] .tag.type { background-color: rgba(248, 113, 113, 0.2); color: #fca5a5; }
 
 .card-actions {
     margin-top: auto;

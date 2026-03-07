@@ -133,6 +133,34 @@ function setupEventListeners() {
     DOM.jumpTopBtn.addEventListener('click', () => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     });
+
+    // Theme Toggle Logic
+    const themeBtn = document.getElementById('theme-toggle');
+    if (themeBtn) {
+        // Check saved preference first
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme) {
+            document.documentElement.setAttribute('data-theme', savedTheme);
+        }
+
+        themeBtn.addEventListener('click', () => {
+            const currentTheme = document.documentElement.getAttribute('data-theme');
+            let newTheme;
+            
+            if (currentTheme === 'dark') {
+                newTheme = 'light';
+            } else if (currentTheme === 'light') {
+                newTheme = 'dark';
+            } else {
+                // If no theme is set, check system preference
+                const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                newTheme = prefersDark ? 'light' : 'dark';
+            }
+
+            document.documentElement.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+        });
+    }
 }
 
 function handleFilterChange(e) {
@@ -168,17 +196,23 @@ function applyFiltersAndRender() {
         results = searchResults.map(result => result.item);
     }
 
-    // 2. Tag Filtering (AND operation within categories, OR across)
+    // 2. Tag Filtering (AND operation across categories, OR within categories)
     results = results.filter(record => {
         const t = record.tags || {};
+        
+        // Machine Filter: if no machine filters active, it passes. If active, the record MUST have at least one of the active machine tags.
         const machineMatch = activeFilters.machine.size === 0 || 
             (t.machine_type && t.machine_type.some(m => activeFilters.machine.has(m)));
             
+        // Tool Filter: if no tool filters active, it passes. If active, the record MUST have at least one of the active tool tags.
         const toolMatch = activeFilters.tool.size === 0 || 
             (t.machine_tool_type && t.machine_tool_type.some(tl => activeFilters.tool.has(tl)));
             
+        // Type Filter: if no type filters active, it passes. If active, the record MUST have at least one of the active type tags.
         const typeMatch = activeFilters.type.size === 0 || 
             (t.record_type && t.record_type.some(ty => activeFilters.type.has(ty)));
+
+        // Free Tags / Flags Filter: if we add free tags filtering later
 
         return machineMatch && toolMatch && typeMatch;
     });
