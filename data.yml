@@ -3,18 +3,18 @@ project_info:
   description: A curated list of awesome Snapmaker resources, mods, and guides.
   author_name: Maintainers
   author_link: https://github.com/shurushetr/awesome-snapmaker/graphs/contributors
-  forum_url: https://forum.snapmaker.com/
+  forum_url: https://forum.snapmaker.com/t/awesome-snapmaker-list/31346
   site_url: https://awesome-sm-list.xyz
   repo_url: https://github.com/shurushetr/awesome-snapmaker
   hero_image: https://github.com/shurushetr/awesome-snapmaker/raw/main/images/Cropped_Lineup.jpg
 allowed_tags:
   machine_type:
-  - SM_2.0
-  - Artisan
+  - 2.0
+  - ARTISAN
   - U1
   - J1/J1s
   - RAY
-  - Universal
+  - UNIVERSAL
   machine_tool_type:
   - FDM
   - LASER
@@ -22,29 +22,30 @@ allowed_tags:
   - ROTARY
   - COMBINED
   record_type:
-  - Watch
-  - Discuss
-  - Read
-  - Download
-  - Shop
-  - Firmware
+  - WATCH
+  - DISCUSS
+  - READ
+  - DOWNLOAD
+  - SHOP
+  - FIRMWARE
   official_flag:
   - OFFICIAL
   - UNOFFICIAL
   difficulty:
-  - Beginner
-  - Intermediate
-  - Advanced
+  - BEGINNER
+  - INTERMEDIATE
+  - ADVANCED
   cost:
-  - Free
-  - Paid
-  - Freemium
+  - FREE
+  - PAID
+  - FREEMIUM
   language:
   - EN
+  - ZH
   - DE
   - FR
   - ES
-  - ZH
+
 records:
 - id: snapmaker-luban-guide
   title: Comprehensive Luban Slicing Guide
