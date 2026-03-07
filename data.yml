@@ -23,9 +23,9 @@ allowed_tags:
   - ROTARY
   - COMBINED
   record_type:
-  - WATCH
-  - DISCUSS
-  - READ
+  - VIDEO
+  - DISCUSSION 
+  - ARTICLE
   - DOWNLOAD
   - SHOP
   - FIRMWARE
