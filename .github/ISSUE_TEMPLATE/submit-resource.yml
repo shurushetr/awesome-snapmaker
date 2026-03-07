@@ -42,9 +42,9 @@ body:
   attributes:
     label: Difficulty Level
     options:
-    - Beginner
-    - Intermediate
-    - Advanced
+    - BEGINNER
+    - INTERMEDIATE
+    - ADVANCED
   validations:
     required: true
 - type: dropdown
@@ -52,9 +52,9 @@ body:
   attributes:
     label: Cost
     options:
-    - Free
-    - Paid
-    - Freemium
+    - FREE
+    - PAID
+    - FREEMIUM
   validations:
     required: true
 - type: dropdown
@@ -64,10 +64,10 @@ body:
     description: What primary language is this resource in?
     options:
     - EN
+    - ZH
     - DE
     - FR
     - ES
-    - ZH
   validations:
     required: true
 - type: dropdown
@@ -78,11 +78,11 @@ body:
     multiple: true
     options:
     - SM_2.0
-    - Artisan
+    - ARTISAN
     - U1
     - J1/J1s
     - RAY
-    - Universal
+    - UNIVERSAL
   validations:
     required: true
 - type: dropdown
@@ -106,12 +106,12 @@ body:
     description: What kind of resource is this?
     multiple: true
     options:
-    - Watch
-    - Discuss
-    - Read
-    - Download
-    - Shop
-    - Firmware
+    - WATCH
+    - DISCUSS
+    - READ
+    - DOWNLOAD
+    - SHOP
+    - FIRMWARE
   validations:
     required: true
 - type: dropdown
