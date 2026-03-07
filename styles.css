@@ -310,11 +310,21 @@ select {
     white-space: nowrap;
 }
 
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--card-border);
+}
+
 .card-tags {
-    margin-bottom: 1rem;
     display: flex;
     flex-wrap: wrap;
     gap: 0.4rem;
+    flex: 1; /* Pushes the actions to the right */
 }
 
 .tag {
