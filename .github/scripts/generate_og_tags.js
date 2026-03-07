@@ -35,8 +35,12 @@ try {
 </head>`;
 
     // Replace the closing </head> with our tags + </head>
-    // First, remove old tags if they exist to prevent duplicates on multiple runs
-    htmlContent = htmlContent.replace(/[\s\S]*?<!-- Auto-Generated Open Graph Meta Tags -->[\s\S]*?<!-- End Auto-Generated Meta Tags -->[\s\S]*?<\/head>/m, '</head>');
+    // First, safely remove old tags if they exist to prevent duplicates on multiple runs
+    const regex = /[\s]*<!-- Auto-Generated Open Graph Meta Tags -->([\s\S]*?)<!-- End Auto-Generated Meta Tags -->[\s]*/;
+    if (regex.test(htmlContent)) {
+        htmlContent = htmlContent.replace(regex, '\n    ');
+    }
+    
     htmlContent = htmlContent.replace('</head>', ogTags);
 
     fs.writeFileSync(indexFile, htmlContent, 'utf8');

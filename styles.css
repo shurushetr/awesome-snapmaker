@@ -339,10 +339,6 @@ select {
     font-size: 1.05rem;
     color: var(--text-color);
     line-height: 1.5;
-    background-color: var(--secondary-bg);
-    padding: 1rem;
-    border-radius: 6px;
-    border-left: 4px solid var(--primary-color);
 }
 
 /* Dark mode adjustments for specific tags */
@@ -392,6 +388,26 @@ select {
 
 .favorite-btn.is-active {
     color: #f59e0b; /* Amber 500 */
+}
+
+/* Copy Link Button */
+.copy-link-btn {
+    background: none;
+    border: none;
+    color: var(--secondary-text);
+    cursor: pointer;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.2s, transform 0.2s;
+    outline: none;
+    margin-left: 0.25rem;
+}
+
+.copy-link-btn:hover {
+    color: var(--primary-color);
+    transform: scale(1.1);
 }
 
 /* Jump to Top Button */

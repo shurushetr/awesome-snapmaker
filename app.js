@@ -391,9 +391,12 @@ function renderRecords(records) {
                     <h3 class="card-title">
                         <button class="${starClass}" data-id="${record.id}" aria-label="Toggle Favorite" title="Bookmark this item">★</button>
                         <a href="${anchorLink}">${record.title}</a>
+                        <button class="copy-link-btn" data-link="${window.location.origin}${window.location.pathname}${anchorLink}" aria-label="Copy Share Link" title="Copy Share Link">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
+                        </button>
                     </h3>
                     <div class="card-meta">
-                        Added: ${record.date_added} <br> By <a href="${record.author_link}" target="_blank" rel="noopener noreferrer">${record.author_name}</a>
+                        Content Author: <a href="${record.author_link}" target="_blank" rel="noopener noreferrer">${record.author_name}</a> | Added: ${record.date_added}
                     </div>
                 </div>
             ${descHtml}
@@ -411,6 +414,20 @@ function renderRecords(records) {
     // Attach standard listeners to favorite buttons
     document.querySelectorAll('.favorite-btn').forEach(btn => {
         btn.addEventListener('click', (e) => toggleFavorite(e.currentTarget));
+    });
+
+    // Attach listeners to copy link buttons
+    document.querySelectorAll('.copy-link-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            const link = e.currentTarget.dataset.link;
+            navigator.clipboard.writeText(link).then(() => {
+                const originalHtml = e.currentTarget.innerHTML;
+                e.currentTarget.innerHTML = '<span style="font-size:1.1rem;color:green;font-weight:bold;">✓</span>';
+                setTimeout(() => {
+                    e.currentTarget.innerHTML = originalHtml;
+                }, 2000);
+            }).catch(err => console.error('Failed to copy link: ', err));
+        });
     });
 }
 
