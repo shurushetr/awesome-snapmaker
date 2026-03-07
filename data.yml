@@ -4,7 +4,7 @@ project_info:
   author_name: Awesome List Maintainer
   author_link: https://forum.snapmaker.com/
   repo_url: https://github.com/shurushetr/awesome-snapmaker
-  hero_image: https://github.com/shurushetr/awesome-snapmaker/blob/main/images/Cropped_Lineup.jpg
+  hero_image: https://github.com/shurushetr/awesome-snapmaker/raw/main/images/Cropped_Lineup.jpg
 allowed_tags:
   machine_type:
   - SM_2.0
