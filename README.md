@@ -1,6 +1,6 @@
 # Awesome Snapmaker List
 
-![Hero Image](https://github.com/shurushetr/awesome-snapmaker/blob/main/images/Cropped_Lineup.jpg)
+![Hero Image](https://github.com/shurushetr/awesome-snapmaker/raw/main/images/Cropped_Lineup.jpg)
 
 A curated list of awesome Snapmaker resources, mods, and guides.
 
