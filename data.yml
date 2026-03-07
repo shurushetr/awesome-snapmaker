@@ -2631,3 +2631,27 @@ records:
     free_tags:
     - Specific to Snapmaker machines
     - Tools
+- id: very-new-item-to-add
+  title: Very new item to add
+  description: "<img width=\"726\" height=\"284\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/c96823f5-1abb-4c51-95ea-10fc7cb3521d\"\
+    \ />\n\ncheck out - everything is in the picture"
+  author_name: The guy with picture
+  author_link: https://forum.snapmaker.com/u/nweolu
+  original_link: https://verycery.com
+  date_added: '2026-03-07'
+  difficulty: BEGINNER
+  cost: FREE
+  tags:
+    machine_type:
+    - RAY
+    machine_tool_type:
+    - COMBINED
+    record_type:
+    - ARTICLE
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - this shit works
+  extra_buttons:
+  - label: Downlaod PDF
+    link: https://cdn.realfood.gov/DGA.pdf

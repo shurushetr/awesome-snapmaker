@@ -487,6 +487,17 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ## RAY
 
+### [Very new item to add](https://verycery.com)
+> <img width="726" height="284" alt="Image" src="https://github.com/user-attachments/assets/c96823f5-1abb-4c51-95ea-10fc7cb3521d" />
+
+check out - everything is in the picture
+
+**Content Author:** The guy with picture | **Added:** 2026-03-07
+
+**Tags:** BEGINNER, FREE, RAY, COMBINED, ARTICLE, UNOFFICIAL, this shit works
+
+---
+
 ### [Specification](https://snapmaker.com/snapmaker-ray-20w-40w-laser-engraver-and-cutter-with-air-assist/specs)
 > Snapmaker Ray spec sheet
 
