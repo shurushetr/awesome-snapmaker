@@ -21,6 +21,7 @@ const DOM = {
     filterMachine: document.getElementById('filter-machine'),
     filterTool: document.getElementById('filter-tool'),
     filterType: document.getElementById('filter-type'),
+    limitInput: document.getElementById('limit-input'),
     clearFiltersBtn: document.getElementById('clear-filters'),
     resultCount: document.getElementById('result-count'),
     jumpTopBtn: document.getElementById('jump-top')
@@ -119,6 +120,7 @@ function setupFuse() {
 function setupEventListeners() {
     DOM.searchInput.addEventListener('input', () => applyFiltersAndRender());
     DOM.sortSelect.addEventListener('change', () => applyFiltersAndRender());
+    DOM.limitInput.addEventListener('input', () => applyFiltersAndRender());
     DOM.clearFiltersBtn.addEventListener('click', clearAllFilters);
     
     // Jump to top button
@@ -181,6 +183,7 @@ function clearAllFilters() {
     document.querySelectorAll('.tag-filters input[type="checkbox"]').forEach(cb => cb.checked = false);
     DOM.searchInput.value = '';
     DOM.sortSelect.value = 'newest';
+    DOM.limitInput.value = '';
     
     applyFiltersAndRender();
 }
@@ -224,6 +227,12 @@ function applyFiltersAndRender() {
         const dateB = new Date(b.date_added || 0);
         return sortOrder === 'newest' ? dateB - dateA : dateA - dateB;
     });
+
+    // 4. Limit count (Last N items)
+    const limit = parseInt(DOM.limitInput.value);
+    if (!isNaN(limit) && limit > 0) {
+        results = results.slice(0, limit);
+    }
 
     // Render resulting data
     renderRecords(results);
