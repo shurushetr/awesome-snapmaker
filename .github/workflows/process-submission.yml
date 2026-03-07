@@ -27,6 +27,7 @@ jobs:
       - name: Process Issue Body
         env:
           ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
         run: python .github/scripts/process_issue.py
 
       - name: Create Pull Request

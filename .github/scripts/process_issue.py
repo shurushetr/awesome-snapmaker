@@ -22,9 +22,7 @@ def parse_issue_body(body):
             
         label = label.lower()
         
-        if "title" in label:
-            record["title"] = value
-        elif "author name" in label:
+        if "author name" in label:
             record["author_name"] = value
         elif "author link" in label:
             record["author_link"] = value
@@ -61,12 +59,17 @@ def main():
         print("No issue body provided.")
         sys.exit(1)
         
+    issue_title = os.environ.get('ISSUE_TITLE', 'Unknown Resource')
+    # Strip the [Resource]: prefix if it exists
+    if issue_title.startswith('[Resource]:'):
+        issue_title = issue_title.replace('[Resource]:', '').strip()
+        
     parsed = parse_issue_body(issue_body)
     
     # Construct complete record
     new_record = {
-        "id": re.sub(r'[^a-z0-9]+', '-', parsed.get('title', 'new-item').lower()).strip('-'),
-        "title": parsed.get("title"),
+        "id": re.sub(r'[^a-z0-9]+', '-', issue_title.lower()).strip('-'),
+        "title": issue_title,
         "author_name": parsed.get("author_name"),
         "author_link": parsed.get("author_link"),
         "original_link": parsed.get("original_link"),

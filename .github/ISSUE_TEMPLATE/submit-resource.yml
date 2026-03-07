@@ -15,14 +15,7 @@ body:
       with one click!
 
       '
-- type: input
-  id: title
-  attributes:
-    label: Resource Title
-    description: What is the name of this resource?
-    placeholder: e.g., Custom Quick Change Toolhead
-  validations:
-    required: true
+
 - type: input
   id: author_name
   attributes:
