@@ -172,7 +172,10 @@ function setupEventListeners() {
 }
 
 function handleFilterChange(e) {
-    const { category, value, checked } = e.target;
+    const category = e.target.dataset.category;
+    const value = e.target.value;
+    const checked = e.target.checked;
+    
     if (checked) {
         activeFilters[category].add(value);
     } else {
