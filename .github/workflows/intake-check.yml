@@ -9,8 +9,8 @@ permissions:
 jobs:
   triage-check:
     runs-on: ubuntu-latest
-    # Only run if the issue body looks like our resource submission template
-    if: contains(github.event.issue.body, 'Thanks for taking the time to submit a new resource')
+    # Only run if the issue body contains our form identifiers
+    if: contains(github.event.issue.body, '### Content Link') || contains(github.event.issue.body, '### Author Link')
     steps:
       - uses: actions/checkout@v3
 
