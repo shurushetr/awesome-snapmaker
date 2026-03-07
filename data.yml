@@ -29,6 +29,7 @@ allowed_tags:
   - DOWNLOAD
   - SHOP
   - FIRMWARE
+  - MODS
   official_flag:
   - OFFICIAL
   - UNOFFICIAL
