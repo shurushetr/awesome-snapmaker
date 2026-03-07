@@ -273,11 +273,27 @@ select {
 
 .card-header {
     margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+@media (max-width: 600px) {
+    .card-header {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    
+    .card-meta {
+        text-align: left;
+    }
 }
 
 .card-title {
     font-size: 1.25rem;
-    margin-bottom: 0.25rem;
+    margin-bottom: 0;
+    flex: 1;
 }
 
 .card-title a {
@@ -287,6 +303,8 @@ select {
 .card-meta {
     font-size: 0.85rem;
     color: var(--secondary-text);
+    text-align: right;
+    white-space: nowrap;
 }
 
 .card-tags {
@@ -314,10 +332,14 @@ select {
 .tag.cost { background-color: #e0e7ff; color: #3730a3; }
 
 .card-description {
-    margin-top: 1rem;
-    padding-top: 1rem;
-    border-top: 1px dashed var(--card-border);
-    margin-bottom: 1rem;
+    margin-bottom: 1.25rem;
+    font-size: 1.05rem;
+    color: var(--text-color);
+    line-height: 1.5;
+    background-color: var(--secondary-bg);
+    padding: 1rem;
+    border-radius: 6px;
+    border-left: 4px solid var(--primary-color);
 }
 
 /* Dark mode adjustments for specific tags */

@@ -334,12 +334,12 @@ function renderRecords(records) {
         const anchorLink = `#${record.id}`;
 
         card.innerHTML = `
-            <div class="card-header">
-                <h3 class="card-title"><a href="${anchorLink}">${record.title}</a></h3>
-                <div class="card-meta">
-                    Added: ${record.date_added} | By <a href="${record.author_link}" target="_blank" rel="noopener noreferrer">${record.author_name}</a>
+                <div class="card-header">
+                    <h3 class="card-title"><a href="${anchorLink}">${record.title}</a></h3>
+                    <div class="card-meta">
+                        Added: ${record.date_added} <br> By <a href="${record.author_link}" target="_blank" rel="noopener noreferrer">${record.author_name}</a>
+                    </div>
                 </div>
-            </div>
             ${descHtml}
             <div class="card-tags">
                 ${tagsHtml}
