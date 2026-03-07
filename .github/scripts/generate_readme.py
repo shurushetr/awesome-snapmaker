@@ -50,18 +50,27 @@ def generate_readme():
             
             for r in categorized[m]:
                 f.write(f"### [{r.get('title')}]({r.get('original_link')})\n")
-                f.write(f"- **Author:** {r.get('author_name')}\n")
-                f.write(f"- **Difficulty:** {r.get('difficulty', 'N/A')} | **Cost:** {r.get('cost', 'N/A')}\n")
+                
+                if r.get('description'):
+                    f.write(f"> {r.get('description')}\n\n")
+                
+                f.write(f"**Content Author:** {r.get('author_name')} | **Added:** {r.get('date_added', 'Unknown')}\n\n")
                 
                 tags = []
+                if r.get('difficulty') and r.get('difficulty') != 'N/A':
+                    tags.append(r.get('difficulty'))
+                if r.get('cost') and r.get('cost') != 'N/A':
+                    tags.append(r.get('cost'))
+                    
                 t_dict = r.get('tags', {})
                 for k, v_list in t_dict.items():
                     if v_list:
                         tags.extend(v_list)
+                        
                 if tags:
-                    f.write(f"- **Tags:** {', '.join(tags)}\n")
+                    f.write(f"**Tags:** {', '.join(tags)}\n")
                     
-                f.write("\n")
+                f.write("\n---\n\n")
 
 if __name__ == '__main__':
     generate_readme()

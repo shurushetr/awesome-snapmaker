@@ -43,6 +43,12 @@ def update_issue_template():
                 tag_key = 'machine_tool_type'
             elif dropdown_id == 'record_type':
                 tag_key = 'record_type'
+            elif dropdown_id == 'difficulty':
+                tag_key = 'difficulty'
+            elif dropdown_id == 'cost':
+                tag_key = 'cost'
+            elif dropdown_id == 'language':
+                tag_key = 'language'
                 
             if tag_key and tag_key in allowed_tags:
                 new_options = allowed_tags[tag_key]

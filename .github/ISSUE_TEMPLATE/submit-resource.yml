@@ -53,7 +53,6 @@ body:
     - Beginner
     - Intermediate
     - Advanced
-    - N/A
   validations:
     required: true
 - type: dropdown
@@ -64,7 +63,19 @@ body:
     - Free
     - Paid
     - Freemium
-    - N/A
+  validations:
+    required: true
+- type: dropdown
+  id: language
+  attributes:
+    label: Language
+    description: What primary language is this resource in?
+    options:
+    - EN
+    - DE
+    - FR
+    - ES
+    - ZH
   validations:
     required: true
 - type: dropdown
