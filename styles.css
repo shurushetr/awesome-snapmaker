@@ -209,6 +209,7 @@ a:hover {
 }
 
 .filter-actions {
+    grid-column: 1 / -1;
     width: 100%;
     display: flex;
     justify-content: space-between;

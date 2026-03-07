@@ -14,17 +14,24 @@ def generate_readme():
     records = data.get('records', [])
     records.sort(key=lambda x: x.get('date_added', ''), reverse=True) # Newest first
 
-    # Organize records by machine type for the README
+    # Organize records by machine type and then by tool type
     categorized = {}
     for record in records:
         machines = record.get('tags', {}).get('machine_type', ['Uncategorized'])
         if not machines:
             machines = ['Uncategorized']
             
+        tools = record.get('tags', {}).get('machine_tool_type', ['General'])
+        if not tools:
+            tools = ['General']
+            
         for m in machines:
             if m not in categorized:
-                categorized[m] = []
-            categorized[m].append(record)
+                categorized[m] = {}
+            for t in tools:
+                if t not in categorized[m]:
+                    categorized[m][t] = []
+                categorized[m][t].append(record)
 
     with open('README.md', 'w', encoding='utf-8') as f:
         # Header
@@ -48,29 +55,32 @@ def generate_readme():
         for m in sorted(categorized.keys()):
             f.write(f"## {m}\n\n")
             
-            for r in categorized[m]:
-                f.write(f"### [{r.get('title')}]({r.get('original_link')})\n")
+            for t in sorted(categorized[m].keys()):
+                f.write(f"### {t}\n\n")
                 
-                if r.get('description'):
-                    f.write(f"> {r.get('description')}\n\n")
-                
-                f.write(f"**Content Author:** {r.get('author_name')} | **Added:** {r.get('date_added', 'Unknown')}\n\n")
-                
-                tags = []
-                if r.get('difficulty') and r.get('difficulty') != 'N/A':
-                    tags.append(r.get('difficulty'))
-                if r.get('cost') and r.get('cost') != 'N/A':
-                    tags.append(r.get('cost'))
+                for r in categorized[m][t]:
+                    f.write(f"#### [{r.get('title')}]({r.get('original_link')})\n")
                     
-                t_dict = r.get('tags', {})
-                for k, v_list in t_dict.items():
-                    if v_list:
-                        tags.extend(v_list)
+                    if r.get('description'):
+                        f.write(f"> {r.get('description')}\n\n")
+                    
+                    f.write(f"**Content Author:** {r.get('author_name')} | **Added:** {r.get('date_added', 'Unknown')}\n\n")
+                    
+                    tags = []
+                    if r.get('difficulty') and r.get('difficulty') != 'N/A':
+                        tags.append(r.get('difficulty'))
+                    if r.get('cost') and r.get('cost') != 'N/A':
+                        tags.append(r.get('cost'))
                         
-                if tags:
-                    f.write(f"**Tags:** {', '.join(tags)}\n")
-                    
-                f.write("\n---\n\n")
+                    t_dict = r.get('tags', {})
+                    for k, v_list in t_dict.items():
+                        if v_list:
+                            tags.extend(v_list)
+                            
+                    if tags:
+                        f.write(f"**Tags:** {', '.join(tags)}\n")
+                        
+                    f.write("\n---\n\n")
 
 if __name__ == '__main__':
     generate_readme()
