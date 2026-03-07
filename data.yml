@@ -5,8 +5,15 @@ project_info:
   description: "A curated list of awesome Snapmaker resources, mods, and guides."
   author_name: "Awesome List Maintainer"
   author_link: "https://forum.snapmaker.com/"
-  repo_url: "https://github.com/yourusername/awesome-snapmaker"
+  repo_url: "https://github.com/shurushetr/awesome-snapmaker"
   hero_image: "https://github.com/shurushetr/awesome-snapmaker/raw/main/images/AwesomeList_TopImage.jpg" # Replace with actual image
+
+# Documenting list of available tags for schema/configuration reference
+allowed_tags:
+  machine_type: ["SM_2.0", "Artisan", "U1", "J1", "RAY", "Universal"]
+  machine_tool_type: ["FDM", "LASER", "CNC", "ROTARY", "COMBINED"]
+  record_type: ["Watch", "Discuss", "Read", "Download", "Shop"]
+  free_tags_flags: ["OFFICIAL", "UNOFFICIAL"] # Plus any custom tags
 
 records:
   - id: "snapmaker-luban-guide"

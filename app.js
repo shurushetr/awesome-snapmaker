@@ -42,7 +42,15 @@ async function init() {
         const data = jsyaml.load(yamlText);
 
         setupProjectInfo(data.project_info);
-        allRecords = data.records;
+        
+        // Dynamically set TAGS from data.yml so it's a single source of truth
+        if (data.allowed_tags) {
+            TAGS.machine = data.allowed_tags.machine_type || [];
+            TAGS.tool = data.allowed_tags.machine_tool_type || [];
+            TAGS.type = data.allowed_tags.record_type || [];
+        }
+
+        allRecords = data.records || [];
         
         setupFilters();
         setupFuse();

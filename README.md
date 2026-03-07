@@ -10,7 +10,7 @@ Maintained by [Awesome List Maintainer](https://forum.snapmaker.com/).
 
 ## 🌐 Interactive Website
 
-**This list is best viewed on our interactive web interface with search and filters: [View Website](https://yourusername.github.io/awesome-snapmaker/)**
+**This list is best viewed on our interactive web interface with search and filters: [View Website](https://shurushetr.github.io/awesome-snapmaker/)**
 
 ---
 
