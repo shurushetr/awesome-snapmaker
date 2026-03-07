@@ -1,6 +1,6 @@
 # Awesome Snapmaker List
 
-![Hero Image](https://github.com/shurushetr/awesome-snapmaker/raw/main/images/AwesomeList_TopImage.jpg)
+![Hero Image](https://github.com/shurushetr/awesome-snapmaker/blob/main/images/Cropped_Lineup.jpg)
 
 A curated list of awesome Snapmaker resources, mods, and guides.
 
@@ -205,7 +205,7 @@ Maintained by [Awesome List Maintainer](https://forum.snapmaker.com/).
 ### [Comprehensive Luban Slicing Guide](https://example.com/luban-guide)
 - **Author:** John Doe
 - **Difficulty:** Beginner | **Cost:** Free
-- **Tags:** SM_2.0, Artisan, FDM, LASER, Read, Watch, OFFICIAL, Luban, Slicing, Free
+- **Tags:** SM_2.0, Artisan, FDM, LASER, Read, Watch, OFFICIAL, EN, Luban, Slicing, Free
 
 ## J1
 
@@ -818,7 +818,7 @@ Maintained by [Awesome List Maintainer](https://forum.snapmaker.com/).
 ### [Comprehensive Luban Slicing Guide](https://example.com/luban-guide)
 - **Author:** John Doe
 - **Difficulty:** Beginner | **Cost:** Free
-- **Tags:** SM_2.0, Artisan, FDM, LASER, Read, Watch, OFFICIAL, Luban, Slicing, Free
+- **Tags:** SM_2.0, Artisan, FDM, LASER, Read, Watch, OFFICIAL, EN, Luban, Slicing, Free
 
 ## U1
 
