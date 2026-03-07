@@ -2655,3 +2655,25 @@ records:
   extra_buttons:
   - label: Downlaod PDF
     link: https://cdn.realfood.gov/DGA.pdf
+- id: very-new-item-to-add-again-13
+  title: Very new item to add again
+  description: Description of the item
+  author_name: The dude again
+  author_link: https://cdn.realfood.gov/DGA.pdf
+  original_link: https://awesome-sm-list.xyz/
+  date_added: '2026-03-07'
+  difficulty: BEGINNER
+  cost: FREE
+  tags:
+    machine_type:
+    - SM_2.0
+    - RAY
+    machine_tool_type:
+    - ROTARY
+    record_type:
+    - VIDEO
+    - SHOP
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - this stuff works
