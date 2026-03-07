@@ -4,7 +4,8 @@ let fuse;
 let activeFilters = {
     machine: new Set(),
     tool: new Set(),
-    type: new Set()
+    type: new Set(),
+    official: new Set()
 };
 
 // DOM Elements
@@ -21,6 +22,7 @@ const DOM = {
     filterMachine: document.getElementById('filter-machine'),
     filterTool: document.getElementById('filter-tool'),
     filterType: document.getElementById('filter-type'),
+    filterOfficial: document.getElementById('filter-official'),
     limitInput: document.getElementById('limit-input'),
     clearFiltersBtn: document.getElementById('clear-filters'),
     resultCount: document.getElementById('result-count'),
@@ -31,7 +33,8 @@ const DOM = {
 const TAGS = {
     machine: ["SM_2.0", "Artisan", "U1", "J1", "RAY", "Universal"],
     tool: ["FDM", "LASER", "CNC", "ROTARY", "COMBINED"],
-    type: ["Watch", "Discuss", "Read", "Download", "Shop"]
+    type: ["Watch", "Discuss", "Read", "Download", "Shop"],
+    official: ["OFFICIAL", "UNOFFICIAL"]
 };
 
 // Initialize the Application
@@ -49,6 +52,7 @@ async function init() {
             TAGS.machine = data.allowed_tags.machine_type || [];
             TAGS.tool = data.allowed_tags.machine_tool_type || [];
             TAGS.type = data.allowed_tags.record_type || [];
+            TAGS.official = data.allowed_tags.official_flag || [];
         }
 
         allRecords = data.records || [];
@@ -82,6 +86,7 @@ function setupFilters() {
     createCheckboxGroup(DOM.filterMachine, 'machine', TAGS.machine);
     createCheckboxGroup(DOM.filterTool, 'tool', TAGS.tool);
     createCheckboxGroup(DOM.filterType, 'type', TAGS.type);
+    createCheckboxGroup(DOM.filterOfficial, 'official', TAGS.official);
 }
 
 function createCheckboxGroup(container, category, tags) {
@@ -108,6 +113,7 @@ function setupFuse() {
             'tags.machine_type',
             'tags.machine_tool_type',
             'tags.record_type',
+            'tags.official_flag',
             'tags.free_tags'
         ],
         threshold: 0.3,
@@ -179,6 +185,7 @@ function clearAllFilters() {
     activeFilters.machine.clear();
     activeFilters.tool.clear();
     activeFilters.type.clear();
+    activeFilters.official.clear();
     
     document.querySelectorAll('.tag-filters input[type="checkbox"]').forEach(cb => cb.checked = false);
     DOM.searchInput.value = '';
@@ -214,10 +221,14 @@ function applyFiltersAndRender() {
         // Type Filter: if no type filters active, it passes. If active, the record MUST have at least one of the active type tags.
         const typeMatch = activeFilters.type.size === 0 || 
             (t.record_type && t.record_type.some(ty => activeFilters.type.has(ty)));
+            
+        // Official Filter
+        const officialMatch = activeFilters.official.size === 0 || 
+            (t.official_flag && t.official_flag.some(of => activeFilters.official.has(of)));
 
         // Free Tags / Flags Filter: if we add free tags filtering later
 
-        return machineMatch && toolMatch && typeMatch;
+        return machineMatch && toolMatch && typeMatch && officialMatch;
     });
 
     // 3. Sorting
@@ -260,6 +271,7 @@ function renderRecords(records) {
         if (t.machine_type) t.machine_type.forEach(tag => tagsHtml += `<span class="tag machine">${tag}</span>`);
         if (t.machine_tool_type) t.machine_tool_type.forEach(tag => tagsHtml += `<span class="tag tool">${tag}</span>`);
         if (t.record_type) t.record_type.forEach(tag => tagsHtml += `<span class="tag type">${tag}</span>`);
+        if (t.official_flag) t.official_flag.forEach(tag => tagsHtml += `<span class="tag official">${tag}</span>`);
         if (t.free_tags) t.free_tags.forEach(tag => tagsHtml += `<span class="tag">${tag}</span>`);
 
         // Generate Buttons HTML

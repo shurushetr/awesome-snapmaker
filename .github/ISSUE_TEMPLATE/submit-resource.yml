@@ -113,6 +113,17 @@ body:
     validations:
       required: true
 
+  - type: dropdown
+    id: official_resource
+    attributes:
+      label: Official Snapmaker Resource?
+      description: Is this an official Snapmaker resource or a community creation?
+      options:
+        - "No"
+        - "Yes"
+    validations:
+      required: true
+
   - type: input
     id: free_tags
     attributes:

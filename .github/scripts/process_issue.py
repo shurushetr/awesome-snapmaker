@@ -40,6 +40,12 @@ def parse_issue_body(body):
             record["machine_tool"] = [x.strip() for x in value.split(',')] if value else []
         elif "record type" in label:
             record["record_type"] = [x.strip() for x in value.split(',')] if value else []
+        elif "official snapmaker resource" in label or "official flag" in label:
+            val = value.lower().strip()
+            if val == 'yes' or val == 'true' or val == '1':
+                record["official_flag"] = ["OFFICIAL"]
+            else:
+                record["official_flag"] = ["UNOFFICIAL"]
         elif "free tags" in label:
             record["free_tags"] = [x.strip() for x in value.split(',') if x.strip()] if value else []
         elif "extra button 1 - label" in label:
@@ -74,6 +80,13 @@ def main():
     if parsed.get("machine_type"): tags["machine_type"] = parsed.get("machine_type")
     if parsed.get("machine_tool"): tags["machine_tool_type"] = parsed.get("machine_tool")
     if parsed.get("record_type"): tags["record_type"] = parsed.get("record_type")
+    
+    # Extract official flag if it exists, otherwise default to UNOFFICIAL
+    if parsed.get("official_flag"): 
+        tags["official_flag"] = parsed.get("official_flag")
+    else:
+        tags["official_flag"] = ["UNOFFICIAL"]
+        
     if parsed.get("free_tags"): tags["free_tags"] = parsed.get("free_tags")
     new_record["tags"] = tags
     

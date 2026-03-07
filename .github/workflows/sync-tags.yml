@@ -1,0 +1,36 @@
+name: Sync Tags to Issue Template
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'data.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync-tags:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Run Tag Sync Script
+        run: python .github/scripts/sync_issue_tags.py
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .github/ISSUE_TEMPLATE/submit-resource.yml
+          git commit -m "chore: Auto-sync tags from data.yml to issue template" || exit 0
+          git push

@@ -13,7 +13,7 @@ allowed_tags:
   machine_type: ["SM_2.0", "Artisan", "U1", "J1", "RAY", "Universal"]
   machine_tool_type: ["FDM", "LASER", "CNC", "ROTARY", "COMBINED"]
   record_type: ["Watch", "Discuss", "Read", "Download", "Shop"]
-  free_tags_flags: ["OFFICIAL", "UNOFFICIAL"] # Plus any custom tags
+  official_flag: ["OFFICIAL", "UNOFFICIAL"]
 
 records:
   - id: "snapmaker-luban-guide"
@@ -28,7 +28,8 @@ records:
       machine_type: ["SM_2.0", "Artisan"]
       machine_tool_type: ["FDM", "LASER"]
       record_type: ["Read", "Watch"]
-      free_tags: ["OFFICIAL", "Luban", "Slicing"]
+      official_flag: ["OFFICIAL"]
+      free_tags: ["Luban", "Slicing"]
     extra_buttons:
       - label: "Download PDF"
         link: "https://example.com/luban-guide.pdf"
@@ -45,5 +46,6 @@ records:
       machine_type: ["SM_2.0"]
       machine_tool_type: ["CNC"]
       record_type: ["Download", "Shop"]
-      free_tags: ["UNOFFICIAL", "Dust Collection", "3D Printed"]
+      official_flag: ["UNOFFICIAL"]
+      free_tags: ["Dust Collection", "3D Printed"]
     extra_buttons: []

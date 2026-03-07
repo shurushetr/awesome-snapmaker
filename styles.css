@@ -305,9 +305,10 @@ select {
     font-weight: 600;
 }
 
-.tag.machine { background-color: rgba(13, 110, 253, 0.1); color: var(--primary-color); }
-.tag.tool { background-color: rgba(25, 135, 84, 0.1); color: #198754; }
-.tag.type { background-color: rgba(220, 53, 69, 0.1); color: #dc3545; }
+.tag.machine { background-color: #e0f2fe; color: #0369a1; }
+.tag.tool { background-color: #d1fae5; color: #047857; }
+.tag.type { background-color: #fee2e2; color: #b91c1c; }
+.tag.official { background-color: #fef08a; color: #854d0e; }
 
 /* Dark mode adjustments for specific tags */
 @media (prefers-color-scheme: dark) {
@@ -319,6 +320,7 @@ select {
 :root[data-theme="dark"] .tag.machine { background-color: rgba(59, 130, 246, 0.2); color: #93c5fd; }
 :root[data-theme="dark"] .tag.tool { background-color: rgba(52, 211, 153, 0.2); color: #6ee7b7; }
 :root[data-theme="dark"] .tag.type { background-color: rgba(248, 113, 113, 0.2); color: #fca5a5; }
+:root[data-theme="dark"] .tag.official { background-color: rgba(234, 179, 8, 0.2); color: #fde047; }
 
 .card-actions {
     margin-top: auto;
