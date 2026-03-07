@@ -33,29 +33,36 @@ def update_issue_template():
     updated = False
     
     for item in body_items:
-        if item.get('type') == 'dropdown':
-            dropdown_id = item.get('id')
+        if item.get('type') in ['dropdown', 'checkboxes']:
+            field_id = item.get('id')
             attr = item.get('attributes', {})
             
             # Map the issue form IDs to our allowed_tags dictionary keys
             tag_key = None
-            if dropdown_id == 'machine_type':
+            if field_id == 'machine_type':
                 tag_key = 'machine_type'
-            elif dropdown_id == 'machine_tool_type':
+            elif field_id == 'machine_tool_type':
                 tag_key = 'machine_tool_type'
-            elif dropdown_id == 'record_type':
+            elif field_id == 'record_type':
                 tag_key = 'record_type'
-            elif dropdown_id == 'difficulty':
+            elif field_id == 'difficulty':
                 tag_key = 'difficulty'
-            elif dropdown_id == 'cost':
+            elif field_id == 'cost':
                 tag_key = 'cost'
-            elif dropdown_id == 'language':
+            elif field_id == 'language':
                 tag_key = 'language'
                 
             if tag_key and tag_key in allowed_tags:
                 new_options = allowed_tags[tag_key]
-                if attr.get('options') != new_options:
-                    attr['options'] = new_options
+                
+                # Checkboxes require a specific schema [{'label': option}]
+                if item.get('type') == 'checkboxes':
+                    formatted_options = [{'label': opt} for opt in new_options]
+                else:
+                    formatted_options = new_options
+                    
+                if attr.get('options') != formatted_options:
+                    attr['options'] = formatted_options
                     updated = True
 
     # 4. Save the updated template back if changes occurred

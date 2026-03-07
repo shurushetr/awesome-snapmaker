@@ -36,11 +36,20 @@ def parse_issue_body(body):
         elif "cost" in label:
             record["cost"] = value if value and value != "N/A" else None
         elif "machine type" in label:
-            record["machine_type"] = [x.strip() for x in value.split(',')] if value else []
+            if "- [" in value:
+                record["machine_type"] = [line.replace('- [X]', '').replace('- [x]', '').strip() for line in value.split('\n') if '- [x]' in line.lower()]
+            else:
+                record["machine_type"] = [x.strip() for x in value.split(',')] if value else []
         elif "machine tool type" in label:
-            record["machine_tool"] = [x.strip() for x in value.split(',')] if value else []
+            if "- [" in value:
+                record["machine_tool"] = [line.replace('- [X]', '').replace('- [x]', '').strip() for line in value.split('\n') if '- [x]' in line.lower()]
+            else:
+                record["machine_tool"] = [x.strip() for x in value.split(',')] if value else []
         elif "record type" in label:
-            record["record_type"] = [x.strip() for x in value.split(',')] if value else []
+            if "- [" in value:
+                record["record_type"] = [line.replace('- [X]', '').replace('- [x]', '').strip() for line in value.split('\n') if '- [x]' in line.lower()]
+            else:
+                record["record_type"] = [x.strip() for x in value.split(',')] if value else []
         elif "official snapmaker resource" in label or "official flag" in label:
             val = value.lower().strip()
             if val == 'yes' or val == 'true' or val == '1':

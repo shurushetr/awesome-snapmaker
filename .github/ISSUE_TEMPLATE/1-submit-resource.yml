@@ -77,51 +77,42 @@ body:
     - ES
   validations:
     required: true
-- type: dropdown
+- type: checkboxes
   id: machine_type
   attributes:
     label: Machine Type(s)
     description: Which Snapmaker machines does this apply to? (Select all that apply)
-    multiple: true
     options:
-    - SM_2.0
-    - ARTISAN
-    - U1
-    - J1/J1s
-    - RAY
-    - UNIVERSAL
-  validations:
-    required: true
-- type: dropdown
+    - label: SM_2.0
+    - label: ARTISAN
+    - label: U1
+    - label: J1/J1s
+    - label: RAY
+    - label: UNIVERSAL
+- type: checkboxes
   id: machine_tool_type
   attributes:
     label: Machine Tool Type(s)
     description: Which modules/toolheads are relevant? (Select all that apply)
-    multiple: true
     options:
-    - FDM
-    - LASER
-    - CNC
-    - ROTARY
-    - COMBINED
-  validations:
-    required: true
-- type: dropdown
+    - label: FDM
+    - label: LASER
+    - label: CNC
+    - label: ROTARY
+    - label: COMBINED
+- type: checkboxes
   id: record_type
   attributes:
     label: Record Type(s)
     description: What kind of resource is this? (Select all that apply)
-    multiple: true
     options:
-    - VIDEO
-    - DISCUSSION
-    - ARTICLE
-    - DOWNLOAD
-    - SHOP
-    - FIRMWARE
-    - MODS
-  validations:
-    required: true
+    - label: VIDEO
+    - label: DISCUSSION
+    - label: ARTICLE
+    - label: DOWNLOAD
+    - label: SHOP
+    - label: FIRMWARE
+    - label: MODS
 - type: dropdown
   id: official_resource
   attributes:
