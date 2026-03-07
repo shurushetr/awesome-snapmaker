@@ -60,19 +60,23 @@ async function init() {
             TAGS.tool = data.allowed_tags.machine_tool_type || [];
             TAGS.type = data.allowed_tags.record_type || [];
             TAGS.official = data.allowed_tags.official_flag || [];
+            TAGS.difficulty = data.allowed_tags.difficulty || [];
+            TAGS.cost = data.allowed_tags.cost || [];
         }
 
         allRecords = data.records || [];
         
-        // Extract unique difficulty and cost
-        let difficulties = new Set();
-        let costs = new Set();
-        allRecords.forEach(r => {
-            if (r.difficulty && r.difficulty !== 'N/A') difficulties.add(r.difficulty);
-            if (r.cost && r.cost !== 'N/A') costs.add(r.cost);
-        });
-        TAGS.difficulty = Array.from(difficulties).sort();
-        TAGS.cost = Array.from(costs).sort();
+        // Extract unique difficulty and cost as a fallback if not defined in allowed_tags
+        if (TAGS.difficulty.length === 0 || TAGS.cost.length === 0) {
+            let difficulties = new Set();
+            let costs = new Set();
+            allRecords.forEach(r => {
+                if (r.difficulty && r.difficulty !== 'N/A') difficulties.add(r.difficulty);
+                if (r.cost && r.cost !== 'N/A') costs.add(r.cost);
+            });
+            if (TAGS.difficulty.length === 0) TAGS.difficulty = Array.from(difficulties).sort();
+            if (TAGS.cost.length === 0) TAGS.cost = Array.from(costs).sort();
+        }
         
         setupFilters();
         setupFuse();
@@ -420,13 +424,35 @@ function renderRecords(records) {
     document.querySelectorAll('.copy-link-btn').forEach(btn => {
         btn.addEventListener('click', (e) => {
             const link = e.currentTarget.dataset.link;
-            navigator.clipboard.writeText(link).then(() => {
+            
+            const triggerSuccess = () => {
                 const originalHtml = e.currentTarget.innerHTML;
                 e.currentTarget.innerHTML = '<span style="font-size:1.1rem;color:green;font-weight:bold;">✓</span>';
                 setTimeout(() => {
                     e.currentTarget.innerHTML = originalHtml;
                 }, 2000);
-            }).catch(err => console.error('Failed to copy link: ', err));
+            };
+
+            // Use modern clipboard API if available
+            if (navigator.clipboard) {
+                navigator.clipboard.writeText(link).then(triggerSuccess).catch(err => console.error('Failed to copy link: ', err));
+            } else {
+                const textArea = document.createElement("textarea");
+                textArea.value = link;
+                textArea.style.position = "fixed";
+                textArea.style.left = "-999999px";
+                textArea.style.top = "-999999px";
+                document.body.appendChild(textArea);
+                textArea.focus();
+                textArea.select();
+                try {
+                    document.execCommand('copy');
+                    triggerSuccess();
+                } catch (err) {
+                    console.error('Fallback clipboard copy failed', err);
+                }
+                document.body.removeChild(textArea);
+            }
         });
     });
 }

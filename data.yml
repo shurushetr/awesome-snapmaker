@@ -28,6 +28,14 @@ allowed_tags:
   official_flag:
   - OFFICIAL
   - UNOFFICIAL
+  difficulty:
+  - Beginner
+  - Intermediate
+  - Advanced
+  cost:
+  - Free
+  - Paid
+  - Freemium
 records:
 - id: snapmaker-luban-guide
   title: Comprehensive Luban Slicing Guide
