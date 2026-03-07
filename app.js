@@ -5,7 +5,9 @@ let activeFilters = {
     machine: new Set(),
     tool: new Set(),
     type: new Set(),
-    official: new Set()
+    official: new Set(),
+    difficulty: new Set(),
+    cost: new Set()
 };
 
 // DOM Elements
@@ -23,6 +25,8 @@ const DOM = {
     filterTool: document.getElementById('filter-tool'),
     filterType: document.getElementById('filter-type'),
     filterOfficial: document.getElementById('filter-official'),
+    filterDifficulty: document.getElementById('filter-difficulty'),
+    filterCost: document.getElementById('filter-cost'),
     limitInput: document.getElementById('limit-input'),
     clearFiltersBtn: document.getElementById('clear-filters'),
     resultCount: document.getElementById('result-count'),
@@ -34,7 +38,9 @@ const TAGS = {
     machine: ["SM_2.0", "Artisan", "U1", "J1", "RAY", "Universal"],
     tool: ["FDM", "LASER", "CNC", "ROTARY", "COMBINED"],
     type: ["Watch", "Discuss", "Read", "Download", "Shop"],
-    official: ["OFFICIAL", "UNOFFICIAL"]
+    official: ["OFFICIAL", "UNOFFICIAL"],
+    difficulty: [],
+    cost: []
 };
 
 // Initialize the Application
@@ -56,6 +62,16 @@ async function init() {
         }
 
         allRecords = data.records || [];
+        
+        // Extract unique difficulty and cost
+        let difficulties = new Set();
+        let costs = new Set();
+        allRecords.forEach(r => {
+            if (r.difficulty && r.difficulty !== 'N/A') difficulties.add(r.difficulty);
+            if (r.cost && r.cost !== 'N/A') costs.add(r.cost);
+        });
+        TAGS.difficulty = Array.from(difficulties).sort();
+        TAGS.cost = Array.from(costs).sort();
         
         setupFilters();
         setupFuse();
@@ -87,6 +103,8 @@ function setupFilters() {
     createCheckboxGroup(DOM.filterTool, 'tool', TAGS.tool);
     createCheckboxGroup(DOM.filterType, 'type', TAGS.type);
     createCheckboxGroup(DOM.filterOfficial, 'official', TAGS.official);
+    createCheckboxGroup(DOM.filterDifficulty, 'difficulty', TAGS.difficulty);
+    createCheckboxGroup(DOM.filterCost, 'cost', TAGS.cost);
 }
 
 function createCheckboxGroup(container, category, tags) {
@@ -114,7 +132,9 @@ function setupFuse() {
             'tags.machine_tool_type',
             'tags.record_type',
             'tags.official_flag',
-            'tags.free_tags'
+            'tags.free_tags',
+            'difficulty',
+            'cost'
         ],
         threshold: 0.3,
         includeScore: true
@@ -189,6 +209,8 @@ function clearAllFilters() {
     activeFilters.tool.clear();
     activeFilters.type.clear();
     activeFilters.official.clear();
+    activeFilters.difficulty.clear();
+    activeFilters.cost.clear();
     
     document.querySelectorAll('.tag-filters input[type="checkbox"]').forEach(cb => cb.checked = false);
     DOM.searchInput.value = '';
@@ -229,9 +251,17 @@ function applyFiltersAndRender() {
         const officialMatch = activeFilters.official.size === 0 || 
             (t.official_flag && t.official_flag.some(of => activeFilters.official.has(of)));
 
+        // Difficulty Filter
+        const diffMatch = activeFilters.difficulty.size === 0 || 
+            (record.difficulty && activeFilters.difficulty.has(record.difficulty));
+
+        // Cost Filter
+        const costMatch = activeFilters.cost.size === 0 || 
+            (record.cost && activeFilters.cost.has(record.cost));
+
         // Free Tags / Flags Filter: if we add free tags filtering later
 
-        return machineMatch && toolMatch && typeMatch && officialMatch;
+        return machineMatch && toolMatch && typeMatch && officialMatch && diffMatch && costMatch;
     });
 
     // 3. Sorting
@@ -274,7 +304,17 @@ function renderRecords(records) {
         if (t.machine_type) t.machine_type.forEach(tag => tagsHtml += `<span class="tag machine">${tag}</span>`);
         if (t.machine_tool_type) t.machine_tool_type.forEach(tag => tagsHtml += `<span class="tag tool">${tag}</span>`);
         if (t.record_type) t.record_type.forEach(tag => tagsHtml += `<span class="tag type">${tag}</span>`);
-        if (t.official_flag) t.official_flag.forEach(tag => tagsHtml += `<span class="tag official">${tag}</span>`);
+        
+        if (t.official_flag) {
+            t.official_flag.forEach(tag => {
+                let tagClass = tag === 'UNOFFICIAL' ? 'unofficial' : tag.toLowerCase(); // it'll be 'official' or 'unofficial'
+                tagsHtml += `<span class="tag ${tagClass}">${tag}</span>`;
+            });
+        }
+        
+        if (record.difficulty && record.difficulty !== 'N/A') tagsHtml += `<span class="tag difficulty">${record.difficulty}</span>`;
+        if (record.cost && record.cost !== 'N/A') tagsHtml += `<span class="tag cost">${record.cost}</span>`;
+        
         if (t.free_tags) t.free_tags.forEach(tag => tagsHtml += `<span class="tag">${tag}</span>`);
 
         // Generate Buttons HTML
@@ -298,8 +338,6 @@ function renderRecords(records) {
                 <h3 class="card-title"><a href="${anchorLink}">${record.title}</a></h3>
                 <div class="card-meta">
                     Added: ${record.date_added} | By <a href="${record.author_link}" target="_blank" rel="noopener noreferrer">${record.author_name}</a>
-                    <br>
-                    Difficulty: ${record.difficulty || 'N/A'} | Cost: ${record.cost || 'N/A'}
                 </div>
             </div>
             ${descHtml}
