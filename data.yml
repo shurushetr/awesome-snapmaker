@@ -10,7 +10,7 @@ allowed_tags:
   - SM_2.0
   - Artisan
   - U1
-  - J1
+  - J1/J1s
   - RAY
   - Universal
   machine_tool_type:

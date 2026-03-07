@@ -256,7 +256,7 @@ select {
 /* Records Grid */
 .records-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-columns: 1fr;
     gap: 1.5rem;
 }
 
@@ -330,7 +330,7 @@ select {
 }
 
 .card-actions .btn {
-    flex: 1;
+    padding: 0.5rem 1.5rem;
     min-width: fit-content;
 }
 
