@@ -205,6 +205,16 @@
                         <input type="text" id="free_tags" placeholder="e.g. cooling, enclosure, petg">
                     </div>
 
+                    <div class="form-group">
+                        <label for="extra_button_label">(Optional) Extra Button - Label</label>
+                        <input type="text" id="extra_button_label" placeholder="e.g. Download STL">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="extra_button_link">(Optional) Extra Button - Link</label>
+                        <input type="url" id="extra_button_link" placeholder="https://...">
+                    </div>
+
                     <button type="button" id="generate-btn" class="btn primary-btn" style="width: 100%; margin-top: 1rem;">Generate YAML Snippet</button>
                     <button type="button" id="clear-btn" class="btn secondary-btn" style="width: 100%; margin-top: 0.5rem;">Clear Form</button>
                 </form>
@@ -316,8 +326,20 @@
                 });
             }
 
+            const extraBtnLabel = getVal('extra_button_label');
+            const extraBtnLink = getVal('extra_button_link');
+            
+            if (extraBtnLabel && extraBtnLink) {
+                yaml += `  extra_buttons:\n`;
+                yaml += `  - label: ${safeYamlStr(extraBtnLabel)}\n`;
+                yaml += `    link: ${getVal('extra_button_link')}\n`;
+            }
+
             const output = document.getElementById('output-area');
-            output.textContent = yaml;
+            if (output.textContent === 'Fill out the form and click Generate...') {
+                output.textContent = '';
+            }
+            output.textContent += yaml + '\n';
             document.getElementById('copy-btn').style.display = 'block';
         }
     </script>
