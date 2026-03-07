@@ -1,155 +1,148 @@
 name: 👉 Submit an Awesome Snapmaker Resource
-description: Submit a new resource (tool, guide, mod, etc.) to the Awesome Snapmaker List!
-title: "[Resource]: "
-labels: ["new-submission"]
+description: Submit a new resource (tool, guide, mod, etc.) to the Awesome Snapmaker
+  List!
+title: '[Resource]: '
+labels:
+- new-submission
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to submit a new resource to the Awesome Snapmaker List!
-        Please fill out the form below. Once submitted, our automated bot will generate a Pull Request to add this to the database, so the maintainer can approve it with one click!
+- type: markdown
+  attributes:
+    value: 'Thanks for taking the time to submit a new resource to the Awesome Snapmaker
+      List!
 
-  - type: input
-    id: title
-    attributes:
-      label: Resource Title
-      description: What is the name of this resource?
-      placeholder: "e.g., Custom Quick Change Toolhead"
-    validations:
-      required: true
+      Please fill out the form below. Once submitted, our automated bot will generate
+      a Pull Request to add this to the database, so the maintainer can approve it
+      with one click!
 
-  - type: input
-    id: author_name
-    attributes:
-      label: Author Name
-      description: Who created this resource? (Use your name or username if it's yours)
-    validations:
-      required: true
-      
-  - type: input
-    id: author_link
-    attributes:
-      label: Author Link
-      description: Link to the author's profile (GitHub, Thingiverse, Forum, etc.)
-    validations:
-      required: true
-
-  - type: input
-    id: original_link
-    attributes:
-      label: Content Link (Original URL)
-      description: Where is this resource hosted?
-      placeholder: "https://..."
-    validations:
-      required: true
-
-  - type: dropdown
-    id: difficulty
-    attributes:
-      label: Difficulty Level
-      options:
-        - Beginner
-        - Intermediate
-        - Advanced
-        - N/A
-    validations:
-      required: true
-
-  - type: dropdown
-    id: cost
-    attributes:
-      label: Cost
-      options:
-        - Free
-        - Paid
-        - Freemium
-        - N/A
-    validations:
-      required: true
-
-  - type: dropdown
-    id: machine_type
-    attributes:
-      label: Machine Type(s)
-      description: Which Snapmaker machines does this apply to?
-      multiple: true
-      options:
-        - SM_2.0
-        - Artisan
-        - U1
-        - J1
-        - RAY
-        - Universal
-    validations:
-      required: true
-
-  - type: dropdown
-    id: machine_tool_type
-    attributes:
-      label: Machine Tool Type(s)
-      description: Which modules/toolheads are relevant?
-      multiple: true
-      options:
-        - FDM
-        - LASER
-        - CNC
-        - ROTARY
-        - COMBINED
-    validations:
-      required: true
-
-  - type: dropdown
-    id: record_type
-    attributes:
-      label: Record Type(s)
-      description: What kind of resource is this?
-      multiple: true
-      options:
-        - Watch
-        - Discuss
-        - Read
-        - Download
-        - Shop
-    validations:
-      required: true
-
-  - type: dropdown
-    id: official_resource
-    attributes:
-      label: Official Snapmaker Resource?
-      description: Is this an official Snapmaker resource or a community creation?
-      options:
-        - "No"
-        - "Yes"
-    validations:
-      required: true
-
-  - type: input
-    id: free_tags
-    attributes:
-      label: Free Tags
-      description: Comma-separated tags (e.g. OFFICIAL, UNOFFICIAL, enclosure, cooling)
-      placeholder: "UNOFFICIAL, cooling, petg"
-    validations:
-      required: false
-
-  - type: input
-    id: extra_button_1_label
-    attributes:
-      label: (Optional) Extra Button 1 - Label
-      description: Useful for direct PDF/STL downloads.
-      placeholder: "Download STL"
-    validations:
-      required: false
-
-  - type: input
-    id: extra_button_1_link
-    attributes:
-      label: (Optional) Extra Button 1 - Link
-      placeholder: "https://..."
-    validations:
-      required: false
-
-  - type: markdown
-    attributes:
-      value: "By submitting this issue, you confirm the link is safe and valid."
+      '
+- type: input
+  id: title
+  attributes:
+    label: Resource Title
+    description: What is the name of this resource?
+    placeholder: e.g., Custom Quick Change Toolhead
+  validations:
+    required: true
+- type: input
+  id: author_name
+  attributes:
+    label: Author Name
+    description: Who created this resource? (Use your name or username if it's yours)
+  validations:
+    required: true
+- type: input
+  id: author_link
+  attributes:
+    label: Author Link
+    description: Link to the author's profile (GitHub, Thingiverse, Forum, etc.)
+  validations:
+    required: true
+- type: input
+  id: original_link
+  attributes:
+    label: Content Link (Original URL)
+    description: Where is this resource hosted?
+    placeholder: https://...
+  validations:
+    required: true
+- type: dropdown
+  id: difficulty
+  attributes:
+    label: Difficulty Level
+    options:
+    - Beginner
+    - Intermediate
+    - Advanced
+    - N/A
+  validations:
+    required: true
+- type: dropdown
+  id: cost
+  attributes:
+    label: Cost
+    options:
+    - Free
+    - Paid
+    - Freemium
+    - N/A
+  validations:
+    required: true
+- type: dropdown
+  id: machine_type
+  attributes:
+    label: Machine Type(s)
+    description: Which Snapmaker machines does this apply to?
+    multiple: true
+    options:
+    - SM_2.0
+    - Artisan
+    - U1
+    - J1/J1s
+    - RAY
+    - Universal
+  validations:
+    required: true
+- type: dropdown
+  id: machine_tool_type
+  attributes:
+    label: Machine Tool Type(s)
+    description: Which modules/toolheads are relevant?
+    multiple: true
+    options:
+    - FDM
+    - LASER
+    - CNC
+    - ROTARY
+    - COMBINED
+  validations:
+    required: true
+- type: dropdown
+  id: record_type
+  attributes:
+    label: Record Type(s)
+    description: What kind of resource is this?
+    multiple: true
+    options:
+    - Watch
+    - Discuss
+    - Read
+    - Download
+    - Shop
+  validations:
+    required: true
+- type: dropdown
+  id: official_resource
+  attributes:
+    label: Official Snapmaker Resource?
+    description: Is this an official Snapmaker resource or a community creation?
+    options:
+    - 'No'
+    - 'Yes'
+  validations:
+    required: true
+- type: input
+  id: free_tags
+  attributes:
+    label: Free Tags
+    description: Comma-separated tags (e.g. OFFICIAL, UNOFFICIAL, enclosure, cooling)
+    placeholder: UNOFFICIAL, cooling, petg
+  validations:
+    required: false
+- type: input
+  id: extra_button_1_label
+  attributes:
+    label: (Optional) Extra Button 1 - Label
+    description: Useful for direct PDF/STL downloads.
+    placeholder: Download STL
+  validations:
+    required: false
+- type: input
+  id: extra_button_1_link
+  attributes:
+    label: (Optional) Extra Button 1 - Link
+    placeholder: https://...
+  validations:
+    required: false
+- type: markdown
+  attributes:
+    value: By submitting this issue, you confirm the link is safe and valid.
