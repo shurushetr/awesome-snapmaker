@@ -46,6 +46,14 @@ def parse_issue_for_url(body):
             return value
     return None
 
+def check_for_executable(url):
+    """Checks if the URL points directly to an executable file."""
+    if not url:
+        return False
+    parsed = urlparse(url)
+    exts = ('.exe', '.msi', '.bat', '.cmd', '.sh', '.vbs', '.scr', '.dmg', '.pkg', '.apk')
+    return parsed.path.lower().endswith(exts)
+
 def check_for_duplicates(new_url, data_file='data.yml'):
     """Checks if the normalized new_url exists in the data.yml file."""
     if not new_url:
@@ -84,6 +92,10 @@ def main():
     
     if not submitted_url:
         print("UNIQUE") # Can't check if there's no URL
+        sys.exit(0)
+        
+    if check_for_executable(submitted_url):
+        print("REJECT_EXECUTABLE")
         sys.exit(0)
         
     is_duplicate, existing_id = check_for_duplicates(submitted_url)

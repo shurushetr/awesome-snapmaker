@@ -59,6 +59,30 @@ jobs:
               state: 'closed'
             });
 
+      - name: Handle Executable Resource
+        if: env.STATUS == 'REJECT_EXECUTABLE'
+        uses: actions/github-script@v6
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `Thanks for submitting! For the safety of our users, we do not accept direct links to executable files (.exe, .msi, etc.). Please link to the project's homepage or repository instead.\n\nThis issue has been closed.`
+            });
+            github.rest.issues.addLabels({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels: ['rejected']
+            });
+            github.rest.issues.update({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'closed'
+            });
+
       - name: Handle Unique Resource
         if: env.STATUS == 'UNIQUE'
         uses: actions/github-script@v6

@@ -1,11 +1,15 @@
-import yaml
 import sys
+from ruamel.yaml import YAML
 
 def update_issue_template():
     # 1. Load the allowed_tags from the main data source
+    yaml = YAML()
+    yaml.preserve_quotes = True
+    yaml.explicit_start = False
+    
     try:
         with open('data.yml', 'r', encoding='utf-8') as f:
-            data = yaml.safe_load(f)
+            data = yaml.load(f)
             
         allowed_tags = data.get('allowed_tags', {})
         if not allowed_tags:
@@ -16,12 +20,10 @@ def update_issue_template():
         sys.exit(1)
 
     # 2. Load the github issue template
-    template_path = '.github/ISSUE_TEMPLATE/submit-resource.yml'
+    template_path = '.github/ISSUE_TEMPLATE/1-submit-resource.yml'
     try:
         with open(template_path, 'r', encoding='utf-8') as f:
-            # We use pyyaml to parse and dump. 
-            # Note: pyyaml might drop comments and reformats slightly, but the schema remains valid.
-            template = yaml.safe_load(f)
+            template = yaml.load(f)
     except Exception as e:
         print(f"Error reading {template_path}: {e}")
         sys.exit(1)
@@ -59,8 +61,7 @@ def update_issue_template():
     # 4. Save the updated template back if changes occurred
     if updated:
         with open(template_path, 'w', encoding='utf-8') as f:
-            # sort_keys=False preserves the general layout
-            yaml.dump(template, f, sort_keys=False, default_flow_style=False, allow_unicode=True)
+            yaml.dump(template, f)
             print("Successfully updated issue template options.")
     else:
         print("Issue template is already up to date with data.yml.")
