@@ -263,8 +263,12 @@
                 return;
             }
 
-            // Create URL safe slug for ID
-            const idSlug = title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+            // Create URL safe slug for ID and append random string to guarantee uniqueness
+            const baseSlug = title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+            const randSuffix = Math.floor(Math.random() * 16777215).toString(16).padStart(4, '0').slice(-4);
+            const idSlug = `${baseSlug}-${randSuffix}`;
+            
+            // date_added is automatically generated here using the current date
             const today = new Date().toISOString().split('T')[0];
 
             let yaml = `- id: ${idSlug}\n`;
