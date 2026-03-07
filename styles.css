@@ -164,19 +164,20 @@ a:hover {
 
 .filters {
     display: flex;
-    flex-wrap: wrap;
-    gap: 1.5rem;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .filter-group {
-    flex: 1;
-    min-width: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.75rem;
 }
 
 .filter-group label {
-    display: block;
     font-weight: bold;
-    margin-bottom: 0.5rem;
+    min-width: 140px; /* Align row titles evenly */
 }
 
 .tag-filters {
@@ -367,15 +368,13 @@ select {
 :root[data-theme="dark"] .tag.cost { background-color: rgba(99, 102, 241, 0.2); color: #a5b4fc; }
 
 .card-actions {
-    margin-top: auto;
     display: flex;
     gap: 0.5rem;
-    flex-wrap: wrap;
+    flex-shrink: 0;
 }
 
 .card-actions .btn {
     padding: 0.5rem 1.5rem;
-    min-width: fit-content;
 }
 
 /* Favorites Button */
