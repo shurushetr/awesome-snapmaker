@@ -15,7 +15,6 @@ body:
       with one click!
 
       '
-
 - type: input
   id: author_name
   attributes:
@@ -112,6 +111,7 @@ body:
     - Read
     - Download
     - Shop
+    - Firmware
   validations:
     required: true
 - type: dropdown
