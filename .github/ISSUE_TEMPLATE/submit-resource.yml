@@ -113,12 +113,13 @@ body:
     description: What kind of resource is this? (Select all that apply)
     multiple: true
     options:
-    - WATCH
-    - DISCUSS
-    - READ
+    - VIDEO
+    - DISCUSSION
+    - ARTICLE
     - DOWNLOAD
     - SHOP
     - FIRMWARE
+    - MODS
   validations:
     required: true
 - type: dropdown
