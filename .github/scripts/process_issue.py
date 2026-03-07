@@ -63,15 +63,21 @@ def main():
         sys.exit(1)
         
     issue_title = os.environ.get('ISSUE_TITLE', 'Unknown Resource')
+    issue_number = os.environ.get('ISSUE_NUMBER', '')
+    
     # Strip the [Resource]: prefix if it exists
     if issue_title.startswith('[Resource]:'):
         issue_title = issue_title.replace('[Resource]:', '').strip()
         
     parsed = parse_issue_body(issue_body)
     
+    # Generate unique ID by combining title slug and github issue number
+    id_slug = re.sub(r'[^a-z0-9]+', '-', issue_title.lower()).strip('-')
+    final_id = f"{id_slug}-{issue_number}" if issue_number else id_slug
+    
     # Construct complete record
     new_record = {
-        "id": re.sub(r'[^a-z0-9]+', '-', issue_title.lower()).strip('-'),
+        "id": final_id,
         "title": issue_title,
         "description": parsed.get("description", ""),
         "author_name": parsed.get("author_name"),
