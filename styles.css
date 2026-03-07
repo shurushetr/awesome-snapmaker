@@ -1,0 +1,327 @@
+/* Base Custom Properties (Light Theme default) */
+:root {
+    --bg-color: #f8f9fa;
+    --text-color: #212529;
+    --card-bg: #ffffff;
+    --card-border: #dee2e6;
+    --primary-color: #0d6efd;
+    --primary-hover: #0b5ed7;
+    --secondary-bg: #e9ecef;
+    --secondary-text: #6c757d;
+    --tag-bg: #e2e3e5;
+    --tag-text: #41464b;
+    --header-overlay: rgba(0,0,0,0.6);
+    --header-text: #ffffff;
+    --focus-ring: rgba(13, 110, 253, 0.25);
+}
+
+/* Dark Theme Support via System Preference */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #121212;
+        --text-color: #e0e0e0;
+        --card-bg: #1e1e1e;
+        --card-border: #333333;
+        --primary-color: #3b82f6;
+        --primary-hover: #60a5fa;
+        --secondary-bg: #2d2d2d;
+        --secondary-text: #a0a0a0;
+        --tag-bg: #374151;
+        --tag-text: #d1d5db;
+        --header-overlay: rgba(0,0,0,0.7);
+    }
+}
+
+/* CSS Reset & Accessibility Base */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    line-height: 1.6;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+:focus {
+    outline: 3px solid var(--primary-hover);
+    outline-offset: 2px;
+}
+
+/* Header overlay styles */
+.header {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-color: var(--secondary-bg); /* Fallback */
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.header::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: var(--header-overlay);
+}
+
+.header-content {
+    position: relative;
+    z-index: 1;
+    color: var(--header-text);
+    padding: 0 20px;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.header p {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.header-links a {
+    color: var(--header-text);
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.submit-btn {
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 1.1rem;
+    padding: 10px 20px;
+}
+
+/* Main Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+/* Controls (Search & Filters) */
+.controls {
+    background-color: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1.1rem;
+    border: 1px solid var(--card-border);
+    border-radius: 4px;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin-bottom: 1.5rem;
+}
+
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.filter-group {
+    flex: 1;
+    min-width: 250px;
+}
+
+.filter-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.tag-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.tag-filters label {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-weight: normal;
+    background-color: var(--secondary-bg);
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.filter-actions {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--card-border);
+}
+
+.result-count {
+    font-weight: bold;
+    color: var(--secondary-text);
+}
+
+select {
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid var(--card-border);
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.primary-btn {
+    background-color: var(--primary-color);
+    color: white !important;
+}
+
+.primary-btn:hover {
+    background-color: var(--primary-hover);
+    text-decoration: none;
+}
+
+.secondary-btn {
+    background-color: var(--secondary-bg);
+    color: var(--text-color);
+    border: 1px solid var(--card-border);
+}
+
+.secondary-btn:hover {
+    background-color: var(--card-border);
+}
+
+/* Records Grid */
+.records-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 1.5rem;
+}
+
+/* Card */
+.card {
+    background-color: var(--card-bg);
+    border: 1px solid var(--card-border);
+    border-radius: 8px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.card-header {
+    margin-bottom: 1rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem;
+}
+
+.card-title a {
+    color: var(--text-color);
+}
+
+.card-meta {
+    font-size: 0.85rem;
+    color: var(--secondary-text);
+}
+
+.card-tags {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+}
+
+.tag {
+    background-color: var(--tag-bg);
+    color: var(--tag-text);
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.tag.machine { background-color: rgba(13, 110, 253, 0.1); color: var(--primary-color); }
+.tag.tool { background-color: rgba(25, 135, 84, 0.1); color: #198754; }
+.tag.type { background-color: rgba(220, 53, 69, 0.1); color: #dc3545; }
+
+/* Dark mode adjustments for specific tags */
+@media (prefers-color-scheme: dark) {
+    .tag.machine { background-color: rgba(59, 130, 246, 0.2); color: #93c5fd; }
+    .tag.tool { background-color: rgba(52, 211, 153, 0.2); color: #6ee7b7; }
+    .tag.type { background-color: rgba(248, 113, 113, 0.2); color: #fca5a5; }
+}
+
+.card-actions {
+    margin-top: auto;
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.card-actions .btn {
+    flex: 1;
+    min-width: fit-content;
+}
+
+/* Jump to Top Button */
+#jump-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: var(--primary-color);
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none; /* Hidden by default */
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    z-index: 1000;
+    transition: opacity 0.3s, background-color 0.2s;
+}
+#jump-top:hover {
+    background-color: var(--primary-hover);
+}
