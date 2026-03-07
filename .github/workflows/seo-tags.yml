@@ -1,0 +1,36 @@
+name: Inject SEO Open Graph Tags
+
+on:
+  push:
+    paths:
+      - 'data.yml'
+      - '.github/scripts/generate_og_tags.js'
+  workflow_dispatch:
+
+jobs:
+  inject-seo:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          
+      - name: Install Dependencies
+        run: npm install js-yaml
+          
+      - name: Run injection script
+        run: node .github/scripts/generate_og_tags.js
+        
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git commit -m "chore: auto-update SEO metadata tags" || exit 0
+          git push

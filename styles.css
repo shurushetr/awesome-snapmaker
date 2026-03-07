@@ -294,6 +294,9 @@ select {
     font-size: 1.25rem;
     margin-bottom: 0;
     flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 .card-title a {
@@ -367,6 +370,28 @@ select {
 .card-actions .btn {
     padding: 0.5rem 1.5rem;
     min-width: fit-content;
+}
+
+/* Favorites Button */
+.favorite-btn {
+    background: none;
+    border: none;
+    color: var(--secondary-text);
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0;
+    line-height: 1;
+    transition: color 0.2s, transform 0.2s;
+    outline: none;
+}
+
+.favorite-btn:hover {
+    color: #f59e0b; /* Amber 500 */
+    transform: scale(1.1);
+}
+
+.favorite-btn.is-active {
+    color: #f59e0b; /* Amber 500 */
 }
 
 /* Jump to Top Button */

@@ -80,6 +80,24 @@ async function init() {
         // Deep linking: Check if URL has hash to scroll to
         applyFiltersAndRender();
         
+        // After initial render, process deep link
+        if (window.location.hash) {
+            setTimeout(() => {
+                const targetId = window.location.hash.substring(1);
+                // Temporarily disable filters if the target item exists but is filtered out
+                const targetRecord = allRecords.find(r => r.id === targetId);
+                if (targetRecord) {
+                    clearAllFilters(); // Ensure it's visible by clearing filters
+                    const element = document.getElementById(targetId);
+                    if (element) {
+                        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        element.style.outline = '4px solid var(--primary-color)';
+                        setTimeout(() => element.style.outline = 'none', 2000); // Remove highlight after 2s
+                    }
+                }
+            }, 300); // Short delay to allow DOM to paint
+        }
+        
     } catch (error) {
         console.error("Error loading YAML data:", error);
         DOM.recordsContainer.innerHTML = `<p style="color: red;">Failed to load data. Please make sure data.yml exists and is valid.</p>`;
@@ -102,6 +120,20 @@ function setupFilters() {
     createCheckboxGroup(DOM.filterMachine, 'machine', TAGS.machine);
     createCheckboxGroup(DOM.filterTool, 'tool', TAGS.tool);
     createCheckboxGroup(DOM.filterType, 'type', TAGS.type);
+    
+    // Inject custom local Favorites toggle
+    const favLabel = document.createElement('label');
+    const favCheckbox = document.createElement('input');
+    favCheckbox.type = 'checkbox';
+    favCheckbox.value = 'true';
+    favCheckbox.dataset.category = 'favorites';
+    favCheckbox.addEventListener('change', handleFilterChange);
+    favLabel.appendChild(favCheckbox);
+    favLabel.appendChild(document.createTextNode('★ Favorites'));
+    favLabel.style.fontWeight = 'bold';
+    favLabel.style.color = '#f59e0b';
+    DOM.filterType.appendChild(favLabel);
+
     createCheckboxGroup(DOM.filterOfficial, 'official', TAGS.official);
     createCheckboxGroup(DOM.filterDifficulty, 'difficulty', TAGS.difficulty);
     createCheckboxGroup(DOM.filterCost, 'cost', TAGS.cost);
@@ -235,6 +267,12 @@ function applyFiltersAndRender() {
     results = results.filter(record => {
         const t = record.tags || {};
         
+        // Favorites Filter
+        if (activeFilters.favorites && activeFilters.favorites.has('true')) {
+            const savedFavorites = JSON.parse(localStorage.getItem('favorites') || '[]');
+            if (!savedFavorites.includes(record.id)) return false;
+        }
+        
         // Machine Filter: if no machine filters active, it passes. If active, the record MUST have at least one of the active machine tags.
         const machineMatch = activeFilters.machine.size === 0 || 
             (t.machine_type && t.machine_type.some(m => activeFilters.machine.has(m)));
@@ -286,6 +324,8 @@ function applyFiltersAndRender() {
 function renderRecords(records) {
     DOM.resultCount.textContent = `${records.length} item${records.length !== 1 ? 's' : ''} found`;
     DOM.recordsContainer.innerHTML = '';
+    
+    const savedFavorites = JSON.parse(localStorage.getItem('favorites') || '[]');
 
     if (records.length === 0) {
         DOM.recordsContainer.innerHTML = '<p style="grid-column: 1 / -1; text-align: center; color: var(--secondary-text);">No matching records found.</p>';
@@ -332,10 +372,16 @@ function renderRecords(records) {
         
         // Deep link anchoring
         const anchorLink = `#${record.id}`;
+        
+        const isFav = savedFavorites.includes(record.id);
+        const starClass = isFav ? 'favorite-btn is-active' : 'favorite-btn';
 
         card.innerHTML = `
                 <div class="card-header">
-                    <h3 class="card-title"><a href="${anchorLink}">${record.title}</a></h3>
+                    <h3 class="card-title">
+                        <button class="${starClass}" data-id="${record.id}" aria-label="Toggle Favorite" title="Bookmark this item">★</button>
+                        <a href="${anchorLink}">${record.title}</a>
+                    </h3>
                     <div class="card-meta">
                         Added: ${record.date_added} <br> By <a href="${record.author_link}" target="_blank" rel="noopener noreferrer">${record.author_name}</a>
                     </div>
@@ -352,13 +398,27 @@ function renderRecords(records) {
         DOM.recordsContainer.appendChild(card);
     });
 
-    // Handle deep linking hash scroll after render
-    if (window.location.hash) {
-        setTimeout(() => {
-            const el = document.querySelector(window.location.hash);
-            if (el) el.scrollIntoView({ behavior: 'smooth' });
-        }, 100);
+    // Attach standard listeners to favorite buttons
+    document.querySelectorAll('.favorite-btn').forEach(btn => {
+        btn.addEventListener('click', (e) => toggleFavorite(e.currentTarget));
+    });
+}
+
+function toggleFavorite(btnElement) {
+    const id = btnElement.dataset.id;
+    let savedFavorites = JSON.parse(localStorage.getItem('favorites') || '[]');
+    
+    if (savedFavorites.includes(id)) {
+        savedFavorites = savedFavorites.filter(f => f !== id);
+        btnElement.classList.remove('is-active');
+        btnElement.setAttribute('aria-pressed', 'false');
+    } else {
+        savedFavorites.push(id);
+        btnElement.classList.add('is-active');
+        btnElement.setAttribute('aria-pressed', 'true');
     }
+    
+    localStorage.setItem('favorites', JSON.stringify(savedFavorites));
 }
 
 // Start application
