@@ -60,6 +60,8 @@ records:
     free_tags:
     - Luban
     - Slicing
+    cost:
+    - Free
   extra_buttons:
   - label: Download PDF
     link: https://example.com/luban-guide.pdf
@@ -312,6 +314,7 @@ records:
   description: Wiki for Artisan by Snapmaker Team.
   date_added: '2024-05-25'
   difficulty: Beginner
+  cost: Paid
   tags:
     machine_type:
     - Artisan
