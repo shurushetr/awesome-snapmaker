@@ -11,8 +11,8 @@ permissions:
 jobs:
   process-issue:
     runs-on: ubuntu-latest
-    # Only run if issue has 'new-submission' label
-    if: contains(github.event.issue.labels.*.name, 'new-submission')
+    # Run if issue has the 'new-submission' label OR if the body contains the template's intro text
+    if: contains(github.event.issue.labels.*.name, 'new-submission') || contains(github.event.issue.body, 'Thanks for taking the time to submit a new resource')
     steps:
       - uses: actions/checkout@v3
 
