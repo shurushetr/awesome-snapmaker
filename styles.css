@@ -168,27 +168,32 @@ a:hover {
 }
 
 .filters {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    align-items: start;
 }
 
 .filter-group {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 0.75rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
 }
 
 .filter-group label {
     font-weight: bold;
-    min-width: 140px; /* Align row titles evenly */
+    color: var(--header-bg);
+    border-bottom: 2px solid var(--secondary-bg);
+    padding-bottom: 4px;
+    width: 100%;
 }
 
 .tag-filters {
     display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
+    flex-direction: column;
+    gap: 0.4rem;
+    width: 100%;
 }
 
 .tag-filters label {
