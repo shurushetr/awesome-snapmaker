@@ -44,7 +44,7 @@ jobs:
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: `Thanks for submitting! However, it looks like this resource already exists in our directory:\n\n🔗 ${process.env.LINK}\n\nThis issue has been closed as a duplicate.`
+              body: `Thanks for submitting! However, it looks like this resource already exists in our directory:\n\n🔗 https://awesome-sm-list.xyz/#${process.env.LINK}\n\nThis issue has been closed as a duplicate.`
             });
             github.rest.issues.addLabels({
               issue_number: context.issue.number,

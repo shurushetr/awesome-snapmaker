@@ -70,7 +70,7 @@ def check_for_duplicates(new_url, data_file='data.yml'):
             continue
             
         if normalize_url(existing_url) == norm_new:
-            return True, existing_url
+            return True, record.get('id', '')
 
     return False, None
 
@@ -86,12 +86,12 @@ def main():
         print("UNIQUE") # Can't check if there's no URL
         sys.exit(0)
         
-    is_duplicate, existing_url = check_for_duplicates(submitted_url)
+    is_duplicate, existing_id = check_for_duplicates(submitted_url)
     
     if is_duplicate:
         # Output is read by bash script in the GitHub Action
         print("DUPLICATE")
-        print(existing_url)
+        print(existing_id)
     else:
         print("UNIQUE")
 

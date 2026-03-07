@@ -23,7 +23,7 @@ jobs:
 
       - name: Install dependencies
         run: pip install pyyaml
-
+  
       - name: Process Issue Body
         env:
           ISSUE_BODY: ${{ github.event.issue.body }}
