@@ -1,0 +1,47 @@
+name: Handle Merged Submissions
+on:
+  pull_request:
+    types: [closed]
+
+permissions:
+  issues: write
+
+jobs:
+  label-and-close:
+    # Only run if the PR was actually merged (not just closed) AND it came from our bot's branch naming convention
+    if: github.event.pull_request.merged == true && startsWith(github.event.pull_request.head.ref, 'add-record-issue-')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Label and Close Original Issue
+        uses: actions/github-script@v6
+        with:
+          script: |
+            // Extract the issue number from the branch name created by the bot (add-record-issue-123)
+            const branchName = context.payload.pull_request.head.ref;
+            const issueNumber = parseInt(branchName.replace('add-record-issue-', ''), 10);
+            
+            if (!isNaN(issueNumber)) {
+              // 1. Add 'merged' label
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issueNumber,
+                labels: ['merged']
+              });
+              
+              // 2. Ensure issue is closed
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issueNumber,
+                state: 'closed'
+              });
+              
+              // 3. Leave a nice comment
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issueNumber,
+                body: 'The Pull Request for this submission has been successfully merged into the main directory. Thank you for your contribution to the Awesome Snapmaker List! 🎉'
+              });
+            }

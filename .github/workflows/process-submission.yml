@@ -22,7 +22,7 @@ jobs:
           python-version: '3.10'
 
       - name: Install dependencies
-        run: pip install pyyaml
+        run: pip install ruamel.yaml
   
       - name: Process Issue Body
         env:
@@ -33,7 +33,7 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
-          commit-message: "Add generic new submission from Issue #${{ github.event.issue.number }}"
+          commit-message: "Add resource: ${{ github.event.issue.title }}"
           title: "🚀 New Record: ${{ github.event.issue.title }}"
           body: |
             Automatically generated PR from issue #${{ github.event.issue.number }}.

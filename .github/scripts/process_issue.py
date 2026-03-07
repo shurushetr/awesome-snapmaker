@@ -1,7 +1,8 @@
 import os
 import sys
-import yaml
 import re
+from datetime import datetime
+from ruamel.yaml import YAML
 from datetime import datetime
 
 def parse_issue_body(body):
@@ -103,16 +104,20 @@ def main():
         new_record["extra_buttons"] = extra_buttons
 
     # Append to data.yml
+    yaml = YAML()
+    yaml.preserve_quotes = True
+    yaml.explicit_start = False
+    
     try:
         with open('data.yml', 'r', encoding='utf-8') as f:
-            data = yaml.safe_load(f)
+            data = yaml.load(f)
     except FileNotFoundError:
         data = {"records": []}
         
     data.setdefault('records', []).append(new_record)
     
     with open('data.yml', 'w', encoding='utf-8') as f:
-        yaml.dump(data, f, sort_keys=False, default_flow_style=False, allow_unicode=True)
+        yaml.dump(data, f)
 
 if __name__ == '__main__':
     main()
