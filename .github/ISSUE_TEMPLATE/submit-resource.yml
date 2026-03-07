@@ -14,6 +14,14 @@ body:
       with one click!
 
       '
+- type: textarea
+  id: description
+  attributes:
+    label: Resource Description
+    description: Provide a brief summary of what this resource is about.
+    placeholder: "This guide covers the best settings for..."
+  validations:
+    required: true
 - type: input
   id: author_name
   attributes:

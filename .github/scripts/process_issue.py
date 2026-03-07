@@ -22,7 +22,9 @@ def parse_issue_body(body):
             
         label = label.lower()
         
-        if "author name" in label:
+        if "resource description" in label or "description" in label:
+            record["description"] = value
+        elif "author name" in label:
             record["author_name"] = value
         elif "author link" in label:
             record["author_link"] = value
@@ -70,6 +72,7 @@ def main():
     new_record = {
         "id": re.sub(r'[^a-z0-9]+', '-', issue_title.lower()).strip('-'),
         "title": issue_title,
+        "description": parsed.get("description", ""),
         "author_name": parsed.get("author_name"),
         "author_link": parsed.get("author_link"),
         "original_link": parsed.get("original_link"),
