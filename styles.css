@@ -119,6 +119,7 @@ a:hover {
     color: var(--header-text);
     margin: 0 10px;
     font-weight: bold;
+    text-decoration: underline;
 }
 
 .header-actions {

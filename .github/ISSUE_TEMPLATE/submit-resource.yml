@@ -1,7 +1,6 @@
 name: 👉 Submit an Awesome Snapmaker Resource
 description: Submit a new resource (tool, guide, mod, etc.) to the Awesome Snapmaker
   List!
-title: '[Resource]: '
 labels:
 - new-submission
 body:
@@ -74,7 +73,7 @@ body:
   id: machine_type
   attributes:
     label: Machine Type(s)
-    description: Which Snapmaker machines does this apply to?
+    description: Which Snapmaker machines does this apply to? (Select all that apply)
     multiple: true
     options:
     - SM_2.0
@@ -89,7 +88,7 @@ body:
   id: machine_tool_type
   attributes:
     label: Machine Tool Type(s)
-    description: Which modules/toolheads are relevant?
+    description: Which modules/toolheads are relevant? (Select all that apply)
     multiple: true
     options:
     - FDM
@@ -103,7 +102,7 @@ body:
   id: record_type
   attributes:
     label: Record Type(s)
-    description: What kind of resource is this?
+    description: What kind of resource is this? (Select all that apply)
     multiple: true
     options:
     - Watch
