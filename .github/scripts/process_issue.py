@@ -103,21 +103,30 @@ def main():
     if extra_buttons:
         new_record["extra_buttons"] = extra_buttons
 
-    # Append to data.yml
+    # Append to data.yml directly without overwriting existing formatting
+    from io import StringIO
     yaml = YAML()
     yaml.preserve_quotes = True
     yaml.explicit_start = False
     
+    # Dump just the new record as a list item to a string
+    buf = StringIO()
+    yaml.dump([new_record], buf)
+    yaml_string = buf.getvalue()
+    
+    # Check if the file ends with a newline
     try:
         with open('data.yml', 'r', encoding='utf-8') as f:
-            data = yaml.load(f)
+            content = f.read()
+            needs_newline = not content.endswith('\n')
     except FileNotFoundError:
-        data = {"records": []}
+        needs_newline = False
         
-    data.setdefault('records', []).append(new_record)
-    
-    with open('data.yml', 'w', encoding='utf-8') as f:
-        yaml.dump(data, f)
+    # Append the new record string to the end of the file
+    with open('data.yml', 'a', encoding='utf-8') as f:
+        if needs_newline:
+            f.write('\n')
+        f.write(yaml_string)
 
 if __name__ == '__main__':
     main()

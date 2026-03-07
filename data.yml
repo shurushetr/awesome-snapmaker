@@ -1,16 +1,40 @@
 # Awesome Snapmaker List - Source of Truth
 # 
 # Submission & Triage Workflow:
-# 1. User submits a new resource via the GitHub Issue template (submit-resource.yml).
-# 2. Intake Check Action (intake-check.yml) runs immediately. It normalizes the submitted 
-#    URL (strips tracking tags like ?u=...) and checks against all existing URLs in this file.
-#    - If DUPLICATE: Bot comments "Duplicate found", labels it 'duplicate', and closes it.
+# 1. User submits a new resource via the GitHub Issue template (1-submit-resource.yml).
+# 2. Intake Check Action (intake-check.yml) runs immediately on new issues. 
+#    - It normalizes the submitted URL (strips tracking tags like ?u=...) and checks against all existing URLs in this file.
+#    - If EXECUTABLE (.exe, .msi, etc): Bot comments safety policy, labels it 'rejected', and closes it.
+#    - If DUPLICATE: Bot comments "Duplicate found" with existing site anchor link, labels it 'duplicate', and closes it.
 #    - If UNIQUE: Bot comments "Under review", and labels it 'pending-review'.
 # 3. Maintainer reviews the open 'pending-review' Issue. They can freely edit the title,
 #    description, URLs, or dropdown tags directly on the GitHub Issue page to fix formatting.
 # 4. Maintainer adds the 'approved' label to the GitHub Issue.
 # 5. Approval Action (process-submission.yml) triggers, grabs the final edited Issue body, 
-#    parses it into a new YAML record, and generates a Pull Request injecting it below.
+#    parses it into a new YAML snippet, and generates a Pull Request cleanly appending it below.
+# 6. Once the Pull Request is merged, a final action (close-merged-issue.yml) automatically closes 
+#    the original issue, labels it 'merged', and comments a thank you.
+# 
+# ---
+# Record Schema Reference:
+# - id: (string, required) URL-safe kebab-case unique identifier
+#   title: (string, required) Display title of the resource
+#   description: (string, required/optional) Summary context of the resource
+#   author_name: (string, optional) Name of creator/submitter
+#   author_link: (string, optional) URL to author profile
+#   original_link: (string, required) The actual URL of the resource
+#   date_added: (string 'YYYY-MM-DD', required) Date it was added to the list
+#   difficulty: (string, optional) Beginner | Intermediate | Advanced
+#   cost: (string, optional) Free | Freemium | Paid
+#   tags: (dict, required)
+#     machine_type: [list of allowed_tags]
+#     machine_tool_type: [list of allowed_tags]
+#     record_type: [list of allowed_tags]
+#     official_flag: [OFFICIAL or UNOFFICIAL]
+#     free_tags: [list of arbitrary strings]
+#   extra_buttons: (list of dicts, optional)
+#     - label: (string) Display text
+#       link: (string) URL
 # 
 ### framework data
 project_info:
