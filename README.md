@@ -34,7 +34,7 @@ Maintained by [Awesome List Maintainer](https://forum.snapmaker.com/).
 
 ### [Artisan Guides Wiki](https://wiki.snapmaker.com/en/snapmaker_artisan)
 - **Author:** Community
-- **Difficulty:** Beginner | **Cost:** N/A
+- **Difficulty:** Beginner | **Cost:** Paid
 - **Tags:** Artisan, Read, OFFICIAL, support, reference, troubleshooting
 
 ### [Artisan Wiki Content Updates](https://forum.snapmaker.com/t/artisan-wiki-content-updates/30892)
@@ -205,7 +205,7 @@ Maintained by [Awesome List Maintainer](https://forum.snapmaker.com/).
 ### [Comprehensive Luban Slicing Guide](https://example.com/luban-guide)
 - **Author:** John Doe
 - **Difficulty:** Beginner | **Cost:** Free
-- **Tags:** SM_2.0, Artisan, FDM, LASER, Read, Watch, OFFICIAL, Luban, Slicing
+- **Tags:** SM_2.0, Artisan, FDM, LASER, Read, Watch, OFFICIAL, Luban, Slicing, Free
 
 ## J1
 
@@ -818,7 +818,7 @@ Maintained by [Awesome List Maintainer](https://forum.snapmaker.com/).
 ### [Comprehensive Luban Slicing Guide](https://example.com/luban-guide)
 - **Author:** John Doe
 - **Difficulty:** Beginner | **Cost:** Free
-- **Tags:** SM_2.0, Artisan, FDM, LASER, Read, Watch, OFFICIAL, Luban, Slicing
+- **Tags:** SM_2.0, Artisan, FDM, LASER, Read, Watch, OFFICIAL, Luban, Slicing, Free
 
 ## U1
 
