@@ -10,7 +10,7 @@ project_info:
   hero_image: https://github.com/shurushetr/awesome-snapmaker/raw/main/images/Cropped_Lineup.jpg
 allowed_tags:
   machine_type:
-  - 2.0
+  - SM_2.0
   - ARTISAN
   - U1
   - J1/J1s
@@ -46,7 +46,7 @@ allowed_tags:
   - DE
   - FR
   - ES
-  
+
 ### records
 records:
 - id: snapmaker-luban-guide
