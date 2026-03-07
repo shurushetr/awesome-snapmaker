@@ -27,6 +27,7 @@ const DOM = {
     filterOfficial: document.getElementById('filter-official'),
     filterDifficulty: document.getElementById('filter-difficulty'),
     filterCost: document.getElementById('filter-cost'),
+    showFavoritesBtn: document.getElementById('show-favorites'),
     limitInput: document.getElementById('limit-input'),
     clearFiltersBtn: document.getElementById('clear-filters'),
     resultCount: document.getElementById('result-count'),
@@ -120,20 +121,6 @@ function setupFilters() {
     createCheckboxGroup(DOM.filterMachine, 'machine', TAGS.machine);
     createCheckboxGroup(DOM.filterTool, 'tool', TAGS.tool);
     createCheckboxGroup(DOM.filterType, 'type', TAGS.type);
-    
-    // Inject custom local Favorites toggle
-    const favLabel = document.createElement('label');
-    const favCheckbox = document.createElement('input');
-    favCheckbox.type = 'checkbox';
-    favCheckbox.value = 'true';
-    favCheckbox.dataset.category = 'favorites';
-    favCheckbox.addEventListener('change', handleFilterChange);
-    favLabel.appendChild(favCheckbox);
-    favLabel.appendChild(document.createTextNode('★ Favorites'));
-    favLabel.style.fontWeight = 'bold';
-    favLabel.style.color = '#f59e0b';
-    DOM.filterType.appendChild(favLabel);
-
     createCheckboxGroup(DOM.filterOfficial, 'official', TAGS.official);
     createCheckboxGroup(DOM.filterDifficulty, 'difficulty', TAGS.difficulty);
     createCheckboxGroup(DOM.filterCost, 'cost', TAGS.cost);
@@ -180,6 +167,22 @@ function setupEventListeners() {
     DOM.sortSelect.addEventListener('change', () => applyFiltersAndRender());
     DOM.limitInput.addEventListener('input', () => applyFiltersAndRender());
     DOM.clearFiltersBtn.addEventListener('click', clearAllFilters);
+    
+    if (DOM.showFavoritesBtn) {
+        DOM.showFavoritesBtn.addEventListener('click', () => {
+            const isActive = DOM.showFavoritesBtn.dataset.active === 'true';
+            if (isActive) {
+                DOM.showFavoritesBtn.dataset.active = 'false';
+                DOM.showFavoritesBtn.classList.remove('primary-btn');
+                DOM.showFavoritesBtn.classList.add('secondary-btn');
+            } else {
+                DOM.showFavoritesBtn.dataset.active = 'true';
+                DOM.showFavoritesBtn.classList.remove('secondary-btn');
+                DOM.showFavoritesBtn.classList.add('primary-btn');
+            }
+            applyFiltersAndRender();
+        });
+    }
     
     // Jump to top button
     window.addEventListener('scroll', () => {
@@ -249,6 +252,12 @@ function clearAllFilters() {
     DOM.sortSelect.value = 'newest';
     DOM.limitInput.value = '';
     
+    if (DOM.showFavoritesBtn) {
+        DOM.showFavoritesBtn.dataset.active = 'false';
+        DOM.showFavoritesBtn.classList.remove('primary-btn');
+        DOM.showFavoritesBtn.classList.add('secondary-btn');
+    }
+    
     applyFiltersAndRender();
 }
 
@@ -268,7 +277,8 @@ function applyFiltersAndRender() {
         const t = record.tags || {};
         
         // Favorites Filter
-        if (activeFilters.favorites && activeFilters.favorites.has('true')) {
+        const showFavs = DOM.showFavoritesBtn && DOM.showFavoritesBtn.dataset.active === 'true';
+        if (showFavs) {
             const savedFavorites = JSON.parse(localStorage.getItem('favorites') || '[]');
             if (!savedFavorites.includes(record.id)) return false;
         }

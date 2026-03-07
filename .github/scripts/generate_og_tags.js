@@ -2,8 +2,8 @@ const fs = require('fs');
 const jsyaml = require('js-yaml');
 const path = require('path');
 
-const dataFile = path.join(__dirname, '..', 'data.yml');
-const indexFile = path.join(__dirname, '..', 'index.html');
+const dataFile = path.join(__dirname, '..', '..', 'data.yml');
+const indexFile = path.join(__dirname, '..', '..', 'index.html');
 
 try {
     const fileContents = fs.readFileSync(dataFile, 'utf8');
