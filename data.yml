@@ -1,3 +1,4 @@
+### framework data
 project_info:
   title: Awesome Snapmaker List
   description: A curated list of awesome Snapmaker resources, mods, and guides.
@@ -45,7 +46,8 @@ allowed_tags:
   - DE
   - FR
   - ES
-
+  
+### records
 records:
 - id: snapmaker-luban-guide
   title: Comprehensive Luban Slicing Guide
