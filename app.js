@@ -7,7 +7,8 @@ let activeFilters = {
     type: new Set(),
     official: new Set(),
     difficulty: new Set(),
-    cost: new Set()
+    cost: new Set(),
+    language: new Set()
 };
 
 // DOM Elements
@@ -27,6 +28,7 @@ const DOM = {
     filterOfficial: document.getElementById('filter-official'),
     filterDifficulty: document.getElementById('filter-difficulty'),
     filterCost: document.getElementById('filter-cost'),
+    filterLanguage: document.getElementById('filter-language'),
     showFavoritesBtn: document.getElementById('show-favorites'),
     limitInput: document.getElementById('limit-input'),
     clearFiltersBtn: document.getElementById('clear-filters'),
@@ -41,7 +43,8 @@ const TAGS = {
     type: ["Watch", "Discuss", "Read", "Download", "Shop"],
     official: ["OFFICIAL", "UNOFFICIAL"],
     difficulty: [],
-    cost: []
+    cost: [],
+    language: []
 };
 
 // Initialize the Application
@@ -62,6 +65,7 @@ async function init() {
             TAGS.official = data.allowed_tags.official_flag || [];
             TAGS.difficulty = data.allowed_tags.difficulty || [];
             TAGS.cost = data.allowed_tags.cost || [];
+            TAGS.language = data.allowed_tags.language || [];
         }
 
         allRecords = data.records || [];
@@ -128,6 +132,7 @@ function setupFilters() {
     createCheckboxGroup(DOM.filterOfficial, 'official', TAGS.official);
     createCheckboxGroup(DOM.filterDifficulty, 'difficulty', TAGS.difficulty);
     createCheckboxGroup(DOM.filterCost, 'cost', TAGS.cost);
+    createCheckboxGroup(DOM.filterLanguage, 'language', TAGS.language);
 }
 
 function createCheckboxGroup(container, category, tags) {
@@ -250,6 +255,7 @@ function clearAllFilters() {
     activeFilters.official.clear();
     activeFilters.difficulty.clear();
     activeFilters.cost.clear();
+    activeFilters.language.clear();
     
     document.querySelectorAll('.tag-filters input[type="checkbox"]').forEach(cb => cb.checked = false);
     DOM.searchInput.value = '';
@@ -311,9 +317,13 @@ function applyFiltersAndRender() {
         const costMatch = activeFilters.cost.size === 0 || 
             (record.cost && activeFilters.cost.has(record.cost));
 
+        // Language Filter
+        const languageMatch = activeFilters.language.size === 0 || 
+            (t.language && t.language.some(lang => activeFilters.language.has(lang)));
+
         // Free Tags / Flags Filter: if we add free tags filtering later
 
-        return machineMatch && toolMatch && typeMatch && officialMatch && diffMatch && costMatch;
+        return machineMatch && toolMatch && typeMatch && officialMatch && diffMatch && costMatch && languageMatch;
     });
 
     // 3. Sorting
@@ -368,6 +378,7 @@ function renderRecords(records) {
         
         if (record.difficulty && record.difficulty !== 'N/A') tagsHtml += `<span class="tag difficulty">${record.difficulty}</span>`;
         if (record.cost && record.cost !== 'N/A') tagsHtml += `<span class="tag cost">${record.cost}</span>`;
+        if (t.language) t.language.forEach(tag => tagsHtml += `<span class="tag language">${tag}</span>`);
         
         if (t.free_tags) t.free_tags.forEach(tag => tagsHtml += `<span class="tag">${tag}</span>`);
 

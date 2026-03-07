@@ -4,7 +4,7 @@ project_info:
   author_name: Awesome List Maintainer
   author_link: https://forum.snapmaker.com/
   repo_url: https://github.com/shurushetr/awesome-snapmaker
-  hero_image: https://github.com/shurushetr/awesome-snapmaker/raw/main/images/AwesomeList_TopImage.jpg
+  hero_image: https://github.com/shurushetr/awesome-snapmaker/blob/main/images/Cropped_Lineup.jpg
 allowed_tags:
   machine_type:
   - SM_2.0
@@ -36,6 +36,11 @@ allowed_tags:
   - Free
   - Paid
   - Freemium
+  language:
+  - EN
+  - DE
+  - FR
+  - ES
 records:
 - id: snapmaker-luban-guide
   title: Comprehensive Luban Slicing Guide
@@ -57,6 +62,8 @@ records:
     - Watch
     official_flag:
     - OFFICIAL
+    language:
+    - EN
     free_tags:
     - Luban
     - Slicing

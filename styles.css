@@ -344,6 +344,7 @@ select {
 .tag.unofficial { background-color: #fef08a; color: #854d0e; }
 .tag.difficulty { background-color: #f3e8ff; color: #6b21a8; }
 .tag.cost { background-color: #e0e7ff; color: #3730a3; }
+.tag.language { background-color: #cffafe; color: #0891b2; } /* Cyan block */
 
 .card-description {
     margin-bottom: 1.25rem;
@@ -366,6 +367,7 @@ select {
 :root[data-theme="dark"] .tag.unofficial { background-color: rgba(234, 179, 8, 0.2); color: #fde047; }
 :root[data-theme="dark"] .tag.difficulty { background-color: rgba(168, 85, 247, 0.2); color: #d8b4fe; }
 :root[data-theme="dark"] .tag.cost { background-color: rgba(99, 102, 241, 0.2); color: #a5b4fc; }
+:root[data-theme="dark"] .tag.language { background-color: rgba(6, 182, 212, 0.2); color: #67e8f9; }
 
 .card-actions {
     display: flex;
