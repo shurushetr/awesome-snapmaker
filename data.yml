@@ -41,6 +41,7 @@ allowed_tags:
   - DE
   - FR
   - ES
+  - ZH
 records:
 - id: snapmaker-luban-guide
   title: Comprehensive Luban Slicing Guide
