@@ -641,6 +641,17 @@ check out - everything is in the picture
 
 ---
 
+### ROTARY
+
+#### [Very new item to add again](https://awesome-sm-list.xyz/)
+> Description of the item
+
+**Content Author:** The dude again | **Added:** 2026-03-07
+
+**Tags:** BEGINNER, FREE, SM_2.0, RAY, ROTARY, VIDEO, SHOP, UNOFFICIAL, this stuff works
+
+---
+
 ## SM_2.0
 
 ### CNC
@@ -1452,6 +1463,17 @@ check out - everything is in the picture
 **Content Author:** John Doe | **Added:** 2024-05-15
 
 **Tags:** Beginner, Free, SM_2.0, Artisan, FDM, LASER, Read, Watch, OFFICIAL, EN, Luban, Slicing, Free
+
+---
+
+### ROTARY
+
+#### [Very new item to add again](https://awesome-sm-list.xyz/)
+> Description of the item
+
+**Content Author:** The dude again | **Added:** 2026-03-07
+
+**Tags:** BEGINNER, FREE, SM_2.0, RAY, ROTARY, VIDEO, SHOP, UNOFFICIAL, this stuff works
 
 ---
 
