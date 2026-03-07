@@ -282,6 +282,11 @@ function renderRecords(records) {
             });
         }
         
+        let descHtml = '';
+        if (record.description) {
+            descHtml = `<div class="card-description"><p style="margin-bottom: 0px; margin-top: 10px; color: var(--secondary-text);">${record.description}</p></div>`;
+        }
+        
         // Deep link anchoring
         const anchorLink = `#${record.id}`;
 
@@ -294,6 +299,7 @@ function renderRecords(records) {
                     Difficulty: ${record.difficulty || 'N/A'} | Cost: ${record.cost || 'N/A'}
                 </div>
             </div>
+            ${descHtml}
             <div class="card-tags">
                 ${tagsHtml}
             </div>
