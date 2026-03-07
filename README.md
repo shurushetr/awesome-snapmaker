@@ -4,7 +4,7 @@
 
 A curated list of awesome Snapmaker resources, mods, and guides.
 
-Maintained by [Awesome List Maintainer](https://forum.snapmaker.com/).
+Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/graphs/contributors).
 
 ---
 
