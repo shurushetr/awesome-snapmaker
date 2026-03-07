@@ -1,6 +1,6 @@
 # Awesome Snapmaker List
 
-![Hero Image](https://via.placeholder.com/1200x400?text=Awesome+Snapmaker)
+![Hero Image](https://github.com/shurushetr/awesome-snapmaker/raw/main/images/AwesomeList_TopImage.jpg)
 
 A curated list of awesome Snapmaker resources, mods, and guides.
 
@@ -38,3 +38,4 @@ Maintained by [Awesome List Maintainer](https://forum.snapmaker.com/).
 - **Author:** John Doe
 - **Difficulty:** Beginner | **Cost:** Free
 - **Tags:** SM_2.0, Artisan, FDM, LASER, Read, Watch, OFFICIAL, Luban, Slicing
+
