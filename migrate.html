@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Snapmaker - Data Migration Tool</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .migration-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            align-items: start;
+        }
+        
+        @media (max-width: 768px) {
+            .migration-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .form-section {
+            background-color: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 8px;
+            padding: 1.5rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+
+        .form-group {
+            margin-bottom: 1rem;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: bold;
+        }
+
+        .form-group input[type="text"],
+        .form-group input[type="url"],
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 0.5rem;
+            border-radius: 4px;
+            border: 1px solid var(--card-border);
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: inherit;
+        }
+
+        .checkbox-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+            gap: 0.5rem;
+        }
+
+        .checkbox-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        #output-area {
+            background-color: var(--bg-color);
+            border: 1px solid var(--card-border);
+            padding: 1rem;
+            border-radius: 4px;
+            font-family: monospace;
+            white-space: pre-wrap;
+            min-height: 400px;
+            overflow-y: auto;
+            position: relative;
+        }
+        
+        .copy-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+
+        .required::after {
+            content: " *";
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Awesome Snapmaker Data Migration Tool</h1>
+            <p>Fast, local YAML snippet generator for manual copy/paste migration.</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="migration-grid">
+            <!-- Left Side: Input Form -->
+            <div class="form-section">
+                <h2>1. Enter Resource Details</h2>
+                <form id="migration-form">
+                    <div class="form-group">
+                        <label class="required" for="title">Title</label>
+                        <input type="text" id="title" required placeholder="e.g. Snapmaker Artisan Mastery Guide">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="description">Description</label>
+                        <textarea id="description" rows="3" placeholder="Brief summary of the resource..."></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="required" for="author_name">Author Name</label>
+                        <input type="text" id="author_name" required placeholder="Who created this?">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="required" for="author_link">Author Link</label>
+                        <input type="url" id="author_link" required placeholder="https://forum.snapmaker.com/u/...">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="required" for="original_link">Original Link (URL)</label>
+                        <input type="url" id="original_link" required placeholder="https://...">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="required" for="difficulty">Difficulty</label>
+                        <select id="difficulty" required>
+                            <option value="BEGINNER">BEGINNER</option>
+                            <option value="INTERMEDIATE">INTERMEDIATE</option>
+                            <option value="ADVANCED">ADVANCED</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="required" for="cost">Cost</label>
+                        <select id="cost" required>
+                            <option value="FREE">FREE</option>
+                            <option value="PAID">PAID</option>
+                            <option value="FREEMIUM">FREEMIUM</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label class="required" for="language">Language</label>
+                        <select id="language" required>
+                            <option value="EN">EN</option>
+                            <option value="ZH">ZH</option>
+                            <option value="DE">DE</option>
+                            <option value="FR">FR</option>
+                            <option value="ES">ES</option>
+                        </select>
+                    </div>
+
+                    <hr style="margin: 2rem 0; border: 0; border-top: 1px solid var(--card-border);">
+
+                    <div class="form-group">
+                        <label>Machine Type (Select multiple)</label>
+                        <div class="checkbox-grid">
+                            <label class="checkbox-wrapper"><input type="checkbox" name="machine_type" value="SM_2.0"> SM_2.0</label>
+                            <label class="checkbox-wrapper"><input type="checkbox" name="machine_type" value="ARTISAN"> ARTISAN</label>
+                            <label class="checkbox-wrapper"><input type="checkbox" name="machine_type" value="U1"> U1</label>
+                            <label class="checkbox-wrapper"><input type="checkbox" name="machine_type" value="J1/J1s"> J1/J1s</label>
+                            <label class="checkbox-wrapper"><input type="checkbox" name="machine_type" value="RAY"> RAY</label>
+                            <label class="checkbox-wrapper"><input type="checkbox" name="machine_type" value="UNIVERSAL"> UNIVERSAL</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Machine Tool Type</label>
+                        <div class="checkbox-grid">
+                            <label class="checkbox-wrapper"><input type="checkbox" name="machine_tool_type" value="FDM"> FDM</label>
+                            <label class="checkbox-wrapper"><input type="checkbox" name="machine_tool_type" value="LASER"> LASER</label>
+                            <label class="checkbox-wrapper"><input type="checkbox" name="machine_tool_type" value="CNC"> CNC</label>
+                            <label class="checkbox-wrapper"><input type="checkbox" name="machine_tool_type" value="ROTARY"> ROTARY</label>
+                            <label class="checkbox-wrapper"><input type="checkbox" name="machine_tool_type" value="COMBINED"> COMBINED</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Record Type</label>
+                        <div class="checkbox-grid">
+                            <label class="checkbox-wrapper"><input type="checkbox" name="record_type" value="VIDEO"> VIDEO</label>
+                            <label class="checkbox-wrapper"><input type="checkbox" name="record_type" value="DISCUSSION"> DISCUSSION</label>
+                            <label class="checkbox-wrapper"><input type="checkbox" name="record_type" value="ARTICLE"> ARTICLE</label>
+                            <label class="checkbox-wrapper"><input type="checkbox" name="record_type" value="DOWNLOAD"> DOWNLOAD</label>
+                            <label class="checkbox-wrapper"><input type="checkbox" name="record_type" value="SHOP"> SHOP</label>
+                            <label class="checkbox-wrapper"><input type="checkbox" name="record_type" value="FIRMWARE"> FIRMWARE</label>
+                            <label class="checkbox-wrapper"><input type="checkbox" name="record_type" value="MODS"> MODS</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label>Official Status</label>
+                        <div class="checkbox-grid">
+                            <label class="checkbox-wrapper"><input type="radio" name="official_flag" value="UNOFFICIAL" checked> UNOFFICIAL</label>
+                            <label class="checkbox-wrapper"><input type="radio" name="official_flag" value="OFFICIAL"> OFFICIAL</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="free_tags">Free Tags (Comma separated)</label>
+                        <input type="text" id="free_tags" placeholder="e.g. cooling, enclosure, petg">
+                    </div>
+
+                    <button type="button" id="generate-btn" class="btn primary-btn" style="width: 100%; margin-top: 1rem;">Generate YAML Snippet</button>
+                    <button type="button" id="clear-btn" class="btn secondary-btn" style="width: 100%; margin-top: 0.5rem;">Clear Form</button>
+                </form>
+            </div>
+
+            <!-- Right Side: Output Area -->
+            <div class="form-section" style="display: flex; flex-direction: column;">
+                <h2>2. Resulting YAML Block</h2>
+                <p style="margin-bottom: 1rem;">Copy this generated snippet and paste it right at the very bottom of your <code>data.yml</code> file!</p>
+                <div style="position: relative; flex-grow: 1;">
+                    <div id="output-area">Fill out the form and click Generate...</div>
+                    <button id="copy-btn" class="btn primary-btn copy-btn" style="display: none;">Copy to Clipboard</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        document.getElementById('generate-btn').addEventListener('click', generateYAML);
+        document.getElementById('clear-btn').addEventListener('click', () => {
+             document.getElementById('migration-form').reset();
+             document.getElementById('output-area').textContent = 'Fill out the form and click Generate...';
+             document.getElementById('copy-btn').style.display = 'none';
+        });
+
+        document.getElementById('copy-btn').addEventListener('click', () => {
+            const text = document.getElementById('output-area').textContent;
+            navigator.clipboard.writeText(text).then(() => {
+                const btn = document.getElementById('copy-btn');
+                btn.textContent = 'Copied!';
+                btn.style.backgroundColor = '#10b981'; // Green
+                setTimeout(() => {
+                    btn.textContent = 'Copy to Clipboard';
+                    btn.style.backgroundColor = '';
+                }, 2000);
+            });
+        });
+
+        function generateYAML() {
+            const getVal = (id) => document.getElementById(id).value.trim();
+            const getChecked = (name) => Array.from(document.querySelectorAll(`input[name="${name}"]:checked`)).map(el => el.value);
+            
+            const title = getVal('title');
+            if (!title) {
+                alert('Title is required to generate the ID!');
+                return;
+            }
+
+            // Create URL safe slug for ID
+            const idSlug = title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+            const today = new Date().toISOString().split('T')[0];
+
+            let yaml = `- id: ${idSlug}\n`;
+            
+            // Text fields escaping
+            const safeYamlStr = (str) => {
+                if (!str) return '';
+                if (str.includes('\n') || str.includes(':') || str.includes('"') || str.includes("'")) {
+                    // Replace interior double quotes to avoid breaking the JSON-style escaping
+                    const safe = str.replace(/"/g, '\\"');
+                    // Indent newlines for YAML block literal if necessary, but double quotes are easier
+                    return `"${safe.replace(/\n/g, '\\n')}"`; 
+                }
+                return str;
+            };
+
+            yaml += `  title: ${safeYamlStr(title)}\n`;
+            
+            const desc = getVal('description');
+            if (desc) yaml += `  description: ${safeYamlStr(desc)}\n`;
+            
+            yaml += `  author_name: ${safeYamlStr(getVal('author_name'))}\n`;
+            yaml += `  author_link: ${getVal('author_link')}\n`;
+            yaml += `  original_link: ${getVal('original_link')}\n`;
+            yaml += `  date_added: '${today}'\n`;
+            yaml += `  difficulty: ${getVal('difficulty')}\n`;
+            yaml += `  cost: ${getVal('cost')}\n`;
+            yaml += `  language: ${getVal('language')}\n`;
+
+            yaml += `  tags:\n`;
+            
+            const machineTypes = getChecked('machine_type');
+            if (machineTypes.length > 0) {
+                yaml += `    machine_type:\n`;
+                machineTypes.forEach(t => yaml += `    - ${t}\n`);
+            }
+
+            const toolTypes = getChecked('machine_tool_type');
+            if (toolTypes.length > 0) {
+                yaml += `    machine_tool_type:\n`;
+                toolTypes.forEach(t => yaml += `    - ${t}\n`);
+            }
+
+            const recordTypes = getChecked('record_type');
+            if (recordTypes.length > 0) {
+                yaml += `    record_type:\n`;
+                recordTypes.forEach(t => yaml += `    - ${t}\n`);
+            }
+
+            const official = document.querySelector('input[name="official_flag"]:checked').value;
+            yaml += `    official_flag:\n    - ${official}\n`;
+
+            const freeTags = getVal('free_tags');
+            if (freeTags) {
+                yaml += `    free_tags:\n`;
+                freeTags.split(',').forEach(tag => {
+                    const cleanTag = tag.trim();
+                    if (cleanTag) yaml += `    - ${safeYamlStr(cleanTag)}\n`;
+                });
+            }
+
+            const output = document.getElementById('output-area');
+            output.textContent = yaml;
+            document.getElementById('copy-btn').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
