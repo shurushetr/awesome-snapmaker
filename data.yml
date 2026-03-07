@@ -1,8 +1,10 @@
 project_info:
   title: Awesome Snapmaker List
   description: A curated list of awesome Snapmaker resources, mods, and guides.
-  author_name: Awesome List Maintainer
-  author_link: https://forum.snapmaker.com/
+  author_name: Maintainers
+  author_link: https://github.com/shurushetr/awesome-snapmaker/graphs/contributors
+  forum_url: https://forum.snapmaker.com/
+  site_url: https://awesome-sm-list.xyz
   repo_url: https://github.com/shurushetr/awesome-snapmaker
   hero_image: https://github.com/shurushetr/awesome-snapmaker/raw/main/images/Cropped_Lineup.jpg
 allowed_tags:
@@ -25,6 +27,7 @@ allowed_tags:
   - Read
   - Download
   - Shop
+  - Firmware
   official_flag:
   - OFFICIAL
   - UNOFFICIAL

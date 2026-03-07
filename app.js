@@ -18,6 +18,7 @@ const DOM = {
     headerInfo: document.querySelector('.header-content'),
     authorLink: document.getElementById('author-link'),
     repoLink: document.getElementById('repo-link'),
+    forumLink: document.getElementById('forum-link'),
     headerBg: document.getElementById('site-header'),
     recordsContainer: document.getElementById('records-container'),
     searchInput: document.getElementById('search-input'),
@@ -116,11 +117,16 @@ async function init() {
 // Setup Header Info
 function setupProjectInfo(info) {
     if (!info) return;
-    DOM.title.textContent = info.title;
+    DOM.title.innerHTML = info.site_url ? `<a href="${info.site_url}" style="color: inherit; text-decoration: none;">${info.title}</a>` : info.title;
     DOM.description.textContent = info.description;
     DOM.authorLink.href = info.author_link;
     DOM.authorLink.textContent = `By ${info.author_name}`;
     DOM.repoLink.href = info.repo_url;
+    
+    if (DOM.forumLink && info.forum_url) {
+        DOM.forumLink.href = info.forum_url;
+    }
+    
     DOM.headerBg.style.backgroundImage = `url('${info.hero_image}')`;
 }
 
