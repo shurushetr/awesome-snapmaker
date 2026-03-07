@@ -1,0 +1,78 @@
+name: Issue Triage Intake Check
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  issues: write
+
+jobs:
+  triage-check:
+    runs-on: ubuntu-latest
+    # Only run if the issue body looks like our resource submission template
+    if: contains(github.event.issue.body, 'Thanks for taking the time to submit a new resource')
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Run Duplicate Check
+        id: dupe_check
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: |
+          # The python script will print DUPLICATE \n existing_link or UNIQUE
+          OUTPUT=$(python .github/scripts/intake_check.py)
+          STATUS=$(echo "$OUTPUT" | head -n 1)
+          LINK=$(echo "$OUTPUT" | tail -n +2)
+          
+          echo "STATUS=$STATUS" >> $GITHUB_ENV
+          echo "LINK=$LINK" >> $GITHUB_ENV
+
+      - name: Handle Duplicate Resource
+        if: env.STATUS == 'DUPLICATE'
+        uses: actions/github-script@v6
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `Thanks for submitting! However, it looks like this resource already exists in our directory:\n\n🔗 ${process.env.LINK}\n\nThis issue has been closed as a duplicate.`
+            });
+            github.rest.issues.addLabels({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels: ['duplicate']
+            });
+            github.rest.issues.update({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'closed'
+            });
+
+      - name: Handle Unique Resource
+        if: env.STATUS == 'UNIQUE'
+        uses: actions/github-script@v6
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `Thanks for submitting! A maintainer will review your submission shortly. We appreciate your contribution to the Awesome Snapmaker List! 🚀`
+            });
+            github.rest.issues.addLabels({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels: ['pending-review']
+            });

@@ -1,7 +1,7 @@
 name: Process New Submission
 on:
   issues:
-    types: [opened, edited]
+    types: [labeled]
 
 permissions:
   contents: write
@@ -11,8 +11,8 @@ permissions:
 jobs:
   process-issue:
     runs-on: ubuntu-latest
-    # Run if issue has the 'new-submission' label OR if the body contains the template's intro text
-    if: contains(github.event.issue.labels.*.name, 'new-submission') || contains(github.event.issue.body, 'Thanks for taking the time to submit a new resource')
+    # Run only if the 'approved' label was just added
+    if: github.event.label.name == 'approved'
     steps:
       - uses: actions/checkout@v3
 
@@ -41,9 +41,25 @@ jobs:
           branch: "add-record-issue-${{ github.event.issue.number }}"
           delete-branch: true
           
-      - name: Comment on Issue
-        uses: peter-evans/create-or-update-comment@v3
+      - name: Comment and Cleanup Labels
+        uses: actions/github-script@v6
         with:
-          issue-number: ${{ github.event.issue.number }}
-          body: |
-            Thanks for your submission! A Pull Request has been automatically created to add your resource into the database. A maintainer will check it soon.
+          script: |
+            // Comment on the issue
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `Thanks for your submission! A Pull Request has been automatically created to add your resource into the database.`
+            });
+            // Try removing the pending-review label
+            try {
+              github.rest.issues.removeLabel({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                name: 'pending-review'
+              });
+            } catch (error) {
+              console.log("No pending-review label found to remove.");
+            }

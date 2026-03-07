@@ -1,3 +1,17 @@
+# Awesome Snapmaker List - Source of Truth
+# 
+# Submission & Triage Workflow:
+# 1. User submits a new resource via the GitHub Issue template (submit-resource.yml).
+# 2. Intake Check Action (intake-check.yml) runs immediately. It normalizes the submitted 
+#    URL (strips tracking tags like ?u=...) and checks against all existing URLs in this file.
+#    - If DUPLICATE: Bot comments "Duplicate found", labels it 'duplicate', and closes it.
+#    - If UNIQUE: Bot comments "Under review", and labels it 'pending-review'.
+# 3. Maintainer reviews the open 'pending-review' Issue. They can freely edit the title,
+#    description, URLs, or dropdown tags directly on the GitHub Issue page to fix formatting.
+# 4. Maintainer adds the 'approved' label to the GitHub Issue.
+# 5. Approval Action (process-submission.yml) triggers, grabs the final edited Issue body, 
+#    parses it into a new YAML record, and generates a Pull Request injecting it below.
+# 
 ### framework data
 project_info:
   title: Awesome Snapmaker List
