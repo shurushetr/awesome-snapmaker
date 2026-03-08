@@ -207,6 +207,13 @@ a:hover {
     border-color: #10b981;
 }
 
+.tag-filters label.excluded {
+    background-color: rgba(239, 68, 68, 0.15); /* light red */
+    color: #ef4444;
+    text-decoration: line-through;
+    border-color: #ef4444;
+}
+
 .tag-filters label {
     display: flex;
     align-items: center;
