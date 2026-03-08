@@ -21,6 +21,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 - [SM_2.0](#sm_20)
 - [U1](#u1)
 - [UNIVERSAL](#universal)
+- [Uncategorized](#uncategorized)
 
 ---
 
@@ -1587,6 +1588,19 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
 **Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+
+---
+
+## Uncategorized
+
+### General
+
+#### [USB to Ethernet adapter](https://forum.snapmaker.com/t/works-usb-to-ethernet-adapter/8074/)
+> You can use usb adapter to connect via ethernet to your machine.
+
+**Content Author:** None | **Added:** 2026-03-08
+
+**Tags:** BEGINNER, FREE, UNOFFICIAL
 
 ---
 
