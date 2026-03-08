@@ -982,3 +982,167 @@ records:
   - label: Forum Discussion
     link: https://forum.snapmaker.com/t/3d-chameleon-up-to-4-color-material-printing-with-single-extruder/37069/
 
+- id: safety-first-what-plastic-is-safe-to-work-with-7abe
+  title: Safety first - what plastic is safe to work with
+  description: What plastic is safe to work with - also how to test plastic for chlorine.
+  author_name: laserengravingtips
+  author_link: https://laserengravingtips.com
+  original_link: https://laserengravingtips.com/what-plastics-are-safe-to-laser-cut/
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - RAY
+    machine_tool_type:
+    - LASER
+    record_type:
+    - ARTICLE
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - safety
+
+- id: lightburn-full-control-guide-e4cc
+  title: Lightburn Full Control Guide
+  description: Writeup by @Skreelink on how to make Lightburn talk to Snapmaker 2.0.
+  author_name: Skreelink
+  author_link: https://forum.snapmaker.com/u/Skreelink
+  original_link: https://forum.snapmaker.com/t/full-lightburn-control-guide/27638
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    machine_tool_type:
+    - LASER
+    record_type:
+    - DISCUSSION
+    - ARTICLE
+    official_flag:
+    - UNOFFICIAL
+    extra_buttons:
+    - label: PDF Summary by Burgerboy
+      link: https://github.com/shurushetr/awesome-snapmaker/blob/main/files/pdf/Full_Lightburn_Control_Guide_v1.0.pdf
+
+- id: full-control-lightburn-rotary-attachment-guide-b8dd
+  title: Full Control Lightburn + Rotary Attachment Guide
+  description: Writeup by Skreelink
+  author_name: Skreelink
+  author_link: https://forum.snapmaker.com/u/Skreelink
+  original_link: https://forum.snapmaker.com/t/full-control-lightburn-rotary-guide/28584
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - LASER
+    - ROTARY
+    record_type:
+    - DISCUSSION
+    - ARTICLE
+    official_flag:
+    - UNOFFICIAL
+
+- id: working-camera-capture-with-lightburn-c6ba
+  title: Working camera capture with Lightburn
+  description: Thanks to @Slynold & @Mayco - we have working camera.
+  author_name: Slynold
+  author_link: https://forum.snapmaker.com/u/Slynold
+  original_link: https://forum.snapmaker.com/t/working-camera-capture-with-lightburn/28397
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - LASER
+    record_type:
+    - DISCUSSION
+    - ARTICLE
+    official_flag:
+    - UNOFFICIAL
+
+- id: rotary-module-with-fusion360-it-works-good-enough-33a7
+  title: "Rotary Module with Fusion360: It works! (good enough)"
+  description: Writeup by @brvdboss on how to setup Fusion360 with Rotary Module.
+  author_name: brvdboss
+  author_link: https://forum.snapmaker.com/u/brvdboss
+  original_link: https://forum.snapmaker.com/t/rotary-module-with-fusion360-it-works-good-enough/24367
+  date_added: '2026-03-08'
+  difficulty: INTERMEDIATE
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    machine_tool_type:
+    - CNC
+    - ROTARY
+    record_type:
+    - DISCUSSION
+    - ARTICLE
+    official_flag:
+    - UNOFFICIAL
+
+- id: snapmaker-2-0-cnc-by-koka-bora-creations-f056
+  title: Snapmaker 2.0 CNC  by Koka-Bora Creations
+  description: A 20 episode video series on using snapmaker 2.0 for projects. Bunch of CNC material.
+  author_name: Koka-Bora Creations
+  author_link: https://www.kokabora.com/
+  original_link: https://www.youtube.com/playlist?list=PLWlW9PTm7_qvYvXytlfXZib--P-qIz3fp
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - CNC
+    record_type:
+    - VIDEO
+    official_flag:
+    - UNOFFICIAL
+
+- id: simulate-with-machine-in-fusion360-for-sm-2-0-3a20
+  title: Simulate with machine in Fusion360 for SM 2.0
+  description: "Chris Kaladstrodamus created a full blown simulation for Fusion360 that allowes you to simulate toolpath including the rotary attachment. Check out his post in the FB group for details or you can download the machine model from his GitHub or links below:\n\n    💾 Fusion360 Machine file - Mirror file from Github link above."
+  author_name: Chris Kaladstrodamus
+  author_link: https://grabcad.com/christopher.kalada-1
+  original_link: https://www.facebook.com/groups/snapmaker/permalink/2119754895109479/
+  date_added: '2026-03-08'
+  difficulty: INTERMEDIATE
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - CNC
+    - ROTARY
+    record_type:
+    - DISCUSSION
+    - DOWNLOAD
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Fusion360
+  extra_buttons:
+  - label: Fusion360 Machine file
+    link: https://github.com/shurushetr/awesome-snapmaker/blob/main/files/Fusion360_Machine_Model/Snapmaker_2.0_A350T_CTZ.mch
+  - label: STEP file for the model
+    link: https://github.com/shurushetr/awesome-snapmaker/blob/main/files/Fusion360_Machine_Model/Snapmaker_2.0_A350T_CTZ%20v3.9.7z
+
