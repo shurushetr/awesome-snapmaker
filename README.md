@@ -51,7 +51,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -60,7 +60,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -69,7 +69,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -78,7 +78,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, ARTISAN, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, ARTISAN, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -107,7 +107,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -116,7 +116,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -125,7 +125,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -134,7 +134,34 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, ARTISAN, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, ARTISAN, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
+
+---
+
+#### [SM2Uploader](https://github.com/macdylan/sm2uploader)
+> A command-line tool for sending the files to Snapmaker machines via network connection. Can act as Octoprint to emulate upload for Cura/PrusaSlicer/SuperSlicer/ideaMaker. Use it with NC and CNC files on Snapmaker 2 A150/250/350, J1, Artisan.
+
+**Content Author:** macdylan | **Added:** 2026-03-08
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, J1/J1s, COMBINED, DOWNLOAD, UNOFFICIAL, Connectivity
+
+---
+
+#### [How to setup sm2uploader with slicers](https://forum.snapmaker.com/t/great-sharing-prusaslicer-profiles-by-dylan-and-mcgybeer/28796/133)
+> Guide to setup SM2Upload tool with slicers for seamless integration.
+
+**Content Author:** macdylan | **Added:** 2026-03-08
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, J1/J1s, COMBINED, ARTICLE, UNOFFICIAL, Connectivity
+
+---
+
+#### [How to add sm2uploader to context menu of Windows 11](https://forum.snapmaker.com/t/upload-files-to-any-snapmaker-with-right-click-menu-windows-11-guide/33041)
+> Send files to your machine using "Send To" context menu in Windows 11.
+
+**Content Author:** nweolu | **Added:** 2026-03-08
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, J1/J1s, COMBINED, ARTICLE, UNOFFICIAL, Connectivity
 
 ---
 
@@ -199,7 +226,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -208,7 +235,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -217,7 +244,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -226,7 +253,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, ARTISAN, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, ARTISAN, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -264,7 +291,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -273,7 +300,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -282,7 +309,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -291,7 +318,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, ARTISAN, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, ARTISAN, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -320,7 +347,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -329,7 +356,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -338,7 +365,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -347,7 +374,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, ARTISAN, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, ARTISAN, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -378,7 +405,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -387,7 +414,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -396,7 +423,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -425,7 +452,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -434,7 +461,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -443,7 +470,34 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
+
+---
+
+#### [SM2Uploader](https://github.com/macdylan/sm2uploader)
+> A command-line tool for sending the files to Snapmaker machines via network connection. Can act as Octoprint to emulate upload for Cura/PrusaSlicer/SuperSlicer/ideaMaker. Use it with NC and CNC files on Snapmaker 2 A150/250/350, J1, Artisan.
+
+**Content Author:** macdylan | **Added:** 2026-03-08
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, J1/J1s, COMBINED, DOWNLOAD, UNOFFICIAL, Connectivity
+
+---
+
+#### [How to setup sm2uploader with slicers](https://forum.snapmaker.com/t/great-sharing-prusaslicer-profiles-by-dylan-and-mcgybeer/28796/133)
+> Guide to setup SM2Upload tool with slicers for seamless integration.
+
+**Content Author:** macdylan | **Added:** 2026-03-08
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, J1/J1s, COMBINED, ARTICLE, UNOFFICIAL, Connectivity
+
+---
+
+#### [How to add sm2uploader to context menu of Windows 11](https://forum.snapmaker.com/t/upload-files-to-any-snapmaker-with-right-click-menu-windows-11-guide/33041)
+> Send files to your machine using "Send To" context menu in Windows 11.
+
+**Content Author:** nweolu | **Added:** 2026-03-08
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, J1/J1s, COMBINED, ARTICLE, UNOFFICIAL, Connectivity
 
 ---
 
@@ -508,7 +562,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -517,7 +571,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -526,7 +580,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -535,7 +589,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, J1/J1s, FDM, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, J1/J1s, FDM, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -564,7 +618,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -573,7 +627,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -582,7 +636,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -611,7 +665,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -620,7 +674,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -629,7 +683,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -660,7 +714,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -669,7 +723,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -678,7 +732,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -707,7 +761,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -716,7 +770,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -725,7 +779,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -754,7 +808,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -763,7 +817,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -772,7 +826,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -810,7 +864,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -819,7 +873,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -828,7 +882,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -857,7 +911,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -866,7 +920,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -875,7 +929,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -906,7 +960,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -915,7 +969,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -924,7 +978,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -933,7 +987,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -971,7 +1025,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -980,7 +1034,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -989,7 +1043,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -998,7 +1052,52 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
+
+---
+
+#### [USB to Ethernet adapter](https://forum.snapmaker.com/t/works-usb-to-ethernet-adapter/8074/)
+> You can use usb adapter to connect via ethernet to your machine.
+
+**Content Author:** Community | **Added:** 2026-03-08
+
+**Tags:** BEGINNER, FREE, SM_2.0, COMBINED, DISCUSSION, SHOP, UNOFFICIAL, Connectivity
+
+---
+
+#### [Direct communication over serial port](https://forum.snapmaker.com/t/android-cell-phone-terminal-console/12838/6)
+> Using the MINI-USB port, you can connect to machines console (like with Luban) to run commands directly. This post shows settings for Putty - terminal app. Snapmaker has simple serial to USB converter inside.
+
+**Content Author:** Community | **Added:** 2026-03-08
+
+**Tags:** BEGINNER, FREE, SM_2.0, COMBINED, DISCUSSION, UNOFFICIAL, Connectivity
+
+---
+
+#### [SM2Uploader](https://github.com/macdylan/sm2uploader)
+> A command-line tool for sending the files to Snapmaker machines via network connection. Can act as Octoprint to emulate upload for Cura/PrusaSlicer/SuperSlicer/ideaMaker. Use it with NC and CNC files on Snapmaker 2 A150/250/350, J1, Artisan.
+
+**Content Author:** macdylan | **Added:** 2026-03-08
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, J1/J1s, COMBINED, DOWNLOAD, UNOFFICIAL, Connectivity
+
+---
+
+#### [How to setup sm2uploader with slicers](https://forum.snapmaker.com/t/great-sharing-prusaslicer-profiles-by-dylan-and-mcgybeer/28796/133)
+> Guide to setup SM2Upload tool with slicers for seamless integration.
+
+**Content Author:** macdylan | **Added:** 2026-03-08
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, J1/J1s, COMBINED, ARTICLE, UNOFFICIAL, Connectivity
+
+---
+
+#### [How to add sm2uploader to context menu of Windows 11](https://forum.snapmaker.com/t/upload-files-to-any-snapmaker-with-right-click-menu-windows-11-guide/33041)
+> Send files to your machine using "Send To" context menu in Windows 11.
+
+**Content Author:** nweolu | **Added:** 2026-03-08
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, J1/J1s, COMBINED, ARTICLE, UNOFFICIAL, Connectivity
 
 ---
 
@@ -1054,7 +1153,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -1063,7 +1162,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -1072,7 +1171,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -1081,7 +1180,34 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
+
+---
+
+#### [Bed Leveling - Revisited & Detailed](https://forum.snapmaker.com/t/bed-leveling-revisited-detailed/30508)
+> Revisited & Detailed - Writeup by Mxbrnr about bed leveling and issues along the way.
+
+**Content Author:** Mxbrnr | **Added:** 2026-03-08
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, FDM, DISCUSSION, ARTICLE, UNOFFICIAL, bed leveling
+
+---
+
+#### [11x11 calibration with heated bed](https://forum.snapmaker.com/t/11x11-calibration-with-heated-bed-possible/22426)
+> How to run 11x11 bed leveling on Snapmaker 2.0
+
+**Content Author:** Hauke | **Added:** 2026-03-08
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, FDM, DISCUSSION, UNOFFICIAL
+
+---
+
+#### [3D Chameleon for multicolor prints with Snapmaker 2.0 and single extruder](https://github.com/shurushetr/3DChameleon_Snapmaker_2.0)
+> REPO plus forum topic for discussion
+
+**Content Author:** nweolu | **Added:** 2026-03-08
+
+**Tags:** ADVANCED, PAID, SM_2.0, FDM, DISCUSSION, ARTICLE, DOWNLOAD, UNOFFICIAL
 
 ---
 
@@ -1137,7 +1263,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -1146,7 +1272,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -1155,7 +1281,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -1164,7 +1290,16 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
+
+---
+
+#### [USB port forwarding](https://forum.snapmaker.com/t/usb-forwarding-of-the-snapmaker/32831)
+> Has it's dangers, but you can trick you host machine into thinking that snapmaker is connected directly via usb, when it is actually connected to a different machine.
+
+**Content Author:** Community | **Added:** 2026-03-08
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, LASER, DISCUSSION, UNOFFICIAL, Connectivity
 
 ---
 
@@ -1193,7 +1328,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -1202,7 +1337,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -1211,7 +1346,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -1220,7 +1355,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -1233,7 +1368,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -1242,7 +1377,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -1251,7 +1386,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -1262,7 +1397,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -1271,7 +1406,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -1280,7 +1415,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -1291,7 +1426,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -1300,7 +1435,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -1309,7 +1444,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -1318,7 +1453,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, U1, FDM, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, U1, FDM, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -1338,7 +1473,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -1347,7 +1482,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -1356,7 +1491,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -1367,7 +1502,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -1376,7 +1511,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -1385,7 +1520,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -1398,7 +1533,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -1407,7 +1542,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -1416,7 +1551,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -1427,7 +1562,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -1436,7 +1571,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -1445,7 +1580,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -1454,7 +1589,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, UNIVERSAL, COMBINED, DOWNLOAD, FIRMWARE, OFFICIAL
+**Tags:** BEGINNER, FREE, UNIVERSAL, COMBINED, DOWNLOAD, FIRMWARE, OFFICIAL, Official Communities
 
 ---
 
@@ -1463,7 +1598,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, UNIVERSAL, COMBINED, VIDEO, OFFICIAL
+**Tags:** BEGINNER, FREE, UNIVERSAL, COMBINED, VIDEO, OFFICIAL, Official Communities
 
 ---
 
@@ -1472,7 +1607,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, UNIVERSAL, COMBINED, ARTICLE, OFFICIAL
+**Tags:** BEGINNER, FREE, UNIVERSAL, COMBINED, ARTICLE, OFFICIAL, Official Communities
 
 ---
 
@@ -1481,7 +1616,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, UNIVERSAL, COMBINED, ARTICLE, OFFICIAL
+**Tags:** BEGINNER, FREE, UNIVERSAL, COMBINED, ARTICLE, OFFICIAL, Official Communities
 
 ---
 
@@ -1492,7 +1627,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -1501,7 +1636,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -1510,7 +1645,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -1530,7 +1665,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -1539,7 +1674,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -1548,7 +1683,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -1568,7 +1703,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -1577,7 +1712,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
@@ -1586,7 +1721,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Snapmaker | **Added:** 2026-03-08
 
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, DISCUSSION, OFFICIAL, Official Communities
 
 ---
 
