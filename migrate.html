@@ -203,20 +203,6 @@
                             <label class="checkbox-wrapper"><input type="radio" name="official_flag" value="OFFICIAL"> OFFICIAL</label>
                         </div>
                     </div>
-
-                    <div class="form-group">
-                        <label for="free_tags">Free Tags (Comma separated)</label>
-                        <input type="text" id="free_tags" placeholder="e.g. cooling, enclosure, petg">
-                    </div>
-
-                    <div class="form-group">
-                        <label for="extra_button_label">(Optional) Extra Button - Label</label>
-                        <input type="text" id="extra_button_label" placeholder="e.g. Download STL">
-                    </div>
-
-                    <div class="form-group">
-                        <label for="extra_button_link">(Optional) Extra Button - Link</label>
-                        <input type="url" id="extra_button_link" placeholder="https://...">
                     </div>
 
                     <button type="button" id="generate-btn" class="btn primary-btn" style="width: 100%; margin-top: 1rem;">Generate YAML Snippet</button>
@@ -355,15 +341,21 @@
         });
 
         function generateYAML() {
-            const getVal = (id) => document.getElementById(id).value.trim();
-            const getChecked = (name) => Array.from(document.querySelectorAll(`input[name="${name}"]:checked`)).map(el => el.value);
-            
             const title = getVal('title');
             const desc = getVal('description');
             const originalLink = getVal('original_link');
 
             if (!title || !desc || !originalLink) {
                 alert('Please fill out the Title, Description, and Original Link fields before generating!');
+                return;
+            }
+
+            const machineTypes = getChecked('machine_type');
+            const toolTypes = getChecked('machine_tool_type');
+            const recordTypes = getChecked('record_type');
+
+            if (machineTypes.length === 0 && toolTypes.length === 0 && recordTypes.length === 0) {
+                alert('Please select at least one tag (Machine, Tool, or Record type) before generating!');
                 return;
             }
 
@@ -414,19 +406,16 @@
 
             yaml += `  tags:\n`;
             
-            const machineTypes = getChecked('machine_type');
             if (machineTypes.length > 0) {
                 yaml += `    machine_type:\n`;
                 machineTypes.forEach(t => yaml += `    - ${t}\n`);
             }
 
-            const toolTypes = getChecked('machine_tool_type');
             if (toolTypes.length > 0) {
                 yaml += `    machine_tool_type:\n`;
                 toolTypes.forEach(t => yaml += `    - ${t}\n`);
             }
 
-            const recordTypes = getChecked('record_type');
             if (recordTypes.length > 0) {
                 yaml += `    record_type:\n`;
                 recordTypes.forEach(t => yaml += `    - ${t}\n`);
@@ -434,24 +423,6 @@
 
             const official = document.querySelector('input[name="official_flag"]:checked').value;
             yaml += `    official_flag:\n    - ${official}\n`;
-
-            const freeTags = getVal('free_tags');
-            if (freeTags) {
-                yaml += `    free_tags:\n`;
-                freeTags.split(',').forEach(tag => {
-                    const cleanTag = tag.trim();
-                    if (cleanTag) yaml += `    - ${safeYamlStr(cleanTag)}\n`;
-                });
-            }
-
-            const extraBtnLabel = getVal('extra_button_label');
-            const extraBtnLink = getVal('extra_button_link');
-            
-            if (extraBtnLabel && extraBtnLink) {
-                yaml += `  extra_buttons:\n`;
-                yaml += `  - label: ${safeYamlStr(extraBtnLabel)}\n`;
-                yaml += `    link: ${getVal('extra_button_link')}\n`;
-            }
 
             const output = document.getElementById('output-area');
             if (output.value === 'Fill out the form and click Generate...') {
@@ -461,10 +432,13 @@
             output.value += yaml + '\n';
             document.getElementById('output-actions').style.display = 'flex';
 
-            // Auto-clear specific fields for faster batch entry
+            // Auto-clear specific fields and checkboxes for faster batch entry
             document.getElementById('title').value = '';
             document.getElementById('description').value = '';
             document.getElementById('original_link').value = '';
+            
+            // Clear checked tags
+            document.querySelectorAll('input[type="checkbox"]').forEach(cb => cb.checked = false);
         }
     </script>
 </body>
