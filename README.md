@@ -410,6 +410,15 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ---
 
+#### [Klicky probe for DUAL Extruder](https://www.printables.com/model/918381-klicky-abl-probe-for-snapmaker-dual-extrusion-modu)
+> Klicky probe for DUAL EXTRUDER!!! Level on anything, simple, no firmware changes.
+
+**Content Author:** theDude | **Added:** 2026-03-08
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, FDM, MODS, UNOFFICIAL, Bed Leveling
+
+---
+
 #### [3D Printing tips&tricks from Snapmaker](https://support.snapmaker.com/hc/en-us/sections/360008076253-3D-Printing)
 > Snapmaker Academy - resource full of tips and tricks related to 3D printing.
 
@@ -977,6 +986,15 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 **Content Author:** nevermore3d | **Added:** 2026-03-08
 
 **Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, MODS, UNOFFICIAL, Enclosure, Fumes, Filtration
+
+---
+
+#### [J1/J1s nozzle & heatbreak upgrade - anti clogging solution](https://forum.snapmaker.com/t/findings-and-solution-for-the-snapmaker-j1-clogging-problem/30472/190)
+> Anti-clogging solution gathered by Stephen M.
+
+**Content Author:** StephenM | **Added:** 2026-03-08
+
+**Tags:** BEGINNER, FREE, J1/J1s, FDM, MODS, UNOFFICIAL, Clogs
 
 ---
 
@@ -2292,6 +2310,52 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 **Content Author:** Franky | **Added:** 2026-03-08
 
 **Tags:** BEGINNER, FREE, SM_2.0, FDM, DISCUSSION, MODS, UNOFFICIAL
+
+---
+
+#### [Klicky probe - bed leveling on anything! Stealth mod for SM2.0 single extruder](https://forum.snapmaker.com/t/klicky-probe-bed-leveling-on-anything-stealth-mod-for-single-extruder/32229)
+> Bed leveling on anything! Stealth mod for SM2.0 single extruder - Klicky probe for snapmaker single extruder. Level on anything, simple, no firmware changes.
+> Filter by the tag SHOP to find the parts for purchase.
+
+**Content Author:** nweolu | **Added:** 2026-03-08
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, FDM, MODS, UNOFFICIAL, Bed Leveling
+
+---
+
+#### [Klicky probe for DUAL Extruder](https://www.printables.com/model/918381-klicky-abl-probe-for-snapmaker-dual-extrusion-modu)
+> Klicky probe for DUAL EXTRUDER!!! Level on anything, simple, no firmware changes.
+
+**Content Author:** theDude | **Added:** 2026-03-08
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, FDM, MODS, UNOFFICIAL, Bed Leveling
+
+---
+
+#### [Glass bed leveling probe - FiFix Mod for SM2.0](https://github.com/shurushetr/awesome-snapmaker/blob/main/files/models/FiFix_glass_probe_mod_by_stefix.zip)
+> FiFix Mod for SM2.0 - Clever way by @Stefix to allow leveling on glass using OEM probe. Find more information about it here. No Firmware modification required.
+
+**Content Author:** Stefix | **Added:** 2026-03-08
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, FDM, MODS, UNOFFICIAL, Bed Leveling
+
+---
+
+#### [Automatic bed leveling on glass for SM2.0](https://forum.snapmaker.com/t/automatic-bed-leveling-on-glass/29601)
+> Another mod by @TobIY. No Firmware modification required. Check the Shopping list for exact part.
+
+**Content Author:** TobIY | **Added:** 2026-03-08
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, FDM, MODS, UNOFFICIAL, Bed Leveling
+
+---
+
+#### [Advanced leveling mod for SM2.0](https://forum.snapmaker.com/t/for-all-who-want-level-on-glass/12437/129)
+> By @stewl. Firmware modification required. Ultimate accuracy.
+
+**Content Author:** stewl | **Added:** 2026-03-08
+
+**Tags:** BEGINNER, FREE, SM_2.0, FDM, MODS, FIRMWARE, UNOFFICIAL, Bed Leveling
 
 ---
 
