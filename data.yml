@@ -2832,6 +2832,104 @@ records:
     - FIRMWARE
     official_flag:
     - OFFICIAL
+- id: vibration-compensation-beta-firmware-for-2-0-series-stable-print-quality-at-higher-speed-b7fb
+  title: "Vibration Compensation Beta Firmware for 2.0 Series: Stable Print Quality at Higher Speed"
+  description: Forum thread dedicated to the new vibration compensation firmware by Snapmaker. Same as J1. Considered to be stable starting from v2.3.1.
+  author_name: Snapmaker
+  author_link: Snapmaker.com
+  original_link: https://forum.snapmaker.com/t/now-compatible-with-8-lead-vibration-compensation-beta-firmware-for-2-0-series-stable-print-quality-at-higher-speed/29136
+  date_added: '2026-03-07'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - FDM
+    record_type:
+    - FIRMWARE
+    official_flag:
+    - OFFICIAL
 
+- id: snapmaker-artisan-specs-00b1
+  title: Snapmaker ARTISAN - SPECS
+  description: Specifications for Snapmaker Artisan
+  author_name: Snapmaker
+  author_link: Snapmaker.com
+  original_link: https://www.snapmaker.com/snapmaker-artisan/specs
+  date_added: '2026-03-07'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - ARTISAN
+    machine_tool_type:
+    - COMBINED
+    record_type:
+    - ARTICLE
+    official_flag:
+    - OFFICIAL
+
+- id: snapmaker-artisan-wiki-a44f
+  title: Snapmaker ARTISAN - WIKI
+  description: Wiki for Artisan by Snapmaker Team
+  author_name: Snapmaker
+  author_link: Snapmaker.com
+  original_link: https://wiki.snapmaker.com/en/snapmaker_artisan
+  date_added: '2026-03-07'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - ARTISAN
+    machine_tool_type:
+    - COMBINED
+    record_type:
+    - ARTICLE
+    official_flag:
+    - OFFICIAL
+
+- id: snapmaker-artisan-firmware-updates-and-downloads-ad3b
+  title: Snapmaker Artisan Firmware Updates and Downloads
+  description: Official forum thread where stable firmware releases are posted.
+  author_name: Snapmaker
+  author_link: Snapmaker.com
+  original_link: https://forum.snapmaker.com/t/snapmaker-artisan-firmware-updates-and-downloads/29975
+  date_added: '2026-03-07'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - ARTISAN
+    machine_tool_type:
+    - COMBINED
+    record_type:
+    - FIRMWARE
+    official_flag:
+    - OFFICIAL
+
+- id: discussion-of-snapmaker-artisan-firmware-updates-d04a
+  title: Discussion of Snapmaker Artisan Firmware Updates
+  description: Dedicated discussion topic to stable firmware updates.
+  author_name: Snapmaker
+  author_link: Snapmaker.com
+  original_link: https://forum.snapmaker.com/t/discussion-of-snapmaker-artisan-firmware-updates/29974
+  date_added: '2026-03-07'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - ARTISAN
+    machine_tool_type:
+    - COMBINED
+    record_type:
+    - DISCUSSION
+    official_flag:
+    - OFFICIAL
 
 
