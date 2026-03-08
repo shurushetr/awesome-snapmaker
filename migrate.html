@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,9 +11,10 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 2rem;
-            align-items: stretch; /* Change from start to stretch to match column heights */
+            align-items: stretch;
+            /* Change from start to stretch to match column heights */
         }
-        
+
         @media (max-width: 768px) {
             .migration-grid {
                 grid-template-columns: 1fr;
@@ -24,7 +26,7 @@
             border: 1px solid var(--card-border);
             border-radius: 8px;
             padding: 1.5rem;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
             display: flex;
             flex-direction: column;
             overflow: hidden;
@@ -81,7 +83,7 @@
             box-sizing: border-box;
             resize: vertical;
         }
-        
+
         .copy-btn {
             position: absolute;
             top: 10px;
@@ -92,8 +94,21 @@
             content: " *";
             color: red;
         }
+
+        @keyframes pulseRed {
+            0% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7); }
+            50% { box-shadow: 0 0 0 8px rgba(239, 68, 68, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
+        }
+        
+        .pulse-error {
+            animation: pulseRed 0.5s ease-out 2;
+            border-color: #ef4444 !important;
+            border-radius: 4px;
+        }
     </style>
 </head>
+
 <body>
     <main class="container">
         <div class="migration-grid">
@@ -111,14 +126,15 @@
                         <textarea id="description" rows="3" placeholder="Brief summary of the resource..."></textarea>
                     </div>
 
-                    <div class="form-group">
-                        <label class="required" for="author_name">Author Name</label>
-                        <input type="text" id="author_name" required placeholder="Who created this?">
-                    </div>
-
-                    <div class="form-group">
-                        <label class="required" for="author_link">Author Link</label>
-                        <input type="url" id="author_link" required placeholder="https://forum.snapmaker.com/u/...">
+                    <div style="display: flex; gap: 1rem; margin-bottom: 1rem;">
+                        <div class="form-group" style="flex: 1; margin-bottom: 0;">
+                            <label class="required" for="author_name">Author Name</label>
+                            <input type="text" id="author_name" required placeholder="Who created this?">
+                        </div>
+                        <div class="form-group" style="flex: 1; margin-bottom: 0;">
+                            <label class="required" for="author_link">Author Link</label>
+                            <input type="url" id="author_link" required placeholder="https://forum.snapmaker.com/u/...">
+                        </div>
                     </div>
 
                     <div class="form-group">
@@ -135,65 +151,108 @@
                         </select>
                     </div>
 
-                    <div class="form-group">
-                        <label class="required" for="cost">Cost</label>
-                        <select id="cost" required>
-                            <option value="FREE">FREE</option>
-                            <option value="PAID">PAID</option>
-                            <option value="FREEMIUM">FREEMIUM</option>
-                        </select>
+                    <div style="display: flex; gap: 1rem; margin-bottom: 1rem;">
+                        <div class="form-group" style="flex: 1; margin-bottom: 0;">
+                            <label class="required" for="cost">Cost</label>
+                            <select id="cost" required>
+                                <option value="FREE">FREE</option>
+                                <option value="PAID">PAID</option>
+                                <option value="FREEMIUM">FREEMIUM</option>
+                            </select>
+                        </div>
+                        <div class="form-group" style="flex: 1; margin-bottom: 0;">
+                            <label class="required" for="language">Language</label>
+                            <select id="language" required>
+                                <option value="EN">EN</option>
+                                <option value="ZH">ZH</option>
+                                <option value="DE">DE</option>
+                                <option value="FR">FR</option>
+                                <option value="ES">ES</option>
+                            </select>
+                        </div>
                     </div>
-                    
-                    <div class="form-group">
-                        <label class="required" for="language">Language</label>
-                        <select id="language" required>
-                            <option value="EN">EN</option>
-                            <option value="ZH">ZH</option>
-                            <option value="DE">DE</option>
-                            <option value="FR">FR</option>
-                            <option value="ES">ES</option>
-                        </select>
-                    <div class="form-group">
-                        <label>Machine Type (Select multiple)</label>
-                        <div class="checkbox-grid">
-                            <label class="checkbox-wrapper"><input type="checkbox" name="machine_type" value="SM_2.0"> SM_2.0</label>
-                            <label class="checkbox-wrapper"><input type="checkbox" name="machine_type" value="ARTISAN"> ARTISAN</label>
-                            <label class="checkbox-wrapper"><input type="checkbox" name="machine_type" value="U1"> U1</label>
-                            <label class="checkbox-wrapper"><input type="checkbox" name="machine_type" value="J1/J1s"> J1/J1s</label>
-                            <label class="checkbox-wrapper"><input type="checkbox" name="machine_type" value="RAY"> RAY</label>
-                            <label class="checkbox-wrapper"><input type="checkbox" name="machine_type" value="UNIVERSAL"> UNIVERSAL</label>
+                    <div style="display: flex; gap: 1rem; margin-bottom: 1rem;">
+                        <div class="form-group" style="flex: 1; margin-bottom: 0;">
+                            <label>Machine Type</label>
+                            <div class="checkbox-grid">
+                                <label class="checkbox-wrapper"><input type="checkbox" name="machine_type" value="SM_2.0">
+                                    SM_2.0</label>
+                                <label class="checkbox-wrapper"><input type="checkbox" name="machine_type" value="ARTISAN">
+                                    ARTISAN</label>
+                                <label class="checkbox-wrapper"><input type="checkbox" name="machine_type" value="U1">
+                                    U1</label>
+                                <label class="checkbox-wrapper"><input type="checkbox" name="machine_type" value="J1/J1s">
+                                    J1/J1s</label>
+                                <label class="checkbox-wrapper"><input type="checkbox" name="machine_type" value="RAY">
+                                    RAY</label>
+                                <label class="checkbox-wrapper"><input type="checkbox" name="machine_type"
+                                        value="UNIVERSAL"> UNIVERSAL</label>
+                            </div>
+                        </div>
+
+                        <div class="form-group" style="flex: 1; margin-bottom: 0;">
+                            <label>Machine Tool Type</label>
+                            <div class="checkbox-grid">
+                                <label class="checkbox-wrapper"><input type="checkbox" name="machine_tool_type" value="FDM">
+                                    FDM</label>
+                                <label class="checkbox-wrapper"><input type="checkbox" name="machine_tool_type"
+                                        value="LASER"> LASER</label>
+                                <label class="checkbox-wrapper"><input type="checkbox" name="machine_tool_type" value="CNC">
+                                    CNC</label>
+                                <label class="checkbox-wrapper"><input type="checkbox" name="machine_tool_type"
+                                        value="ROTARY"> ROTARY</label>
+                                <label class="checkbox-wrapper"><input type="checkbox" name="machine_tool_type"
+                                        value="COMBINED"> COMBINED</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="display: flex; gap: 1rem; margin-bottom: 1rem;">
+                        <div class="form-group" style="flex: 1; margin-bottom: 0;">
+                            <label>Record Type</label>
+                            <div class="checkbox-grid">
+                                <label class="checkbox-wrapper"><input type="checkbox" name="record_type" value="VIDEO">
+                                    VIDEO</label>
+                                <label class="checkbox-wrapper"><input type="checkbox" name="record_type"
+                                        value="DISCUSSION"> DISCUSSION</label>
+                                <label class="checkbox-wrapper"><input type="checkbox" name="record_type" value="ARTICLE">
+                                    ARTICLE</label>
+                                <label class="checkbox-wrapper"><input type="checkbox" name="record_type" value="DOWNLOAD">
+                                    DOWNLOAD</label>
+                                <label class="checkbox-wrapper"><input type="checkbox" name="record_type" value="SHOP">
+                                    SHOP</label>
+                                <label class="checkbox-wrapper"><input type="checkbox" name="record_type" value="FIRMWARE">
+                                    FIRMWARE</label>
+                                <label class="checkbox-wrapper"><input type="checkbox" name="record_type" value="MODS">
+                                    MODS</label>
+                            </div>
+                        </div>
+
+                        <div class="form-group" style="flex: 1; margin-bottom: 0;">
+                            <label>Official Status</label>
+                            <div class="checkbox-grid">
+                                <label class="checkbox-wrapper"><input type="radio" name="official_flag" value="UNOFFICIAL"
+                                        checked> UNOFFICIAL</label>
+                                <label class="checkbox-wrapper"><input type="radio" name="official_flag" value="OFFICIAL">
+                                    OFFICIAL</label>
+                            </div>
                         </div>
                     </div>
 
                     <div class="form-group">
-                        <label>Machine Tool Type</label>
-                        <div class="checkbox-grid">
-                            <label class="checkbox-wrapper"><input type="checkbox" name="machine_tool_type" value="FDM"> FDM</label>
-                            <label class="checkbox-wrapper"><input type="checkbox" name="machine_tool_type" value="LASER"> LASER</label>
-                            <label class="checkbox-wrapper"><input type="checkbox" name="machine_tool_type" value="CNC"> CNC</label>
-                            <label class="checkbox-wrapper"><input type="checkbox" name="machine_tool_type" value="ROTARY"> ROTARY</label>
-                            <label class="checkbox-wrapper"><input type="checkbox" name="machine_tool_type" value="COMBINED"> COMBINED</label>
-                        </div>
+                        <label for="free_tags">Free Tags (Comma separated)</label>
+                        <input type="text" id="free_tags" placeholder="e.g. cooling, enclosure, petg">
                     </div>
 
-                    <div class="form-group">
-                        <label>Record Type</label>
-                        <div class="checkbox-grid">
-                            <label class="checkbox-wrapper"><input type="checkbox" name="record_type" value="VIDEO"> VIDEO</label>
-                            <label class="checkbox-wrapper"><input type="checkbox" name="record_type" value="DISCUSSION"> DISCUSSION</label>
-                            <label class="checkbox-wrapper"><input type="checkbox" name="record_type" value="ARTICLE"> ARTICLE</label>
-                            <label class="checkbox-wrapper"><input type="checkbox" name="record_type" value="DOWNLOAD"> DOWNLOAD</label>
-                            <label class="checkbox-wrapper"><input type="checkbox" name="record_type" value="SHOP"> SHOP</label>
-                            <label class="checkbox-wrapper"><input type="checkbox" name="record_type" value="FIRMWARE"> FIRMWARE</label>
-                            <label class="checkbox-wrapper"><input type="checkbox" name="record_type" value="MODS"> MODS</label>
+                    <div style="display: flex; gap: 1rem; margin-bottom: 1rem;">
+                        <div class="form-group" style="flex: 1; margin-bottom: 0;">
+                            <label for="extra_button_label">(Optional) Extra Button - Label</label>
+                            <input type="text" id="extra_button_label" placeholder="e.g. Download STL">
                         </div>
-                    </div>
 
-                    <div class="form-group">
-                        <label>Official Status</label>
-                        <div class="checkbox-grid">
-                            <label class="checkbox-wrapper"><input type="radio" name="official_flag" value="UNOFFICIAL" checked> UNOFFICIAL</label>
-                            <label class="checkbox-wrapper"><input type="radio" name="official_flag" value="OFFICIAL"> OFFICIAL</label>
+                        <div class="form-group" style="flex: 1; margin-bottom: 0;">
+                            <label for="extra_button_link">(Optional) Extra Button - Link</label>
+                            <input type="url" id="extra_button_link" placeholder="https://...">
                         </div>
                     </div>
 
@@ -203,16 +262,23 @@
             <!-- Right Side: Output Area -->
             <div class="form-section">
                 <h2 style="margin-top: 0; margin-bottom: 0.5rem;">2. Resulting YAML Block</h2>
-                <p style="margin-top: 0; margin-bottom: 0.5rem; font-size: 0.9rem;">Copy this snippet and paste it at the bottom of <code>data.yml</code>!</p>
+                <p style="margin-top: 0; margin-bottom: 0.5rem; font-size: 0.9rem;">Copy this snippet and paste it at
+                    the bottom of <code>data.yml</code>!</p>
                 <div style="display: flex; gap: 0.5rem; margin-bottom: 0.5rem;">
-                    <button type="button" id="generate-btn" class="btn primary-btn" style="flex-grow: 1;">Generate YAML Snippet</button>
-                    <button type="button" id="clear-btn" class="btn secondary-btn" style="flex-grow: 1;">Clear Form</button>
+                    <button type="button" id="generate-btn" class="btn primary-btn" style="flex-grow: 1;">Generate YAML
+                        Snippet</button>
+                    <button type="button" id="clear-btn" class="btn secondary-btn" style="flex-grow: 1;">Clear
+                        Form</button>
                 </div>
                 <div style="position: relative; display: flex; flex-direction: column; flex-grow: 1; height: 100%;">
-                    <textarea id="output-area" readonly style="flex-grow: 1;">Fill out the form and click Generate...</textarea>
-                    <div id="output-actions" style="display: none; position: absolute; right: 10px; bottom: 10px; gap: 0.5rem;">
-                        <button id="clear-yaml-btn" class="btn secondary-btn" style="padding: 0.25rem 0.5rem; font-size: 0.9rem;">Clear Output</button>
-                        <button id="copy-btn" class="btn primary-btn" style="padding: 0.25rem 0.5rem; font-size: 0.9rem;">Copy to Clipboard</button>
+                    <textarea id="output-area" readonly
+                        style="flex-grow: 1;">Fill out the form and click Generate...</textarea>
+                    <div id="output-actions"
+                        style="display: none; position: absolute; right: 10px; bottom: 10px; gap: 0.5rem;">
+                        <button id="clear-yaml-btn" class="btn secondary-btn"
+                            style="padding: 0.25rem 0.5rem; font-size: 0.9rem;">Clear Output</button>
+                        <button id="copy-btn" class="btn primary-btn"
+                            style="padding: 0.25rem 0.5rem; font-size: 0.9rem;">Copy to Clipboard</button>
                     </div>
                 </div>
             </div>
@@ -220,14 +286,14 @@
     </main>
 
     <script>
-        document.getElementById('title').addEventListener('paste', function(e) {
+        document.getElementById('title').addEventListener('paste', function (e) {
             // Give normal paste a tiny delay to occur first (so user sees text if it fails),
             // but we'll try to intercept and parse. We'll read the clipboard directly.
             const html = e.clipboardData.getData('text/html');
             const plain = e.clipboardData.getData('text/plain');
-            
+
             if (!plain) return;
-            
+
             e.preventDefault(); // Stop default paste
 
             let extractedTitle = '';
@@ -241,11 +307,11 @@
                 const parser = new DOMParser();
                 const doc = parser.parseFromString(html, 'text/html');
                 const links = Array.from(doc.querySelectorAll('a'));
-                
+
                 if (links.length > 0) {
                     extractedTitle = links[0].textContent.trim();
                     originalLink = links[0].href;
-                    
+
                     // Look for an author link (often starts with @ or is the last link)
                     const authorEl = links.find(a => a.textContent.trim().startsWith('@') || a.textContent.toLowerCase().includes('credit'));
                     if (authorEl) {
@@ -262,9 +328,9 @@
             let text = plain.trim();
             // Remove md list bullet if present
             text = text.replace(/^[-*]\s*/, '');
-            
+
             let parts = text.split(' - ');
-            
+
             if (!extractedTitle) {
                 extractedTitle = parts[0].trim();
             }
@@ -283,13 +349,13 @@
                 }
 
                 extractedDesc = descParts.join(' - ').trim();
-                
+
                 // Remove author credit from end of description
                 if (extractedAuthor) {
                     const regex = new RegExp(`(?:Credit\\s*-?\\s*)?@?${extractedAuthor}\\.?$`, 'i');
                     extractedDesc = extractedDesc.replace(regex, '').trim();
                 }
-                
+
                 // Capitalize first letter of description if it exists
                 if (extractedDesc.length > 0) {
                     extractedDesc = extractedDesc.charAt(0).toUpperCase() + extractedDesc.slice(1);
@@ -304,21 +370,21 @@
             if (extractedDesc) document.getElementById('description').value = extractedDesc;
             if (extractedAuthor) document.getElementById('author_name').value = extractedAuthor;
             if (authorLink && !authorLink.startsWith('file://')) document.getElementById('author_link').value = authorLink;
-            
+
         });
 
         document.getElementById('generate-btn').addEventListener('click', generateYAML);
         document.getElementById('clear-btn').addEventListener('click', () => {
-             document.getElementById('migration-form').reset();
-             document.getElementById('output-area').value = 'Fill out the form and click Generate...';
-             document.getElementById('output-area').readOnly = true;
-             document.getElementById('output-actions').style.display = 'none';
+            document.getElementById('migration-form').reset();
+            document.getElementById('output-area').value = 'Fill out the form and click Generate...';
+            document.getElementById('output-area').readOnly = true;
+            document.getElementById('output-actions').style.display = 'none';
         });
 
         document.getElementById('clear-yaml-btn').addEventListener('click', () => {
-             const output = document.getElementById('output-area');
-             output.value = '';
-             output.focus();
+            const output = document.getElementById('output-area');
+            output.value = '';
+            output.focus();
         });
 
         document.getElementById('copy-btn').addEventListener('click', () => {
@@ -335,32 +401,54 @@
         });
 
         function generateYAML() {
-            const getVal = (id) => document.getElementById(id).value.trim();
-            const getChecked = (name) => Array.from(document.querySelectorAll(`input[name="${name}"]:checked`)).map(el => el.value);
+            const getVal = (id) => { 
+                const el = document.getElementById(id); 
+                return el ? el.value.trim() : ''; 
+            };
+            const getChecked = (name) => Array.from(document.querySelectorAll(`input[name="${name}"]:checked`)).map(el => el.value.trim());
+
+            // Visual validation helper
+            const flashError = (el) => {
+                if (!el) return;
+                el.classList.remove('pulse-error');
+                void el.offsetWidth; // Trigger reflow to restart animation
+                el.classList.add('pulse-error');
+                setTimeout(() => el.classList.remove('pulse-error'), 1000);
+            };
 
             const title = getVal('title');
             const desc = getVal('description');
             const originalLink = getVal('original_link');
-
-            if (!title || !desc || !originalLink) {
-                alert('Please fill out the Title, Description, and Original Link fields before generating!');
-                return;
-            }
-
             const machineTypes = getChecked('machine_type');
             const toolTypes = getChecked('machine_tool_type');
             const recordTypes = getChecked('record_type');
 
-            if (machineTypes.length === 0 && toolTypes.length === 0 && recordTypes.length === 0) {
-                alert('Please select at least one tag (Machine, Tool, or Record type) before generating!');
-                return;
+            let hasError = false;
+
+            if (!title) { flashError(document.getElementById('title')); hasError = true; }
+            if (!desc) { flashError(document.getElementById('description')); hasError = true; }
+            if (!originalLink) { flashError(document.getElementById('original_link')); hasError = true; }
+            
+            if (machineTypes.length === 0) { 
+                flashError(document.querySelector('input[name="machine_type"]').closest('.checkbox-grid')); 
+                hasError = true; 
             }
+            if (toolTypes.length === 0) { 
+                flashError(document.querySelector('input[name="machine_tool_type"]').closest('.checkbox-grid')); 
+                hasError = true; 
+            }
+            if (recordTypes.length === 0) { 
+                flashError(document.querySelector('input[name="record_type"]').closest('.checkbox-grid')); 
+                hasError = true; 
+            }
+
+            if (hasError) return;
 
             // Create URL safe slug for ID and append random string to guarantee uniqueness
             const baseSlug = title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
             const randSuffix = Math.floor(Math.random() * 16777215).toString(16).padStart(4, '0').slice(-4);
             const idSlug = `${baseSlug}-${randSuffix}`;
-            
+
             // date_added is automatically generated here using the current local date
             const d = new Date();
             const year = d.getFullYear();
@@ -369,7 +457,7 @@
             const today = `${year}-${month}-${day}`;
 
             let yaml = `- id: ${idSlug}\n`;
-            
+
             // Text fields escaping
             const safeYamlStr = (str) => {
                 if (!str) return '';
@@ -377,14 +465,14 @@
                     // Replace interior double quotes to avoid breaking the JSON-style escaping
                     const safe = str.replace(/"/g, '\\"');
                     // Indent newlines for YAML block literal if necessary, but double quotes are easier
-                    return `"${safe.replace(/\n/g, '\\n')}"`; 
+                    return `"${safe.replace(/\n/g, '\\n')}"`;
                 }
                 return str;
             };
 
             yaml += `  title: ${safeYamlStr(title)}\n`;
             yaml += `  description: ${safeYamlStr(desc)}\n`;
-            
+
             let authorName = getVal('author_name');
             let authorLink = getVal('author_link');
 
@@ -402,7 +490,7 @@
             yaml += `  language: ${getVal('language')}\n`;
 
             yaml += `  tags:\n`;
-            
+
             if (machineTypes.length > 0) {
                 yaml += `    machine_type:\n`;
                 machineTypes.forEach(t => yaml += `    - ${t}\n`);
@@ -418,8 +506,26 @@
                 recordTypes.forEach(t => yaml += `    - ${t}\n`);
             }
 
-            const official = document.querySelector('input[name="official_flag"]:checked').value;
+            const official = document.querySelector('input[name="official_flag"]:checked').value.trim();
             yaml += `    official_flag:\n    - ${official}\n`;
+
+            const freeTags = getVal('free_tags');
+            if (freeTags) {
+                yaml += `    free_tags:\n`;
+                freeTags.split(',').forEach(tag => {
+                    const cleanTag = tag.trim();
+                    if (cleanTag) yaml += `    - ${safeYamlStr(cleanTag)}\n`;
+                });
+            }
+
+            const extraBtnLabel = getVal('extra_button_label');
+            const extraBtnLink = getVal('extra_button_link');
+            
+            if (extraBtnLabel && extraBtnLink) {
+                yaml += `  extra_buttons:\n`;
+                yaml += `  - label: ${safeYamlStr(extraBtnLabel)}\n`;
+                yaml += `    link: ${extraBtnLink}\n`;
+            }
 
             const output = document.getElementById('output-area');
             if (output.value === 'Fill out the form and click Generate...') {
@@ -433,10 +539,11 @@
             document.getElementById('title').value = '';
             document.getElementById('description').value = '';
             document.getElementById('original_link').value = '';
-            
+
             // Clear checked tags
             document.querySelectorAll('input[type="checkbox"]').forEach(cb => cb.checked = false);
         }
     </script>
 </body>
+
 </html>
