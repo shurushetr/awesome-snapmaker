@@ -1410,7 +1410,7 @@ records:
 
 - id: pcb-milling-process-f271
   title: PCB milling process
-  description: Detailed write-up by
+  description: Detailed write-up by tommy-vaux about PCB milling process.
   author_name: tommy-vaux
   author_link: https://github.com/tommy-vaux
   original_link: https://github.com/tommy-vaux/Snapmaker_2_PCB_Milling_Process
@@ -1428,5 +1428,7 @@ records:
     - CREATE
     official_flag:
     - UNOFFICIAL
+    free_tags:
+    - PCB
 
 
