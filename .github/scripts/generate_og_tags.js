@@ -1,3 +1,11 @@
+/**
+ * generate_og_tags.js
+ * 
+ * This script modifies `index.html` to inject dynamic Open Graph and Twitter Card 
+ * SEO meta tags. It reads the total record count and site information from `data.yml` 
+ * to provide highly relevant link previews on social media (e.g. "Currently tracking X mods...").
+ */
+
 const fs = require('fs');
 const jsyaml = require('js-yaml');
 const path = require('path');

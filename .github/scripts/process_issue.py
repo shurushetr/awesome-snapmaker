@@ -1,3 +1,12 @@
+"""
+process_issue.py
+
+This script processes new GitHub Issues that are submitted using the "Submit New Resource" template.
+It uses regular expressions to parse the markdown issue body, maps the values to the schema defined for
+`data.yml`, and then appends the new record to the end of the data file.
+This automates the intake of community contributions.
+"""
+
 import os
 import sys
 import re

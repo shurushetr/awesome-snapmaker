@@ -1,3 +1,12 @@
+"""
+generate_readme.py
+
+This script generates the repository's main `README.md` file dynamically.
+It reads the single-source-of-truth `data.yml`, groups and sorts the records by 
+machine categories and tool types, and renders a clean Markdown document 
+with a responsive table of contents.
+"""
+
 import yaml
 import os
 import sys

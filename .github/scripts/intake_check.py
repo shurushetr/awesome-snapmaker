@@ -1,3 +1,11 @@
+"""
+intake_check.py
+
+This script operates as a preliminary check when a user opens a new Issue to submit a resource.
+It extracts the provided "Content Link" and normalizes it by removing queries, trailing slashes, and `www.` prefixes. It then checks if the resource already exists in `data.yml`.
+If a duplicate is found, the workflow uses this script's output to auto-comment and close the issue.
+"""
+
 import os
 import sys
 import yaml

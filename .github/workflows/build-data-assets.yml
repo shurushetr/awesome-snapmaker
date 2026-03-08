@@ -1,0 +1,53 @@
+name: Build Data Assets
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'data.yml'
+      - '.github/scripts/generate_og_tags.js'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          npm install js-yaml
+          pip install ruamel.yaml
+
+      - name: Generate README
+        run: python .github/scripts/generate_readme.py
+
+      - name: Run Tag Sync Script
+        run: python .github/scripts/sync_issue_tags.py
+
+      - name: Run SEO Injection Script
+        run: node .github/scripts/generate_og_tags.js
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md .github/ISSUE_TEMPLATE/submit-resource.yml index.html
+          git commit -m "chore: Auto-generate assets from data.yml (README, Tags, SEO)" || exit 0
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push && break || sleep 5
+          done
