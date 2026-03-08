@@ -153,10 +153,6 @@
                             <option value="FR">FR</option>
                             <option value="ES">ES</option>
                         </select>
-                    </div>
-
-                    <hr style="margin: 2rem 0; border: 0; border-top: 1px solid var(--card-border);">
-
                     <div class="form-group">
                         <label>Machine Type (Select multiple)</label>
                         <div class="checkbox-grid">
@@ -201,8 +197,6 @@
                         </div>
                     </div>
 
-                    <button type="button" id="generate-btn" class="btn primary-btn" style="width: 100%; margin-top: 1rem;">Generate YAML Snippet</button>
-                    <button type="button" id="clear-btn" class="btn secondary-btn" style="width: 100%; margin-top: 0.5rem;">Clear Form</button>
                 </form>
             </div>
 
@@ -210,6 +204,10 @@
             <div class="form-section">
                 <h2 style="margin-top: 0; margin-bottom: 0.5rem;">2. Resulting YAML Block</h2>
                 <p style="margin-top: 0; margin-bottom: 0.5rem; font-size: 0.9rem;">Copy this snippet and paste it at the bottom of <code>data.yml</code>!</p>
+                <div style="display: flex; gap: 0.5rem; margin-bottom: 0.5rem;">
+                    <button type="button" id="generate-btn" class="btn primary-btn" style="flex-grow: 1;">Generate YAML Snippet</button>
+                    <button type="button" id="clear-btn" class="btn secondary-btn" style="flex-grow: 1;">Clear Form</button>
+                </div>
                 <div style="position: relative; display: flex; flex-direction: column; flex-grow: 1; height: 100%;">
                     <textarea id="output-area" readonly style="flex-grow: 1;">Fill out the form and click Generate...</textarea>
                     <div id="output-actions" style="display: none; position: absolute; right: 10px; bottom: 10px; gap: 0.5rem;">
@@ -337,6 +335,9 @@
         });
 
         function generateYAML() {
+            const getVal = (id) => document.getElementById(id).value.trim();
+            const getChecked = (name) => Array.from(document.querySelectorAll(`input[name="${name}"]:checked`)).map(el => el.value);
+
             const title = getVal('title');
             const desc = getVal('description');
             const originalLink = getVal('original_link');
