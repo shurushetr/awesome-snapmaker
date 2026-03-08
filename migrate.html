@@ -268,8 +268,12 @@
             const randSuffix = Math.floor(Math.random() * 16777215).toString(16).padStart(4, '0').slice(-4);
             const idSlug = `${baseSlug}-${randSuffix}`;
             
-            // date_added is automatically generated here using the current date
-            const today = new Date().toISOString().split('T')[0];
+            // date_added is automatically generated here using the current local date
+            const d = new Date();
+            const year = d.getFullYear();
+            const month = String(d.getMonth() + 1).padStart(2, '0');
+            const day = String(d.getDate()).padStart(2, '0');
+            const today = `${year}-${month}-${day}`;
 
             let yaml = `- id: ${idSlug}\n`;
             
