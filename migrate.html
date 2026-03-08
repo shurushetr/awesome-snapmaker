@@ -10,7 +10,7 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 2rem;
-            align-items: start;
+            align-items: stretch; /* Change from start to stretch to match column heights */
         }
         
         @media (max-width: 768px) {
@@ -92,21 +92,9 @@
             content: " *";
             color: red;
         }
-
-        /* Override fixed 300px header height from styles.css */
-        .header {
-            height: auto !important;
-        }
     </style>
 </head>
 <body>
-    <header class="header" style="padding: 0.5rem 0;">
-        <div class="container" style="display: flex; justify-content: space-between; align-items: center;">
-            <h1 style="font-size: 1.25rem; margin: 0; position: relative; z-index: 1;">Awesome Snapmaker Data Migration Tool</h1>
-            <p style="margin: 0; font-size: 0.9rem; color: #fff; position: relative; z-index: 1;">Fast, local YAML snippet generator.</p>
-        </div>
-    </header>
-
     <main class="container">
         <div class="migration-grid">
             <!-- Left Side: Input Form -->
@@ -211,7 +199,6 @@
                             <label class="checkbox-wrapper"><input type="radio" name="official_flag" value="UNOFFICIAL" checked> UNOFFICIAL</label>
                             <label class="checkbox-wrapper"><input type="radio" name="official_flag" value="OFFICIAL"> OFFICIAL</label>
                         </div>
-                    </div>
                     </div>
 
                     <button type="button" id="generate-btn" class="btn primary-btn" style="width: 100%; margin-top: 1rem;">Generate YAML Snippet</button>
