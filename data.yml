@@ -2748,4 +2748,70 @@ records:
     - OFFICIAL
     free_tags:
     - Academy
+- id: laser-engraving-academy-4231
+  title: Laser Engraving Academy
+  description: From theoretical knowledge to high-level tips and tricks on using your Snapmaker, here is everything you need on your way to mastery of creating.
+  author_name: Snapmaker
+  author_link: snapmaker.com
+  original_link: https://support.snapmaker.com/hc/en-us/sections/360009734754-Laser
+  date_added: '2026-03-07'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - UNIVERSAL
+    machine_tool_type:
+    - LASER
+    record_type:
+    - ARTICLE
+    official_flag:
+    - OFFICIAL
+    free_tags:
+    - Academy
+
+- id: snapmaker-2-0-cnc-quick-start-guide-e542
+  title: Snapmaker 2.0 CNC Quick Start Guide
+  description: How to quickly start with CNC engraving on Snapmaker 2.0
+  author_name: Snapmaker
+  author_link: snapmaker.com
+  original_link: https://support.snapmaker.com/hc/en-us/articles/360041252474-Snapmaker-2-0-CNC-V1-0-0
+  date_added: '2026-03-07'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - CNC
+    record_type:
+    - ARTICLE
+    official_flag:
+    - OFFICIAL
+    free_tags:
+    - Academy
+
+- id: snapmaker-2-0-firmware-updates-and-downloads-cf31
+  title: Snapmaker 2.0 Firmware Updates and Downloads
+  description: Official forum thread where stable firmware releases are posted.
+  author_name: Snapmaker
+  author_link: snapmaker.com
+  original_link: https://forum.snapmaker.com/t/snapmaker-2-0-firmware-updates-and-downloads/5443
+  date_added: '2026-03-07'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - COMBINED
+    record_type:
+    - FIRMWARE
+    official_flag:
+    - OFFICIAL
+    free_tags:
+    - Academy
+
 

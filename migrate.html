@@ -72,6 +72,9 @@
             min-height: 400px;
             overflow-y: auto;
             position: relative;
+            width: 100%;
+            box-sizing: border-box;
+            resize: vertical;
         }
         
         .copy-btn {
@@ -225,7 +228,7 @@
                 <h2>2. Resulting YAML Block</h2>
                 <p style="margin-bottom: 1rem;">Copy this generated snippet and paste it right at the very bottom of your <code>data.yml</code> file!</p>
                 <div style="position: relative; flex-grow: 1;">
-                    <div id="output-area">Fill out the form and click Generate...</div>
+                    <textarea id="output-area" readonly>Fill out the form and click Generate...</textarea>
                     <button id="copy-btn" class="btn primary-btn copy-btn" style="display: none;">Copy to Clipboard</button>
                 </div>
             </div>
@@ -236,12 +239,13 @@
         document.getElementById('generate-btn').addEventListener('click', generateYAML);
         document.getElementById('clear-btn').addEventListener('click', () => {
              document.getElementById('migration-form').reset();
-             document.getElementById('output-area').textContent = 'Fill out the form and click Generate...';
+             document.getElementById('output-area').value = 'Fill out the form and click Generate...';
+             document.getElementById('output-area').readOnly = true;
              document.getElementById('copy-btn').style.display = 'none';
         });
 
         document.getElementById('copy-btn').addEventListener('click', () => {
-            const text = document.getElementById('output-area').textContent;
+            const text = document.getElementById('output-area').value;
             navigator.clipboard.writeText(text).then(() => {
                 const btn = document.getElementById('copy-btn');
                 btn.textContent = 'Copied!';
@@ -344,10 +348,11 @@
             }
 
             const output = document.getElementById('output-area');
-            if (output.textContent === 'Fill out the form and click Generate...') {
-                output.textContent = '';
+            if (output.value === 'Fill out the form and click Generate...') {
+                output.value = '';
+                output.readOnly = false; // Make it editable once generated
             }
-            output.textContent += yaml + '\n';
+            output.value += yaml + '\n';
             document.getElementById('copy-btn').style.display = 'block';
 
             // Auto-clear specific fields for faster batch entry
