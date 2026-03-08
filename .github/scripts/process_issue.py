@@ -15,23 +15,38 @@ from ruamel.yaml import YAML
 from datetime import datetime
 
 def parse_issue_body(body):
-    """Parses the GitHub Issue body based on the template structure."""
+    """Parses the GitHub Issue body based on the template structure, properly handling multiline markdown like tables."""
     record = {}
+    lines = body.split('\n')
+    current_label = None
+    aggregated_value = []
     
-    # Simple regex to extract sections: ### Label\n\nValue
-    sections = re.split(r'###\s+(.+)\n', body)
-    
-    # Sections usually starts with a blank or introductory string at sections[0]
-    for i in range(1, len(sections), 2):
-        label = sections[i].strip()
-        value = sections[i+1].strip() if i+1 < len(sections) else ""
-        
-        # Clean value from "No response"
-        if value == "_No response_":
-            value = ""
+    sections = {}
+
+    for line in lines:
+        # Check if line is a new header like "### Resource Description"
+        match = re.search(r'^###\s+(.+)$', line.strip())
+        if match:
+            # Save the previous aggregated section before moving on
+            if current_label:
+                sections[current_label] = '\n'.join(aggregated_value).strip()
             
-        label = label.lower()
-        
+            # Start accumulating for the new section
+            current_label = match.group(1).lower().strip()
+            aggregated_value = []
+        elif current_label:
+            # Keep appending lines to the current section
+            aggregated_value.append(line)
+            
+    # Save the final section
+    if current_label:
+        sections[current_label] = '\n'.join(aggregated_value).strip()
+
+    # Process all harvested sections
+    for label, value in sections.items():
+        if value == "_No response_" or value == "":
+            continue
+            
         if "resource description" in label or "description" in label:
             record["description"] = value
         elif "author name" in label:
@@ -46,17 +61,17 @@ def parse_issue_body(body):
             record["cost"] = value if value and value != "N/A" else None
         elif "machine type" in label:
             if "- [" in value:
-                record["machine_type"] = [line.replace('- [X]', '').replace('- [x]', '').strip() for line in value.split('\n') if '- [x]' in line.lower()]
+                record["machine_type"] = [v.replace('- [X]', '').replace('- [x]', '').strip() for v in value.split('\n') if '- [x]' in v.lower()]
             else:
                 record["machine_type"] = [x.strip() for x in value.split(',')] if value else []
         elif "machine tool type" in label:
             if "- [" in value:
-                record["machine_tool"] = [line.replace('- [X]', '').replace('- [x]', '').strip() for line in value.split('\n') if '- [x]' in line.lower()]
+                record["machine_tool"] = [v.replace('- [X]', '').replace('- [x]', '').strip() for v in value.split('\n') if '- [x]' in v.lower()]
             else:
                 record["machine_tool"] = [x.strip() for x in value.split(',')] if value else []
         elif "record type" in label:
             if "- [" in value:
-                record["record_type"] = [line.replace('- [X]', '').replace('- [x]', '').strip() for line in value.split('\n') if '- [x]' in line.lower()]
+                record["record_type"] = [v.replace('- [X]', '').replace('- [x]', '').strip() for v in value.split('\n') if '- [x]' in v.lower()]
             else:
                 record["record_type"] = [x.strip() for x in value.split(',')] if value else []
         elif "official snapmaker resource" in label or "official flag" in label:
