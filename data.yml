@@ -2541,3 +2541,143 @@ records:
     official_flag:
     - UNOFFICIAL
 
+- id: klicky-probe-bed-leveling-on-anything-stealth-mod-for-sm2-0-single-extruder-6372
+  title: Klicky probe - bed leveling on anything! Stealth mod for SM2.0 single extruder
+  description: "Bed leveling on anything! Stealth mod for SM2.0 single extruder - Klicky probe for snapmaker single extruder. Level on anything, simple, no firmware changes.\nFilter by the tag SHOP to find the parts for purchase."
+  author_name: nweolu
+  author_link: https://forum.snapmaker.com/u/nweolu
+  original_link: https://forum.snapmaker.com/t/klicky-probe-bed-leveling-on-anything-stealth-mod-for-single-extruder/32229
+  date_added: '2026-03-08'
+  difficulty: INTERMEDIATE
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - FDM
+    record_type:
+    - MODS
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Bed Leveling
+
+- id: klicky-probe-for-dual-extruder-5dc1
+  title: Klicky probe for DUAL Extruder
+  description: Klicky probe for DUAL EXTRUDER!!! Level on anything, simple, no firmware changes.
+  author_name: theDude
+  author_link: https://www.printables.com/@theDude_1348530
+  original_link: https://www.printables.com/model/918381-klicky-abl-probe-for-snapmaker-dual-extrusion-modu
+  date_added: '2026-03-08'
+  difficulty: INTERMEDIATE
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    machine_tool_type:
+    - FDM
+    record_type:
+    - MODS
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Bed Leveling
+
+- id: glass-bed-leveling-probe-fifix-mod-for-sm2-0-d7f3
+  title: Glass bed leveling probe - FiFix Mod for SM2.0
+  description: FiFix Mod for SM2.0 - Clever way by @Stefix to allow leveling on glass using OEM probe. Find more information about it here. No Firmware modification required.
+  author_name: Stefix
+  author_link: https://forum.snapmaker.com/u/stefix/
+  original_link: https://github.com/shurushetr/awesome-snapmaker/blob/main/files/models/FiFix_glass_probe_mod_by_stefix.zip
+  date_added: '2026-03-08'
+  difficulty: INTERMEDIATE
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - FDM
+    record_type:
+    - MODS
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Bed Leveling
+  extra_buttons:
+  - label: Forum
+    link: https://forum.snapmaker.com/t/for-all-who-want-level-on-glass/12437
+
+- id: automatic-bed-leveling-on-glass-for-sm2-0-5517
+  title: Automatic bed leveling on glass for SM2.0
+  description: Another mod by @TobIY. No Firmware modification required. Check the Shopping list for exact part.
+  author_name: TobIY
+  author_link: https://forum.snapmaker.com/u/TobIY
+  original_link: https://forum.snapmaker.com/t/automatic-bed-leveling-on-glass/29601
+  date_added: '2026-03-08'
+  difficulty: INTERMEDIATE
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - FDM
+    record_type:
+    - MODS
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Bed Leveling
+
+- id: advanced-leveling-mod-for-sm2-0-65b2
+  title: Advanced leveling mod for SM2.0
+  description: By @stewl. Firmware modification required. Ultimate accuracy.
+  author_name: stewl
+  author_link: https://forum.snapmaker.com/u/stewl
+  original_link: https://forum.snapmaker.com/t/for-all-who-want-level-on-glass/12437/129
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - FDM
+    record_type:
+    - MODS
+    - FIRMWARE
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Bed Leveling
+  extra_buttons:
+  - label: Google Drive
+    link: https://drive.google.com/drive/folders/1JTZ811Tx-dTD35J4a-u2fsokln20INpR
+
+- id: j1-j1s-nozzle-heatbreak-upgrade-anti-clogging-solution-da60
+  title: J1/J1s nozzle & heatbreak upgrade - anti clogging solution
+  description: Anti-clogging solution gathered by Stephen M.
+  author_name: StephenM
+  author_link: https://forum.snapmaker.com/u/StephenM
+  original_link: https://forum.snapmaker.com/t/findings-and-solution-for-the-snapmaker-j1-clogging-problem/30472/190
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - J1/J1s
+    machine_tool_type:
+    - FDM
+    record_type:
+    - MODS
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Clogs
+
