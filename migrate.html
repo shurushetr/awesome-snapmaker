@@ -237,6 +237,93 @@
     </main>
 
     <script>
+        document.getElementById('title').addEventListener('paste', function(e) {
+            // Give normal paste a tiny delay to occur first (so user sees text if it fails),
+            // but we'll try to intercept and parse. We'll read the clipboard directly.
+            const html = e.clipboardData.getData('text/html');
+            const plain = e.clipboardData.getData('text/plain');
+            
+            if (!plain) return;
+            
+            e.preventDefault(); // Stop default paste
+
+            let extractedTitle = '';
+            let extractedDesc = '';
+            let extractedAuthor = '';
+            let originalLink = '';
+            let authorLink = '';
+
+            // Try to extract links from HTML structure if available
+            if (html) {
+                const parser = new DOMParser();
+                const doc = parser.parseFromString(html, 'text/html');
+                const links = Array.from(doc.querySelectorAll('a'));
+                
+                if (links.length > 0) {
+                    extractedTitle = links[0].textContent.trim();
+                    originalLink = links[0].href;
+                    
+                    // Look for an author link (often starts with @ or is the last link)
+                    const authorEl = links.find(a => a.textContent.trim().startsWith('@') || a.textContent.toLowerCase().includes('credit'));
+                    if (authorEl) {
+                        extractedAuthor = authorEl.textContent.trim().replace(/^@/, '');
+                        authorLink = authorEl.href;
+                    } else if (links.length > 1) {
+                        extractedAuthor = links[links.length - 1].textContent.trim().replace(/^@/, '');
+                        authorLink = links[links.length - 1].href;
+                    }
+                }
+            }
+
+            // Fallback & Description Parsing from Plain Text
+            let text = plain.trim();
+            // Remove md list bullet if present
+            text = text.replace(/^[-*]\s*/, '');
+            
+            let parts = text.split(' - ');
+            
+            if (!extractedTitle) {
+                extractedTitle = parts[0].trim();
+            }
+
+            if (parts.length > 1) {
+                // Find author with @
+                const authorMatch = text.match(/@([\w.-]+)/);
+                if (!extractedAuthor && authorMatch) {
+                    extractedAuthor = authorMatch[1];
+                }
+
+                let descParts = parts.slice(1);
+                // Remove [TAGS] block if it's the first thing after title
+                if (descParts.length > 0 && descParts[0].trim().startsWith('[') && descParts[0].trim().endsWith(']')) {
+                    descParts.shift();
+                }
+
+                extractedDesc = descParts.join(' - ').trim();
+                
+                // Remove author credit from end of description
+                if (extractedAuthor) {
+                    const regex = new RegExp(`(?:Credit\\s*-?\\s*)?@?${extractedAuthor}\\.?$`, 'i');
+                    extractedDesc = extractedDesc.replace(regex, '').trim();
+                }
+                
+                // Capitalize first letter of description if it exists
+                if (extractedDesc.length > 0) {
+                    extractedDesc = extractedDesc.charAt(0).toUpperCase() + extractedDesc.slice(1);
+                }
+            } else if (!extractedTitle) {
+                extractedTitle = text;
+            }
+
+            // Populate fields if we found them
+            if (extractedTitle) document.getElementById('title').value = extractedTitle;
+            if (originalLink && !originalLink.startsWith('file://')) document.getElementById('original_link').value = originalLink;
+            if (extractedDesc) document.getElementById('description').value = extractedDesc;
+            if (extractedAuthor) document.getElementById('author_name').value = extractedAuthor;
+            if (authorLink && !authorLink.startsWith('file://')) document.getElementById('author_link').value = authorLink;
+            
+        });
+
         document.getElementById('generate-btn').addEventListener('click', generateYAML);
         document.getElementById('clear-btn').addEventListener('click', () => {
              document.getElementById('migration-form').reset();
