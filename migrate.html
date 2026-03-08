@@ -230,7 +230,10 @@
                 <p style="margin-bottom: 1rem;">Copy this generated snippet and paste it right at the very bottom of your <code>data.yml</code> file!</p>
                 <div style="position: relative; flex-grow: 1;">
                     <textarea id="output-area" readonly>Fill out the form and click Generate...</textarea>
-                    <button id="copy-btn" class="btn primary-btn copy-btn" style="display: none;">Copy to Clipboard</button>
+                    <div id="output-actions" style="display: none; position: absolute; right: 10px; bottom: 10px; gap: 0.5rem;">
+                        <button id="clear-yaml-btn" class="btn secondary-btn" style="padding: 0.25rem 0.5rem; font-size: 0.9rem;">Clear Output</button>
+                        <button id="copy-btn" class="btn primary-btn" style="padding: 0.25rem 0.5rem; font-size: 0.9rem;">Copy to Clipboard</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -329,7 +332,13 @@
              document.getElementById('migration-form').reset();
              document.getElementById('output-area').value = 'Fill out the form and click Generate...';
              document.getElementById('output-area').readOnly = true;
-             document.getElementById('copy-btn').style.display = 'none';
+             document.getElementById('output-actions').style.display = 'none';
+        });
+
+        document.getElementById('clear-yaml-btn').addEventListener('click', () => {
+             const output = document.getElementById('output-area');
+             output.value = '';
+             output.focus();
         });
 
         document.getElementById('copy-btn').addEventListener('click', () => {
@@ -441,7 +450,7 @@
                 output.readOnly = false; // Make it editable once generated
             }
             output.value += yaml + '\n';
-            document.getElementById('copy-btn').style.display = 'block';
+            document.getElementById('output-actions').style.display = 'flex';
 
             // Auto-clear specific fields for faster batch entry
             document.getElementById('title').value = '';
