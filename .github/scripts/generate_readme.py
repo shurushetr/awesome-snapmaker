@@ -72,7 +72,10 @@ def generate_readme():
                     f.write(f"#### [{r.get('title')}]({r.get('original_link')})\n")
                     
                     if r.get('description'):
-                        f.write(f"> {r.get('description')}\n\n")
+                        # Prepend '> ' to every line to properly blockquote multiline markdown tables/lists
+                        desc_lines = str(r.get('description')).split('\n')
+                        quoted_desc = '\n'.join([f"> {line}" for line in desc_lines])
+                        f.write(f"{quoted_desc}\n\n")
                     
                     f.write(f"**Content Author:** {r.get('author_name')} | **Added:** {r.get('date_added', 'Unknown')}\n\n")
                     

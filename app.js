@@ -460,7 +460,10 @@ function renderRecords(records) {
 
         let descHtml = '';
         if (record.description) {
-            descHtml = `<div class="card-description"><p style="margin-bottom: 0px; margin-top: 10px; color: var(--secondary-text);">${record.description}</p></div>`;
+            // Use marked.js to render markdown properly
+            const parsedHtml = marked.parse(record.description);
+            // Wrap the rendered markdown inside a container so we can control child tag margins via CSS
+            descHtml = `<div class="card-description" style="color: var(--secondary-text);">${parsedHtml}</div>`;
         }
 
         // Deep link anchoring

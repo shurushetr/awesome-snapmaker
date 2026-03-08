@@ -42,16 +42,32 @@ def normalize_url(url):
     return core_url.rstrip('/')
 
 def parse_issue_for_url(body):
-    """Extracts the 'Content Link (Original URL)' from the issue body."""
-    sections = re.split(r'###\s+(.+)\n', body)
-    for i in range(1, len(sections), 2):
-        label = sections[i].strip().lower()
-        value = sections[i+1].strip() if i+1 < len(sections) else ""
-        if value == "_No response_":
-            value = ""
+    """Extracts the 'Content Link (Original URL)' from the issue body robustly."""
+    lines = body.split('\n')
+    current_label = None
+    aggregated_value = []
+    
+    sections = {}
+
+    for line in lines:
+        match = re.search(r'^###\s+(.+)$', line.strip())
+        if match:
+            if current_label:
+                sections[current_label] = '\n'.join(aggregated_value).strip()
+            current_label = match.group(1).lower().strip()
+            aggregated_value = []
+        elif current_label:
+            aggregated_value.append(line)
             
+    if current_label:
+        sections[current_label] = '\n'.join(aggregated_value).strip()
+        
+    for label, value in sections.items():
+        if value == "_No response_" or not value:
+            continue
         if "content link" in label or "original url" in label:
             return value
+            
     return None
 
 def check_for_executable(url):

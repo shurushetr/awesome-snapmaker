@@ -413,13 +413,6 @@ select {
 
 /* Cyan block */
 
-.card-description {
-    margin-bottom: 1.25rem;
-    font-size: 1.05rem;
-    color: var(--text-color);
-    line-height: 1.5;
-}
-
 /* Dark mode adjustments for specific tags */
 @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) .tag.machine {
@@ -436,6 +429,94 @@ select {
         background-color: rgba(248, 113, 113, 0.2);
         color: #fca5a5;
     }
+}
+
+/* Markdown Rendering Styles (.card-description children) */
+.card-description {
+    margin-bottom: 1.25rem;
+    font-size: 1.05rem;
+    color: var(--text-color);
+    line-height: 1.5;
+}
+
+.card-description h1, 
+.card-description h2, 
+.card-description h3, 
+.card-description h4, 
+.card-description h5, 
+.card-description h6 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+    color: var(--text-color);
+}
+
+.card-description p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.card-description a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.card-description a:hover {
+    text-decoration: underline;
+}
+
+.card-description ul, 
+.card-description ol {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+}
+
+.card-description img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-top: 1rem;
+}
+
+/* Markdown Tables */
+.card-description table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+    background-color: var(--bg-color);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.card-description th, 
+.card-description td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid var(--card-border);
+}
+
+.card-description th {
+    background-color: rgba(0, 0, 0, 0.05);
+    font-weight: 600;
+}
+
+:root[data-theme="dark"] .card-description th {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.card-description tr:last-of-type td {
+    border-bottom: none;
+}
+
+.card-description tr:hover {
+    background-color: rgba(0, 0, 0, 0.02);
+}
+
+:root[data-theme="dark"] .card-description tr:hover {
+    background-color: rgba(255, 255, 255, 0.02);
 }
 
 :root[data-theme="dark"] .tag.machine {
