@@ -22,7 +22,7 @@ jobs:
           python-version: '3.10'
 
       - name: Install dependencies
-        run: pip install pyyaml
+        run: pip install ruamel.yaml
 
       - name: Run Tag Sync Script
         run: python .github/scripts/sync_issue_tags.py
@@ -33,4 +33,6 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git add .github/ISSUE_TEMPLATE/submit-resource.yml
           git commit -m "chore: Auto-sync tags from data.yml to issue template" || exit 0
-          git push
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push && break || sleep 5
+          done
