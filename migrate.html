@@ -256,6 +256,10 @@
                         </div>
                     </div>
 
+                    <div style="display: flex; gap: 0.5rem; margin-top: 1rem;">
+                        <button type="button" id="generate-btn" class="btn primary-btn" style="flex-grow: 1;">Generate YAML Snippet</button>
+                        <button type="button" id="clear-btn" class="btn secondary-btn" style="flex-grow: 1;">Clear Form</button>
+                    </div>
                 </form>
             </div>
 
@@ -265,21 +269,11 @@
                 <p style="margin-top: 0; margin-bottom: 0.5rem; font-size: 0.9rem;">Copy this snippet and paste it at
                     the bottom of <code>data.yml</code>!</p>
                 <div style="display: flex; gap: 0.5rem; margin-bottom: 0.5rem;">
-                    <button type="button" id="generate-btn" class="btn primary-btn" style="flex-grow: 1;">Generate YAML
-                        Snippet</button>
-                    <button type="button" id="clear-btn" class="btn secondary-btn" style="flex-grow: 1;">Clear
-                        Form</button>
+                    <button type="button" id="copy-btn" class="btn" style="flex-grow: 1; background-color: #8b5cf6; color: white; border: none; display: none;">Copy to Clipboard</button>
                 </div>
                 <div style="position: relative; display: flex; flex-direction: column; flex-grow: 1; height: 100%;">
                     <textarea id="output-area" readonly
-                        style="flex-grow: 1;">Fill out the form and click Generate...</textarea>
-                    <div id="output-actions"
-                        style="display: none; position: absolute; right: 10px; bottom: 10px; gap: 0.5rem;">
-                        <button id="clear-yaml-btn" class="btn secondary-btn"
-                            style="padding: 0.25rem 0.5rem; font-size: 0.9rem;">Clear Output</button>
-                        <button id="copy-btn" class="btn primary-btn"
-                            style="padding: 0.25rem 0.5rem; font-size: 0.9rem;">Copy to Clipboard</button>
-                    </div>
+                        style="flex-grow: 1; margin-bottom: 0;">Fill out the form and click Generate...</textarea>
                 </div>
             </div>
         </div>
@@ -378,13 +372,7 @@
             document.getElementById('migration-form').reset();
             document.getElementById('output-area').value = 'Fill out the form and click Generate...';
             document.getElementById('output-area').readOnly = true;
-            document.getElementById('output-actions').style.display = 'none';
-        });
-
-        document.getElementById('clear-yaml-btn').addEventListener('click', () => {
-            const output = document.getElementById('output-area');
-            output.value = '';
-            output.focus();
+            document.getElementById('copy-btn').style.display = 'none';
         });
 
         document.getElementById('copy-btn').addEventListener('click', () => {
@@ -533,15 +521,10 @@
                 output.readOnly = false; // Make it editable once generated
             }
             output.value += yaml + '\n';
-            document.getElementById('output-actions').style.display = 'flex';
+            document.getElementById('copy-btn').style.display = 'block';
 
-            // Auto-clear specific fields and checkboxes for faster batch entry
-            document.getElementById('title').value = '';
-            document.getElementById('description').value = '';
-            document.getElementById('original_link').value = '';
-
-            // Clear checked tags
-            document.querySelectorAll('input[type="checkbox"]').forEach(cb => cb.checked = false);
+            // Auto-clear the entire form back to default state
+            document.getElementById('migration-form').reset();
         }
     </script>
 </body>

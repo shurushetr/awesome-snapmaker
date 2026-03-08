@@ -526,6 +526,8 @@ records:
     - DISCUSSION
     official_flag:
     - OFFICIAL
+    free_tags:
+    - Official Communities
 
 - id: snapmaker-discord-server-a457
   title: Snapmaker Discord server
@@ -555,6 +557,8 @@ records:
     - DISCUSSION
     official_flag:
     - OFFICIAL
+    free_tags:
+    - Official Communities
 
 - id: snapmaker-sub-reddit-43dc
   title: Snapmaker Sub Reddit
@@ -584,6 +588,8 @@ records:
     - DISCUSSION
     official_flag:
     - OFFICIAL
+    free_tags:
+    - Official Communities
 
 - id: snapmaker-u1-facebook-group-187e
   title: Snapmaker U1 Facebook Group
@@ -604,6 +610,8 @@ records:
     - DISCUSSION
     official_flag:
     - OFFICIAL
+    free_tags:
+    - Official Communities
 
 - id: snapmaker-original-2-0-owners-5486
   title: Snapmaker Original/2.0 Owners
@@ -628,6 +636,8 @@ records:
     - DISCUSSION
     official_flag:
     - OFFICIAL
+    free_tags:
+    - Official Communities
 
 - id: snapmaker-artisan-owners-54d7
   title: Snapmaker Artisan Owners
@@ -652,6 +662,8 @@ records:
     - DISCUSSION
     official_flag:
     - OFFICIAL
+    free_tags:
+    - Official Communities
 
 - id: snapmaker-j1-owners-6afe
   title: Snapmaker J1 Owners
@@ -672,6 +684,8 @@ records:
     - DISCUSSION
     official_flag:
     - OFFICIAL
+    free_tags:
+    - Official Communities
 
 - id: snapmaker-github-9cbd
   title: Snapmaker GitHub
@@ -693,6 +707,8 @@ records:
     - FIRMWARE
     official_flag:
     - OFFICIAL
+    free_tags:
+    - Official Communities
 
 - id: snapmaker-youtube-159a
   title: Snapmaker YouTube
@@ -713,6 +729,8 @@ records:
     - VIDEO
     official_flag:
     - OFFICIAL
+    free_tags:
+    - Official Communities
 
 - id: snapmaker-community-page-f9ad
   title: Snapmaker Community Page
@@ -733,6 +751,8 @@ records:
     - ARTICLE
     official_flag:
     - OFFICIAL
+    free_tags:
+    - Official Communities
 
 - id: snapmaker-thingiverse-repo-9bd7
   title: Snapmaker Thingiverse repo
@@ -753,3 +773,145 @@ records:
     - ARTICLE
     official_flag:
     - OFFICIAL
+    free_tags:
+    - Official Communities
+
+- id: usb-to-ethernet-adapter-2db0
+  title: USB to Ethernet adapter
+  description: You can use usb adapter to connect via ethernet to your machine.
+  author_name: Community
+  author_link: https://forum.snapmaker.com/
+  original_link: https://forum.snapmaker.com/t/works-usb-to-ethernet-adapter/8074/
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - COMBINED
+    record_type:
+    - DISCUSSION
+    - SHOP
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Connectivity
+
+- id: direct-communication-over-serial-port-ad7d
+  title: Direct communication over serial port
+  description: Using the MINI-USB port, you can connect to machines console (like with Luban) to run commands directly. This post shows settings for Putty - terminal app. Snapmaker has simple serial to USB converter inside.
+  author_name: Community
+  author_link: https://forum.snapmaker.com/
+  original_link: https://forum.snapmaker.com/t/android-cell-phone-terminal-console/12838/6
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - COMBINED
+    record_type:
+    - DISCUSSION
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Connectivity
+
+- id: usb-port-forwarding-b460
+  title: USB port forwarding
+  description: "Has it's dangers, but you can trick you host machine into thinking that snapmaker is connected directly via usb, when it is actually connected to a different machine."
+  author_name: Community
+  author_link: https://forum.snapmaker.com/
+  original_link: https://forum.snapmaker.com/t/usb-forwarding-of-the-snapmaker/32831
+  date_added: '2026-03-08'
+  difficulty: INTERMEDIATE
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - LASER
+    record_type:
+    - DISCUSSION
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Connectivity
+
+- id: sm2uploader-a7fc
+  title: SM2Uploader
+  description: A command-line tool for sending the files to Snapmaker machines via network connection. Can act as Octoprint to emulate upload for Cura/PrusaSlicer/SuperSlicer/ideaMaker. Use it with NC and CNC files on Snapmaker 2 A150/250/350, J1, Artisan.
+  author_name: macdylan
+  author_link: https://github.com/macdylan
+  original_link: https://github.com/macdylan/sm2uploader
+  date_added: '2026-03-08'
+  difficulty: INTERMEDIATE
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - J1/J1s
+    machine_tool_type:
+    - COMBINED
+    record_type:
+    - DOWNLOAD
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Connectivity
+
+- id: how-to-setup-sm2uploader-with-slicers-b7ca
+  title: How to setup sm2uploader with slicers
+  description: Guide to setup SM2Upload tool with slicers for seamless integration.
+  author_name: macdylan
+  author_link: https://github.com/macdylan
+  original_link: https://forum.snapmaker.com/t/great-sharing-prusaslicer-profiles-by-dylan-and-mcgybeer/28796/133
+  date_added: '2026-03-08'
+  difficulty: INTERMEDIATE
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - J1/J1s
+    machine_tool_type:
+    - COMBINED
+    record_type:
+    - ARTICLE
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Connectivity
+
+- id: how-to-add-sm2uploader-to-context-menu-of-windows-11-1cad
+  title: How to add sm2uploader to context menu of Windows 11
+  description: "Send files to your machine using \"Send To\" context menu in Windows 11."
+  author_name: nweolu
+  author_link: https://forum.snapmaker.com/u/nweolu
+  original_link: https://forum.snapmaker.com/t/upload-files-to-any-snapmaker-with-right-click-menu-windows-11-guide/33041
+  date_added: '2026-03-08'
+  difficulty: INTERMEDIATE
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - J1/J1s
+    machine_tool_type:
+    - COMBINED
+    record_type:
+    - ARTICLE
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Connectivity
+
