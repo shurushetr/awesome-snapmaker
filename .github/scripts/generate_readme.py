@@ -88,7 +88,9 @@ def generate_readme():
                             tags.extend(v_list)
                             
                     if tags:
-                        f.write(f"**Tags:** {', '.join(tags)}\n")
+                        # Ensure all tags are cast to strings before joining to prevent TypeErrors from complex nested objects
+                        str_tags = [str(tag) for tag in tags if isinstance(tag, str) or isinstance(tag, int)]
+                        f.write(f"**Tags:** {', '.join(str_tags)}\n")
                         
                     f.write("\n---\n\n")
 
