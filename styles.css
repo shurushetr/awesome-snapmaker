@@ -480,6 +480,7 @@ select {
 
 .card-actions {
     display: flex;
+    flex-wrap: wrap; /* Fixes mobile overflow for multiple buttons */
     gap: 0.5rem;
     flex-shrink: 0;
 }

@@ -1693,4 +1693,258 @@ records:
   - label: Community
     link: https://community.cookiecad.com/
 
+- id: create-boxes-and-more-one-site-to-rule-them-all-9a4e
+  title: Create boxes and more! - One site to rule them all
+  description: One site to rule them all - amazing online vector generator for designing boxes, shelves, bins, patterns and much more for laser cutting.
+  author_name: florianfesti
+  author_link: https://github.com/florianfesti
+  original_link: https://boxes.hackerspace-bamberg.de/
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - RAY
+    machine_tool_type:
+    - LASER
+    record_type:
+    - CREATE
+    - DOWNLOAD
+    - ONLINE TOOL
+    official_flag:
+    - UNOFFICIAL
+  extra_buttons:
+  - label: Donate
+    link: https://florianfesti.github.io/boxes/html/give_back.html
+
+- id: keychaines-name-snowflakes-connected-text-and-more-c3cd
+  title: Keychaines, Name-Snowflakes, Connected Text and more
+  description: There are a bunch of customizable templates for laser cutting/engraving. Some are free for personal use, and some are pro only.
+  author_name: The Cuttle team
+  author_link: https://cuttle.xyz/about-us
+  original_link: https://cuttle.xyz/templates
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREEMIUM
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - RAY
+    machine_tool_type:
+    - LASER
+    record_type:
+    - CREATE
+    - DOWNLOAD
+    - ONLINE TOOL
+    official_flag:
+    - UNOFFICIAL
+  extra_buttons:
+  - label: Facebook
+    link: https://www.facebook.com/groups/cuttle
+  - label: Discord
+    link: https://cuttle.xyz/discord
+
+- id: stencil-generator-417d
+  title: Stencil Generator
+  description: The interface on this website can support you to generate a multi-layer stencil from an input image. Handy for all kinds of lasering projects.
+  author_name: StencilCreator.org
+  author_link: StencilCreator.org
+  original_link: https://www.stencilcreator.org/
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - RAY
+    machine_tool_type:
+    - LASER
+    record_type:
+    - CREATE
+    - DOWNLOAD
+    - ONLINE TOOL
+    official_flag:
+    - UNOFFICIAL
+
+- id: treasure-trove-of-templates-generators-1014
+  title: Treasure trove of templates generators
+  description: A huge number of various calculators and template generators that you can export in SVG. Diameter Tape, Compass, Spirals, Bolt Patterns and much much more.
+  author_name: Greg Tarrant
+  author_link: https://www.blocklayer.com/
+  original_link: https://www.blocklayer.com/calculatordirectory
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - RAY
+    machine_tool_type:
+    - LASER
+    record_type:
+    - CREATE
+    - DOWNLOAD
+    - ONLINE TOOL
+    official_flag:
+    - UNOFFICIAL
+
+- id: snowflakes-generator-a879
+  title: Snowflakes generator
+  description: Made by Bleeptrack - Fr0zenSystem is a little snowflake generator. This version is optimized to be used with laser cutters but might also be used with pen or cutter plotters. The idea is to cut out two different layers that in combination form a nice snowflake shape.
+  author_name: Bleeptrack
+  author_link: https://github.com/bleeptrack
+  original_link: https://github.com/bleeptrack/fr0zen-system-laser
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - RAY
+    machine_tool_type:
+    - LASER
+    record_type:
+    - CREATE
+    - DOWNLOAD
+    - ONLINE TOOL
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - PLOTTER with CNC
+  extra_buttons:
+  - label: How To Use
+    link: https://youtu.be/-WHORPKPZP4
+
+- id: numerical-dial-generator-and-more-fb42
+  title: Numerical Dial Generator and more
+  description: This interactive generator produces an image of a numerical dial, based on your settings and requirements. They have more generators related to dials.
+  author_name: Oliver Boorman
+  author_link: https://www.oliverboorman.biz/contact.php
+  original_link: https://www.oliverboorman.biz/projects/tools/dial.php
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - RAY
+    machine_tool_type:
+    - FDM
+    - LASER
+    record_type:
+    - CREATE
+    - DOWNLOAD
+    - ONLINE TOOL
+    official_flag:
+    - UNOFFICIAL
+
+- id: paper-box-generator-c80f
+  title: Paper box generator
+  description: Ever wanted to cut a foldable box?
+  author_name: Steve Genoud
+  author_link: https://ko-fi.com/stevegenoud
+  original_link: https://deckinabox.sgenoud.com/
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - RAY
+    machine_tool_type:
+    - LASER
+    record_type:
+    - CREATE
+    - DOWNLOAD
+    - ONLINE TOOL
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - CARDBOARD
+
+- id: slopes-wave-pattern-generator-ddeb
+  title: Slopes - Wave pattern generator
+  description: Get an SVG with wave pattern. Also has 8bit cat...
+  author_name: Josh Comeau
+  original_link: https://tinkersynth.com/slopes
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - RAY
+    machine_tool_type:
+    - LASER
+    record_type:
+    - CREATE
+    - DOWNLOAD
+    - ONLINE TOOL
+    official_flag:
+    - UNOFFICIAL
+
+- id: diy-rotary-for-snapmaker-2-0-0919
+  title: DIY Rotary for Snapmaker 2.0
+  description: Just how it sounds, want to laser engrave bottles - this is what you need.
+  author_name: MichaelMikkelson
+  author_link: https://www.instructables.com/member/MichaelMikkelson/
+  original_link: https://www.instructables.com/DIY-Rotary-for-Snapmaker-20/
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - LASER
+    record_type:
+    - ARTICLE
+    - MODS
+    official_flag:
+    - UNOFFICIAL
+
+- id: japanese-joints-tsugite-generator-84ad
+  title: "Japanese joints - \"Tsugite\" -  generator"
+  description: "\"Tsugite\" - generator - Interactive system for designing and fabricating wood joints for frame structures. Cool for 3d prints or CNC."
+  author_name: The University of Tokyo
+  author_link: https://www.ma-la.com/tsugite.html
+  original_link: http://ma-la.com/tsugite.html
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - UNIVERSAL
+    machine_tool_type:
+    - FDM
+    - CNC
+    - COMBINED
+    record_type:
+    - CREATE
+    - DOWNLOAD
+    official_flag:
+    - UNOFFICIAL
+  extra_buttons:
+  - label: GitHUB
+    link: https://github.com/marialarsson/tsugite
+
 
