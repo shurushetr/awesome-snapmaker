@@ -325,7 +325,7 @@ function applyFiltersAndRender() {
 
         // Language Filter
         const languageMatch = activeFilters.language.size === 0 || 
-            (t.language && t.language.some(lang => activeFilters.language.has(lang)));
+            (record.language && activeFilters.language.has(record.language));
 
         // Free Tags / Flags Filter: if we add free tags filtering later
 
@@ -384,7 +384,7 @@ function renderRecords(records) {
         
         if (record.difficulty && record.difficulty !== 'N/A') tagsHtml += `<span class="tag difficulty">${record.difficulty}</span>`;
         if (record.cost && record.cost !== 'N/A') tagsHtml += `<span class="tag cost">${record.cost}</span>`;
-        if (t.language) t.language.forEach(tag => tagsHtml += `<span class="tag language">${tag}</span>`);
+        if (record.language && record.language !== 'N/A') tagsHtml += `<span class="tag language">${record.language}</span>`;
         
         if (t.free_tags) t.free_tags.forEach(tag => tagsHtml += `<span class="tag">${tag}</span>`);
 
