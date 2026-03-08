@@ -88,2595 +88,6 @@ allowed_tags:
 
 ### records
 records:
-- id: snapmaker-luban-guide
-  title: Comprehensive Luban Slicing Guide
-  author_name: John Doe
-  author_link: https://github.com/johndoe
-  original_link: https://example.com/luban-guide
-  date_added: '2024-05-15'
-  difficulty: Beginner
-  cost: Free
-  tags:
-    machine_type:
-    - SM_2.0
-    - Artisan
-    machine_tool_type:
-    - FDM
-    - LASER
-    record_type:
-    - Read
-    - Watch
-    official_flag:
-    - OFFICIAL
-    language:
-    - EN
-    free_tags:
-    - Luban
-    - Slicing
-    cost:
-    - Free
-  extra_buttons:
-  - label: Download PDF
-    link: https://example.com/luban-guide.pdf
-- id: custom-dust-shoe-cnc
-  title: Custom Dust Shoe for CNC Module
-  author_name: Maker Jane
-  author_link: https://thingiverse.com/makerjane
-  original_link: https://thingiverse.com/thing:123456
-  date_added: '2024-05-20'
-  difficulty: Intermediate
-  cost: Free
-  tags:
-    machine_type:
-    - SM_2.0
-    machine_tool_type:
-    - CNC
-    record_type:
-    - Download
-    - Shop
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Dust Collection
-    - 3D Printed
-  extra_buttons: []
-- id: g-code-reference
-  title: G-Code Reference
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://wiki.snapmaker.com/en/Snapmaker_Luban/manual/2_supported_gcode_references
-  description: G-Code reference guide. Snapmaker G-Code is Marlin compatible.
-  date_added: '2024-05-25'
-  difficulty: Intermediate
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Read
-    official_flag:
-    - OFFICIAL
-    free_tags:
-    - reference
-    - gcode
-- id: snapmaker-academy
-  title: Snapmaker Academy
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://support.snapmaker.com/hc/en-us/categories/360003536313-Snapmaker-Academy
-  description: Collection of HOW-TO from snapmaker.
-  date_added: '2024-05-25'
-  difficulty: Beginner
-  tags:
-    machine_type:
-    - Universal
-    record_type:
-    - Read
-    official_flag:
-    - OFFICIAL
-    free_tags:
-    - how-to
-    - education
-- id: specification
-  title: Specification
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://www.snapmaker.com/en-US/snapmaker-2/specs-at
-  description: Snapmaker 2.0 spec sheet
-  date_added: '2024-05-25'
-  difficulty: Beginner
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Read
-    official_flag:
-    - OFFICIAL
-    free_tags:
-    - specification
-    - reference
-- id: wiki-snapmaker-2-0
-  title: Wiki - Snapmaker 2.0
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://wiki.snapmaker.com/en/Snapmaker_2
-  description: Official snapmaker WIKI that covers all products. Use [Wiki Content
-    Request](https://formcrafts.com/a/qmvudac) to request updates.
-  date_added: '2024-05-25'
-  difficulty: Beginner
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Read
-    official_flag:
-    - OFFICIAL
-    free_tags:
-    - support
-    - reference
-    - troubleshooting
-- id: 3d-printing-quick-start-guide
-  title: 3D PRINTING - Quick Start Guide
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://support.snapmaker.com/hc/en-us/articles/360041733553-Snapmaker-2-0-3D-Printing-V1-0-0
-  description: quick start guide by Snapmaker team.
-  date_added: '2024-05-25'
-  difficulty: Beginner
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Read
-    official_flag:
-    - OFFICIAL
-    machine_tool_type:
-    - FDM
-    free_tags:
-    - how-to
-    - docs
-    - guide
-- id: laser-engraving-and-cutting-quick-start-guide
-  title: LASER ENGRAVING AND CUTTING - Quick Start Guide
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://support.snapmaker.com/hc/en-us/articles/360041254874-Snapmaker-2-0-Laser-V1-0-0
-  description: quick start guide by Snapmaker team.
-  date_added: '2024-05-25'
-  difficulty: Beginner
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Read
-    official_flag:
-    - OFFICIAL
-    machine_tool_type:
-    - LASER
-    free_tags:
-    - how-to
-    - docs
-    - guide
-- id: cnc-quick-start-guide
-  title: CNC - Quick Start Guide
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://support.snapmaker.com/hc/en-us/articles/360041252474-CNC-Carving
-  description: quick start guide by Snapmaker team.
-  date_added: '2024-05-25'
-  difficulty: Beginner
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Read
-    official_flag:
-    - OFFICIAL
-    machine_tool_type:
-    - CNC
-    free_tags:
-    - how-to
-    - docs
-    - guide
-- id: snapmaker-2-0-firmware-updates-and-downloads
-  title: Snapmaker 2.0 Firmware Updates and Downloads
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://forum.snapmaker.com/t/snapmaker-2-0-firmware-updates-and-downloads/5443/
-  description: official forum thread where stable firmware releases are posted.
-  date_added: '2024-05-25'
-  difficulty: Beginner
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Download
-    official_flag:
-    - OFFICIAL
-    free_tags:
-    - firmware
-    - updates
-    - forum
-- id: discussion-of-snapmaker-2-0-firmware-updates
-  title: Discussion of Snapmaker 2.0 Firmware Updates
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://forum.snapmaker.com/t/discussion-of-snapmaker-2-0-firmware-updates/5441
-  description: dedicated discussion topic to stable firmware updates.
-  date_added: '2024-05-25'
-  difficulty: Beginner
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Discuss
-    official_flag:
-    - OFFICIAL
-    free_tags:
-    - make
-    - firmware
-    - docs
-    - software
-- id: vibration-compensation-beta-firmware-for-2-0-series-stable-print-quality-at-higher-speed
-  title: 'Vibration Compensation Beta Firmware for 2.0 Series: Stable Print Quality
-    at Higher Speed'
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://forum.snapmaker.com/t/now-compatible-with-8-lead-vibration-compensation-beta-firmware-for-2-0-series-stable-print-quality-at-higher-speed/29136
-  description: forum thread dedicated to the new vibration compensation firmware by
-    Snapmaker. Same as J1. Considered to be stable starting from v2.3.1.
-  date_added: '2024-05-25'
-  difficulty: Intermediate
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Download
-    - Discuss
-    official_flag:
-    - OFFICIAL
-    free_tags:
-    - settings
-    - make
-    - software
-    - community
-    - docs
-    - firmware
-- id: specification
-  title: Specification
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://snapmaker.com/snapmaker-artisan/specs
-  description: Artisan spec sheet
-  date_added: '2024-05-25'
-  difficulty: Beginner
-  tags:
-    machine_type:
-    - Artisan
-    record_type:
-    - Read
-    official_flag:
-    - OFFICIAL
-    free_tags:
-    - specification
-    - reference
-- id: artisan-guides-wiki
-  title: Artisan Guides Wiki
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://wiki.snapmaker.com/en/snapmaker_artisan
-  description: Wiki for Artisan by Snapmaker Team.
-  date_added: '2024-05-25'
-  difficulty: Beginner
-  cost: Paid
-  tags:
-    machine_type:
-    - Artisan
-    record_type:
-    - Read
-    official_flag:
-    - OFFICIAL
-    free_tags:
-    - support
-    - reference
-    - troubleshooting
-- id: artisan-wiki-content-updates
-  title: Artisan Wiki Content Updates
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://forum.snapmaker.com/t/artisan-wiki-content-updates/30892
-  description: follow this thread to keep an eye on Wiki Updates from Snapmaker.
-  date_added: '2024-05-25'
-  difficulty: Beginner
-  tags:
-    machine_type:
-    - Artisan
-    record_type:
-    - Read
-    official_flag:
-    - OFFICIAL
-    free_tags:
-    - support
-    - reference
-    - troubleshooting
-- id: snapmaker-artisan-firmware-updates-and-downloads
-  title: Snapmaker Artisan Firmware Updates and Downloads
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://forum.snapmaker.com/t/snapmaker-artisan-firmware-updates-and-downloads/29975
-  description: official forum thread where stable firmware releases are posted.
-  date_added: '2024-05-25'
-  difficulty: Beginner
-  tags:
-    machine_type:
-    - Artisan
-    record_type:
-    - Download
-    official_flag:
-    - OFFICIAL
-    free_tags:
-    - firmware
-    - updates
-    - forum
-- id: discussion-of-snapmaker-artisan-firmware-updates
-  title: Discussion of Snapmaker Artisan Firmware Updates
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://forum.snapmaker.com/t/discussion-of-snapmaker-artisan-firmware-updates/29974
-  description: dedicated discussion topic to stable firmware updates.
-  date_added: '2024-05-25'
-  difficulty: Beginner
-  tags:
-    machine_type:
-    - Artisan
-    record_type:
-    - Discuss
-    official_flag:
-    - OFFICIAL
-    free_tags:
-    - firmware
-    - updates
-    - forum
-- id: specification
-  title: Specification
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://www.snapmaker.com/en-US/j1s-idex-3d-printer/specs
-  description: Snapmaker J1/J1s specification
-  date_added: '2024-05-25'
-  difficulty: Beginner
-  tags:
-    machine_type:
-    - J1
-    record_type:
-    - Read
-    official_flag:
-    - OFFICIAL
-    free_tags:
-    - specification
-    - reference
-- id: snapmaker-j1-wiki
-  title: Snapmaker J1 Wiki
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://wiki.snapmaker.com/en/snapmaker_j1
-  description: WiKi for J1 by Snapmaker Team
-  date_added: '2024-05-25'
-  difficulty: Beginner
-  tags:
-    machine_type:
-    - J1
-    record_type:
-    - Read
-    official_flag:
-    - OFFICIAL
-    free_tags:
-    - support
-    - reference
-    - troubleshooting
-- id: j1-wiki-updates
-  title: J1 Wiki Updates
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://forum.snapmaker.com/t/j1-wiki-updates/30973
-  description: follow this thread to keep an eye on Wiki Updates from Snapmaker.
-  date_added: '2024-05-25'
-  difficulty: Beginner
-  tags:
-    machine_type:
-    - J1
-    record_type:
-    - Read
-    official_flag:
-    - OFFICIAL
-    free_tags:
-    - support
-    - reference
-    - troubleshooting
-- id: snapmaker-j1-firmware-updates-and-downloads
-  title: Snapmaker J1 Firmware Updates and Downloads
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://forum.snapmaker.com/t/snapmaker-j1-firmware-updates-and-downloads/29972
-  description: official forum thread where stable firmware releases are posted.
-  date_added: '2024-05-25'
-  difficulty: Beginner
-  tags:
-    machine_type:
-    - J1
-    record_type:
-    - Download
-    official_flag:
-    - OFFICIAL
-    free_tags:
-    - firmware
-    - updates
-    - forum
-- id: discussion-of-snapmaker-j1-firmware-updates
-  title: Discussion of Snapmaker J1 Firmware Updates
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://forum.snapmaker.com/t/discussion-of-snapmaker-j1-firmware-updates/29973
-  description: dedicated discussion topic to stable firmware updates.
-  date_added: '2024-05-25'
-  difficulty: Beginner
-  tags:
-    machine_type:
-    - J1
-    record_type:
-    - Discuss
-    official_flag:
-    - OFFICIAL
-    free_tags:
-    - firmware
-    - updates
-    - forum
-- id: specification
-  title: Specification
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://snapmaker.com/snapmaker-ray-20w-40w-laser-engraver-and-cutter-with-air-assist/specs
-  description: Snapmaker Ray spec sheet
-  date_added: '2024-05-25'
-  difficulty: Beginner
-  tags:
-    machine_type:
-    - RAY
-    record_type:
-    - Read
-    official_flag:
-    - OFFICIAL
-    free_tags:
-    - specification
-    - reference
-- id: snapmaker-luban-downloads-and-updates
-  title: Snapmaker Luban Downloads and Updates
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://forum.snapmaker.com/t/snapmaker-luban-downloads-and-updates/4949
-  description: official forum thread where stable Luban releases are posted.
-  date_added: '2024-05-25'
-  difficulty: Beginner
-  tags:
-    machine_type:
-    - SM_2.0
-    - Artisan
-    - J1
-    - RAY
-    record_type:
-    - Download
-    official_flag:
-    - OFFICIAL
-    free_tags:
-    - software
-    - updates
-    - forum
-- id: luban-wiki
-  title: Luban Wiki
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://wiki.snapmaker.com/en/Snapmaker_Luban
-  description: Wiki dedicated to Luban 3-1 software
-  date_added: '2024-05-25'
-  difficulty: Beginner
-  tags:
-    machine_type:
-    - SM_2.0
-    - Artisan
-    - J1
-    - RAY
-    record_type:
-    - Read
-    official_flag:
-    - OFFICIAL
-    free_tags:
-    - support
-    - reference
-    - troubleshooting
-- id: blog
-  title: Blog
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://www.snapmaker.com/blog/
-  description: Blog by snapmaker team about interesting ideas, tips and tricks, educational
-    materials.
-  date_added: '2024-05-25'
-  difficulty: Beginner
-  tags:
-    machine_type:
-    - Universal
-    record_type:
-    - Read
-    official_flag:
-    - OFFICIAL
-    free_tags:
-    - blog
-    - how-to
-    - ideas
-- id: snapmaker-forum
-  title: Snapmaker Forum
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://forum.snapmaker.com/
-  description: Library of deep knowledge about snapmaker machines.
-  date_added: '2024-05-25'
-  difficulty: Beginner
-  tags:
-    machine_type:
-    - Universal
-    record_type:
-    - Read
-    - Discuss
-    - Download
-    official_flag:
-    - OFFICIAL
-    free_tags:
-    - Official Communities
-- id: snapmaker-discord-server
-  title: Snapmaker Discord server
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://discord.com/invite/EQHM67MJBh?utm_source=Awesome_Github_List&utm_medium=publication
-  description: created by community members. Supported by Snapmaker.
-  date_added: '2024-05-25'
-  difficulty: Beginner
-  tags:
-    machine_type:
-    - Universal
-    record_type:
-    - Read
-    - Discuss
-    - Download
-    official_flag:
-    - OFFICIAL
-    free_tags:
-    - Official Communities
-- id: snapmaker-sub-reddit
-  title: Snapmaker sub Reddit
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://www.reddit.com/r/snapmaker/
-  description: Redditors!
-  date_added: '2024-05-25'
-  difficulty: Beginner
-  tags:
-    machine_type:
-    - Universal
-    record_type:
-    - Read
-    - Discuss
-    - Download
-    official_flag:
-    - OFFICIAL
-    free_tags:
-    - Official Communities
-- id: snapmaker-u1
-  title: Snapmaker U1
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://www.facebook.com/groups/snapmakeru1
-  description: Facebook group of Snapmaker U1 printer owners.
-  date_added: '2024-05-25'
-  difficulty: Beginner
-  tags:
-    machine_type:
-    - U1
-    record_type:
-    - Read
-    - Discuss
-    - Download
-    official_flag:
-    - OFFICIAL
-    free_tags:
-    - Official Communities
-- id: snapmaker-original-2-0-owners
-  title: Snapmaker Original/2.0 Owners
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://www.facebook.com/groups/snapmaker
-  description: Facebook group of Snapmaker 2.0 & Snapmaker Original owners.
-  date_added: '2024-05-25'
-  difficulty: Beginner
-  tags:
-    machine_type:
-    - SM_2.0
-    - Original
-    record_type:
-    - Read
-    - Discuss
-    - Download
-    official_flag:
-    - OFFICIAL
-    free_tags:
-    - Official Communities
-- id: snapmaker-artisan-owners
-  title: Snapmaker Artisan Owners
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://www.facebook.com/groups/591569232338285
-  description: Facebook group of Artisan owners.
-  date_added: '2024-05-25'
-  difficulty: Beginner
-  tags:
-    machine_type:
-    - Artisan
-    record_type:
-    - Read
-    - Discuss
-    - Download
-    official_flag:
-    - OFFICIAL
-    free_tags:
-    - Official Communities
-- id: snapmaker-j1-owners
-  title: Snapmaker J1 Owners
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://www.facebook.com/groups/snapmakerj1
-  description: Facebook group of Snapmaker J1 owners.
-  date_added: '2024-05-25'
-  difficulty: Beginner
-  tags:
-    machine_type:
-    - J1
-    record_type:
-    - Read
-    - Discuss
-    - Download
-    official_flag:
-    - OFFICIAL
-    free_tags:
-    - Official Communities
-- id: snapmaker-github
-  title: Snapmaker GitHub
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://github.com/Snapmaker
-  description: Home of the Snapmaker source code.
-  date_added: '2024-05-25'
-  difficulty: Beginner
-  tags:
-    machine_type:
-    - Universal
-    record_type:
-    - Discuss
-    - Download
-    official_flag:
-    - OFFICIAL
-    free_tags:
-    - Official Communities
-- id: snapmaker-youtube
-  title: Snapmaker YouTube
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://www.youtube.com/c/snapmaker
-  description: YouTube channel by Snapmaker team.
-  date_added: '2024-05-25'
-  difficulty: Beginner
-  tags:
-    machine_type:
-    - Universal
-    record_type:
-    - Watch
-    official_flag:
-    - OFFICIAL
-    free_tags:
-    - Official Communities
-- id: snapmaker-community-page
-  title: Snapmaker Community Page
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://snapmaker.com/community
-  description: Contests, Creators spotlight etc.
-  date_added: '2024-05-25'
-  difficulty: Beginner
-  tags:
-    machine_type:
-    - Universal
-    record_type:
-    - Read
-    official_flag:
-    - OFFICIAL
-    free_tags:
-    - Official Communities
-- id: snapmaker-thingiverse-repo
-  title: Snapmaker Thingiverse repo
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://www.thingiverse.com/snapmakerinc
-  description: Official Snapmaker profile on Thingiverse with bunch of models.
-  date_added: '2024-05-25'
-  difficulty: Beginner
-  tags:
-    machine_type:
-    - SM_2.0
-    - Artisan
-    - U1
-    record_type:
-    - Download
-    official_flag:
-    - OFFICIAL
-    free_tags:
-    - Official Communities
-- id: usb-to-ethernet-adapter
-  title: USB to Ethernet adapter
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://forum.snapmaker.com/t/works-usb-to-ethernet-adapter/8074/
-  description: you can use usb adapter to connect via ethernet to your machine.
-  date_added: '2024-05-25'
-  difficulty: Intermediate
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to set stuff up
-- id: direct-communication-over-serial-port
-  title: Direct communication over serial port
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://forum.snapmaker.com/t/android-cell-phone-terminal-console/12838/6
-  description: Using the MINI-USB port, you can connect to machines console (like
-    with Luban) to run commands directly. This post shows settings for Putty - terminal
-    app. Snapmaker has simple serial to USB converter inside.
-  date_added: '2024-05-25'
-  difficulty: Intermediate
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to set stuff up
-- id: usb-port-forwarding
-  title: USB port forwarding
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://forum.snapmaker.com/t/usb-forwarding-of-the-snapmaker/32831
-  description: has it's dangers, but you can trick you host machine into thinking
-    that snapmaker is connected directly via usb, when it is actually connected to
-    a different machine.
-  date_added: '2024-05-25'
-  difficulty: Intermediate
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to set stuff up
-- id: sm2uploader
-  title: SM2Uploader
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://github.com/macdylan/sm2uploader
-  description: '[WIN/NIX/MAC] - A command-line tool for sending the files to Snapmaker
-    machines via network connection. Can act as Octoprint to emulate upload for Cura/PrusaSlicer/SuperSlicer/ideaMaker.
-    Use it with NC and CNC files on  Snapmaker 2 A150/250/350, J1, Artisan. Credit
-    - [@macdylan](https://github.com/macdylan).'
-  date_added: '2024-05-25'
-  difficulty: Intermediate
-  tags:
-    machine_type:
-    - SM_2.0
-    - Artisan
-    - J1
-    record_type:
-    - Download
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to set stuff up
-- id: how-to-setup-sm2uploader-with-slicers
-  title: How to setup sm2uploader with slicers
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://forum.snapmaker.com/t/great-sharing-prusaslicer-profiles-by-dylan-and-mcgybeer/28796/133
-  description: Adding sm2uploader to your slicer of choice to automate uploading after
-    slicing.
-  date_added: '2024-05-25'
-  difficulty: Beginner
-  tags:
-    machine_type:
-    - SM_2.0
-    - Artisan
-    - J1
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to set stuff up
-- id: how-to-add-sm2uploader-to-context-menu-of-windows-11
-  title: How to add sm2uploader to context menu of Windows 11
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://forum.snapmaker.com/t/upload-files-to-any-snapmaker-with-right-click-menu-windows-11-guide/33041
-  description: Convenient way to use sm2uploader from context menu, e.g. right mouse
-    click > send to.
-  date_added: '2024-05-25'
-  difficulty: Intermediate
-  tags:
-    machine_type:
-    - SM_2.0
-    - Artisan
-    - J1
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to set stuff up
-- id: bed-leveling-revisited-detailed
-  title: Bed Leveling - Revisited & Detailed
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://forum.snapmaker.com/t/bed-leveling-revisited-detailed/30508
-  description: Writeup by [@Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr) about bed
-    leveling and issues along the way.
-  date_added: '2024-05-25'
-  difficulty: Beginner
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to set stuff up
-- id: 11x11-calibration-with-heated-bed
-  title: 11x11 calibration with heated bed
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://forum.snapmaker.com/t/11x11-calibration-with-heated-bed-possible/22426
-  description: by [@Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr).
-  date_added: '2024-05-25'
-  difficulty: Beginner
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to set stuff up
-- id: 3d-chameleon-for-multicolor-prints-with-snapmaker-2-0-and-single-extruder-repo
-  title: 3D Chameleon for multicolor prints with Snapmaker 2.0 and single extruder
-    - REPO
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://github.com/shurushetr/3DChameleon_Snapmaker_2.0
-  description: plus forum topic for discussion - [3d Chameleon - up to 4 color/material
-    printing with Single Extruder](https://forum.snapmaker.com/t/3d-chameleon-up-to-4-color-material-printing-with-single-extruder/37069/)
-  date_added: '2024-05-25'
-  difficulty: Advanced
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to set stuff up
-- id: safety-first-what-plastic-is-safe-to-work-with
-  title: Safety first - what plastic is safe to work with
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://laserengravingtips.com/what-plastics-are-safe-to-laser-cut/
-  description: Read this before you laser random material. Contains test procedures
-    for chlorine content. Chlorine can damage your insides in a very bad way if you
-    are not careful.
-  date_added: '2024-05-25'
-  difficulty: Beginner
-  tags:
-    machine_type:
-    - SM_2.0
-    - Artisan
-    - RAY
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to set stuff up
-- id: lightburn-full-control-guide
-  title: Lightburn Full Control Guide
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://forum.snapmaker.com/t/full-lightburn-control-guide/27638
-  description: '[SM2.0 / ARTISAN] - Writeup by [@Skreelink](https://forum.snapmaker.com/u/Skreelink)
-    on how to make Lightburn talk to Snapmaker 2.0.'
-  date_added: '2024-05-25'
-  difficulty: Intermediate
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    machine_tool_type:
-    - LASER
-    free_tags:
-    - Community Guides
-    - How to set stuff up
-- id: pdf-summary-of-the-lightburn-full-control-guide
-  title: PDF summary of the "Lightburn Full Control Guide"
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: files/pdf/Full_Lightburn_Control_Guide_v1.0.pdf
-  description: created by [@Burgerboy](https://forum.snapmaker.com/u/Burgerboy) and
-    published [on the forum](https://forum.snapmaker.com/t/full-lightburn-control-guide/27638/215)
-    summary of all the knwoledge in the thread.
-  date_added: '2024-05-25'
-  difficulty: Intermediate
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    machine_tool_type:
-    - LASER
-    free_tags:
-    - Community Guides
-    - How to set stuff up
-- id: full-control-lightburn-rotary-attachment-guide
-  title: Full Control Lightburn + Rotary Attachment Guide
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://forum.snapmaker.com/t/full-control-lightburn-rotary-guide/28584
-  description: Writeup by [@Skreelink](https://forum.snapmaker.com/u/Skreelink).
-  date_added: '2024-05-25'
-  difficulty: Intermediate
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    machine_tool_type:
-    - LASER
-    free_tags:
-    - Community Guides
-    - How to set stuff up
-- id: working-camera-capture-with-lightburn
-  title: Working camera capture with Lightburn
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://forum.snapmaker.com/t/working-camera-capture-with-lightburn/28397
-  description: thanks to [@Slynold](https://forum.snapmaker.com/u/Slynold) & [@Mayco](https://forum.snapmaker.com/u/mayco)
-    - we have working camera.
-  date_added: '2024-05-25'
-  difficulty: Intermediate
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    machine_tool_type:
-    - LASER
-    free_tags:
-    - Community Guides
-    - How to set stuff up
-- id: rotary-module-with-fusion360-it-works-good-enough
-  title: 'Rotary Module with Fusion360: It works! (good enough)'
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://forum.snapmaker.com/t/rotary-module-with-fusion360-it-works-good-enough/24367
-  description: '[SM2.0 / ARTISAN] - Writeup by [@brvdboss](https://forum.snapmaker.com/u/brvdboss)
-    on how to setup Fusion360 with Rotary Module.'
-  date_added: '2024-05-25'
-  difficulty: Intermediate
-  tags:
-    machine_type:
-    - SM_2.0
-    - Artisan
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    machine_tool_type:
-    - CNC
-    free_tags:
-    - Community Guides
-    - How to set stuff up
-- id: snapmaker-2-0-by-koka-bora-creations
-  title: Snapmaker 2.0 by Koka-Bora Creations
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://www.youtube.com/playlist?list=PLWlW9PTm7_qvYvXytlfXZib--P-qIz3fp
-  description: a 20 episode video series on using snapmaker 2.0 for projects. Bunch
-    of CNC material.
-  date_added: '2024-05-25'
-  difficulty: Beginner
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Watch
-    official_flag:
-    - UNOFFICIAL
-    machine_tool_type:
-    - CNC
-    free_tags:
-    - Community Guides
-    - How to set stuff up
-- id: simulate-with-machine-in-fusion360-for-sm-2-0
-  title: Simulate with machine in Fusion360 for SM 2.0
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://www.facebook.com/groups/snapmaker/permalink/2119754895109479/
-  description: 'Chris Kaladstrodamus created a full blown simulation for Fusion360
-    that allowes you to simulate toolpath including the rotary attachment. Check out
-    his post in the FB group for details or you can download the machine model from
-    [his GitHub](https://github.com/christopz/snapmaker/tree/main) or links below:'
-  date_added: '2024-05-25'
-  difficulty: Advanced
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Read
-    - Download
-    official_flag:
-    - UNOFFICIAL
-    machine_tool_type:
-    - CNC
-    free_tags:
-    - Community Guides
-    - How to set stuff up
-- id: fusion360-machine-file
-  title: Fusion360 Machine file
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: /files/Fusion360_Machine_Model/Snapmaker_2.0_A350T_CTZ.mch
-  description: Mirror file from Github link above.
-  date_added: '2024-05-25'
-  difficulty: Advanced
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Download
-    official_flag:
-    - UNOFFICIAL
-    machine_tool_type:
-    - CNC
-    free_tags:
-    - Community Guides
-    - How to set stuff up
-- id: step-file-for-the-model
-  title: STEP file for the model
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: /files/Fusion360_Machine_Model/Snapmaker_2.0_A350T_CTZ%20v3.9.7z
-  description: 7z archive of the STEP file from [GrabCad.com](https://grabcad.com/library/ctz-snapmaker-a350t-1)
-  date_added: '2024-05-25'
-  difficulty: Advanced
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Download
-    official_flag:
-    - UNOFFICIAL
-    machine_tool_type:
-    - CNC
-    free_tags:
-    - Community Guides
-    - How to set stuff up
-- id: send-machine-status-to-home-assistant
-  title: Send machine status to Home Assistant
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://www.steffr.ch/snapmaker-2-0-and-home-assistant/
-  description: you can recieve notification when your job is finished to your phone!
-    Published by [@NightCrawler](https://forum.snapmaker.com/u/NightCrawler) in this
-    post - [forum.snapmaker.com](https://forum.snapmaker.com/t/do-snapmaker-2-0-devices-have-a-webpage/5455/55).
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - home-assistant
-    - How to set stuff up > Home Assistant Automation
-- id: enclosure-mods-including-flame-sensor
-  title: Enclosure mods including flame sensor
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://forum.snapmaker.com/t/facbook-post-repost-next-level-enclosure-mods/32637
-  description: not a guide but demo of a what is possible setup made by a communty
-    member.
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - home-assistant
-    - How to set stuff up > Home Assistant Automation
-- id: tabletop-miniature-with-0-2-mm-nozzle-and-pva-support-dual-extruder
-  title: Tabletop miniature with 0.2 mm nozzle and PVA support (Dual Extruder)
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://forum.snapmaker.com/t/tabletop-miniature-with-0-2-mm-nozzle-and-pva-support-dual-extruder/33809?u=hauke
-  description: Great results with printing miniatures using 0.2 nozzle [@hauke](https://forum.snapmaker.com/u/hauke).
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    machine_tool_type:
-    - FDM
-    free_tags:
-    - Community Guides
-    - How to make stuff
-- id: laser-on-ceramics-tiles-how-to-make-it-not-only-black-on-white
-  title: 'Laser on Ceramics (tiles): How to Make It Not Only Black on White'
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://support.snapmaker.com/hc/en-us/articles/9589024708759-Laser-on-Ceramics-How-to-Make-It-Not-Only-Black-on-White
-  description: an awesome tutorial written by community member [@Eugene Fedorov](https://www.facebook.com/groups/371401856611467/user/1608278798/)
-    and posted on snapmaker website.
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    - Artisan
-    - RAY
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    machine_tool_type:
-    - LASER
-    free_tags:
-    - Community Guides
-    - How to make stuff
-- id: guide-easier-titanium-coverage-for-tile
-  title: 'Guide: Easier Titanium Coverage for Tile'
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://forum.snapmaker.com/t/guide-easier-titanium-coverage-for-tile/30863
-  description: Huge time saving tip from [@Skreelink](https://forum.snapmaker.com/u/Skreelink).
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    - Artisan
-    - RAY
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    machine_tool_type:
-    - LASER
-    free_tags:
-    - Community Guides
-    - How to make stuff
-- id: shadow-board-or-tool-cutouts-ultimate-guide
-  title: Shadow board or tool cutouts - Ultimate guide
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://www.youtube.com/watch?v=Wcxh1lLltAE
-  description: A way of making the tool organizers known as shadow boards. Can also
-    be used with CNC.
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    - Artisan
-    record_type:
-    - Watch
-    official_flag:
-    - UNOFFICIAL
-    machine_tool_type:
-    - CNC
-    free_tags:
-    - Community Guides
-    - How to make stuff
-- id: tapered-glasses-engraving
-  title: Tapered glasses engraving
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://forum.snapmaker.com/t/rotary-10w-laser-tapered-16oz-beer-glasses/33577
-  description: detailed instructions on how to engrave beer glasses by [@Mads0100](https://forum.snapmaker.com/u/Mads0100).
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    - Artisan
-    - RAY
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    machine_tool_type:
-    - LASER
-    free_tags:
-    - Community Guides
-    - How to make stuff
-- id: better-round-logos-on-tapered-glasses-laser-engraving-rotary
-  title: Better Round logos on tapered glasses | Laser engraving rotary
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://www.youtube.com/watch?v=SV3Zfqnhyag
-  description: Make sure the round artwork looks round on rapered objects
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    - Artisan
-    - RAY
-    record_type:
-    - Watch
-    official_flag:
-    - UNOFFICIAL
-    machine_tool_type:
-    - LASER
-    free_tags:
-    - Community Guides
-    - How to make stuff
-- id: guide-etching-glass-with-10-watt-laser-with-dry-moly
-  title: 'Guide: Etching Glass with 10 Watt Laser with Dry Moly'
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://forum.snapmaker.com/t/guide-etching-glass-with-10-watt-laser-with-dry-moly/33914?u=gil.a.ramirez
-  description: Using 10W laser to etch glass with DryMoly [@gil.a.ramirez](https://forum.snapmaker.com/u/gil.a.ramirez).
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    - Artisan
-    - RAY
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    machine_tool_type:
-    - LASER
-    free_tags:
-    - Community Guides
-    - How to make stuff
-- id: guide-luban-how-to-use-layers
-  title: 'Guide: Luban - how to use layers'
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: /files/pdf/Luban_Layer_Tutorial_by_David_Key.pdf
-  description: good tutorial on how to use multi-process functionality of Luban. [David
-    Key](https://www.facebook.com/groups/371401856611467/user/1429482431/).
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    - Artisan
-    - RAY
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    machine_tool_type:
-    - LASER
-    free_tags:
-    - Community Guides
-    - How to make stuff
-- id: script-non-planar-laser-engraving
-  title: Script - non planar laser engraving
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://forum.snapmaker.com/t/guide-for-non-planar-laser-engraving/25120/5?u=Sudecki
-  description: If you want to engrave in 3D (using Z axis), like on a carved artwork
-    - this is what you need to use. Convert CNC job into Laser engraving. [@Sudecki](https://forum.snapmaker.com/u/Sudecki).
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Read
-    - Download
-    official_flag:
-    - UNOFFICIAL
-    machine_tool_type:
-    - LASER
-    free_tags:
-    - Community Guides
-    - How to make stuff
-- id: pcb-milling-process
-  title: PCB milling process
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://github.com/tommy-vaux/Snapmaker_2_PCB_Milling_Process
-  description: Detailed writeup by [@tommy-vaux](https://github.com/tommy-vaux).
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    machine_tool_type:
-    - CNC
-    free_tags:
-    - Community Guides
-    - How to make stuff
-- id: caligrapher
-  title: Caligrapher
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://www.calligrapher.ai/
-  description: '[LASER / CNC / 3DP]- handwriting generator with SVG export.'
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - Universal
-    record_type:
-    - Download
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to make stuff > Online stuff generators
-- id: stl2png-heightmap-depth-map-generator
-  title: STL2PNG heightmap (depth map) generator
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://fenrus75.github.io/FenrusCNCtools/javascript/stl2png.html
-  description: '[LASER / CNC] This website lets you convert STL files to PNG height
-    images. You can do things like this with laser for example - [How To... 3D Grayscale](https://www.youtube.com/watch?v=O01POwqfMbQ)'
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - Universal
-    record_type:
-    - Download
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to make stuff > Online stuff generators
-- id: heightmaps-to-stl
-  title: HeightMaps to STL
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://imagetostl.com/
-  description: '[CNC / 3DP] - Use this free and fast online tool to convert your PNG
-    and JPG 2D heightmap images or logo into 3D STL (stereolithography) mesh/model
-    files suitable for printing with a 3D printer, CNC machining or for loading into
-    your favourite 3D editing package.'
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - Universal
-    record_type:
-    - Download
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to make stuff > Online stuff generators
-- id: watertight-outdoor-enclosure-generator
-  title: Watertight outdoor enclosure generator
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://bruceborrett.github.io/easy-enclosure/
-  description: EasyEnclosure is an open-source 3D modeling software tailored specifically
-    for designing 3D-printable enclosures.
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - Universal
-    record_type:
-    - Download
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to make stuff > Online stuff generators
-- id: dildo-generator
-  title: Dildo generator
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: http://dildo-generator.com/
-  description: to make molds, lined with wax and pouring silicone dildos or other
-    objects.
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - Universal
-    record_type:
-    - Download
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to make stuff > Online stuff generators
-- id: parametric-models-only
-  title: Parametric models only
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://models.makewithtech.com/
-  description: you can customize every model. Even print some velcro. [How it works.](https://www.youtube.com/watch?v=r5YJxmw6lKQ).
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - Universal
-    record_type:
-    - Download
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to make stuff > Online stuff generators
-- id: lithophanes
-  title: Lithophanes
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://lithophanemaker.com/
-  description: all you need for lithophanes in one place.
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - Universal
-    record_type:
-    - Download
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to make stuff > Online stuff generators
-- id: itslitho
-  title: ItsLitho
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://itslitho.com/
-  description: another lithophanes generator.
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - Universal
-    record_type:
-    - Download
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to make stuff > Online stuff generators
-- id: full-control-g-code
-  title: Full control G-Code
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: http://fullcontrolgcode.com/
-  description: this is not for the faint of heart. God level 3d models generator.
-    [Check this video out.](https://www.youtube.com/watch?v=ZgytQDoaD5M&t=584s)
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - Universal
-    record_type:
-    - Download
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to make stuff > Online stuff generators
-- id: tray-generator
-  title: Tray generator
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://deckinabox.sgenoud.com/
-  description: make up any tray in a few minutes with or without lids.
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - Universal
-    record_type:
-    - Download
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to make stuff > Online stuff generators
-- id: cookie-cutter-generator
-  title: Cookie Cutter Generator
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://app.cookiecad.com/
-  description: Turn an image into a cookie cutter by uploading it.
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - Universal
-    record_type:
-    - Download
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to make stuff > Online stuff generators
-- id: create-boxes-and-more-one-site-to-rule-them-all
-  title: Create boxes and more! - One site to rule them all
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://www.festi.info/boxes.py/
-  description: amazing online vector generator for designing boxes, shelfes, bins,
-    tests and much more.
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - Universal
-    record_type:
-    - Download
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to make stuff > Online stuff generators
-- id: keychaines-name-snowflakes-connected-text-and-more
-  title: Keychaines, Name-Snowflakes, Connected Text and more
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://cuttle.xyz/templates
-  description: some are free for personal use, some are pro only.
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - Universal
-    record_type:
-    - Download
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to make stuff > Online stuff generators
-- id: stencil-generator
-  title: Stencil Generator
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://www.stencilcreator.org/
-  description: The interface on this website can support you to generate a multi-layer
-    stencil from an input image.
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - Universal
-    record_type:
-    - Download
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to make stuff > Online stuff generators
-- id: treasure-trove-of-templates-generators
-  title: Treasure trove of templates generators
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://www.blocklayer.com/calculatordirectory
-  description: a huge number of various calculators and template generators that you
-    can export in SVG. Diameter Tape, Compass, Spirals, Bolt Patterns and much much
-    more.
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - Universal
-    record_type:
-    - Download
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to make stuff > Online stuff generators
-- id: snowflakes-generator
-  title: Snowflakes generator
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://github.com/bleeptrack/fr0zen-system-laser
-  description: made by [Bleeptrack](https://github.com/bleeptrack) - Fr0zenSystem
-    is a little snowflake generator. This version is optimized to be used with lasercutters
-    but might also be used with pen- or cutter plotters. The idea is to cut out two
-    different layers that in combination form a nice snowflake shape.
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - Universal
-    record_type:
-    - Download
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to make stuff > Online stuff generators
-- id: numerical-dial-generator-and-more
-  title: Numerical Dial Generator and more
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://www.oliverboorman.biz/projects/tools/dial.php
-  description: This interactive generator produces an image of a numerical dial, based
-    on your settings and requirements. They have more generators related to dials.
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - Universal
-    record_type:
-    - Download
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to make stuff > Online stuff generators
-- id: paper-box-generator
-  title: Paper box generator
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://deckinabox.sgenoud.com/
-  description: ever wanted to cut a foldable box?
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - Universal
-    record_type:
-    - Download
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to make stuff > Online stuff generators
-- id: wave-pattern-generator
-  title: Wave pattern generator
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://tinkersynth.com/slopes
-  description: get an SVG with wave pattern.
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - Universal
-    record_type:
-    - Download
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to make stuff > Online stuff generators
-- id: japanese-joints-tsugite-generator
-  title: Japanese joints - "Tsugite" -  generator
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: http://ma-la.com/tsugite.html
-  description: Interactive system for designing and fabricating wood joints for frame
-    structures.
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - Universal
-    record_type:
-    - Download
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to make stuff > Online stuff generators
-- id: snapmaker-2-milling-kit-for-the-brass-nut-in-the-linear-axis
-  title: Snapmaker 2 milling kit for the brass nut in the linear axis
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://www.thingiverse.com/thing:4491190
-  description: For all Snapmaker 2 users who have problems with the wear of the plastic
-    nut in the linear guides, the milling program in conjunction with the clamping
-    device offers the possibility of milling freely available brass trapezoidal nuts
-    TR8x8 with anti Backslash so that they can be machined into the Snapmaker 2 compatible
-    nut. By [@gojoetofly](https://www.thingiverse.com/gojoetofly)
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Download
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to fix stuff
-- id: diy-step-motor-drive-repair
-  title: DIY step motor drive repair
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://forum.snapmaker.com/t/i-have-successfully-repaired-my-dead-linear-module-fried-driver-chip/34459?u=cyb0124
-  description: nice writeup about installing aftermarket drive for step motor.
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to fix stuff
-- id: hot-end-clogs-the-how-why
-  title: Hot End Clogs - The How & Why
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://forum.snapmaker.com/t/hot-end-clogs-the-how-why/30376
-  description: Writeup by [@Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr) about all
-    metal heat break. Find one in [parts list below](#aftermarket-parts).
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to fix stuff
-- id: e-step-calibration
-  title: E-Step calibration
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: /files/pdf/e-step_calibration.pdf
-  description: Writeup by [@Mxbrnr](https://forum.snapmaker.com/u/Mxbrnr) for e-steps
-    calibration.
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Download
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to fix stuff
-- id: guide-resuming-a-failed-3d-print
-  title: 'GUIDE: Resuming a failed 3D print'
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://www.cnckitchen.com/blog/guide-resuming-a-failed-3d-print
-  description: a way to save your 3d print. Printer got clogged and printed air for
-    a while or the model got loose - it can be saved.
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    - Artisan
-    - U1
-    - J1
-    record_type:
-    - Read
-    - Watch
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to fix stuff
-- id: dual-extruder-design-dry-box-setups
-  title: Dual Extruder design / Dry box setups
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://forum.snapmaker.com/t/dual-extruder-design-dry-box-setups/29697
-  description: '[@Spaced](https://forum.snapmaker.com/u/Spaced) discussing why you
-    might have inconsistent nozzle heights and rough prints when you feed filament
-    via bowden tube.'
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    - Artisan
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to fix stuff
-- id: dual-extruder-heatcreep-temporary-solution-provided-by-snapmaker
-  title: Dual Extruder heatcreep temporary solution provided by Snapmaker
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://forum.snapmaker.com/t/dual-extrusion-head-heat-creep-discussion-thread/30010/140
-  description: 'post by [@Jade](https://forum.snapmaker.com/u/Jade) in response to
-    big discussion started by community in [Dual Extrusion Head: Heat creep discussion
-    thread](https://forum.snapmaker.com/t/dual-extrusion-head-heat-creep-discussion-thread/30010).
-    Sounds like there will be a shipment from snapmaker to owners of dual extruder
-    for permanent proper fix.'
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    - Artisan
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to fix stuff
-- id: the-extruder-buckle-of-the-dual-extrusion-module-gets-loose
-  title: The extruder buckle of the Dual Extrusion Module gets loose
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://forum.snapmaker.com/t/temporary-solution-buckle-wedge-stl-file-for-extruder-buckle-issues/31716
-  description: forum topic with temp. wedge solution,  addressing a widespread problem
-    described by community members across Facebook groups and snapmaker forum. Sounds
-    like there will be a shipment from snapmaker to owners of dual extruder for permanent
-    proper fix.
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    - Artisan
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to fix stuff
-- id: troubleshooting-articles-related-to-dual-extruder-issues
-  title: Troubleshooting articles related to Dual Extruder issues
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://wiki.snapmaker.com/t/dual%20extrusion
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    - Artisan
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to fix stuff
-- id: replacing-the-leveling-sensor
-  title: Replacing the leveling sensor
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://www.facebook.com/groups/snapmaker/posts/1853853658366272/
-  description: '[@Claire Elliot Matthews](https://www.facebook.com/groups/371401856611467/user/100000288498499/).'
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    - Artisan
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to fix stuff
-- id: cnc-routing-arbitrary-circles
-  title: CNC routing arbitrary circles
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://forum.snapmaker.com/t/cnc-routing-arbitrary-circles/32055
-  description: if you have issues with milling simple circles on CNC take a look at
-    this thread.
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    - Artisan
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to fix stuff
-- id: lcd-screen
-  title: LCD_Screen
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: /images/Snapmaker_Parts/SP_2.0/LCD_Connector/Pinout_Ref_Img_1_LCD_Screen.jpg
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to fix stuff > Snapmaker 2.0 LCD Pinout - if the plug is borken > Reference
-      images
-- id: plug
-  title: Plug
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: /images/Snapmaker_Parts/SP_2.0/LCD_Connector/Pinout_Ref_Img_2_Plug.jpg
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to fix stuff > Snapmaker 2.0 LCD Pinout - if the plug is borken > Reference
-      images
-- id: pin-out
-  title: Pin_Out
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: /images/Snapmaker_Parts/SP_2.0/LCD_Connector/Pinout_Ref_Img_3_Pinout.jpg
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to fix stuff > Snapmaker 2.0 LCD Pinout - if the plug is borken > Reference
-      images
-- id: snapmaker2-update-bundle-tools
-  title: Snapmaker2 update bundle tools
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://github.com/zauguin/SnapmakerUpdate
-  description: toolkit to assemble snapmaker firmware, created by [@zauguin](https://github.com/zauguin)
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Download
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to modify stuff > Snapmaker 2.0 Mods
-- id: use-dual-extruder-to-autolevel-on-any-surface
-  title: Use Dual Extruder to autolevel on any surface
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://github.com/Maycuz/Snapmaker2-Controller
-  description: 'read the readme. Credit to [@Mayco](https://forum.snapmaker.com/u/Mayco).
-    Forum thread where this firmware was first published - [Dual Extruder: bed leveling
-    with nozzle i.s.o. proximity sensor](https://forum.snapmaker.com/t/dual-extruder-bed-leveling-with-nozzle-i-s-o-proximity-sensor/31613/16).'
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Read
-    - Download
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to modify stuff > Snapmaker 2.0 Mods
-- id: take-a-look-at-3d-models-from-this-list
-  title: Take a look at 3d Models from this list
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: '#handy-files--models'
-  description: they have some mods modeled on them.
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Download
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to modify stuff > Snapmaker 2.0 Mods
-- id: cnc-bracing-for-added-rigidity-other-mods
-  title: CNC Bracing For Added Rigidity & Other Mods
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://forum.snapmaker.com/t/cnc-bracing-for-added-rigidity-other-mods/29444
-  description: Collection of mods designed by [@Elliot](https://forum.snapmaker.com/u/Elliot).
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to modify stuff > Snapmaker 2.0 Mods
-- id: snapmaker-2-0-cable-chain-brackets
-  title: Snapmaker 2.0 Cable Chain Brackets
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://www.thingiverse.com/thing:4909694
-  description: Stop your cables from flopping around during the print - reduce kinks
-    and damage.
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Read
-    - Download
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to modify stuff > Snapmaker 2.0 Mods
-- id: minimize-bed-rocking-along-y-axis-at-the-forum
-  title: Minimize bed rocking along Y axis at the forum
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://forum.snapmaker.com/t/minimize-rocking/19215/
-  description: the biggest problem with the platform is it's unstable bed that get's
-    worse overtime. Illustrated in [this video from Facebook post among many others](https://www.facebook.com/groups/snapmaker/posts/1706559253095714/).
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to modify stuff > Snapmaker 2.0 Mods
-- id: shopping-list
-  title: Shopping list
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: '#shopping-list'
-  description: .
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to modify stuff > Snapmaker 2.0 Mods
-- id: 3d-print-these-adapters
-  title: 3D Print these adapters
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://www.thingiverse.com/thing:6104662
-  description: Best way to install (minimal modifications and no drilling).
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Download
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to modify stuff > Snapmaker 2.0 Mods
-- id: related-to-bed-rocking-adjusting-bearings-in-linear-module
-  title: Related to bed rocking - adjusting bearings in linear module
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://support.snapmaker.com/hc/en-us/articles/1500000110341-What-should-I-do-when-the-slider-of-the-Linear-Module-comes-loose-
-  description: official guide on how to disassemble the linear module and adjust bearings.
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to modify stuff > Snapmaker 2.0 Mods
-- id: diy-fumes-filtration-system-bentobox
-  title: DIY Fumes Filtration system - BentoBox
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://www.printables.com/model/272525-bentobox-v20-carbon-filter-for-bambu-lab-x1c-enclo
-  description: Closedloop, combines HEPA filter and activated carbon filter.
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Read
-    - Download
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to modify stuff > Snapmaker 2.0 Mods
-- id: diy-fumes-filtration-system-nevermore
-  title: DIY Fumes Filtration system - NeverMore
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://github.com/nevermore3d/Nevermore_Micro
-  description: Opensource closedloop activated carbon filtration system. Also check
-    out other sizes in the same repository.
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to modify stuff > Snapmaker 2.0 Mods
-- id: diy-fumes-filtration-system-3d-printer-enclosure-air-filter
-  title: DIY Fumes Filtration system - 3D Printer Enclosure Air Filter
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://www.printables.com/model/445976-3d-printer-enclosure-air-filter
-  description: Largest filtration media size - 400hrs of print with one filter, advanced
-    module for efficient filtration.
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Read
-    - Download
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to modify stuff > Snapmaker 2.0 Mods
-- id: diy-enclosure-controls
-  title: DIY Enclosure controls
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://forum.snapmaker.com/t/diy-enclosure-controller-prototype-on-arduino/22094
-  description: Awesome project by [@Ronin](https://forum.snapmaker.com/u/Ronin). Files
-    available in description of the [video](https://www.youtube.com/watch?v=9gOlhEzB8m4).
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to modify stuff > Snapmaker 2.0 Mods
-- id: all-metal-hot-end-simple-mod-for-sm2-0
-  title: All metal hot end simple mod for SM2.0
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://forum.snapmaker.com/t/fyi-snapmaker-2-all-metal-hotend-simple-mod/10046/63
-  description: Writeup by [@Franky](https://forum.snapmaker.com/u/Franky) followed
-    by discussion about installing all metal heat break.
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to modify stuff > Snapmaker 2.0 Mods
-- id: klicky-probe-bed-leveling-on-anything-stealth-mod-for-sm2-0-single-extruder
-  title: Klicky probe - bed leveling on anything! Stealth mod for SM2.0 single extruder
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://forum.snapmaker.com/t/klicky-probe-bed-leveling-on-anything-stealth-mod-for-single-extruder/32229
-  description: Klicky probe for snapmaker single extruder. Level on anything, simple,
-    no firmware changes. You can find parts in the [Shopping list](#shopping-list)
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Read
-    - Download
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to modify stuff > Snapmaker 2.0 Mods
-- id: klicky-probe-for-dual-extruder
-  title: Klicky probe for DUAL Extruder
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://www.printables.com/model/918381-klicky-abl-probe-for-snapmaker-dual-extrusion-modu
-  description: Klicky probe for DUAL EXTRUDER!!! Level on anything, simple, no firmware
-    changes.
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Read
-    - Download
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to modify stuff > Snapmaker 2.0 Mods
-- id: glass-bed-leveling-probe-fifix-mod-for-sm2-0
-  title: Glass bed leveling probe - FiFix Mod for SM2.0
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: files/models/FiFix_glass_probe_mod_by_stefix.zip
-  description: Clever way by [@Stefix](https://forum.snapmaker.com/u/stefix/) to allow
-    leveling on glass using OEM probe. Find more information about it [here](https://forum.snapmaker.com/t/for-all-who-want-level-on-glass/12437).
-    No Firmware modification required.
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Download
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to modify stuff > Snapmaker 2.0 Mods
-- id: automatic-bed-leveling-on-glass-for-sm2-0
-  title: Automatic bed leveling on glass for SM2.0
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://forum.snapmaker.com/t/automatic-bed-leveling-on-glass/29601
-  description: Another mod by [@TobIY](https://forum.snapmaker.com/u/TobIY). No Firmware
-    modification required. Check the [Shopping list](#shopping-list) for exact part.
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to modify stuff > Snapmaker 2.0 Mods
-- id: advanced-leveling-mod-for-sm2-0
-  title: Advanced leveling mod for SM2.0
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://forum.snapmaker.com/t/for-all-who-want-level-on-glass/12437/129
-  description: By [@stewl](https://forum.snapmaker.com/u/stewl). Instructions here
-    - [Google drive link](https://drive.google.com/drive/folders/1JTZ811Tx-dTD35J4a-u2fsokln20INpR).
-    Firmware modification required. Ultimate accuracy.
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to modify stuff > Snapmaker 2.0 Mods
-- id: the-mostly-complete-guide-to-bondtech-slice-and-the-snapmaker-2-0
-  title: The (mostly) Complete Guide to Bondtech, Slice, and the Snapmaker 2.0
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://forum.snapmaker.com/t/the-mostly-complete-guide-to-bondtech-slice-and-the-snapmaker-2-0/29762
-  description: if you want ultimate performance upgrade - this is an awesome mod by
-    [@nsclemmer](https://forum.snapmaker.com/u/nsclemmer)
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to modify stuff > Snapmaker 2.0 Mods
-- id: snapmaker-2-0-a350-heated-bed-cable-adapter-chain-hidden
-  title: Snapmaker 2.0 A350 Heated Bed Cable Adapter (Chain) (Hidden)
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://forum.snapmaker.com/t/snapmaker-2-a350-heated-bed-cable-adapter-chain-hidden/19952
-  description: advanced but 100% fixes all issues related to the heated bed cable
-    being prematurely worn out / damaged, due to bed movement.
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to modify stuff > Snapmaker 2.0 Mods
-- id: j1-j1s-nozzle-heatbreak-upgrade-anti-clogging-solution
-  title: J1/J1s nozzle & heatbreak upgrade - anti clogging solution
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://forum.snapmaker.com/t/findings-and-solution-for-the-snapmaker-j1-clogging-problem/30472/190
-  description: parts gathered by [@StephenM](https://forum.snapmaker.com/u/StephenM).
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    - J1
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to modify stuff > Snapmaker 2.0 Mods
-- id: add-airassist-to-your-10w-laser
-  title: Add airassist to your 10W laser
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://www.facebook.com/groups/snapmaker/posts/1694540740964232/
-  description: '[SM2.0 / ARTISAN] -  a facebook post that shows an implementation
-    of internal air assist with external air pump, cheap and effective mod to make
-    your laser path clean. STL file is in the [handy files list below](#handy-files--models).
-    Original design by [@Raagnarix](https://www.youtube.com/@Raagnarix) form [this
-    video](https://www.youtube.com/watch?v=zg8jiem-8v8)'
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    - Artisan
-    - Original
-    record_type:
-    - Read
-    - Download
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to modify stuff > Snapmaker 2.0 Mods
-- id: cnc-self-impelled-vacuum-dust-shoe-no-external-vacuum-required
-  title: CNC self-impelled vacuum dust shoe (no external vacuum required)
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://forum.snapmaker.com/t/cnc-self-impelled-vacuum-dust-shoe-no-external-vacuum-required/24972
-  description: Design by [gil.a.ramirez](https://forum.snapmaker.com/u/gil.a.ramirez).
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to modify stuff > Snapmaker 2.0 Mods
-- id: snapmaker-stiffy-kit-by-ctzcnc
-  title: Snapmaker Stiffy Kit by CTZcnc
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://github.com/christopz/snapmakerstiffy
-  description: Make Snapmaker rigid for heavy load cnc work - Design by [christopz](https://github.com/christopz).
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Community Guides
-    - How to modify stuff > Snapmaker 2.0 Mods
-- id: recommended-parameters-for-snapmaker-20w-and-40w-laser-modules
-  title: Recommended Parameters for Snapmaker 20W and 40W Laser Modules
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://wiki.snapmaker.com/Snapmaker_2/manual/recommended_parameters_for_20w_and_40w_laser_modules
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    - Artisan
-    - RAY
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Laser settings
-    - Settings Collection
-- id: the-definitive-guide-to-laser-engraving-and-cutting-with-the-10w-high-power-laser-module
-  title: The Definitive Guide to Laser Engraving and Cutting with the 10W High Power
-    Laser Module.
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://support.snapmaker.com/hc/en-us/articles/8072478934935-The-Definitive-Guide-to-Laser-Engraving-and-Cutting-with-the-10W-High-Power-Laser-Module-
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    - Artisan
-    - RAY
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Laser settings
-    - Settings Collection
-- id: the-definitive-guide-to-laser-engraving-and-cutting-with-the-200mw-and-1600mw-laser-module
-  title: The Definitive Guide to Laser Engraving and Cutting with the 200mW and 1600mW
-    Laser Module
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://support.snapmaker.com/hc/en-us/articles/360019025954-The-Definitive-Guide-to-Laser-Engraving-and-Cutting-with-the-200mW-and-1600mW-Laser-Module
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    - Artisan
-    - RAY
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Laser settings
-    - Settings Collection
-- id: list-of-materials-you-shouldn-t-be-lasering
-  title: List of materials you shouldn't be lasering
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://cpl.org/wp-content/uploads/NEVER-CUT-THESE-MATERIALS.pdf
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    - Artisan
-    - RAY
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Laser settings
-    - Settings Collection
-- id: printing-figurines-with-0-2mm-nozzle-on-dual-extruder
-  title: Printing figurines with 0.2mm nozzle on Dual Extruder
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://forum.snapmaker.com/t/tabletop-miniature-with-0-2-mm-nozzle-and-pva-support-dual-extruder/33809?u=hauke
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    - Artisan
-    record_type:
-    - Read
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - 3D Printing settings
-    - Settings Collection
-- id: cura-plugin-made-by-snapmaker
-  title: CURA plugin made by Snapmaker
-  author_name: Community
-  author_link: https://forum.snapmaker.com/
-  original_link: https://github.com/Snapmaker/SnapmakerCuraPlugin
-  description: '[SM2.0 / ARTISAN / J1].'
-  date_added: '2024-05-25'
-  tags:
-    machine_type:
-    - SM_2.0
-    - Artisan
-    - J1
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Specific to Snapmaker machines
-    - Tools
-- id: very-new-item-to-add
-  title: Very new item to add
-  description: "<img width=\"726\" height=\"284\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/c96823f5-1abb-4c51-95ea-10fc7cb3521d\"\
-    \ />\n\ncheck out - everything is in the picture"
-  author_name: The guy with picture
-  author_link: https://forum.snapmaker.com/u/nweolu
-  original_link: https://verycery.com
-  date_added: '2026-03-07'
-  difficulty: BEGINNER
-  cost: FREE
-  tags:
-    machine_type:
-    - RAY
-    machine_tool_type:
-    - COMBINED
-    record_type:
-    - ARTICLE
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - this shit works
-  extra_buttons:
-  - label: Downlaod PDF
-    link: https://cdn.realfood.gov/DGA.pdf
-- id: very-new-item-to-add-again-13
-  title: Very new item to add again
-  description: Description of the item
-  author_name: The dude again
-  author_link: https://cdn.realfood.gov/DGA.pdf
-  original_link: https://awesome-sm-list.xyz/
-  date_added: '2026-03-07'
-  difficulty: BEGINNER
-  cost: FREE
-  tags:
-    machine_type:
-    - SM_2.0
-    - RAY
-    machine_tool_type:
-    - ROTARY
-    record_type:
-    - VIDEO
-    - SHOP
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - this stuff works
 
 ### Manual Entries
 - id: snapmaker-2-0-wiki-db26
@@ -2929,6 +340,417 @@ records:
     - COMBINED
     record_type:
     - DISCUSSION
+    official_flag:
+    - OFFICIAL
+
+- id: snapmaker-j1-j1s-specification-9861
+  title: Snapmaker J1/J1s Specification
+  description: All the specs in one place
+  author_name: Snapmaker
+  author_link: snapmaker.com
+  original_link: https://www.snapmaker.com/en-US/j1s-idex-3d-printer/specs
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - J1/J1s
+    machine_tool_type:
+    - FDM
+    record_type:
+    - ARTICLE
+    official_flag:
+    - OFFICIAL
+
+- id: snapmaker-j1-j1s-wiki-1ccc
+  title: Snapmaker J1/J1s WIKI
+  description: Official Wikipedia
+  author_name: Snapmaker
+  author_link: snapmaker.com
+  original_link: https://wiki.snapmaker.com/en/snapmaker_j1
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - J1/J1s
+    machine_tool_type:
+    - FDM
+    record_type:
+    - ARTICLE
+    official_flag:
+    - OFFICIAL
+
+- id: snapmaker-j1-j1s-firmware-forum-topic-07e2
+  title: Snapmaker J1/J1s Firmware forum topic
+  description: Official forum thread where stable firmware releases are posted.
+  author_name: Snapmaker
+  author_link: snapmaker.com
+  original_link: https://forum.snapmaker.com/t/snapmaker-j1-j1s-firmware-updates-and-downloads/29972
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - J1/J1s
+    machine_tool_type:
+    - FDM
+    record_type:
+    - FIRMWARE
+    official_flag:
+    - OFFICIAL
+
+- id: discussion-of-snapmaker-j1-j1s-firmware-updates-bafa
+  title: Discussion of Snapmaker J1/J1s Firmware Updates
+  description: Dedicated discussion topic to stable firmware updates.
+  author_name: Snapmaker
+  author_link: snapmaker.com
+  original_link: https://forum.snapmaker.com/t/discussion-of-snapmaker-j1-j1s-firmware-updates/29973
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - J1/J1s
+    machine_tool_type:
+    - FDM
+    record_type:
+    - DISCUSSION
+    - FIRMWARE
+    official_flag:
+    - OFFICIAL
+
+- id: snapmaker-ray-specification-eb47
+  title: Snapmaker RAY Specification
+  description: All the specs in one page
+  author_name: Snapmaker
+  author_link: snapmaker.com
+  original_link: https://www.snapmaker.com/snapmaker-ray-20w-40w-laser-engraver-and-cutter-with-air-assist/specs
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - RAY
+    machine_tool_type:
+    - LASER
+    record_type:
+    - ARTICLE
+    official_flag:
+    - OFFICIAL
+
+- id: snapmaker-luban-82dd
+  title: Snapmaker Luban
+  description: Topic with Luban, the 3 in 1 software updates posted
+  author_name: Snapmaker
+  author_link: snapmaker.com
+  original_link: https://forum.snapmaker.com/t/snapmaker-luban-downloads-and-updates/4949
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - J1/J1s
+    - RAY
+    machine_tool_type:
+    - FDM
+    - LASER
+    - CNC
+    - ROTARY
+    - COMBINED
+    record_type:
+    - FIRMWARE
+    official_flag:
+    - OFFICIAL
+
+- id: snapmaker-luban-wiki-d6d6
+  title: Snapmaker Luban WIKI
+  description: Wikipedia section dedicated to Luban
+  author_name: Snapmaker
+  author_link: snapmaker.com
+  original_link: https://wiki.snapmaker.com/en/Snapmaker_Luban
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - J1/J1s
+    - RAY
+    machine_tool_type:
+    - FDM
+    - LASER
+    - CNC
+    - ROTARY
+    - COMBINED
+    record_type:
+    - ARTICLE
+    official_flag:
+    - OFFICIAL
+
+- id: snapmaker-forum-d8a3
+  title: Snapmaker Forum
+  description: Official Community from Snapmaker
+  author_name: Snapmaker
+  author_link: snapmaker.com
+  original_link: forum.snapmaker.com
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - U1
+    - J1/J1s
+    - RAY
+    - UNIVERSAL
+    machine_tool_type:
+    - FDM
+    - LASER
+    - CNC
+    - ROTARY
+    - COMBINED
+    record_type:
+    - DISCUSSION
+    official_flag:
+    - OFFICIAL
+
+- id: snapmaker-discord-server-a457
+  title: Snapmaker Discord server
+  description: Created by community members. Supported by Snapmaker.
+  author_name: Snapmaker
+  author_link: snapmaker.com
+  original_link: https://discord.com/invite/EQHM67MJBh?utm_source=Awesome_Github_List&utm_medium=publication
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - U1
+    - J1/J1s
+    - RAY
+    - UNIVERSAL
+    machine_tool_type:
+    - FDM
+    - LASER
+    - CNC
+    - ROTARY
+    - COMBINED
+    record_type:
+    - DISCUSSION
+    official_flag:
+    - OFFICIAL
+
+- id: snapmaker-sub-reddit-43dc
+  title: Snapmaker Sub Reddit
+  description: Redditors gather here.
+  author_name: Snapmaker
+  author_link: snapmaker.com
+  original_link: https://www.reddit.com/r/snapmaker/
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - U1
+    - J1/J1s
+    - RAY
+    - UNIVERSAL
+    machine_tool_type:
+    - FDM
+    - LASER
+    - CNC
+    - ROTARY
+    - COMBINED
+    record_type:
+    - DISCUSSION
+    official_flag:
+    - OFFICIAL
+
+- id: snapmaker-u1-facebook-group-187e
+  title: Snapmaker U1 Facebook Group
+  description: Facebook group of Snapmaker U1 printer owners.
+  author_name: Snapmaker
+  author_link: snapmaker.com
+  original_link: https://www.facebook.com/groups/snapmakeru1
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - U1
+    machine_tool_type:
+    - FDM
+    record_type:
+    - DISCUSSION
+    official_flag:
+    - OFFICIAL
+
+- id: snapmaker-original-2-0-owners-5486
+  title: Snapmaker Original/2.0 Owners
+  description: Facebook group of Snapmaker 2.0 & Snapmaker Original owners.
+  author_name: Snapmaker
+  author_link: snapmaker.com
+  original_link: https://www.facebook.com/groups/snapmaker
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - FDM
+    - LASER
+    - CNC
+    - ROTARY
+    - COMBINED
+    record_type:
+    - DISCUSSION
+    official_flag:
+    - OFFICIAL
+
+- id: snapmaker-artisan-owners-54d7
+  title: Snapmaker Artisan Owners
+  description: Facebook group of Artisan owners.
+  author_name: Snapmaker
+  author_link: snapmaker.com
+  original_link: https://www.facebook.com/groups/591569232338285
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - ARTISAN
+    machine_tool_type:
+    - FDM
+    - LASER
+    - CNC
+    - ROTARY
+    - COMBINED
+    record_type:
+    - DISCUSSION
+    official_flag:
+    - OFFICIAL
+
+- id: snapmaker-j1-owners-6afe
+  title: Snapmaker J1 Owners
+  description: Facebook group of Snapmaker J1 owners.
+  author_name: Snapmaker
+  author_link: snapmaker.com
+  original_link: https://www.facebook.com/groups/snapmakerj1
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - J1/J1s
+    machine_tool_type:
+    - FDM
+    record_type:
+    - DISCUSSION
+    official_flag:
+    - OFFICIAL
+
+- id: snapmaker-github-9cbd
+  title: Snapmaker GitHub
+  description: Home of the Snapmaker source code.
+  author_name: Snapmaker
+  author_link: snapmaker.com
+  original_link: https://github.com/Snapmaker
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - UNIVERSAL
+    machine_tool_type:
+    - COMBINED
+    record_type:
+    - DOWNLOAD
+    - FIRMWARE
+    official_flag:
+    - OFFICIAL
+
+- id: snapmaker-youtube-159a
+  title: Snapmaker YouTube
+  description: YouTube channel by Snapmaker team.
+  author_name: Snapmaker
+  author_link: snapmaker.com
+  original_link: https://www.youtube.com/c/snapmaker
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - UNIVERSAL
+    machine_tool_type:
+    - COMBINED
+    record_type:
+    - VIDEO
+    official_flag:
+    - OFFICIAL
+
+- id: snapmaker-community-page-f9ad
+  title: Snapmaker Community Page
+  description: Contests, Creator Spotlight, etc.
+  author_name: Snapmaker
+  author_link: snapmaker.com
+  original_link: https://www.snapmaker.com/community
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - UNIVERSAL
+    machine_tool_type:
+    - COMBINED
+    record_type:
+    - ARTICLE
+    official_flag:
+    - OFFICIAL
+
+- id: snapmaker-thingiverse-repo-9bd7
+  title: Snapmaker Thingiverse repo
+  description: Official Snapmaker profile on Thingiverse with bunch of models.
+  author_name: Snapmaker
+  author_link: snapmaker.com
+  original_link: https://www.thingiverse.com/snapmakerinc
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - UNIVERSAL
+    machine_tool_type:
+    - COMBINED
+    record_type:
+    - ARTICLE
     official_flag:
     - OFFICIAL
 
