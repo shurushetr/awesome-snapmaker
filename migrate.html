@@ -25,6 +25,9 @@
             border-radius: 8px;
             padding: 1.5rem;
             box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
         }
 
         .form-group {
@@ -70,7 +73,8 @@
             border-radius: 4px;
             font-family: monospace;
             white-space: pre-wrap;
-            min-height: 400px;
+            flex-grow: 1;
+            height: 100%;
             overflow-y: auto;
             position: relative;
             width: 100%;
@@ -88,13 +92,18 @@
             content: " *";
             color: red;
         }
+
+        /* Override fixed 300px header height from styles.css */
+        .header {
+            height: auto !important;
+        }
     </style>
 </head>
 <body>
-    <header class="header">
-        <div class="container">
-            <h1>Awesome Snapmaker Data Migration Tool</h1>
-            <p>Fast, local YAML snippet generator for manual copy/paste migration.</p>
+    <header class="header" style="padding: 0.5rem 0;">
+        <div class="container" style="display: flex; justify-content: space-between; align-items: center;">
+            <h1 style="font-size: 1.25rem; margin: 0; position: relative; z-index: 1;">Awesome Snapmaker Data Migration Tool</h1>
+            <p style="margin: 0; font-size: 0.9rem; color: #fff; position: relative; z-index: 1;">Fast, local YAML snippet generator.</p>
         </div>
     </header>
 
@@ -211,11 +220,11 @@
             </div>
 
             <!-- Right Side: Output Area -->
-            <div class="form-section" style="display: flex; flex-direction: column;">
-                <h2>2. Resulting YAML Block</h2>
-                <p style="margin-bottom: 1rem;">Copy this generated snippet and paste it right at the very bottom of your <code>data.yml</code> file!</p>
-                <div style="position: relative; flex-grow: 1;">
-                    <textarea id="output-area" readonly>Fill out the form and click Generate...</textarea>
+            <div class="form-section">
+                <h2 style="margin-top: 0; margin-bottom: 0.5rem;">2. Resulting YAML Block</h2>
+                <p style="margin-top: 0; margin-bottom: 0.5rem; font-size: 0.9rem;">Copy this snippet and paste it at the bottom of <code>data.yml</code>!</p>
+                <div style="position: relative; display: flex; flex-direction: column; flex-grow: 1; height: 100%;">
+                    <textarea id="output-area" readonly style="flex-grow: 1;">Fill out the form and click Generate...</textarea>
                     <div id="output-actions" style="display: none; position: absolute; right: 10px; bottom: 10px; gap: 0.5rem;">
                         <button id="clear-yaml-btn" class="btn secondary-btn" style="padding: 0.25rem 0.5rem; font-size: 0.9rem;">Clear Output</button>
                         <button id="copy-btn" class="btn primary-btn" style="padding: 0.25rem 0.5rem; font-size: 0.9rem;">Copy to Clipboard</button>
