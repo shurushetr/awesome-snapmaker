@@ -52,7 +52,7 @@ def generate_readme():
         f.write("---\n\n")
         
         f.write("## 🌐 Interactive Website\n\n")
-        f.write(f"**This list is best viewed on our interactive web interface with search and filters: [View Website](https://yourusername.github.io/awesome-snapmaker/)**\n\n")
+        f.write(f"**This list is best viewed on our interactive web interface with search and filters: [View Website]({info.get('site_url', 'https://awesome-sm-list.xyz/')})**\n\n")
         f.write("---\n\n")
 
         # Table of Contents
