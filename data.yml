@@ -1120,7 +1120,7 @@ records:
 
 - id: simulate-with-machine-in-fusion360-for-sm-2-0-3a20
   title: Simulate with machine in Fusion360 for SM 2.0
-  description: "Chris Kaladstrodamus created a full blown simulation for Fusion360 that allowes you to simulate toolpath including the rotary attachment. Check out his post in the FB group for details or you can download the machine model from his GitHub or buttons below."
+  description: "Chris Kaladstrodamus created a full blown simulation for Fusion360 that allowes you to simulate toolpath including the rotary attachment. Check out his post in the FB group for details or you can download the machine model from GitHub using buttons below."
   author_name: Chris Kaladstrodamus
   author_link: https://grabcad.com/christopher.kalada-1
   original_link: https://www.facebook.com/groups/snapmaker/permalink/2119754895109479/
