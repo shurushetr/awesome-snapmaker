@@ -753,5 +753,20 @@ records:
     - ARTICLE
     official_flag:
     - OFFICIAL
+    
+- id: usb-to-ethernet-adapter-72ad
+  title: USB to Ethernet adapter
+  description: You can use usb adapter to connect via ethernet to your machine.
+  author_name: 
+  author_link: 
+  original_link: https://forum.snapmaker.com/t/works-usb-to-ethernet-adapter/8074/
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    official_flag:
+    - UNOFFICIAL
+
 
 
