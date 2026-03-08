@@ -451,14 +451,12 @@ function renderRecords(records) {
         if (t.free_tags) t.free_tags.forEach(tag => tagsHtml += `<span class="tag">${tag}</span>`);
 
         // Generate Buttons HTML
-        let buttonsHtml = `<div class="card-actions-inner">
-            <a href="${ensureAbsoluteUrl(record.original_link)}" class="btn primary-btn" target="_blank" rel="noopener noreferrer">View Resource</a>`;
+        let buttonsHtml = `<a href="${ensureAbsoluteUrl(record.original_link)}" class="btn primary-btn" target="_blank" rel="noopener noreferrer">View Resource</a>`;
         if (record.extra_buttons) {
             record.extra_buttons.slice(0, 2).forEach(btn => {
                 buttonsHtml += `<a href="${ensureAbsoluteUrl(btn.link)}" class="btn secondary-btn" target="_blank" rel="noopener noreferrer">${btn.label}</a>`;
             });
         }
-        buttonsHtml += `</div>`;
 
         let descHtml = '';
         if (record.description) {

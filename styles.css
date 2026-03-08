@@ -480,19 +480,9 @@ select {
 
 .card-actions {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1rem;
-    margin-top: 1rem;
-    padding-top: 1rem;
-    border-top: 1px solid var(--card-border);
-}
-
-.card-actions-inner {
-    display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     gap: 0.5rem;
-    flex: 1; /* allow spreading out */
+    justify-content: flex-end; /* Right align the buttons */
 }
 
 .card-actions .btn {
@@ -501,17 +491,18 @@ select {
     text-align: center;
 }
 
-@media (max-width: 480px) {
-    .card-actions-inner {
-        flex-direction: column; /* Stacks buttons nicely on phones */
+@media (max-width: 600px) {
+    .card-footer {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .card-actions {
+        margin-top: 0.5rem; /* Space between tags and buttons when stacked */
+        flex-direction: column;
         width: 100%;
     }
     .card-actions .btn {
-        width: 100%; /* Full width buttons for fat fingers */
-    }
-    .card-actions {
-        flex-direction: column;
-        align-items: stretch;
+        width: 100%; /* Stretch buttons for easy tapping */
     }
 }
 
