@@ -46,7 +46,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md .github/ISSUE_TEMPLATE/submit-resource.yml index.html
+          git add README.md .github/ISSUE_TEMPLATE/1-submit-resource.yml index.html
           git commit -m "chore: Auto-generate assets from data.yml (README, Tags, SEO)" || exit 0
           for i in 1 2 3 4 5; do
             git pull --rebase origin main && git push && break || sleep 5

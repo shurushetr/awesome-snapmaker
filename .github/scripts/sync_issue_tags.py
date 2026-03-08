@@ -64,7 +64,6 @@ def update_issue_template():
             if tag_key and tag_key in allowed_tags:
                 new_options = allowed_tags[tag_key]
                 
-                # Checkboxes require a specific schema [{'label': option}]
                 if item.get('type') == 'checkboxes':
                     formatted_options = [{'label': opt} for opt in new_options]
                 else:
@@ -72,6 +71,13 @@ def update_issue_template():
                     
                 if attr.get('options') != formatted_options:
                     attr['options'] = formatted_options
+                    updated = True
+
+                # Enforce required validations across all generated tag fields
+                if 'validations' not in item:
+                    item['validations'] = {}
+                if item['validations'].get('required') is not True:
+                    item['validations']['required'] = True
                     updated = True
 
     # 4. Save the updated template back if changes occurred
