@@ -1604,9 +1604,9 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 > | 12 | ORANGE 🟧| 5V_LCM | A9 | B9 |
 > 
 > #### Reference images
-> - [LCD_Screen](/images/Snapmaker_Parts/SP_2.0/LCD_Connector/Pinout_Ref_Img_1_LCD_Screen.jpg)
-> - [Plug](/images/Snapmaker_Parts/SP_2.0/LCD_Connector/Pinout_Ref_Img_2_Plug.jpg)
-> - [Pin_Out](/images/Snapmaker_Parts/SP_2.0/LCD_Connector/Pinout_Ref_Img_3_Pinout.jpg)
+> - [LCD_Screen](https://github.com/shurushetr/awesome-snapmaker/blob/main/images/Snapmaker_Parts/SP_2.0/LCD_Connector/Pinout_Ref_Img_1_LCD_Screen.jpg)
+> - [Plug](https://github.com/shurushetr/awesome-snapmaker/blob/main/images/Snapmaker_Parts/SP_2.0/LCD_Connector/Pinout_Ref_Img_2_Plug.jpg)
+> - [Pin_Out](https://github.com/shurushetr/awesome-snapmaker/blob/main/images/Snapmaker_Parts/SP_2.0/LCD_Connector/Pinout_Ref_Img_3_Pinout.jpg)
 
 **Content Author:** nweolu | **Added:** 2026-03-08
 
@@ -2015,9 +2015,9 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 > | 12 | ORANGE 🟧| 5V_LCM | A9 | B9 |
 > 
 > #### Reference images
-> - [LCD_Screen](/images/Snapmaker_Parts/SP_2.0/LCD_Connector/Pinout_Ref_Img_1_LCD_Screen.jpg)
-> - [Plug](/images/Snapmaker_Parts/SP_2.0/LCD_Connector/Pinout_Ref_Img_2_Plug.jpg)
-> - [Pin_Out](/images/Snapmaker_Parts/SP_2.0/LCD_Connector/Pinout_Ref_Img_3_Pinout.jpg)
+> - [LCD_Screen](https://github.com/shurushetr/awesome-snapmaker/blob/main/images/Snapmaker_Parts/SP_2.0/LCD_Connector/Pinout_Ref_Img_1_LCD_Screen.jpg)
+> - [Plug](https://github.com/shurushetr/awesome-snapmaker/blob/main/images/Snapmaker_Parts/SP_2.0/LCD_Connector/Pinout_Ref_Img_2_Plug.jpg)
+> - [Pin_Out](https://github.com/shurushetr/awesome-snapmaker/blob/main/images/Snapmaker_Parts/SP_2.0/LCD_Connector/Pinout_Ref_Img_3_Pinout.jpg)
 
 **Content Author:** nweolu | **Added:** 2026-03-08
 
@@ -2343,9 +2343,9 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 > | 12 | ORANGE 🟧| 5V_LCM | A9 | B9 |
 > 
 > #### Reference images
-> - [LCD_Screen](/images/Snapmaker_Parts/SP_2.0/LCD_Connector/Pinout_Ref_Img_1_LCD_Screen.jpg)
-> - [Plug](/images/Snapmaker_Parts/SP_2.0/LCD_Connector/Pinout_Ref_Img_2_Plug.jpg)
-> - [Pin_Out](/images/Snapmaker_Parts/SP_2.0/LCD_Connector/Pinout_Ref_Img_3_Pinout.jpg)
+> - [LCD_Screen](https://github.com/shurushetr/awesome-snapmaker/blob/main/images/Snapmaker_Parts/SP_2.0/LCD_Connector/Pinout_Ref_Img_1_LCD_Screen.jpg)
+> - [Plug](https://github.com/shurushetr/awesome-snapmaker/blob/main/images/Snapmaker_Parts/SP_2.0/LCD_Connector/Pinout_Ref_Img_2_Plug.jpg)
+> - [Pin_Out](https://github.com/shurushetr/awesome-snapmaker/blob/main/images/Snapmaker_Parts/SP_2.0/LCD_Connector/Pinout_Ref_Img_3_Pinout.jpg)
 
 **Content Author:** nweolu | **Added:** 2026-03-08
 
