@@ -1947,4 +1947,161 @@ records:
   - label: GitHUB
     link: https://github.com/marialarsson/tsugite
 
+- id: snapmaker-2-milling-kit-for-the-brass-nut-in-the-linear-axis-d8d7
+  title: Snapmaker 2 milling kit for the brass nut in the linear axis
+  description: For all Snapmaker 2 users who have problems with the wear of the plastic nut in the linear guides, the milling program in conjunction with the clamping device offers the possibility of milling freely available brass trapezoidal nuts TR8x8 with anti Backslash so that they can be machined into the Snapmaker 2 compatible nut. By
+  author_name: gojoetofly
+  author_link: https://www.thingiverse.com/gojoetofly
+  original_link: https://www.thingiverse.com/thing:4491190
+  date_added: '2026-03-08'
+  difficulty: INTERMEDIATE
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - FDM
+    - CNC
+    - COMBINED
+    record_type:
+    - ARTICLE
+    - REPAIR
+    official_flag:
+    - UNOFFICIAL
+
+- id: diy-step-motor-drive-repair-cf15
+  title: DIY step motor drive repair
+  description: Nice writeup about installing aftermarket drive for step motor.
+  author_name: cyb0124
+  author_link: https://forum.snapmaker.com/u/cyb0124
+  original_link: https://forum.snapmaker.com/t/i-have-successfully-repaired-my-dead-linear-module-fried-driver-chip/34459?u=cyb0124
+  date_added: '2026-03-08'
+  difficulty: ADVANCED
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - FDM
+    - LASER
+    - CNC
+    record_type:
+    - REPAIR
+    official_flag:
+    - UNOFFICIAL
+
+- id: hot-end-clogs-the-how-why-7890
+  title: Hot End Clogs - The How & Why
+  description: The How & Why - Writeup by @Mxbrnr about all metal heat break. Find one in parts list below.
+  author_name: Mxbrnr
+  author_link: https://forum.snapmaker.com/u/Mxbrnr
+  original_link: https://forum.snapmaker.com/t/hot-end-clogs-the-how-why/30376
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - FDM
+    record_type:
+    - REPAIR
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Single Extruder
+
+- id: e-step-calibration-83b4
+  title: E-Step calibration
+  description: Writeup by @Mxbrnr for e-steps calibration.
+  author_name: Mxbrnr
+  author_link: https://forum.snapmaker.com/u/Mxbrnr
+  original_link: https://github.com/shurushetr/awesome-snapmaker/blob/main/files/pdf/e-step_calibration.pdf
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - FDM
+    record_type:
+    - REPAIR
+    official_flag:
+    - UNOFFICIAL
+
+- id: guide-resuming-a-failed-3d-print-b220
+  title: "GUIDE: Resuming a failed 3D print"
+  description: A way to save your 3d print. Printer got clogged and printed air for a while or the model got loose - it can be saved.
+  author_name: CNC Kitchen
+  author_link: cnckitchen.com
+  original_link: https://www.cnckitchen.com/blog/guide-resuming-a-failed-3d-print
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - U1
+    - J1/J1s
+    machine_tool_type:
+    - FDM
+    record_type:
+    - ARTICLE
+    - CREATE
+    - REPAIR
+    - VIDEO
+    official_flag:
+    - UNOFFICIAL
+
+- id: troubleshooting-articles-related-to-dual-extruder-issues-f924
+  title: Troubleshooting articles related to Dual Extruder issues
+  description: Collection of articles for troubleshooting Dual extruder issues.
+  author_name: Snapmaker
+  author_link: snapmaker.com
+  original_link: https://wiki.snapmaker.com/t/dual%20extrusion
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    machine_tool_type:
+    - FDM
+    record_type:
+    - ARTICLE
+    - REPAIR
+    official_flag:
+    - UNOFFICIAL
+
+- id: cnc-routing-arbitrary-circles-1e07
+  title: CNC routing arbitrary circles
+  description: If you have issues with milling simple circles on CNC take a look at this thread.
+  author_name: Community
+  author_link: https://forum.snapmaker.com/
+  original_link: https://forum.snapmaker.com/t/cnc-routing-arbitrary-circles/32055
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    machine_tool_type:
+    - CNC
+    record_type:
+    - DISCUSSION
+    - REPAIR
+    official_flag:
+    - UNOFFICIAL
+
 
