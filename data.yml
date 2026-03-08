@@ -61,15 +61,16 @@ allowed_tags:
   - ROTARY
   - COMBINED
   record_type:
-  - VIDEO
-  - DISCUSSION 
   - ARTICLE
+  - CREATE
+  - DISCUSSION
   - DOWNLOAD
-  - SHOP
   - FIRMWARE
   - MODS
+  - ONLINE TOOL
   - REPAIR
-  - CREATE
+  - SHOP
+  - VIDEO
   official_flag:
   - OFFICIAL
   - UNOFFICIAL
