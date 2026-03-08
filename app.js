@@ -57,7 +57,7 @@ async function init() {
         const data = jsyaml.load(yamlText);
 
         setupProjectInfo(data.project_info);
-        
+
         // Dynamically set TAGS from data.yml so it's a single source of truth
         if (data.allowed_tags) {
             TAGS.machine = data.allowed_tags.machine_type || [];
@@ -70,7 +70,7 @@ async function init() {
         }
 
         allRecords = data.records || [];
-        
+
         // Extract unique difficulty and cost as a fallback if not defined in allowed_tags
         if (TAGS.difficulty.length === 0 || TAGS.cost.length === 0) {
             let difficulties = new Set();
@@ -82,14 +82,14 @@ async function init() {
             if (TAGS.difficulty.length === 0) TAGS.difficulty = Array.from(difficulties).sort();
             if (TAGS.cost.length === 0) TAGS.cost = Array.from(costs).sort();
         }
-        
+
         setupFilters();
         setupFuse();
         setupEventListeners();
-        
+
         // Deep linking: Check if URL has hash to scroll to
         applyFiltersAndRender();
-        
+
         // After initial render, process deep link
         if (window.location.hash) {
             setTimeout(() => {
@@ -107,7 +107,7 @@ async function init() {
                 }
             }, 300); // Short delay to allow DOM to paint
         }
-        
+
     } catch (error) {
         console.error("Error loading YAML data:", error);
         DOM.recordsContainer.innerHTML = `<p style="color: red;">Failed to load data. Please make sure data.yml exists and is valid.</p>`;
@@ -132,11 +132,11 @@ function setupProjectInfo(info) {
     DOM.authorLink.href = ensureAbsoluteUrl(info.author_link);
     DOM.authorLink.textContent = `By ${info.author_name}`;
     DOM.repoLink.href = ensureAbsoluteUrl(info.repo_url);
-    
+
     if (DOM.forumLink && info.forum_url) {
         DOM.forumLink.href = ensureAbsoluteUrl(info.forum_url);
     }
-    
+
     DOM.headerBg.style.backgroundImage = `url('${info.hero_image}')`;
 }
 
@@ -159,7 +159,7 @@ function createCheckboxGroup(container, category, tags) {
         checkbox.value = tag;
         checkbox.dataset.category = category;
         checkbox.addEventListener('change', handleFilterChange);
-        
+
         label.appendChild(checkbox);
         label.appendChild(document.createTextNode(tag));
         container.appendChild(label);
@@ -192,7 +192,7 @@ function setupEventListeners() {
     DOM.sortSelect.addEventListener('change', () => applyFiltersAndRender());
     DOM.limitInput.addEventListener('input', () => applyFiltersAndRender());
     DOM.clearFiltersBtn.addEventListener('click', clearAllFilters);
-    
+
     if (DOM.showFavoritesBtn) {
         DOM.showFavoritesBtn.addEventListener('click', () => {
             const isActive = DOM.showFavoritesBtn.dataset.active === 'true';
@@ -208,7 +208,7 @@ function setupEventListeners() {
             applyFiltersAndRender();
         });
     }
-    
+
     // Jump to top button
     window.addEventListener('scroll', () => {
         if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
@@ -234,7 +234,7 @@ function setupEventListeners() {
         themeBtn.addEventListener('click', () => {
             const currentTheme = document.documentElement.getAttribute('data-theme');
             let newTheme;
-            
+
             if (currentTheme === 'dark') {
                 newTheme = 'light';
             } else if (currentTheme === 'light') {
@@ -255,7 +255,7 @@ function handleFilterChange(e) {
     const category = e.target.dataset.category;
     const value = e.target.value;
     const checked = e.target.checked;
-    
+
     if (checked) {
         activeFilters[category].add(value);
     } else {
@@ -272,18 +272,30 @@ function clearAllFilters() {
     activeFilters.difficulty.clear();
     activeFilters.cost.clear();
     activeFilters.language.clear();
-    
+
+    excludedFilters.machine.clear();
+    excludedFilters.tool.clear();
+    excludedFilters.type.clear();
+    excludedFilters.official.clear();
+    excludedFilters.difficulty.clear();
+    excludedFilters.cost.clear();
+    excludedFilters.language.clear();
+
     document.querySelectorAll('.tag-filters input[type="checkbox"]').forEach(cb => cb.checked = false);
+    document.querySelectorAll('.tag-filters label.checkbox-wrapper').forEach(lbl => {
+        lbl.classList.remove('excluded');
+        lbl.classList.remove('included');
+    });
     DOM.searchInput.value = '';
     DOM.sortSelect.value = 'newest';
     DOM.limitInput.value = '';
-    
+
     if (DOM.showFavoritesBtn) {
         DOM.showFavoritesBtn.dataset.active = 'false';
         DOM.showFavoritesBtn.classList.remove('primary-btn');
         DOM.showFavoritesBtn.classList.add('secondary-btn');
     }
-    
+
     applyFiltersAndRender();
 }
 
@@ -301,23 +313,45 @@ function applyFiltersAndRender() {
     // 2. Tag Filtering (AND operation across categories, OR within categories)
     results = results.filter(record => {
         const t = record.tags || {};
+
+        // Check Exclusions First
+        const checkExclusion = (recordTags, excludedSet) => {
+            if (excludedSet.size === 0 || !recordTags) return false;
+            return recordTags.some(tag => excludedSet.has(tag));
+        };
+        const checkStringExclusion = (recordVal, excludedSet) => {
+            if (excludedSet.size === 0 || !recordVal) return false;
+            return excludedSet.has(recordVal);
+        };
         
+        if (
+            checkExclusion(t.machine_type, excludedFilters.machine) ||
+            checkExclusion(t.machine_tool_type, excludedFilters.tool) ||
+            checkExclusion(t.record_type, excludedFilters.type) ||
+            checkExclusion(t.official_flag, excludedFilters.official) ||
+            checkStringExclusion(record.difficulty, excludedFilters.difficulty) ||
+            checkStringExclusion(record.cost, excludedFilters.cost) ||
+            checkStringExclusion(record.language, excludedFilters.language)
+        ) {
+            return false;
+        }
+
         // Favorites Filter
         const showFavs = DOM.showFavoritesBtn && DOM.showFavoritesBtn.dataset.active === 'true';
         if (showFavs) {
             const savedFavorites = JSON.parse(localStorage.getItem('favorites') || '[]');
             if (!savedFavorites.includes(record.id)) return false;
         }
-        
-        // Machine Filter: if no machine filters active, it passes. If active, the record MUST have at least one of the active machine tags.
+
+        // Machine Filter
         const machineMatch = activeFilters.machine.size === 0 || 
             (t.machine_type && t.machine_type.some(m => activeFilters.machine.has(m)));
             
-        // Tool Filter: if no tool filters active, it passes. If active, the record MUST have at least one of the active tool tags.
+        // Tool Filter
         const toolMatch = activeFilters.tool.size === 0 || 
             (t.machine_tool_type && t.machine_tool_type.some(tl => activeFilters.tool.has(tl)));
             
-        // Type Filter: if no type filters active, it passes. If active, the record MUST have at least one of the active type tags.
+        // Type Filter
         const typeMatch = activeFilters.type.size === 0 || 
             (t.record_type && t.record_type.some(ty => activeFilters.type.has(ty)));
             
@@ -336,8 +370,6 @@ function applyFiltersAndRender() {
         // Language Filter
         const languageMatch = activeFilters.language.size === 0 || 
             (record.language && activeFilters.language.has(record.language));
-
-        // Free Tags / Flags Filter: if we add free tags filtering later
 
         return machineMatch && toolMatch && typeMatch && officialMatch && diffMatch && costMatch && languageMatch;
     });
@@ -364,7 +396,7 @@ function applyFiltersAndRender() {
 function renderRecords(records) {
     DOM.resultCount.textContent = `${records.length} item${records.length !== 1 ? 's' : ''} found`;
     DOM.recordsContainer.innerHTML = '';
-    
+
     const savedFavorites = JSON.parse(localStorage.getItem('favorites') || '[]');
 
     if (records.length === 0) {
@@ -380,22 +412,22 @@ function renderRecords(records) {
         // Generate Tags HTML
         let tagsHtml = '';
         const t = record.tags || {};
-        
+
         if (t.machine_type) t.machine_type.forEach(tag => tagsHtml += `<span class="tag machine">${tag}</span>`);
         if (t.machine_tool_type) t.machine_tool_type.forEach(tag => tagsHtml += `<span class="tag tool">${tag}</span>`);
         if (t.record_type) t.record_type.forEach(tag => tagsHtml += `<span class="tag type">${tag}</span>`);
-        
+
         if (t.official_flag) {
             t.official_flag.forEach(tag => {
                 let tagClass = tag === 'UNOFFICIAL' ? 'unofficial' : tag.toLowerCase(); // it'll be 'official' or 'unofficial'
                 tagsHtml += `<span class="tag ${tagClass}">${tag}</span>`;
             });
         }
-        
+
         if (record.difficulty && record.difficulty !== 'N/A') tagsHtml += `<span class="tag difficulty">${record.difficulty}</span>`;
         if (record.cost && record.cost !== 'N/A') tagsHtml += `<span class="tag cost">${record.cost}</span>`;
         if (record.language && record.language !== 'N/A') tagsHtml += `<span class="tag language">${record.language}</span>`;
-        
+
         if (t.free_tags) t.free_tags.forEach(tag => tagsHtml += `<span class="tag">${tag}</span>`);
 
         // Generate Buttons HTML
@@ -405,15 +437,15 @@ function renderRecords(records) {
                 buttonsHtml += `<a href="${ensureAbsoluteUrl(btn.link)}" class="btn secondary-btn" target="_blank" rel="noopener noreferrer">${btn.label}</a>`;
             });
         }
-        
+
         let descHtml = '';
         if (record.description) {
             descHtml = `<div class="card-description"><p style="margin-bottom: 0px; margin-top: 10px; color: var(--secondary-text);">${record.description}</p></div>`;
         }
-        
+
         // Deep link anchoring
         const anchorLink = `#${record.id}`;
-        
+
         const isFav = savedFavorites.includes(record.id);
         const starClass = isFav ? 'favorite-btn is-active' : 'favorite-btn';
 
@@ -453,7 +485,7 @@ function renderRecords(records) {
     document.querySelectorAll('.copy-link-btn').forEach(btn => {
         btn.addEventListener('click', (e) => {
             const link = e.currentTarget.dataset.link;
-            
+
             const triggerSuccess = () => {
                 const originalHtml = e.currentTarget.innerHTML;
                 e.currentTarget.innerHTML = '<span style="font-size:1.1rem;color:green;font-weight:bold;">✓</span>';
@@ -489,7 +521,7 @@ function renderRecords(records) {
 function toggleFavorite(btnElement) {
     const id = btnElement.dataset.id;
     let savedFavorites = JSON.parse(localStorage.getItem('favorites') || '[]');
-    
+
     if (savedFavorites.includes(id)) {
         savedFavorites = savedFavorites.filter(f => f !== id);
         btnElement.classList.remove('is-active');
@@ -499,7 +531,7 @@ function toggleFavorite(btnElement) {
         btnElement.classList.add('is-active');
         btnElement.setAttribute('aria-pressed', 'true');
     }
-    
+
     localStorage.setItem('favorites', JSON.stringify(savedFavorites));
 }
 
