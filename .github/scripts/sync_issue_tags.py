@@ -73,12 +73,13 @@ def update_issue_template():
                     attr['options'] = formatted_options
                     updated = True
 
-                # Enforce required validations across all generated tag fields
-                if 'validations' not in item:
-                    item['validations'] = {}
-                if item['validations'].get('required') is not True:
-                    item['validations']['required'] = True
-                    updated = True
+                # Enforce required validations across all generated tag fields (except checkboxes, which GitHub does not support group-validation for)
+                if item.get('type') != 'checkboxes':
+                    if 'validations' not in item:
+                        item['validations'] = {}
+                    if item['validations'].get('required') is not True:
+                        item['validations']['required'] = True
+                        updated = True
 
     # 4. Save the updated template back if changes occurred
     if updated:
