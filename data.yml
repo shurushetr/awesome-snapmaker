@@ -2105,3 +2105,31 @@ records:
     - UNOFFICIAL
 
 
+- id: snapmaker-2-0-lcd-pinout-if-the-plug-is-borken-15
+  title: Snapmaker 2.0 LCD Pinout - if the plug is borken
+  description: "The following table was complied based on images shared by Snapmaker
+    Team. You can find the images after the table.\n\n| No | Wire Insulation Color
+    | Signal | Connector A Pin | Connector B Pin |\n| --- | :--- | --- | :---:  |
+    :---: |\n| 1 | Uninsulated | GND | Iron Shell | Iron Shell |\n| 2 | RED 🟥| USB_VBUS
+    | A8 | B8 |\n| 3 | GRAY 🩶| USB_DM | A7 | B7 |\n| 4 | BROWN 🟫| USB_DP | A6 | B6
+    |\n| 5 | PINK 🩷| USB_ID | A11 | B11 |\n| 6 | BLACK ⬛| GND | A1, A12 | B1,B12 |\n\
+    | 7 | BLUE 🟦| GND | A1,A12 | B1,B12 |\n| 8 | WHITE ⬜| SC_RxD | A2 | B2 |\n| 9
+    | GREEN 🟩| SC_TxD | A3 | B3 |\n| 10 | YELLOW 🟨| SC_DET | A10 | B10 |\n| 11 | PURPLE
+    🟪| 5V_LCM | A4 | B4 |\n| 12 | ORANGE 🟧| 5V_LCM | A9 | B9 |\n\n#"
+  author_name: nweolu
+  author_link: https://forum.snapmaker.com/u/nweolu
+  original_link: https://awesome-sm-list.xyz
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - FDM
+    - LASER
+    - CNC
+    record_type:
+    - ARTICLE
+    official_flag:
+    - OFFICIAL
