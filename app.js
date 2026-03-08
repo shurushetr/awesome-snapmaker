@@ -42,6 +42,7 @@ const DOM = {
     showFavoritesBtn: document.getElementById('show-favorites'),
     limitInput: document.getElementById('limit-input'),
     clearFiltersBtn: document.getElementById('clear-filters'),
+    shareViewBtn: document.getElementById('share-view-btn'),
     resultCount: document.getElementById('result-count'),
     jumpTopBtn: document.getElementById('jump-top')
 };
@@ -94,6 +95,10 @@ async function init() {
 
         setupFilters();
         setupFuse();
+        
+        // Parse URL State before rendering
+        loadStateFromURL();
+        
         setupEventListeners();
 
         // Deep linking: Check if URL has hash to scroll to
@@ -200,6 +205,40 @@ function setupEventListeners() {
     DOM.sortSelect.addEventListener('change', () => applyFiltersAndRender());
     DOM.limitInput.addEventListener('input', () => applyFiltersAndRender());
     DOM.clearFiltersBtn.addEventListener('click', clearAllFilters);
+
+    if (DOM.shareViewBtn) {
+        DOM.shareViewBtn.addEventListener('click', () => {
+            const url = window.location.href;
+            const originalText = DOM.shareViewBtn.innerHTML;
+            
+            const triggerSuccess = () => {
+                DOM.shareViewBtn.innerHTML = '✅ Copied!';
+                setTimeout(() => {
+                    DOM.shareViewBtn.innerHTML = originalText;
+                }, 2000);
+            };
+
+            if (navigator.clipboard) {
+                navigator.clipboard.writeText(url).then(triggerSuccess).catch(err => console.error('Failed to copy link: ', err));
+            } else {
+                const textArea = document.createElement("textarea");
+                textArea.value = url;
+                textArea.style.position = "fixed";
+                textArea.style.left = "-999999px";
+                textArea.style.top = "-999999px";
+                document.body.appendChild(textArea);
+                textArea.focus();
+                textArea.select();
+                try {
+                    document.execCommand('copy');
+                    triggerSuccess();
+                } catch (err) {
+                    console.error('Fallback clipboard copy failed', err);
+                }
+                document.body.removeChild(textArea);
+            }
+        });
+    }
 
     if (DOM.showFavoritesBtn) {
         DOM.showFavoritesBtn.addEventListener('click', () => {
@@ -403,13 +442,87 @@ function applyFiltersAndRender() {
     });
 
     // 4. Limit count (Last N items)
-    const limit = parseInt(DOM.limitInput.value);
+    const limitStr = DOM.limitInput.value;
+    const limit = parseInt(limitStr);
     if (!isNaN(limit) && limit > 0) {
         results = results.slice(0, limit);
     }
 
+    const showFavs = DOM.showFavoritesBtn && DOM.showFavoritesBtn.dataset.active === 'true';
+    updateURL(query, sortOrder, limitStr, showFavs);
+
     // Render resulting data
     renderRecords(results);
+}
+
+// URL State Management
+function loadStateFromURL() {
+    const params = new URLSearchParams(window.location.search);
+    
+    // Search
+    if (params.has('q')) {
+        DOM.searchInput.value = params.get('q');
+    }
+    // Sort
+    if (params.has('sort')) {
+        DOM.sortSelect.value = params.get('sort');
+    }
+    // Limit
+    if (params.has('limit')) {
+        DOM.limitInput.value = params.get('limit');
+    }
+    // Favorites
+    if (params.has('fav') && params.get('fav') === 'true' && DOM.showFavoritesBtn) {
+        DOM.showFavoritesBtn.dataset.active = 'true';
+        DOM.showFavoritesBtn.classList.remove('secondary-btn');
+        DOM.showFavoritesBtn.classList.add('primary-btn');
+    }
+
+    // Tags
+    const categories = ['machine', 'tool', 'type', 'official', 'difficulty', 'cost', 'language'];
+    categories.forEach(cat => {
+        if (params.has('inc_' + cat)) {
+            const vals = params.get('inc_' + cat).split('|');
+            vals.forEach(v => activeFilters[cat].add(v));
+        }
+        if (params.has('exc_' + cat)) {
+            const vals = params.get('exc_' + cat).split('|');
+            vals.forEach(v => excludedFilters[cat].add(v));
+        }
+    });
+
+    // Update the UI buttons to reflect the loaded state
+    document.querySelectorAll('.tag-filters button.filter-btn').forEach(btn => {
+        const cat = btn.dataset.category;
+        const val = btn.dataset.value;
+        if (activeFilters[cat] && activeFilters[cat].has(val)) {
+            btn.classList.add('included');
+        } else if (excludedFilters[cat] && excludedFilters[cat].has(val)) {
+            btn.classList.add('excluded');
+        }
+    });
+}
+
+function updateURL(query, sortOrder, limitStr, showFavs) {
+    const params = new URLSearchParams();
+    
+    if (query) params.set('q', query);
+    if (sortOrder && sortOrder !== 'newest') params.set('sort', sortOrder);
+    if (limitStr) params.set('limit', limitStr);
+    if (showFavs) params.set('fav', 'true');
+
+    const categories = ['machine', 'tool', 'type', 'official', 'difficulty', 'cost', 'language'];
+    categories.forEach(cat => {
+        if (activeFilters[cat].size > 0) {
+            params.set('inc_' + cat, Array.from(activeFilters[cat]).join('|'));
+        }
+        if (excludedFilters[cat].size > 0) {
+            params.set('exc_' + cat, Array.from(excludedFilters[cat]).join('|'));
+        }
+    });
+
+    const newUrl = window.location.pathname + (params.toString() ? '?' + params.toString() : '') + window.location.hash;
+    window.history.replaceState(null, '', newUrl);
 }
 
 // Rendering Logic
