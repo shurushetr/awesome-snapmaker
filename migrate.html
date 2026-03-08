@@ -359,8 +359,11 @@
             const getChecked = (name) => Array.from(document.querySelectorAll(`input[name="${name}"]:checked`)).map(el => el.value);
             
             const title = getVal('title');
-            if (!title) {
-                alert('Title is required to generate the ID!');
+            const desc = getVal('description');
+            const originalLink = getVal('original_link');
+
+            if (!title || !desc || !originalLink) {
+                alert('Please fill out the Title, Description, and Original Link fields before generating!');
                 return;
             }
 
@@ -391,13 +394,19 @@
             };
 
             yaml += `  title: ${safeYamlStr(title)}\n`;
+            yaml += `  description: ${safeYamlStr(desc)}\n`;
             
-            const desc = getVal('description');
-            if (desc) yaml += `  description: ${safeYamlStr(desc)}\n`;
-            
-            yaml += `  author_name: ${safeYamlStr(getVal('author_name'))}\n`;
-            yaml += `  author_link: ${getVal('author_link')}\n`;
-            yaml += `  original_link: ${getVal('original_link')}\n`;
+            let authorName = getVal('author_name');
+            let authorLink = getVal('author_link');
+
+            if (!authorName && !authorLink) {
+                authorName = 'Community';
+                authorLink = 'https://forum.snapmaker.com/';
+            }
+
+            yaml += `  author_name: ${safeYamlStr(authorName)}\n`;
+            if (authorLink) yaml += `  author_link: ${authorLink}\n`;
+            yaml += `  original_link: ${originalLink}\n`;
             yaml += `  date_added: '${today}'\n`;
             yaml += `  difficulty: ${getVal('difficulty')}\n`;
             yaml += `  cost: ${getVal('cost')}\n`;
