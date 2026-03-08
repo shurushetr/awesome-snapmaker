@@ -201,29 +201,33 @@ a:hover {
     width: 100%;
 }
 
-.tag-filters label.included {
+.tag-filters .filter-btn.included {
     background-color: rgba(16, 185, 129, 0.15); /* light green */
     color: #10b981;
     border-color: #10b981;
 }
 
-.tag-filters label.excluded {
+.tag-filters .filter-btn.excluded {
     background-color: rgba(239, 68, 68, 0.15); /* light red */
     color: #ef4444;
     text-decoration: line-through;
     border-color: #ef4444;
 }
 
-.tag-filters label {
+.tag-filters .filter-btn {
     display: flex;
     align-items: center;
     gap: 0.25rem;
     font-weight: normal;
     background-color: var(--secondary-bg);
+    color: var(--text-color);
+    font-family: inherit;
     padding: 0.25rem 0.5rem;
     border-radius: 4px;
     cursor: pointer;
     font-size: 0.9rem;
+    border: 1px solid transparent;
+    transition: all 0.2s;
 }
 
 .filter-actions {

@@ -162,19 +162,15 @@ function setupFilters() {
 
 function createCheckboxGroup(container, category, tags) {
     tags.forEach(tag => {
-        const label = document.createElement('label');
-        label.className = 'checkbox-wrapper';
-        
-        const checkbox = document.createElement('input');
-        checkbox.type = 'checkbox';
-        checkbox.value = tag;
-        checkbox.dataset.category = category;
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'filter-btn';
+        btn.dataset.value = tag;
+        btn.dataset.category = category;
+        btn.textContent = tag;
 
-        label.addEventListener('click', handleFilterClick);
-
-        label.appendChild(checkbox);
-        label.appendChild(document.createTextNode(tag));
-        container.appendChild(label);
+        btn.addEventListener('click', handleFilterClick);
+        container.appendChild(btn);
     });
 }
 
@@ -264,32 +260,26 @@ function setupEventListeners() {
 }
 
 function handleFilterClick(e) {
-    e.preventDefault(); // Stop native checkbox toggle and double-firing
+    e.preventDefault();
 
-    const label = e.currentTarget;
-    const checkbox = label.querySelector('input[type="checkbox"]');
-    if (!checkbox) return;
-    
-    const category = checkbox.dataset.category;
-    const value = checkbox.value;
+    const btn = e.currentTarget;
+    const category = btn.dataset.category;
+    const value = btn.dataset.value;
 
     if (activeFilters[category].has(value)) {
         // State 1: Was Included -> Become Excluded
         activeFilters[category].delete(value);
         excludedFilters[category].add(value);
-        checkbox.checked = false; 
-        label.classList.remove('included');
-        label.classList.add('excluded');
+        btn.classList.remove('included');
+        btn.classList.add('excluded');
     } else if (excludedFilters[category].has(value)) {
         // State 2: Was Excluded -> Become Neutral
         excludedFilters[category].delete(value);
-        label.classList.remove('excluded');
-        checkbox.checked = false;
+        btn.classList.remove('excluded');
     } else {
         // State 0: Was Neutral -> Become Included
         activeFilters[category].add(value);
-        checkbox.checked = true;
-        label.classList.add('included');
+        btn.classList.add('included');
     }
     
     applyFiltersAndRender();
@@ -312,10 +302,9 @@ function clearAllFilters() {
     excludedFilters.cost.clear();
     excludedFilters.language.clear();
 
-    document.querySelectorAll('.tag-filters input[type="checkbox"]').forEach(cb => cb.checked = false);
-    document.querySelectorAll('.tag-filters label.checkbox-wrapper').forEach(lbl => {
-        lbl.classList.remove('excluded');
-        lbl.classList.remove('included');
+    document.querySelectorAll('.tag-filters button.filter-btn').forEach(btn => {
+        btn.classList.remove('excluded');
+        btn.classList.remove('included');
     });
     DOM.searchInput.value = '';
     DOM.sortSelect.value = 'newest';
