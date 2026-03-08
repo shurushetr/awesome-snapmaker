@@ -976,6 +976,7 @@ records:
     - DISCUSSION
     - ARTICLE
     - DOWNLOAD
+    - MODS
     official_flag:
     - UNOFFICIAL
   extra_buttons:
@@ -1145,4 +1146,53 @@ records:
     link: https://github.com/shurushetr/awesome-snapmaker/blob/main/files/Fusion360_Machine_Model/Snapmaker_2.0_A350T_CTZ.mch
   - label: STEP file for the model
     link: https://github.com/shurushetr/awesome-snapmaker/blob/main/files/Fusion360_Machine_Model/Snapmaker_2.0_A350T_CTZ%20v3.9.7z
+
+- id: send-machine-status-to-home-assistant-3f21
+  title: Send machine status to Home Assistant
+  description: You can recieve notification when your job is finished to your phone!
+  author_name: NightCrawler
+  author_link: https://forum.snapmaker.com/u/NightCrawler
+  original_link: https://www.steffr.ch/snapmaker-2-0-and-home-assistant/
+  date_added: '2026-03-08'
+  difficulty: INTERMEDIATE
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - COMBINED
+    record_type:
+    - DISCUSSION
+    - ARTICLE
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Home Assistant
+  extra_buttons:
+  - label: Forum Discussion
+    link: https://forum.snapmaker.com/t/do-snapmaker-2-0-devices-have-a-webpage/5455/55
+
+- id: enclosure-mods-including-flame-sensor-18d8
+  title: Enclosure mods including flame sensor
+  description: Not a guide but demo of a what is possible setup made by a communty member.
+  author_name: Pivio Du Yvio
+  author_link: https://www.facebook.com/groups/371401856611467/user/720377556/
+  original_link: https://forum.snapmaker.com/t/facbook-post-repost-next-level-enclosure-mods/32637
+  date_added: '2026-03-08'
+  difficulty: INTERMEDIATE
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - COMBINED
+    record_type:
+    - DISCUSSION
+    - ARTICLE
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Home Assistant
 
