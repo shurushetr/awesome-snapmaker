@@ -1614,6 +1614,51 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ---
 
+#### [Snapmaker2 update bundle tools](https://github.com/zauguin/SnapmakerUpdate)
+> Toolkit to assemble snapmaker firmware, created by
+
+**Content Author:** zauguin | **Added:** 2026-03-08
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, FIRMWARE, MODS, UNOFFICIAL
+
+---
+
+#### [CNC Bracing For Added Rigidity & Other Mods](https://forum.snapmaker.com/t/cnc-bracing-for-added-rigidity-other-mods/29444)
+> Collection of mods designed by
+
+**Content Author:** Elliot | **Added:** 2026-03-08
+
+**Tags:** BEGINNER, FREE, SM_2.0, CNC, DISCUSSION, MODS, UNOFFICIAL
+
+---
+
+#### [Snapmaker 2.0 Cable Chain Brackets](https://www.thingiverse.com/thing:4909694)
+> Stop your cables from flopping around during the print - reduce kinks and damage.
+
+**Content Author:** BluegrassBlaster | **Added:** 2026-03-08
+
+**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, MODS, UNOFFICIAL
+
+---
+
+#### [Minimize bed rocking along Y axis at the forum](https://forum.snapmaker.com/t/minimize-rocking/19215/)
+> The biggest problem with the platform is its unstable bed that gets worse over time. Using pair of SBR16-800mm rails and printed adapters - this becomes a thing of a past.
+
+**Content Author:** Community | **Added:** 2026-03-08
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, FDM, LASER, CNC, MODS, UNOFFICIAL
+
+---
+
+#### [Related to bed rocking - adjusting bearings in linear module](https://support.snapmaker.com/hc/en-us/articles/1500000110341-What-should-I-do-when-the-slider-of-the-Linear-Module-comes-loose-)
+> Adjusting bearings in linear module - official guide on how to disassemble the linear module and adjust bearings.
+
+**Content Author:** Snapmaker | **Added:** 2026-03-08
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, FDM, LASER, CNC, ARTICLE, REPAIR, UNOFFICIAL
+
+---
+
 #### [Snapmaker 2.0 CNC Quick Start Guide](https://support.snapmaker.com/hc/en-us/articles/360041252474-Snapmaker-2-0-CNC-V1-0-0)
 > How to quickly start with CNC engraving on Snapmaker 2.0
 
@@ -2025,6 +2070,51 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ---
 
+#### [Snapmaker2 update bundle tools](https://github.com/zauguin/SnapmakerUpdate)
+> Toolkit to assemble snapmaker firmware, created by
+
+**Content Author:** zauguin | **Added:** 2026-03-08
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, FIRMWARE, MODS, UNOFFICIAL
+
+---
+
+#### [Use Dual Extruder to autolevel on any surface](https://github.com/Maycuz/Snapmaker2-Controller)
+> Read the readme.
+
+**Content Author:** Mayco | **Added:** 2026-03-08
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, FDM, DOWNLOAD, FIRMWARE, MODS, UNOFFICIAL
+
+---
+
+#### [Snapmaker 2.0 Cable Chain Brackets](https://www.thingiverse.com/thing:4909694)
+> Stop your cables from flopping around during the print - reduce kinks and damage.
+
+**Content Author:** BluegrassBlaster | **Added:** 2026-03-08
+
+**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, MODS, UNOFFICIAL
+
+---
+
+#### [Minimize bed rocking along Y axis at the forum](https://forum.snapmaker.com/t/minimize-rocking/19215/)
+> The biggest problem with the platform is its unstable bed that gets worse over time. Using pair of SBR16-800mm rails and printed adapters - this becomes a thing of a past.
+
+**Content Author:** Community | **Added:** 2026-03-08
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, FDM, LASER, CNC, MODS, UNOFFICIAL
+
+---
+
+#### [Related to bed rocking - adjusting bearings in linear module](https://support.snapmaker.com/hc/en-us/articles/1500000110341-What-should-I-do-when-the-slider-of-the-Linear-Module-comes-loose-)
+> Adjusting bearings in linear module - official guide on how to disassemble the linear module and adjust bearings.
+
+**Content Author:** Snapmaker | **Added:** 2026-03-08
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, FDM, LASER, CNC, ARTICLE, REPAIR, UNOFFICIAL
+
+---
+
 #### [Snapmaker 2.0 3D Printing Quick Start Guide](https://support.snapmaker.com/hc/en-us/articles/360041733553-Snapmaker-2-0-3D-Printing-V1-0-0)
 > Official Quick Start Guide for 3D printing with Snapmaker 2.0
 
@@ -2350,6 +2440,42 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 **Content Author:** nweolu | **Added:** 2026-03-08
 
 **Tags:** INTERMEDIATE, FREE, SM_2.0, FDM, LASER, CNC, REPAIR, OFFICIAL
+
+---
+
+#### [Snapmaker2 update bundle tools](https://github.com/zauguin/SnapmakerUpdate)
+> Toolkit to assemble snapmaker firmware, created by
+
+**Content Author:** zauguin | **Added:** 2026-03-08
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, FIRMWARE, MODS, UNOFFICIAL
+
+---
+
+#### [Snapmaker 2.0 Cable Chain Brackets](https://www.thingiverse.com/thing:4909694)
+> Stop your cables from flopping around during the print - reduce kinks and damage.
+
+**Content Author:** BluegrassBlaster | **Added:** 2026-03-08
+
+**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, MODS, UNOFFICIAL
+
+---
+
+#### [Minimize bed rocking along Y axis at the forum](https://forum.snapmaker.com/t/minimize-rocking/19215/)
+> The biggest problem with the platform is its unstable bed that gets worse over time. Using pair of SBR16-800mm rails and printed adapters - this becomes a thing of a past.
+
+**Content Author:** Community | **Added:** 2026-03-08
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, FDM, LASER, CNC, MODS, UNOFFICIAL
+
+---
+
+#### [Related to bed rocking - adjusting bearings in linear module](https://support.snapmaker.com/hc/en-us/articles/1500000110341-What-should-I-do-when-the-slider-of-the-Linear-Module-comes-loose-)
+> Adjusting bearings in linear module - official guide on how to disassemble the linear module and adjust bearings.
+
+**Content Author:** Snapmaker | **Added:** 2026-03-08
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, FDM, LASER, CNC, ARTICLE, REPAIR, UNOFFICIAL
 
 ---
 
