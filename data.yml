@@ -2274,3 +2274,270 @@ records:
     official_flag:
     - UNOFFICIAL
 
+- id: snapmaker2-update-bundle-tools-cd81
+  title: Snapmaker2 update bundle tools
+  description: Toolkit to assemble snapmaker firmware, created by
+  author_name: zauguin
+  author_link: https://github.com/zauguin
+  original_link: https://github.com/zauguin/SnapmakerUpdate
+  date_added: '2026-03-08'
+  difficulty: INTERMEDIATE
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - FDM
+    - LASER
+    - CNC
+    record_type:
+    - DOWNLOAD
+    - FIRMWARE
+    - MODS
+    official_flag:
+    - UNOFFICIAL
+
+- id: use-dual-extruder-to-autolevel-on-any-surface-f70d
+  title: Use Dual Extruder to autolevel on any surface
+  description: Read the readme.
+  author_name: Mayco
+  author_link: https://forum.snapmaker.com/u/Mayco
+  original_link: https://github.com/Maycuz/Snapmaker2-Controller
+  date_added: '2026-03-08'
+  difficulty: INTERMEDIATE
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - FDM
+    record_type:
+    - DOWNLOAD
+    - FIRMWARE
+    - MODS
+    official_flag:
+    - UNOFFICIAL
+  extra_buttons:
+  - label: Forum discussion
+    link: https://forum.snapmaker.com/t/dual-extruder-bed-leveling-with-nozzle-i-s-o-proximity-sensor/31613/16
+
+- id: cnc-bracing-for-added-rigidity-other-mods-e402
+  title: CNC Bracing For Added Rigidity & Other Mods
+  description: Collection of mods designed by
+  author_name: Elliot
+  author_link: https://forum.snapmaker.com/u/Elliot
+  original_link: https://forum.snapmaker.com/t/cnc-bracing-for-added-rigidity-other-mods/29444
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - CNC
+    record_type:
+    - DISCUSSION
+    - MODS
+    official_flag:
+    - UNOFFICIAL
+
+- id: snapmaker-2-0-cable-chain-brackets-ed3c
+  title: Snapmaker 2.0 Cable Chain Brackets
+  description: Stop your cables from flopping around during the print - reduce kinks and damage.
+  author_name: BluegrassBlaster
+  author_link: https://www.thingiverse.com/BluegrassBlaster
+  original_link: https://www.thingiverse.com/thing:4909694
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - FDM
+    - LASER
+    - CNC
+    record_type:
+    - MODS
+    official_flag:
+    - UNOFFICIAL
+
+- id: minimize-bed-rocking-along-y-axis-at-the-forum-8e2e
+  title: Minimize bed rocking along Y axis at the forum
+  description: The biggest problem with the platform is its unstable bed that gets worse over time. Using pair of SBR16-800mm rails and printed adapters - this becomes a thing of a past.
+  author_name: Community
+  author_link: https://forum.snapmaker.com/
+  original_link: https://forum.snapmaker.com/t/minimize-rocking/19215/
+  date_added: '2026-03-08'
+  difficulty: INTERMEDIATE
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - FDM
+    - LASER
+    - CNC
+    record_type:
+    - MODS
+    official_flag:
+    - UNOFFICIAL
+  extra_buttons:
+  - label: Adapters
+    link: https://www.thingiverse.com/thing:6104662
+
+- id: related-to-bed-rocking-adjusting-bearings-in-linear-module-af60
+  title: Related to bed rocking - adjusting bearings in linear module
+  description: Adjusting bearings in linear module - official guide on how to disassemble the linear module and adjust bearings.
+  author_name: Snapmaker
+  author_link: snapmaker.com
+  original_link: https://support.snapmaker.com/hc/en-us/articles/1500000110341-What-should-I-do-when-the-slider-of-the-Linear-Module-comes-loose-
+  date_added: '2026-03-08'
+  difficulty: INTERMEDIATE
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - FDM
+    - LASER
+    - CNC
+    record_type:
+    - ARTICLE
+    - REPAIR
+    official_flag:
+    - UNOFFICIAL
+
+- id: diy-fumes-filtration-system-bentobox-cad9
+  title: DIY Fumes Filtration system - BentoBox
+  description: BentoBox - Closedloop, combines a HEPA filter and an activated carbon filter.
+  author_name: thrutheframe
+  author_link: https://www.printables.com/@thrutheframe
+  original_link: https://www.printables.com/model/272525-bentobox-v20-carbon-filter-for-bambu-lab-x1c-enclo
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    machine_tool_type:
+    - FDM
+    record_type:
+    - MODS
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Enclosure
+    - Fumes
+    - Filtration
+
+- id: diy-fumes-filtration-system-nevermore-9071
+  title: DIY Fumes Filtration system - NeverMore
+  description: NeverMore - Opensource closedloop activated carbon filtration system. Also check out other sizes in the same repository.
+  author_name: nevermore3d
+  author_link: https://github.com/nevermore3d
+  original_link: https://github.com/nevermore3d/Nevermore_Micro
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - U1
+    - J1/J1s
+    machine_tool_type:
+    - FDM
+    record_type:
+    - MODS
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Enclosure
+    - Fumes
+    - Filtration
+
+- id: diy-fumes-filtration-system-3d-printer-enclosure-air-filter-4c03
+  title: DIY Fumes Filtration system - 3D Printer Enclosure Air Filter
+  description: 3D Printer Enclosure Air Filter - Largest filtration media size - 400 hours of print with one filter, advanced module for efficient filtration.
+  author_name: Indeterminate Design
+  author_link: https://www.printables.com/@Indeterminate_550491
+  original_link: https://www.printables.com/model/445976-3d-printer-enclosure-air-filter
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    machine_tool_type:
+    - FDM
+    record_type:
+    - MODS
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Enclosure
+    - Fumes
+    - Filtration
+
+- id: diy-enclosure-controls-452c
+  title: DIY Enclosure controls
+  description: Awesome project by Ronin
+  author_name: Ronin
+  author_link: https://forum.snapmaker.com/u/Ronin
+  original_link: https://forum.snapmaker.com/t/diy-enclosure-controller-prototype-on-arduino/22094
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - FDM
+    - LASER
+    - CNC
+    record_type:
+    - DISCUSSION
+    - DOWNLOAD
+    - MODS
+    - VIDEO
+    official_flag:
+    - UNOFFICIAL
+  extra_buttons:
+  - label: Video & Files
+    link: https://www.youtube.com/watch?v=9gOlhEzB8m4
+    free_tags:
+    - Enclosure
+- id: all-metal-hot-end-simple-mod-for-sm2-0-17ab
+  title: All metal hot end simple mod for SM2.0
+  description: Write-up by @Franky followed by discussion about installing all metal heat break.
+  author_name: Franky
+  author_link: https://forum.snapmaker.com/u/Franky
+  original_link: https://forum.snapmaker.com/t/fyi-snapmaker-2-all-metal-hotend-simple-mod/10046/63
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - FDM
+    record_type:
+    - DISCUSSION
+    - MODS
+    official_flag:
+    - UNOFFICIAL
+
