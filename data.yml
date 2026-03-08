@@ -1431,4 +1431,266 @@ records:
     free_tags:
     - PCB
 
+- id: caligrapher-cfe7
+  title: Caligrapher
+  description: Handwriting generator with SVG export that you can use to create with Laser, 3D printing or CNC.
+  author_name: UNKNOWN
+  author_link: https://www.calligrapher.ai/
+  original_link: https://www.calligrapher.ai/
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - UNIVERSAL
+    machine_tool_type:
+    - FDM
+    - LASER
+    - CNC
+    - ROTARY
+    - COMBINED
+    record_type:
+    - CREATE
+    - DOWNLOAD
+    - ONLINE TOOL
+    official_flag:
+    - UNOFFICIAL
+
+- id: stl2png-heightmap-depth-map-generator-d348
+  title: STL2PNG heightmap (depth map) generator
+  description: This website lets you convert STL files to PNG height images. You can use them for Laser or CNC jobs.
+  author_name: fenrus75
+  author_link: https://github.com/fenrus75/
+  original_link: https://fenrus75.github.io/FenrusCNCtools/javascript/stl2png.html
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - RAY
+    machine_tool_type:
+    - LASER
+    - CNC
+    record_type:
+    - CREATE
+    - DOWNLOAD
+    - ONLINE TOOL
+    official_flag:
+    - UNOFFICIAL
+  extra_buttons:
+  - label: Use Example
+    link: https://www.youtube.com/watch?v=O01POwqfMbQ
+
+- id: heightmaps-to-stl-d33f
+  title: HeightMaps to STL
+  description: Use this free and fast online tool to convert your PNG and JPG 2D heightmap images or logo into 3D STL (stereolithography) mesh/model files suitable for printing with a 3D printer, CNC machining, or for loading into your favorite 3D editing package.
+  author_name: ImageToStl
+  author_link: https://imagetostl.com/
+  original_link: https://imagetostl.com/
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - UNIVERSAL
+    machine_tool_type:
+    - FDM
+    record_type:
+    - CREATE
+    - DOWNLOAD
+    - ONLINE TOOL
+    official_flag:
+    - UNOFFICIAL
+
+- id: watertight-outdoor-enclosure-generator-62ab
+  title: Watertight outdoor enclosure generator
+  description: EasyEnclosure is an open-source 3D modeling software tailored specifically for designing 3D-printable enclosures.
+  author_name: bruceborrett
+  author_link: https://github.com/bruceborrett
+  original_link: https://bruceborrett.github.io/easy-enclosure/
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - U1
+    - J1/J1s
+    machine_tool_type:
+    - FDM
+    record_type:
+    - CREATE
+    - DOWNLOAD
+    - ONLINE TOOL
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - WATER TIGHT
+    - ENCLOSURE
+
+- id: dildo-generator-fb15
+  title: Dildo generator
+  description: To make molds, lined with wax and pour silicone dildos or other objects.
+  author_name: IkarosKappler
+  author_link: https://github.com/IkarosKappler
+  original_link: http://dildo-generator.com/
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - U1
+    - J1/J1s
+    machine_tool_type:
+    - FDM
+    record_type:
+    - CREATE
+    - DOWNLOAD
+    - ONLINE TOOL
+    official_flag:
+    - UNOFFICIAL
+
+- id: lithophanes-0168
+  title: Lithophanes
+  description: All you need for lithophanes in one place.
+  author_name: Community
+  author_link: https://forum.snapmaker.com/
+  original_link: https://lithophanemaker.com/
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - U1
+    - J1/J1s
+    machine_tool_type:
+    - FDM
+    record_type:
+    - CREATE
+    - DOWNLOAD
+    - ONLINE TOOL
+    official_flag:
+    - UNOFFICIAL
+
+- id: itslitho-305b
+  title: ItsLitho
+  description: Another lithophane generator.
+  author_name: ItsLitho
+  author_link: https://www.facebook.com/groups/Itslitho/
+  original_link: https://itslitho.com/
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - U1
+    - J1/J1s
+    machine_tool_type:
+    - FDM
+    record_type:
+    - CREATE
+    - DOWNLOAD
+    - ONLINE TOOL
+    official_flag:
+    - UNOFFICIAL
+
+- id: full-control-g-code-603d
+  title: Full control G-Code
+  description: This is not for the faint of heart. God level 3d models generator.
+  author_name: AndyGlx
+  author_link: https://github.com/AndyGlx
+  original_link: http://fullcontrolgcode.com/
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - U1
+    - J1/J1s
+    machine_tool_type:
+    - FDM
+    record_type:
+    - CREATE
+    - DOWNLOAD
+    - ONLINE TOOL
+    official_flag:
+    - UNOFFICIAL
+  extra_buttons:
+  - label: Use Example
+    link: https://www.youtube.com/watch?v=ZgytQDoaD5M
+
+- id: tray-generator-aebc
+  title: Tray generator
+  description: Make up any tray in a few minutes with or without lids.
+  author_name: sgenoud
+  author_link: https://github.com/sgenoud
+  original_link: https://deckinabox.sgenoud.com/
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - U1
+    - J1/J1s
+    machine_tool_type:
+    - FDM
+    record_type:
+    - CREATE
+    - DOWNLOAD
+    - ONLINE TOOL
+    official_flag:
+    - UNOFFICIAL
+  extra_buttons:
+  - label: Support this
+    link: https://ko-fi.com/stevegenoud
+
+- id: cookie-cutter-generator-ad19
+  title: Cookie Cutter Generator
+  description: Turn an image into a cookie cutter by uploading it.
+  author_name: Cookiecad LLC
+  original_link: https://app.cookiecad.com/
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - U1
+    - J1/J1s
+    machine_tool_type:
+    - FDM
+    record_type:
+    - CREATE
+    - DOWNLOAD
+    - ONLINE TOOL
+    official_flag:
+    - UNOFFICIAL
+  extra_buttons:
+  - label: Community
+    link: https://community.cookiecad.com/
+
 
