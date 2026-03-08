@@ -2677,3 +2677,75 @@ records:
     - UNOFFICIAL
     free_tags:
     - this stuff works
+
+### Manual Entries
+- id: snapmaker-2-0-wiki-db26
+  title: Snapmaker 2.0 WIKI
+  description: Official wiki dedicated to Snapmaker 2.0 machines
+  author_name: Snapmaker
+  author_link: snapmaker.com
+  original_link: https://wiki.snapmaker.com/en/Snapmaker_2
+  date_added: '2026-03-07'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - COMBINED
+    record_type:
+    - ARTICLE
+    official_flag:
+    - OFFICIAL
+    free_tags:
+    - WIKI
+
+- id: snapmaker-2-0-3d-printing-quick-start-guide-5604
+  title: Snapmaker 2.0 3D Printing Quick Start Guide
+  description: Official Quick Start Guide for 3D printing with Snapmaker 2.0
+  author_name: Snapmaker
+  author_link: snapmaker.com
+  original_link: https://support.snapmaker.com/hc/en-us/articles/360041733553-Snapmaker-2-0-3D-Printing-V1-0-0
+  date_added: '2026-03-07'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - FDM
+    record_type:
+    - ARTICLE
+    official_flag:
+    - OFFICIAL
+    free_tags:
+    - WIKI
+    - Academy
+
+- id: 3d-printing-tips-tricks-from-snapmaker-2198
+  title: 3D Printing tips&tricks from Snapmaker
+  description: Snapmaker Academy - resource full of tips and tricks related to 3D printing.
+  author_name: Snapmaker
+  author_link: snapmaker.com
+  original_link: https://support.snapmaker.com/hc/en-us/sections/360008076253-3D-Printing
+  date_added: '2026-03-08'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - U1
+    - UNIVERSAL
+    machine_tool_type:
+    - FDM
+    record_type:
+    - ARTICLE
+    official_flag:
+    - OFFICIAL
+    free_tags:
+    - Academy
+

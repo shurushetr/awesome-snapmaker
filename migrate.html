@@ -345,6 +345,11 @@
             }
             output.textContent += yaml + '\n';
             document.getElementById('copy-btn').style.display = 'block';
+
+            // Auto-clear specific fields for faster batch entry
+            document.getElementById('title').value = '';
+            document.getElementById('description').value = '';
+            document.getElementById('original_link').value = '';
         }
     </script>
 </body>
