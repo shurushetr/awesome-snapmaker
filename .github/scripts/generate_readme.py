@@ -7,14 +7,15 @@ machine categories and tool types, and renders a clean Markdown document
 with a responsive table of contents.
 """
 
-import yaml
+from ruamel.yaml import YAML
 import os
 import sys
 
 def generate_readme():
     try:
+        yaml = YAML(typ='safe')
         with open('data.yml', 'r', encoding='utf-8') as f:
-            data = yaml.safe_load(f)
+            data = yaml.load(f)
     except Exception as e:
         print(f"Error reading data.yml: {e}")
         sys.exit(1)

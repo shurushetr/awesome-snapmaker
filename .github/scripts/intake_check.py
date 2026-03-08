@@ -1,14 +1,14 @@
 """
 intake_check.py
 
-This script operates as a preliminary check when a user opens a new Issue to submit a resource.
+This script operates as a preliminary check when a user opens a new Issue via the `1-submit-resource.yml` template to submit a resource.
 It extracts the provided "Content Link" and normalizes it by removing queries, trailing slashes, and `www.` prefixes. It then checks if the resource already exists in `data.yml`.
 If a duplicate is found, the workflow uses this script's output to auto-comment and close the issue.
 """
 
 import os
 import sys
-import yaml
+from ruamel.yaml import YAML
 import re
 from urllib.parse import urlparse, urlunparse
 
@@ -72,8 +72,9 @@ def check_for_duplicates(new_url, data_file='data.yml'):
         return False, None
 
     try:
+        yaml = YAML(typ='safe')
         with open(data_file, 'r', encoding='utf-8') as f:
-            data = yaml.safe_load(f)
+            data = yaml.load(f)
     except Exception as e:
         print(f"Error reading data.yml: {e}")
         # Fail open (assume not duplicate if file cant be read)

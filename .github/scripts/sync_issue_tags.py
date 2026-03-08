@@ -2,7 +2,7 @@
 sync_issue_tags.py
 
 This script reads the explicitly allowed categories (Machine Type, Tool Type, etc.)
-from `data.yml` and updates the GitHub Issue templates (`.github/ISSUE_TEMPLATE/*.yml`).
+from `data.yml` and updates the GitHub Issue templates (e.g., `.github/ISSUE_TEMPLATE/1-submit-resource.yml` and `.github/ISSUE_TEMPLATE/2-modify-remove-resource.yml`).
 This guarantees that the dropdown checkboxes presented to users when submitting 
 issues stay perfectly synchronized with the supported tags on the website.
 """
