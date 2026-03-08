@@ -82,6 +82,15 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ---
 
+#### [Direct communication over serial port](https://forum.snapmaker.com/t/android-cell-phone-terminal-console/12838/6)
+> Using the MINI-USB port, you can connect to machines console (like with Luban) to run commands directly. This post shows settings for Putty - terminal app. Snapmaker has simple serial to USB converter inside.
+
+**Content Author:** Community | **Added:** 2026-03-08
+
+**Tags:** BEGINNER, FREE, ARTISAN, CNC, DISCUSSION, UNOFFICIAL, this shit works, this is a free tag
+
+---
+
 ### COMBINED
 
 #### [Snapmaker Luban](https://forum.snapmaker.com/t/snapmaker-luban-downloads-and-updates/4949)
