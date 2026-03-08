@@ -1585,6 +1585,35 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ---
 
+#### [Snapmaker 2.0 LCD Pinout - if the plug is borken](snapmaker.com)
+> The following table was complied based on images shared by Snapmaker Team. You can find the images after the table.
+
+| No | Wire Insulation Color | Signal | Connector A Pin | Connector B Pin |
+| --- | :--- | --- | :---:  | :---: |
+| 1 | Uninsulated | GND | Iron Shell | Iron Shell |
+| 2 | RED 🟥| USB_VBUS | A8 | B8 |
+| 3 | GRAY 🩶| USB_DM | A7 | B7 |
+| 4 | BROWN 🟫| USB_DP | A6 | B6 |
+| 5 | PINK 🩷| USB_ID | A11 | B11 |
+| 6 | BLACK ⬛| GND | A1, A12 | B1,B12 |
+| 7 | BLUE 🟦| GND | A1,A12 | B1,B12 |
+| 8 | WHITE ⬜| SC_RxD | A2 | B2 |
+| 9 | GREEN 🟩| SC_TxD | A3 | B3 |
+| 10 | YELLOW 🟨| SC_DET | A10 | B10 |
+| 11 | PURPLE 🟪| 5V_LCM | A4 | B4 |
+| 12 | ORANGE 🟧| 5V_LCM | A9 | B9 |
+
+#### Reference images
+- [LCD_Screen](/images/Snapmaker_Parts/SP_2.0/LCD_Connector/Pinout_Ref_Img_1_LCD_Screen.jpg)
+- [Plug](/images/Snapmaker_Parts/SP_2.0/LCD_Connector/Pinout_Ref_Img_2_Plug.jpg)
+- [Pin_Out](/images/Snapmaker_Parts/SP_2.0/LCD_Connector/Pinout_Ref_Img_3_Pinout.jpg)
+
+**Content Author:** nweolu | **Added:** 2026-03-08
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, FDM, LASER, CNC, REPAIR, OFFICIAL
+
+---
+
 #### [Snapmaker 2.0 CNC Quick Start Guide](https://support.snapmaker.com/hc/en-us/articles/360041252474-Snapmaker-2-0-CNC-V1-0-0)
 > How to quickly start with CNC engraving on Snapmaker 2.0
 
@@ -1967,6 +1996,35 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ---
 
+#### [Snapmaker 2.0 LCD Pinout - if the plug is borken](snapmaker.com)
+> The following table was complied based on images shared by Snapmaker Team. You can find the images after the table.
+
+| No | Wire Insulation Color | Signal | Connector A Pin | Connector B Pin |
+| --- | :--- | --- | :---:  | :---: |
+| 1 | Uninsulated | GND | Iron Shell | Iron Shell |
+| 2 | RED 🟥| USB_VBUS | A8 | B8 |
+| 3 | GRAY 🩶| USB_DM | A7 | B7 |
+| 4 | BROWN 🟫| USB_DP | A6 | B6 |
+| 5 | PINK 🩷| USB_ID | A11 | B11 |
+| 6 | BLACK ⬛| GND | A1, A12 | B1,B12 |
+| 7 | BLUE 🟦| GND | A1,A12 | B1,B12 |
+| 8 | WHITE ⬜| SC_RxD | A2 | B2 |
+| 9 | GREEN 🟩| SC_TxD | A3 | B3 |
+| 10 | YELLOW 🟨| SC_DET | A10 | B10 |
+| 11 | PURPLE 🟪| 5V_LCM | A4 | B4 |
+| 12 | ORANGE 🟧| 5V_LCM | A9 | B9 |
+
+#### Reference images
+- [LCD_Screen](/images/Snapmaker_Parts/SP_2.0/LCD_Connector/Pinout_Ref_Img_1_LCD_Screen.jpg)
+- [Plug](/images/Snapmaker_Parts/SP_2.0/LCD_Connector/Pinout_Ref_Img_2_Plug.jpg)
+- [Pin_Out](/images/Snapmaker_Parts/SP_2.0/LCD_Connector/Pinout_Ref_Img_3_Pinout.jpg)
+
+**Content Author:** nweolu | **Added:** 2026-03-08
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, FDM, LASER, CNC, REPAIR, OFFICIAL
+
+---
+
 #### [Snapmaker 2.0 3D Printing Quick Start Guide](https://support.snapmaker.com/hc/en-us/articles/360041733553-Snapmaker-2-0-3D-Printing-V1-0-0)
 > Official Quick Start Guide for 3D printing with Snapmaker 2.0
 
@@ -2263,6 +2321,35 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 **Content Author:** cyb0124 | **Added:** 2026-03-08
 
 **Tags:** ADVANCED, FREE, SM_2.0, FDM, LASER, CNC, REPAIR, UNOFFICIAL
+
+---
+
+#### [Snapmaker 2.0 LCD Pinout - if the plug is borken](snapmaker.com)
+> The following table was complied based on images shared by Snapmaker Team. You can find the images after the table.
+
+| No | Wire Insulation Color | Signal | Connector A Pin | Connector B Pin |
+| --- | :--- | --- | :---:  | :---: |
+| 1 | Uninsulated | GND | Iron Shell | Iron Shell |
+| 2 | RED 🟥| USB_VBUS | A8 | B8 |
+| 3 | GRAY 🩶| USB_DM | A7 | B7 |
+| 4 | BROWN 🟫| USB_DP | A6 | B6 |
+| 5 | PINK 🩷| USB_ID | A11 | B11 |
+| 6 | BLACK ⬛| GND | A1, A12 | B1,B12 |
+| 7 | BLUE 🟦| GND | A1,A12 | B1,B12 |
+| 8 | WHITE ⬜| SC_RxD | A2 | B2 |
+| 9 | GREEN 🟩| SC_TxD | A3 | B3 |
+| 10 | YELLOW 🟨| SC_DET | A10 | B10 |
+| 11 | PURPLE 🟪| 5V_LCM | A4 | B4 |
+| 12 | ORANGE 🟧| 5V_LCM | A9 | B9 |
+
+#### Reference images
+- [LCD_Screen](/images/Snapmaker_Parts/SP_2.0/LCD_Connector/Pinout_Ref_Img_1_LCD_Screen.jpg)
+- [Plug](/images/Snapmaker_Parts/SP_2.0/LCD_Connector/Pinout_Ref_Img_2_Plug.jpg)
+- [Pin_Out](/images/Snapmaker_Parts/SP_2.0/LCD_Connector/Pinout_Ref_Img_3_Pinout.jpg)
+
+**Content Author:** nweolu | **Added:** 2026-03-08
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, FDM, LASER, CNC, REPAIR, OFFICIAL
 
 ---
 
