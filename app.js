@@ -10,6 +10,15 @@ let activeFilters = {
     cost: new Set(),
     language: new Set()
 };
+let excludedFilters = {
+    machine: new Set(),
+    tool: new Set(),
+    type: new Set(),
+    official: new Set(),
+    difficulty: new Set(),
+    cost: new Set(),
+    language: new Set()
+};
 
 // DOM Elements
 const DOM = {
@@ -154,11 +163,14 @@ function setupFilters() {
 function createCheckboxGroup(container, category, tags) {
     tags.forEach(tag => {
         const label = document.createElement('label');
+        label.className = 'checkbox-wrapper';
+        
         const checkbox = document.createElement('input');
         checkbox.type = 'checkbox';
         checkbox.value = tag;
         checkbox.dataset.category = category;
-        checkbox.addEventListener('change', handleFilterChange);
+
+        label.addEventListener('click', handleFilterClick);
 
         label.appendChild(checkbox);
         label.appendChild(document.createTextNode(tag));
@@ -251,16 +263,35 @@ function setupEventListeners() {
     }
 }
 
-function handleFilterChange(e) {
-    const category = e.target.dataset.category;
-    const value = e.target.value;
-    const checked = e.target.checked;
+function handleFilterClick(e) {
+    e.preventDefault(); // Stop native checkbox toggle and double-firing
 
-    if (checked) {
-        activeFilters[category].add(value);
-    } else {
+    const label = e.currentTarget;
+    const checkbox = label.querySelector('input[type="checkbox"]');
+    if (!checkbox) return;
+    
+    const category = checkbox.dataset.category;
+    const value = checkbox.value;
+
+    if (activeFilters[category].has(value)) {
+        // State 1: Was Included -> Become Excluded
         activeFilters[category].delete(value);
+        excludedFilters[category].add(value);
+        checkbox.checked = false; 
+        label.classList.remove('included');
+        label.classList.add('excluded');
+    } else if (excludedFilters[category].has(value)) {
+        // State 2: Was Excluded -> Become Neutral
+        excludedFilters[category].delete(value);
+        label.classList.remove('excluded');
+        checkbox.checked = false;
+    } else {
+        // State 0: Was Neutral -> Become Included
+        activeFilters[category].add(value);
+        checkbox.checked = true;
+        label.classList.add('included');
     }
+    
     applyFiltersAndRender();
 }
 
