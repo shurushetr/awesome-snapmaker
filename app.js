@@ -114,17 +114,27 @@ async function init() {
     }
 }
 
+// Helper for URLs to ensure we don't accidentally treat hostnames as relative paths
+function ensureAbsoluteUrl(url) {
+    if (!url || url === '#') return '#';
+    url = url.trim();
+    if (/^(https?:\/\/|mailto:|tel:|tg:)/i.test(url)) {
+        return url;
+    }
+    return 'https://' + url;
+}
+
 // Setup Header Info
 function setupProjectInfo(info) {
     if (!info) return;
-    DOM.title.innerHTML = info.site_url ? `<a href="${info.site_url}" style="color: inherit; text-decoration: none;">${info.title}</a>` : info.title;
+    DOM.title.innerHTML = info.site_url ? `<a href="${ensureAbsoluteUrl(info.site_url)}" style="color: inherit; text-decoration: none;">${info.title}</a>` : info.title;
     DOM.description.textContent = info.description;
-    DOM.authorLink.href = info.author_link;
+    DOM.authorLink.href = ensureAbsoluteUrl(info.author_link);
     DOM.authorLink.textContent = `By ${info.author_name}`;
-    DOM.repoLink.href = info.repo_url;
+    DOM.repoLink.href = ensureAbsoluteUrl(info.repo_url);
     
     if (DOM.forumLink && info.forum_url) {
-        DOM.forumLink.href = info.forum_url;
+        DOM.forumLink.href = ensureAbsoluteUrl(info.forum_url);
     }
     
     DOM.headerBg.style.backgroundImage = `url('${info.hero_image}')`;
@@ -389,10 +399,10 @@ function renderRecords(records) {
         if (t.free_tags) t.free_tags.forEach(tag => tagsHtml += `<span class="tag">${tag}</span>`);
 
         // Generate Buttons HTML
-        let buttonsHtml = `<a href="${record.original_link}" class="btn primary-btn" target="_blank" rel="noopener noreferrer">View Resource</a>`;
+        let buttonsHtml = `<a href="${ensureAbsoluteUrl(record.original_link)}" class="btn primary-btn" target="_blank" rel="noopener noreferrer">View Resource</a>`;
         if (record.extra_buttons) {
             record.extra_buttons.slice(0, 2).forEach(btn => {
-                buttonsHtml += `<a href="${btn.link}" class="btn secondary-btn" target="_blank" rel="noopener noreferrer">${btn.label}</a>`;
+                buttonsHtml += `<a href="${ensureAbsoluteUrl(btn.link)}" class="btn secondary-btn" target="_blank" rel="noopener noreferrer">${btn.label}</a>`;
             });
         }
         
@@ -417,7 +427,7 @@ function renderRecords(records) {
                         </button>
                     </h3>
                     <div class="card-meta">
-                        Content Author: <a href="${record.author_link}" target="_blank" rel="noopener noreferrer">${record.author_name}</a> | Added: ${record.date_added}
+                        Content Author: <a href="${ensureAbsoluteUrl(record.author_link)}" target="_blank" rel="noopener noreferrer">${record.author_name}</a> | Added: ${record.date_added}
                     </div>
                 </div>
             ${descHtml}

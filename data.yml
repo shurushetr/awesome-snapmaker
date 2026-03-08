@@ -68,6 +68,8 @@ allowed_tags:
   - SHOP
   - FIRMWARE
   - MODS
+  - REPAIR
+  - CREATE
   official_flag:
   - OFFICIAL
   - UNOFFICIAL
