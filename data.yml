@@ -2813,5 +2813,25 @@ records:
     - OFFICIAL
     free_tags:
     - Academy
+- id: discussion-of-snapmaker-2-0-firmware-updates-d50b
+  title: Discussion of Snapmaker 2.0 Firmware Updates
+  description: Dedicated discussion topic to stable firmware updates.
+  author_name: Snapmaker
+  author_link: snapmaker.com
+  original_link: https://forum.snapmaker.com/t/discussion-of-snapmaker-2-0-firmware-updates/5441
+  date_added: '2026-03-07'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - COMBINED
+    record_type:
+    - FIRMWARE
+    official_flag:
+    - OFFICIAL
+
 
 
