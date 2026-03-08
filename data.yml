@@ -914,4 +914,71 @@ records:
     - UNOFFICIAL
     free_tags:
     - Connectivity
+- id: bed-leveling-revisited-detailed-6fca
+  title: Bed Leveling - Revisited & Detailed
+  description: Revisited & Detailed - Writeup by Mxbrnr about bed leveling and issues along the way.
+  author_name: Mxbrnr
+  author_link: https://forum.snapmaker.com/u/Mxbrnr
+  original_link: https://forum.snapmaker.com/t/bed-leveling-revisited-detailed/30508
+  date_added: '2026-03-08'
+  difficulty: INTERMEDIATE
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - FDM
+    record_type:
+    - DISCUSSION
+    - ARTICLE
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - bed leveling
+
+- id: 11x11-calibration-with-heated-bed-d384
+  title: 11x11 calibration with heated bed
+  description: How to run 11x11 bed leveling on Snapmaker 2.0
+  author_name: Hauke
+  author_link: https://forum.snapmaker.com/u/hauke
+  original_link: https://forum.snapmaker.com/t/11x11-calibration-with-heated-bed-possible/22426
+  date_added: '2026-03-08'
+  difficulty: INTERMEDIATE
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - FDM
+    record_type:
+    - DISCUSSION
+    official_flag:
+    - UNOFFICIAL
+
+- id: 3d-chameleon-for-multicolor-prints-with-snapmaker-2-0-and-single-extruder-2e54
+  title: 3D Chameleon for multicolor prints with Snapmaker 2.0 and single extruder
+  description: REPO plus forum topic for discussion
+  author_name: nweolu
+  author_link: https://forum.snapmaker.com/u/nweolu
+  original_link: https://github.com/shurushetr/3DChameleon_Snapmaker_2.0
+  date_added: '2026-03-08'
+  difficulty: ADVANCED
+  cost: PAID
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - FDM
+    record_type:
+    - DISCUSSION
+    - ARTICLE
+    - DOWNLOAD
+    official_flag:
+    - UNOFFICIAL
+  extra_buttons:
+  - label: Forum Discussion
+    link: https://forum.snapmaker.com/t/3d-chameleon-up-to-4-color-material-printing-with-single-extruder/37069/
 
