@@ -485,15 +485,6 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ---
 
-#### [Snapmaker2Slic3rPostProcessor](https://github.com/macdylan/Snapmaker2Slic3rPostProcessor)
-> A Snapmaker G-Code Post Processor for PrusaSlicer and SuperSlicer to create compatible files for Snapmaker Touchscreen. Like thumbnail of the print on the screen. Supports PrusaSlicer and SuperSlicer with Snapmaker 2 A150/250/350, J1, Artisan.
-
-**Content Author:** macdylan | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, J1/J1s, FDM, DOWNLOAD, UNOFFICIAL, Post Processor, G-Code
-
----
-
 #### [Teaching Tech 3D Printer Calibration](https://teachingtechyt.github.io/calibration.html)
 > The go to for proper calibration. Use CAUTION.
 
@@ -1571,15 +1562,6 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 ---
 
 ### FDM
-
-#### [Snapmaker2Slic3rPostProcessor](https://github.com/macdylan/Snapmaker2Slic3rPostProcessor)
-> A Snapmaker G-Code Post Processor for PrusaSlicer and SuperSlicer to create compatible files for Snapmaker Touchscreen. Like thumbnail of the print on the screen. Supports PrusaSlicer and SuperSlicer with Snapmaker 2 A150/250/350, J1, Artisan.
-
-**Content Author:** macdylan | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, J1/J1s, FDM, DOWNLOAD, UNOFFICIAL, Post Processor, G-Code
-
----
 
 #### [Snapmaker2Slic3rPostProcessor](https://github.com/macdylan/Snapmaker2Slic3rPostProcessor)
 > A Snapmaker G-Code Post Processor for PrusaSlicer and SuperSlicer to create compatible files for Snapmaker Touchscreen. Like thumbnail of the print on the screen. Supports PrusaSlicer and SuperSlicer with Snapmaker 2 A150/250/350, J1, Artisan.
@@ -3864,15 +3846,6 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 **Content Author:** Slynold | **Added:** 2026-03-09
 
 **Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, FDM, ARTICLE, DISCUSSION, UNOFFICIAL
-
----
-
-#### [Snapmaker2Slic3rPostProcessor](https://github.com/macdylan/Snapmaker2Slic3rPostProcessor)
-> A Snapmaker G-Code Post Processor for PrusaSlicer and SuperSlicer to create compatible files for Snapmaker Touchscreen. Like thumbnail of the print on the screen. Supports PrusaSlicer and SuperSlicer with Snapmaker 2 A150/250/350, J1, Artisan.
-
-**Content Author:** macdylan | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, J1/J1s, FDM, DOWNLOAD, UNOFFICIAL, Post Processor, G-Code
 
 ---
 
