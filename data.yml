@@ -5872,3 +5872,23 @@ records:
   - label: Forum Topic
     link: 
       https://forum.snapmaker.com/t/custom-firmware-for-snapmaker-u1-enhanced-features-webrtc-camera/40531/15
+- id: snapmaker-ray-owners-facebook-group-24
+  title: Snapmaker RAY Owners Facebook Group
+  description: Official community for owners of the Snapmaker Ray
+  author_name: Snapmaker
+  author_link: snapmaker.com
+  original_link: https://www.facebook.com/groups/snapmakerray
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  tags:
+    machine_type:
+    - RAY
+    machine_tool_type:
+    - LASER
+    record_type:
+    - DISCUSSION
+    official_flag:
+    - OFFICIAL
+    free_tags:
+    - Community
