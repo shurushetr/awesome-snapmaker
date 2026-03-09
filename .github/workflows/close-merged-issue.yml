@@ -16,19 +16,26 @@ jobs:
         uses: actions/github-script@v6
         with:
           script: |
-            // Fetch all commits in the merged PR
-            const commits = await github.rest.pulls.listCommits({
+            // Fetch all files modified in the merged PR to inspect the diff
+            const { data: files } = await github.rest.pulls.listFiles({
               owner: context.repo.owner,
               repo: context.repo.repo,
               pull_number: context.payload.pull_request.number,
             });
             
-            // Look for commit messages like "Add resource: #123" to find the issue numbers
+            const dataFile = files.find(f => f.filename === 'data.yml');
             const issueNumbers = new Set();
-            for (const item of commits.data) {
-              const match = item.commit.message.match(/Add resource: #(\d+)/);
-              if (match && match[1]) {
-                issueNumbers.add(parseInt(match[1], 10));
+            
+            // Parse the diff patch to find all the added records' issue numbers
+            if (dataFile && dataFile.patch) {
+              const lines = dataFile.patch.split('\n');
+              for (const line of lines) {
+                if (line.startsWith('+') && !line.startsWith('+++')) {
+                  const match = line.match(/^\+\s*-\s*id:\s*.*?-(\d+)\s*'?"?\s*$/);
+                  if (match && match[1]) {
+                    issueNumbers.add(parseInt(match[1], 10));
+                  }
+                }
               }
             }
             

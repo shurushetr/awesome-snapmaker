@@ -34,6 +34,7 @@ jobs:
         run: pip install ruamel.yaml
   
       - name: Process Issue Body
+        id: process_issue
         env:
           ISSUE_BODY: ${{ github.event.issue.body }}
           ISSUE_TITLE: ${{ github.event.issue.title }}
@@ -41,6 +42,7 @@ jobs:
         run: python .github/scripts/process_issue.py
 
       - name: Create Pull Request
+        if: steps.process_issue.outputs.is_duplicate != 'true'
         uses: peter-evans/create-pull-request@v5
         with:
           commit-message: "Add resource: #${{ github.event.issue.number }}"
@@ -56,18 +58,45 @@ jobs:
           
       - name: Comment and Cleanup Labels
         uses: actions/github-script@v6
+        env:
+          IS_DUPLICATE: ${{ steps.process_issue.outputs.is_duplicate }}
         with:
           script: |
-            // Comment on the issue
-            github.rest.issues.createComment({
-              issue_number: context.issue.number,
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              body: `Thanks for your submission! A Pull Request has been automatically created to add your resource into the database.`
-            });
+            const isDuplicate = process.env.IS_DUPLICATE === 'true';
+            
+            if (isDuplicate) {
+              await github.rest.issues.createComment({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: `This resource has already been submitted and exists in the database. Closing as duplicate.`
+              });
+              
+              await github.rest.issues.addLabels({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                labels: ['duplicate']
+              });
+              
+              await github.rest.issues.update({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                state: 'closed'
+              });
+            } else {
+              await github.rest.issues.createComment({
+                issue_number: context.issue.number,
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                body: `Thanks for your submission! A Pull Request has been automatically created to add your resource into the database.`
+              });
+            }
+            
             // Try removing the pending-review label
             try {
-              github.rest.issues.removeLabel({
+              await github.rest.issues.removeLabel({
                 issue_number: context.issue.number,
                 owner: context.repo.owner,
                 repo: context.repo.repo,

@@ -142,6 +142,33 @@ def main():
     if extra_buttons:
         new_record["extra_buttons"] = extra_buttons
 
+    try:
+        with open('data.yml', 'r', encoding='utf-8') as f:
+            content = f.read()
+            needs_newline = not content.endswith('\n')
+    except FileNotFoundError:
+        content = ""
+        needs_newline = False
+
+    # Check for duplicate original_link
+    original_link = new_record.get("original_link")
+    is_duplicate = False
+    if original_link and original_link.strip():
+        # A simple check: if the exact link string exists in the file, consider it a duplicate
+        # For a more robust check, we could parse the YAML, but string matching is usually sufficient for URLs
+        if original_link.strip() in content:
+            is_duplicate = True
+
+    # Write output for GitHub Actions
+    gh_output = os.environ.get('GITHUB_OUTPUT')
+    if gh_output:
+        with open(gh_output, 'a', encoding='utf-8') as go:
+            go.write(f"is_duplicate={'true' if is_duplicate else 'false'}\n")
+
+    if is_duplicate:
+        print(f"Duplicate resource detected: {original_link}")
+        sys.exit(0)
+
     # Append to data.yml directly without overwriting existing formatting
     from io import StringIO
     yaml = YAML()

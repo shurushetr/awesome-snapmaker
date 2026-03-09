@@ -2750,28 +2750,6 @@ records:
     official_flag:
     - UNOFFICIAL
 
-- id: dual-extruder-and-prusaslicer-a677
-  title: Dual Extruder and Prusaslicer
-  description: Forum thread dedicated to setting up a dual extruder with PrusaSlicer.
-  author_name: Slynold
-  author_link: https://forum.snapmaker.com/u/slynold
-  original_link: https://forum.snapmaker.com/t/dual-extruder-and-prusaslicer/29792/
-  date_added: '2026-03-09'
-  difficulty: BEGINNER
-  cost: FREE
-  language: EN
-  tags:
-    machine_type:
-    - SM_2.0
-    - ARTISAN
-    machine_tool_type:
-    - FDM
-    record_type:
-    - ARTICLE
-    - DISCUSSION
-    official_flag:
-    - UNOFFICIAL
-
 - id: laser-test-grid-generator-a15c
   title: Laser Test Grid Generator
   description: Generates G-Code to test your materials best speed/power ratio.
@@ -2979,28 +2957,6 @@ records:
     - CNC
     record_type:
     - MODS
-    official_flag:
-    - UNOFFICIAL
-
-- id: dual-extruder-and-prusaslicer-a677
-  title: Dual Extruder and Prusaslicer
-  description: Forum thread dedicated to setting up a dual extruder with PrusaSlicer.
-  author_name: Slynold
-  author_link: https://forum.snapmaker.com/u/slynold
-  original_link: https://forum.snapmaker.com/t/dual-extruder-and-prusaslicer/29792/
-  date_added: '2026-03-09'
-  difficulty: BEGINNER
-  cost: FREE
-  language: EN
-  tags:
-    machine_type:
-    - SM_2.0
-    - ARTISAN
-    machine_tool_type:
-    - FDM
-    record_type:
-    - ARTICLE
-    - DISCUSSION
     official_flag:
     - UNOFFICIAL
 
@@ -5671,39 +5627,7 @@ records:
   - label: YouTube Playlist
     link: 
       https://www.youtube.com/playlist?list=PLEn5aHQNSrHX5sK-4pZRJfRp0nUaUZc2k
-- id: full-spectrum-layer-blending-with-orcaslicer-fork-12
-  title: Full Spectrum layer blending with OrcaSlicer Fork
-  description: Full Spectrum is an open source slicer for FDM printers based on 
-    Snapmaker Orca and OrcaSlicer, optimized for Snapmaker's U1 multi-color 3D 
-    printer with independent tool heads. This fork adds support for virtual 
-    mixed-color filaments, enabling you to create new colors by alternating 
-    layers between physical filaments.
-  author_name: ratdoux
-  author_link: https://github.com/ratdoux
-  original_link: https://github.com/ratdoux/OrcaSlicer-FullSpectrum
-  date_added: '2026-03-09'
-  difficulty: INTERMEDIATE
-  cost: FREE
-  tags:
-    machine_type:
-    - SM_2.0
-    - ARTISAN
-    - U1
-    - J1/J1s
-    machine_tool_type:
-    - FDM
-    record_type:
-    - ARTICLE
-    - CREATE
-    - DOWNLOAD
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Slicer
-  extra_buttons:
-  - label: Article
-    link: 
-      https://all3dp.com/4/new-orca-slicer-fork-unlocks-virtual-color-printing-for-any-3d-printer/
+
 - id: terrain-to-stl-13
   title: Terrain To STL
   description: This is a simple browser-based editor which creates printable 3D 
@@ -5729,31 +5653,7 @@ records:
     - UNOFFICIAL
     free_tags:
     - Generator
-- id: terrain-to-stl-13
-  title: Terrain To STL
-  description: This is a simple browser-based editor which creates printable 3D 
-    terrain models (.stl) from just latitude and longitude input.
-  author_name: ModelRift
-  author_link: https://github.com/ModelRift
-  original_link: https://github.com/ModelRift/terrain-to-3d/
-  date_added: '2026-03-09'
-  difficulty: BEGINNER
-  cost: FREE
-  tags:
-    machine_type:
-    - SM_2.0
-    - ARTISAN
-    - U1
-    - J1/J1s
-    machine_tool_type:
-    - FDM
-    record_type:
-    - CREATE
-    - ONLINE TOOL
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Generator
+
 - id: snapmaker-u1-home-assitant-dashboard-11
   title: Snapmaker U1 - Home Assitant Dashboard
   description: When I had my Bambu A1 Mini printer, someone had a Home Assistant
@@ -5780,6 +5680,7 @@ records:
     - UNOFFICIAL
     free_tags:
     - Home Assistant
+
 - id: full-spectrum-layer-blending-with-orcaslicer-fork-12
   title: Full Spectrum layer blending with OrcaSlicer Fork
   description: Full Spectrum is an open source slicer for FDM printers based on 
