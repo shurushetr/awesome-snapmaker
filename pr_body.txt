@@ -1,0 +1,12 @@
+This PR automatically accumulates approved records to avoid merge conflicts.
+When you merge this, all pending records will be added to `data.yml`.
+
+Latest additions:
+
+Closes #23
+Closes #22
+Closes #18
+Closes #17
+Closes #16
+Closes #10
+Closes #7
