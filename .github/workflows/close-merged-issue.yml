@@ -8,40 +8,59 @@ permissions:
 
 jobs:
   label-and-close:
-    # Only run if the PR was actually merged (not just closed) AND it came from our bot's branch naming convention
-    if: github.event.pull_request.merged == true && startsWith(github.event.pull_request.head.ref, 'add-record-issue-')
+    # Only run if the PR was actually merged (not just closed) AND it came from our accumulated branch
+    if: github.event.pull_request.merged == true && github.event.pull_request.head.ref == 'pending-automated-submissions'
     runs-on: ubuntu-latest
     steps:
-      - name: Label and Close Original Issue
+      - name: Label and Close Original Issues
         uses: actions/github-script@v6
         with:
           script: |
-            // Extract the issue number from the branch name created by the bot (add-record-issue-123)
-            const branchName = context.payload.pull_request.head.ref;
-            const issueNumber = parseInt(branchName.replace('add-record-issue-', ''), 10);
+            // Fetch all commits in the merged PR
+            const commits = await github.rest.pulls.listCommits({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.payload.pull_request.number,
+            });
             
-            if (!isNaN(issueNumber)) {
-              // 1. Add 'merged' label
-              await github.rest.issues.addLabels({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: issueNumber,
-                labels: ['merged']
-              });
-              
-              // 2. Ensure issue is closed
-              await github.rest.issues.update({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: issueNumber,
-                state: 'closed'
-              });
-              
-              // 3. Leave a nice comment
-              await github.rest.issues.createComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: issueNumber,
-                body: 'The Pull Request for this submission has been successfully merged into the main directory. Thank you for your contribution to the Awesome Snapmaker List! 🎉'
-              });
+            // Look for commit messages like "Add resource: #123" to find the issue numbers
+            const issueNumbers = new Set();
+            for (const item of commits.data) {
+              const match = item.commit.message.match(/Add resource: #(\d+)/);
+              if (match && match[1]) {
+                issueNumbers.add(parseInt(match[1], 10));
+              }
+            }
+            
+            console.log(`Found issues to close: ${Array.from(issueNumbers).join(', ')}`);
+            
+            // Loop through each issue found and close them all
+            for (const issueNumber of issueNumbers) {
+              try {
+                // 1. Add 'merged' label
+                await github.rest.issues.addLabels({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issueNumber,
+                  labels: ['merged']
+                });
+                
+                // 2. Ensure issue is closed
+                await github.rest.issues.update({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issueNumber,
+                  state: 'closed'
+                });
+                
+                // 3. Leave a nice comment
+                await github.rest.issues.createComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issueNumber,
+                  body: 'The Pull Request for this submission has been successfully merged into the main directory. Thank you for your contribution to the Awesome Snapmaker List! 🎉'
+                });
+              } catch (error) {
+                console.log(`Failed to process issue #${issueNumber}: ${error.message}`);
+              }
             }

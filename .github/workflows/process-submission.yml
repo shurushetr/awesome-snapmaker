@@ -8,6 +8,10 @@ permissions:
   pull-requests: write
   issues: write
 
+concurrency:
+  group: process-submission
+  cancel-in-progress: false
+
 jobs:
   process-issue:
     runs-on: ubuntu-latest
