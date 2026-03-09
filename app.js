@@ -214,6 +214,10 @@ function setupEventListeners() {
             const triggerSuccess = () => {
                 const originalBg = DOM.shareViewBtn.style.backgroundColor;
                 const originalColor = DOM.shareViewBtn.style.color;
+                const originalWidth = DOM.shareViewBtn.style.width;
+                
+                // Lock width before changing text so it doesn't jump
+                DOM.shareViewBtn.style.width = DOM.shareViewBtn.offsetWidth + 'px';
                 
                 DOM.shareViewBtn.textContent = 'Copied!';
                 DOM.shareViewBtn.style.backgroundColor = '#10b981';
@@ -223,6 +227,7 @@ function setupEventListeners() {
                     DOM.shareViewBtn.innerHTML = originalText;
                     DOM.shareViewBtn.style.backgroundColor = originalBg;
                     DOM.shareViewBtn.style.color = originalColor;
+                    DOM.shareViewBtn.style.width = originalWidth; // Restore original width policy
                 }, 2000);
             };
 
