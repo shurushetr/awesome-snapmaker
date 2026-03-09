@@ -2913,3 +2913,1155 @@ records:
   - label: DIY Version
     link: https://github.com/brvdboss/3d-touchprobe
 
+- id: add-airassist-to-your-10w-laser-46c9
+  title: Add airassist to your 10W laser
+  description: A facebook post that shows an implementation of internal air assist with external air pump, cheap and effective mod to make your laser path clean.
+  author_name: Raagnarix
+  author_link: https://www.youtube.com/@Raagnarix
+  original_link: https://www.facebook.com/groups/snapmaker/posts/1694540740964232/
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    machine_tool_type:
+    - LASER
+    record_type:
+    - MODS
+    official_flag:
+    - UNOFFICIAL
+  extra_buttons:
+  - label: Video
+    link: https://www.youtube.com/watch?v=zg8jiem-8v8
+  - label: STL
+    link: https://github.com/shurushetr/awesome-snapmaker/blob/main/files/models/10w_laser_air_assist_mod_by_Raagnarix.stl
+
+- id: cnc-self-impelled-vacuum-dust-shoe-no-external-vacuum-required-462e
+  title: CNC self-impelled vacuum dust shoe (no external vacuum required)
+  description: Great design of a vacuumless dust removal shoe.
+  author_name: gil.a.ramirez
+  author_link: https://forum.snapmaker.com/u/gil.a.ramirez
+  original_link: https://forum.snapmaker.com/t/cnc-self-impelled-vacuum-dust-shoe-no-external-vacuum-required/24972
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: PAID
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    machine_tool_type:
+    - CNC
+    record_type:
+    - MODS
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Dust Removal
+
+- id: snapmaker-stiffy-kit-by-ctzcnc-a026
+  title: Snapmaker Stiffy Kit by CTZcnc
+  description: Make Snapmaker rigid for heavy load cnc work - Design by
+  author_name: christopz
+  author_link: https://github.com/christopz
+  original_link: https://github.com/christopz/snapmakerstiffy
+  date_added: '2026-03-09'
+  difficulty: INTERMEDIATE
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - CNC
+    record_type:
+    - MODS
+    official_flag:
+    - UNOFFICIAL
+
+- id: dual-extruder-and-prusaslicer-a677
+  title: Dual Extruder and Prusaslicer
+  description: Forum thread dedicated to setting up a dual extruder with PrusaSlicer.
+  author_name: Slynold
+  author_link: https://forum.snapmaker.com/u/slynold
+  original_link: https://forum.snapmaker.com/t/dual-extruder-and-prusaslicer/29792/
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    machine_tool_type:
+    - FDM
+    record_type:
+    - ARTICLE
+    - DISCUSSION
+    official_flag:
+    - UNOFFICIAL
+
+- id: laser-test-grid-generator-a15c
+  title: Laser Test Grid Generator
+  description: Generates G-Code to test your materials best speed/power ratio.
+  author_name: nunorvoliveira
+  author_link: https://github.com/nunorvoliveira
+  original_link: https://github.com/nunorvoliveira/Snapmaker-Laser-Test-Grid
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - LASER
+    record_type:
+    - DOWNLOAD
+    official_flag:
+    - UNOFFICIAL
+
+- id: laser-calibration-tool-29b9
+  title: Laser Calibration Tool
+  description: Laser calibration pattern generator.
+  author_name: daniel-starke
+  author_link: https://github.com/daniel-starke
+  original_link: https://github.com/daniel-starke/LaserCalibrationTool
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - RAY
+    machine_tool_type:
+    - LASER
+    record_type:
+    - ONLINE TOOL
+    official_flag:
+    - UNOFFICIAL
+
+- id: fusion360-post-processor-873e
+  title: Fusion360 Post Processor
+  description: Fusion360 postprocessor for machines in Snapmaker 2.0 family.
+  author_name: nunorvoliveira
+  author_link: https://github.com/nunorvoliveira
+  original_link: https://github.com/nunorvoliveira/snapmaker-2.0/tree/main/Fusion%20360
+  date_added: '2026-03-09'
+  difficulty: INTERMEDIATE
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - CNC
+    record_type:
+    - DOWNLOAD
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Post Processor
+    - Fusion360
+
+- id: snapmaker2postprocessor-for-freecad-ab60
+  title: Snapmaker2Postprocessor for FreeCAD
+  description: FreeCAD postprocessor.
+  author_name: clsergent.
+  original_link: https://github.com/clsergent/Snapmaker2Postprocessor
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - CNC
+    record_type:
+    - DOWNLOAD
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - FreeCAD
+    - Post Processor
+
+- id: cnc-postprocessors-for-snapmaker-b906
+  title: CNC postprocessors for Snapmaker
+  description: "Collection of developed by @whimsycwd - post processing tools.\nSupport for Fusion360 / FreeCAD / ArtCAM / Aspire / Vcarve."
+  author_name: whimsycwd
+  author_link: https://github.com/whimsycwd/
+  original_link: https://github.com/Snapmaker/snapmaker_cnc_post_process
+  date_added: '2026-03-09'
+  difficulty: INTERMEDIATE
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - CNC
+    record_type:
+    - DOWNLOAD
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Fusion360
+    - FreeCAD
+    - ArtCAM
+    - Aspire
+    - Vcarve
+    - Post Processor
+  extra_buttons:
+  - label: Forum Topic
+    link: https://forum.snapmaker.com/t/cnc-post-processor-ask-for-testing/5864
+
+- id: 3d-touchprobe-controller-for-snapmaker-2-0-9040
+  title: 3D Touchprobe controller for Snapmaker 2.0
+  description: Designed to work with a 3D touch probe on the SnapMaker 2 device and a 3D touch probe.
+  author_name: brvdboss
+  author_link: https://forum.snapmaker.com/u/brvdboss
+  original_link: https://github.com/brvdboss/3D-touchprobe-controller
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - CNC
+    record_type:
+    - DOWNLOAD
+    - MODS
+    official_flag:
+    - UNOFFICIAL
+  extra_buttons:
+  - label: DIY Version
+    link: https://github.com/brvdboss/3d-touchprobe
+
+- id: snapmaker2slic3rpostprocessor-33ef
+  title: Snapmaker2Slic3rPostProcessor
+  description: A Snapmaker G-Code Post Processor for PrusaSlicer and SuperSlicer to create compatible files for Snapmaker Touchscreen. Like thumbnail of the print on the screen. Supports PrusaSlicer and SuperSlicer with Snapmaker 2 A150/250/350, J1, Artisan.
+  author_name: macdylan
+  author_link: https://github.com/macdylan
+  original_link: https://github.com/macdylan/Snapmaker2Slic3rPostProcessor
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - J1/J1s
+    machine_tool_type:
+    - FDM
+    record_type:
+    - DOWNLOAD
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Post Processor
+    - G-Code
+
+- id: a-snapmaker-2-0-prusaslicer-post-processor-to-create-compatible-files-for-the-snapmaker-terminal-2cb5
+  title: A Snapmaker 2.0 PrusaSlicer Post-Processor to create compatible files for the Snapmaker terminal.
+  description: Another g-code postprocessor for Prusaslicer.
+  author_name: daniel-starke
+  author_link: https://github.com/daniel-starke
+  original_link: https://github.com/daniel-starke/sm2pspp
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - FDM
+    record_type:
+    - DOWNLOAD
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Post Processor
+    - G-Code
+
+- id: snapmaker-command-line-tool-cli-5f7f
+  title: Snapmaker Command Line Tool (CLI)
+  description: Control your snapmaker via command line.
+  author_name: hauti123
+  author_link: https://github.com/hauti123
+  original_link: https://github.com/hauti123/Snapmaker
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - FDM
+    - LASER
+    - CNC
+    record_type:
+    - DOWNLOAD
+    official_flag:
+    - UNOFFICIAL
+
+- id: gamepad-controls-for-snapmaker-e981
+  title: Gamepad Controls for Snapmaker
+  description: Control your machine with an xbox controller.
+  author_name: PolymerPrints
+  author_link: https://github.com/PolymerPrints
+  original_link: https://github.com/PolymerPrints/snapmaker-gamepad-control
+  date_added: '2026-03-09'
+  difficulty: INTERMEDIATE
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - FDM
+    - LASER
+    - CNC
+    record_type:
+    - DOWNLOAD
+    - MODS
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - G-Code
+
+- id: serial-uart-connection-to-a-snapmaker-2-0-controller-0605
+  title: Serial UART Connection to a Snapmaker 2.0 Controller
+  description: For adding a rotary encoder and other physical buttons, control your machine with an Xbox controller.
+  author_name: Seppo
+  author_link: https://forum.snapmaker.com/t/add-a-serial-uart-connection-to-a-snapmaker-2-0-controller/34030?u=seppo
+  original_link: https://forum.snapmaker.com/t/add-a-serial-uart-connection-to-a-snapmaker-2-0-controller/34030?u=seppo
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - FDM
+    - LASER
+    - CNC
+    record_type:
+    - DOWNLOAD
+    - MODS
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - G-Code
+
+- id: add-airassist-to-your-10w-laser-46c9
+  title: Add airassist to your 10W laser
+  description: A facebook post that shows an implementation of internal air assist with external air pump, cheap and effective mod to make your laser path clean.
+  author_name: Raagnarix
+  author_link: https://www.youtube.com/@Raagnarix
+  original_link: https://www.facebook.com/groups/snapmaker/posts/1694540740964232/
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    machine_tool_type:
+    - LASER
+    record_type:
+    - MODS
+    official_flag:
+    - UNOFFICIAL
+  extra_buttons:
+  - label: Video
+    link: https://www.youtube.com/watch?v=zg8jiem-8v8
+  - label: STL
+    link: https://github.com/shurushetr/awesome-snapmaker/blob/main/files/models/10w_laser_air_assist_mod_by_Raagnarix.stl
+
+- id: cnc-self-impelled-vacuum-dust-shoe-no-external-vacuum-required-462e
+  title: CNC self-impelled vacuum dust shoe (no external vacuum required)
+  description: Great design of a vacuumless dust removal shoe.
+  author_name: gil.a.ramirez
+  author_link: https://forum.snapmaker.com/u/gil.a.ramirez
+  original_link: https://forum.snapmaker.com/t/cnc-self-impelled-vacuum-dust-shoe-no-external-vacuum-required/24972
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: PAID
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    machine_tool_type:
+    - CNC
+    record_type:
+    - MODS
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Dust Removal
+
+- id: snapmaker-stiffy-kit-by-ctzcnc-a026
+  title: Snapmaker Stiffy Kit by CTZcnc
+  description: Make Snapmaker rigid for heavy load cnc work - Design by
+  author_name: christopz
+  author_link: https://github.com/christopz
+  original_link: https://github.com/christopz/snapmakerstiffy
+  date_added: '2026-03-09'
+  difficulty: INTERMEDIATE
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - CNC
+    record_type:
+    - MODS
+    official_flag:
+    - UNOFFICIAL
+
+- id: dual-extruder-and-prusaslicer-a677
+  title: Dual Extruder and Prusaslicer
+  description: Forum thread dedicated to setting up a dual extruder with PrusaSlicer.
+  author_name: Slynold
+  author_link: https://forum.snapmaker.com/u/slynold
+  original_link: https://forum.snapmaker.com/t/dual-extruder-and-prusaslicer/29792/
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    machine_tool_type:
+    - FDM
+    record_type:
+    - ARTICLE
+    - DISCUSSION
+    official_flag:
+    - UNOFFICIAL
+
+- id: laser-test-grid-generator-a15c
+  title: Laser Test Grid Generator
+  description: Generates G-Code to test your materials best speed/power ratio.
+  author_name: nunorvoliveira
+  author_link: https://github.com/nunorvoliveira
+  original_link: https://github.com/nunorvoliveira/Snapmaker-Laser-Test-Grid
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - LASER
+    record_type:
+    - DOWNLOAD
+    official_flag:
+    - UNOFFICIAL
+
+- id: laser-calibration-tool-29b9
+  title: Laser Calibration Tool
+  description: Laser calibration pattern generator.
+  author_name: daniel-starke
+  author_link: https://github.com/daniel-starke
+  original_link: https://github.com/daniel-starke/LaserCalibrationTool
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - RAY
+    machine_tool_type:
+    - LASER
+    record_type:
+    - ONLINE TOOL
+    official_flag:
+    - UNOFFICIAL
+
+- id: fusion360-post-processor-873e
+  title: Fusion360 Post Processor
+  description: Fusion360 postprocessor for machines in Snapmaker 2.0 family.
+  author_name: nunorvoliveira
+  author_link: https://github.com/nunorvoliveira
+  original_link: https://github.com/nunorvoliveira/snapmaker-2.0/tree/main/Fusion%20360
+  date_added: '2026-03-09'
+  difficulty: INTERMEDIATE
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - CNC
+    record_type:
+    - DOWNLOAD
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Post Processor
+    - Fusion360
+
+- id: snapmaker2postprocessor-for-freecad-ab60
+  title: Snapmaker2Postprocessor for FreeCAD
+  description: FreeCAD postprocessor.
+  author_name: clsergent.
+  original_link: https://github.com/clsergent/Snapmaker2Postprocessor
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - CNC
+    record_type:
+    - DOWNLOAD
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - FreeCAD
+    - Post Processor
+
+- id: cnc-postprocessors-for-snapmaker-b906
+  title: CNC postprocessors for Snapmaker
+  description: "Collection of developed by @whimsycwd - post processing tools.\nSupport for Fusion360 / FreeCAD / ArtCAM / Aspire / Vcarve."
+  author_name: whimsycwd
+  author_link: https://github.com/whimsycwd/
+  original_link: https://github.com/Snapmaker/snapmaker_cnc_post_process
+  date_added: '2026-03-09'
+  difficulty: INTERMEDIATE
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - CNC
+    record_type:
+    - DOWNLOAD
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Fusion360
+    - FreeCAD
+    - ArtCAM
+    - Aspire
+    - Vcarve
+    - Post Processor
+  extra_buttons:
+  - label: Forum Topic
+    link: https://forum.snapmaker.com/t/cnc-post-processor-ask-for-testing/5864
+
+- id: 3d-touchprobe-controller-for-snapmaker-2-0-9040
+  title: 3D Touchprobe controller for Snapmaker 2.0
+  description: Designed to work with a 3D touch probe on the SnapMaker 2 device and a 3D touch probe.
+  author_name: brvdboss
+  author_link: https://forum.snapmaker.com/u/brvdboss
+  original_link: https://github.com/brvdboss/3D-touchprobe-controller
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - CNC
+    record_type:
+    - DOWNLOAD
+    - MODS
+    official_flag:
+    - UNOFFICIAL
+  extra_buttons:
+  - label: DIY Version
+    link: https://github.com/brvdboss/3d-touchprobe
+
+- id: snapmaker2slic3rpostprocessor-33ef
+  title: Snapmaker2Slic3rPostProcessor
+  description: A Snapmaker G-Code Post Processor for PrusaSlicer and SuperSlicer to create compatible files for Snapmaker Touchscreen. Like thumbnail of the print on the screen. Supports PrusaSlicer and SuperSlicer with Snapmaker 2 A150/250/350, J1, Artisan.
+  author_name: macdylan
+  author_link: https://github.com/macdylan
+  original_link: https://github.com/macdylan/Snapmaker2Slic3rPostProcessor
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - J1/J1s
+    machine_tool_type:
+    - FDM
+    record_type:
+    - DOWNLOAD
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Post Processor
+    - G-Code
+
+- id: a-snapmaker-2-0-prusaslicer-post-processor-to-create-compatible-files-for-the-snapmaker-terminal-2cb5
+  title: A Snapmaker 2.0 PrusaSlicer Post-Processor to create compatible files for the Snapmaker terminal.
+  description: Another g-code postprocessor for Prusaslicer.
+  author_name: daniel-starke
+  author_link: https://github.com/daniel-starke
+  original_link: https://github.com/daniel-starke/sm2pspp
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - FDM
+    record_type:
+    - DOWNLOAD
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Post Processor
+    - G-Code
+
+- id: snapmaker-command-line-tool-cli-5f7f
+  title: Snapmaker Command Line Tool (CLI)
+  description: Control your snapmaker via command line.
+  author_name: hauti123
+  author_link: https://github.com/hauti123
+  original_link: https://github.com/hauti123/Snapmaker
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - FDM
+    - LASER
+    - CNC
+    record_type:
+    - DOWNLOAD
+    official_flag:
+    - UNOFFICIAL
+
+- id: gamepad-controls-for-snapmaker-e981
+  title: Gamepad Controls for Snapmaker
+  description: Control your machine with an xbox controller.
+  author_name: PolymerPrints
+  author_link: https://github.com/PolymerPrints
+  original_link: https://github.com/PolymerPrints/snapmaker-gamepad-control
+  date_added: '2026-03-09'
+  difficulty: INTERMEDIATE
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - FDM
+    - LASER
+    - CNC
+    record_type:
+    - DOWNLOAD
+    - MODS
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - G-Code
+
+- id: serial-uart-connection-to-a-snapmaker-2-0-controller-0605
+  title: Serial UART Connection to a Snapmaker 2.0 Controller
+  description: For adding a rotary encoder and other physical buttons, control your machine with an Xbox controller.
+  author_name: Seppo
+  author_link: https://forum.snapmaker.com/t/add-a-serial-uart-connection-to-a-snapmaker-2-0-controller/34030?u=seppo
+  original_link: https://forum.snapmaker.com/t/add-a-serial-uart-connection-to-a-snapmaker-2-0-controller/34030?u=seppo
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - FDM
+    - LASER
+    - CNC
+    record_type:
+    - DOWNLOAD
+    - MODS
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - G-Code
+
+- id: teaching-tech-3d-printer-calibration-586e
+  title: Teaching Tech 3D Printer Calibration
+  description: The go to for proper calibration. Use CAUTION.
+  author_name: TeachingTech
+  author_link: https://www.youtube.com/@TeachingTech
+  original_link: https://teachingtechyt.github.io/calibration.html
+  date_added: '2026-03-09'
+  difficulty: INTERMEDIATE
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - U1
+    - J1/J1s
+    machine_tool_type:
+    - FDM
+    record_type:
+    - ARTICLE
+    - ONLINE TOOL
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Calibration
+
+- id: ellis-print-tuning-guide-a742
+  title: "Ellis' Print Tuning Guide"
+  description: Another wonderful resource for calibration, using a different approach.
+  author_name: Ellis
+  author_link: https://ellis3dp.com/
+  original_link: https://ellis3dp.com/Print-Tuning-Guide/
+  date_added: '2026-03-09'
+  difficulty: INTERMEDIATE
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - U1
+    - J1/J1s
+    machine_tool_type:
+    - FDM
+    record_type:
+    - ARTICLE
+    - ONLINE TOOL
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Calibration
+  extra_buttons:
+  - label: Support this
+    link: https://ko-fi.com/U7U4GUIA8
+
+- id: calibration-shapes-32e6
+  title: Calibration shapes
+  description: Collection of test shapes with Cura plugin to really dial in your printer. You can use STLs out of Cura too.
+  author_name: 5axes
+  author_link: https://github.com/5axes
+  original_link: https://github.com/5axes/Calibration-Shapes
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - U1
+    - J1/J1s
+    machine_tool_type:
+    - FDM
+    record_type:
+    - DOWNLOAD
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Calibration
+
+- id: retraction-calibration-tool-3a07
+  title: Retraction Calibration Tool
+  description: Tool to dial in your retraction.
+  author_name: Karl Johnson
+  author_link: https://www.cnx-software.com/author/test_writer/
+  original_link: http://retractioncalibration.com/
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - U1
+    - J1/J1s
+    machine_tool_type:
+    - FDM
+    record_type:
+    - DOWNLOAD
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Calibration
+  extra_buttons:
+  - label: Forum Topic
+    link: https://forum.snapmaker.com/t/retraction-calibration-tool/17894
+  - label: Facebook Group
+    link: https://www.facebook.com/groups/199257421413533/
+- id: 3d-print-problems-w-photos-solutions-a6fe
+  title: 3D Print Problems (w/Photos & Solutions)
+  description: Collection of issues and possible solutions by Mxbrnr
+  author_name: Mxbrnr
+  author_link: https://forum.snapmaker.com/u/Mxbrnr
+  original_link: https://forum.snapmaker.com/t/3d-print-problems-w-photos-solutions/29200
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - FDM
+    record_type:
+    - ARTICLE
+    - DISCUSSION
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Calibration
+
+- id: kiri-moto-d2e8
+  title: "Kiri:Moto"
+  description: 3DP/Laser/CNC slicer in browser. It has some unique features, like slicing the model in layers for laser cutting
+  author_name: GridSpace
+  author_link: https://github.com/GridSpace
+  original_link: https://grid.space/kiri/
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - U1
+    - J1/J1s
+    - RAY
+    machine_tool_type:
+    - FDM
+    - LASER
+    - CNC
+    record_type:
+    - CREATE
+    - ONLINE TOOL
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Alternative Slicer
+
+- id: lightburn-99a9
+  title: Lightburn
+  description: Ultimate solution for all your laser needs. Guides available in this list. Worth every penny.
+  author_name: Lightburn team
+  author_link: https://lightburnsoftware.com
+  original_link: https://lightburnsoftware.com/pages/trial-version-try-before-you-buy
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - RAY
+    machine_tool_type:
+    - LASER
+    record_type:
+    - DOWNLOAD
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Software
+
+- id: 1-touch-laser-photo-84f8
+  title: 1-Touch Laser Photo
+  description: 1-Touch Laser Photo - effortless to use tool to convert photos to good-quality engravings.
+  author_name: Universal Laser Systems
+  author_link: https://ulsinc.com/
+  original_link: https://ulsinc.com/support/1-touch-laser.html
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREEMIUM
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - RAY
+    machine_tool_type:
+    - LASER
+    record_type:
+    - DOWNLOAD
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Software
+
+- id: autodesk-fusion360-24ce
+  title: Autodesk Fusion360
+  description: CAD system. CNC toolpath generating. 3D Modeling.
+  author_name: Autodesk
+  author_link: https://www.autodesk.com
+  original_link: https://www.autodesk.com/products/fusion-360/personal-form
+  date_added: '2026-03-09'
+  difficulty: INTERMEDIATE
+  cost: FREEMIUM
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - U1
+    - J1/J1s
+    - RAY
+    - UNIVERSAL
+    machine_tool_type:
+    - FDM
+    - LASER
+    - CNC
+    - ROTARY
+    - COMBINED
+    record_type:
+    - CREATE
+    - DOWNLOAD
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Modeling Software
+    - CAD
+
+- id: freecad-66b9
+  title: FreeCAD
+  description: Free CAD system. Can be used for toolpath generation with postprocessors.
+  author_name: FreeCAD
+  author_link: https://github.com/FreeCAD/FreeCAD
+  original_link: https://www.freecad.org/downloads.php
+  date_added: '2026-03-09'
+  difficulty: INTERMEDIATE
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - U1
+    - J1/J1s
+    - RAY
+    - UNIVERSAL
+    machine_tool_type:
+    - FDM
+    - LASER
+    - CNC
+    - COMBINED
+    record_type:
+    - CREATE
+    - DOWNLOAD
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - CAD
+    - Modeling Software
+
+- id: cnc-wood-feed-speed-calculator-8e45
+  title: CNC WOOD Feed & Speed Calculator
+  description: Cookbook with Guide and Easy Tips. The author passed away, and a group of fans is trying to preserve the legacy.
+  author_name: Community
+  author_link: https://forum.snapmaker.com/
+  original_link: https://www.cnccookbook.com/feeds-speeds-cnc-wood-cutting/
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    machine_tool_type:
+    - CNC
+    - ROTARY
+    record_type:
+    - CREATE
+    - DOWNLOAD
+    - ONLINE TOOL
+    official_flag:
+    - UNOFFICIAL
+
+- id: learn-g-code-for-3d-printing-789d
+  title: Learn G-Code for 3D Printing
+  description: A good introduction to G-Code by CNC Kitchen YouTube channel.
+  author_name: CNC Kitchen
+  author_link: https://www.youtube.com/cnckitchen
+  original_link: https://www.cnckitchen.com/blog/g-code-basics-for-3d-printing
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - U1
+    - J1/J1s
+    - RAY
+    machine_tool_type:
+    - FDM
+    - LASER
+    - CNC
+    record_type:
+    - ARTICLE
+    - CREATE
+    - VIDEO
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - G-Code
+
+- id: online-g-code-simulators-visualizers-4972
+  title: Online G-Code simulators & Visualizers
+  description: An article by All3DP reviewing different tools.
+  author_name: All3DP
+  author_link: https://all3dp.com/
+  original_link: https://all3dp.com/2/gcode-viewer-3d-printer-simulator-best-tools/
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - U1
+    - J1/J1s
+    machine_tool_type:
+    - FDM
+    record_type:
+    - CREATE
+    - ONLINE TOOL
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - G-Code
+
+- id: ncviewer-b9d7
+  title: NCViewer
+  description: This G-Code preview tool is recommended by Snapmaker for troubleshooting toolpath issues.
+  author_name: Toolpath Labs Inc
+  author_link: https://ncviewer.com/
+  original_link: https://ncviewer.com/
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - U1
+    - J1/J1s
+    machine_tool_type:
+    - FDM
+    record_type:
+    - CREATE
+    - ONLINE TOOL
+    official_flag:
+    - UNOFFICIAL
+
+- id: potrace-8887
+  title: Potrace
+  description: Genious and free little tool for transforming bitmaps into vector graphics.
+  author_name: Peter Selinger
+  author_link: https://www.mathstat.dal.ca/~selinger/
+  original_link: https://potrace.sourceforge.net/
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - RAY
+    machine_tool_type:
+    - LASER
+    record_type:
+    - CREATE
+    - DOWNLOAD
+    official_flag:
+    - UNOFFICIAL
+
+- id: tiled-zoedepth-v3-ipynb-6235
+  title: Tiled ZoeDepth, v3.ipynb
+  description: Another genious and free tool for generating depth maps from 2d images, useful for CNC, 3D Printing and Laser engraving!
+  author_name: BillFSmith
+  author_link: https://github.com/BillFSmith
+  original_link: https://colab.research.google.com/drive/1Wi-1Ji_fhcoGpK-drT4dVrl5AjfVUQ5M#scrollTo=cQclg8UkclFu
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - RAY
+    machine_tool_type:
+    - LASER
+    record_type:
+    - CREATE
+    - ONLINE TOOL
+    official_flag:
+    - UNOFFICIAL
+
+- id: snapmaker-2-0-stock-pictures-f520
+  title: Snapmaker 2.0 stock pictures
+  description: Hosted here collection of stock parts and internals of Snapmaker 2.0. You can find there measurements for hot end electrical components and other such things.
+  author_name: Community
+  author_link: https://forum.snapmaker.com/
+  original_link: https://github.com/shurushetr/awesome-snapmaker/blob/main/images/Snapmaker_Parts/SP_2.0
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - FDM
+    - LASER
+    - CNC
+    record_type:
+    - DOWNLOAD
+    - REPAIR
+    official_flag:
+    - UNOFFICIAL
+
+

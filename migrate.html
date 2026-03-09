@@ -142,16 +142,15 @@
                         <input type="url" id="original_link" required placeholder="https://...">
                     </div>
 
-                    <div class="form-group">
-                        <label class="required" for="difficulty">Difficulty</label>
-                        <select id="difficulty" required>
-                            <option value="BEGINNER">BEGINNER</option>
-                            <option value="INTERMEDIATE">INTERMEDIATE</option>
-                            <option value="ADVANCED">ADVANCED</option>
-                        </select>
-                    </div>
-
                     <div style="display: flex; gap: 1rem; margin-bottom: 1rem;">
+                        <div class="form-group" style="flex: 1; margin-bottom: 0;">
+                            <label class="required" for="difficulty">Difficulty</label>
+                            <select id="difficulty" required>
+                                <option value="BEGINNER">BEGINNER</option>
+                                <option value="INTERMEDIATE">INTERMEDIATE</option>
+                                <option value="ADVANCED">ADVANCED</option>
+                            </select>
+                        </div>
                         <div class="form-group" style="flex: 1; margin-bottom: 0;">
                             <label class="required" for="cost">Cost</label>
                             <select id="cost" required>
@@ -252,13 +251,25 @@
 
                     <div style="display: flex; gap: 1rem; margin-bottom: 1rem;">
                         <div class="form-group" style="flex: 1; margin-bottom: 0;">
-                            <label for="extra_button_label">(Optional) Extra Button - Label</label>
+                            <label for="extra_button_label">(Optional) Extra Button 1 - Label</label>
                             <input type="text" id="extra_button_label" placeholder="e.g. Download STL">
                         </div>
 
                         <div class="form-group" style="flex: 1; margin-bottom: 0;">
-                            <label for="extra_button_link">(Optional) Extra Button - Link</label>
+                            <label for="extra_button_link">(Optional) Extra Button 1 - Link</label>
                             <input type="url" id="extra_button_link" placeholder="https://...">
+                        </div>
+                    </div>
+                    
+                    <div style="display: flex; gap: 1rem; margin-bottom: 1rem;">
+                        <div class="form-group" style="flex: 1; margin-bottom: 0;">
+                            <label for="extra_button_label_2">(Optional) Extra Button 2 - Label</label>
+                            <input type="text" id="extra_button_label_2" placeholder="e.g. Forum Post">
+                        </div>
+
+                        <div class="form-group" style="flex: 1; margin-bottom: 0;">
+                            <label for="extra_button_link_2">(Optional) Extra Button 2 - Link</label>
+                            <input type="url" id="extra_button_link_2" placeholder="https://...">
                         </div>
                     </div>
 
@@ -515,10 +526,19 @@
             const extraBtnLabel = getVal('extra_button_label');
             const extraBtnLink = getVal('extra_button_link');
             
-            if (extraBtnLabel && extraBtnLink) {
+            const extraBtnLabel2 = getVal('extra_button_label_2');
+            const extraBtnLink2 = getVal('extra_button_link_2');
+            
+            if ((extraBtnLabel && extraBtnLink) || (extraBtnLabel2 && extraBtnLink2)) {
                 yaml += `  extra_buttons:\n`;
-                yaml += `  - label: ${safeYamlStr(extraBtnLabel)}\n`;
-                yaml += `    link: ${extraBtnLink}\n`;
+                if (extraBtnLabel && extraBtnLink) {
+                    yaml += `  - label: ${safeYamlStr(extraBtnLabel)}\n`;
+                    yaml += `    link: ${extraBtnLink}\n`;
+                }
+                if (extraBtnLabel2 && extraBtnLink2) {
+                    yaml += `  - label: ${safeYamlStr(extraBtnLabel2)}\n`;
+                    yaml += `    link: ${extraBtnLink2}\n`;
+                }
             }
 
             const output = document.getElementById('output-area');

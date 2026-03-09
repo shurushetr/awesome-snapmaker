@@ -579,7 +579,7 @@ function renderRecords(records) {
         // Generate Buttons HTML
         let buttonsHtml = `<a href="${ensureAbsoluteUrl(record.original_link)}" class="btn primary-btn" target="_blank" rel="noopener noreferrer">View Resource</a>`;
         if (record.extra_buttons) {
-            record.extra_buttons.slice(0, 2).forEach(btn => {
+            record.extra_buttons.forEach(btn => {
                 buttonsHtml += `<a href="${ensureAbsoluteUrl(btn.link)}" class="btn secondary-btn" target="_blank" rel="noopener noreferrer">${btn.label}</a>`;
             });
         }
