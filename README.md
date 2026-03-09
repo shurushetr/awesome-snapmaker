@@ -37,6 +37,69 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ---
 
+#### [CNC self-impelled vacuum dust shoe (no external vacuum required)](https://forum.snapmaker.com/t/cnc-self-impelled-vacuum-dust-shoe-no-external-vacuum-required/24972)
+> Great design of a vacuumless dust removal shoe.
+
+**Content Author:** gil.a.ramirez | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, PAID, SM_2.0, ARTISAN, CNC, MODS, UNOFFICIAL, Dust Removal
+
+---
+
+#### [CNC self-impelled vacuum dust shoe (no external vacuum required)](https://forum.snapmaker.com/t/cnc-self-impelled-vacuum-dust-shoe-no-external-vacuum-required/24972)
+> Great design of a vacuumless dust removal shoe.
+
+**Content Author:** gil.a.ramirez | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, PAID, SM_2.0, ARTISAN, CNC, MODS, UNOFFICIAL, Dust Removal
+
+---
+
+#### [Kiri:Moto](https://grid.space/kiri/)
+> 3DP/Laser/CNC slicer in browser. It has some unique features, like slicing the model in layers for laser cutting
+
+**Content Author:** GridSpace | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, FDM, LASER, CNC, CREATE, ONLINE TOOL, UNOFFICIAL, Alternative Slicer
+
+---
+
+#### [Autodesk Fusion360](https://www.autodesk.com/products/fusion-360/personal-form)
+> CAD system. CNC toolpath generating. 3D Modeling.
+
+**Content Author:** Autodesk | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREEMIUM, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, Modeling Software, CAD
+
+---
+
+#### [FreeCAD](https://www.freecad.org/downloads.php)
+> Free CAD system. Can be used for toolpath generation with postprocessors.
+
+**Content Author:** FreeCAD | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, CAD, Modeling Software
+
+---
+
+#### [CNC WOOD Feed & Speed Calculator](https://www.cnccookbook.com/feeds-speeds-cnc-wood-cutting/)
+> Cookbook with Guide and Easy Tips. The author passed away, and a group of fans is trying to preserve the legacy.
+
+**Content Author:** Community | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, CNC, ROTARY, CREATE, DOWNLOAD, ONLINE TOOL, UNOFFICIAL
+
+---
+
+#### [Learn G-Code for 3D Printing](https://www.cnckitchen.com/blog/g-code-basics-for-3d-printing)
+> A good introduction to G-Code by CNC Kitchen YouTube channel.
+
+**Content Author:** CNC Kitchen | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, FDM, LASER, CNC, ARTICLE, CREATE, VIDEO, UNOFFICIAL, G-Code
+
+---
+
 #### [Snapmaker Luban](https://forum.snapmaker.com/t/snapmaker-luban-downloads-and-updates/4949)
 > Topic with Luban, the 3 in 1 software updates posted
 
@@ -128,6 +191,24 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 ---
 
 ### COMBINED
+
+#### [Autodesk Fusion360](https://www.autodesk.com/products/fusion-360/personal-form)
+> CAD system. CNC toolpath generating. 3D Modeling.
+
+**Content Author:** Autodesk | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREEMIUM, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, Modeling Software, CAD
+
+---
+
+#### [FreeCAD](https://www.freecad.org/downloads.php)
+> Free CAD system. Can be used for toolpath generation with postprocessors.
+
+**Content Author:** FreeCAD | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, CAD, Modeling Software
+
+---
 
 #### [Snapmaker Luban](https://forum.snapmaker.com/t/snapmaker-luban-downloads-and-updates/4949)
 > Topic with Luban, the 3 in 1 software updates posted
@@ -254,6 +335,132 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 **Content Author:** Slynold | **Added:** 2026-03-09
 
 **Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, FDM, ARTICLE, DISCUSSION, UNOFFICIAL
+
+---
+
+#### [Dual Extruder and Prusaslicer](https://forum.snapmaker.com/t/dual-extruder-and-prusaslicer/29792/)
+> Forum thread dedicated to setting up a dual extruder with PrusaSlicer.
+
+**Content Author:** Slynold | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, FDM, ARTICLE, DISCUSSION, UNOFFICIAL
+
+---
+
+#### [Snapmaker2Slic3rPostProcessor](https://github.com/macdylan/Snapmaker2Slic3rPostProcessor)
+> A Snapmaker G-Code Post Processor for PrusaSlicer and SuperSlicer to create compatible files for Snapmaker Touchscreen. Like thumbnail of the print on the screen. Supports PrusaSlicer and SuperSlicer with Snapmaker 2 A150/250/350, J1, Artisan.
+
+**Content Author:** macdylan | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, J1/J1s, FDM, DOWNLOAD, UNOFFICIAL, Post Processor, G-Code
+
+---
+
+#### [Dual Extruder and Prusaslicer](https://forum.snapmaker.com/t/dual-extruder-and-prusaslicer/29792/)
+> Forum thread dedicated to setting up a dual extruder with PrusaSlicer.
+
+**Content Author:** Slynold | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, FDM, ARTICLE, DISCUSSION, UNOFFICIAL
+
+---
+
+#### [Snapmaker2Slic3rPostProcessor](https://github.com/macdylan/Snapmaker2Slic3rPostProcessor)
+> A Snapmaker G-Code Post Processor for PrusaSlicer and SuperSlicer to create compatible files for Snapmaker Touchscreen. Like thumbnail of the print on the screen. Supports PrusaSlicer and SuperSlicer with Snapmaker 2 A150/250/350, J1, Artisan.
+
+**Content Author:** macdylan | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, J1/J1s, FDM, DOWNLOAD, UNOFFICIAL, Post Processor, G-Code
+
+---
+
+#### [Teaching Tech 3D Printer Calibration](https://teachingtechyt.github.io/calibration.html)
+> The go to for proper calibration. Use CAUTION.
+
+**Content Author:** TeachingTech | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ARTICLE, ONLINE TOOL, UNOFFICIAL, Calibration
+
+---
+
+#### [Ellis' Print Tuning Guide](https://ellis3dp.com/Print-Tuning-Guide/)
+> Another wonderful resource for calibration, using a different approach.
+
+**Content Author:** Ellis | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ARTICLE, ONLINE TOOL, UNOFFICIAL, Calibration
+
+---
+
+#### [Calibration shapes](https://github.com/5axes/Calibration-Shapes)
+> Collection of test shapes with Cura plugin to really dial in your printer. You can use STLs out of Cura too.
+
+**Content Author:** 5axes | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, DOWNLOAD, UNOFFICIAL, Calibration
+
+---
+
+#### [Retraction Calibration Tool](http://retractioncalibration.com/)
+> Tool to dial in your retraction.
+
+**Content Author:** Karl Johnson | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, DOWNLOAD, UNOFFICIAL, Calibration
+
+---
+
+#### [Kiri:Moto](https://grid.space/kiri/)
+> 3DP/Laser/CNC slicer in browser. It has some unique features, like slicing the model in layers for laser cutting
+
+**Content Author:** GridSpace | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, FDM, LASER, CNC, CREATE, ONLINE TOOL, UNOFFICIAL, Alternative Slicer
+
+---
+
+#### [Autodesk Fusion360](https://www.autodesk.com/products/fusion-360/personal-form)
+> CAD system. CNC toolpath generating. 3D Modeling.
+
+**Content Author:** Autodesk | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREEMIUM, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, Modeling Software, CAD
+
+---
+
+#### [FreeCAD](https://www.freecad.org/downloads.php)
+> Free CAD system. Can be used for toolpath generation with postprocessors.
+
+**Content Author:** FreeCAD | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, CAD, Modeling Software
+
+---
+
+#### [Learn G-Code for 3D Printing](https://www.cnckitchen.com/blog/g-code-basics-for-3d-printing)
+> A good introduction to G-Code by CNC Kitchen YouTube channel.
+
+**Content Author:** CNC Kitchen | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, FDM, LASER, CNC, ARTICLE, CREATE, VIDEO, UNOFFICIAL, G-Code
+
+---
+
+#### [Online G-Code simulators & Visualizers](https://all3dp.com/2/gcode-viewer-3d-printer-simulator-best-tools/)
+> An article by All3DP reviewing different tools.
+
+**Content Author:** All3DP | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, CREATE, ONLINE TOOL, UNOFFICIAL, G-Code
+
+---
+
+#### [NCViewer](https://ncviewer.com/)
+> This G-Code preview tool is recommended by Snapmaker for troubleshooting toolpath issues.
+
+**Content Author:** Toolpath Labs Inc | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, CREATE, ONLINE TOOL, UNOFFICIAL
 
 ---
 
@@ -466,6 +673,114 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ---
 
+#### [Add airassist to your 10W laser](https://www.facebook.com/groups/snapmaker/posts/1694540740964232/)
+> A facebook post that shows an implementation of internal air assist with external air pump, cheap and effective mod to make your laser path clean.
+
+**Content Author:** Raagnarix | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, LASER, MODS, UNOFFICIAL
+
+---
+
+#### [Laser Calibration Tool](https://github.com/daniel-starke/LaserCalibrationTool)
+> Laser calibration pattern generator.
+
+**Content Author:** daniel-starke | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, RAY, LASER, ONLINE TOOL, UNOFFICIAL
+
+---
+
+#### [Add airassist to your 10W laser](https://www.facebook.com/groups/snapmaker/posts/1694540740964232/)
+> A facebook post that shows an implementation of internal air assist with external air pump, cheap and effective mod to make your laser path clean.
+
+**Content Author:** Raagnarix | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, LASER, MODS, UNOFFICIAL
+
+---
+
+#### [Laser Calibration Tool](https://github.com/daniel-starke/LaserCalibrationTool)
+> Laser calibration pattern generator.
+
+**Content Author:** daniel-starke | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, RAY, LASER, ONLINE TOOL, UNOFFICIAL
+
+---
+
+#### [Kiri:Moto](https://grid.space/kiri/)
+> 3DP/Laser/CNC slicer in browser. It has some unique features, like slicing the model in layers for laser cutting
+
+**Content Author:** GridSpace | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, FDM, LASER, CNC, CREATE, ONLINE TOOL, UNOFFICIAL, Alternative Slicer
+
+---
+
+#### [Lightburn](https://lightburnsoftware.com/pages/trial-version-try-before-you-buy)
+> Ultimate solution for all your laser needs. Guides available in this list. Worth every penny.
+
+**Content Author:** Lightburn team | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, RAY, LASER, DOWNLOAD, UNOFFICIAL, Software
+
+---
+
+#### [1-Touch Laser Photo](https://ulsinc.com/support/1-touch-laser.html)
+> 1-Touch Laser Photo - effortless to use tool to convert photos to good-quality engravings.
+
+**Content Author:** Universal Laser Systems | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREEMIUM, SM_2.0, ARTISAN, RAY, LASER, DOWNLOAD, UNOFFICIAL, Software
+
+---
+
+#### [Autodesk Fusion360](https://www.autodesk.com/products/fusion-360/personal-form)
+> CAD system. CNC toolpath generating. 3D Modeling.
+
+**Content Author:** Autodesk | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREEMIUM, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, Modeling Software, CAD
+
+---
+
+#### [FreeCAD](https://www.freecad.org/downloads.php)
+> Free CAD system. Can be used for toolpath generation with postprocessors.
+
+**Content Author:** FreeCAD | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, CAD, Modeling Software
+
+---
+
+#### [Learn G-Code for 3D Printing](https://www.cnckitchen.com/blog/g-code-basics-for-3d-printing)
+> A good introduction to G-Code by CNC Kitchen YouTube channel.
+
+**Content Author:** CNC Kitchen | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, FDM, LASER, CNC, ARTICLE, CREATE, VIDEO, UNOFFICIAL, G-Code
+
+---
+
+#### [Potrace](https://potrace.sourceforge.net/)
+> Genious and free little tool for transforming bitmaps into vector graphics.
+
+**Content Author:** Peter Selinger | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, RAY, LASER, CREATE, DOWNLOAD, UNOFFICIAL
+
+---
+
+#### [Tiled ZoeDepth, v3.ipynb](https://colab.research.google.com/drive/1Wi-1Ji_fhcoGpK-drT4dVrl5AjfVUQ5M#scrollTo=cQclg8UkclFu)
+> Another genious and free tool for generating depth maps from 2d images, useful for CNC, 3D Printing and Laser engraving!
+
+**Content Author:** BillFSmith | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, RAY, LASER, CREATE, ONLINE TOOL, UNOFFICIAL
+
+---
+
 #### [Snapmaker Luban](https://forum.snapmaker.com/t/snapmaker-luban-downloads-and-updates/4949)
 > Topic with Luban, the 3 in 1 software updates posted
 
@@ -666,6 +981,24 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ### ROTARY
 
+#### [Autodesk Fusion360](https://www.autodesk.com/products/fusion-360/personal-form)
+> CAD system. CNC toolpath generating. 3D Modeling.
+
+**Content Author:** Autodesk | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREEMIUM, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, Modeling Software, CAD
+
+---
+
+#### [CNC WOOD Feed & Speed Calculator](https://www.cnccookbook.com/feeds-speeds-cnc-wood-cutting/)
+> Cookbook with Guide and Easy Tips. The author passed away, and a group of fans is trying to preserve the legacy.
+
+**Content Author:** Community | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, CNC, ROTARY, CREATE, DOWNLOAD, ONLINE TOOL, UNOFFICIAL
+
+---
+
 #### [Snapmaker Luban](https://forum.snapmaker.com/t/snapmaker-luban-downloads-and-updates/4949)
 > Topic with Luban, the 3 in 1 software updates posted
 
@@ -733,6 +1066,42 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ### CNC
 
+#### [Kiri:Moto](https://grid.space/kiri/)
+> 3DP/Laser/CNC slicer in browser. It has some unique features, like slicing the model in layers for laser cutting
+
+**Content Author:** GridSpace | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, FDM, LASER, CNC, CREATE, ONLINE TOOL, UNOFFICIAL, Alternative Slicer
+
+---
+
+#### [Autodesk Fusion360](https://www.autodesk.com/products/fusion-360/personal-form)
+> CAD system. CNC toolpath generating. 3D Modeling.
+
+**Content Author:** Autodesk | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREEMIUM, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, Modeling Software, CAD
+
+---
+
+#### [FreeCAD](https://www.freecad.org/downloads.php)
+> Free CAD system. Can be used for toolpath generation with postprocessors.
+
+**Content Author:** FreeCAD | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, CAD, Modeling Software
+
+---
+
+#### [Learn G-Code for 3D Printing](https://www.cnckitchen.com/blog/g-code-basics-for-3d-printing)
+> A good introduction to G-Code by CNC Kitchen YouTube channel.
+
+**Content Author:** CNC Kitchen | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, FDM, LASER, CNC, ARTICLE, CREATE, VIDEO, UNOFFICIAL, G-Code
+
+---
+
 #### [Snapmaker Luban](https://forum.snapmaker.com/t/snapmaker-luban-downloads-and-updates/4949)
 > Topic with Luban, the 3 in 1 software updates posted
 
@@ -779,6 +1148,24 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 ---
 
 ### COMBINED
+
+#### [Autodesk Fusion360](https://www.autodesk.com/products/fusion-360/personal-form)
+> CAD system. CNC toolpath generating. 3D Modeling.
+
+**Content Author:** Autodesk | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREEMIUM, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, Modeling Software, CAD
+
+---
+
+#### [FreeCAD](https://www.freecad.org/downloads.php)
+> Free CAD system. Can be used for toolpath generation with postprocessors.
+
+**Content Author:** FreeCAD | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, CAD, Modeling Software
+
+---
 
 #### [Snapmaker Luban](https://forum.snapmaker.com/t/snapmaker-luban-downloads-and-updates/4949)
 > Topic with Luban, the 3 in 1 software updates posted
@@ -853,6 +1240,114 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 ---
 
 ### FDM
+
+#### [Snapmaker2Slic3rPostProcessor](https://github.com/macdylan/Snapmaker2Slic3rPostProcessor)
+> A Snapmaker G-Code Post Processor for PrusaSlicer and SuperSlicer to create compatible files for Snapmaker Touchscreen. Like thumbnail of the print on the screen. Supports PrusaSlicer and SuperSlicer with Snapmaker 2 A150/250/350, J1, Artisan.
+
+**Content Author:** macdylan | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, J1/J1s, FDM, DOWNLOAD, UNOFFICIAL, Post Processor, G-Code
+
+---
+
+#### [Snapmaker2Slic3rPostProcessor](https://github.com/macdylan/Snapmaker2Slic3rPostProcessor)
+> A Snapmaker G-Code Post Processor for PrusaSlicer and SuperSlicer to create compatible files for Snapmaker Touchscreen. Like thumbnail of the print on the screen. Supports PrusaSlicer and SuperSlicer with Snapmaker 2 A150/250/350, J1, Artisan.
+
+**Content Author:** macdylan | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, J1/J1s, FDM, DOWNLOAD, UNOFFICIAL, Post Processor, G-Code
+
+---
+
+#### [Teaching Tech 3D Printer Calibration](https://teachingtechyt.github.io/calibration.html)
+> The go to for proper calibration. Use CAUTION.
+
+**Content Author:** TeachingTech | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ARTICLE, ONLINE TOOL, UNOFFICIAL, Calibration
+
+---
+
+#### [Ellis' Print Tuning Guide](https://ellis3dp.com/Print-Tuning-Guide/)
+> Another wonderful resource for calibration, using a different approach.
+
+**Content Author:** Ellis | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ARTICLE, ONLINE TOOL, UNOFFICIAL, Calibration
+
+---
+
+#### [Calibration shapes](https://github.com/5axes/Calibration-Shapes)
+> Collection of test shapes with Cura plugin to really dial in your printer. You can use STLs out of Cura too.
+
+**Content Author:** 5axes | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, DOWNLOAD, UNOFFICIAL, Calibration
+
+---
+
+#### [Retraction Calibration Tool](http://retractioncalibration.com/)
+> Tool to dial in your retraction.
+
+**Content Author:** Karl Johnson | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, DOWNLOAD, UNOFFICIAL, Calibration
+
+---
+
+#### [Kiri:Moto](https://grid.space/kiri/)
+> 3DP/Laser/CNC slicer in browser. It has some unique features, like slicing the model in layers for laser cutting
+
+**Content Author:** GridSpace | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, FDM, LASER, CNC, CREATE, ONLINE TOOL, UNOFFICIAL, Alternative Slicer
+
+---
+
+#### [Autodesk Fusion360](https://www.autodesk.com/products/fusion-360/personal-form)
+> CAD system. CNC toolpath generating. 3D Modeling.
+
+**Content Author:** Autodesk | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREEMIUM, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, Modeling Software, CAD
+
+---
+
+#### [FreeCAD](https://www.freecad.org/downloads.php)
+> Free CAD system. Can be used for toolpath generation with postprocessors.
+
+**Content Author:** FreeCAD | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, CAD, Modeling Software
+
+---
+
+#### [Learn G-Code for 3D Printing](https://www.cnckitchen.com/blog/g-code-basics-for-3d-printing)
+> A good introduction to G-Code by CNC Kitchen YouTube channel.
+
+**Content Author:** CNC Kitchen | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, FDM, LASER, CNC, ARTICLE, CREATE, VIDEO, UNOFFICIAL, G-Code
+
+---
+
+#### [Online G-Code simulators & Visualizers](https://all3dp.com/2/gcode-viewer-3d-printer-simulator-best-tools/)
+> An article by All3DP reviewing different tools.
+
+**Content Author:** All3DP | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, CREATE, ONLINE TOOL, UNOFFICIAL, G-Code
+
+---
+
+#### [NCViewer](https://ncviewer.com/)
+> This G-Code preview tool is recommended by Snapmaker for troubleshooting toolpath issues.
+
+**Content Author:** Toolpath Labs Inc | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, CREATE, ONLINE TOOL, UNOFFICIAL
+
+---
 
 #### [Snapmaker J1/J1s Specification](https://www.snapmaker.com/en-US/j1s-idex-3d-printer/specs)
 > All the specs in one place
@@ -1036,6 +1531,42 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ### LASER
 
+#### [Kiri:Moto](https://grid.space/kiri/)
+> 3DP/Laser/CNC slicer in browser. It has some unique features, like slicing the model in layers for laser cutting
+
+**Content Author:** GridSpace | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, FDM, LASER, CNC, CREATE, ONLINE TOOL, UNOFFICIAL, Alternative Slicer
+
+---
+
+#### [Autodesk Fusion360](https://www.autodesk.com/products/fusion-360/personal-form)
+> CAD system. CNC toolpath generating. 3D Modeling.
+
+**Content Author:** Autodesk | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREEMIUM, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, Modeling Software, CAD
+
+---
+
+#### [FreeCAD](https://www.freecad.org/downloads.php)
+> Free CAD system. Can be used for toolpath generation with postprocessors.
+
+**Content Author:** FreeCAD | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, CAD, Modeling Software
+
+---
+
+#### [Learn G-Code for 3D Printing](https://www.cnckitchen.com/blog/g-code-basics-for-3d-printing)
+> A good introduction to G-Code by CNC Kitchen YouTube channel.
+
+**Content Author:** CNC Kitchen | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, FDM, LASER, CNC, ARTICLE, CREATE, VIDEO, UNOFFICIAL, G-Code
+
+---
+
 #### [Snapmaker Luban](https://forum.snapmaker.com/t/snapmaker-luban-downloads-and-updates/4949)
 > Topic with Luban, the 3 in 1 software updates posted
 
@@ -1082,6 +1613,15 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 ---
 
 ### ROTARY
+
+#### [Autodesk Fusion360](https://www.autodesk.com/products/fusion-360/personal-form)
+> CAD system. CNC toolpath generating. 3D Modeling.
+
+**Content Author:** Autodesk | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREEMIUM, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, Modeling Software, CAD
+
+---
 
 #### [Snapmaker Luban](https://forum.snapmaker.com/t/snapmaker-luban-downloads-and-updates/4949)
 > Topic with Luban, the 3 in 1 software updates posted
@@ -1131,6 +1671,42 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 ## RAY
 
 ### CNC
+
+#### [Kiri:Moto](https://grid.space/kiri/)
+> 3DP/Laser/CNC slicer in browser. It has some unique features, like slicing the model in layers for laser cutting
+
+**Content Author:** GridSpace | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, FDM, LASER, CNC, CREATE, ONLINE TOOL, UNOFFICIAL, Alternative Slicer
+
+---
+
+#### [Autodesk Fusion360](https://www.autodesk.com/products/fusion-360/personal-form)
+> CAD system. CNC toolpath generating. 3D Modeling.
+
+**Content Author:** Autodesk | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREEMIUM, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, Modeling Software, CAD
+
+---
+
+#### [FreeCAD](https://www.freecad.org/downloads.php)
+> Free CAD system. Can be used for toolpath generation with postprocessors.
+
+**Content Author:** FreeCAD | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, CAD, Modeling Software
+
+---
+
+#### [Learn G-Code for 3D Printing](https://www.cnckitchen.com/blog/g-code-basics-for-3d-printing)
+> A good introduction to G-Code by CNC Kitchen YouTube channel.
+
+**Content Author:** CNC Kitchen | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, FDM, LASER, CNC, ARTICLE, CREATE, VIDEO, UNOFFICIAL, G-Code
+
+---
 
 #### [Snapmaker Luban](https://forum.snapmaker.com/t/snapmaker-luban-downloads-and-updates/4949)
 > Topic with Luban, the 3 in 1 software updates posted
@@ -1197,6 +1773,24 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ### COMBINED
 
+#### [Autodesk Fusion360](https://www.autodesk.com/products/fusion-360/personal-form)
+> CAD system. CNC toolpath generating. 3D Modeling.
+
+**Content Author:** Autodesk | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREEMIUM, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, Modeling Software, CAD
+
+---
+
+#### [FreeCAD](https://www.freecad.org/downloads.php)
+> Free CAD system. Can be used for toolpath generation with postprocessors.
+
+**Content Author:** FreeCAD | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, CAD, Modeling Software
+
+---
+
 #### [Snapmaker Luban](https://forum.snapmaker.com/t/snapmaker-luban-downloads-and-updates/4949)
 > Topic with Luban, the 3 in 1 software updates posted
 
@@ -1243,6 +1837,42 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 ---
 
 ### FDM
+
+#### [Kiri:Moto](https://grid.space/kiri/)
+> 3DP/Laser/CNC slicer in browser. It has some unique features, like slicing the model in layers for laser cutting
+
+**Content Author:** GridSpace | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, FDM, LASER, CNC, CREATE, ONLINE TOOL, UNOFFICIAL, Alternative Slicer
+
+---
+
+#### [Autodesk Fusion360](https://www.autodesk.com/products/fusion-360/personal-form)
+> CAD system. CNC toolpath generating. 3D Modeling.
+
+**Content Author:** Autodesk | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREEMIUM, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, Modeling Software, CAD
+
+---
+
+#### [FreeCAD](https://www.freecad.org/downloads.php)
+> Free CAD system. Can be used for toolpath generation with postprocessors.
+
+**Content Author:** FreeCAD | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, CAD, Modeling Software
+
+---
+
+#### [Learn G-Code for 3D Printing](https://www.cnckitchen.com/blog/g-code-basics-for-3d-printing)
+> A good introduction to G-Code by CNC Kitchen YouTube channel.
+
+**Content Author:** CNC Kitchen | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, FDM, LASER, CNC, ARTICLE, CREATE, VIDEO, UNOFFICIAL, G-Code
+
+---
 
 #### [Snapmaker Luban](https://forum.snapmaker.com/t/snapmaker-luban-downloads-and-updates/4949)
 > Topic with Luban, the 3 in 1 software updates posted
@@ -1306,6 +1936,96 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 **Content Author:** daniel-starke | **Added:** 2026-03-09
 
 **Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, RAY, LASER, ONLINE TOOL, UNOFFICIAL
+
+---
+
+#### [Laser Calibration Tool](https://github.com/daniel-starke/LaserCalibrationTool)
+> Laser calibration pattern generator.
+
+**Content Author:** daniel-starke | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, RAY, LASER, ONLINE TOOL, UNOFFICIAL
+
+---
+
+#### [Laser Calibration Tool](https://github.com/daniel-starke/LaserCalibrationTool)
+> Laser calibration pattern generator.
+
+**Content Author:** daniel-starke | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, RAY, LASER, ONLINE TOOL, UNOFFICIAL
+
+---
+
+#### [Kiri:Moto](https://grid.space/kiri/)
+> 3DP/Laser/CNC slicer in browser. It has some unique features, like slicing the model in layers for laser cutting
+
+**Content Author:** GridSpace | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, FDM, LASER, CNC, CREATE, ONLINE TOOL, UNOFFICIAL, Alternative Slicer
+
+---
+
+#### [Lightburn](https://lightburnsoftware.com/pages/trial-version-try-before-you-buy)
+> Ultimate solution for all your laser needs. Guides available in this list. Worth every penny.
+
+**Content Author:** Lightburn team | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, RAY, LASER, DOWNLOAD, UNOFFICIAL, Software
+
+---
+
+#### [1-Touch Laser Photo](https://ulsinc.com/support/1-touch-laser.html)
+> 1-Touch Laser Photo - effortless to use tool to convert photos to good-quality engravings.
+
+**Content Author:** Universal Laser Systems | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREEMIUM, SM_2.0, ARTISAN, RAY, LASER, DOWNLOAD, UNOFFICIAL, Software
+
+---
+
+#### [Autodesk Fusion360](https://www.autodesk.com/products/fusion-360/personal-form)
+> CAD system. CNC toolpath generating. 3D Modeling.
+
+**Content Author:** Autodesk | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREEMIUM, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, Modeling Software, CAD
+
+---
+
+#### [FreeCAD](https://www.freecad.org/downloads.php)
+> Free CAD system. Can be used for toolpath generation with postprocessors.
+
+**Content Author:** FreeCAD | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, CAD, Modeling Software
+
+---
+
+#### [Learn G-Code for 3D Printing](https://www.cnckitchen.com/blog/g-code-basics-for-3d-printing)
+> A good introduction to G-Code by CNC Kitchen YouTube channel.
+
+**Content Author:** CNC Kitchen | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, FDM, LASER, CNC, ARTICLE, CREATE, VIDEO, UNOFFICIAL, G-Code
+
+---
+
+#### [Potrace](https://potrace.sourceforge.net/)
+> Genious and free little tool for transforming bitmaps into vector graphics.
+
+**Content Author:** Peter Selinger | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, RAY, LASER, CREATE, DOWNLOAD, UNOFFICIAL
+
+---
+
+#### [Tiled ZoeDepth, v3.ipynb](https://colab.research.google.com/drive/1Wi-1Ji_fhcoGpK-drT4dVrl5AjfVUQ5M#scrollTo=cQclg8UkclFu)
+> Another genious and free tool for generating depth maps from 2d images, useful for CNC, 3D Printing and Laser engraving!
+
+**Content Author:** BillFSmith | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, RAY, LASER, CREATE, ONLINE TOOL, UNOFFICIAL
 
 ---
 
@@ -1500,6 +2220,15 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ### ROTARY
 
+#### [Autodesk Fusion360](https://www.autodesk.com/products/fusion-360/personal-form)
+> CAD system. CNC toolpath generating. 3D Modeling.
+
+**Content Author:** Autodesk | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREEMIUM, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, Modeling Software, CAD
+
+---
+
 #### [Snapmaker Luban](https://forum.snapmaker.com/t/snapmaker-luban-downloads-and-updates/4949)
 > Topic with Luban, the 3 in 1 software updates posted
 
@@ -1601,6 +2330,224 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 **Content Author:** brvdboss | **Added:** 2026-03-09
 
 **Tags:** BEGINNER, FREE, SM_2.0, CNC, DOWNLOAD, MODS, UNOFFICIAL
+
+---
+
+#### [CNC self-impelled vacuum dust shoe (no external vacuum required)](https://forum.snapmaker.com/t/cnc-self-impelled-vacuum-dust-shoe-no-external-vacuum-required/24972)
+> Great design of a vacuumless dust removal shoe.
+
+**Content Author:** gil.a.ramirez | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, PAID, SM_2.0, ARTISAN, CNC, MODS, UNOFFICIAL, Dust Removal
+
+---
+
+#### [Snapmaker Stiffy Kit by CTZcnc](https://github.com/christopz/snapmakerstiffy)
+> Make Snapmaker rigid for heavy load cnc work - Design by
+
+**Content Author:** christopz | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, CNC, MODS, UNOFFICIAL
+
+---
+
+#### [Fusion360 Post Processor](https://github.com/nunorvoliveira/snapmaker-2.0/tree/main/Fusion%20360)
+> Fusion360 postprocessor for machines in Snapmaker 2.0 family.
+
+**Content Author:** nunorvoliveira | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, CNC, DOWNLOAD, UNOFFICIAL, Post Processor, Fusion360
+
+---
+
+#### [Snapmaker2Postprocessor for FreeCAD](https://github.com/clsergent/Snapmaker2Postprocessor)
+> FreeCAD postprocessor.
+
+**Content Author:** clsergent. | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, CNC, DOWNLOAD, UNOFFICIAL, FreeCAD, Post Processor
+
+---
+
+#### [CNC postprocessors for Snapmaker](https://github.com/Snapmaker/snapmaker_cnc_post_process)
+> Collection of developed by @whimsycwd - post processing tools.
+> Support for Fusion360 / FreeCAD / ArtCAM / Aspire / Vcarve.
+
+**Content Author:** whimsycwd | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, CNC, DOWNLOAD, UNOFFICIAL, Fusion360, FreeCAD, ArtCAM, Aspire, Vcarve, Post Processor
+
+---
+
+#### [3D Touchprobe controller for Snapmaker 2.0](https://github.com/brvdboss/3D-touchprobe-controller)
+> Designed to work with a 3D touch probe on the SnapMaker 2 device and a 3D touch probe.
+
+**Content Author:** brvdboss | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, CNC, DOWNLOAD, MODS, UNOFFICIAL
+
+---
+
+#### [Snapmaker Command Line Tool (CLI)](https://github.com/hauti123/Snapmaker)
+> Control your snapmaker via command line.
+
+**Content Author:** hauti123 | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, UNOFFICIAL
+
+---
+
+#### [Gamepad Controls for Snapmaker](https://github.com/PolymerPrints/snapmaker-gamepad-control)
+> Control your machine with an xbox controller.
+
+**Content Author:** PolymerPrints | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, MODS, UNOFFICIAL, G-Code
+
+---
+
+#### [Serial UART Connection to a Snapmaker 2.0 Controller](https://forum.snapmaker.com/t/add-a-serial-uart-connection-to-a-snapmaker-2-0-controller/34030?u=seppo)
+> For adding a rotary encoder and other physical buttons, control your machine with an Xbox controller.
+
+**Content Author:** Seppo | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, MODS, UNOFFICIAL, G-Code
+
+---
+
+#### [CNC self-impelled vacuum dust shoe (no external vacuum required)](https://forum.snapmaker.com/t/cnc-self-impelled-vacuum-dust-shoe-no-external-vacuum-required/24972)
+> Great design of a vacuumless dust removal shoe.
+
+**Content Author:** gil.a.ramirez | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, PAID, SM_2.0, ARTISAN, CNC, MODS, UNOFFICIAL, Dust Removal
+
+---
+
+#### [Snapmaker Stiffy Kit by CTZcnc](https://github.com/christopz/snapmakerstiffy)
+> Make Snapmaker rigid for heavy load cnc work - Design by
+
+**Content Author:** christopz | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, CNC, MODS, UNOFFICIAL
+
+---
+
+#### [Fusion360 Post Processor](https://github.com/nunorvoliveira/snapmaker-2.0/tree/main/Fusion%20360)
+> Fusion360 postprocessor for machines in Snapmaker 2.0 family.
+
+**Content Author:** nunorvoliveira | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, CNC, DOWNLOAD, UNOFFICIAL, Post Processor, Fusion360
+
+---
+
+#### [Snapmaker2Postprocessor for FreeCAD](https://github.com/clsergent/Snapmaker2Postprocessor)
+> FreeCAD postprocessor.
+
+**Content Author:** clsergent. | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, CNC, DOWNLOAD, UNOFFICIAL, FreeCAD, Post Processor
+
+---
+
+#### [CNC postprocessors for Snapmaker](https://github.com/Snapmaker/snapmaker_cnc_post_process)
+> Collection of developed by @whimsycwd - post processing tools.
+> Support for Fusion360 / FreeCAD / ArtCAM / Aspire / Vcarve.
+
+**Content Author:** whimsycwd | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, CNC, DOWNLOAD, UNOFFICIAL, Fusion360, FreeCAD, ArtCAM, Aspire, Vcarve, Post Processor
+
+---
+
+#### [3D Touchprobe controller for Snapmaker 2.0](https://github.com/brvdboss/3D-touchprobe-controller)
+> Designed to work with a 3D touch probe on the SnapMaker 2 device and a 3D touch probe.
+
+**Content Author:** brvdboss | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, CNC, DOWNLOAD, MODS, UNOFFICIAL
+
+---
+
+#### [Snapmaker Command Line Tool (CLI)](https://github.com/hauti123/Snapmaker)
+> Control your snapmaker via command line.
+
+**Content Author:** hauti123 | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, UNOFFICIAL
+
+---
+
+#### [Gamepad Controls for Snapmaker](https://github.com/PolymerPrints/snapmaker-gamepad-control)
+> Control your machine with an xbox controller.
+
+**Content Author:** PolymerPrints | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, MODS, UNOFFICIAL, G-Code
+
+---
+
+#### [Serial UART Connection to a Snapmaker 2.0 Controller](https://forum.snapmaker.com/t/add-a-serial-uart-connection-to-a-snapmaker-2-0-controller/34030?u=seppo)
+> For adding a rotary encoder and other physical buttons, control your machine with an Xbox controller.
+
+**Content Author:** Seppo | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, MODS, UNOFFICIAL, G-Code
+
+---
+
+#### [Kiri:Moto](https://grid.space/kiri/)
+> 3DP/Laser/CNC slicer in browser. It has some unique features, like slicing the model in layers for laser cutting
+
+**Content Author:** GridSpace | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, FDM, LASER, CNC, CREATE, ONLINE TOOL, UNOFFICIAL, Alternative Slicer
+
+---
+
+#### [Autodesk Fusion360](https://www.autodesk.com/products/fusion-360/personal-form)
+> CAD system. CNC toolpath generating. 3D Modeling.
+
+**Content Author:** Autodesk | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREEMIUM, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, Modeling Software, CAD
+
+---
+
+#### [FreeCAD](https://www.freecad.org/downloads.php)
+> Free CAD system. Can be used for toolpath generation with postprocessors.
+
+**Content Author:** FreeCAD | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, CAD, Modeling Software
+
+---
+
+#### [CNC WOOD Feed & Speed Calculator](https://www.cnccookbook.com/feeds-speeds-cnc-wood-cutting/)
+> Cookbook with Guide and Easy Tips. The author passed away, and a group of fans is trying to preserve the legacy.
+
+**Content Author:** Community | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, CNC, ROTARY, CREATE, DOWNLOAD, ONLINE TOOL, UNOFFICIAL
+
+---
+
+#### [Learn G-Code for 3D Printing](https://www.cnckitchen.com/blog/g-code-basics-for-3d-printing)
+> A good introduction to G-Code by CNC Kitchen YouTube channel.
+
+**Content Author:** CNC Kitchen | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, FDM, LASER, CNC, ARTICLE, CREATE, VIDEO, UNOFFICIAL, G-Code
+
+---
+
+#### [Snapmaker 2.0 stock pictures](https://github.com/shurushetr/awesome-snapmaker/blob/main/images/Snapmaker_Parts/SP_2.0)
+> Hosted here collection of stock parts and internals of Snapmaker 2.0. You can find there measurements for hot end electrical components and other such things.
+
+**Content Author:** Community | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, REPAIR, UNOFFICIAL
 
 ---
 
@@ -1878,6 +2825,24 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ### COMBINED
 
+#### [Autodesk Fusion360](https://www.autodesk.com/products/fusion-360/personal-form)
+> CAD system. CNC toolpath generating. 3D Modeling.
+
+**Content Author:** Autodesk | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREEMIUM, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, Modeling Software, CAD
+
+---
+
+#### [FreeCAD](https://www.freecad.org/downloads.php)
+> Free CAD system. Can be used for toolpath generation with postprocessors.
+
+**Content Author:** FreeCAD | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, CAD, Modeling Software
+
+---
+
 #### [Snapmaker Luban](https://forum.snapmaker.com/t/snapmaker-luban-downloads-and-updates/4949)
 > Topic with Luban, the 3 in 1 software updates posted
 
@@ -2039,6 +3004,222 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 **Content Author:** Slynold | **Added:** 2026-03-09
 
 **Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, FDM, ARTICLE, DISCUSSION, UNOFFICIAL
+
+---
+
+#### [Dual Extruder and Prusaslicer](https://forum.snapmaker.com/t/dual-extruder-and-prusaslicer/29792/)
+> Forum thread dedicated to setting up a dual extruder with PrusaSlicer.
+
+**Content Author:** Slynold | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, FDM, ARTICLE, DISCUSSION, UNOFFICIAL
+
+---
+
+#### [Snapmaker2Slic3rPostProcessor](https://github.com/macdylan/Snapmaker2Slic3rPostProcessor)
+> A Snapmaker G-Code Post Processor for PrusaSlicer and SuperSlicer to create compatible files for Snapmaker Touchscreen. Like thumbnail of the print on the screen. Supports PrusaSlicer and SuperSlicer with Snapmaker 2 A150/250/350, J1, Artisan.
+
+**Content Author:** macdylan | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, J1/J1s, FDM, DOWNLOAD, UNOFFICIAL, Post Processor, G-Code
+
+---
+
+#### [A Snapmaker 2.0 PrusaSlicer Post-Processor to create compatible files for the Snapmaker terminal.](https://github.com/daniel-starke/sm2pspp)
+> Another g-code postprocessor for Prusaslicer.
+
+**Content Author:** daniel-starke | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, FDM, DOWNLOAD, UNOFFICIAL, Post Processor, G-Code
+
+---
+
+#### [Snapmaker Command Line Tool (CLI)](https://github.com/hauti123/Snapmaker)
+> Control your snapmaker via command line.
+
+**Content Author:** hauti123 | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, UNOFFICIAL
+
+---
+
+#### [Gamepad Controls for Snapmaker](https://github.com/PolymerPrints/snapmaker-gamepad-control)
+> Control your machine with an xbox controller.
+
+**Content Author:** PolymerPrints | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, MODS, UNOFFICIAL, G-Code
+
+---
+
+#### [Serial UART Connection to a Snapmaker 2.0 Controller](https://forum.snapmaker.com/t/add-a-serial-uart-connection-to-a-snapmaker-2-0-controller/34030?u=seppo)
+> For adding a rotary encoder and other physical buttons, control your machine with an Xbox controller.
+
+**Content Author:** Seppo | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, MODS, UNOFFICIAL, G-Code
+
+---
+
+#### [Dual Extruder and Prusaslicer](https://forum.snapmaker.com/t/dual-extruder-and-prusaslicer/29792/)
+> Forum thread dedicated to setting up a dual extruder with PrusaSlicer.
+
+**Content Author:** Slynold | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, FDM, ARTICLE, DISCUSSION, UNOFFICIAL
+
+---
+
+#### [Snapmaker2Slic3rPostProcessor](https://github.com/macdylan/Snapmaker2Slic3rPostProcessor)
+> A Snapmaker G-Code Post Processor for PrusaSlicer and SuperSlicer to create compatible files for Snapmaker Touchscreen. Like thumbnail of the print on the screen. Supports PrusaSlicer and SuperSlicer with Snapmaker 2 A150/250/350, J1, Artisan.
+
+**Content Author:** macdylan | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, J1/J1s, FDM, DOWNLOAD, UNOFFICIAL, Post Processor, G-Code
+
+---
+
+#### [A Snapmaker 2.0 PrusaSlicer Post-Processor to create compatible files for the Snapmaker terminal.](https://github.com/daniel-starke/sm2pspp)
+> Another g-code postprocessor for Prusaslicer.
+
+**Content Author:** daniel-starke | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, FDM, DOWNLOAD, UNOFFICIAL, Post Processor, G-Code
+
+---
+
+#### [Snapmaker Command Line Tool (CLI)](https://github.com/hauti123/Snapmaker)
+> Control your snapmaker via command line.
+
+**Content Author:** hauti123 | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, UNOFFICIAL
+
+---
+
+#### [Gamepad Controls for Snapmaker](https://github.com/PolymerPrints/snapmaker-gamepad-control)
+> Control your machine with an xbox controller.
+
+**Content Author:** PolymerPrints | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, MODS, UNOFFICIAL, G-Code
+
+---
+
+#### [Serial UART Connection to a Snapmaker 2.0 Controller](https://forum.snapmaker.com/t/add-a-serial-uart-connection-to-a-snapmaker-2-0-controller/34030?u=seppo)
+> For adding a rotary encoder and other physical buttons, control your machine with an Xbox controller.
+
+**Content Author:** Seppo | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, MODS, UNOFFICIAL, G-Code
+
+---
+
+#### [Teaching Tech 3D Printer Calibration](https://teachingtechyt.github.io/calibration.html)
+> The go to for proper calibration. Use CAUTION.
+
+**Content Author:** TeachingTech | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ARTICLE, ONLINE TOOL, UNOFFICIAL, Calibration
+
+---
+
+#### [Ellis' Print Tuning Guide](https://ellis3dp.com/Print-Tuning-Guide/)
+> Another wonderful resource for calibration, using a different approach.
+
+**Content Author:** Ellis | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ARTICLE, ONLINE TOOL, UNOFFICIAL, Calibration
+
+---
+
+#### [Calibration shapes](https://github.com/5axes/Calibration-Shapes)
+> Collection of test shapes with Cura plugin to really dial in your printer. You can use STLs out of Cura too.
+
+**Content Author:** 5axes | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, DOWNLOAD, UNOFFICIAL, Calibration
+
+---
+
+#### [Retraction Calibration Tool](http://retractioncalibration.com/)
+> Tool to dial in your retraction.
+
+**Content Author:** Karl Johnson | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, DOWNLOAD, UNOFFICIAL, Calibration
+
+---
+
+#### [3D Print Problems (w/Photos & Solutions)](https://forum.snapmaker.com/t/3d-print-problems-w-photos-solutions/29200)
+> Collection of issues and possible solutions by Mxbrnr
+
+**Content Author:** Mxbrnr | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, FDM, ARTICLE, DISCUSSION, UNOFFICIAL, Calibration
+
+---
+
+#### [Kiri:Moto](https://grid.space/kiri/)
+> 3DP/Laser/CNC slicer in browser. It has some unique features, like slicing the model in layers for laser cutting
+
+**Content Author:** GridSpace | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, FDM, LASER, CNC, CREATE, ONLINE TOOL, UNOFFICIAL, Alternative Slicer
+
+---
+
+#### [Autodesk Fusion360](https://www.autodesk.com/products/fusion-360/personal-form)
+> CAD system. CNC toolpath generating. 3D Modeling.
+
+**Content Author:** Autodesk | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREEMIUM, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, Modeling Software, CAD
+
+---
+
+#### [FreeCAD](https://www.freecad.org/downloads.php)
+> Free CAD system. Can be used for toolpath generation with postprocessors.
+
+**Content Author:** FreeCAD | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, CAD, Modeling Software
+
+---
+
+#### [Learn G-Code for 3D Printing](https://www.cnckitchen.com/blog/g-code-basics-for-3d-printing)
+> A good introduction to G-Code by CNC Kitchen YouTube channel.
+
+**Content Author:** CNC Kitchen | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, FDM, LASER, CNC, ARTICLE, CREATE, VIDEO, UNOFFICIAL, G-Code
+
+---
+
+#### [Online G-Code simulators & Visualizers](https://all3dp.com/2/gcode-viewer-3d-printer-simulator-best-tools/)
+> An article by All3DP reviewing different tools.
+
+**Content Author:** All3DP | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, CREATE, ONLINE TOOL, UNOFFICIAL, G-Code
+
+---
+
+#### [NCViewer](https://ncviewer.com/)
+> This G-Code preview tool is recommended by Snapmaker for troubleshooting toolpath issues.
+
+**Content Author:** Toolpath Labs Inc | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, CREATE, ONLINE TOOL, UNOFFICIAL
+
+---
+
+#### [Snapmaker 2.0 stock pictures](https://github.com/shurushetr/awesome-snapmaker/blob/main/images/Snapmaker_Parts/SP_2.0)
+> Hosted here collection of stock parts and internals of Snapmaker 2.0. You can find there measurements for hot end electrical components and other such things.
+
+**Content Author:** Community | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, REPAIR, UNOFFICIAL
 
 ---
 
@@ -2524,6 +3705,195 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ---
 
+#### [Add airassist to your 10W laser](https://www.facebook.com/groups/snapmaker/posts/1694540740964232/)
+> A facebook post that shows an implementation of internal air assist with external air pump, cheap and effective mod to make your laser path clean.
+
+**Content Author:** Raagnarix | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, LASER, MODS, UNOFFICIAL
+
+---
+
+#### [Laser Test Grid Generator](https://github.com/nunorvoliveira/Snapmaker-Laser-Test-Grid)
+> Generates G-Code to test your materials best speed/power ratio.
+
+**Content Author:** nunorvoliveira | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, LASER, DOWNLOAD, UNOFFICIAL
+
+---
+
+#### [Laser Calibration Tool](https://github.com/daniel-starke/LaserCalibrationTool)
+> Laser calibration pattern generator.
+
+**Content Author:** daniel-starke | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, RAY, LASER, ONLINE TOOL, UNOFFICIAL
+
+---
+
+#### [Snapmaker Command Line Tool (CLI)](https://github.com/hauti123/Snapmaker)
+> Control your snapmaker via command line.
+
+**Content Author:** hauti123 | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, UNOFFICIAL
+
+---
+
+#### [Gamepad Controls for Snapmaker](https://github.com/PolymerPrints/snapmaker-gamepad-control)
+> Control your machine with an xbox controller.
+
+**Content Author:** PolymerPrints | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, MODS, UNOFFICIAL, G-Code
+
+---
+
+#### [Serial UART Connection to a Snapmaker 2.0 Controller](https://forum.snapmaker.com/t/add-a-serial-uart-connection-to-a-snapmaker-2-0-controller/34030?u=seppo)
+> For adding a rotary encoder and other physical buttons, control your machine with an Xbox controller.
+
+**Content Author:** Seppo | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, MODS, UNOFFICIAL, G-Code
+
+---
+
+#### [Add airassist to your 10W laser](https://www.facebook.com/groups/snapmaker/posts/1694540740964232/)
+> A facebook post that shows an implementation of internal air assist with external air pump, cheap and effective mod to make your laser path clean.
+
+**Content Author:** Raagnarix | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, LASER, MODS, UNOFFICIAL
+
+---
+
+#### [Laser Test Grid Generator](https://github.com/nunorvoliveira/Snapmaker-Laser-Test-Grid)
+> Generates G-Code to test your materials best speed/power ratio.
+
+**Content Author:** nunorvoliveira | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, LASER, DOWNLOAD, UNOFFICIAL
+
+---
+
+#### [Laser Calibration Tool](https://github.com/daniel-starke/LaserCalibrationTool)
+> Laser calibration pattern generator.
+
+**Content Author:** daniel-starke | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, RAY, LASER, ONLINE TOOL, UNOFFICIAL
+
+---
+
+#### [Snapmaker Command Line Tool (CLI)](https://github.com/hauti123/Snapmaker)
+> Control your snapmaker via command line.
+
+**Content Author:** hauti123 | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, UNOFFICIAL
+
+---
+
+#### [Gamepad Controls for Snapmaker](https://github.com/PolymerPrints/snapmaker-gamepad-control)
+> Control your machine with an xbox controller.
+
+**Content Author:** PolymerPrints | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, MODS, UNOFFICIAL, G-Code
+
+---
+
+#### [Serial UART Connection to a Snapmaker 2.0 Controller](https://forum.snapmaker.com/t/add-a-serial-uart-connection-to-a-snapmaker-2-0-controller/34030?u=seppo)
+> For adding a rotary encoder and other physical buttons, control your machine with an Xbox controller.
+
+**Content Author:** Seppo | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, MODS, UNOFFICIAL, G-Code
+
+---
+
+#### [Kiri:Moto](https://grid.space/kiri/)
+> 3DP/Laser/CNC slicer in browser. It has some unique features, like slicing the model in layers for laser cutting
+
+**Content Author:** GridSpace | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, FDM, LASER, CNC, CREATE, ONLINE TOOL, UNOFFICIAL, Alternative Slicer
+
+---
+
+#### [Lightburn](https://lightburnsoftware.com/pages/trial-version-try-before-you-buy)
+> Ultimate solution for all your laser needs. Guides available in this list. Worth every penny.
+
+**Content Author:** Lightburn team | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, RAY, LASER, DOWNLOAD, UNOFFICIAL, Software
+
+---
+
+#### [1-Touch Laser Photo](https://ulsinc.com/support/1-touch-laser.html)
+> 1-Touch Laser Photo - effortless to use tool to convert photos to good-quality engravings.
+
+**Content Author:** Universal Laser Systems | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREEMIUM, SM_2.0, ARTISAN, RAY, LASER, DOWNLOAD, UNOFFICIAL, Software
+
+---
+
+#### [Autodesk Fusion360](https://www.autodesk.com/products/fusion-360/personal-form)
+> CAD system. CNC toolpath generating. 3D Modeling.
+
+**Content Author:** Autodesk | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREEMIUM, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, Modeling Software, CAD
+
+---
+
+#### [FreeCAD](https://www.freecad.org/downloads.php)
+> Free CAD system. Can be used for toolpath generation with postprocessors.
+
+**Content Author:** FreeCAD | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, CAD, Modeling Software
+
+---
+
+#### [Learn G-Code for 3D Printing](https://www.cnckitchen.com/blog/g-code-basics-for-3d-printing)
+> A good introduction to G-Code by CNC Kitchen YouTube channel.
+
+**Content Author:** CNC Kitchen | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, FDM, LASER, CNC, ARTICLE, CREATE, VIDEO, UNOFFICIAL, G-Code
+
+---
+
+#### [Potrace](https://potrace.sourceforge.net/)
+> Genious and free little tool for transforming bitmaps into vector graphics.
+
+**Content Author:** Peter Selinger | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, RAY, LASER, CREATE, DOWNLOAD, UNOFFICIAL
+
+---
+
+#### [Tiled ZoeDepth, v3.ipynb](https://colab.research.google.com/drive/1Wi-1Ji_fhcoGpK-drT4dVrl5AjfVUQ5M#scrollTo=cQclg8UkclFu)
+> Another genious and free tool for generating depth maps from 2d images, useful for CNC, 3D Printing and Laser engraving!
+
+**Content Author:** BillFSmith | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, RAY, LASER, CREATE, ONLINE TOOL, UNOFFICIAL
+
+---
+
+#### [Snapmaker 2.0 stock pictures](https://github.com/shurushetr/awesome-snapmaker/blob/main/images/Snapmaker_Parts/SP_2.0)
+> Hosted here collection of stock parts and internals of Snapmaker 2.0. You can find there measurements for hot end electrical components and other such things.
+
+**Content Author:** Community | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, REPAIR, UNOFFICIAL
+
+---
+
 #### [Snapmaker Luban](https://forum.snapmaker.com/t/snapmaker-luban-downloads-and-updates/4949)
 > Topic with Luban, the 3 in 1 software updates posted
 
@@ -2906,6 +4276,24 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ### ROTARY
 
+#### [Autodesk Fusion360](https://www.autodesk.com/products/fusion-360/personal-form)
+> CAD system. CNC toolpath generating. 3D Modeling.
+
+**Content Author:** Autodesk | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREEMIUM, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, Modeling Software, CAD
+
+---
+
+#### [CNC WOOD Feed & Speed Calculator](https://www.cnccookbook.com/feeds-speeds-cnc-wood-cutting/)
+> Cookbook with Guide and Easy Tips. The author passed away, and a group of fans is trying to preserve the legacy.
+
+**Content Author:** Community | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, CNC, ROTARY, CREATE, DOWNLOAD, ONLINE TOOL, UNOFFICIAL
+
+---
+
 #### [Snapmaker Luban](https://forum.snapmaker.com/t/snapmaker-luban-downloads-and-updates/4949)
 > Topic with Luban, the 3 in 1 software updates posted
 
@@ -3000,6 +4388,42 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ### CNC
 
+#### [Kiri:Moto](https://grid.space/kiri/)
+> 3DP/Laser/CNC slicer in browser. It has some unique features, like slicing the model in layers for laser cutting
+
+**Content Author:** GridSpace | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, FDM, LASER, CNC, CREATE, ONLINE TOOL, UNOFFICIAL, Alternative Slicer
+
+---
+
+#### [Autodesk Fusion360](https://www.autodesk.com/products/fusion-360/personal-form)
+> CAD system. CNC toolpath generating. 3D Modeling.
+
+**Content Author:** Autodesk | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREEMIUM, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, Modeling Software, CAD
+
+---
+
+#### [FreeCAD](https://www.freecad.org/downloads.php)
+> Free CAD system. Can be used for toolpath generation with postprocessors.
+
+**Content Author:** FreeCAD | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, CAD, Modeling Software
+
+---
+
+#### [Learn G-Code for 3D Printing](https://www.cnckitchen.com/blog/g-code-basics-for-3d-printing)
+> A good introduction to G-Code by CNC Kitchen YouTube channel.
+
+**Content Author:** CNC Kitchen | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, FDM, LASER, CNC, ARTICLE, CREATE, VIDEO, UNOFFICIAL, G-Code
+
+---
+
 #### [Snapmaker Forum](forum.snapmaker.com)
 > Official Community from Snapmaker
 
@@ -3029,6 +4453,24 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ### COMBINED
 
+#### [Autodesk Fusion360](https://www.autodesk.com/products/fusion-360/personal-form)
+> CAD system. CNC toolpath generating. 3D Modeling.
+
+**Content Author:** Autodesk | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREEMIUM, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, Modeling Software, CAD
+
+---
+
+#### [FreeCAD](https://www.freecad.org/downloads.php)
+> Free CAD system. Can be used for toolpath generation with postprocessors.
+
+**Content Author:** FreeCAD | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, CAD, Modeling Software
+
+---
+
 #### [Snapmaker Forum](forum.snapmaker.com)
 > Official Community from Snapmaker
 
@@ -3057,6 +4499,96 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 ---
 
 ### FDM
+
+#### [Teaching Tech 3D Printer Calibration](https://teachingtechyt.github.io/calibration.html)
+> The go to for proper calibration. Use CAUTION.
+
+**Content Author:** TeachingTech | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ARTICLE, ONLINE TOOL, UNOFFICIAL, Calibration
+
+---
+
+#### [Ellis' Print Tuning Guide](https://ellis3dp.com/Print-Tuning-Guide/)
+> Another wonderful resource for calibration, using a different approach.
+
+**Content Author:** Ellis | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ARTICLE, ONLINE TOOL, UNOFFICIAL, Calibration
+
+---
+
+#### [Calibration shapes](https://github.com/5axes/Calibration-Shapes)
+> Collection of test shapes with Cura plugin to really dial in your printer. You can use STLs out of Cura too.
+
+**Content Author:** 5axes | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, DOWNLOAD, UNOFFICIAL, Calibration
+
+---
+
+#### [Retraction Calibration Tool](http://retractioncalibration.com/)
+> Tool to dial in your retraction.
+
+**Content Author:** Karl Johnson | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, DOWNLOAD, UNOFFICIAL, Calibration
+
+---
+
+#### [Kiri:Moto](https://grid.space/kiri/)
+> 3DP/Laser/CNC slicer in browser. It has some unique features, like slicing the model in layers for laser cutting
+
+**Content Author:** GridSpace | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, FDM, LASER, CNC, CREATE, ONLINE TOOL, UNOFFICIAL, Alternative Slicer
+
+---
+
+#### [Autodesk Fusion360](https://www.autodesk.com/products/fusion-360/personal-form)
+> CAD system. CNC toolpath generating. 3D Modeling.
+
+**Content Author:** Autodesk | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREEMIUM, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, Modeling Software, CAD
+
+---
+
+#### [FreeCAD](https://www.freecad.org/downloads.php)
+> Free CAD system. Can be used for toolpath generation with postprocessors.
+
+**Content Author:** FreeCAD | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, CAD, Modeling Software
+
+---
+
+#### [Learn G-Code for 3D Printing](https://www.cnckitchen.com/blog/g-code-basics-for-3d-printing)
+> A good introduction to G-Code by CNC Kitchen YouTube channel.
+
+**Content Author:** CNC Kitchen | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, FDM, LASER, CNC, ARTICLE, CREATE, VIDEO, UNOFFICIAL, G-Code
+
+---
+
+#### [Online G-Code simulators & Visualizers](https://all3dp.com/2/gcode-viewer-3d-printer-simulator-best-tools/)
+> An article by All3DP reviewing different tools.
+
+**Content Author:** All3DP | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, CREATE, ONLINE TOOL, UNOFFICIAL, G-Code
+
+---
+
+#### [NCViewer](https://ncviewer.com/)
+> This G-Code preview tool is recommended by Snapmaker for troubleshooting toolpath issues.
+
+**Content Author:** Toolpath Labs Inc | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, CREATE, ONLINE TOOL, UNOFFICIAL
+
+---
 
 #### [Snapmaker Forum](forum.snapmaker.com)
 > Official Community from Snapmaker
@@ -3186,6 +4718,42 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ### LASER
 
+#### [Kiri:Moto](https://grid.space/kiri/)
+> 3DP/Laser/CNC slicer in browser. It has some unique features, like slicing the model in layers for laser cutting
+
+**Content Author:** GridSpace | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, FDM, LASER, CNC, CREATE, ONLINE TOOL, UNOFFICIAL, Alternative Slicer
+
+---
+
+#### [Autodesk Fusion360](https://www.autodesk.com/products/fusion-360/personal-form)
+> CAD system. CNC toolpath generating. 3D Modeling.
+
+**Content Author:** Autodesk | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREEMIUM, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, Modeling Software, CAD
+
+---
+
+#### [FreeCAD](https://www.freecad.org/downloads.php)
+> Free CAD system. Can be used for toolpath generation with postprocessors.
+
+**Content Author:** FreeCAD | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, CAD, Modeling Software
+
+---
+
+#### [Learn G-Code for 3D Printing](https://www.cnckitchen.com/blog/g-code-basics-for-3d-printing)
+> A good introduction to G-Code by CNC Kitchen YouTube channel.
+
+**Content Author:** CNC Kitchen | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, FDM, LASER, CNC, ARTICLE, CREATE, VIDEO, UNOFFICIAL, G-Code
+
+---
+
 #### [Snapmaker Forum](forum.snapmaker.com)
 > Official Community from Snapmaker
 
@@ -3214,6 +4782,15 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 ---
 
 ### ROTARY
+
+#### [Autodesk Fusion360](https://www.autodesk.com/products/fusion-360/personal-form)
+> CAD system. CNC toolpath generating. 3D Modeling.
+
+**Content Author:** Autodesk | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREEMIUM, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, Modeling Software, CAD
+
+---
 
 #### [Snapmaker Forum](forum.snapmaker.com)
 > Official Community from Snapmaker
@@ -3245,6 +4822,24 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 ## UNIVERSAL
 
 ### CNC
+
+#### [Autodesk Fusion360](https://www.autodesk.com/products/fusion-360/personal-form)
+> CAD system. CNC toolpath generating. 3D Modeling.
+
+**Content Author:** Autodesk | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREEMIUM, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, Modeling Software, CAD
+
+---
+
+#### [FreeCAD](https://www.freecad.org/downloads.php)
+> Free CAD system. Can be used for toolpath generation with postprocessors.
+
+**Content Author:** FreeCAD | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, CAD, Modeling Software
+
+---
 
 #### [Snapmaker Forum](forum.snapmaker.com)
 > Official Community from Snapmaker
@@ -3292,6 +4887,24 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 ---
 
 ### COMBINED
+
+#### [Autodesk Fusion360](https://www.autodesk.com/products/fusion-360/personal-form)
+> CAD system. CNC toolpath generating. 3D Modeling.
+
+**Content Author:** Autodesk | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREEMIUM, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, Modeling Software, CAD
+
+---
+
+#### [FreeCAD](https://www.freecad.org/downloads.php)
+> Free CAD system. Can be used for toolpath generation with postprocessors.
+
+**Content Author:** FreeCAD | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, CAD, Modeling Software
+
+---
 
 #### [Snapmaker Forum](forum.snapmaker.com)
 > Official Community from Snapmaker
@@ -3376,6 +4989,24 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ### FDM
 
+#### [Autodesk Fusion360](https://www.autodesk.com/products/fusion-360/personal-form)
+> CAD system. CNC toolpath generating. 3D Modeling.
+
+**Content Author:** Autodesk | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREEMIUM, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, Modeling Software, CAD
+
+---
+
+#### [FreeCAD](https://www.freecad.org/downloads.php)
+> Free CAD system. Can be used for toolpath generation with postprocessors.
+
+**Content Author:** FreeCAD | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, CAD, Modeling Software
+
+---
+
 #### [Snapmaker Forum](forum.snapmaker.com)
 > Official Community from Snapmaker
 
@@ -3441,6 +5072,24 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ### LASER
 
+#### [Autodesk Fusion360](https://www.autodesk.com/products/fusion-360/personal-form)
+> CAD system. CNC toolpath generating. 3D Modeling.
+
+**Content Author:** Autodesk | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREEMIUM, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, Modeling Software, CAD
+
+---
+
+#### [FreeCAD](https://www.freecad.org/downloads.php)
+> Free CAD system. Can be used for toolpath generation with postprocessors.
+
+**Content Author:** FreeCAD | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, CAD, Modeling Software
+
+---
+
 #### [Snapmaker Forum](forum.snapmaker.com)
 > Official Community from Snapmaker
 
@@ -3487,6 +5136,15 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 ---
 
 ### ROTARY
+
+#### [Autodesk Fusion360](https://www.autodesk.com/products/fusion-360/personal-form)
+> CAD system. CNC toolpath generating. 3D Modeling.
+
+**Content Author:** Autodesk | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREEMIUM, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, ROTARY, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, Modeling Software, CAD
+
+---
 
 #### [Snapmaker Forum](forum.snapmaker.com)
 > Official Community from Snapmaker
