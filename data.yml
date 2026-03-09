@@ -5689,3 +5689,186 @@ records:
   - label: Article
     link: 
       https://all3dp.com/4/new-orca-slicer-fork-unlocks-virtual-color-printing-for-any-3d-printer/
+- id: collection-thread-u1-top-cover-mod-23
+  title: Collection thread：U1 Top-Cover Mod
+  description: Forum topic with a bunch of options for top cover, while we wait 
+    for official to appear on the market.
+  author_name: Simon_Zhi
+  author_link: https://forum.snapmaker.com/u/simon_zhi
+  original_link: 
+    https://forum.snapmaker.com/t/collection-thread-u1-top-cover-mod/40429
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  tags:
+    machine_type:
+    - U1
+    machine_tool_type:
+    - FDM
+    record_type:
+    - MODS
+    official_flag:
+    - UNOFFICIAL
+- id: how-to-get-glass-smooth-3d-prints-22
+  title: How To Get Glass Smooth 3D Prints
+  description: Want to get glass smooth 3D prints without sanding or 
+    post-processing? In this video, I’ll show you exactly how to calibrate your 
+    ironing settings in Bambu Studio to achieve flawless top surfaces that look 
+    more like injection-molded parts than 3D prints.
+  author_name: Planet 3DP
+  author_link: https://www.youtube.com/@planet3dp
+  original_link: https://www.youtube.com/watch?v=QXvbwcXXaNE
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - U1
+    - J1/J1s
+    machine_tool_type:
+    - FDM
+    record_type:
+    - CREATE
+    - VIDEO
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Calibration
+  extra_buttons:
+  - label: Models
+    link: 
+      https://makerworld.com/en/models/175615-ultimate-ironing-test-das-original
+- id: printing-transparent-petg-objects-with-orca-slicer-18
+  title: Printing Transparent PETG Objects with Orca Slicer
+  description: A description of the method to tune your printer to print almost 
+    transparent objects with clear PETG.
+  author_name: Rygar1432
+  author_link: https://www.printables.com/@Rygar1432
+  original_link: 
+    https://www.printables.com/model/1278125-how-to-print-glass-with-orca-3mf
+  date_added: '2026-03-09'
+  difficulty: INTERMEDIATE
+  cost: FREE
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - U1
+    - J1/J1s
+    machine_tool_type:
+    - FDM
+    record_type:
+    - ARTICLE
+    - CREATE
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Calibration
+- id: basics-of-3d-printing-17
+  title: Basics of 3D Printing
+  description: If you are new to 3D printing, read this quick but packed with 
+    knowledge book while your first printer is being delivered to you.
+  author_name: Josef Průša
+  author_link: https://www.josefprusa.com/
+  original_link: 
+    https://www.prusa3d.com/page/basics-of-3d-printing-with-josef-prusa_490/
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - U1
+    - J1/J1s
+    machine_tool_type:
+    - FDM
+    record_type:
+    - ARTICLE
+    - CREATE
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Education
+- id: snapremote-16
+  title: SnapRemote
+  description: SnapRemote is a Node.js server that creates an interface to 
+    connect Snapmaker devices. It also serves a web client to control your 
+    device remotely. You can run this server on a Raspberry Pi within the same 
+    local network as your Snapmaker.
+  author_name: mrtayguney
+  author_link: https://github.com/mrtayguney
+  original_link: https://github.com/mrtayguney/snapremote-server
+  date_added: '2026-03-09'
+  difficulty: INTERMEDIATE
+  cost: FREE
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    machine_tool_type:
+    - FDM
+    - LASER
+    - CNC
+    record_type:
+    - DOWNLOAD
+    - MODS
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Remote Monitoring
+- id: vtracer-create-svg-vector-out-of-images-10
+  title: VTracer - create SVG vector out of images
+  description: Online tools allow you to create nice SVG files from raster 
+    images.
+  author_name: visioncortex
+  author_link: https://github.com/visioncortex
+  original_link: https://www.visioncortex.org/vtracer/
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - RAY
+    machine_tool_type:
+    - LASER
+    record_type:
+    - CREATE
+    - ONLINE TOOL
+    official_flag:
+    - UNOFFICIAL
+  extra_buttons:
+  - label: Download
+    link: https://github.com/visioncortex/vtracer/releases
+- id: paxx12-firmware-for-snapmaerk-u1-7
+  title: PAXX12 Firmware for Snapmaerk U1
+  description: "Very popular alternative firmware with a bunch of enhancements. \n\
+    All basic features plus:\n-   Hardware-accelerated camera (Rockchip MPP/VPU)\n\
+    -   WebRTC low-latency streaming\n-   USB camera support with hot-plug detection\n\
+    -   Fluidd v1.35.0 with timelapse plugin (only ability to view timelapses from
+    Web)\n-   Dual camera support (internal + USB)\n-   And More."
+  author_name: paxx12
+  author_link: https://github.com/paxx12
+  original_link: https://snapmakeru1-extended-firmware.pages.dev/install
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  tags:
+    machine_type:
+    - U1
+    machine_tool_type:
+    - FDM
+    record_type:
+    - DOWNLOAD
+    - FIRMWARE
+    - MODS
+    official_flag:
+    - UNOFFICIAL
+  extra_buttons:
+  - label: Forum Topic
+    link: 
+      https://forum.snapmaker.com/t/custom-firmware-for-snapmaker-u1-enhanced-features-webrtc-camera/40531/15
