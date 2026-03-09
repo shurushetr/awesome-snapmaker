@@ -638,7 +638,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ---
 
-#### [Collection of 3D Printing Settins and Profiles](https://awesome-sm-list.xyz/)
+#### [Collection of 3D Printing Settings and Profiles](https://awesome-sm-list.xyz/)
 > | Supported <br/> printers | Slicer | Support for Dual extruder (DE) <br> Single extruder (SE) | Author | Profiles download link | Link to publication post | Notes |
 > | --- | --- | :---:  | --- | --- | --- | --- |
 > |Snapmaker 2.0 A350|Ulltimaker Cura|SE|[@Kaouthia](https://github.com/Kaouthia)|[GitHub](https://github.com/Kaouthia/Snapmaker-2)|N/A||
@@ -1716,7 +1716,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ---
 
-#### [Collection of 3D Printing Settins and Profiles](https://awesome-sm-list.xyz/)
+#### [Collection of 3D Printing Settings and Profiles](https://awesome-sm-list.xyz/)
 > | Supported <br/> printers | Slicer | Support for Dual extruder (DE) <br> Single extruder (SE) | Author | Profiles download link | Link to publication post | Notes |
 > | --- | --- | :---:  | --- | --- | --- | --- |
 > |Snapmaker 2.0 A350|Ulltimaker Cura|SE|[@Kaouthia](https://github.com/Kaouthia)|[GitHub](https://github.com/Kaouthia/Snapmaker-2)|N/A||
@@ -4308,7 +4308,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ---
 
-#### [Collection of 3D Printing Settins and Profiles](https://awesome-sm-list.xyz/)
+#### [Collection of 3D Printing Settings and Profiles](https://awesome-sm-list.xyz/)
 > | Supported <br/> printers | Slicer | Support for Dual extruder (DE) <br> Single extruder (SE) | Author | Profiles download link | Link to publication post | Notes |
 > | --- | --- | :---:  | --- | --- | --- | --- |
 > |Snapmaker 2.0 A350|Ulltimaker Cura|SE|[@Kaouthia](https://github.com/Kaouthia)|[GitHub](https://github.com/Kaouthia/Snapmaker-2)|N/A||
@@ -6012,7 +6012,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ---
 
-#### [Collection of 3D Printing Settins and Profiles](https://awesome-sm-list.xyz/)
+#### [Collection of 3D Printing Settings and Profiles](https://awesome-sm-list.xyz/)
 > | Supported <br/> printers | Slicer | Support for Dual extruder (DE) <br> Single extruder (SE) | Author | Profiles download link | Link to publication post | Notes |
 > | --- | --- | :---:  | --- | --- | --- | --- |
 > |Snapmaker 2.0 A350|Ulltimaker Cura|SE|[@Kaouthia](https://github.com/Kaouthia)|[GitHub](https://github.com/Kaouthia/Snapmaker-2)|N/A||
