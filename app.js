@@ -633,13 +633,13 @@ function renderRecords(records) {
     // Attach listeners to copy link buttons
     document.querySelectorAll('.copy-link-btn').forEach(btn => {
         btn.addEventListener('click', (e) => {
-            const link = e.currentTarget.dataset.link;
+            const link = btn.dataset.link;
 
             const triggerSuccess = () => {
-                const originalHtml = e.currentTarget.innerHTML;
-                e.currentTarget.innerHTML = '<span style="font-size:1.1rem;color:green;font-weight:bold;">&#x2713;</span>';
+                const originalHtml = btn.innerHTML;
+                btn.innerHTML = '<span style="font-size:1.1rem;color:green;font-weight:bold;">&#x2713;</span>';
                 setTimeout(() => {
-                    e.currentTarget.innerHTML = originalHtml;
+                    btn.innerHTML = originalHtml;
                 }, 2000);
             };
 
