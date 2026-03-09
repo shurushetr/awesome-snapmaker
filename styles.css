@@ -321,6 +321,7 @@ select {
 
     .card-meta {
         text-align: left;
+        white-space: normal;
     }
 }
 
@@ -584,6 +585,8 @@ select {
     }
     .card-actions .btn {
         width: 100%; /* Stretch buttons for easy tapping */
+        white-space: normal;
+        word-break: break-word;
     }
 }
 

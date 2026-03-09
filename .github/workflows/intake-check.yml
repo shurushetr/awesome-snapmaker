@@ -26,6 +26,8 @@ jobs:
         id: dupe_check
         env:
           ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           # The python script will print DUPLICATE \n existing_link or UNIQUE
           OUTPUT=$(python .github/scripts/intake_check.py)
@@ -45,6 +47,30 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               body: `Thanks for submitting! However, it looks like this resource already exists in our directory:\n\n🔗 https://awesome-sm-list.xyz/#${process.env.LINK}\n\nThis issue has been closed as a duplicate.`
+            });
+            github.rest.issues.addLabels({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels: ['duplicate']
+            });
+            github.rest.issues.update({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'closed'
+            });
+
+      - name: Handle Duplicate Open Issue
+        if: env.STATUS == 'DUPLICATE_ISSUE'
+        uses: actions/github-script@v6
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: `Thanks for submitting! However, it looks like someone else has already submitted this resource and it is currently pending review in ${process.env.LINK}.\n\nThis issue has been closed as a duplicate.`
             });
             github.rest.issues.addLabels({
               issue_number: context.issue.number,
@@ -98,5 +124,5 @@ jobs:
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              labels: ['pending-review']
+              labels: ['pending-content-review']
             });

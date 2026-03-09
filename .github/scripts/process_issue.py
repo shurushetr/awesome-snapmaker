@@ -12,7 +12,7 @@ import sys
 import re
 from datetime import datetime
 from ruamel.yaml import YAML
-from datetime import datetime
+from intake_check import check_for_duplicates
 
 def parse_issue_body(body):
     """Parses the GitHub Issue body based on the template structure, properly handling multiline markdown like tables."""
@@ -154,9 +154,8 @@ def main():
     original_link = new_record.get("original_link")
     is_duplicate = False
     if original_link and original_link.strip():
-        # A simple check: if the exact link string exists in the file, consider it a duplicate
-        # For a more robust check, we could parse the YAML, but string matching is usually sufficient for URLs
-        if original_link.strip() in content:
+        is_dup, _ = check_for_duplicates(original_link, 'data.yml')
+        if is_dup:
             is_duplicate = True
 
     # Write output for GitHub Actions

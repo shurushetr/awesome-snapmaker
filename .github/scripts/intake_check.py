@@ -8,38 +8,12 @@ If a duplicate is found, the workflow uses this script's output to auto-comment 
 
 import os
 import sys
+import json
+import subprocess
 from ruamel.yaml import YAML
 import re
-from urllib.parse import urlparse, urlunparse
-
-def normalize_url(url):
-    """
-    Normalizes a URL by converting to lowercase, stripping trailing slashes,
-    removing www., and dropping query parameters/fragments (which are often
-    used for tracking, e.g. ?u=...).
-    """
-    if not url:
-        return ""
-        
-    # Basic cleanup
-    url = url.strip().lower()
-    
-    # Ensure it has a scheme so urlparse works correctly
-    if not url.startswith('http://') and not url.startswith('https://'):
-        url = 'https://' + url
-        
-    parsed = urlparse(url)
-    
-    # Remove 'www.' from domain
-    netloc = parsed.netloc
-    if netloc.startswith('www.'):
-        netloc = netloc[4:]
-        
-    # Reconstruct the core URL (scheme, domain, path) dropping params/queries/fragments
-    core_url = urlunparse((parsed.scheme, netloc, parsed.path, '', '', ''))
-    
-    # Strip trailing slash for consistency
-    return core_url.rstrip('/')
+from urllib.parse import urlparse
+from url_utils import normalize_url
 
 def parse_issue_for_url(body):
     """Extracts the 'Content Link (Original URL)' from the issue body robustly."""
@@ -107,6 +81,40 @@ def check_for_duplicates(new_url, data_file='data.yml'):
 
     return False, None
 
+def check_for_duplicate_issues(new_url):
+    """Checks if there's an existing open issue with the same normalized URL."""
+    if not new_url:
+        return False, None
+        
+    norm_new = normalize_url(new_url)
+    if not norm_new:
+        return False, None
+        
+    try:
+        # Fetch open issues with pending-content-review or pending-review label
+        # We check both to be safe during the transition
+        cmd = ['gh', 'issue', 'list', '--state', 'open', '--json', 'number,body', '--limit', '100']
+        result = subprocess.run(cmd, capture_output=True, text=True, check=True)
+        issues = json.loads(result.stdout)
+        
+        for issue in issues:
+            # We skip comparing against the current issue by looking at the environment var for the current issue body?
+            # Actually github actions triggers on 'opened', the current issue is already open!
+            # Let's get the current issue number from GITHUB context if passed, or just ignore if it matches the exact same body verbatim.
+            # Even better: pass ISSUE_NUMBER to the script to skip it.
+            current_issue = os.environ.get('ISSUE_NUMBER', '')
+            if current_issue and str(issue.get('number', '')) == str(current_issue):
+                continue
+                
+            issue_url = parse_issue_for_url(issue.get('body', ''))
+            if issue_url and normalize_url(issue_url) == norm_new:
+                return True, f"issue #{issue['number']}"
+                
+    except Exception as e:
+        print(f"Error checking active issues: {e}", file=sys.stderr)
+        
+    return False, None
+
 def main():
     issue_body = os.environ.get('ISSUE_BODY', '')
     if not issue_body:
@@ -129,8 +137,17 @@ def main():
         # Output is read by bash script in the GitHub Action
         print("DUPLICATE")
         print(existing_id)
-    else:
-        print("UNIQUE")
+        sys.exit(0)
+        
+    # Check against other open issues
+    is_dup_issue, issue_id = check_for_duplicate_issues(submitted_url)
+    
+    if is_dup_issue:
+        print("DUPLICATE_ISSUE")
+        print(issue_id)
+        sys.exit(0)
+        
+    print("UNIQUE")
 
 if __name__ == '__main__':
     main()
