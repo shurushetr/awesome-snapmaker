@@ -303,6 +303,8 @@ select {
     display: flex;
     flex-direction: column;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    max-width: 100%; /* Ensure card itself doesn't exceed grid cell */
+    overflow-x: hidden; /* Hide anything that does overflow */
 }
 
 .card-header {
@@ -585,8 +587,11 @@ select {
     }
     .card-actions .btn {
         width: 100%; /* Stretch buttons for easy tapping */
+        max-width: 100%;
+        box-sizing: border-box;
         white-space: normal;
-        word-break: break-word;
+        word-break: break-all; /* More aggressive text wrapping */
+        overflow-wrap: break-word;
     }
 }
 

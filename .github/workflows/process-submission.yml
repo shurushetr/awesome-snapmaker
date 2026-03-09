@@ -8,10 +8,9 @@ permissions:
   pull-requests: write
   issues: write
 
-concurrency:
-  group: process-submission
-  cancel-in-progress: false
-
+# Removed concurrency group to prevent GitHub from dropping intermediate jobs
+# when multiple issues are approved simultaneously. Race conditions during git push
+# are mitigated by git pull --rebase or try loops, but first let's just remove the cap.
 jobs:
   process-issue:
     runs-on: ubuntu-latest
@@ -22,8 +21,9 @@ jobs:
 
       - name: Fetch and checkout existing PR branch
         run: |
+          git fetch origin main:main || true
           git fetch origin pending-automated-submissions:pending-automated-submissions || true
-          git checkout pending-automated-submissions || true
+          git checkout pending-automated-submissions || git checkout -b pending-automated-submissions
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -55,17 +55,59 @@ jobs:
             fi
           fi
 
-      - name: Create Pull Request
+      - name: Create Pull Request with Retry
         if: steps.process_issue.outputs.is_duplicate != 'true'
-        uses: peter-evans/create-pull-request@v5
-        with:
-          commit-message: "Add resource: #${{ github.event.issue.number }}"
-          title: "🚀 Pending Automated Records"
-          body-path: pr_body.txt
-          branch: "pending-automated-submissions"
-          base: "main"
-          delete-branch: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Commit the changes
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add data.yml
+          git commit -m "Add resource: #${{ github.event.issue.number }}" || {
+            echo "No changes to commit (possibly an identical duplicate that slipped through)."
+            exit 0
+          }
           
+          # Retry loop for pushing to the shared branch to handle race conditions
+          max_retries=10
+          retry_count=0
+          until git push --set-upstream origin pending-automated-submissions; do
+            retry_count=$((retry_count+1))
+            if [ $retry_count -ge $max_retries ]; then
+              echo "Failed to push after $max_retries attempts."
+              exit 1
+            fi
+            echo "Push failed due to conflict, rebasing..."
+            # Random sleep to desync parallel runners
+            sleep $((RANDOM % 5 + 1))
+            git fetch origin pending-automated-submissions
+            
+            # Use ours to ensure new records just get appended during rebase conflicts
+            # Since data.yml is just appended to, git should handle auto-merges, but giving it a strategy helps
+            git rebase -Xours origin/pending-automated-submissions || {
+              echo "Rebase conflict! Aborting and retrying with manual append."
+              git rebase --abort
+              # If git fails to merge the append, we fallback to just re-running the python script
+              python .github/scripts/process_issue.py
+              git add data.yml
+              git commit --amend --no-edit
+            }
+          done
+          
+          # Create or update the PR body
+          # First try to see if PR exists. If it does, we edit it to append this issue to body.
+          if gh pr view pending-automated-submissions >/dev/null 2>&1; then
+            echo "PR exists, editing it..."
+            gh pr edit pending-automated-submissions --body-file pr_body.txt
+          else
+            echo "PR does not exist. Creating..."
+            gh pr create --title "🚀 Pending Automated Records" \
+                         --body-file pr_body.txt \
+                         --base main \
+                         --head pending-automated-submissions || \
+            gh pr edit pending-automated-submissions --body-file pr_body.txt
+          fi
       - name: Comment and Cleanup Labels
         uses: actions/github-script@v6
         env:
