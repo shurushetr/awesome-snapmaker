@@ -4064,4 +4064,702 @@ records:
     official_flag:
     - UNOFFICIAL
 
+- id: laser-40w-fan-d48c
+  title: Laser 40w Fan
+  description: Detailed disassembly and analisys of internal componetns by @Geared - Standard 6025 fan, 24v DC, 0.34A.
+  author_name: Geared
+  author_link: https://forum.snapmaker.com/u/Geared
+  original_link: https://github.com/shurushetr/awesome-snapmaker/blob/main/images/Snapmaker_Parts/Laser_40W/40w_Laser_Fan.jpg
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - RAY
+    machine_tool_type:
+    - LASER
+    record_type:
+    - DOWNLOAD
+    - MODS
+    - REPAIR
+    official_flag:
+    - UNOFFICIAL
+
+- id: 10w-laser-toolhead-cad-model-e580
+  title: 10W Laser Toolhead CAD model
+  description: Fusion360 Model of the 10W Laser Head
+  author_name: nivekmai
+  author_link: https://forum.snapmaker.com/u/nivekmai/
+  original_link: https://www.printables.com/model/1097903-snapmaker-10w-laser-toolhead
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    machine_tool_type:
+    - LASER
+    record_type:
+    - DOWNLOAD
+    - MODS
+    - REPAIR
+    official_flag:
+    - UNOFFICIAL
+  extra_buttons:
+  - label: Fusion360 File
+    link: https://github.com/shurushetr/awesome-snapmaker/blob/main/files/models/Snapmaker%202.0%2010w%20laser%20v3.f3d
+
+- id: snapmaker-2-0-a350-model-by-stefix-ad34
+  title: Snapmaker 2.0 A350 Model By Stefix
+  description: Created by forum member Stefix, he called his machine A351 after all the modes installed.
+  author_name: Stefix
+  author_link: https://forum.snapmaker.com/u/stefix/
+  original_link: https://github.com/shurushetr/awesome-snapmaker/blob/main/files/models/Snapmaker_2.5_A351_v34_v9_by_stefix.f3d
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - FDM
+    - LASER
+    - CNC
+    record_type:
+    - DOWNLOAD
+    - MODS
+    - REPAIR
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Files
+  extra_buttons:
+  - label: Forum Topic
+    link: https://forum.snapmaker.com/t/my-new-snapmaker-2-0-a351/16502
+
+- id: model-by-sebastien-deux-vagues-46fd
+  title: Snapmaker 2.0 A350 Model by Sebastien Deux Vagues
+  description: Created by FB Group member Sebastien, based on model by Stefix
+  author_name: Sebastien
+  author_link: https://www.facebook.com/groups/371401856611467/user/1418260509/
+  original_link: https://github.com/shurushetr/awesome-snapmaker/blob/main/files/models/Snapmaker_2_a350_v32_By_Sebastien_Deux_Vagues.f3d
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - FDM
+    - LASER
+    - CNC
+    record_type:
+    - DOWNLOAD
+    - MODS
+    - REPAIR
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Files
+
+- id: snapmaker-2-0-a350-model-in-onshape-8df1
+  title: Snapmaker 2.0 A350 Model in OnShape
+  description: Created by Ryan Tuscher in his video.
+  author_name: Ryan Tuscher
+  author_link: https://www.youtube.com/@RyanTuscher
+  original_link: https://cad.onshape.com/documents/62cf14c42bffce0a7b08acf9/w/30314df13cc0199e746100d2/e/7a6692332d9c4b7e83c673c4
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - FDM
+    - LASER
+    - CNC
+    record_type:
+    - DOWNLOAD
+    - MODS
+    - REPAIR
+    official_flag:
+    - UNOFFICIAL
+  extra_buttons:
+  - label: Video
+    link: https://www.youtube.com/watch?v=nPmqX5T6Yts
+
+- id: 3d-models-for-a350-a250-a350t-platforms-and-a350-beds-6c8c
+  title: 3D Models for A350,A250, A350T platforms and A350 Beds
+  description: Created by Namakemono accurate models of platform and beds.
+  author_name: Namakemono
+  author_link: https://forum.snapmaker.com/u/Namakemono
+  original_link: https://cults3d.com/en/users/Namakemono/3d-models
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - FDM
+    - LASER
+    - CNC
+    record_type:
+    - DOWNLOAD
+    - MODS
+    - REPAIR
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Files
+
+- id: snapmaker-2-0-a250t-fusion360-model-5e44
+  title: Snapmaker 2.0 A250T - Fusion360 model
+  description: Fusion360 model - hosted at GrabCAD model of A250T.
+  author_name: Pokai Chang
+  author_link: https://grabcad.com/pokai.chang-3
+  original_link: https://grabcad.com/library/snapmaker-2-0-a250t-1
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - FDM
+    - LASER
+    - CNC
+    record_type:
+    - DOWNLOAD
+    - MODS
+    - REPAIR
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Files
+
+- id: snapmaker-2-0-artisan-rotary-module-4402
+  title: Snapmaker 2.0 & Artisan Rotary Module
+  description: Thanks to Christopher Kalada for creating the model.
+  author_name: Christopher Kalada
+  author_link: https://grabcad.com/christopher.kalada-1
+  original_link: https://grabcad.com/library/snapmaker-2-0-artisan-rotary-module-slimtechcnc-1
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    machine_tool_type:
+    - ROTARY
+    record_type:
+    - DOWNLOAD
+    - MODS
+    - REPAIR
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Files
+  extra_buttons:
+  - label: Mirror
+    link: https://github.com/shurushetr/awesome-snapmaker/blob/main/files/models/snapmaker-2-0-artisan-rotary-module-slimtechcnc-1.snapshot.5.zip
+
+- id: snapmaker-2-0-a350-platform-drawing-952d
+  title: Snapmaker 2.0 A350 platform drawing
+  description: DWG file of the platform.
+  author_name: Snapmaker
+  author_link: Snapmaker.com
+  original_link: https://github.com/shurushetr/awesome-snapmaker/blob/main/files/files_from_snapmaker_team/Snapmake_2.0_A350_new_platform_design.dwg
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - FDM
+    - LASER
+    - CNC
+    record_type:
+    - DOWNLOAD
+    - MODS
+    - REPAIR
+    official_flag:
+    - OFFICIAL
+    free_tags:
+    - Files
+
+- id: model-of-the-200w-cnc-shell-ad5f
+  title: Model of the 200w CNC Shell
+  description: STL file released by Snapmaker team to accelerate community contribution for accessories.
+  author_name: Snapmaker
+  author_link: Snapmaker.com
+  original_link: https://github.com/shurushetr/awesome-snapmaker/blob/main/files/files_from_snapmaker_team/200WCNC_Shell.STL
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - CNC
+    record_type:
+    - DOWNLOAD
+    - MODS
+    - REPAIR
+    official_flag:
+    - OFFICIAL
+    free_tags:
+    - Files
+
+- id: model-of-the-dual-extruder-shell-bd35
+  title: Model of the Dual Extruder Shell
+  description: STL file released by Snapmaker team to accelerate community contribution for accessories.
+  author_name: Snapmaker
+  author_link: Snapmaker.com
+  original_link: https://github.com/shurushetr/awesome-snapmaker/blob/main/files/files_from_snapmaker_team/Dual_Extruder_Shell_3DP.STL
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - FDM
+    record_type:
+    - DOWNLOAD
+    - MODS
+    - REPAIR
+    official_flag:
+    - OFFICIAL
+
+- id: snapmaker-2-0-axis-bearings-d55f
+  title: Snapmaker 2.0 Axis bearings
+  description: SG10 Groove bearings.
+  author_name: Community
+  author_link: https://forum.snapmaker.com/
+  original_link: https://s.click.aliexpress.com/e/_DEBBddP
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - FDM
+    - LASER
+    - CNC
+    record_type:
+    - REPAIR
+    - SHOP
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Parts
+
+- id: snapmaker-2-0-filament-runout-switch-a23d
+  title: Snapmaker 2.0 - Filament runout switch
+  description: Omron P/N D2F-01L3-D3
+  author_name: Community
+  author_link: https://forum.snapmaker.com/
+  original_link: https://www.digikey.com/short/5vw8wd9j
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - FDM
+    record_type:
+    - MODS
+    - REPAIR
+    - SHOP
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Parts
+
+- id: snapmaker-2-0-oem-proximity-sensor-for-leveling-a79f
+  title: Snapmaker 2.0 - OEM proximity sensor for leveling
+  description: Look for Panasonic GX-H8A - According to
+  author_name: "https://forum.snapmaker.com/u/dukkbutt"
+  author_link: https://forum.snapmaker.com/t/anyone-have-the-proximity-sensor-part/14191/67
+  original_link: https://www.digikey.com/en/products/detail/panasonic-industrial-automation-sales/GX-H8A/3899742
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - FDM
+    record_type:
+    - MODS
+    - REPAIR
+    - SHOP
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Parts
+
+- id: snapmaker-2-0-aftermarket-capacitive-proximity-sensor-for-glass-leveling-9ab6
+  title: Snapmaker 2.0 Aftermarket Capacitive proximity sensor for glass leveling
+  description: As described in the writeup.
+  author_name: TobIY
+  author_link: https://forum.snapmaker.com/u/TobIY
+  original_link: https://amzn.to/3NXl75n
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - FDM
+    record_type:
+    - MODS
+    - SHOP
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Parts
+  extra_buttons:
+  - label: Write Up
+    link: https://forum.snapmaker.com/t/automatic-bed-leveling-on-glass/29601/14
+
+- id: snapmaker-2-0-all-metal-heat-break-3502
+  title: Snapmaker 2.0 All Metal Heat break
+  description: All metal heatbreak. Look for CR6-SE heatbreak. Matches overall dimensions. You will need an insert cut for the throat.
+  author_name: Community
+  author_link: https://forum.snapmaker.com/
+  original_link: https://s.click.aliexpress.com/e/_DC7Vg8h
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - FDM
+    record_type:
+    - MODS
+    - SHOP
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Parts
+    - Single Extruder
+
+- id: klicky-probe-snapmaker-2-0-components-8d2f
+  title: Klicky Probe Snapmaker 2.0 components
+  description: Klicky Probe components.
+  author_name: nweolu
+  author_link: https://forum.snapmaker.com/u/nweolu
+  original_link: https://www.ebay.com/itm/336064712479
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - FDM
+    record_type:
+    - MODS
+    - SHOP
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Parts
+    - Single Extruder
+
+- id: garolite-g10-build-surface-for-a350-f350-7e28
+  title: Garolite G10 build surface for A350/F350
+  description: Best material to print on.
+  author_name: nweolu
+  author_link: https://forum.snapmaker.com/u/nweolu
+  original_link: https://www.ebay.com/itm/335359670056
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    machine_tool_type:
+    - FDM
+    record_type:
+    - MODS
+    - SHOP
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Parts
+  extra_buttons:
+  - label: Video
+    link: https://www.youtube.com/watch?v=qHSe0Y0dF4M
+
+- id: antenna-that-sticks-to-top-cover-e1d5
+  title: Antenna that sticks to top cover
+  description: In case you print a custom cover for air assist. Look for P/N - TX2400-FPC-2509.
+  author_name: Florian Wick
+  author_link: https://www.facebook.com/groups/snapmakerartisan/posts/820110829484123/
+  original_link: https://s.click.aliexpress.com/e/_DeWSkup
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    machine_tool_type:
+    - LASER
+    record_type:
+    - MODS
+    - REPAIR
+    - SHOP
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Parts
+
+- id: fire-extinguisher-for-your-safety-7b06
+  title: Fire extinguisher for your safety
+  description: Passive fire extinguisher that sits very close to your work area and is activated by flame.
+  author_name: whambamsystems.com
+  original_link: https://www.whambamsystems.com/pages/the-cloud
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - U1
+    - J1/J1s
+    - RAY
+    - UNIVERSAL
+    machine_tool_type:
+    - FDM
+    - LASER
+    record_type:
+    - SHOP
+    official_flag:
+    - UNOFFICIAL
+
+- id: collet-er11-b1f7
+  title: Collet ER11
+  description: If you want to use 1/4 bits get a different collet. (not affiliated)
+  author_name: Community
+  author_link: https://forum.snapmaker.com/
+  original_link: https://www.maritool.com/Collets-And-Sleeves-ER-Collets-ER11-Collets/c21_56_60/index.html
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    machine_tool_type:
+    - CNC
+    record_type:
+    - MODS
+    - SHOP
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Parts
+
+- id: cnc-plastic-cutting-bits-833e
+  title: CNC Plastic cutting bits
+  description: Plastic Cutting Router Bits - Industrial, ZrN & Spektra Coated by Amana Tool. (not affiliated)
+  author_name: Community
+  author_link: https://forum.snapmaker.com/
+  original_link: https://www.amanatool.com/products/cnc-router-bits/plastic-cutting-cnc-router-bits.html
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    machine_tool_type:
+    - CNC
+    record_type:
+    - SHOP
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Tooling
+
+- id: lakeshore-carbide-e3b9
+  title: Lakeshore Carbide
+  description: Good source of metalwork quality bits. (not affiliated)
+  author_name: Community
+  author_link: https://forum.snapmaker.com/
+  original_link: https://www.lakeshorecarbide.com/
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    machine_tool_type:
+    - CNC
+    record_type:
+    - SHOP
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Tooling
+
+
+- id: edge-of-arlington-saw-tool-af38
+  title: Edge of Arlington Saw & Tool
+  description: Good source of metalwork quality bits. (not affiliated)
+  author_name: Community
+  author_link: https://forum.snapmaker.com/
+  original_link: https://www.eoasaw.com/
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    machine_tool_type:
+    - CNC
+    record_type:
+    - SHOP
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Tooling
+
+- id: idc-woodcraft-e61f
+  title: IDC Woodcraft
+  description: Good source of woodwork quality bits. (not affiliated). Thanks to Robert Reade from FB group.
+  author_name: Community
+  author_link: https://forum.snapmaker.com/
+  original_link: https://idcwoodcraft.com/
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    machine_tool_type:
+    - CNC
+    record_type:
+    - SHOP
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Tooling
+
+- id: precise-bits-acbf
+  title: Precise Bits
+  description: Amazing store with ability to pick bits for your application. Has calculators and guides for bits. (not affiliated).
+  author_name: Community
+  author_link: https://forum.snapmaker.com/
+  original_link: https://www.precisebits.com/
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    machine_tool_type:
+    - CNC
+    record_type:
+    - SHOP
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Tooling
+
+- id: ocooch-hardwoods-2c66
+  title: Ocooch Hardwoods
+  description: Good source of quality precut wood for your projects. (not affiliated)
+  author_name: Community
+  author_link: https://forum.snapmaker.com/
+  original_link: https://ocoochhardwoods.com/
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - RAY
+    machine_tool_type:
+    - LASER
+    - CNC
+    record_type:
+    - SHOP
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Material Source
+
+- id: pick-filament-by-color-216d
+  title: Pick Filament by Color
+  description: Awesome website with color database for every filament in existance.
+  author_name: Community
+  author_link: https://forum.snapmaker.com/
+  original_link: https://filamentcolors.xyz/
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  language: EN
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - U1
+    - J1/J1s
+    machine_tool_type:
+    - FDM
+    record_type:
+    - ONLINE TOOL
+    - SHOP
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Material Source
+
 
