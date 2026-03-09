@@ -5559,7 +5559,7 @@ records:
     official_flag:
     - UNOFFICIAL
 - id: collection-of-3d-printing-settins-and-profiles-20
-  title: Collection of 3D Printing Settins and Profiles
+  title: Collection of 3D Printing Settings and Profiles
   description: "| Supported <br/> printers | Slicer | Support for Dual extruder (DE)
     <br> Single extruder (SE) | Author | Profiles download link | Link to publication
     post | Notes |\n| --- | --- | :---:  | --- | --- | --- | --- |\n|Snapmaker 2.0
