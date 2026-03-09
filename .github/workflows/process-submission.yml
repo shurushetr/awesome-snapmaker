@@ -16,6 +16,11 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - name: Fetch and checkout existing PR branch
+        run: |
+          git fetch origin pending-automated-submissions:pending-automated-submissions || true
+          git checkout pending-automated-submissions || true
+
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
@@ -34,12 +39,15 @@ jobs:
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v5
         with:
-          commit-message: "Add resource: ${{ github.event.issue.title }}"
-          title: "🚀 New Record: ${{ github.event.issue.title }}"
+          commit-message: "Add resource: #${{ github.event.issue.number }}"
+          title: "🚀 Pending Automated Records"
           body: |
-            Automatically generated PR from issue #${{ github.event.issue.number }}.
-            Please review the YAML changes before approving.
-          branch: "add-record-issue-${{ github.event.issue.number }}"
+            This PR automatically accumulates approved records to avoid merge conflicts.
+            When you merge this, all pending records will be added to `data.yml`.
+            
+            Latest addition from issue #${{ github.event.issue.number }}.
+          branch: "pending-automated-submissions"
+          base: "main"
           delete-branch: true
           
       - name: Comment and Cleanup Labels
