@@ -5645,3 +5645,171 @@ records:
     - CREATE
     official_flag:
     - UNOFFICIAL
+- id: snapmaker-u1-official-video-guides-6
+  title: 'Snapmaker U1: Official Video Guides'
+  description: Collection of videos produced by Snapmaker team about Snapmaker 
+    U1
+  author_name: Snapmaker
+  author_link: Snapmaker.com
+  original_link: 
+    https://forum.snapmaker.com/t/snapmaker-u1-official-video-guides/39977
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  tags:
+    machine_type:
+    - U1
+    machine_tool_type:
+    - FDM
+    record_type:
+    - VIDEO
+    official_flag:
+    - OFFICIAL
+    free_tags:
+    - GUIDE
+  extra_buttons:
+  - label: YouTube Playlist
+    link: 
+      https://www.youtube.com/playlist?list=PLEn5aHQNSrHX5sK-4pZRJfRp0nUaUZc2k
+- id: full-spectrum-layer-blending-with-orcaslicer-fork-12
+  title: Full Spectrum layer blending with OrcaSlicer Fork
+  description: Full Spectrum is an open source slicer for FDM printers based on 
+    Snapmaker Orca and OrcaSlicer, optimized for Snapmaker's U1 multi-color 3D 
+    printer with independent tool heads. This fork adds support for virtual 
+    mixed-color filaments, enabling you to create new colors by alternating 
+    layers between physical filaments.
+  author_name: ratdoux
+  author_link: https://github.com/ratdoux
+  original_link: https://github.com/ratdoux/OrcaSlicer-FullSpectrum
+  date_added: '2026-03-09'
+  difficulty: INTERMEDIATE
+  cost: FREE
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - U1
+    - J1/J1s
+    machine_tool_type:
+    - FDM
+    record_type:
+    - ARTICLE
+    - CREATE
+    - DOWNLOAD
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Slicer
+  extra_buttons:
+  - label: Article
+    link: 
+      https://all3dp.com/4/new-orca-slicer-fork-unlocks-virtual-color-printing-for-any-3d-printer/
+- id: terrain-to-stl-13
+  title: Terrain To STL
+  description: This is a simple browser-based editor which creates printable 3D 
+    terrain models (.stl) from just latitude and longitude input.
+  author_name: ModelRift
+  author_link: https://github.com/ModelRift
+  original_link: https://github.com/ModelRift/terrain-to-3d/
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - U1
+    - J1/J1s
+    machine_tool_type:
+    - FDM
+    record_type:
+    - CREATE
+    - ONLINE TOOL
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Generator
+- id: terrain-to-stl-13
+  title: Terrain To STL
+  description: This is a simple browser-based editor which creates printable 3D 
+    terrain models (.stl) from just latitude and longitude input.
+  author_name: ModelRift
+  author_link: https://github.com/ModelRift
+  original_link: https://github.com/ModelRift/terrain-to-3d/
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - U1
+    - J1/J1s
+    machine_tool_type:
+    - FDM
+    record_type:
+    - CREATE
+    - ONLINE TOOL
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Generator
+- id: snapmaker-u1-home-assitant-dashboard-11
+  title: Snapmaker U1 - Home Assitant Dashboard
+  description: When I had my Bambu A1 Mini printer, someone had a Home Assistant
+    plugin that showed all kinds of status information about my printer. Since 
+    then, I have upgraded to the Snapmaker U1 printer and I was longing for a 
+    good HA plugin, that would give me (almost) the same information that my 
+    Bambu did.
+  author_name: ScottEKendall
+  author_link: https://github.com/ScottEKendall
+  original_link: 
+    https://github.com/ScottEKendall/HomeAssistant/tree/main/SnapMaker_U1
+  date_added: '2026-03-09'
+  difficulty: INTERMEDIATE
+  cost: FREE
+  tags:
+    machine_type:
+    - U1
+    machine_tool_type:
+    - FDM
+    record_type:
+    - ARTICLE
+    - DOWNLOAD
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Home Assistant
+- id: full-spectrum-layer-blending-with-orcaslicer-fork-12
+  title: Full Spectrum layer blending with OrcaSlicer Fork
+  description: Full Spectrum is an open source slicer for FDM printers based on 
+    Snapmaker Orca and OrcaSlicer, optimized for Snapmaker's U1 multi-color 3D 
+    printer with independent tool heads. This fork adds support for virtual 
+    mixed-color filaments, enabling you to create new colors by alternating 
+    layers between physical filaments.
+  author_name: ratdoux
+  author_link: https://github.com/ratdoux
+  original_link: https://github.com/ratdoux/OrcaSlicer-FullSpectrum
+  date_added: '2026-03-09'
+  difficulty: INTERMEDIATE
+  cost: FREE
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - U1
+    - J1/J1s
+    machine_tool_type:
+    - FDM
+    record_type:
+    - ARTICLE
+    - CREATE
+    - DOWNLOAD
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Slicer
+  extra_buttons:
+  - label: Article
+    link: 
+      https://all3dp.com/4/new-orca-slicer-fork-unlocks-virtual-color-printing-for-any-3d-printer/
