@@ -467,24 +467,6 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ### FDM
 
-#### [Dual Extruder and Prusaslicer](https://forum.snapmaker.com/t/dual-extruder-and-prusaslicer/29792/)
-> Forum thread dedicated to setting up a dual extruder with PrusaSlicer.
-
-**Content Author:** Slynold | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, FDM, ARTICLE, DISCUSSION, UNOFFICIAL
-
----
-
-#### [Dual Extruder and Prusaslicer](https://forum.snapmaker.com/t/dual-extruder-and-prusaslicer/29792/)
-> Forum thread dedicated to setting up a dual extruder with PrusaSlicer.
-
-**Content Author:** Slynold | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, FDM, ARTICLE, DISCUSSION, UNOFFICIAL
-
----
-
 #### [Snapmaker2Slic3rPostProcessor](https://github.com/macdylan/Snapmaker2Slic3rPostProcessor)
 > A Snapmaker G-Code Post Processor for PrusaSlicer and SuperSlicer to create compatible files for Snapmaker Touchscreen. Like thumbnail of the print on the screen. Supports PrusaSlicer and SuperSlicer with Snapmaker 2 A150/250/350, J1, Artisan.
 
@@ -653,24 +635,6 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 **Content Author:** Community | **Added:** 2026-03-09
 
 **Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ARTICLE, CREATE, UNOFFICIAL
-
----
-
-#### [Full Spectrum layer blending with OrcaSlicer Fork](https://github.com/ratdoux/OrcaSlicer-FullSpectrum)
-> Full Spectrum is an open source slicer for FDM printers based on Snapmaker Orca and OrcaSlicer, optimized for Snapmaker's U1 multi-color 3D printer with independent tool heads. This fork adds support for virtual mixed-color filaments, enabling you to create new colors by alternating layers between physical filaments.
-
-**Content Author:** ratdoux | **Added:** 2026-03-09
-
-**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ARTICLE, CREATE, DOWNLOAD, UNOFFICIAL, Slicer
-
----
-
-#### [Terrain To STL](https://github.com/ModelRift/terrain-to-3d/)
-> This is a simple browser-based editor which creates printable 3D terrain models (.stl) from just latitude and longitude input.
-
-**Content Author:** ModelRift | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, CREATE, ONLINE TOOL, UNOFFICIAL, Generator
 
 ---
 
@@ -1767,24 +1731,6 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 **Content Author:** Community | **Added:** 2026-03-09
 
 **Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ARTICLE, CREATE, UNOFFICIAL
-
----
-
-#### [Full Spectrum layer blending with OrcaSlicer Fork](https://github.com/ratdoux/OrcaSlicer-FullSpectrum)
-> Full Spectrum is an open source slicer for FDM printers based on Snapmaker Orca and OrcaSlicer, optimized for Snapmaker's U1 multi-color 3D printer with independent tool heads. This fork adds support for virtual mixed-color filaments, enabling you to create new colors by alternating layers between physical filaments.
-
-**Content Author:** ratdoux | **Added:** 2026-03-09
-
-**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ARTICLE, CREATE, DOWNLOAD, UNOFFICIAL, Slicer
-
----
-
-#### [Terrain To STL](https://github.com/ModelRift/terrain-to-3d/)
-> This is a simple browser-based editor which creates printable 3D terrain models (.stl) from just latitude and longitude input.
-
-**Content Author:** ModelRift | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, CREATE, ONLINE TOOL, UNOFFICIAL, Generator
 
 ---
 
@@ -3867,24 +3813,6 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ### FDM
 
-#### [Dual Extruder and Prusaslicer](https://forum.snapmaker.com/t/dual-extruder-and-prusaslicer/29792/)
-> Forum thread dedicated to setting up a dual extruder with PrusaSlicer.
-
-**Content Author:** Slynold | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, FDM, ARTICLE, DISCUSSION, UNOFFICIAL
-
----
-
-#### [Dual Extruder and Prusaslicer](https://forum.snapmaker.com/t/dual-extruder-and-prusaslicer/29792/)
-> Forum thread dedicated to setting up a dual extruder with PrusaSlicer.
-
-**Content Author:** Slynold | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, FDM, ARTICLE, DISCUSSION, UNOFFICIAL
-
----
-
 #### [Snapmaker2Slic3rPostProcessor](https://github.com/macdylan/Snapmaker2Slic3rPostProcessor)
 > A Snapmaker G-Code Post Processor for PrusaSlicer and SuperSlicer to create compatible files for Snapmaker Touchscreen. Like thumbnail of the print on the screen. Supports PrusaSlicer and SuperSlicer with Snapmaker 2 A150/250/350, J1, Artisan.
 
@@ -4395,24 +4323,6 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 **Content Author:** Community | **Added:** 2026-03-09
 
 **Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ARTICLE, CREATE, UNOFFICIAL
-
----
-
-#### [Full Spectrum layer blending with OrcaSlicer Fork](https://github.com/ratdoux/OrcaSlicer-FullSpectrum)
-> Full Spectrum is an open source slicer for FDM printers based on Snapmaker Orca and OrcaSlicer, optimized for Snapmaker's U1 multi-color 3D printer with independent tool heads. This fork adds support for virtual mixed-color filaments, enabling you to create new colors by alternating layers between physical filaments.
-
-**Content Author:** ratdoux | **Added:** 2026-03-09
-
-**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ARTICLE, CREATE, DOWNLOAD, UNOFFICIAL, Slicer
-
----
-
-#### [Terrain To STL](https://github.com/ModelRift/terrain-to-3d/)
-> This is a simple browser-based editor which creates printable 3D terrain models (.stl) from just latitude and longitude input.
-
-**Content Author:** ModelRift | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, CREATE, ONLINE TOOL, UNOFFICIAL, Generator
 
 ---
 
@@ -6144,24 +6054,6 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 **Content Author:** Snapmaker | **Added:** 2026-03-09
 
 **Tags:** BEGINNER, FREE, U1, FDM, VIDEO, OFFICIAL, GUIDE
-
----
-
-#### [Full Spectrum layer blending with OrcaSlicer Fork](https://github.com/ratdoux/OrcaSlicer-FullSpectrum)
-> Full Spectrum is an open source slicer for FDM printers based on Snapmaker Orca and OrcaSlicer, optimized for Snapmaker's U1 multi-color 3D printer with independent tool heads. This fork adds support for virtual mixed-color filaments, enabling you to create new colors by alternating layers between physical filaments.
-
-**Content Author:** ratdoux | **Added:** 2026-03-09
-
-**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ARTICLE, CREATE, DOWNLOAD, UNOFFICIAL, Slicer
-
----
-
-#### [Terrain To STL](https://github.com/ModelRift/terrain-to-3d/)
-> This is a simple browser-based editor which creates printable 3D terrain models (.stl) from just latitude and longitude input.
-
-**Content Author:** ModelRift | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, CREATE, ONLINE TOOL, UNOFFICIAL, Generator
 
 ---
 
