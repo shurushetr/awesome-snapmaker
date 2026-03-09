@@ -15,8 +15,8 @@ concurrency:
 jobs:
   process-issue:
     runs-on: ubuntu-latest
-    # Run only if the 'approved' label was just added
-    if: github.event.label.name == 'approved'
+    # Run only if the 'approved' label was just added and it comes from the issue template
+    if: github.event.label.name == 'approved' && contains(github.event.issue.labels.*.name, 'new-submission')
     steps:
       - uses: actions/checkout@v3
 
@@ -41,17 +41,27 @@ jobs:
           ISSUE_NUMBER: ${{ github.event.issue.number }}
         run: python .github/scripts/process_issue.py
 
+      - name: Prep PR Body
+        if: steps.process_issue.outputs.is_duplicate != 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo -e "This PR automatically accumulates approved records to avoid merge conflicts.\nWhen you merge this, all pending records will be added to \`data.yml\`.\n\nLatest addition from issue #${{ github.event.issue.number }}.\n\nCloses #${{ github.event.issue.number }}" > pr_body.txt
+          
+          if gh pr view pending-automated-submissions --repo ${{ github.repository }} > /dev/null 2>&1; then
+            gh pr view pending-automated-submissions --repo ${{ github.repository }} --json body -q .body > pr_body.txt
+            if ! grep -q "Closes #${{ github.event.issue.number }}" pr_body.txt; then
+              echo "Closes #${{ github.event.issue.number }}" >> pr_body.txt
+            fi
+          fi
+
       - name: Create Pull Request
         if: steps.process_issue.outputs.is_duplicate != 'true'
         uses: peter-evans/create-pull-request@v5
         with:
           commit-message: "Add resource: #${{ github.event.issue.number }}"
           title: "🚀 Pending Automated Records"
-          body: |
-            This PR automatically accumulates approved records to avoid merge conflicts.
-            When you merge this, all pending records will be added to `data.yml`.
-            
-            Latest addition from issue #${{ github.event.issue.number }}.
+          body-path: pr_body.txt
           branch: "pending-automated-submissions"
           base: "main"
           delete-branch: true
@@ -94,14 +104,14 @@ jobs:
               });
             }
             
-            // Try removing the pending-review label
+            // Try removing the pending-content-review label
             try {
               await github.rest.issues.removeLabel({
                 issue_number: context.issue.number,
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                name: 'pending-review'
+                name: 'pending-content-review'
               });
             } catch (error) {
-              console.log("No pending-review label found to remove.");
+              console.log("No pending-content-review label found to remove.");
             }
