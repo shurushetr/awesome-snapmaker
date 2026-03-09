@@ -638,6 +638,24 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ---
 
+#### [Collection of 3D Printing Settins and Profiles](https://awesome-sm-list.xyz/)
+> | Supported <br/> printers | Slicer | Support for Dual extruder (DE) <br> Single extruder (SE) | Author | Profiles download link | Link to publication post | Notes |
+> | --- | --- | :---:  | --- | --- | --- | --- |
+> |Snapmaker 2.0 A350|Ulltimaker Cura|SE|[@Kaouthia](https://github.com/Kaouthia)|[GitHub](https://github.com/Kaouthia/Snapmaker-2)|N/A||
+> |Snapmaker 2.0 A350 <br> Snapmaker 2.0 A250|PrusaSlicer|SE|[@mrworf](https://forum.snapmaker.com/u/MrWorf)|[GitHub](https://github.com/mrworf/snapmaker-prusa)|N/A||
+> |Snapmaker 2.0 A350|PrusaSlicer|SE|[Snapmaker Team](https://forum.snapmaker.com/u/Edwin)|[Google Drive](https://drive.google.com/open?id=1xfBgXZzwjKaeZ3iqscdpe2xosgFV03G0)|[Snapmaker Forum](https://forum.snapmaker.com/t/prusa-slicer-profile/5657/7)||
+> |Snapmaker J1/J1s|PrusaSlicer|N/A|[@leandrolima-nyc ](https://github.com/leandrolima-nyc)|[GitHub](https://github.com/leandrolima-nyc/SnapmakerJ1)|N/A||
+> |Snapmaker 2.0 A250|PrusaSLicer|DE|[@takeota](https://forum.snapmaker.com/u/takeota)|[Snapmaker Forum](https://forum.snapmaker.com/uploads/short-url/dRORxfm5l4wQNFRicH3umRi72HV.zip)|[Posted at Snapmaker Forum](https://forum.snapmaker.com/t/dual-extruder-and-prusaslicer/29792/62)|This is for A250, but Dual Extruder settings are easy to adopt for A350|
+> |Snapmaker 2.0 <br> Snapmaker J1/J1s <br> Snapmaker Artisan|OrcaSlicer & PrusaSlicer|SE DE Qswap|[@MacDylan](https://forum.snapmaker.com/u/macdylan)|Profiles are built into the OrcaSlicer and PrusaSlicer starting Jan. 2024. No extra steps needed.|N/A|[GitHub (archived)](https://github.com/macdylan/3dp-configs/blob/main/README-en.md) <br> [Additional description translated in Chinese](https://github.com/macdylan/3dp-configs/)|
+> |Snapmaker 2.0 <br> Snapmaker J1/J1s <br> Snapmaker Artisan |Cura||Snapmaker Official|[Cura Plugin Link](https://wiki.snapmaker.com/en/Snapmaker_Luban/cura_plugin)|||
+> ||||[]()|[]()|||
+
+**Content Author:** Community | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ARTICLE, CREATE, UNOFFICIAL
+
+---
+
 #### [Snapmaker Luban](https://forum.snapmaker.com/t/snapmaker-luban-downloads-and-updates/4949)
 > Topic with Luban, the 3 in 1 software updates posted
 
@@ -1051,6 +1069,28 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 **Content Author:** Snapmaker | **Added:** 2026-03-09
 
 **Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, LASER, ARTICLE, CREATE, OFFICIAL, Settings
+
+---
+
+#### [Collection of Laser settings recommended by Community Members](n/a)
+> Air assist is recommended for any laser module you use. Some mods are listed in here.
+> 
+> | Material | Laser Module | Operation | Thickness <br/> (mm) | Method | Work Speed <br/> (mm/min) | Power <br/> (%) | Notes | Source |
+> | --- | :---: | --- | :---:  | --- | :---:  | :---:  | --- | --- |
+> |Lightburn Profiles Official|All|||||||[Official Wiki Article](https://wiki.snapmaker.com/en/general/manual/use_ray_with_lightburn_guide)|
+> | Acrilic Clear | 10W | Engrave | N/A | Fill <br/> Line interval 0.25mm | 500 | 100 | Place sheet of paper on top of acrylic | [Facebook post](https://www.facebook.com/groups/snapmaker/posts/1794963157588656)
+> | Acrilic Clear | 10W | Dot-filled Engraving | N/A | Fill <br/> Dot interval 0.14mm | 5ms/dot | 30 | Put liquid chalk on top (either marker or spray) | [Snapmaker forum](https://forum.snapmaker.com/t/10w-laser-clear-acrylic-engraved-logo-with-light-base/26105)
+> | Stainless Steal | 10W | Engrave | N/A | Fill <br/> Line interval 0.1mm | 450 | 100 | Clean steel surface | [Marking SS with 10W laser](https://forum.snapmaker.com/t/marking-ss-with-10w-laser/25577)|
+> | YETTI cups | 10W | Engrave | N/A | Fill <br/> Line interval 0.07 | 3500 | 40 | Quick rub with a magic eraser and then I use a chrome polish on a drill buffer to make it pop. Wash in the sink after| [Facebook post](https://www.facebook.com/groups/snapmaker/posts/1797922073959431/) |
+> | Rubber Stamps | 10W | Engrave | N/A | Fill <br/> Line interval 0.15 | 880 | 100 | 1 pass | [Facebook comment by Darien Kruss](https://www.facebook.com/groups/snapmaker/posts/1851724585245846/) |
+> | Rubber Stamps | 10W | Cut | N/A | On the line| 400 | 100 | 4 pass <br/> z-step 1.00 mm | [Facebook comment by Darien Kruss](https://www.facebook.com/groups/snapmaker/posts/1851724585245846/) |
+> |[Synthetic leather](https://www.jpplus.com/saddle-collection-sheet)| 1.6W | Engrave | N/A | Fill <br> Dot interval 0.1mm | Jog 1500 <br> Dwell time 3ms/dot | 70 | 10W module was too strong for this | [Forum post by Shamuscg](https://forum.snapmaker.com/t/laser-settings-for-saddles-collection-laser-safe-synthetic-leather/34590?u=shamuscg) |
+> | Maple Wood | 10W | Engrave | N/A | Fill <br/> Dot <br> Fill interval 0.1 | Jog - 3000 <br> Dwell - 4mm/dot | 50 | Lots of great notes in the FB post| [Facebook post by Alex Jennings](https://www.facebook.com/groups/snapmaker/posts/2114673665617602/) |
+> ||||||||||
+
+**Content Author:** Community | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, RAY, LASER, ARTICLE, CREATE, UNOFFICIAL
 
 ---
 
@@ -1673,6 +1713,24 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 **Content Author:** Community | **Added:** 2026-03-09
 
 **Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ONLINE TOOL, SHOP, UNOFFICIAL, Material Source
+
+---
+
+#### [Collection of 3D Printing Settins and Profiles](https://awesome-sm-list.xyz/)
+> | Supported <br/> printers | Slicer | Support for Dual extruder (DE) <br> Single extruder (SE) | Author | Profiles download link | Link to publication post | Notes |
+> | --- | --- | :---:  | --- | --- | --- | --- |
+> |Snapmaker 2.0 A350|Ulltimaker Cura|SE|[@Kaouthia](https://github.com/Kaouthia)|[GitHub](https://github.com/Kaouthia/Snapmaker-2)|N/A||
+> |Snapmaker 2.0 A350 <br> Snapmaker 2.0 A250|PrusaSlicer|SE|[@mrworf](https://forum.snapmaker.com/u/MrWorf)|[GitHub](https://github.com/mrworf/snapmaker-prusa)|N/A||
+> |Snapmaker 2.0 A350|PrusaSlicer|SE|[Snapmaker Team](https://forum.snapmaker.com/u/Edwin)|[Google Drive](https://drive.google.com/open?id=1xfBgXZzwjKaeZ3iqscdpe2xosgFV03G0)|[Snapmaker Forum](https://forum.snapmaker.com/t/prusa-slicer-profile/5657/7)||
+> |Snapmaker J1/J1s|PrusaSlicer|N/A|[@leandrolima-nyc ](https://github.com/leandrolima-nyc)|[GitHub](https://github.com/leandrolima-nyc/SnapmakerJ1)|N/A||
+> |Snapmaker 2.0 A250|PrusaSLicer|DE|[@takeota](https://forum.snapmaker.com/u/takeota)|[Snapmaker Forum](https://forum.snapmaker.com/uploads/short-url/dRORxfm5l4wQNFRicH3umRi72HV.zip)|[Posted at Snapmaker Forum](https://forum.snapmaker.com/t/dual-extruder-and-prusaslicer/29792/62)|This is for A250, but Dual Extruder settings are easy to adopt for A350|
+> |Snapmaker 2.0 <br> Snapmaker J1/J1s <br> Snapmaker Artisan|OrcaSlicer & PrusaSlicer|SE DE Qswap|[@MacDylan](https://forum.snapmaker.com/u/macdylan)|Profiles are built into the OrcaSlicer and PrusaSlicer starting Jan. 2024. No extra steps needed.|N/A|[GitHub (archived)](https://github.com/macdylan/3dp-configs/blob/main/README-en.md) <br> [Additional description translated in Chinese](https://github.com/macdylan/3dp-configs/)|
+> |Snapmaker 2.0 <br> Snapmaker J1/J1s <br> Snapmaker Artisan |Cura||Snapmaker Official|[Cura Plugin Link](https://wiki.snapmaker.com/en/Snapmaker_Luban/cura_plugin)|||
+> ||||[]()|[]()|||
+
+**Content Author:** Community | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ARTICLE, CREATE, UNOFFICIAL
 
 ---
 
@@ -2461,6 +2519,28 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 **Content Author:** Community | **Added:** 2026-03-09
 
 **Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, RAY, LASER, CNC, SHOP, UNOFFICIAL, Material Source
+
+---
+
+#### [Collection of Laser settings recommended by Community Members](n/a)
+> Air assist is recommended for any laser module you use. Some mods are listed in here.
+> 
+> | Material | Laser Module | Operation | Thickness <br/> (mm) | Method | Work Speed <br/> (mm/min) | Power <br/> (%) | Notes | Source |
+> | --- | :---: | --- | :---:  | --- | :---:  | :---:  | --- | --- |
+> |Lightburn Profiles Official|All|||||||[Official Wiki Article](https://wiki.snapmaker.com/en/general/manual/use_ray_with_lightburn_guide)|
+> | Acrilic Clear | 10W | Engrave | N/A | Fill <br/> Line interval 0.25mm | 500 | 100 | Place sheet of paper on top of acrylic | [Facebook post](https://www.facebook.com/groups/snapmaker/posts/1794963157588656)
+> | Acrilic Clear | 10W | Dot-filled Engraving | N/A | Fill <br/> Dot interval 0.14mm | 5ms/dot | 30 | Put liquid chalk on top (either marker or spray) | [Snapmaker forum](https://forum.snapmaker.com/t/10w-laser-clear-acrylic-engraved-logo-with-light-base/26105)
+> | Stainless Steal | 10W | Engrave | N/A | Fill <br/> Line interval 0.1mm | 450 | 100 | Clean steel surface | [Marking SS with 10W laser](https://forum.snapmaker.com/t/marking-ss-with-10w-laser/25577)|
+> | YETTI cups | 10W | Engrave | N/A | Fill <br/> Line interval 0.07 | 3500 | 40 | Quick rub with a magic eraser and then I use a chrome polish on a drill buffer to make it pop. Wash in the sink after| [Facebook post](https://www.facebook.com/groups/snapmaker/posts/1797922073959431/) |
+> | Rubber Stamps | 10W | Engrave | N/A | Fill <br/> Line interval 0.15 | 880 | 100 | 1 pass | [Facebook comment by Darien Kruss](https://www.facebook.com/groups/snapmaker/posts/1851724585245846/) |
+> | Rubber Stamps | 10W | Cut | N/A | On the line| 400 | 100 | 4 pass <br/> z-step 1.00 mm | [Facebook comment by Darien Kruss](https://www.facebook.com/groups/snapmaker/posts/1851724585245846/) |
+> |[Synthetic leather](https://www.jpplus.com/saddle-collection-sheet)| 1.6W | Engrave | N/A | Fill <br> Dot interval 0.1mm | Jog 1500 <br> Dwell time 3ms/dot | 70 | 10W module was too strong for this | [Forum post by Shamuscg](https://forum.snapmaker.com/t/laser-settings-for-saddles-collection-laser-safe-synthetic-leather/34590?u=shamuscg) |
+> | Maple Wood | 10W | Engrave | N/A | Fill <br/> Dot <br> Fill interval 0.1 | Jog - 3000 <br> Dwell - 4mm/dot | 50 | Lots of great notes in the FB post| [Facebook post by Alex Jennings](https://www.facebook.com/groups/snapmaker/posts/2114673665617602/) |
+> ||||||||||
+
+**Content Author:** Community | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, RAY, LASER, ARTICLE, CREATE, UNOFFICIAL
 
 ---
 
@@ -4228,6 +4308,24 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ---
 
+#### [Collection of 3D Printing Settins and Profiles](https://awesome-sm-list.xyz/)
+> | Supported <br/> printers | Slicer | Support for Dual extruder (DE) <br> Single extruder (SE) | Author | Profiles download link | Link to publication post | Notes |
+> | --- | --- | :---:  | --- | --- | --- | --- |
+> |Snapmaker 2.0 A350|Ulltimaker Cura|SE|[@Kaouthia](https://github.com/Kaouthia)|[GitHub](https://github.com/Kaouthia/Snapmaker-2)|N/A||
+> |Snapmaker 2.0 A350 <br> Snapmaker 2.0 A250|PrusaSlicer|SE|[@mrworf](https://forum.snapmaker.com/u/MrWorf)|[GitHub](https://github.com/mrworf/snapmaker-prusa)|N/A||
+> |Snapmaker 2.0 A350|PrusaSlicer|SE|[Snapmaker Team](https://forum.snapmaker.com/u/Edwin)|[Google Drive](https://drive.google.com/open?id=1xfBgXZzwjKaeZ3iqscdpe2xosgFV03G0)|[Snapmaker Forum](https://forum.snapmaker.com/t/prusa-slicer-profile/5657/7)||
+> |Snapmaker J1/J1s|PrusaSlicer|N/A|[@leandrolima-nyc ](https://github.com/leandrolima-nyc)|[GitHub](https://github.com/leandrolima-nyc/SnapmakerJ1)|N/A||
+> |Snapmaker 2.0 A250|PrusaSLicer|DE|[@takeota](https://forum.snapmaker.com/u/takeota)|[Snapmaker Forum](https://forum.snapmaker.com/uploads/short-url/dRORxfm5l4wQNFRicH3umRi72HV.zip)|[Posted at Snapmaker Forum](https://forum.snapmaker.com/t/dual-extruder-and-prusaslicer/29792/62)|This is for A250, but Dual Extruder settings are easy to adopt for A350|
+> |Snapmaker 2.0 <br> Snapmaker J1/J1s <br> Snapmaker Artisan|OrcaSlicer & PrusaSlicer|SE DE Qswap|[@MacDylan](https://forum.snapmaker.com/u/macdylan)|Profiles are built into the OrcaSlicer and PrusaSlicer starting Jan. 2024. No extra steps needed.|N/A|[GitHub (archived)](https://github.com/macdylan/3dp-configs/blob/main/README-en.md) <br> [Additional description translated in Chinese](https://github.com/macdylan/3dp-configs/)|
+> |Snapmaker 2.0 <br> Snapmaker J1/J1s <br> Snapmaker Artisan |Cura||Snapmaker Official|[Cura Plugin Link](https://wiki.snapmaker.com/en/Snapmaker_Luban/cura_plugin)|||
+> ||||[]()|[]()|||
+
+**Content Author:** Community | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ARTICLE, CREATE, UNOFFICIAL
+
+---
+
 #### [Snapmaker Luban](https://forum.snapmaker.com/t/snapmaker-luban-downloads-and-updates/4949)
 > Topic with Luban, the 3 in 1 software updates posted
 
@@ -5142,6 +5240,28 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ---
 
+#### [Collection of Laser settings recommended by Community Members](n/a)
+> Air assist is recommended for any laser module you use. Some mods are listed in here.
+> 
+> | Material | Laser Module | Operation | Thickness <br/> (mm) | Method | Work Speed <br/> (mm/min) | Power <br/> (%) | Notes | Source |
+> | --- | :---: | --- | :---:  | --- | :---:  | :---:  | --- | --- |
+> |Lightburn Profiles Official|All|||||||[Official Wiki Article](https://wiki.snapmaker.com/en/general/manual/use_ray_with_lightburn_guide)|
+> | Acrilic Clear | 10W | Engrave | N/A | Fill <br/> Line interval 0.25mm | 500 | 100 | Place sheet of paper on top of acrylic | [Facebook post](https://www.facebook.com/groups/snapmaker/posts/1794963157588656)
+> | Acrilic Clear | 10W | Dot-filled Engraving | N/A | Fill <br/> Dot interval 0.14mm | 5ms/dot | 30 | Put liquid chalk on top (either marker or spray) | [Snapmaker forum](https://forum.snapmaker.com/t/10w-laser-clear-acrylic-engraved-logo-with-light-base/26105)
+> | Stainless Steal | 10W | Engrave | N/A | Fill <br/> Line interval 0.1mm | 450 | 100 | Clean steel surface | [Marking SS with 10W laser](https://forum.snapmaker.com/t/marking-ss-with-10w-laser/25577)|
+> | YETTI cups | 10W | Engrave | N/A | Fill <br/> Line interval 0.07 | 3500 | 40 | Quick rub with a magic eraser and then I use a chrome polish on a drill buffer to make it pop. Wash in the sink after| [Facebook post](https://www.facebook.com/groups/snapmaker/posts/1797922073959431/) |
+> | Rubber Stamps | 10W | Engrave | N/A | Fill <br/> Line interval 0.15 | 880 | 100 | 1 pass | [Facebook comment by Darien Kruss](https://www.facebook.com/groups/snapmaker/posts/1851724585245846/) |
+> | Rubber Stamps | 10W | Cut | N/A | On the line| 400 | 100 | 4 pass <br/> z-step 1.00 mm | [Facebook comment by Darien Kruss](https://www.facebook.com/groups/snapmaker/posts/1851724585245846/) |
+> |[Synthetic leather](https://www.jpplus.com/saddle-collection-sheet)| 1.6W | Engrave | N/A | Fill <br> Dot interval 0.1mm | Jog 1500 <br> Dwell time 3ms/dot | 70 | 10W module was too strong for this | [Forum post by Shamuscg](https://forum.snapmaker.com/t/laser-settings-for-saddles-collection-laser-safe-synthetic-leather/34590?u=shamuscg) |
+> | Maple Wood | 10W | Engrave | N/A | Fill <br/> Dot <br> Fill interval 0.1 | Jog - 3000 <br> Dwell - 4mm/dot | 50 | Lots of great notes in the FB post| [Facebook post by Alex Jennings](https://www.facebook.com/groups/snapmaker/posts/2114673665617602/) |
+> ||||||||||
+
+**Content Author:** Community | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, RAY, LASER, ARTICLE, CREATE, UNOFFICIAL
+
+---
+
 #### [Snapmaker Luban](https://forum.snapmaker.com/t/snapmaker-luban-downloads-and-updates/4949)
 > Topic with Luban, the 3 in 1 software updates posted
 
@@ -5889,6 +6009,24 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 **Content Author:** Community | **Added:** 2026-03-09
 
 **Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ONLINE TOOL, SHOP, UNOFFICIAL, Material Source
+
+---
+
+#### [Collection of 3D Printing Settins and Profiles](https://awesome-sm-list.xyz/)
+> | Supported <br/> printers | Slicer | Support for Dual extruder (DE) <br> Single extruder (SE) | Author | Profiles download link | Link to publication post | Notes |
+> | --- | --- | :---:  | --- | --- | --- | --- |
+> |Snapmaker 2.0 A350|Ulltimaker Cura|SE|[@Kaouthia](https://github.com/Kaouthia)|[GitHub](https://github.com/Kaouthia/Snapmaker-2)|N/A||
+> |Snapmaker 2.0 A350 <br> Snapmaker 2.0 A250|PrusaSlicer|SE|[@mrworf](https://forum.snapmaker.com/u/MrWorf)|[GitHub](https://github.com/mrworf/snapmaker-prusa)|N/A||
+> |Snapmaker 2.0 A350|PrusaSlicer|SE|[Snapmaker Team](https://forum.snapmaker.com/u/Edwin)|[Google Drive](https://drive.google.com/open?id=1xfBgXZzwjKaeZ3iqscdpe2xosgFV03G0)|[Snapmaker Forum](https://forum.snapmaker.com/t/prusa-slicer-profile/5657/7)||
+> |Snapmaker J1/J1s|PrusaSlicer|N/A|[@leandrolima-nyc ](https://github.com/leandrolima-nyc)|[GitHub](https://github.com/leandrolima-nyc/SnapmakerJ1)|N/A||
+> |Snapmaker 2.0 A250|PrusaSLicer|DE|[@takeota](https://forum.snapmaker.com/u/takeota)|[Snapmaker Forum](https://forum.snapmaker.com/uploads/short-url/dRORxfm5l4wQNFRicH3umRi72HV.zip)|[Posted at Snapmaker Forum](https://forum.snapmaker.com/t/dual-extruder-and-prusaslicer/29792/62)|This is for A250, but Dual Extruder settings are easy to adopt for A350|
+> |Snapmaker 2.0 <br> Snapmaker J1/J1s <br> Snapmaker Artisan|OrcaSlicer & PrusaSlicer|SE DE Qswap|[@MacDylan](https://forum.snapmaker.com/u/macdylan)|Profiles are built into the OrcaSlicer and PrusaSlicer starting Jan. 2024. No extra steps needed.|N/A|[GitHub (archived)](https://github.com/macdylan/3dp-configs/blob/main/README-en.md) <br> [Additional description translated in Chinese](https://github.com/macdylan/3dp-configs/)|
+> |Snapmaker 2.0 <br> Snapmaker J1/J1s <br> Snapmaker Artisan |Cura||Snapmaker Official|[Cura Plugin Link](https://wiki.snapmaker.com/en/Snapmaker_Luban/cura_plugin)|||
+> ||||[]()|[]()|||
+
+**Content Author:** Community | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ARTICLE, CREATE, UNOFFICIAL
 
 ---
 
