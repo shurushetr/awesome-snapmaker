@@ -238,6 +238,15 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ---
 
+#### [SnapRemote](https://github.com/mrtayguney/snapremote-server)
+> SnapRemote is a Node.js server that creates an interface to connect Snapmaker devices. It also serves a web client to control your device remotely. You can run this server on a Raspberry Pi within the same local network as your Snapmaker.
+
+**Content Author:** mrtayguney | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, FDM, LASER, CNC, DOWNLOAD, MODS, UNOFFICIAL, Remote Monitoring
+
+---
+
 #### [Snapmaker Luban](https://forum.snapmaker.com/t/snapmaker-luban-downloads-and-updates/4949)
 > Topic with Luban, the 3 in 1 software updates posted
 
@@ -644,6 +653,42 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 **Content Author:** ratdoux | **Added:** 2026-03-09
 
 **Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ARTICLE, CREATE, DOWNLOAD, UNOFFICIAL, Slicer
+
+---
+
+#### [How To Get Glass Smooth 3D Prints](https://www.youtube.com/watch?v=QXvbwcXXaNE)
+> Want to get glass smooth 3D prints without sanding or post-processing? In this video, I’ll show you exactly how to calibrate your ironing settings in Bambu Studio to achieve flawless top surfaces that look more like injection-molded parts than 3D prints.
+
+**Content Author:** Planet 3DP | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, CREATE, VIDEO, UNOFFICIAL, Calibration
+
+---
+
+#### [Printing Transparent PETG Objects with Orca Slicer](https://www.printables.com/model/1278125-how-to-print-glass-with-orca-3mf)
+> A description of the method to tune your printer to print almost transparent objects with clear PETG.
+
+**Content Author:** Rygar1432 | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ARTICLE, CREATE, UNOFFICIAL, Calibration
+
+---
+
+#### [Basics of 3D Printing](https://www.prusa3d.com/page/basics-of-3d-printing-with-josef-prusa_490/)
+> If you are new to 3D printing, read this quick but packed with knowledge book while your first printer is being delivered to you.
+
+**Content Author:** Josef Průša | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ARTICLE, CREATE, UNOFFICIAL, Education
+
+---
+
+#### [SnapRemote](https://github.com/mrtayguney/snapremote-server)
+> SnapRemote is a Node.js server that creates an interface to connect Snapmaker devices. It also serves a web client to control your device remotely. You can run this server on a Raspberry Pi within the same local network as your Snapmaker.
+
+**Content Author:** mrtayguney | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, FDM, LASER, CNC, DOWNLOAD, MODS, UNOFFICIAL, Remote Monitoring
 
 ---
 
@@ -1082,6 +1127,24 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 **Content Author:** Community | **Added:** 2026-03-09
 
 **Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, RAY, LASER, ARTICLE, CREATE, UNOFFICIAL
+
+---
+
+#### [SnapRemote](https://github.com/mrtayguney/snapremote-server)
+> SnapRemote is a Node.js server that creates an interface to connect Snapmaker devices. It also serves a web client to control your device remotely. You can run this server on a Raspberry Pi within the same local network as your Snapmaker.
+
+**Content Author:** mrtayguney | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, FDM, LASER, CNC, DOWNLOAD, MODS, UNOFFICIAL, Remote Monitoring
+
+---
+
+#### [VTracer - create SVG vector out of images](https://www.visioncortex.org/vtracer/)
+> Online tools allow you to create nice SVG files from raster images.
+
+**Content Author:** visioncortex | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, RAY, LASER, CREATE, ONLINE TOOL, UNOFFICIAL
 
 ---
 
@@ -1731,6 +1794,33 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 **Content Author:** ratdoux | **Added:** 2026-03-09
 
 **Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ARTICLE, CREATE, DOWNLOAD, UNOFFICIAL, Slicer
+
+---
+
+#### [How To Get Glass Smooth 3D Prints](https://www.youtube.com/watch?v=QXvbwcXXaNE)
+> Want to get glass smooth 3D prints without sanding or post-processing? In this video, I’ll show you exactly how to calibrate your ironing settings in Bambu Studio to achieve flawless top surfaces that look more like injection-molded parts than 3D prints.
+
+**Content Author:** Planet 3DP | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, CREATE, VIDEO, UNOFFICIAL, Calibration
+
+---
+
+#### [Printing Transparent PETG Objects with Orca Slicer](https://www.printables.com/model/1278125-how-to-print-glass-with-orca-3mf)
+> A description of the method to tune your printer to print almost transparent objects with clear PETG.
+
+**Content Author:** Rygar1432 | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ARTICLE, CREATE, UNOFFICIAL, Calibration
+
+---
+
+#### [Basics of 3D Printing](https://www.prusa3d.com/page/basics-of-3d-printing-with-josef-prusa_490/)
+> If you are new to 3D printing, read this quick but packed with knowledge book while your first printer is being delivered to you.
+
+**Content Author:** Josef Průša | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ARTICLE, CREATE, UNOFFICIAL, Education
 
 ---
 
@@ -2544,6 +2634,15 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ---
 
+#### [VTracer - create SVG vector out of images](https://www.visioncortex.org/vtracer/)
+> Online tools allow you to create nice SVG files from raster images.
+
+**Content Author:** visioncortex | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, RAY, LASER, CREATE, ONLINE TOOL, UNOFFICIAL
+
+---
+
 #### [Snapmaker RAY Specification](https://www.snapmaker.com/snapmaker-ray-20w-40w-laser-engraver-and-cutter-with-air-assist/specs)
 > All the specs in one page
 
@@ -3345,6 +3444,15 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 **Content Author:** Community | **Added:** 2026-03-09
 
 **Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, CNC, ARTICLE, CREATE, UNOFFICIAL
+
+---
+
+#### [SnapRemote](https://github.com/mrtayguney/snapremote-server)
+> SnapRemote is a Node.js server that creates an interface to connect Snapmaker devices. It also serves a web client to control your device remotely. You can run this server on a Raspberry Pi within the same local network as your Snapmaker.
+
+**Content Author:** mrtayguney | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, FDM, LASER, CNC, DOWNLOAD, MODS, UNOFFICIAL, Remote Monitoring
 
 ---
 
@@ -4317,6 +4425,42 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ---
 
+#### [How To Get Glass Smooth 3D Prints](https://www.youtube.com/watch?v=QXvbwcXXaNE)
+> Want to get glass smooth 3D prints without sanding or post-processing? In this video, I’ll show you exactly how to calibrate your ironing settings in Bambu Studio to achieve flawless top surfaces that look more like injection-molded parts than 3D prints.
+
+**Content Author:** Planet 3DP | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, CREATE, VIDEO, UNOFFICIAL, Calibration
+
+---
+
+#### [Printing Transparent PETG Objects with Orca Slicer](https://www.printables.com/model/1278125-how-to-print-glass-with-orca-3mf)
+> A description of the method to tune your printer to print almost transparent objects with clear PETG.
+
+**Content Author:** Rygar1432 | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ARTICLE, CREATE, UNOFFICIAL, Calibration
+
+---
+
+#### [Basics of 3D Printing](https://www.prusa3d.com/page/basics-of-3d-printing-with-josef-prusa_490/)
+> If you are new to 3D printing, read this quick but packed with knowledge book while your first printer is being delivered to you.
+
+**Content Author:** Josef Průša | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ARTICLE, CREATE, UNOFFICIAL, Education
+
+---
+
+#### [SnapRemote](https://github.com/mrtayguney/snapremote-server)
+> SnapRemote is a Node.js server that creates an interface to connect Snapmaker devices. It also serves a web client to control your device remotely. You can run this server on a Raspberry Pi within the same local network as your Snapmaker.
+
+**Content Author:** mrtayguney | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, FDM, LASER, CNC, DOWNLOAD, MODS, UNOFFICIAL, Remote Monitoring
+
+---
+
 #### [Snapmaker Luban](https://forum.snapmaker.com/t/snapmaker-luban-downloads-and-updates/4949)
 > Topic with Luban, the 3 in 1 software updates posted
 
@@ -5253,6 +5397,24 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ---
 
+#### [SnapRemote](https://github.com/mrtayguney/snapremote-server)
+> SnapRemote is a Node.js server that creates an interface to connect Snapmaker devices. It also serves a web client to control your device remotely. You can run this server on a Raspberry Pi within the same local network as your Snapmaker.
+
+**Content Author:** mrtayguney | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, FDM, LASER, CNC, DOWNLOAD, MODS, UNOFFICIAL, Remote Monitoring
+
+---
+
+#### [VTracer - create SVG vector out of images](https://www.visioncortex.org/vtracer/)
+> Online tools allow you to create nice SVG files from raster images.
+
+**Content Author:** visioncortex | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, RAY, LASER, CREATE, ONLINE TOOL, UNOFFICIAL
+
+---
+
 #### [Snapmaker Luban](https://forum.snapmaker.com/t/snapmaker-luban-downloads-and-updates/4949)
 > Topic with Luban, the 3 in 1 software updates posted
 
@@ -6054,6 +6216,58 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 **Content Author:** ratdoux | **Added:** 2026-03-09
 
 **Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ARTICLE, CREATE, DOWNLOAD, UNOFFICIAL, Slicer
+
+---
+
+#### [Collection thread：U1 Top-Cover Mod](https://forum.snapmaker.com/t/collection-thread-u1-top-cover-mod/40429)
+> Forum topic with a bunch of options for top cover, while we wait for official to appear on the market.
+
+**Content Author:** Simon_Zhi | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, U1, FDM, MODS, UNOFFICIAL
+
+---
+
+#### [How To Get Glass Smooth 3D Prints](https://www.youtube.com/watch?v=QXvbwcXXaNE)
+> Want to get glass smooth 3D prints without sanding or post-processing? In this video, I’ll show you exactly how to calibrate your ironing settings in Bambu Studio to achieve flawless top surfaces that look more like injection-molded parts than 3D prints.
+
+**Content Author:** Planet 3DP | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, CREATE, VIDEO, UNOFFICIAL, Calibration
+
+---
+
+#### [Printing Transparent PETG Objects with Orca Slicer](https://www.printables.com/model/1278125-how-to-print-glass-with-orca-3mf)
+> A description of the method to tune your printer to print almost transparent objects with clear PETG.
+
+**Content Author:** Rygar1432 | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ARTICLE, CREATE, UNOFFICIAL, Calibration
+
+---
+
+#### [Basics of 3D Printing](https://www.prusa3d.com/page/basics-of-3d-printing-with-josef-prusa_490/)
+> If you are new to 3D printing, read this quick but packed with knowledge book while your first printer is being delivered to you.
+
+**Content Author:** Josef Průša | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ARTICLE, CREATE, UNOFFICIAL, Education
+
+---
+
+#### [PAXX12 Firmware for Snapmaerk U1](https://snapmakeru1-extended-firmware.pages.dev/install)
+> Very popular alternative firmware with a bunch of enhancements. 
+> All basic features plus:
+> -   Hardware-accelerated camera (Rockchip MPP/VPU)
+> -   WebRTC low-latency streaming
+> -   USB camera support with hot-plug detection
+> -   Fluidd v1.35.0 with timelapse plugin (only ability to view timelapses from Web)
+> -   Dual camera support (internal + USB)
+> -   And More.
+
+**Content Author:** paxx12 | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, U1, FDM, DOWNLOAD, FIRMWARE, MODS, UNOFFICIAL
 
 ---
 
