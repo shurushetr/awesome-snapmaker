@@ -632,7 +632,7 @@ function renderRecords(records) {
 
             const triggerSuccess = () => {
                 const originalHtml = e.currentTarget.innerHTML;
-                e.currentTarget.innerHTML = '<span style="font-size:1.1rem;color:green;font-weight:bold;">✓</span>';
+                e.currentTarget.innerHTML = '<span style="font-size:1.1rem;color:green;font-weight:bold;">&#x2713;</span>';
                 setTimeout(() => {
                     e.currentTarget.innerHTML = originalHtml;
                 }, 2000);
