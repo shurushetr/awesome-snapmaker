@@ -212,9 +212,17 @@ function setupEventListeners() {
             const originalText = DOM.shareViewBtn.innerHTML;
             
             const triggerSuccess = () => {
-                DOM.shareViewBtn.innerHTML = '✅ Copied!';
+                const originalBg = DOM.shareViewBtn.style.backgroundColor;
+                const originalColor = DOM.shareViewBtn.style.color;
+                
+                DOM.shareViewBtn.textContent = 'Copied!';
+                DOM.shareViewBtn.style.backgroundColor = '#10b981';
+                DOM.shareViewBtn.style.color = 'white';
+                
                 setTimeout(() => {
                     DOM.shareViewBtn.innerHTML = originalText;
+                    DOM.shareViewBtn.style.backgroundColor = originalBg;
+                    DOM.shareViewBtn.style.color = originalColor;
                 }, 2000);
             };
 
