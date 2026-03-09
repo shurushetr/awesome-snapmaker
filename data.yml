@@ -3453,31 +3453,6 @@ records:
   - label: DIY Version
     link: https://github.com/brvdboss/3d-touchprobe
 
-- id: snapmaker2slic3rpostprocessor-33ef
-  title: Snapmaker2Slic3rPostProcessor
-  description: A Snapmaker G-Code Post Processor for PrusaSlicer and SuperSlicer to create compatible files for Snapmaker Touchscreen. Like thumbnail of the print on the screen. Supports PrusaSlicer and SuperSlicer with Snapmaker 2 A150/250/350, J1, Artisan.
-  author_name: macdylan
-  author_link: https://github.com/macdylan
-  original_link: https://github.com/macdylan/Snapmaker2Slic3rPostProcessor
-  date_added: '2026-03-09'
-  difficulty: BEGINNER
-  cost: FREE
-  language: EN
-  tags:
-    machine_type:
-    - SM_2.0
-    - ARTISAN
-    - J1/J1s
-    machine_tool_type:
-    - FDM
-    record_type:
-    - DOWNLOAD
-    official_flag:
-    - UNOFFICIAL
-    free_tags:
-    - Post Processor
-    - G-Code
-
 - id: a-snapmaker-2-0-prusaslicer-post-processor-to-create-compatible-files-for-the-snapmaker-terminal-2cb5
   title: A Snapmaker 2.0 PrusaSlicer Post-Processor to create compatible files for the Snapmaker terminal.
   description: Another g-code postprocessor for Prusaslicer.
