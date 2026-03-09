@@ -28,6 +28,15 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ### CNC
 
+#### [CNC self-impelled vacuum dust shoe (no external vacuum required)](https://forum.snapmaker.com/t/cnc-self-impelled-vacuum-dust-shoe-no-external-vacuum-required/24972)
+> Great design of a vacuumless dust removal shoe.
+
+**Content Author:** gil.a.ramirez | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, PAID, SM_2.0, ARTISAN, CNC, MODS, UNOFFICIAL, Dust Removal
+
+---
+
 #### [Snapmaker Luban](https://forum.snapmaker.com/t/snapmaker-luban-downloads-and-updates/4949)
 > Topic with Luban, the 3 in 1 software updates posted
 
@@ -239,6 +248,15 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ### FDM
 
+#### [Dual Extruder and Prusaslicer](https://forum.snapmaker.com/t/dual-extruder-and-prusaslicer/29792/)
+> Forum thread dedicated to setting up a dual extruder with PrusaSlicer.
+
+**Content Author:** Slynold | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, FDM, ARTICLE, DISCUSSION, UNOFFICIAL
+
+---
+
 #### [Snapmaker Luban](https://forum.snapmaker.com/t/snapmaker-luban-downloads-and-updates/4949)
 > Topic with Luban, the 3 in 1 software updates posted
 
@@ -429,6 +447,24 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 ---
 
 ### LASER
+
+#### [Add airassist to your 10W laser](https://www.facebook.com/groups/snapmaker/posts/1694540740964232/)
+> A facebook post that shows an implementation of internal air assist with external air pump, cheap and effective mod to make your laser path clean.
+
+**Content Author:** Raagnarix | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, LASER, MODS, UNOFFICIAL
+
+---
+
+#### [Laser Calibration Tool](https://github.com/daniel-starke/LaserCalibrationTool)
+> Laser calibration pattern generator.
+
+**Content Author:** daniel-starke | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, RAY, LASER, ONLINE TOOL, UNOFFICIAL
+
+---
 
 #### [Snapmaker Luban](https://forum.snapmaker.com/t/snapmaker-luban-downloads-and-updates/4949)
 > Topic with Luban, the 3 in 1 software updates posted
@@ -1264,6 +1300,15 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ### LASER
 
+#### [Laser Calibration Tool](https://github.com/daniel-starke/LaserCalibrationTool)
+> Laser calibration pattern generator.
+
+**Content Author:** daniel-starke | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, RAY, LASER, ONLINE TOOL, UNOFFICIAL
+
+---
+
 #### [Snapmaker RAY Specification](https://www.snapmaker.com/snapmaker-ray-20w-40w-laser-engraver-and-cutter-with-air-assist/specs)
 > All the specs in one page
 
@@ -1503,6 +1548,61 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 ## SM_2.0
 
 ### CNC
+
+#### [CNC self-impelled vacuum dust shoe (no external vacuum required)](https://forum.snapmaker.com/t/cnc-self-impelled-vacuum-dust-shoe-no-external-vacuum-required/24972)
+> Great design of a vacuumless dust removal shoe.
+
+**Content Author:** gil.a.ramirez | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, PAID, SM_2.0, ARTISAN, CNC, MODS, UNOFFICIAL, Dust Removal
+
+---
+
+#### [Snapmaker Stiffy Kit by CTZcnc](https://github.com/christopz/snapmakerstiffy)
+> Make Snapmaker rigid for heavy load cnc work - Design by
+
+**Content Author:** christopz | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, CNC, MODS, UNOFFICIAL
+
+---
+
+#### [Fusion360 Post Processor](https://github.com/nunorvoliveira/snapmaker-2.0/tree/main/Fusion%20360)
+> Fusion360 postprocessor for machines in Snapmaker 2.0 family.
+
+**Content Author:** nunorvoliveira | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, CNC, DOWNLOAD, UNOFFICIAL, Post Processor, Fusion360
+
+---
+
+#### [Snapmaker2Postprocessor for FreeCAD](https://github.com/clsergent/Snapmaker2Postprocessor)
+> FreeCAD postprocessor.
+
+**Content Author:** clsergent. | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, CNC, DOWNLOAD, UNOFFICIAL, FreeCAD, Post Processor
+
+---
+
+#### [CNC postprocessors for Snapmaker](https://github.com/Snapmaker/snapmaker_cnc_post_process)
+> Collection of developed by @whimsycwd - post processing tools.
+> Support for Fusion360 / FreeCAD / ArtCAM / Aspire / Vcarve.
+
+**Content Author:** whimsycwd | **Added:** 2026-03-09
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, CNC, DOWNLOAD, UNOFFICIAL, Fusion360, FreeCAD, ArtCAM, Aspire, Vcarve, Post Processor
+
+---
+
+#### [3D Touchprobe controller for Snapmaker 2.0](https://github.com/brvdboss/3D-touchprobe-controller)
+> Designed to work with a 3D touch probe on the SnapMaker 2 device and a 3D touch probe.
+
+**Content Author:** brvdboss | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, CNC, DOWNLOAD, MODS, UNOFFICIAL
+
+---
 
 #### [Snapmaker Luban](https://forum.snapmaker.com/t/snapmaker-luban-downloads-and-updates/4949)
 > Topic with Luban, the 3 in 1 software updates posted
@@ -1932,6 +2032,15 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 ---
 
 ### FDM
+
+#### [Dual Extruder and Prusaslicer](https://forum.snapmaker.com/t/dual-extruder-and-prusaslicer/29792/)
+> Forum thread dedicated to setting up a dual extruder with PrusaSlicer.
+
+**Content Author:** Slynold | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, FDM, ARTICLE, DISCUSSION, UNOFFICIAL
+
+---
 
 #### [Snapmaker Luban](https://forum.snapmaker.com/t/snapmaker-luban-downloads-and-updates/4949)
 > Topic with Luban, the 3 in 1 software updates posted
@@ -2387,6 +2496,33 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 ---
 
 ### LASER
+
+#### [Add airassist to your 10W laser](https://www.facebook.com/groups/snapmaker/posts/1694540740964232/)
+> A facebook post that shows an implementation of internal air assist with external air pump, cheap and effective mod to make your laser path clean.
+
+**Content Author:** Raagnarix | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, LASER, MODS, UNOFFICIAL
+
+---
+
+#### [Laser Test Grid Generator](https://github.com/nunorvoliveira/Snapmaker-Laser-Test-Grid)
+> Generates G-Code to test your materials best speed/power ratio.
+
+**Content Author:** nunorvoliveira | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, LASER, DOWNLOAD, UNOFFICIAL
+
+---
+
+#### [Laser Calibration Tool](https://github.com/daniel-starke/LaserCalibrationTool)
+> Laser calibration pattern generator.
+
+**Content Author:** daniel-starke | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, RAY, LASER, ONLINE TOOL, UNOFFICIAL
+
+---
 
 #### [Snapmaker Luban](https://forum.snapmaker.com/t/snapmaker-luban-downloads-and-updates/4949)
 > Topic with Luban, the 3 in 1 software updates posted
