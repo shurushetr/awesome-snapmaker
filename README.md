@@ -226,6 +226,18 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ---
 
+#### [Collection of CNC Settings (Feeds and Rates)](https://awesome-sm-list.xyz/)
+> | Material | Operation | Tool | Tool RPM | Feed rate <br/> (mm/min) | Stepdown <br/> (mm)| Notes | Source |
+> | --- | --- | :---:  | --- | :---:  | :---:  | --- | --- |
+> | Clear Acrylic | Milling | Standard 1.5mm 1 flute bit from Snapmaker | 12000 | 1000 | 0.5 | In plastic you are better off moving fast and taking small cuts otherwise you will get that melted blob of doom | [Facebook post](https://www.facebook.com/groups/371401856611467/user/100027477288104/)|
+> ||||||||[]()|
+
+**Content Author:** Community | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, CNC, ARTICLE, CREATE, UNOFFICIAL
+
+---
+
 #### [Snapmaker Luban](https://forum.snapmaker.com/t/snapmaker-luban-downloads-and-updates/4949)
 > Topic with Luban, the 3 in 1 software updates posted
 
@@ -3241,6 +3253,18 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 **Content Author:** Community | **Added:** 2026-03-09
 
 **Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, RAY, LASER, CNC, SHOP, UNOFFICIAL, Material Source
+
+---
+
+#### [Collection of CNC Settings (Feeds and Rates)](https://awesome-sm-list.xyz/)
+> | Material | Operation | Tool | Tool RPM | Feed rate <br/> (mm/min) | Stepdown <br/> (mm)| Notes | Source |
+> | --- | --- | :---:  | --- | :---:  | :---:  | --- | --- |
+> | Clear Acrylic | Milling | Standard 1.5mm 1 flute bit from Snapmaker | 12000 | 1000 | 0.5 | In plastic you are better off moving fast and taking small cuts otherwise you will get that melted blob of doom | [Facebook post](https://www.facebook.com/groups/371401856611467/user/100027477288104/)|
+> ||||||||[]()|
+
+**Content Author:** Community | **Added:** 2026-03-09
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, CNC, ARTICLE, CREATE, UNOFFICIAL
 
 ---
 
