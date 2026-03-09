@@ -5532,3 +5532,29 @@ records:
     - Settings
 
 
+- id: collection-of-cnc-settings-feeds-and-rates-21
+  title: Collection of CNC Settings (Feeds and Rates)
+  description: "| Material | Operation | Tool | Tool RPM | Feed rate <br/> (mm/min)
+    | Stepdown <br/> (mm)| Notes | Source |\n| --- | --- | :---:  | --- | :---:  |
+    :---:  | --- | --- |\n| Clear Acrylic | Milling | Standard 1.5mm 1 flute bit from
+    Snapmaker | 12000 | 1000 | 0.5 | In plastic you are better off moving fast and
+    taking small cuts otherwise you will get that melted blob of doom | [Facebook
+    post](https://www.facebook.com/groups/371401856611467/user/100027477288104/)|\n\
+    ||||||||[]()|"
+  author_name: Community
+  author_link: forum.snapmaker.com
+  original_link: https://awesome-sm-list.xyz/
+  date_added: '2026-03-09'
+  difficulty: BEGINNER
+  cost: FREE
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    machine_tool_type:
+    - CNC
+    record_type:
+    - ARTICLE
+    - CREATE
+    official_flag:
+    - UNOFFICIAL
