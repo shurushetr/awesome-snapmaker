@@ -37,14 +37,27 @@
 #       link: (string) URL
 # 
 ### framework data
+# project_info
+#   title: (string) Meta Title
+#   description: (string) Meta Description
+#   author_name: (string) Name for Contact Author link
+#   author_link: (string) URL for Contact Author link
+#   forum_url: (string, optional) URL for forum link
+#   forum_text: (string, optional) Override text for forum link
+#   repo_url: (string, optional) URL for repository link
+#   repo_text: (string, optional) Override text for repository link
+#   site_url: (string, optional) Used for Title link
+#   hero_image: (string) Header image background URL
 project_info:
   title: Awesome Snapmaker List
   description: A curated list of awesome Snapmaker resources, mods, and guides.
   author_name: Maintainers
   author_link: https://github.com/shurushetr/awesome-snapmaker/graphs/contributors
   forum_url: https://forum.snapmaker.com/t/awesome-snapmaker-list/31346
-  site_url: https://awesome-sm-list.xyz
+  forum_text: Discuss
   repo_url: https://github.com/shurushetr/awesome-snapmaker
+  repo_text: Contribute
+  site_url: https://awesome-sm-list.xyz
   hero_image: https://github.com/shurushetr/awesome-snapmaker/raw/main/images/Cropped_Lineup.jpg
 allowed_tags:
   machine_type:

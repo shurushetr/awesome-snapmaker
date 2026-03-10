@@ -95,10 +95,10 @@ async function init() {
 
         setupFilters();
         setupFuse();
-        
+
         // Parse URL State before rendering
         loadStateFromURL();
-        
+
         setupEventListeners();
 
         // Deep linking: Check if URL has hash to scroll to
@@ -146,9 +146,15 @@ function setupProjectInfo(info) {
     DOM.authorLink.href = ensureAbsoluteUrl(info.author_link);
     DOM.authorLink.textContent = `By ${info.author_name}`;
     DOM.repoLink.href = ensureAbsoluteUrl(info.repo_url);
+    if (info.repo_text) {
+        DOM.repoLink.textContent = info.repo_text;
+    }
 
     if (DOM.forumLink && info.forum_url) {
         DOM.forumLink.href = ensureAbsoluteUrl(info.forum_url);
+        if (info.forum_text) {
+            DOM.forumLink.textContent = info.forum_text;
+        }
     }
 
     DOM.headerBg.style.backgroundImage = `url('${info.hero_image}')`;
@@ -210,19 +216,19 @@ function setupEventListeners() {
         DOM.shareViewBtn.addEventListener('click', () => {
             const url = window.location.href;
             const originalText = DOM.shareViewBtn.innerHTML;
-            
+
             const triggerSuccess = () => {
                 const originalBg = DOM.shareViewBtn.style.backgroundColor;
                 const originalColor = DOM.shareViewBtn.style.color;
                 const originalWidth = DOM.shareViewBtn.style.width;
-                
+
                 // Lock width before changing text so it doesn't jump
                 DOM.shareViewBtn.style.width = DOM.shareViewBtn.offsetWidth + 'px';
-                
+
                 DOM.shareViewBtn.textContent = 'Copied!';
                 DOM.shareViewBtn.style.backgroundColor = '#10b981';
                 DOM.shareViewBtn.style.color = 'white';
-                
+
                 setTimeout(() => {
                     DOM.shareViewBtn.innerHTML = originalText;
                     DOM.shareViewBtn.style.backgroundColor = originalBg;
@@ -333,7 +339,7 @@ function handleFilterClick(e) {
         activeFilters[category].add(value);
         btn.classList.add('included');
     }
-    
+
     applyFiltersAndRender();
 }
 
@@ -395,7 +401,7 @@ function applyFiltersAndRender() {
             if (excludedSet.size === 0 || !recordVal) return false;
             return excludedSet.has(recordVal);
         };
-        
+
         if (
             checkExclusion(t.machine_type, excludedFilters.machine) ||
             checkExclusion(t.machine_tool_type, excludedFilters.tool) ||
@@ -416,31 +422,31 @@ function applyFiltersAndRender() {
         }
 
         // Machine Filter
-        const machineMatch = activeFilters.machine.size === 0 || 
+        const machineMatch = activeFilters.machine.size === 0 ||
             (t.machine_type && t.machine_type.some(m => activeFilters.machine.has(m)));
-            
+
         // Tool Filter
-        const toolMatch = activeFilters.tool.size === 0 || 
+        const toolMatch = activeFilters.tool.size === 0 ||
             (t.machine_tool_type && t.machine_tool_type.some(tl => activeFilters.tool.has(tl)));
-            
+
         // Type Filter
-        const typeMatch = activeFilters.type.size === 0 || 
+        const typeMatch = activeFilters.type.size === 0 ||
             (t.record_type && t.record_type.some(ty => activeFilters.type.has(ty)));
-            
+
         // Official Filter
-        const officialMatch = activeFilters.official.size === 0 || 
+        const officialMatch = activeFilters.official.size === 0 ||
             (t.official_flag && t.official_flag.some(of => activeFilters.official.has(of)));
 
         // Difficulty Filter
-        const diffMatch = activeFilters.difficulty.size === 0 || 
+        const diffMatch = activeFilters.difficulty.size === 0 ||
             (record.difficulty && activeFilters.difficulty.has(record.difficulty));
 
         // Cost Filter
-        const costMatch = activeFilters.cost.size === 0 || 
+        const costMatch = activeFilters.cost.size === 0 ||
             (record.cost && activeFilters.cost.has(record.cost));
 
         // Language Filter
-        const languageMatch = activeFilters.language.size === 0 || 
+        const languageMatch = activeFilters.language.size === 0 ||
             (record.language && activeFilters.language.has(record.language));
 
         return machineMatch && toolMatch && typeMatch && officialMatch && diffMatch && costMatch && languageMatch;
@@ -471,7 +477,7 @@ function applyFiltersAndRender() {
 // URL State Management
 function loadStateFromURL() {
     const params = new URLSearchParams(window.location.search);
-    
+
     // Search
     if (params.has('q')) {
         DOM.searchInput.value = params.get('q');
@@ -518,7 +524,7 @@ function loadStateFromURL() {
 
 function updateURL(query, sortOrder, limitStr, showFavs) {
     const params = new URLSearchParams();
-    
+
     if (query) params.set('q', query);
     if (sortOrder && sortOrder !== 'newest') params.set('sort', sortOrder);
     if (limitStr) params.set('limit', limitStr);
