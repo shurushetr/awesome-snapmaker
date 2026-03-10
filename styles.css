@@ -503,6 +503,26 @@ select {
     margin-top: 1rem;
 }
 
+/* Optional helper classes you can use in HTML tags */
+.card-description img.float-right {
+    float: right;
+    margin-left: 1rem;
+    max-width: 40%;
+}
+
+.card-description img.float-left {
+    float: left;
+    margin-right: 1rem;
+    max-width: 40%;
+}
+
+/* Clearfix for floating images */
+.card-description::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* Markdown Tables */
 .card-description table {
     width: 100%;
