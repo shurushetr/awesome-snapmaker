@@ -6000,3 +6000,131 @@ records:
   extra_buttons:
   - label: GitHUB
     link: https://github.com/MarksMakerSpace/filament-profiles
+- id: gridfinity-generator-35
+  title: Gridfinity Generator
+  description: Gridfinity Generator, based on the [Gridfinity 
+    project](https://gridfinity.xyz/), started as a weekend experiment that grew
+    into something bigger. It's free for everyone to use, and if you'd like to 
+    support the work and help me keep improving it, you can subscribe to unlock 
+    more saved models.
+  author_name: Marcus Svensson
+  author_link: https://x.com/Mangetarkort
+  original_link: https://gridfinitygenerator.com
+  date_added: '2026-03-10'
+  difficulty: BEGINNER
+  cost: FREEMIUM
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - U1
+    - J1/J1s
+    machine_tool_type:
+    - FDM
+    record_type:
+    - DOWNLOAD
+    - ONLINE TOOL
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Gridfinity Generator
+- id: gridfinity-generator-34
+  title: Gridfinity generator
+  description: This Gridfinity generator supports different specs and is very 
+    customizable. These models are made possible by the Gridfinity Extended 
+    project. If you're missing a feature, there are sometimes more features 
+    supported by the project than are exposed here, and it might be worth 
+    checking out the OpenScad source.
+  author_name: ostat
+  author_link: https://github.com/ostat
+  original_link: https://gridfinity.perplexinglabs.com
+  date_added: '2026-03-10'
+  difficulty: BEGINNER
+  cost: FREE
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - U1
+    - J1/J1s
+    machine_tool_type:
+    - FDM
+    record_type:
+    - DOWNLOAD
+    - ONLINE TOOL
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Gridfinity
+    - Generator
+  extra_buttons:
+  - label: GitHub
+    link: https://github.com/ostat/gridfinity_extended_openscad
+  - label: Support Author
+    link: https://ko-fi.com/perplexinglabs
+- id: gridfinity-layout-tool-33
+  title: Gridfinity Layout Tool
+  description: "Everything you need to generate a gridfinity (by Zach Freedman) layout
+    with bins and base plates.\n\n- **Layout Planner** — Drag-and-drop bin placement
+    with multi-layer support\n- **3D Preview** — Isometric visualization of your drawer
+    layout\n- **Bin Designer** — Parametric 3D bin generator with STL export\n- **Print
+    List** — Optimized print list with filament, time, and cost estimates\n- **Inspiration
+    Gallery** — Browse curated example layouts across workshop, kitchen, office, hobby,
+    and personal themes\n- **Cloud Sharing** — Share layouts via link with optional
+    real-time collaboration\n- **PWA** — Installable, works offline"
+  author_name: Andy Aragon
+  author_link: https://github.com/andymai
+  original_link: https://gridfinitylayouttool.com
+  date_added: '2026-03-10'
+  difficulty: BEGINNER
+  cost: FREE
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - U1
+    - J1/J1s
+    machine_tool_type:
+    - FDM
+    record_type:
+    - ONLINE TOOL
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Gridfinity
+    - Generator
+  extra_buttons:
+  - label: Github
+    link: https://github.com/andymai/gridfinity-layout-tool
+  - label: Support Author
+    link: https://ko-fi.com/andyaragon
+- id: snapmaker-ray-and-lightburn-setup-by-lightburn-team-31
+  title: Snapmaker Ray and Lightburn setup by Lightburn Team
+  description: "The Snapmaker Ray series engravers use standard GRBL in the controller.\n\
+    \nThis is a departure from the previous Snapmaker devices using Marlin-based firmware.
+    Selecting the Snapmaker profile in LightBurn will not work to connect with the
+    new controller in the Snapmaker Ray.\n\nThe Device Profile has been added to the
+    LightBurn 1.5+ release but the preceding versions will require that the Device
+    Profile be imported.\n\nTo import the Device Profile for your Snapmaker Ray 20W
+    or 40W laser engraver download the lbdev (LightBurn Device) file for your engraver."
+  author_name: John Johnson
+  author_link: https://forum.lightburnsoftware.com/u/johnjohn
+  original_link: 
+    https://forum.lightburnsoftware.com/t/snapmaker-ray-20w-40w-laser-with-lightburn-how-to-and-why/116291
+  date_added: '2026-03-10'
+  difficulty: BEGINNER
+  cost: FREEMIUM
+  tags:
+    machine_type:
+    - RAY
+    machine_tool_type:
+    - LASER
+    record_type:
+    - ARTICLE
+    - DISCUSSION
+    - DOWNLOAD
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Lightburn
+    - Settings
