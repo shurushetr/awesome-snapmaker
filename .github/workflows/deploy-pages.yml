@@ -1,4 +1,4 @@
-name: Deploy static content to Pages
+name: Build and Deploy Pages
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -15,7 +15,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  deploy:
+  build-and-deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -23,12 +23,49 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          npm install js-yaml
+          pip install ruamel.yaml
+
+      - name: Generate README
+        run: python .github/scripts/generate_readme.py
+
+      - name: Run Tag Sync Script
+        run: python .github/scripts/sync_issue_tags.py
+
+      - name: Run SEO Injection Script
+        run: node .github/scripts/generate_og_tags.js
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md .github/ISSUE_TEMPLATE/1-submit-resource.yml index.html
+          git commit -m "chore: Auto-generate assets from data.yml (README, Tags, SEO)" || exit 0
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main && git push && break || sleep 5
+          done
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
