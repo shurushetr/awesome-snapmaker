@@ -3,17 +3,17 @@
 # Submission & Triage Workflow:
 # 1. User submits a new resource via the GitHub Issue template (1-submit-resource.yml).
 # 2. Intake Check Action (intake-check.yml) runs immediately on new issues. 
-#    - It normalizes the submitted URL (strips tracking tags like ?u=...) and checks against all existing URLs in this file.
-#    - If EXECUTABLE (.exe, .msi, etc): Bot comments safety policy, labels it 'rejected', and closes it.
-#    - If DUPLICATE: Bot comments "Duplicate found" with existing site anchor link, labels it 'duplicate', and closes it.
-#    - If UNIQUE: Bot comments "Under review", and labels it 'pending-review'.
-# 3. Maintainer reviews the open 'pending-review' Issue. They can freely edit the title,
+#    - If EXECUTABLE (.exe, .msi, etc): Bot comments safety policy, labels 'rejected', and closes.
+#    - If DUPLICATE: Bot comments "Duplicate found" with existing site link, labels 'duplicate', and closes.
+#    - If UNIQUE: Bot comments "Under review", and labels it 'pending-content-review'.
+# 3. Maintainer reviews the open 'pending-content-review' Issue. They can freely edit the title,
 #    description, URLs, or dropdown tags directly on the GitHub Issue page to fix formatting.
 # 4. Maintainer adds the 'approved' label to the GitHub Issue.
 # 5. Approval Action (process-submission.yml) triggers, grabs the final edited Issue body, 
 #    parses it into a new YAML snippet, and generates a Pull Request cleanly appending it below.
-# 6. Once the Pull Request is merged, a final action (close-merged-issue.yml) automatically closes 
-#    the original issue, labels it 'merged', and comments a thank you.
+# 6. Once the Pull Request is merged into main:
+#    - A PR Merge Action (on-pr-merged.yml) closes the original issue, and comments a thank you.
+#    - The combined Deploy Action (deploy-pages.yml) generates data assets and deplos the site.
 # 
 # ---
 # Record Schema Reference:
