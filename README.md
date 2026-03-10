@@ -28,6 +28,20 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ### CNC
 
+#### [CNC With Snapmaker ARTISAN](https://miwicnc.gitbook.io/miwicnc)
+> Practical CNC workflows, clear explanations, and shared experience — written so you can start where you are and go deeper when you want.
+> 
+> What began as a small side project became something that needed structure. This documentation reflects that change:
+> from personal notes → to a practical, tested, and evolving reference for desktop CNC machining.
+> 
+> This work was partially sponsored by Snapmaker.
+
+**Content Author:** Michael Winkler | **Added:** 2026-03-10
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, CNC, ARTICLE, CREATE, UNOFFICIAL, Education
+
+---
+
 #### [CNC self-impelled vacuum dust shoe (no external vacuum required)](https://forum.snapmaker.com/t/cnc-self-impelled-vacuum-dust-shoe-no-external-vacuum-required/24972)
 > Great design of a vacuumless dust removal shoe.
 
@@ -475,6 +489,15 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 ---
 
 ### FDM
+
+#### [Filament Management System - 3D Filament Profile Database](https://3dfilamentprofiles.com/)
+> Track, compare, and look up your 3D printing filaments with our comprehensive database. Join thousands of makers sharing their data and managing their filament inventories.
+
+**Content Author:** MarksMakerSpace | **Added:** 2026-03-10
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ONLINE TOOL, UNOFFICIAL, Filament
+
+---
 
 #### [Snapmaker2Slic3rPostProcessor](https://github.com/macdylan/Snapmaker2Slic3rPostProcessor)
 > A Snapmaker G-Code Post Processor for PrusaSlicer and SuperSlicer to create compatible files for Snapmaker Touchscreen. Like thumbnail of the print on the screen. Supports PrusaSlicer and SuperSlicer with Snapmaker 2 A150/250/350, J1, Artisan.
@@ -1616,6 +1639,15 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 ---
 
 ### FDM
+
+#### [Filament Management System - 3D Filament Profile Database](https://3dfilamentprofiles.com/)
+> Track, compare, and look up your 3D printing filaments with our comprehensive database. Join thousands of makers sharing their data and managing their filament inventories.
+
+**Content Author:** MarksMakerSpace | **Added:** 2026-03-10
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ONLINE TOOL, UNOFFICIAL, Filament
+
+---
 
 #### [Snapmaker2Slic3rPostProcessor](https://github.com/macdylan/Snapmaker2Slic3rPostProcessor)
 > A Snapmaker G-Code Post Processor for PrusaSlicer and SuperSlicer to create compatible files for Snapmaker Touchscreen. Like thumbnail of the print on the screen. Supports PrusaSlicer and SuperSlicer with Snapmaker 2 A150/250/350, J1, Artisan.
@@ -2883,6 +2915,20 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ### CNC
 
+#### [CNC With Snapmaker ARTISAN](https://miwicnc.gitbook.io/miwicnc)
+> Practical CNC workflows, clear explanations, and shared experience — written so you can start where you are and go deeper when you want.
+> 
+> What began as a small side project became something that needed structure. This documentation reflects that change:
+> from personal notes → to a practical, tested, and evolving reference for desktop CNC machining.
+> 
+> This work was partially sponsored by Snapmaker.
+
+**Content Author:** Michael Winkler | **Added:** 2026-03-10
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, CNC, ARTICLE, CREATE, UNOFFICIAL, Education
+
+---
+
 #### [CNC self-impelled vacuum dust shoe (no external vacuum required)](https://forum.snapmaker.com/t/cnc-self-impelled-vacuum-dust-shoe-no-external-vacuum-required/24972)
 > Great design of a vacuumless dust removal shoe.
 
@@ -3893,6 +3939,15 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 ---
 
 ### FDM
+
+#### [Filament Management System - 3D Filament Profile Database](https://3dfilamentprofiles.com/)
+> Track, compare, and look up your 3D printing filaments with our comprehensive database. Join thousands of makers sharing their data and managing their filament inventories.
+
+**Content Author:** MarksMakerSpace | **Added:** 2026-03-10
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ONLINE TOOL, UNOFFICIAL, Filament
+
+---
 
 #### [Snapmaker2Slic3rPostProcessor](https://github.com/macdylan/Snapmaker2Slic3rPostProcessor)
 > A Snapmaker G-Code Post Processor for PrusaSlicer and SuperSlicer to create compatible files for Snapmaker Touchscreen. Like thumbnail of the print on the screen. Supports PrusaSlicer and SuperSlicer with Snapmaker 2 A150/250/350, J1, Artisan.
@@ -6020,6 +6075,39 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 ---
 
 ### FDM
+
+#### [Convert 3MF files from Bambu format to Snapmaker Orca format for U1](https://github.com/josuanbn/bl2u1)
+> Free web tool that converts Bambu Lab .3mf projects to Snapmaker U1 format, preserving your multi-color painting work. You can selfhost it locally!
+> **Features**
+> -  Converts Bambu Lab/Bambu Studio .3mf files to Snapmaker U1 compatible format
+> -  Preserves color painting and multi-color assignments
+> -  Applies the 0.20mm Standard print profile for U1
+> -  Remaps filament types to U1 compatible profiles
+> -  Automatically enables Tree Supports (auto) if the original model has supports enabled
+> -  Supports up to 4 filaments/colors
+> -  Simple drag & drop interface
+> -  No installation required (web-based)
+> 
+> **How It Works**
+> -  Upload your Bambu Lab .3mf file
+> -  Review and adjust filament colors/types if needed
+> -  Click "Convert and Download"
+> -  Open the converted file in Snapmaker Orca for final slicing
+
+**Content Author:** josuanbn | **Added:** 2026-03-10
+
+**Tags:** BEGINNER, FREE, U1, FDM, DOWNLOAD, ONLINE TOOL, UNOFFICIAL, 3MF, converter
+
+---
+
+#### [Filament Management System - 3D Filament Profile Database](https://3dfilamentprofiles.com/)
+> Track, compare, and look up your 3D printing filaments with our comprehensive database. Join thousands of makers sharing their data and managing their filament inventories.
+
+**Content Author:** MarksMakerSpace | **Added:** 2026-03-10
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ONLINE TOOL, UNOFFICIAL, Filament
+
+---
 
 #### [Teaching Tech 3D Printer Calibration](https://teachingtechyt.github.io/calibration.html)
 > The go to for proper calibration. Use CAUTION.
