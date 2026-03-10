@@ -647,15 +647,6 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ---
 
-#### [Full Spectrum layer blending with OrcaSlicer Fork](https://github.com/ratdoux/OrcaSlicer-FullSpectrum)
-> Full Spectrum is an open source slicer for FDM printers based on Snapmaker Orca and OrcaSlicer, optimized for Snapmaker's U1 multi-color 3D printer with independent tool heads. This fork adds support for virtual mixed-color filaments, enabling you to create new colors by alternating layers between physical filaments.
-
-**Content Author:** ratdoux | **Added:** 2026-03-09
-
-**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ARTICLE, CREATE, DOWNLOAD, UNOFFICIAL, Slicer
-
----
-
 #### [How To Get Glass Smooth 3D Prints](https://www.youtube.com/watch?v=QXvbwcXXaNE)
 > Want to get glass smooth 3D prints without sanding or post-processing? In this video, I’ll show you exactly how to calibrate your ironing settings in Bambu Studio to achieve flawless top surfaces that look more like injection-molded parts than 3D prints.
 
@@ -1785,15 +1776,6 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 **Content Author:** ModelRift | **Added:** 2026-03-09
 
 **Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, CREATE, ONLINE TOOL, UNOFFICIAL, Generator
-
----
-
-#### [Full Spectrum layer blending with OrcaSlicer Fork](https://github.com/ratdoux/OrcaSlicer-FullSpectrum)
-> Full Spectrum is an open source slicer for FDM printers based on Snapmaker Orca and OrcaSlicer, optimized for Snapmaker's U1 multi-color 3D printer with independent tool heads. This fork adds support for virtual mixed-color filaments, enabling you to create new colors by alternating layers between physical filaments.
-
-**Content Author:** ratdoux | **Added:** 2026-03-09
-
-**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ARTICLE, CREATE, DOWNLOAD, UNOFFICIAL, Slicer
 
 ---
 
@@ -4425,15 +4407,6 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ---
 
-#### [Full Spectrum layer blending with OrcaSlicer Fork](https://github.com/ratdoux/OrcaSlicer-FullSpectrum)
-> Full Spectrum is an open source slicer for FDM printers based on Snapmaker Orca and OrcaSlicer, optimized for Snapmaker's U1 multi-color 3D printer with independent tool heads. This fork adds support for virtual mixed-color filaments, enabling you to create new colors by alternating layers between physical filaments.
-
-**Content Author:** ratdoux | **Added:** 2026-03-09
-
-**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ARTICLE, CREATE, DOWNLOAD, UNOFFICIAL, Slicer
-
----
-
 #### [How To Get Glass Smooth 3D Prints](https://www.youtube.com/watch?v=QXvbwcXXaNE)
 > Want to get glass smooth 3D prints without sanding or post-processing? In this video, I’ll show you exactly how to calibrate your ironing settings in Bambu Studio to achieve flawless top surfaces that look more like injection-molded parts than 3D prints.
 
@@ -6224,7 +6197,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** ratdoux | **Added:** 2026-03-09
 
-**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ARTICLE, CREATE, DOWNLOAD, UNOFFICIAL, Slicer
+**Tags:** INTERMEDIATE, FREE, U1, FDM, ARTICLE, CREATE, DOWNLOAD, UNOFFICIAL, Slicer
 
 ---
 
