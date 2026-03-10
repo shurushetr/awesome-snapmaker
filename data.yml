@@ -5924,6 +5924,8 @@ records:
   extra_buttons:
   - label: Live Version
     link: https://bl2u1.nbn.cat/
+  - label: Support Author
+    link: https://buymeacoffee.com/josuanbn
 - id: cnc-with-snapmaker-artisan-28
   title: CNC With Snapmaker ARTISAN
   description: "Practical CNC workflows, clear explanations, and shared experience
