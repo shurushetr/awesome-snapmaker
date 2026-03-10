@@ -5676,6 +5676,7 @@ records:
     printer with independent tool heads. This fork adds support for virtual 
     mixed-color filaments, enabling you to create new colors by alternating 
     layers between physical filaments.
+    ![Mug](images/Cards_Files/id-full-spectrum-layer-blending-with-orcaslicer-fork-12/1.jpg)
   author_name: ratdoux
   author_link: https://github.com/ratdoux
   original_link: https://github.com/ratdoux/OrcaSlicer-FullSpectrum
