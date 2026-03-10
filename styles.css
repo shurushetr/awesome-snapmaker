@@ -130,9 +130,16 @@ a:hover {
 @media (max-width: 600px) {
     .header-links {
         display: flex;
-        flex-direction: column;
-        gap: 0.5rem;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.5rem 1rem;
     }
+
+    .header-links a {
+        margin: 0;
+    }
+
     .header-links span {
         display: none;
     }
@@ -213,13 +220,15 @@ a:hover {
 }
 
 .tag-filters .filter-btn.included {
-    background-color: rgba(16, 185, 129, 0.15); /* light green */
+    background-color: rgba(16, 185, 129, 0.15);
+    /* light green */
     color: #10b981;
     border-color: #10b981;
 }
 
 .tag-filters .filter-btn.excluded {
-    background-color: rgba(239, 68, 68, 0.15); /* light red */
+    background-color: rgba(239, 68, 68, 0.15);
+    /* light red */
     color: #ef4444;
     text-decoration: line-through;
     border-color: #ef4444;
@@ -314,8 +323,10 @@ select {
     display: flex;
     flex-direction: column;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-    max-width: 100%; /* Ensure card itself doesn't exceed grid cell */
-    overflow-x: hidden; /* Hide anything that does overflow */
+    max-width: 100%;
+    /* Ensure card itself doesn't exceed grid cell */
+    overflow-x: hidden;
+    /* Hide anything that does overflow */
 }
 
 .card-header {
@@ -453,11 +464,11 @@ select {
     line-height: 1.5;
 }
 
-.card-description h1, 
-.card-description h2, 
-.card-description h3, 
-.card-description h4, 
-.card-description h5, 
+.card-description h1,
+.card-description h2,
+.card-description h3,
+.card-description h4,
+.card-description h5,
 .card-description h6 {
     margin-top: 1.5rem;
     margin-bottom: 0.75rem;
@@ -478,7 +489,7 @@ select {
     text-decoration: underline;
 }
 
-.card-description ul, 
+.card-description ul,
 .card-description ol {
     margin-top: 0;
     margin-bottom: 1rem;
@@ -502,10 +513,10 @@ select {
     background-color: var(--bg-color);
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-.card-description th, 
+.card-description th,
 .card-description td {
     padding: 12px 15px;
     text-align: left;
@@ -577,7 +588,8 @@ select {
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
-    justify-content: flex-end; /* Right align the buttons */
+    justify-content: flex-end;
+    /* Right align the buttons */
 }
 
 .card-actions .btn {
@@ -591,17 +603,22 @@ select {
         flex-direction: column;
         align-items: stretch;
     }
+
     .card-actions {
-        margin-top: 0.5rem; /* Space between tags and buttons when stacked */
+        margin-top: 0.5rem;
+        /* Space between tags and buttons when stacked */
         flex-direction: column;
         width: 100%;
     }
+
     .card-actions .btn {
-        width: 100%; /* Stretch buttons for easy tapping */
+        width: 100%;
+        /* Stretch buttons for easy tapping */
         max-width: 100%;
         box-sizing: border-box;
         white-space: normal;
-        word-break: break-all; /* More aggressive text wrapping */
+        word-break: break-all;
+        /* More aggressive text wrapping */
         overflow-wrap: break-word;
     }
 }
