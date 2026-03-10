@@ -6282,7 +6282,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 #### [Full Spectrum layer blending with OrcaSlicer Fork](https://github.com/ratdoux/OrcaSlicer-FullSpectrum)
 > Full Spectrum is an open source slicer for FDM printers based on Snapmaker Orca and OrcaSlicer, optimized for Snapmaker's U1 multi-color 3D printer with independent tool heads. This fork adds support for virtual mixed-color filaments, enabling you to create new colors by alternating layers between physical filaments.
-> ![Mug](images/Cards_Files/id-full-spectrum-layer-blending-with-orcaslicer-fork-12/1.jpg)
+> <img src="images/Cards_Files/id-full-spectrum-layer-blending-with-orcaslicer-fork-12/1.jpg" alt="Mug" class="float-right" />
 
 **Content Author:** ratdoux | **Added:** 2026-03-09
 
