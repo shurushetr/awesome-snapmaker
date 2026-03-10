@@ -23,6 +23,7 @@
 #                * Supports Markdown!
 #                * Add images natively using `<img src="path" alt="text" class="float-right" />`
 #                * Available custom image classes: `float-left`, `float-right`
+#                * Image must be added as first line of the description
 #   author_name: (string, optional) Name of creator/submitter
 #   author_link: (string, optional) URL to author profile
 #   original_link: (string, required) The actual URL of the resource
@@ -5674,13 +5675,13 @@ records:
 
 - id: full-spectrum-layer-blending-with-orcaslicer-fork-12
   title: Full Spectrum layer blending with OrcaSlicer Fork
-  description: Full Spectrum is an open source slicer for FDM printers based on 
+  description: |
+    <img src="images/Cards_Files/id-full-spectrum-layer-blending-with-orcaslicer-fork-12/1.jpg" alt="Mug" class="float-right" />
+    Full Spectrum is an open source slicer for FDM printers based on 
     Snapmaker Orca and OrcaSlicer, optimized for Snapmaker's U1 multi-color 3D 
     printer with independent tool heads. This fork adds support for virtual 
     mixed-color filaments, enabling you to create new colors by alternating 
     layers between physical filaments.
-
-    <img src="images/Cards_Files/id-full-spectrum-layer-blending-with-orcaslicer-fork-12/1.jpg" alt="Mug" class="float-right" />
   author_name: ratdoux
   author_link: https://github.com/ratdoux
   original_link: https://github.com/ratdoux/OrcaSlicer-FullSpectrum
