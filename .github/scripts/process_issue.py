@@ -65,10 +65,22 @@ def parse_issue_body(body):
             record["official_flag"] = ["OFFICIAL"] if val in ['yes', 'true', '1'] else ["UNOFFICIAL"]
         elif "free tags" in label:
             record["free_tags"] = [x.strip() for x in value.split(',') if x.strip()] if value else []
-        elif "extra button 1 - label" in label:
-            record["btn1_label"] = value
-        elif "extra button 1 - link" in label:
-            record["btn1_link"] = value
+        elif re.search(r'extra button (\d+)\s*-\s*label', label):
+            idx = re.search(r'extra button (\d+)\s*-\s*label', label).group(1)
+            record.setdefault("extra_buttons_dict", {}).setdefault(idx, {})["label"] = value
+        elif re.search(r'extra button (\d+)\s*-\s*link', label):
+            idx = re.search(r'extra button (\d+)\s*-\s*link', label).group(1)
+            record.setdefault("extra_buttons_dict", {}).setdefault(idx, {})["link"] = value
+
+    if "extra_buttons_dict" in record:
+        extra_buttons = []
+        for idx in sorted(record["extra_buttons_dict"].keys(), key=int):
+            btn = record["extra_buttons_dict"][idx]
+            if btn.get("label") and btn.get("link"):
+                extra_buttons.append({"label": btn["label"], "link": btn["link"]})
+        if extra_buttons:
+            record["extra_buttons"] = extra_buttons
+        del record["extra_buttons_dict"]
 
     return record
 
@@ -184,11 +196,8 @@ def main():
         if parsed.get("free_tags"): tags["free_tags"] = parsed.get("free_tags")
         new_record["tags"] = tags
         
-        extra_buttons = []
-        if parsed.get("btn1_label") and parsed.get("btn1_link"):
-            extra_buttons.append({"label": parsed.get("btn1_label"), "link": parsed.get("btn1_link")})
-        if extra_buttons:
-            new_record["extra_buttons"] = extra_buttons
+        if parsed.get("extra_buttons"):
+            new_record["extra_buttons"] = parsed.get("extra_buttons")
 
         # Validation
         original_link = new_record.get("original_link")
