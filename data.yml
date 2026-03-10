@@ -5671,10 +5671,7 @@ records:
   cost: FREE
   tags:
     machine_type:
-    - SM_2.0
-    - ARTISAN
     - U1
-    - J1/J1s
     machine_tool_type:
     - FDM
     record_type:
