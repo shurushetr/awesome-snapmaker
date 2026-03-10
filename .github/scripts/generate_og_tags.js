@@ -30,15 +30,15 @@ try {
     <!-- Auto-Generated Open Graph Meta Tags -->
     <meta property="og:title" content="${info.title}">
     <meta property="og:description" content="${dynamicDescription}">
-    <meta property="og:image" content="${info.repo_url}/raw/main/images/hero_img.webp">
-    <meta property="og:url" content="${info.repo_url}">
+    <meta property="og:image" content="https://awesome-sm-list.xyz/images/AwesomeList_TopImage.jpg">
+    <meta property="og:url" content="https://awesome-sm-list.xyz/">
     <meta property="og:type" content="website">
     
     <!-- Twitter Card Meta Tags -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="${info.title}">
     <meta name="twitter:description" content="${dynamicDescription}">
-    <meta name="twitter:image" content="${info.repo_url}/raw/main/images/hero_img.webp">
+    <meta name="twitter:image" content="https://awesome-sm-list.xyz/images/AwesomeList_TopImage.jpg">
     <!-- End Auto-Generated Meta Tags -->
 </head>`;
 
