@@ -499,6 +499,41 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ---
 
+#### [Gridfinity Generator](https://gridfinitygenerator.com)
+> Gridfinity Generator, based on the [Gridfinity project](https://gridfinity.xyz/), started as a weekend experiment that grew into something bigger. It's free for everyone to use, and if you'd like to support the work and help me keep improving it, you can subscribe to unlock more saved models.
+
+**Content Author:** Marcus Svensson | **Added:** 2026-03-10
+
+**Tags:** BEGINNER, FREEMIUM, SM_2.0, ARTISAN, U1, J1/J1s, FDM, DOWNLOAD, ONLINE TOOL, UNOFFICIAL, Gridfinity Generator
+
+---
+
+#### [Gridfinity generator](https://gridfinity.perplexinglabs.com)
+> This Gridfinity generator supports different specs and is very customizable. These models are made possible by the Gridfinity Extended project. If you're missing a feature, there are sometimes more features supported by the project than are exposed here, and it might be worth checking out the OpenScad source.
+
+**Content Author:** ostat | **Added:** 2026-03-10
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, DOWNLOAD, ONLINE TOOL, UNOFFICIAL, Gridfinity, Generator
+
+---
+
+#### [Gridfinity Layout Tool](https://gridfinitylayouttool.com)
+> Everything you need to generate a gridfinity (by Zach Freedman) layout with bins and base plates.
+> 
+> - **Layout Planner** — Drag-and-drop bin placement with multi-layer support
+> - **3D Preview** — Isometric visualization of your drawer layout
+> - **Bin Designer** — Parametric 3D bin generator with STL export
+> - **Print List** — Optimized print list with filament, time, and cost estimates
+> - **Inspiration Gallery** — Browse curated example layouts across workshop, kitchen, office, hobby, and personal themes
+> - **Cloud Sharing** — Share layouts via link with optional real-time collaboration
+> - **PWA** — Installable, works offline
+
+**Content Author:** Andy Aragon | **Added:** 2026-03-10
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ONLINE TOOL, UNOFFICIAL, Gridfinity, Generator
+
+---
+
 #### [Snapmaker2Slic3rPostProcessor](https://github.com/macdylan/Snapmaker2Slic3rPostProcessor)
 > A Snapmaker G-Code Post Processor for PrusaSlicer and SuperSlicer to create compatible files for Snapmaker Touchscreen. Like thumbnail of the print on the screen. Supports PrusaSlicer and SuperSlicer with Snapmaker 2 A150/250/350, J1, Artisan.
 
@@ -1649,6 +1684,41 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ---
 
+#### [Gridfinity Generator](https://gridfinitygenerator.com)
+> Gridfinity Generator, based on the [Gridfinity project](https://gridfinity.xyz/), started as a weekend experiment that grew into something bigger. It's free for everyone to use, and if you'd like to support the work and help me keep improving it, you can subscribe to unlock more saved models.
+
+**Content Author:** Marcus Svensson | **Added:** 2026-03-10
+
+**Tags:** BEGINNER, FREEMIUM, SM_2.0, ARTISAN, U1, J1/J1s, FDM, DOWNLOAD, ONLINE TOOL, UNOFFICIAL, Gridfinity Generator
+
+---
+
+#### [Gridfinity generator](https://gridfinity.perplexinglabs.com)
+> This Gridfinity generator supports different specs and is very customizable. These models are made possible by the Gridfinity Extended project. If you're missing a feature, there are sometimes more features supported by the project than are exposed here, and it might be worth checking out the OpenScad source.
+
+**Content Author:** ostat | **Added:** 2026-03-10
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, DOWNLOAD, ONLINE TOOL, UNOFFICIAL, Gridfinity, Generator
+
+---
+
+#### [Gridfinity Layout Tool](https://gridfinitylayouttool.com)
+> Everything you need to generate a gridfinity (by Zach Freedman) layout with bins and base plates.
+> 
+> - **Layout Planner** — Drag-and-drop bin placement with multi-layer support
+> - **3D Preview** — Isometric visualization of your drawer layout
+> - **Bin Designer** — Parametric 3D bin generator with STL export
+> - **Print List** — Optimized print list with filament, time, and cost estimates
+> - **Inspiration Gallery** — Browse curated example layouts across workshop, kitchen, office, hobby, and personal themes
+> - **Cloud Sharing** — Share layouts via link with optional real-time collaboration
+> - **PWA** — Installable, works offline
+
+**Content Author:** Andy Aragon | **Added:** 2026-03-10
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ONLINE TOOL, UNOFFICIAL, Gridfinity, Generator
+
+---
+
 #### [Snapmaker2Slic3rPostProcessor](https://github.com/macdylan/Snapmaker2Slic3rPostProcessor)
 > A Snapmaker G-Code Post Processor for PrusaSlicer and SuperSlicer to create compatible files for Snapmaker Touchscreen. Like thumbnail of the print on the screen. Supports PrusaSlicer and SuperSlicer with Snapmaker 2 A150/250/350, J1, Artisan.
 
@@ -2472,6 +2542,21 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 ---
 
 ### LASER
+
+#### [Snapmaker Ray and Lightburn setup by Lightburn Team](https://forum.lightburnsoftware.com/t/snapmaker-ray-20w-40w-laser-with-lightburn-how-to-and-why/116291)
+> The Snapmaker Ray series engravers use standard GRBL in the controller.
+> 
+> This is a departure from the previous Snapmaker devices using Marlin-based firmware. Selecting the Snapmaker profile in LightBurn will not work to connect with the new controller in the Snapmaker Ray.
+> 
+> The Device Profile has been added to the LightBurn 1.5+ release but the preceding versions will require that the Device Profile be imported.
+> 
+> To import the Device Profile for your Snapmaker Ray 20W or 40W laser engraver download the lbdev (LightBurn Device) file for your engraver.
+
+**Content Author:** John Johnson | **Added:** 2026-03-10
+
+**Tags:** BEGINNER, FREEMIUM, RAY, LASER, ARTICLE, DISCUSSION, DOWNLOAD, UNOFFICIAL, Lightburn, Settings
+
+---
 
 #### [Laser Calibration Tool](https://github.com/daniel-starke/LaserCalibrationTool)
 > Laser calibration pattern generator.
@@ -3946,6 +4031,41 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 **Content Author:** MarksMakerSpace | **Added:** 2026-03-10
 
 **Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ONLINE TOOL, UNOFFICIAL, Filament
+
+---
+
+#### [Gridfinity Generator](https://gridfinitygenerator.com)
+> Gridfinity Generator, based on the [Gridfinity project](https://gridfinity.xyz/), started as a weekend experiment that grew into something bigger. It's free for everyone to use, and if you'd like to support the work and help me keep improving it, you can subscribe to unlock more saved models.
+
+**Content Author:** Marcus Svensson | **Added:** 2026-03-10
+
+**Tags:** BEGINNER, FREEMIUM, SM_2.0, ARTISAN, U1, J1/J1s, FDM, DOWNLOAD, ONLINE TOOL, UNOFFICIAL, Gridfinity Generator
+
+---
+
+#### [Gridfinity generator](https://gridfinity.perplexinglabs.com)
+> This Gridfinity generator supports different specs and is very customizable. These models are made possible by the Gridfinity Extended project. If you're missing a feature, there are sometimes more features supported by the project than are exposed here, and it might be worth checking out the OpenScad source.
+
+**Content Author:** ostat | **Added:** 2026-03-10
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, DOWNLOAD, ONLINE TOOL, UNOFFICIAL, Gridfinity, Generator
+
+---
+
+#### [Gridfinity Layout Tool](https://gridfinitylayouttool.com)
+> Everything you need to generate a gridfinity (by Zach Freedman) layout with bins and base plates.
+> 
+> - **Layout Planner** — Drag-and-drop bin placement with multi-layer support
+> - **3D Preview** — Isometric visualization of your drawer layout
+> - **Bin Designer** — Parametric 3D bin generator with STL export
+> - **Print List** — Optimized print list with filament, time, and cost estimates
+> - **Inspiration Gallery** — Browse curated example layouts across workshop, kitchen, office, hobby, and personal themes
+> - **Cloud Sharing** — Share layouts via link with optional real-time collaboration
+> - **PWA** — Installable, works offline
+
+**Content Author:** Andy Aragon | **Added:** 2026-03-10
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ONLINE TOOL, UNOFFICIAL, Gridfinity, Generator
 
 ---
 
@@ -6106,6 +6226,41 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 **Content Author:** MarksMakerSpace | **Added:** 2026-03-10
 
 **Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ONLINE TOOL, UNOFFICIAL, Filament
+
+---
+
+#### [Gridfinity Generator](https://gridfinitygenerator.com)
+> Gridfinity Generator, based on the [Gridfinity project](https://gridfinity.xyz/), started as a weekend experiment that grew into something bigger. It's free for everyone to use, and if you'd like to support the work and help me keep improving it, you can subscribe to unlock more saved models.
+
+**Content Author:** Marcus Svensson | **Added:** 2026-03-10
+
+**Tags:** BEGINNER, FREEMIUM, SM_2.0, ARTISAN, U1, J1/J1s, FDM, DOWNLOAD, ONLINE TOOL, UNOFFICIAL, Gridfinity Generator
+
+---
+
+#### [Gridfinity generator](https://gridfinity.perplexinglabs.com)
+> This Gridfinity generator supports different specs and is very customizable. These models are made possible by the Gridfinity Extended project. If you're missing a feature, there are sometimes more features supported by the project than are exposed here, and it might be worth checking out the OpenScad source.
+
+**Content Author:** ostat | **Added:** 2026-03-10
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, DOWNLOAD, ONLINE TOOL, UNOFFICIAL, Gridfinity, Generator
+
+---
+
+#### [Gridfinity Layout Tool](https://gridfinitylayouttool.com)
+> Everything you need to generate a gridfinity (by Zach Freedman) layout with bins and base plates.
+> 
+> - **Layout Planner** — Drag-and-drop bin placement with multi-layer support
+> - **3D Preview** — Isometric visualization of your drawer layout
+> - **Bin Designer** — Parametric 3D bin generator with STL export
+> - **Print List** — Optimized print list with filament, time, and cost estimates
+> - **Inspiration Gallery** — Browse curated example layouts across workshop, kitchen, office, hobby, and personal themes
+> - **Cloud Sharing** — Share layouts via link with optional real-time collaboration
+> - **PWA** — Installable, works offline
+
+**Content Author:** Andy Aragon | **Added:** 2026-03-10
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ONLINE TOOL, UNOFFICIAL, Gridfinity, Generator
 
 ---
 
