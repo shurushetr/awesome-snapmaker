@@ -5889,3 +5889,93 @@ records:
     - OFFICIAL
     free_tags:
     - Community
+- id: convert-3mf-files-from-bambu-format-to-snapmaker-orca-format-for-u1-29
+  title: Convert 3MF files from Bambu format to Snapmaker Orca format for U1
+  description: "Free web tool that converts Bambu Lab .3mf projects to Snapmaker U1
+    format, preserving your multi-color painting work. You can selfhost it locally!\n\
+    **Features**\n-  Converts Bambu Lab/Bambu Studio .3mf files to Snapmaker U1 compatible
+    format\n-  Preserves color painting and multi-color assignments\n-  Applies the
+    0.20mm Standard print profile for U1\n-  Remaps filament types to U1 compatible
+    profiles\n-  Automatically enables Tree Supports (auto) if the original model
+    has supports enabled\n-  Supports up to 4 filaments/colors\n-  Simple drag & drop
+    interface\n-  No installation required (web-based)\n\n**How It Works**\n-  Upload
+    your Bambu Lab .3mf file\n-  Review and adjust filament colors/types if needed\n\
+    -  Click \"Convert and Download\"\n-  Open the converted file in Snapmaker Orca
+    for final slicing"
+  author_name: josuanbn
+  author_link: https://github.com/josuanbn
+  original_link: https://github.com/josuanbn/bl2u1
+  date_added: '2026-03-10'
+  difficulty: BEGINNER
+  cost: FREE
+  tags:
+    machine_type:
+    - U1
+    machine_tool_type:
+    - FDM
+    record_type:
+    - DOWNLOAD
+    - ONLINE TOOL
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - 3MF
+    - converter
+  extra_buttons:
+  - label: Live Version
+    link: https://bl2u1.nbn.cat/
+- id: cnc-with-snapmaker-artisan-28
+  title: CNC With Snapmaker ARTISAN
+  description: "Practical CNC workflows, clear explanations, and shared experience
+    — written so you can start where you are and go deeper when you want.\n\nWhat
+    began as a small side project became something that needed structure. This documentation
+    reflects that change:\nfrom personal notes → to a practical, tested, and evolving
+    reference for desktop CNC machining.\n\nThis work was partially sponsored by Snapmaker."
+  author_name: Michael Winkler
+  author_link: 
+    https://miwicnc.gitbook.io/miwicnc/about-this-documentation/about-the-author
+  original_link: https://miwicnc.gitbook.io/miwicnc
+  date_added: '2026-03-10'
+  difficulty: BEGINNER
+  cost: FREE
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    machine_tool_type:
+    - CNC
+    record_type:
+    - ARTICLE
+    - CREATE
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Education
+- id: filament-management-system-3d-filament-profile-database-26
+  title: Filament Management System - 3D Filament Profile Database
+  description: Track, compare, and look up your 3D printing filaments with our 
+    comprehensive database. Join thousands of makers sharing their data and 
+    managing their filament inventories.
+  author_name: MarksMakerSpace
+  author_link: https://github.com/MarksMakerSpace
+  original_link: https://3dfilamentprofiles.com/
+  date_added: '2026-03-10'
+  difficulty: BEGINNER
+  cost: FREE
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - U1
+    - J1/J1s
+    machine_tool_type:
+    - FDM
+    record_type:
+    - ONLINE TOOL
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Filament
+  extra_buttons:
+  - label: GitHUB
+    link: https://github.com/MarksMakerSpace/filament-profiles
