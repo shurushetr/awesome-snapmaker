@@ -127,6 +127,17 @@ a:hover {
     text-decoration: underline;
 }
 
+@media (max-width: 600px) {
+    .header-links {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .header-links span {
+        display: none;
+    }
+}
+
 .header-actions {
     display: flex;
     justify-content: center;
