@@ -6232,6 +6232,15 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ---
 
+#### [SnapACE - Anycubic ACE PRO with the Snapmaker U1](https://github.com/BlackFrogKok/SnapAce)
+> This project provides integration of the Anycubic ACE PRO with the Snapmaker U1 printer as a filament storage. Using [PAXX12 custom firmware](https://awesome-sm-list.xyz/#paxx12-firmware-for-snapmaerk-u1-7).
+
+**Content Author:** BlackFrogKok | **Added:** 2026-03-11
+
+**Tags:** INTERMEDIATE, FREE, U1, FDM, ARTICLE, DOWNLOAD, FIRMWARE, MODS, UNOFFICIAL, Anycubic ACE PRO
+
+---
+
 #### [Convert 3MF files from Bambu format to Snapmaker Orca format for U1](https://github.com/josuanbn/bl2u1)
 > Free web tool that converts Bambu Lab .3mf projects to Snapmaker U1 format, preserving your multi-color painting work. You can selfhost it locally!
 > **Features**
