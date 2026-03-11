@@ -6128,3 +6128,27 @@ records:
     free_tags:
     - Lightburn
     - Settings
+- id: stl-search-engine-yeggi-search-for-stls-across-world-wide-web-36
+  title: STL Search Engine YEGGI - search for STLs across World Wide Web
+  description: Longest operating STL Indexer
+  author_name: Sebastian Karpp
+  author_link: https://www.yeggi.com/int/about
+  original_link: https://www.yeggi.com
+  date_added: '2026-03-11'
+  difficulty: BEGINNER
+  cost: FREE
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - U1
+    - J1/J1s
+    machine_tool_type:
+    - FDM
+    record_type:
+    - DOWNLOAD
+    - ONLINE TOOL
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Search
