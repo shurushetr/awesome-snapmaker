@@ -6152,3 +6152,31 @@ records:
     - UNOFFICIAL
     free_tags:
     - Search
+- id: snapace-anycubic-ace-pro-with-the-snapmaker-u1-38
+  title: SnapACE - Anycubic ACE PRO with the Snapmaker U1
+  description: This project provides integration of the Anycubic ACE PRO with 
+    the Snapmaker U1 printer as a filament storage. Using [PAXX12 custom 
+    firmware](https://awesome-sm-list.xyz/#paxx12-firmware-for-snapmaerk-u1-7).
+  author_name: BlackFrogKok
+  author_link: https://github.com/BlackFrogKok
+  original_link: https://github.com/BlackFrogKok/SnapAce
+  date_added: '2026-03-11'
+  difficulty: INTERMEDIATE
+  cost: FREE
+  tags:
+    machine_type:
+    - U1
+    machine_tool_type:
+    - FDM
+    record_type:
+    - ARTICLE
+    - DOWNLOAD
+    - FIRMWARE
+    - MODS
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Anycubic ACE PRO
+  extra_buttons:
+  - label: Support Author
+    link: https://ko-fi.com/blackfrogkok
