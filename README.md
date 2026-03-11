@@ -490,6 +490,15 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ### FDM
 
+#### [STL Search Engine YEGGI - search for STLs across World Wide Web](https://www.yeggi.com)
+> Longest operating STL Indexer
+
+**Content Author:** Sebastian Karpp | **Added:** 2026-03-11
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, DOWNLOAD, ONLINE TOOL, UNOFFICIAL, Search
+
+---
+
 #### [Filament Management System - 3D Filament Profile Database](https://3dfilamentprofiles.com/)
 > Track, compare, and look up your 3D printing filaments with our comprehensive database. Join thousands of makers sharing their data and managing their filament inventories.
 
@@ -1674,6 +1683,15 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 ---
 
 ### FDM
+
+#### [STL Search Engine YEGGI - search for STLs across World Wide Web](https://www.yeggi.com)
+> Longest operating STL Indexer
+
+**Content Author:** Sebastian Karpp | **Added:** 2026-03-11
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, DOWNLOAD, ONLINE TOOL, UNOFFICIAL, Search
+
+---
 
 #### [Filament Management System - 3D Filament Profile Database](https://3dfilamentprofiles.com/)
 > Track, compare, and look up your 3D printing filaments with our comprehensive database. Join thousands of makers sharing their data and managing their filament inventories.
@@ -4025,6 +4043,15 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ### FDM
 
+#### [STL Search Engine YEGGI - search for STLs across World Wide Web](https://www.yeggi.com)
+> Longest operating STL Indexer
+
+**Content Author:** Sebastian Karpp | **Added:** 2026-03-11
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, DOWNLOAD, ONLINE TOOL, UNOFFICIAL, Search
+
+---
+
 #### [Filament Management System - 3D Filament Profile Database](https://3dfilamentprofiles.com/)
 > Track, compare, and look up your 3D printing filaments with our comprehensive database. Join thousands of makers sharing their data and managing their filament inventories.
 
@@ -6195,6 +6222,15 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 ---
 
 ### FDM
+
+#### [STL Search Engine YEGGI - search for STLs across World Wide Web](https://www.yeggi.com)
+> Longest operating STL Indexer
+
+**Content Author:** Sebastian Karpp | **Added:** 2026-03-11
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, DOWNLOAD, ONLINE TOOL, UNOFFICIAL, Search
+
+---
 
 #### [Convert 3MF files from Bambu format to Snapmaker Orca format for U1](https://github.com/josuanbn/bl2u1)
 > Free web tool that converts Bambu Lab .3mf projects to Snapmaker U1 format, preserving your multi-color painting work. You can selfhost it locally!
