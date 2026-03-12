@@ -6223,6 +6223,17 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ### FDM
 
+#### [Snapmaker U1 - Research Documentation](https://github.com/Snapmaker-U1-Extended-Firmware/Snapmaker-U1-Research)
+> This repository contains reverse engineering research and technical documentation for the Snapmaker U1 3D printer. The documentation is derived from analyzing the printer's firmware, configuration files, and Klipper source code.
+> 
+> The goal is to understand the hardware architecture, pin assignments, and system behavior to enable further customization and feature development for the Snapmaker U1 ecosystem.
+
+**Content Author:** paxx12 | **Added:** 2026-03-12
+
+**Tags:** ADVANCED, FREE, U1, FDM, ARTICLE, UNOFFICIAL, Education
+
+---
+
 #### [STL Search Engine YEGGI - search for STLs across World Wide Web](https://www.yeggi.com)
 > Longest operating STL Indexer
 
