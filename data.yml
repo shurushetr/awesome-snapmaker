@@ -6180,3 +6180,29 @@ records:
   extra_buttons:
   - label: Support Author
     link: https://ko-fi.com/blackfrogkok
+- id: snapmaker-u1-research-documentation-40
+  title: Snapmaker U1 - Research Documentation
+  description: "This repository contains reverse engineering research and technical
+    documentation for the Snapmaker U1 3D printer. The documentation is derived from
+    analyzing the printer's firmware, configuration files, and Klipper source code.\n\
+    \nThe goal is to understand the hardware architecture, pin assignments, and system
+    behavior to enable further customization and feature development for the Snapmaker
+    U1 ecosystem."
+  author_name: paxx12
+  author_link: https://github.com/paxx12
+  original_link: 
+    https://github.com/Snapmaker-U1-Extended-Firmware/Snapmaker-U1-Research
+  date_added: '2026-03-12'
+  difficulty: ADVANCED
+  cost: FREE
+  tags:
+    machine_type:
+    - U1
+    machine_tool_type:
+    - FDM
+    record_type:
+    - ARTICLE
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Education
