@@ -17,7 +17,7 @@ body:
     attributes:
       label: Resource Description
       description: Provide a brief summary of what this resource is about.
-      placeholder: This guide covers the best settings for...
+      placeholder: This guide covers the best settings for…
     validations:
       required: true
   - type: input
