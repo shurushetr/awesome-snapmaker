@@ -16,8 +16,8 @@
 # --- AI / LLM TRANSLATOR INSTRUCTIONS ---
 # If you are an AI translating this file into a new language:
 # 1. ONLY translate the string values. DO NOT translate the YAML keys (e.g. keep `ui_title:` exactly as is).
-# 2. DO NOT translate the names of GitHub tags (e.g. OFFICIAL, UNOFFICIAL, enclosure).
-# 3. DO NOT translate the names of Machine models (e.g. SM_2.0, Artisan, J1/J1s, Ray).
+# 2. DO translate the values of tags (like record types, difficulty, cost) into local equivalents.
+# 3. DO NOT translate the names of Machine models (e.g. SM_2.0, Artisan, J1/J1s, Ray) as they are proper nouns, EXCEPT for "Universal" which can be translated.
 # 4. PRESERVE all Markdown syntax (like **, [], and () parentheses for links).
 # 5. PRESERVE all HTML tags exactly as they appear (like <strong> and <span style="...">).
 # 6. PRESERVE all newline characters (\n) exactly where they appear.
