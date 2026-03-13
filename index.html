@@ -83,10 +83,10 @@
             <div class="filters">
                 <p
                     style="grid-column: 1 / -1; margin-bottom: 0.5rem; text-align: center; color: var(--secondary-text); font-size: 0.95rem;">
-                    <strong>Filter Tips:</strong> Tap a tag once to <span
-                        style="color: #10b981; font-weight: bold;">Include</span> it (green). Tap it again to <span
-                        style="color: #ef4444; font-weight: bold; text-decoration: line-through;">Exclude</span> it
-                    (red).
+                    <strong data-i18n="filter_tips_prefix">Filter Tips:</strong> <span data-i18n="filter_tips_text1">Tap a tag once to</span> <span
+                        style="color: #10b981; font-weight: bold;" data-i18n="filter_tips_include">Include</span> <span data-i18n="filter_tips_text2">it (green). Tap it again to</span> <span
+                        style="color: #ef4444; font-weight: bold; text-decoration: line-through;" data-i18n="filter_tips_exclude">Exclude</span>
+                    <span data-i18n="filter_tips_text3">it (red).</span>
                 </p>
 
                 <div class="filter-group">
@@ -149,8 +149,8 @@
                         </div>
 
                         <div style="display: flex; align-items: center; gap: 0.5rem;">
-                            <label for="limit-input" style="font-weight: bold;">Show count limit:</label>
-                            <input type="number" id="limit-input" min="1" placeholder="All"
+                            <label for="limit-input" style="font-weight: bold;" data-i18n="ui_show_limit">Show count limit:</label>
+                            <input type="number" id="limit-input" min="1" placeholder="All" data-i18n-placeholder="limit_all"
                                 aria-label="Limit number of results"
                                 style="padding: 0.5rem; border-radius: 4px; border: 1px solid var(--card-border); background-color: var(--bg-color); color: var(--text-color); width: 80px;">
                         </div>
@@ -158,7 +158,7 @@
 
                     <div style="display: flex; gap: 0.5rem;">
                         <button id="share-view-btn" class="btn secondary-btn"
-                            style="color: #3b82f6; font-weight: bold;">Share View</button>
+                            style="color: #3b82f6; font-weight: bold;" data-i18n="btn_share">Share View</button>
                         <button id="show-favorites" class="btn secondary-btn" data-active="false"
                             style="color: #f59e0b; font-weight: bold;" data-i18n="btn_show_favs">★ Show Favorites</button>
                         <button id="clear-filters" class="btn secondary-btn" data-i18n="btn_clear_filters">Clear All Filters</button>

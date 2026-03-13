@@ -7,6 +7,7 @@ It iterates through the active languages in the `locales/` directory to create a
 
 import os
 from ruamel.yaml import YAML
+from ruamel.yaml.scalarstring import DoubleQuotedScalarString as dq
 import glob
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -162,7 +163,7 @@ def generate_templates():
                     'attributes': {
                         'label': t('issue_official_label', 'Official Snapmaker Resource?'),
                         'description': t('issue_official_desc', ''),
-                        'options': [t('issue_official_no', 'No'), t('issue_official_yes', 'Yes')]
+                        'options': [dq(t('issue_official_no', 'No')), dq(t('issue_official_yes', 'Yes'))]
                     },
                     'validations': {'required': True}
                 },

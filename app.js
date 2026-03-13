@@ -261,19 +261,25 @@ function ensureAbsoluteUrl(url) {
 // Setup Header Info
 function setupProjectInfo(info) {
     if (!info) return;
-    DOM.title.innerHTML = info.site_url ? `<a href="${ensureAbsoluteUrl(info.site_url)}" style="color: inherit; text-decoration: none;">${info.title}</a>` : info.title;
-    DOM.description.textContent = info.description;
+    const t = translations[currentLang] || translations['en'] || {};
+    
+    // Use translated strings if available, fallback to data.yml
+    const titleText = t.ui_title || info.title;
+    const descText = t.ui_subtitle || info.description;
+    
+    DOM.title.innerHTML = info.site_url ? `<a href="${ensureAbsoluteUrl(info.site_url)}" style="color: inherit; text-decoration: none;">${titleText}</a>` : titleText;
+    DOM.description.textContent = descText;
     DOM.authorLink.href = ensureAbsoluteUrl(info.author_link);
-    DOM.authorLink.textContent = `By ${info.author_name}`;
+    DOM.authorLink.textContent = t.ui_contact_author || `By ${info.author_name}`;
     DOM.repoLink.href = ensureAbsoluteUrl(info.repo_url);
     if (info.repo_text) {
-        DOM.repoLink.textContent = info.repo_text;
+        DOM.repoLink.textContent = t.ui_contribute || info.repo_text;
     }
 
     if (DOM.forumLink && info.forum_url) {
         DOM.forumLink.href = ensureAbsoluteUrl(info.forum_url);
         if (info.forum_text) {
-            DOM.forumLink.textContent = info.forum_text;
+            DOM.forumLink.textContent = t.ui_discuss || info.forum_text;
         }
     }
 
@@ -666,7 +672,10 @@ function updateURL(query, sortOrder, limitStr, showFavs) {
 
 // Rendering Logic
 function renderRecords(records) {
-    DOM.resultCount.textContent = `${records.length} item${records.length !== 1 ? 's' : ''} found`;
+    const t = translations[currentLang] || translations['en'] || {};
+    const itemsFoundTxt = t.ui_items_found || "items found";
+    const itemFoundTxt = t.ui_item_found || "item found";
+    DOM.resultCount.textContent = `${records.length} ${records.length !== 1 ? itemsFoundTxt : itemFoundTxt}`;
     DOM.recordsContainer.innerHTML = '';
 
     const savedFavorites = JSON.parse(localStorage.getItem('favorites') || '[]');
