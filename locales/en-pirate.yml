@@ -20,9 +20,9 @@ ui_filter_official: "Filter by Official:"
 ui_filter_difficulty: "Filter by Difficulty:"
 ui_filter_cost: "Filter by Cost:"
 ui_filter_lang: "Filter by Tongue:"
-ui_filter_tips: "<strong>Filter Tips, ye scallywag:</strong> Tap a tag once to <span style=\"color:
-  #10b981; font-weight: bold;\">Claim</span> it (green). Tap again to <span style=\"\
-  color: #ef4444; font-weight: bold; text-decoration: line-through;\">Walk the Plank</span>
+ui_filter_tips: "<strong>Filter Tips, ye scallywag:</strong> Tap a tag once to <span style='color:
+  #10b981; font-weight: bold;'>Claim</span> it (green). Tap again to <span style='\
+  color: #ef4444; font-weight: bold; text-decoration: line-through;'>Walk the Plank</span>
   (red)."
 ui_sort_label: "Sort by:"
 ui_sort_newest: "Freshest Catch First"
@@ -126,9 +126,9 @@ issue_modify_type_label: "What be yer intention?"
 issue_modify_type_update: "Update an existing resource (broken link, wrong tags, typo, etc.)"
 issue_modify_type_remove: "Scuttle a resource (no longer exists, inappropriate, obsolete)"
 issue_modify_current_link_label: "Current Treasure Map Link"
-issue_modify_current_link_desc: "Paste the \"Treasure Map\" link of the resource currently on the website."
+issue_modify_current_link_desc: "Paste the 'Treasure Map' link of the resource currently on the website."
 issue_modify_new_link_label: "New Treasure Map Link (if applicable)"
 issue_modify_new_link_desc: "If the treasure moved to a new port, paste the new link here. Leave blank if not applicable."
 issue_modify_reason_label: "Reason fer Change / New Details"
-issue_modify_reason_desc: "Explain what needs to be changed (e.g. \"The link be dead, arrr\" or \"Please change the cost to FREE and machine to Artisan\")."
+issue_modify_reason_desc: "Explain what needs to be changed (e.g. 'The link be dead, arrr' or 'Please change the cost to FREE and machine to Artisan')."
 issue_modify_reason_placeholder: "Briefly explain the needed correction here, matey…"

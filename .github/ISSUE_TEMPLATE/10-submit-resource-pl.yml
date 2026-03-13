@@ -1,0 +1,166 @@
+name: 👉 Dodaj nowy zasób (PL)
+description: Prześlij nowy zasób (narzędzie, poradnik, modyfikację itp.) do 
+  Awesome Snapmaker List!
+title: '[Submission] '
+labels:
+  - lang:pl
+  - new-submission
+body:
+  - type: markdown
+    attributes:
+      value: "Dzięki, że poświęcasz czas na dodanie nowego zasobu do Awesome Snapmaker
+        List!\n\nWypełnij poniższy formularz. Po przesłaniu nasz automatyczny bot
+        wygeneruje Pull Request, aby dodać go do bazy danych, a opiekun będzie mógł
+        zatwierdzić to jednym kliknięciem!\n\n"
+  - type: textarea
+    id: description
+    attributes:
+      label: Opis zasobu
+      description: Podaj krótkie podsumowanie, czego dotyczy ten zasób.
+      placeholder: Ten poradnik omawia najlepsze ustawienia dla…
+    validations:
+      required: true
+  - type: input
+    id: author_name
+    attributes:
+      label: Imię autora
+      description: Kto stworzył ten zasób? (Użyj swojego imienia lub nazwy 
+        użytkownika, jeśli to Twój zasób)
+    validations:
+      required: true
+  - type: input
+    id: author_link
+    attributes:
+      label: Link do autora
+      description: Link do profilu autora (GitHub, Thingiverse, Forum itp.)
+    validations:
+      required: true
+  - type: input
+    id: original_link
+    attributes:
+      label: Link do treści (oryginalny URL)
+      description: Gdzie jest hostowany ten zasób?
+      placeholder: https://...
+    validations:
+      required: true
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: Poziom trudności
+      options:
+        - BEGINNER
+        - INTERMEDIATE
+        - ADVANCED
+    validations:
+      required: true
+  - type: dropdown
+    id: cost
+    attributes:
+      label: Koszt
+      options:
+        - FREE
+        - PAID
+        - FREEMIUM
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: Język
+      description: W jakim języku głównie napisany jest ten zasób?
+      options:
+        - AR
+        - DA
+        - DE
+        - EN
+        - ES
+        - FR
+        - HE
+        - IT
+        - PL
+        - RU
+        - ZH-CN
+        - ZH-HK
+        - EN-PIRATE
+    validations:
+      required: true
+  - type: checkboxes
+    id: machine_type
+    attributes:
+      label: Typ/typy maszyny
+      description: Do których maszyn Snapmaker to pasuje? (Zaznacz wszystkie 
+        odpowiednie)
+      options:
+        - label: SM_2.0
+        - label: ARTISAN
+        - label: U1
+        - label: J1/J1s
+        - label: RAY
+        - label: UNIVERSAL
+  - type: checkboxes
+    id: machine_tool_type
+    attributes:
+      label: Typ/typy narzędzia maszyny
+      description: Które moduły/głowice narzędziowe są istotne? (Zaznacz 
+        wszystkie odpowiednie)
+      options:
+        - label: FDM
+        - label: LASER
+        - label: CNC
+        - label: ROTARY
+        - label: COMBINED
+  - type: checkboxes
+    id: record_type
+    attributes:
+      label: Typ/typy rekordu
+      description: Jakim rodzajem zasobu to jest? (Zaznacz wszystkie 
+        odpowiednie)
+      options:
+        - label: ARTICLE
+        - label: CREATE
+        - label: DISCUSSION
+        - label: DOWNLOAD
+        - label: FIRMWARE
+        - label: MODS
+        - label: ONLINE TOOL
+        - label: REPAIR
+        - label: SHOP
+        - label: VIDEO
+  - type: dropdown
+    id: official_resource
+    attributes:
+      label: Oficjalny zasób Snapmaker?
+      description: Czy to oficjalny zasób Snapmaker, czy twór społeczności?
+      options:
+        - "Nie"
+        - "Tak"
+    validations:
+      required: true
+  - type: input
+    id: free_tags
+    attributes:
+      label: Wolne tagi
+      description: Tagi oddzielone przecinkami (np. OFFICIAL, UNOFFICIAL, 
+        enclosure, cooling)
+      placeholder: UNOFFICIAL, cooling, petg
+    validations:
+      required: false
+  - type: input
+    id: extra_button_1_label
+    attributes:
+      label: (Opcjonalnie) Dodatkowy przycisk 1 - Etykieta
+      description: Przydatne do bezpośrednich pobrań PDF/STL.
+      placeholder: Download STL
+    validations:
+      required: false
+  - type: input
+    id: extra_button_1_link
+    attributes:
+      label: (Opcjonalnie) Dodatkowy przycisk 1 - Link
+      placeholder: https://...
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: Przesyłając ten issue, potwierdzasz, że link jest bezpieczny i 
+        prawidłowy.

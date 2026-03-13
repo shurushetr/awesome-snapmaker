@@ -20,9 +20,9 @@ ui_filter_official: "Filtrer par officiel :"
 ui_filter_difficulty: "Filtrer par difficulté :"
 ui_filter_cost: "Filtrer par coût :"
 ui_filter_lang: "Filtrer par langue :"
-ui_filter_tips: "<strong>Astuces de filtrage :</strong> Appuyez une fois sur un tag pour l'<span style=\"color:
-  #10b981; font-weight: bold;\">inclure</span> (vert). Appuyez à nouveau pour l'<span style=\"\
-  color: #ef4444; font-weight: bold; text-decoration: line-through;\">exclure</span>
+ui_filter_tips: "<strong>Astuces de filtrage :</strong> Appuyez une fois sur un tag pour l'<span style='color:
+  #10b981; font-weight: bold;'>inclure</span> (vert). Appuyez à nouveau pour l'<span style='\
+  color: #ef4444; font-weight: bold; text-decoration: line-through;'>exclure</span>
   (rouge)."
 ui_sort_label: "Trier par :"
 ui_sort_newest: "Plus récent au plus ancien"
@@ -126,9 +126,9 @@ issue_modify_type_label: "Que souhaites-tu faire ?"
 issue_modify_type_update: "Mettre à jour une ressource existante (lien cassé, mauvais tags, faute de frappe, etc.)"
 issue_modify_type_remove: "Supprimer une ressource (n'existe plus, inappropriée, obsolète)"
 issue_modify_current_link_label: "Lien de la ressource actuelle"
-issue_modify_current_link_desc: "Colle le \"Lien du contenu\" de la ressource actuellement présente sur le site."
+issue_modify_current_link_desc: "Colle le 'Lien du contenu' de la ressource actuellement présente sur le site."
 issue_modify_new_link_label: "Nouveau lien de la ressource (si applicable)"
 issue_modify_new_link_desc: "Si la ressource a déménagé vers une nouvelle URL, colle le nouveau lien ici. Laisse vide si non applicable."
 issue_modify_reason_label: "Raison du changement / Nouveaux détails"
-issue_modify_reason_desc: "Explique ce qui doit être modifié (ex. \"Le lien est mort\" ou \"Merci de changer le coût en FREE et la machine en Artisan\")."
+issue_modify_reason_desc: "Explique ce qui doit être modifié (ex. 'Le lien est mort' ou 'Merci de changer le coût en FREE et la machine en Artisan')."
 issue_modify_reason_placeholder: "Explique brièvement la correction nécessaire ici…"

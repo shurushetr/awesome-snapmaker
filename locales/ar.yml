@@ -20,9 +20,9 @@ ui_filter_official: "تصفية حسب الرسمي:"
 ui_filter_difficulty: "تصفية حسب الصعوبة:"
 ui_filter_cost: "تصفية حسب التكلفة:"
 ui_filter_lang: "تصفية حسب اللغة:"
-ui_filter_tips: "<strong>نصائح التصفية:</strong> انقر على الوسم مرة لتضمينه <span style=\"color:
-  #10b981; font-weight: bold;\">تضمين</span> (أخضر). انقر مرة أخرى <span style=\"\
-  color: #ef4444; font-weight: bold; text-decoration: line-through;\">لاستبعاده</span>
+ui_filter_tips: "<strong>نصائح التصفية:</strong> انقر على الوسم مرة لتضمينه <span style='color:
+  #10b981; font-weight: bold;'>تضمين</span> (أخضر). انقر مرة أخرى <span style='\
+  color: #ef4444; font-weight: bold; text-decoration: line-through;'>لاستبعاده</span>
   (أحمر)."
 ui_sort_label: "ترتيب حسب:"
 ui_sort_newest: "الأحدث إلى الأقدم"
@@ -126,9 +126,9 @@ issue_modify_type_label: "ماذا تريد أن تفعل؟"
 issue_modify_type_update: "تحديث مورد موجود (رابط معطل، وسوم خاطئة، خطأ مطبعي، إلخ)"
 issue_modify_type_remove: "إزالة مورد (لم يعد موجودًا، غير ملائم، قديم)"
 issue_modify_current_link_label: "رابط المورد الحالي"
-issue_modify_current_link_desc: "الصق \"رابط المحتوى\" للمورد الموجود حاليًا على الموقع."
+issue_modify_current_link_desc: "الصق 'رابط المحتوى' للمورد الموجود حاليًا على الموقع."
 issue_modify_new_link_label: "رابط المورد الجديد (إن وجد)"
 issue_modify_new_link_desc: "إذا انتقل المورد إلى رابط جديد، الصق الرابط الجديد هنا. اتركه فارغًا إذا لم ينطبق."
 issue_modify_reason_label: "سبب التغيير / التفاصيل الجديدة"
-issue_modify_reason_desc: "اشرح ما يجب تغييره (مثلاً \"الرابط معطل\" أو \"يرجى تغيير التكلفة إلى FREE والجهاز إلى Artisan\")."
+issue_modify_reason_desc: "اشرح ما يجب تغييره (مثلاً 'الرابط معطل' أو 'يرجى تغيير التكلفة إلى FREE والجهاز إلى Artisan')."
 issue_modify_reason_placeholder: "اشرح التصحيح المطلوب باختصار هنا…"

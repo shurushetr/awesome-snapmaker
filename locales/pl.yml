@@ -20,9 +20,9 @@ ui_filter_official: "Filtruj po oficjalności:"
 ui_filter_difficulty: "Filtruj po trudności:"
 ui_filter_cost: "Filtruj po koszcie:"
 ui_filter_lang: "Filtruj po języku:"
-ui_filter_tips: "<strong>Wskazówki dotyczące filtrów:</strong> Dotknij tag raz, aby go <span style=\"color:
-  #10b981; font-weight: bold;\">uwzględnić</span> (zielony). Dotknij ponownie, aby go <span style=\"\
-  color: #ef4444; font-weight: bold; text-decoration: line-through;\">wykluczyć</span>
+ui_filter_tips: "<strong>Wskazówki dotyczące filtrów:</strong> Dotknij tag raz, aby go <span style='color:
+  #10b981; font-weight: bold;'>uwzględnić</span> (zielony). Dotknij ponownie, aby go <span style='\
+  color: #ef4444; font-weight: bold; text-decoration: line-through;'>wykluczyć</span>
   (czerwony)."
 ui_sort_label: "Sortuj według:"
 ui_sort_newest: "Od najnowszych"
@@ -126,9 +126,9 @@ issue_modify_type_label: "Co chcesz zrobić?"
 issue_modify_type_update: "Zaktualizować istniejący zasób (zepsuty link, błędne tagi, literówka itp.)"
 issue_modify_type_remove: "Usunąć zasób (nie istnieje, nieodpowiedni, przestarzały)"
 issue_modify_current_link_label: "Aktualny link do zasobu"
-issue_modify_current_link_desc: "Wklej \"Link do treści\" zasobu, który jest obecnie na stronie."
+issue_modify_current_link_desc: "Wklej 'Link do treści' zasobu, który jest obecnie na stronie."
 issue_modify_new_link_label: "Nowy link do zasobu (jeśli dotyczy)"
 issue_modify_new_link_desc: "Jeśli zasób został przeniesiony pod nowy adres URL, wklej nowy link tutaj. Zostaw puste, jeśli nie dotyczy."
 issue_modify_reason_label: "Powód zmiany / Nowe szczegóły"
-issue_modify_reason_desc: "Wyjaśnij, co należy zmienić (np. \"Link nie działa\" lub \"Proszę zmienić koszt na FREE i maszynę na Artisan\")."
+issue_modify_reason_desc: "Wyjaśnij, co należy zmienić (np. 'Link nie działa' lub 'Proszę zmienić koszt na FREE i maszynę na Artisan')."
 issue_modify_reason_placeholder: "Krótko opisz potrzebną korektę tutaj…"

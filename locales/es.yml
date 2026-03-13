@@ -20,9 +20,9 @@ ui_filter_official: "Filtrar por oficial:"
 ui_filter_difficulty: "Filtrar por dificultad:"
 ui_filter_cost: "Filtrar por costo:"
 ui_filter_lang: "Filtrar por idioma:"
-ui_filter_tips: "<strong>Consejos de filtrado:</strong> Toca una etiqueta una vez para <span style=\"color:
-  #10b981; font-weight: bold;\">incluirla</span> (verde). Tócala de nuevo para <span style=\"\
-  color: #ef4444; font-weight: bold; text-decoration: line-through;\">excluirla</span>
+ui_filter_tips: "<strong>Consejos de filtrado:</strong> Toca una etiqueta una vez para <span style='color:
+  #10b981; font-weight: bold;'>incluirla</span> (verde). Tócala de nuevo para <span style='\
+  color: #ef4444; font-weight: bold; text-decoration: line-through;'>excluirla</span>
   (rojo)."
 ui_sort_label: "Ordenar por:"
 ui_sort_newest: "Más reciente primero"
@@ -126,9 +126,9 @@ issue_modify_type_label: "¿Qué quieres hacer?"
 issue_modify_type_update: "Actualizar un recurso existente (enlace roto, etiquetas incorrectas, error tipográfico, etc.)"
 issue_modify_type_remove: "Eliminar un recurso (ya no existe, inapropiado, obsoleto)"
 issue_modify_current_link_label: "Enlace del recurso actual"
-issue_modify_current_link_desc: "Pega el \"Enlace del contenido\" del recurso que actualmente está en el sitio web."
+issue_modify_current_link_desc: "Pega el 'Enlace del contenido' del recurso que actualmente está en el sitio web."
 issue_modify_new_link_label: "Nuevo enlace del recurso (si aplica)"
 issue_modify_new_link_desc: "Si el recurso se movió a una nueva URL, pega el nuevo enlace aquí. Déjalo en blanco si no aplica."
 issue_modify_reason_label: "Motivo del cambio / Nuevos detalles"
-issue_modify_reason_desc: "Explica qué necesita cambiarse (p. ej. \"El enlace está muerto\" o \"Por favor cambia el costo a FREE y la máquina a Artisan\")."
+issue_modify_reason_desc: "Explica qué necesita cambiarse (p. ej. 'El enlace está muerto' o 'Por favor cambia el costo a FREE y la máquina a Artisan')."
 issue_modify_reason_placeholder: "Explica brevemente la corrección necesaria aquí…"

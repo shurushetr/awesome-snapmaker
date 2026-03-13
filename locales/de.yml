@@ -20,9 +20,9 @@ ui_filter_official: "Nach Offiziell filtern:"
 ui_filter_difficulty: "Nach Schwierigkeitsgrad filtern:"
 ui_filter_cost: "Nach Kosten filtern:"
 ui_filter_lang: "Nach Sprache filtern:"
-ui_filter_tips: "<strong>Filtertipps:</strong> Einmal auf ein Tag tippen, um es <span style=\"color:
-  #10b981; font-weight: bold;\">einzuschließen</span> (grün). Nochmal tippen, um es <span style=\"\
-  color: #ef4444; font-weight: bold; text-decoration: line-through;\">auszuschließen</span>
+ui_filter_tips: "<strong>Filtertipps:</strong> Einmal auf ein Tag tippen, um es <span style='color:
+  #10b981; font-weight: bold;'>einzuschließen</span> (grün). Nochmal tippen, um es <span style='\
+  color: #ef4444; font-weight: bold; text-decoration: line-through;'>auszuschließen</span>
   (rot)."
 ui_sort_label: "Sortieren nach:"
 ui_sort_newest: "Neueste zuerst"
@@ -126,9 +126,9 @@ issue_modify_type_label: "Was möchtest du tun?"
 issue_modify_type_update: "Eine bestehende Ressource aktualisieren (toter Link, falsche Tags, Tippfehler usw.)"
 issue_modify_type_remove: "Eine Ressource entfernen (existiert nicht mehr, unangemessen, veraltet)"
 issue_modify_current_link_label: "Aktueller Ressourcenlink"
-issue_modify_current_link_desc: "Füge den \"Inhaltslink\" der Ressource ein, die sich aktuell auf der Website befindet."
+issue_modify_current_link_desc: "Füge den 'Inhaltslink' der Ressource ein, die sich aktuell auf der Website befindet."
 issue_modify_new_link_label: "Neuer Ressourcenlink (falls zutreffend)"
 issue_modify_new_link_desc: "Falls die Ressource unter einer neuen URL erreichbar ist, füge den neuen Link hier ein. Leer lassen, wenn nicht zutreffend."
 issue_modify_reason_label: "Grund für die Änderung / Neue Details"
-issue_modify_reason_desc: "Erkläre, was geändert werden soll (z.B. \"Der Link ist tot\" oder \"Bitte Kosten auf FREE und Maschine auf Artisan ändern\")."
+issue_modify_reason_desc: "Erkläre, was geändert werden soll (z.B. 'Der Link ist tot' oder 'Bitte Kosten auf FREE und Maschine auf Artisan ändern')."
 issue_modify_reason_placeholder: "Beschreibe die benötigte Korrektur kurz hier…"

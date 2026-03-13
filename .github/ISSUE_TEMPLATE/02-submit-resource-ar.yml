@@ -1,0 +1,160 @@
+name: 👉 إضافة مورد جديد (AR)
+description: أرسل موردًا جديدًا (أداة، دليل، تعديل، إلخ) إلى Awesome Snapmaker 
+  List!
+title: '[Submission] '
+labels:
+  - lang:ar
+  - new-submission
+body:
+  - type: markdown
+    attributes:
+      value: "شكرًا لاهتمامك بإضافة مورد جديد إلى Awesome Snapmaker List!\n\nيرجى
+        ملء النموذج أدناه. بعد الإرسال، سيقوم البوت الآلي بإنشاء طلب سحب لإضافته إلى
+        قاعدة البيانات، بحيث يتمكن المشرف من الموافقة بنقرة واحدة!\n\n"
+  - type: textarea
+    id: description
+    attributes:
+      label: وصف المورد
+      description: قدم ملخصًا موجزًا لما يتعلق به هذا المورد.
+      placeholder: يغطي هذا الدليل أفضل الإعدادات لـ…
+    validations:
+      required: true
+  - type: input
+    id: author_name
+    attributes:
+      label: اسم المؤلف
+      description: من أنشأ هذا المورد؟ (استخدم اسمك أو اسم المستخدم إذا كان لك)
+    validations:
+      required: true
+  - type: input
+    id: author_link
+    attributes:
+      label: رابط المؤلف
+      description: رابط إلى ملف المؤلف (GitHub، Thingiverse، المنتدى، إلخ)
+    validations:
+      required: true
+  - type: input
+    id: original_link
+    attributes:
+      label: رابط المحتوى (الرابط الأصلي)
+      description: أين يُستضاف هذا المورد؟
+      placeholder: https://...
+    validations:
+      required: true
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: مستوى الصعوبة
+      options:
+        - BEGINNER
+        - INTERMEDIATE
+        - ADVANCED
+    validations:
+      required: true
+  - type: dropdown
+    id: cost
+    attributes:
+      label: التكلفة
+      options:
+        - FREE
+        - PAID
+        - FREEMIUM
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: اللغة
+      description: ما هي اللغة الرئيسية لهذا المورد؟
+      options:
+        - AR
+        - DA
+        - DE
+        - EN
+        - ES
+        - FR
+        - HE
+        - IT
+        - PL
+        - RU
+        - ZH-CN
+        - ZH-HK
+        - EN-PIRATE
+    validations:
+      required: true
+  - type: checkboxes
+    id: machine_type
+    attributes:
+      label: نوع الجهاز
+      description: ما أجهزة Snapmaker التي ينطبق عليها هذا؟ (اختر كل ما ينطبق)
+      options:
+        - label: SM_2.0
+        - label: ARTISAN
+        - label: U1
+        - label: J1/J1s
+        - label: RAY
+        - label: UNIVERSAL
+  - type: checkboxes
+    id: machine_tool_type
+    attributes:
+      label: نوع أداة الجهاز
+      description: ما الوحدات/رؤوس الأدوات ذات الصلة؟ (اختر كل ما ينطبق)
+      options:
+        - label: FDM
+        - label: LASER
+        - label: CNC
+        - label: ROTARY
+        - label: COMBINED
+  - type: checkboxes
+    id: record_type
+    attributes:
+      label: نوع السجل
+      description: ما نوع هذا المورد؟ (اختر كل ما ينطبق)
+      options:
+        - label: ARTICLE
+        - label: CREATE
+        - label: DISCUSSION
+        - label: DOWNLOAD
+        - label: FIRMWARE
+        - label: MODS
+        - label: ONLINE TOOL
+        - label: REPAIR
+        - label: SHOP
+        - label: VIDEO
+  - type: dropdown
+    id: official_resource
+    attributes:
+      label: مورد Snapmaker رسمي؟
+      description: هل هذا مورد رسمي من Snapmaker أم من صنع المجتمع؟
+      options:
+        - "لا"
+        - "نعم"
+    validations:
+      required: true
+  - type: input
+    id: free_tags
+    attributes:
+      label: وسوم حرة
+      description: وسوم مفصولة بفواصل (مثل OFFICIAL، UNOFFICIAL، enclosure، 
+        cooling)
+      placeholder: UNOFFICIAL, cooling, petg
+    validations:
+      required: false
+  - type: input
+    id: extra_button_1_label
+    attributes:
+      label: (اختياري) زر إضافي 1 - التسمية
+      description: مفيد لتنزيل ملفات PDF/STL مباشرةً.
+      placeholder: Download STL
+    validations:
+      required: false
+  - type: input
+    id: extra_button_1_link
+    attributes:
+      label: (اختياري) زر إضافي 1 - الرابط
+      placeholder: https://...
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: بإرسال هذه المشكلة، تؤكد أن الرابط آمن وصالح.

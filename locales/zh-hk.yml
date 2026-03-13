@@ -20,9 +20,9 @@ ui_filter_official: "按官方篩選："
 ui_filter_difficulty: "按難度篩選："
 ui_filter_cost: "按費用篩選："
 ui_filter_lang: "按語言篩選："
-ui_filter_tips: "<strong>篩選提示：</strong> 點擊標籤一次可<span style=\"color:
-  #10b981; font-weight: bold;\">包含</span>該標籤（綠色）。再次點擊可<span style=\"\
-  color: #ef4444; font-weight: bold; text-decoration: line-through;\">排除</span>
+ui_filter_tips: "<strong>篩選提示：</strong> 點擊標籤一次可<span style='color:
+  #10b981; font-weight: bold;'>包含</span>該標籤（綠色）。再次點擊可<span style='\
+  color: #ef4444; font-weight: bold; text-decoration: line-through;'>排除</span>
   該標籤（紅色）。"
 ui_sort_label: "排序方式："
 ui_sort_newest: "最新到最舊"

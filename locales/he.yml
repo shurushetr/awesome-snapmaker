@@ -20,9 +20,9 @@ ui_filter_official: "סנן לפי רשמי:"
 ui_filter_difficulty: "סנן לפי רמת קושי:"
 ui_filter_cost: "סנן לפי עלות:"
 ui_filter_lang: "סנן לפי שפה:"
-ui_filter_tips: "<strong>טיפים לסינון:</strong> הקש על תג פעם אחת כדי <span style=\"color:
-  #10b981; font-weight: bold;\">לכלול</span> אותו (ירוק). הקש שוב כדי <span style=\"\
-  color: #ef4444; font-weight: bold; text-decoration: line-through;\">להוציא</span>
+ui_filter_tips: "<strong>טיפים לסינון:</strong> הקש על תג פעם אחת כדי <span style='color:
+  #10b981; font-weight: bold;'>לכלול</span> אותו (ירוק). הקש שוב כדי <span style='\
+  color: #ef4444; font-weight: bold; text-decoration: line-through;'>להוציא</span>
   אותו (אדום)."
 ui_sort_label: "מיין לפי:"
 ui_sort_newest: "מהחדש לישן"
@@ -126,9 +126,9 @@ issue_modify_type_label: "מה אתה רוצה לעשות?"
 issue_modify_type_update: "עדכן משאב קיים (קישור שבור, תגים שגויים, שגיאת הקלדה וכו')"
 issue_modify_type_remove: "הסר משאב (כבר לא קיים, לא מתאים, מיושן)"
 issue_modify_current_link_label: "קישור למשאב הנוכחי"
-issue_modify_current_link_desc: "הדבק את \"קישור התוכן\" של המשאב הנמצא כעת באתר."
+issue_modify_current_link_desc: "הדבק את 'קישור התוכן' של המשאב הנמצא כעת באתר."
 issue_modify_new_link_label: "קישור למשאב חדש (אם רלוונטי)"
 issue_modify_new_link_desc: "אם המשאב עבר לכתובת URL חדשה, הדבק את הקישור החדש כאן. השאר ריק אם לא רלוונטי."
 issue_modify_reason_label: "סיבה לשינוי / פרטים חדשים"
-issue_modify_reason_desc: "הסבר מה צריך להשתנות (למשל \"הקישור מת\" או \"אנא שנה את העלות ל-FREE ואת המכונה ל-Artisan\")."
+issue_modify_reason_desc: "הסבר מה צריך להשתנות (למשל 'הקישור מת' או 'אנא שנה את העלות ל-FREE ואת המכונה ל-Artisan')."
 issue_modify_reason_placeholder: "הסבר בקצרה את התיקון הנדרש כאן…"

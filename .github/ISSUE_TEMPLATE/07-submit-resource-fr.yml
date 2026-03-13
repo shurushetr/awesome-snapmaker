@@ -1,0 +1,169 @@
+name: 👉 Ajouter une nouvelle ressource (FR)
+description: Soumets une nouvelle ressource (outil, guide, mod, etc.) à la 
+  Awesome Snapmaker List !
+title: '[Submission] '
+labels:
+  - lang:fr
+  - new-submission
+body:
+  - type: markdown
+    attributes:
+      value: "Merci de prendre le temps de soumettre une nouvelle ressource à la Awesome
+        Snapmaker List !\n\nMerci de remplir le formulaire ci-dessous. Une fois soumis,
+        notre bot automatisé générera une Pull Request pour l'ajouter à la base de
+        données, afin que le mainteneur puisse l'approuver en un seul clic !\n\n"
+  - type: textarea
+    id: description
+    attributes:
+      label: Description de la ressource
+      description: Fournis un bref résumé de ce dont traite cette ressource.
+      placeholder: Ce guide couvre les meilleurs réglages pour…
+    validations:
+      required: true
+  - type: input
+    id: author_name
+    attributes:
+      label: Nom de l'auteur
+      description: Qui a créé cette ressource ? (Utilise ton nom ou pseudo si 
+        c'est la tienne)
+    validations:
+      required: true
+  - type: input
+    id: author_link
+    attributes:
+      label: Lien de l'auteur
+      description: Lien vers le profil de l'auteur (GitHub, Thingiverse, Forum, 
+        etc.)
+    validations:
+      required: true
+  - type: input
+    id: original_link
+    attributes:
+      label: Lien du contenu (URL d'origine)
+      description: Où cette ressource est-elle hébergée ?
+      placeholder: https://...
+    validations:
+      required: true
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: Niveau de difficulté
+      options:
+        - BEGINNER
+        - INTERMEDIATE
+        - ADVANCED
+    validations:
+      required: true
+  - type: dropdown
+    id: cost
+    attributes:
+      label: Coût
+      options:
+        - FREE
+        - PAID
+        - FREEMIUM
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: Langue
+      description: Dans quelle langue principale cette ressource est-elle 
+        rédigée ?
+      options:
+        - AR
+        - DA
+        - DE
+        - EN
+        - ES
+        - FR
+        - HE
+        - IT
+        - PL
+        - RU
+        - ZH-CN
+        - ZH-HK
+        - EN-PIRATE
+    validations:
+      required: true
+  - type: checkboxes
+    id: machine_type
+    attributes:
+      label: Type(s) de machine
+      description: À quelles machines Snapmaker cela s'applique-t-il ? 
+        (Sélectionne tout ce qui convient)
+      options:
+        - label: SM_2.0
+        - label: ARTISAN
+        - label: U1
+        - label: J1/J1s
+        - label: RAY
+        - label: UNIVERSAL
+  - type: checkboxes
+    id: machine_tool_type
+    attributes:
+      label: Type(s) d'outil machine
+      description: Quels modules/têtes d'outil sont concernés ? (Sélectionne 
+        tout ce qui convient)
+      options:
+        - label: FDM
+        - label: LASER
+        - label: CNC
+        - label: ROTARY
+        - label: COMBINED
+  - type: checkboxes
+    id: record_type
+    attributes:
+      label: Type(s) d'entrée
+      description: De quel type de ressource s'agit-il ? (Sélectionne tout ce 
+        qui convient)
+      options:
+        - label: ARTICLE
+        - label: CREATE
+        - label: DISCUSSION
+        - label: DOWNLOAD
+        - label: FIRMWARE
+        - label: MODS
+        - label: ONLINE TOOL
+        - label: REPAIR
+        - label: SHOP
+        - label: VIDEO
+  - type: dropdown
+    id: official_resource
+    attributes:
+      label: Ressource officielle Snapmaker ?
+      description: S'agit-il d'une ressource officielle Snapmaker ou d'une 
+        création communautaire ?
+      options:
+        - "Non"
+        - "Oui"
+    validations:
+      required: true
+  - type: input
+    id: free_tags
+    attributes:
+      label: Tags libres
+      description: Tags séparés par des virgules (ex. OFFICIAL, UNOFFICIAL, 
+        enclosure, cooling)
+      placeholder: UNOFFICIAL, cooling, petg
+    validations:
+      required: false
+  - type: input
+    id: extra_button_1_label
+    attributes:
+      label: (Optionnel) Bouton supplémentaire 1 - Libellé
+      description: Utile pour les téléchargements directs de PDF/STL.
+      placeholder: Download STL
+    validations:
+      required: false
+  - type: input
+    id: extra_button_1_link
+    attributes:
+      label: (Optionnel) Bouton supplémentaire 1 - Lien
+      placeholder: https://...
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: En soumettant ce ticket, tu confirmes que le lien est sûr et 
+        valide.

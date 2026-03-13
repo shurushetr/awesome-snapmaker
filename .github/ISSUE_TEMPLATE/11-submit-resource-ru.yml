@@ -1,5 +1,5 @@
 name: 👉 Добавить новый ресурс (RU)
-description: Предложите новый ресурс (инструмент, руководство, мод и т.д.) для 
+description: Отправьте новый ресурс (инструмент, руководство, мод и т.д.) в 
   Awesome Snapmaker List!
 title: '[Submission] '
 labels:
@@ -8,15 +8,15 @@ labels:
 body:
   - type: markdown
     attributes:
-      value: "Спасибо, что нашли время предложить новый ресурс для Awesome Snapmaker
-        List!\n\nПожалуйста, заполните форму ниже. После отправки наш бот автоматически
-        создаст Pull Request для добавления в базу данных, чтобы модератор мог одобрить
-        его одним кликом!\n\n"
+      value: "Спасибо, что нашли время для добавления нового ресурса в Awesome Snapmaker
+        List!\n\nПожалуйста, заполните форму ниже. После отправки наш автоматический
+        бот создаст Pull Request для добавления в базу данных, и модератор сможет
+        одобрить это одним кликом!\n\n"
   - type: textarea
     id: description
     attributes:
       label: Описание ресурса
-      description: Кратко опишите, о чем этот ресурс.
+      description: Дайте краткое описание, о чём этот ресурс.
       placeholder: Это руководство охватывает лучшие настройки для…
     validations:
       required: true
@@ -24,22 +24,22 @@ body:
     id: author_name
     attributes:
       label: Имя автора
-      description: Кто создал этот ресурс? (Используйте свое имя или никнейм, 
-        если автор — вы)
+      description: Кто создал этот ресурс? (Используйте своё имя или ник, если 
+        это ваш ресурс)
     validations:
       required: true
   - type: input
     id: author_link
     attributes:
       label: Ссылка на автора
-      description: Ссылка на профиль автора (GitHub, Thingiverse, форум и т.д.)
+      description: Ссылка на профиль автора (GitHub, Thingiverse, Форум и т.д.)
     validations:
       required: true
   - type: input
     id: original_link
     attributes:
-      label: Ссылка на контент (Original URL)
-      description: Где размещен этот ресурс?
+      label: Ссылка на контент (оригинальный URL)
+      description: Где размещён этот ресурс?
       placeholder: https://...
     validations:
       required: true
@@ -67,7 +67,7 @@ body:
     id: language
     attributes:
       label: Язык
-      description: На каком языке этот ресурс?
+      description: На каком основном языке написан этот ресурс?
       options:
         - AR
         - DA
@@ -87,8 +87,8 @@ body:
   - type: checkboxes
     id: machine_type
     attributes:
-      label: Тип устройства (устройств)
-      description: Для каких моделей Snapmaker это подходит? (Выберите все 
+      label: Тип(ы) машины
+      description: К каким машинам Snapmaker это относится? (Выберите все 
         подходящие)
       options:
         - label: SM_2.0
@@ -100,9 +100,8 @@ body:
   - type: checkboxes
     id: machine_tool_type
     attributes:
-      label: Тип модуля/инструмента
-      description: Какие модули или головки задействованы? (Выберите все 
-        подходящие)
+      label: Тип(ы) инструмента машины
+      description: Какие модули/насадки актуальны? (Выберите все подходящие)
       options:
         - label: FDM
         - label: LASER
@@ -112,7 +111,7 @@ body:
   - type: checkboxes
     id: record_type
     attributes:
-      label: Тип записи
+      label: Тип(ы) записи
       description: Что это за ресурс? (Выберите все подходящие)
       options:
         - label: ARTICLE
@@ -129,7 +128,7 @@ body:
     id: official_resource
     attributes:
       label: Официальный ресурс Snapmaker?
-      description: Это официальный ресурс от Snapmaker или творение сообщества?
+      description: Это официальный ресурс Snapmaker или созданный сообществом?
       options:
         - "Нет"
         - "Да"
@@ -139,27 +138,27 @@ body:
     id: free_tags
     attributes:
       label: Свободные теги
-      description: 'Теги через запятую (например: OFFICIAL, UNOFFICIAL, enclosure,
-        cooling)'
+      description: Теги через запятую (например OFFICIAL, UNOFFICIAL, enclosure,
+        cooling)
       placeholder: UNOFFICIAL, cooling, petg
     validations:
       required: false
   - type: input
     id: extra_button_1_label
     attributes:
-      label: (Опционально) Доп. кнопка 1 — Текст
-      description: Полезно для прямых ссылок на скачивание PDF/STL.
+      label: (Необязательно) Дополнительная кнопка 1 - Метка
+      description: Полезно для прямых загрузок PDF/STL.
       placeholder: Download STL
     validations:
       required: false
   - type: input
     id: extra_button_1_link
     attributes:
-      label: (Опционально) Доп. кнопка 1 — Ссылка
+      label: (Необязательно) Дополнительная кнопка 1 - Ссылка
       placeholder: https://...
     validations:
       required: false
   - type: markdown
     attributes:
-      value: Отправляя эту форму, вы подтверждаете, что ссылка безопасна и 
-        корректна.
+      value: Отправляя этот тикет, вы подтверждаете, что ссылка безопасна и 
+        действительна.

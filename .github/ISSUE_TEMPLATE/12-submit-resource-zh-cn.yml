@@ -1,0 +1,157 @@
+name: 👉 添加新资源 (ZH-CN)
+description: 向 Awesome Snapmaker List 提交新资源（工具、教程、改装方案等）！
+title: '[Submission] '
+labels:
+  - lang:zh-cn
+  - new-submission
+body:
+  - type: markdown
+    attributes:
+      value: "感谢您花时间向 Awesome Snapmaker List 提交新资源！\n\n请填写以下表单。提交后，我们的自动机器人将生成 Pull
+        Request 将其添加到数据库，维护者只需一键即可批准！\n\n"
+  - type: textarea
+    id: description
+    attributes:
+      label: 资源描述
+      description: 简要描述这个资源的内容。
+      placeholder: 这份教程涵盖了最佳设置，适用于…
+    validations:
+      required: true
+  - type: input
+    id: author_name
+    attributes:
+      label: 作者姓名
+      description: 谁创建了这个资源？（如果是您自己的，请填写您的名字或用户名）
+    validations:
+      required: true
+  - type: input
+    id: author_link
+    attributes:
+      label: 作者链接
+      description: 作者的个人主页链接（GitHub、Thingiverse、论坛等）
+    validations:
+      required: true
+  - type: input
+    id: original_link
+    attributes:
+      label: 内容链接（原始 URL）
+      description: 这个资源托管在哪里？
+      placeholder: https://...
+    validations:
+      required: true
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: 难度级别
+      options:
+        - BEGINNER
+        - INTERMEDIATE
+        - ADVANCED
+    validations:
+      required: true
+  - type: dropdown
+    id: cost
+    attributes:
+      label: 费用
+      options:
+        - FREE
+        - PAID
+        - FREEMIUM
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: 语言
+      description: 这个资源的主要语言是什么？
+      options:
+        - AR
+        - DA
+        - DE
+        - EN
+        - ES
+        - FR
+        - HE
+        - IT
+        - PL
+        - RU
+        - ZH-CN
+        - ZH-HK
+        - EN-PIRATE
+    validations:
+      required: true
+  - type: checkboxes
+    id: machine_type
+    attributes:
+      label: 机器类型
+      description: 适用于哪些 Snapmaker 机器？（选择所有适用项）
+      options:
+        - label: SM_2.0
+        - label: ARTISAN
+        - label: U1
+        - label: J1/J1s
+        - label: RAY
+        - label: UNIVERSAL
+  - type: checkboxes
+    id: machine_tool_type
+    attributes:
+      label: 工具类型
+      description: 相关的模块/刀头是什么？（选择所有适用项）
+      options:
+        - label: FDM
+        - label: LASER
+        - label: CNC
+        - label: ROTARY
+        - label: COMBINED
+  - type: checkboxes
+    id: record_type
+    attributes:
+      label: 记录类型
+      description: 这是什么类型的资源？（选择所有适用项）
+      options:
+        - label: ARTICLE
+        - label: CREATE
+        - label: DISCUSSION
+        - label: DOWNLOAD
+        - label: FIRMWARE
+        - label: MODS
+        - label: ONLINE TOOL
+        - label: REPAIR
+        - label: SHOP
+        - label: VIDEO
+  - type: dropdown
+    id: official_resource
+    attributes:
+      label: Snapmaker 官方资源？
+      description: 这是 Snapmaker 的官方资源还是社区创作？
+      options:
+        - "否"
+        - "是"
+    validations:
+      required: true
+  - type: input
+    id: free_tags
+    attributes:
+      label: 自定义标签
+      description: 以逗号分隔的标签（例如 OFFICIAL、UNOFFICIAL、enclosure、cooling）
+      placeholder: UNOFFICIAL, cooling, petg
+    validations:
+      required: false
+  - type: input
+    id: extra_button_1_label
+    attributes:
+      label: （可选）额外按钮 1 - 标签
+      description: 适用于直接下载 PDF/STL 文件。
+      placeholder: Download STL
+    validations:
+      required: false
+  - type: input
+    id: extra_button_1_link
+    attributes:
+      label: （可选）额外按钮 1 - 链接
+      placeholder: https://...
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: 提交此 Issue，即表示您确认该链接安全且有效。

@@ -1,0 +1,167 @@
+name: 👉 Tilføj en ny ressource (DA)
+description: Indsend en ny ressource (værktøj, guide, mod osv.) til Awesome 
+  Snapmaker List!
+title: '[Submission] '
+labels:
+  - lang:da
+  - new-submission
+body:
+  - type: markdown
+    attributes:
+      value: "Tak fordi du tager dig tid til at indsende en ny ressource til Awesome
+        Snapmaker List!\n\nUdfyld venligst formularen nedenfor. Når den er indsendt,
+        vil vores automatiserede bot generere en Pull Request for at tilføje den til
+        databasen, så vedligeholderen kan godkende den med ét klik!\n\n"
+  - type: textarea
+    id: description
+    attributes:
+      label: Ressourcebeskrivelse
+      description: Giv et kort resumé af, hvad denne ressource handler om.
+      placeholder: Denne guide dækker de bedste indstillinger for…
+    validations:
+      required: true
+  - type: input
+    id: author_name
+    attributes:
+      label: Forfatternavn
+      description: Hvem har lavet denne ressource? (Brug dit navn eller 
+        brugernavn, hvis det er dit)
+    validations:
+      required: true
+  - type: input
+    id: author_link
+    attributes:
+      label: Forfatterlink
+      description: Link til forfatterens profil (GitHub, Thingiverse, Forum 
+        osv.)
+    validations:
+      required: true
+  - type: input
+    id: original_link
+    attributes:
+      label: Indholdslink (Original URL)
+      description: Hvor er denne ressource hostet?
+      placeholder: https://...
+    validations:
+      required: true
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: Sværhedsgrad
+      options:
+        - BEGINNER
+        - INTERMEDIATE
+        - ADVANCED
+    validations:
+      required: true
+  - type: dropdown
+    id: cost
+    attributes:
+      label: Pris
+      options:
+        - FREE
+        - PAID
+        - FREEMIUM
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: Sprog
+      description: Hvilket primært sprog er denne ressource på?
+      options:
+        - AR
+        - DA
+        - DE
+        - EN
+        - ES
+        - FR
+        - HE
+        - IT
+        - PL
+        - RU
+        - ZH-CN
+        - ZH-HK
+        - EN-PIRATE
+    validations:
+      required: true
+  - type: checkboxes
+    id: machine_type
+    attributes:
+      label: Maskintype(r)
+      description: Hvilke Snapmaker-maskiner gælder dette for? (Vælg alle der 
+        passer)
+      options:
+        - label: SM_2.0
+        - label: ARTISAN
+        - label: U1
+        - label: J1/J1s
+        - label: RAY
+        - label: UNIVERSAL
+  - type: checkboxes
+    id: machine_tool_type
+    attributes:
+      label: Maskinværktøjstype(r)
+      description: Hvilke moduler/værktøjshoveder er relevante? (Vælg alle der 
+        passer)
+      options:
+        - label: FDM
+        - label: LASER
+        - label: CNC
+        - label: ROTARY
+        - label: COMBINED
+  - type: checkboxes
+    id: record_type
+    attributes:
+      label: Posttype(r)
+      description: Hvilken slags ressource er dette? (Vælg alle der passer)
+      options:
+        - label: ARTICLE
+        - label: CREATE
+        - label: DISCUSSION
+        - label: DOWNLOAD
+        - label: FIRMWARE
+        - label: MODS
+        - label: ONLINE TOOL
+        - label: REPAIR
+        - label: SHOP
+        - label: VIDEO
+  - type: dropdown
+    id: official_resource
+    attributes:
+      label: Officiel Snapmaker-ressource?
+      description: Er dette en officiel Snapmaker-ressource eller et 
+        community-skabt indhold?
+      options:
+        - "Nej"
+        - "Ja"
+    validations:
+      required: true
+  - type: input
+    id: free_tags
+    attributes:
+      label: Frie tags
+      description: Kommaseparerede tags (f.eks. OFFICIAL, UNOFFICIAL, enclosure,
+        cooling)
+      placeholder: UNOFFICIAL, cooling, petg
+    validations:
+      required: false
+  - type: input
+    id: extra_button_1_label
+    attributes:
+      label: (Valgfrit) Ekstra knap 1 - Etiket
+      description: Nyttigt til direkte PDF/STL-downloads.
+      placeholder: Download STL
+    validations:
+      required: false
+  - type: input
+    id: extra_button_1_link
+    attributes:
+      label: (Valgfrit) Ekstra knap 1 - Link
+      placeholder: https://...
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: Ved at indsende dette issue bekræfter du, at linket er sikkert og 
+        gyldigt.

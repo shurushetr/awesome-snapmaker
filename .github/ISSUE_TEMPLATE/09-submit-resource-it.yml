@@ -1,0 +1,167 @@
+name: 👉 Aggiungi una nuova risorsa (IT)
+description: Invia una nuova risorsa (strumento, guida, mod, ecc.) alla Awesome 
+  Snapmaker List!
+title: '[Submission] '
+labels:
+  - lang:it
+  - new-submission
+body:
+  - type: markdown
+    attributes:
+      value: "Grazie per prenderti il tempo di inviare una nuova risorsa alla Awesome
+        Snapmaker List!\n\nCompila il modulo qui sotto. Una volta inviato, il nostro
+        bot automatizzato genererà una Pull Request per aggiungerlo al database, così
+        il manutentore potrà approvarlo con un solo clic!\n\n"
+  - type: textarea
+    id: description
+    attributes:
+      label: Descrizione della risorsa
+      description: Fornisci un breve riassunto di cosa tratta questa risorsa.
+      placeholder: Questa guida illustra le impostazioni migliori per…
+    validations:
+      required: true
+  - type: input
+    id: author_name
+    attributes:
+      label: Nome dell'autore
+      description: Chi ha creato questa risorsa? (Usa il tuo nome o username se 
+        è tua)
+    validations:
+      required: true
+  - type: input
+    id: author_link
+    attributes:
+      label: Link dell'autore
+      description: Link al profilo dell'autore (GitHub, Thingiverse, Forum, 
+        ecc.)
+    validations:
+      required: true
+  - type: input
+    id: original_link
+    attributes:
+      label: Link al contenuto (URL originale)
+      description: Dove è ospitata questa risorsa?
+      placeholder: https://...
+    validations:
+      required: true
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: Livello di difficoltà
+      options:
+        - BEGINNER
+        - INTERMEDIATE
+        - ADVANCED
+    validations:
+      required: true
+  - type: dropdown
+    id: cost
+    attributes:
+      label: Costo
+      options:
+        - FREE
+        - PAID
+        - FREEMIUM
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: Lingua
+      description: In quale lingua principale è scritta questa risorsa?
+      options:
+        - AR
+        - DA
+        - DE
+        - EN
+        - ES
+        - FR
+        - HE
+        - IT
+        - PL
+        - RU
+        - ZH-CN
+        - ZH-HK
+        - EN-PIRATE
+    validations:
+      required: true
+  - type: checkboxes
+    id: machine_type
+    attributes:
+      label: Tipo/i di macchina
+      description: A quali macchine Snapmaker si applica? (Seleziona tutte 
+        quelle pertinenti)
+      options:
+        - label: SM_2.0
+        - label: ARTISAN
+        - label: U1
+        - label: J1/J1s
+        - label: RAY
+        - label: UNIVERSAL
+  - type: checkboxes
+    id: machine_tool_type
+    attributes:
+      label: Tipo/i di strumento macchina
+      description: Quali moduli/testine strumento sono rilevanti? (Seleziona 
+        tutti quelli pertinenti)
+      options:
+        - label: FDM
+        - label: LASER
+        - label: CNC
+        - label: ROTARY
+        - label: COMBINED
+  - type: checkboxes
+    id: record_type
+    attributes:
+      label: Tipo/i di record
+      description: Che tipo di risorsa è questa? (Seleziona tutti quelli 
+        pertinenti)
+      options:
+        - label: ARTICLE
+        - label: CREATE
+        - label: DISCUSSION
+        - label: DOWNLOAD
+        - label: FIRMWARE
+        - label: MODS
+        - label: ONLINE TOOL
+        - label: REPAIR
+        - label: SHOP
+        - label: VIDEO
+  - type: dropdown
+    id: official_resource
+    attributes:
+      label: Risorsa ufficiale Snapmaker?
+      description: Si tratta di una risorsa ufficiale Snapmaker o di una 
+        creazione della community?
+      options:
+        - "No"
+        - "Sì"
+    validations:
+      required: true
+  - type: input
+    id: free_tags
+    attributes:
+      label: Tag liberi
+      description: Tag separati da virgole (es. OFFICIAL, UNOFFICIAL, enclosure,
+        cooling)
+      placeholder: UNOFFICIAL, cooling, petg
+    validations:
+      required: false
+  - type: input
+    id: extra_button_1_label
+    attributes:
+      label: (Opzionale) Pulsante extra 1 - Etichetta
+      description: Utile per download diretti di PDF/STL.
+      placeholder: Download STL
+    validations:
+      required: false
+  - type: input
+    id: extra_button_1_link
+    attributes:
+      label: (Opzionale) Pulsante extra 1 - Link
+      placeholder: https://...
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: Inviando questa issue, confermi che il link è sicuro e valido.

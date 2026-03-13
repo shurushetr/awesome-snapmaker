@@ -20,9 +20,9 @@ ui_filter_official: "Фильтр по официальности:"
 ui_filter_difficulty: "Фильтр по сложности:"
 ui_filter_cost: "Фильтр по стоимости:"
 ui_filter_lang: "Фильтр по языку:"
-ui_filter_tips: "<strong>Советы по фильтрации:</strong> Нажмите на тег один раз, чтобы <span style=\"color:
-  #10b981; font-weight: bold;\">включить</span> его (зелёный). Нажмите ещё раз, чтобы <span style=\"\
-  color: #ef4444; font-weight: bold; text-decoration: line-through;\">исключить</span>
+ui_filter_tips: "<strong>Советы по фильтрации:</strong> Нажмите на тег один раз, чтобы <span style='color:
+  #10b981; font-weight: bold;'>включить</span> его (зелёный). Нажмите ещё раз, чтобы <span style='\
+  color: #ef4444; font-weight: bold; text-decoration: line-through;'>исключить</span>
   его (красный)."
 ui_sort_label: "Сортировать по:"
 ui_sort_newest: "Сначала новые"
@@ -126,7 +126,7 @@ issue_modify_type_label: "Что вы хотите сделать?"
 issue_modify_type_update: "Обновить существующий ресурс (нерабочая ссылка, неверные теги, опечатка и т.д.)"
 issue_modify_type_remove: "Удалить ресурс (больше не существует, неуместен, устарел)"
 issue_modify_current_link_label: "Текущая ссылка на ресурс"
-issue_modify_current_link_desc: "Вставьте \"Ссылку на контент\" ресурса, который сейчас находится на сайте."
+issue_modify_current_link_desc: "Вставьте 'Ссылку на контент' ресурса, который сейчас находится на сайте."
 issue_modify_new_link_label: "Новая ссылка на ресурс (если применимо)"
 issue_modify_new_link_desc: "Если ресурс переехал на новый URL, вставьте новую ссылку сюда. Оставьте пустым, если не применимо."
 issue_modify_reason_label: "Причина изменения / Новые детали"

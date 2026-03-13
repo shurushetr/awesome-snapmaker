@@ -1,0 +1,166 @@
+name: 👉 Log a New Treasure (EN-PIRATE)
+description: Submit a new plunder (tool, guide, mod, etc.) to the Awesome 
+  Snapmaker List, ye scalawag!
+title: '[Submission] '
+labels:
+  - lang:en-pirate
+  - new-submission
+body:
+  - type: markdown
+    attributes:
+      value: "Ahoy, and thanks fer takin' the time to submit a new treasure to the
+        Awesome Snapmaker List!\n\nFill out the form below, matey. Once submitted,
+        our automated parrot will conjure up a Pull Request to add it to the map,
+        so the maintainer can approve it with a single slash of the cutlass!\n\n"
+  - type: textarea
+    id: description
+    attributes:
+      label: Treasure Description
+      description: Give a brief account of what this treasure be about.
+      placeholder: This here guide covers the best settings fer…
+    validations:
+      required: true
+  - type: input
+    id: author_name
+    attributes:
+      label: Cap'n's Name
+      description: Who crafted this treasure? (Use yer name or ship's alias if 
+        it be yers)
+    validations:
+      required: true
+  - type: input
+    id: author_link
+    attributes:
+      label: Cap'n's Port
+      description: Link to the cap'n's home port (GitHub, Thingiverse, Forum, 
+        etc.)
+    validations:
+      required: true
+  - type: input
+    id: original_link
+    attributes:
+      label: Treasure Map (Original URL)
+      description: Where be this treasure buried?
+      placeholder: https://...
+    validations:
+      required: true
+  - type: dropdown
+    id: difficulty
+    attributes:
+      label: Difficulty Level
+      options:
+        - BEGINNER
+        - INTERMEDIATE
+        - ADVANCED
+    validations:
+      required: true
+  - type: dropdown
+    id: cost
+    attributes:
+      label: Cost
+      options:
+        - FREE
+        - PAID
+        - FREEMIUM
+    validations:
+      required: true
+  - type: dropdown
+    id: language
+    attributes:
+      label: Tongue
+      description: What tongue be this treasure written in?
+      options:
+        - AR
+        - DA
+        - DE
+        - EN
+        - ES
+        - FR
+        - HE
+        - IT
+        - PL
+        - RU
+        - ZH-CN
+        - ZH-HK
+        - EN-PIRATE
+    validations:
+      required: true
+  - type: checkboxes
+    id: machine_type
+    attributes:
+      label: Vessel Type(s)
+      description: Which Snapmaker ships does this apply to? (Mark all that be 
+        true)
+      options:
+        - label: SM_2.0
+        - label: ARTISAN
+        - label: U1
+        - label: J1/J1s
+        - label: RAY
+        - label: UNIVERSAL
+  - type: checkboxes
+    id: machine_tool_type
+    attributes:
+      label: Weapon Type(s)
+      description: Which modules/toolheads be relevant? (Mark all that be true)
+      options:
+        - label: FDM
+        - label: LASER
+        - label: CNC
+        - label: ROTARY
+        - label: COMBINED
+  - type: checkboxes
+    id: record_type
+    attributes:
+      label: Record Type(s)
+      description: What manner of treasure is this? (Mark all that be true)
+      options:
+        - label: ARTICLE
+        - label: CREATE
+        - label: DISCUSSION
+        - label: DOWNLOAD
+        - label: FIRMWARE
+        - label: MODS
+        - label: ONLINE TOOL
+        - label: REPAIR
+        - label: SHOP
+        - label: VIDEO
+  - type: dropdown
+    id: official_resource
+    attributes:
+      label: Official Snapmaker Treasure?
+      description: Did Snapmaker's own crew make this, or be it the work of 
+        rogue pirates?
+      options:
+        - "Nay"
+        - "Aye"
+    validations:
+      required: true
+  - type: input
+    id: free_tags
+    attributes:
+      label: Free Tags
+      description: Comma-separated tags (e.g. OFFICIAL, UNOFFICIAL, enclosure, 
+        cooling)
+      placeholder: UNOFFICIAL, cooling, petg
+    validations:
+      required: false
+  - type: input
+    id: extra_button_1_label
+    attributes:
+      label: (Optional) Extra Button 1 - Label
+      description: Handy fer direct PDF/STL plunder.
+      placeholder: Download STL
+    validations:
+      required: false
+  - type: input
+    id: extra_button_1_link
+    attributes:
+      label: (Optional) Extra Button 1 - Link
+      placeholder: https://...
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: By submitting this issue, ye swear on Davy Jones' beard that the 
+        link be safe and true.

@@ -20,9 +20,9 @@ ui_filter_official: "按官方筛选："
 ui_filter_difficulty: "按难度筛选："
 ui_filter_cost: "按费用筛选："
 ui_filter_lang: "按语言筛选："
-ui_filter_tips: "<strong>筛选提示：</strong> 点击标签一次可<span style=\"color:
-  #10b981; font-weight: bold;\">包含</span>该标签（绿色）。再次点击可<span style=\"\
-  color: #ef4444; font-weight: bold; text-decoration: line-through;\">排除</span>
+ui_filter_tips: "<strong>筛选提示：</strong> 点击标签一次可<span style='color:
+  #10b981; font-weight: bold;'>包含</span>该标签（绿色）。再次点击可<span style='\
+  color: #ef4444; font-weight: bold; text-decoration: line-through;'>排除</span>
   该标签（红色）。"
 ui_sort_label: "排序方式："
 ui_sort_newest: "最新到最旧"
@@ -126,9 +126,9 @@ issue_modify_type_label: "您想做什么？"
 issue_modify_type_update: "更新现有资源（链接失效、标签错误、拼写错误等）"
 issue_modify_type_remove: "删除资源（已不存在、不当内容、已过时）"
 issue_modify_current_link_label: "当前资源链接"
-issue_modify_current_link_desc: "粘贴网站上当前资源的"内容链接"。"
+issue_modify_current_link_desc: "粘贴网站上当前资源的'内容链接'。"
 issue_modify_new_link_label: "新资源链接（如适用）"
 issue_modify_new_link_desc: "如果资源已迁移到新 URL，请在此粘贴新链接。如不适用请留空。"
 issue_modify_reason_label: "更改原因 / 新详情"
-issue_modify_reason_desc: "说明需要更改的内容（例如"链接已失效"或"请将费用改为 FREE，机器改为 Artisan"）。"
+issue_modify_reason_desc: "说明需要更改的内容（例如'链接已失效'或'请将费用改为 FREE，机器改为 Artisan'）。"
 issue_modify_reason_placeholder: "请在此简要说明所需更正…"

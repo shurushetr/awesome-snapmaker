@@ -20,9 +20,9 @@ ui_filter_official: "Filtrer efter officiel:"
 ui_filter_difficulty: "Filtrer efter sværhedsgrad:"
 ui_filter_cost: "Filtrer efter pris:"
 ui_filter_lang: "Filtrer efter sprog:"
-ui_filter_tips: "<strong>Filtertips:</strong> Tryk på et tag én gang for at <span style=\"color:
-  #10b981; font-weight: bold;\">inkludere</span> det (grønt). Tryk igen for at <span style=\"\
-  color: #ef4444; font-weight: bold; text-decoration: line-through;\">udelukke</span>
+ui_filter_tips: "<strong>Filtertips:</strong> Tryk på et tag én gang for at <span style='color:
+  #10b981; font-weight: bold;'>inkludere</span> det (grønt). Tryk igen for at <span style='\
+  color: #ef4444; font-weight: bold; text-decoration: line-through;'>udelukke</span>
   det (rødt)."
 ui_sort_label: "Sortér efter:"
 ui_sort_newest: "Nyeste til ældste"
@@ -126,9 +126,9 @@ issue_modify_type_label: "Hvad vil du gøre?"
 issue_modify_type_update: "Opdater en eksisterende ressource (ødelagt link, forkerte tags, slåfejl osv.)"
 issue_modify_type_remove: "Fjern en ressource (findes ikke længere, upassende, forældet)"
 issue_modify_current_link_label: "Nuværende ressourcelink"
-issue_modify_current_link_desc: "Indsæt \"Indholdslinket\" for ressourcen, der i øjeblikket er på hjemmesiden."
+issue_modify_current_link_desc: "Indsæt 'Indholdslinket' for ressourcen, der i øjeblikket er på hjemmesiden."
 issue_modify_new_link_label: "Nyt ressourcelink (hvis relevant)"
 issue_modify_new_link_desc: "Hvis ressourcen er flyttet til en ny URL, indsæt det nye link her. Lad det være tomt, hvis det ikke er relevant."
 issue_modify_reason_label: "Årsag til ændring / Nye detaljer"
-issue_modify_reason_desc: "Forklar hvad der skal ændres (f.eks. \"Linket er dødt\" eller \"Skift venligst prisen til FREE og maskinen til Artisan\")."
+issue_modify_reason_desc: "Forklar hvad der skal ændres (f.eks. 'Linket er dødt' eller 'Skift venligst prisen til FREE og maskinen til Artisan')."
 issue_modify_reason_placeholder: "Beskriv kort den nødvendige rettelse her…"
