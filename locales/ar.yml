@@ -20,9 +20,9 @@ ui_filter_official: "تصفية حسب الرسمي:"
 ui_filter_difficulty: "تصفية حسب الصعوبة:"
 ui_filter_cost: "تصفية حسب التكلفة:"
 ui_filter_lang: "تصفية حسب اللغة:"
-ui_filter_tips: "<strong>نصائح التصفية:</strong> انقر على الوسم مرة لتضمينه <span style='color:
-  #10b981; font-weight: bold;'>تضمين</span> (أخضر). انقر مرة أخرى <span style='\
-  color: #ef4444; font-weight: bold; text-decoration: line-through;'>لاستبعاده</span>
+ui_filter_tips: "<strong>نصائح التصفية:</strong> انقر على الوسم مرة لتضمينه <span
+  style='color: #10b981; font-weight: bold;'>تضمين</span> (أخضر). انقر مرة أخرى <span
+  style='color: #ef4444; font-weight: bold; text-decoration: line-through;'>لاستبعاده</span>
   (أحمر)."
 ui_sort_label: "ترتيب حسب:"
 ui_sort_newest: "الأحدث إلى الأقدم"
@@ -81,21 +81,31 @@ tag_zh-hk: "ZH-HK"
 tag_en-pirate: "EN-PIRATE"
 
 # --- Bot Comments ---
-bot_duplicate: "شكرًا على مشاركتك! يبدو أن هذا المورد موجود بالفعل في دليلنا:\n\n🔗 https://awesome-sm-list.xyz/#"
-bot_duplicate_issue: "شكرًا على مشاركتك! يبدو أن شخصًا آخر قد أرسل هذا المورد بالفعل وهو قيد المراجعة في "
-bot_rejected: "شكرًا على مشاركتك! لحماية مستخدمينا، لا نقبل روابط مباشرة لملفات تنفيذية (.exe، .msi، إلخ). يرجى الإشارة إلى الصفحة الرئيسية للمشروع أو مستودعه بدلاً من ذلك."
-bot_unique: "شكرًا على مشاركتك! سيراجع أحد المشرفين طلبك قريبًا. نقدر مساهمتك في Awesome Snapmaker List! 🚀"
-bot_merged: "🎉 تم دمج مساهمتك بنجاح في الدليل!\n\nشكرًا لمساهمتك في Awesome Snapmaker List. تم إغلاق هذه المسألة رسميًا."
+bot_duplicate: "شكرًا على مشاركتك! يبدو أن هذا المورد موجود بالفعل في دليلنا:\n\n\
+  🔗 https://awesome-sm-list.xyz/#"
+bot_duplicate_issue: "شكرًا على مشاركتك! يبدو أن شخصًا آخر قد أرسل هذا المورد بالفعل
+  وهو قيد المراجعة في "
+bot_rejected: "شكرًا على مشاركتك! لحماية مستخدمينا، لا نقبل روابط مباشرة لملفات تنفيذية
+  (.exe، .msi، إلخ). يرجى الإشارة إلى الصفحة الرئيسية للمشروع أو مستودعه بدلاً من
+  ذلك."
+bot_unique: "شكرًا على مشاركتك! سيراجع أحد المشرفين طلبك قريبًا. نقدر مساهمتك في Awesome
+  Snapmaker List! 🚀"
+bot_merged: "🎉 تم دمج مساهمتك بنجاح في الدليل!\n\nشكرًا لمساهمتك في Awesome Snapmaker
+  List. تم إغلاق هذه المسألة رسميًا."
 
 # --- GitHub Issue Template (Submit) ---
 issue_submit_title: "👉 إضافة مورد جديد"
-issue_submit_desc: "أرسل موردًا جديدًا (أداة، دليل، تعديل، إلخ) إلى Awesome Snapmaker List!"
-issue_submit_body: "شكرًا لاهتمامك بإضافة مورد جديد إلى Awesome Snapmaker List!\n\nيرجى ملء النموذج أدناه. بعد الإرسال، سيقوم البوت الآلي بإنشاء طلب سحب لإضافته إلى قاعدة البيانات، بحيث يتمكن المشرف من الموافقة بنقرة واحدة!"
+issue_submit_desc: "أرسل موردًا جديدًا (أداة، دليل، تعديل، إلخ) إلى Awesome Snapmaker
+  List!"
+issue_submit_body: "شكرًا لاهتمامك بإضافة مورد جديد إلى Awesome Snapmaker List!\n\n\
+  يرجى ملء النموذج أدناه. بعد الإرسال، سيقوم البوت الآلي بإنشاء طلب سحب لإضافته إلى
+  قاعدة البيانات، بحيث يتمكن المشرف من الموافقة بنقرة واحدة!"
 issue_description_label: "وصف المورد"
 issue_description_desc: "قدم ملخصًا موجزًا لما يتعلق به هذا المورد."
 issue_description_placeholder: "يغطي هذا الدليل أفضل الإعدادات لـ…"
 issue_author_name_label: "اسم المؤلف"
-issue_author_name_desc: "من أنشأ هذا المورد؟ (استخدم اسمك أو اسم المستخدم إذا كان لك)"
+issue_author_name_desc: "من أنشأ هذا المورد؟ (استخدم اسمك أو اسم المستخدم إذا كان
+  لك)"
 issue_author_link_label: "رابط المؤلف"
 issue_author_link_desc: "رابط إلى ملف المؤلف (GitHub، Thingiverse، المنتدى، إلخ)"
 issue_original_link_label: "رابط المحتوى (الرابط الأصلي)"
@@ -124,14 +134,17 @@ issue_confirm: "بإرسال هذه المشكلة، تؤكد أن الرابط 
 # --- GitHub Issue Template (Modify/Remove) ---
 issue_modify_title: "✏️ تعديل أو إزالة مورد"
 issue_modify_desc: "طلب تصحيح أو تحديث أو إزالة مورد موجود في Awesome List."
-issue_modify_body: "شكرًا لمساعدتك في الحفاظ على دقة Awesome Snapmaker List وتحديثها!\n\nيرجى تقديم التفاصيل أدناه حتى يتمكن المشرف من مراجعة التغييرات وتطبيقها."
+issue_modify_body: "شكرًا لمساعدتك في الحفاظ على دقة Awesome Snapmaker List وتحديثها!\n\
+  \nيرجى تقديم التفاصيل أدناه حتى يتمكن المشرف من مراجعة التغييرات وتطبيقها."
 issue_modify_type_label: "ماذا تريد أن تفعل؟"
 issue_modify_type_update: "تحديث مورد موجود (رابط معطل، وسوم خاطئة، خطأ مطبعي، إلخ)"
 issue_modify_type_remove: "إزالة مورد (لم يعد موجودًا، غير ملائم، قديم)"
 issue_modify_current_link_label: "رابط المورد الحالي"
 issue_modify_current_link_desc: "الصق 'رابط المحتوى' للمورد الموجود حاليًا على الموقع."
 issue_modify_new_link_label: "رابط المورد الجديد (إن وجد)"
-issue_modify_new_link_desc: "إذا انتقل المورد إلى رابط جديد، الصق الرابط الجديد هنا. اتركه فارغًا إذا لم ينطبق."
+issue_modify_new_link_desc: "إذا انتقل المورد إلى رابط جديد، الصق الرابط الجديد هنا.
+  اتركه فارغًا إذا لم ينطبق."
 issue_modify_reason_label: "سبب التغيير / التفاصيل الجديدة"
-issue_modify_reason_desc: "اشرح ما يجب تغييره (مثلاً 'الرابط معطل' أو 'يرجى تغيير التكلفة إلى FREE والجهاز إلى Artisan')."
+issue_modify_reason_desc: "اشرح ما يجب تغييره (مثلاً 'الرابط معطل' أو 'يرجى تغيير
+  التكلفة إلى FREE والجهاز إلى Artisan')."
 issue_modify_reason_placeholder: "اشرح التصحيح المطلوب باختصار هنا…"
