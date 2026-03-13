@@ -1,6 +1,8 @@
 // Global State
 let allRecords = [];
 let fuse;
+let translations = {};
+let currentLang = 'en';
 let activeFilters = {
     machine: new Set(),
     tool: new Set(),
@@ -61,10 +63,19 @@ const TAGS = {
 // Initialize the Application
 async function init() {
     try {
-        const response = await fetch('data.yml');
-        if (!response.ok) throw new Error('Network response was not ok');
-        const yamlText = await response.text();
-        const data = jsyaml.load(yamlText);
+        const prefix = document.querySelector('meta[name="is-localized"]') ? '../' : '';
+        const [dataResponse, transResponse] = await Promise.all([
+            fetch(prefix + 'data.yml'),
+            fetch(prefix + 'translations.yml')
+        ]);
+        if (!dataResponse.ok) throw new Error('data.yml network response was not ok');
+        if (!transResponse.ok) throw new Error('translations.yml network response was not ok');
+        
+        const dataYamlText = await dataResponse.text();
+        const transYamlText = await transResponse.text();
+        
+        const data = jsyaml.load(dataYamlText);
+        translations = jsyaml.load(transYamlText);
 
         setupProjectInfo(data.project_info);
 
@@ -93,6 +104,7 @@ async function init() {
             if (TAGS.cost.length === 0) TAGS.cost = Array.from(costs).sort();
         }
 
+        setupI18n();
         setupFilters();
         setupFuse();
 
@@ -124,9 +136,96 @@ async function init() {
 
     } catch (error) {
         console.error("Error loading YAML data:", error);
-        DOM.recordsContainer.innerHTML = `<p style="color: red;">Failed to load data. Please make sure data.yml exists and is valid.</p>`;
+        DOM.recordsContainer.innerHTML = `<p style="color: red;">Failed to load data. Please make sure data.yml and translations.yml exist and are valid.</p>`;
     }
 }
+
+// i18n Logic
+function setupI18n() {
+    const langDropdown = document.getElementById('lang-dropdown');
+    
+    // Populate dropdown with available languages
+    if (langDropdown && translations) {
+        langDropdown.innerHTML = '';
+        const languageNames = {
+            'en': '🌐 English (EN)', 'de': 'Deutsch (DE)', 'es': 'Español (ES)', 
+            'it': 'Italiano (IT)', 'pl': 'Polski (PL)', 'fr': 'Français (FR)', 
+            'he': 'עברית (HE)', 'ar': 'العربية (AR)', 'da': 'Dansk (DA)', 
+            'zh-CN': '简体中文 (ZH-CN)', 'zh-HK': '繁體中文 (ZH-HK)'
+        };
+        for (const langKey in translations) {
+            const displayName = languageNames[langKey] || langKey.toUpperCase();
+            const option = document.createElement('option');
+            option.value = langKey;
+            option.textContent = displayName;
+            langDropdown.appendChild(option);
+        }
+    }
+
+    // Detect Language Setting
+    let detectedLang = 'en';
+    const savedLang = localStorage.getItem('lang');
+    
+    // Are we physically in a parameterized subfolder like /de/ ?
+    const pathSegments = window.location.pathname.split('/').filter(Boolean);
+    const pathLang = pathSegments.length > 0 && translations[pathSegments[0]] ? pathSegments[0] : null;
+
+    if (pathLang) {
+        detectedLang = pathLang;
+        localStorage.setItem('lang', detectedLang);
+    } else if (savedLang && translations[savedLang]) {
+        detectedLang = savedLang;
+        // If we want a localized experience but we are on the global english root URL
+        if (detectedLang !== 'en' && (window.location.pathname === '/' || window.location.pathname.endsWith('index.html'))) {
+            if (window.location.protocol.startsWith('http')) {
+                window.location.href = `/${detectedLang}/` + window.location.hash + window.location.search;
+                return; // Stop execution to redirect
+            }
+        }
+    } else {
+        const browserLang = navigator.language.split('-')[0].toLowerCase();
+        if (translations[browserLang]) {
+            detectedLang = browserLang;
+        }
+    }
+
+    currentLang = detectedLang;
+    
+    // Set Dropdown state and attach change listener
+    if (langDropdown) {
+        langDropdown.value = currentLang;
+        langDropdown.addEventListener('change', (e) => {
+            const newLang = e.target.value;
+            localStorage.setItem('lang', newLang);
+            if (window.location.protocol.startsWith('http')) {
+                const targetPath = newLang === 'en' ? '/' : `/${newLang}/`;
+                window.location.href = targetPath + window.location.hash + window.location.search;
+            } else {
+                currentLang = newLang; // Fallback for local files
+                applyTranslationsDOM();
+            }
+        });
+    }
+
+    // Apply strings to the shell once
+    applyTranslationsDOM();
+}
+
+function applyTranslationsDOM() {
+    if (!translations || !translations[currentLang]) return;
+    const dict = translations[currentLang];
+
+    document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (dict[key]) el.textContent = dict[key];
+    });
+
+    document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
+        const key = el.getAttribute('data-i18n-placeholder');
+        if (dict[key]) el.setAttribute('placeholder', dict[key]);
+    });
+}
+
 
 // Helper for URLs to ensure we don't accidentally treat hostnames as relative paths
 function ensureAbsoluteUrl(url) {
@@ -609,7 +708,7 @@ function renderRecords(records) {
                     <h3 class="card-title">
                         <button class="${starClass}" data-id="${record.id}" aria-label="Toggle Favorite" title="Bookmark this item">★</button>
                         <a href="${anchorLink}">${record.title}</a>
-                        <button class="copy-link-btn" data-link="${window.location.origin}${window.location.pathname}${anchorLink}" aria-label="Copy Share Link" title="Copy Share Link">
+                        <button class="copy-link-btn" data-link="${window.location.origin}/r/${record.id}/" aria-label="Copy Share Link" title="Copy Share Link">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
                         </button>
                     </h3>

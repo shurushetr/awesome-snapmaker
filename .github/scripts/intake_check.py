@@ -10,7 +10,7 @@ import os
 import sys
 import json
 import subprocess
-from ruamel.yaml import YAML
+import yaml
 import re
 from urllib.parse import urlparse
 from url_utils import normalize_url
@@ -62,9 +62,8 @@ def check_for_duplicates(new_url, data_file='data.yml'):
         return False, None
 
     try:
-        yaml = YAML(typ='safe')
         with open(data_file, 'r', encoding='utf-8') as f:
-            data = yaml.load(f)
+            data = yaml.safe_load(f)
     except Exception as e:
         print(f"Error reading data.yml: {e}")
         # Fail open (assume not duplicate if file cant be read)
@@ -115,39 +114,88 @@ def check_for_duplicate_issues(new_url):
         
     return False, None
 
+def get_translation(key, default_en=''):
+    labels = os.environ.get('ISSUE_LABELS', '')
+    lang = 'en'
+    for label in labels.split(','):
+        if label.strip().startswith('lang:'):
+            lang = label.strip().split(':')[1]
+            break
+            
+    base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    trans_file = os.path.join(base_dir, 'translations.yml')
+    
+    try:
+        with open(trans_file, 'r', encoding='utf-8') as f:
+            trans = yaml.safe_load(f)
+            
+        en_str = trans.get('en', {}).get(key, default_en)
+        if lang == 'en' or lang not in trans:
+            return en_str
+            
+        lang_str = trans.get(lang, {}).get(key, en_str)
+        if lang_str == en_str:
+            return en_str
+        return f"{en_str}\n\n---\n\n{lang_str}" # Dual-language output
+    except Exception:
+        return default_en
+
+def process_action(issue_num, action_type, link=""):
+    if action_type == 'DUPLICATE':
+        body = get_translation('bot_duplicate', 'Duplicate found! See here: ') + link
+        subprocess.run(['gh', 'issue', 'comment', str(issue_num), '--body', body])
+        subprocess.run(['gh', 'issue', 'edit', str(issue_num), '--add-label', 'duplicate'])
+        subprocess.run(['gh', 'issue', 'close', str(issue_num)])
+        
+    elif action_type == 'DUPLICATE_ISSUE':
+        body = get_translation('bot_duplicate_issue', 'Duplicate pending issue found: ') + link
+        subprocess.run(['gh', 'issue', 'comment', str(issue_num), '--body', body])
+        subprocess.run(['gh', 'issue', 'edit', str(issue_num), '--add-label', 'duplicate'])
+        subprocess.run(['gh', 'issue', 'close', str(issue_num)])
+        
+    elif action_type == 'REJECT_EXECUTABLE':
+        body = get_translation('bot_rejected', 'Executable rejected.')
+        subprocess.run(['gh', 'issue', 'comment', str(issue_num), '--body', body])
+        subprocess.run(['gh', 'issue', 'edit', str(issue_num), '--add-label', 'rejected'])
+        subprocess.run(['gh', 'issue', 'close', str(issue_num)])
+        
+    elif action_type == 'UNIQUE':
+        body = get_translation('bot_unique', 'Thanks for submitting!')
+        subprocess.run(['gh', 'issue', 'comment', str(issue_num), '--body', body])
+        subprocess.run(['gh', 'issue', 'edit', str(issue_num), '--add-label', 'pending-content-review'])
+
 def main():
+    issue_num = os.environ.get('ISSUE_NUMBER')
+    if not issue_num:
+        print("No ISSUE_NUMBER provided.")
+        sys.exit(1)
+        
     issue_body = os.environ.get('ISSUE_BODY', '')
     if not issue_body:
-        print("UNIQUE") # Fallback to unique if no body
+        process_action(issue_num, 'UNIQUE')
         sys.exit(0)
         
     submitted_url = parse_issue_for_url(issue_body)
     
     if not submitted_url:
-        print("UNIQUE") # Can't check if there's no URL
+        process_action(issue_num, 'UNIQUE')
         sys.exit(0)
         
     if check_for_executable(submitted_url):
-        print("REJECT_EXECUTABLE")
+        process_action(issue_num, 'REJECT_EXECUTABLE')
         sys.exit(0)
         
     is_duplicate, existing_id = check_for_duplicates(submitted_url)
-    
     if is_duplicate:
-        # Output is read by bash script in the GitHub Action
-        print("DUPLICATE")
-        print(existing_id)
+        process_action(issue_num, 'DUPLICATE', existing_id)
         sys.exit(0)
         
-    # Check against other open issues
     is_dup_issue, issue_id = check_for_duplicate_issues(submitted_url)
-    
     if is_dup_issue:
-        print("DUPLICATE_ISSUE")
-        print(issue_id)
+        process_action(issue_num, 'DUPLICATE_ISSUE', issue_id)
         sys.exit(0)
         
-    print("UNIQUE")
+    process_action(issue_num, 'UNIQUE')
 
 if __name__ == '__main__':
     main()

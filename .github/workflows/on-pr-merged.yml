@@ -13,46 +13,19 @@ jobs:
     if: github.event.pull_request.merged == true && github.event.pull_request.head.ref == 'pending-automated-submissions'
     runs-on: ubuntu-latest
     steps:
-      - name: Extract issues and comment
-        uses: actions/github-script@v6
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
-          script: |
-            const prBody = context.payload.pull_request.body || "";
-            // Find all instances of "Closes #123"
-            const regex = /Closes #(\d+)/g;
-            let match;
-            const issueNumbers = [];
-            
-            while ((match = regex.exec(prBody)) !== null) {
-              issueNumbers.push(parseInt(match[1]));
-            }
-            
-            if (issueNumbers.length === 0) {
-              console.log("No related issues found in PR body.");
-              return;
-            }
-            
-            console.log(`Found issues: ${issueNumbers.join(', ')}`);
-            
-            for (const issueNumber of [...new Set(issueNumbers)]) {
-              try {
-                // Post comment
-                await github.rest.issues.createComment({
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  issue_number: issueNumber,
-                  body: "🎉 Your submission has been successfully merged into the directory!\n\nThank you for contributing to the Awesome Snapmaker List. This issue is now formally closed."
-                });
-                
-                // Explicitly ensure the issue is closed
-                await github.rest.issues.update({
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  issue_number: issueNumber,
-                  state: "closed"
-                });
-                console.log(`Commented and closed issue #${issueNumber}`);
-              } catch (error) {
-                console.error(`Failed to process issue #${issueNumber}`, error);
-              }
-            }
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Extract issues and comment
+        env:
+          PR_BODY: ${{ github.event.pull_request.body }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python .github/scripts/on_pr_merged.py

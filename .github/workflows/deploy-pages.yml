@@ -42,21 +42,27 @@ jobs:
       - name: Generate README
         run: python .github/scripts/generate_readme.py
 
-      - name: Run Tag Sync Script
-        run: python .github/scripts/sync_issue_tags.py
+      - name: Generate Issue Templates
+        run: python .github/scripts/generate_issue_templates.py
 
       - name: Run SEO Injection Script
         run: node .github/scripts/generate_og_tags.js
 
-      - name: Commit and Push Changes
+      - name: Commit and Push Persistent Changes
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md .github/ISSUE_TEMPLATE/1-submit-resource.yml index.html
-          git commit -m "chore: Auto-generate assets from data.yml (README, Tags, SEO)" || exit 0
+          git add README.md .github/ISSUE_TEMPLATE/*.yml index.html
+          git commit -m "chore: Auto-generate assets (README, Templates, SEO)" || exit 0
           for i in 1 2 3 4 5; do
             git pull --rebase origin main && git push && break || sleep 5
           done
+
+      - name: Generate Ephemeral Localized Pages
+        run: python .github/scripts/generate_localized_pages.py
+
+      - name: Generate Ephemeral Open Graph Redirects
+        run: python .github/scripts/generate_record_pages.py
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
