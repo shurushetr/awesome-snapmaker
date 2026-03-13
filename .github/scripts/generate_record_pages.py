@@ -6,7 +6,8 @@ import html
 # Paths
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 DATA_FILE = os.path.join(BASE_DIR, 'data.yml')
-R_DIR = os.path.join(BASE_DIR, 'r')
+DIST_DIR = os.path.join(BASE_DIR, 'dist')
+R_DIR = os.path.join(DIST_DIR, 'r')
 
 DEFAULT_IMAGE = "https://awesome-sm-list.xyz/images/AwesomeList_TopImage.jpg"
 

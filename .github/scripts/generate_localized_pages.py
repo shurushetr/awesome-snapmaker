@@ -14,6 +14,7 @@ import shutil
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 LOCALES_DIR = os.path.join(BASE_DIR, 'locales')
 INDEX_FILE = os.path.join(BASE_DIR, 'index.html')
+DIST_DIR = os.path.join(BASE_DIR, 'dist')
 
 def load_yaml(filepath):
     with open(filepath, 'r', encoding='utf-8') as f:
@@ -75,7 +76,7 @@ def generate_pages():
             pattern_ph = re.compile(rf'<[^>]+data-i18n-placeholder="{key}"[^>]*>', re.IGNORECASE)
             lang_html = pattern_ph.sub(lambda m, rep=text: replace_placeholder(m, rep), lang_html)
             
-        out_dir = os.path.join(BASE_DIR, lang_code)
+        out_dir = os.path.join(DIST_DIR, lang_code)
         os.makedirs(out_dir, exist_ok=True)
         out_file = os.path.join(out_dir, 'index.html')
         
