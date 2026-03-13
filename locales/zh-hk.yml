@@ -20,10 +20,9 @@ ui_filter_official: "按官方篩選："
 ui_filter_difficulty: "按難度篩選："
 ui_filter_cost: "按費用篩選："
 ui_filter_lang: "按語言篩選："
-ui_filter_tips: "<strong>篩選提示：</strong> 點擊標籤一次可<span style='color:
-  #10b981; font-weight: bold;'>包含</span>該標籤（綠色）。再次點擊可<span style='\
-  color: #ef4444; font-weight: bold; text-decoration: line-through;'>排除</span>
-  該標籤（紅色）。"
+ui_filter_tips: "<strong>篩選提示：</strong> 點擊標籤一次可<span style='color: #10b981; font-weight:
+  bold;'>包含</span>該標籤（綠色）。再次點擊可<span style='color: #ef4444; font-weight: bold; text-decoration:
+  line-through;'>排除</span> 該標籤（紅色）。"
 ui_sort_label: "排序方式："
 ui_sort_newest: "最新到最舊"
 ui_sort_oldest: "最舊到最新"
@@ -90,7 +89,8 @@ bot_merged: "🎉 您的提交已成功合併至目錄中！\n\n感謝您為 Awe
 # --- GitHub Issue Template (Submit) ---
 issue_submit_title: "👉 新增資源"
 issue_submit_desc: "向 Awesome Snapmaker List 提交新資源（工具、教學、改裝方案等）！"
-issue_submit_body: "感謝您花時間向 Awesome Snapmaker List 提交新資源！\n\n請填寫以下表單。提交後，我們的自動機器人將建立 Pull Request 將其加入資料庫，維護者只需一鍵即可批准！"
+issue_submit_body: "感謝您花時間向 Awesome Snapmaker List 提交新資源！\n\n請填寫以下表單。提交後，我們的自動機器人將建立
+  Pull Request 將其加入資料庫，維護者只需一鍵即可批准！"
 issue_description_label: "資源描述"
 issue_description_desc: "簡要說明這個資源的內容。"
 issue_description_placeholder: "這份教學涵蓋了最佳設定，適用於…"
