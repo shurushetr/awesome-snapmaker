@@ -4,30 +4,50 @@
 # It contains all the English static UI strings, bot comments, and Issue Template variables.
 # Codeberg Translate (Weblate) uses this file as the structural template when generating other language files.
 #
+
+# --- Main UI Frontend Elements ---
+ui_title: "Awesome Snapmaker List"
+ui_subtitle: "A curated list of awesome Snapmaker resources, mods, and guides."
+ui_contribute: "Contribute"
+ui_discuss: "Discuss"
+ui_contact_author: "Contact Author"
 btn_submit: "Submit a New Item"
 btn_show_favs: "★ Show Favorites"
+btn_share: "Share View"
+btn_clear_filters: "Clear All Filters"
 filter_machine: "Filter by Machine:"
 filter_tool: "Filter by Tool:"
 filter_type: "Filter by Type:"
 filter_official: "Filter by Official:"
-filter_cost: "Filter by Cost:"
-btn_clear_filters: "Clear All Filters"
 filter_difficulty: "Filter by Difficulty:"
+filter_cost: "Filter by Cost:"
 filter_lang: "Filter by Language:"
+filter_tips_prefix: "Filter Tips:"
+filter_tips_text1: "Tap a tag once to"
+filter_tips_include: "Include"
+filter_tips_text2: "it (green). Tap it again to"
+filter_tips_exclude: "Exclude"
+filter_tips_text3: "it (red)."
 sort_label: "Sort by:"
 sort_newest: "Newest to Oldest"
 sort_oldest: "Oldest to Newest"
 sort_alpha: "Alphabetical A-Z"
+ui_show_limit: "Show count limit:"
+limit_all: "All"
 search_placeholder: "Search resources..."
+ui_items_found: "items found"
+ui_item_found: "item found"
+tag_official: "OFFICIAL"
+tag_unofficial: "UNOFFICIAL"
+
+# --- Bot Comments ---
 bot_duplicate: "Thanks for submitting! However, it looks like this resource already exists in our directory:\n\n🔗 https://awesome-sm-list.xyz/#"
 bot_duplicate_issue: "Thanks for submitting! However, it looks like someone else has already submitted this resource and it is currently pending review in "
 bot_rejected: "Thanks for submitting! For the safety of our users, we do not accept direct links to executable files (.exe, .msi, etc.). Please link to the project's homepage or repository instead."
 bot_unique: "Thanks for submitting! A maintainer will review your submission shortly. We appreciate your contribution to the Awesome Snapmaker List! 🚀"
 bot_merged: "🎉 Your submission has been successfully merged into the directory!\n\nThank you for contributing to the Awesome Snapmaker List. This issue is now formally closed."
-tag_official: "OFFICIAL"
-tag_unofficial: "UNOFFICIAL"
 
-# --- GitHub Issue Template ---
+# --- GitHub Issue Template (Submit) ---
 issue_submit_title: "👉 Add a New Resource"
 issue_submit_desc: "Submit a new resource (tool, guide, mod, etc.) to the Awesome Snapmaker List!"
 issue_submit_body: "Thanks for taking the time to submit a new resource to the Awesome Snapmaker List!\n\nPlease fill out the form below. Once submitted, our automated bot will generate a Pull Request to add this to the database, so the maintainer can approve it with one click!"
@@ -61,25 +81,7 @@ issue_extra_btn1_desc: "Useful for direct PDF/STL downloads."
 issue_extra_btn1_link: "(Optional) Extra Button 1 - Link"
 issue_confirm: "By submitting this issue, you confirm the link is safe and valid."
 
-# --- Main UI Frontend Elements ---
-ui_title: "Awesome Snapmaker List"
-ui_subtitle: "A curated list of awesome Snapmaker resources, mods, and guides."
-ui_contribute: "Contribute"
-ui_discuss: "Discuss"
-ui_contact_author: "Contact Author"
-ui_show_limit: "Show count limit:"
-ui_items_found: "items found"
-ui_item_found: "item found"
-limit_all: "All"
-btn_share: "Share View"
-filter_tips_prefix: "Filter Tips:"
-filter_tips_text1: "Tap a tag once to"
-filter_tips_include: "Include"
-filter_tips_text2: "it (green). Tap it again to"
-filter_tips_exclude: "Exclude"
-filter_tips_text3: "it (red)."
-
-# --- Modify/Remove Issue Template ---
+# --- GitHub Issue Template (Modify/Remove) ---
 issue_modify_title: "✏️ Modify or Remove a Resource"
 issue_modify_desc: "Request a correction, update, or removal of an existing resource on the Awesome List."
 issue_modify_body: "Thank you for helping keep the Awesome Snapmaker List accurate and up to date!\n\nPlease provide the details below so a maintainer can review and apply the changes."
