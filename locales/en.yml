@@ -13,6 +13,17 @@
 # ^issue_.*_body: md-text
 # ------------------------------
 #
+# --- AI / LLM TRANSLATOR INSTRUCTIONS ---
+# If you are an AI translating this file into a new language:
+# 1. ONLY translate the string values. DO NOT translate the YAML keys (e.g. keep `ui_title:` exactly as is).
+# 2. DO NOT translate the names of GitHub tags (e.g. OFFICIAL, UNOFFICIAL, enclosure).
+# 3. PRESERVE all Markdown syntax (like **, [], and () parentheses for links).
+# 4. PRESERVE all HTML tags exactly as they appear (like <strong> and <span style="...">).
+# 5. PRESERVE all newline characters (\n) exactly where they appear.
+# 6. Ensure all translated values remain wrapped in double quotes ("").
+# 7. DO NOT translate commented strings.
+# ----------------------------------------
+
 
 # --- Main UI Frontend Elements ---
 ui_title: "Awesome Snapmaker List"
