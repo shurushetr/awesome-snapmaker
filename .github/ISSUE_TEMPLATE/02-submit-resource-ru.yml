@@ -1,9 +1,9 @@
-name: 👉 Add a New Resource (EN)
+name: 👉 Add a New Resource (RU)
 description: Submit a new resource (tool, guide, mod, etc.) to the Awesome 
   Snapmaker List!
 title: '[Submission] '
 labels:
-  - lang:en
+  - lang:ru
   - new-submission
 body:
   - type: markdown
