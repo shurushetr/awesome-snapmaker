@@ -116,7 +116,7 @@ body:
       description: What kind of resource is this? (Select all that apply)
       options:
         - label: ARTICLE
-        - label: CREATE
+        - label: MAKE SOMETHING
         - label: DISCUSSION
         - label: DOWNLOAD
         - label: FIRMWARE
