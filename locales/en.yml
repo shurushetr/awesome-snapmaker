@@ -21,7 +21,6 @@
 # 4. PRESERVE all HTML tags exactly as they appear (like <strong> and <span style="...">).
 # 5. PRESERVE all newline characters (\n) exactly where they appear.
 # 6. Ensure all translated values remain wrapped in double quotes ("").
-# 7. DO NOT translate commented strings.
 # ----------------------------------------
 
 
