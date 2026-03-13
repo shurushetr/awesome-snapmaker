@@ -118,7 +118,8 @@ async function init() {
             'en': '🌐 English (EN)', 'de': 'Deutsch (DE)', 'es': 'Español (ES)', 
             'it': 'Italiano (IT)', 'pl': 'Polski (PL)', 'fr': 'Français (FR)', 
             'he': 'עברית (HE)', 'ar': 'العربية (AR)', 'da': 'Dansk (DA)', 
-            'zh-CN': '简体中文 (ZH-CN)', 'zh-HK': '繁體中文 (ZH-HK)'
+            'ru': 'Русский (RU)', 'zh-CN': '简体中文 (ZH-CN)', 
+            'zh-HK': '繁體中文 (ZH-HK)', 'en-pirate': 'English Pirate (EN-PIRATE)'
         };
         
         let detectedLang = 'en';
@@ -681,6 +682,9 @@ function renderRecords(records) {
     const t = translations[currentLang] || translations['en'] || {};
     const itemsFoundTxt = t.ui_items_found || "items found";
     const itemFoundTxt = t.ui_item_found || "item found";
+    const contentAuthorTxt = t.ui_content_author || "Content Author:";
+    const addedTxt = t.ui_added || "Added:";
+    const viewResourceTxt = t.ui_view_resource || "View Resource";
     DOM.resultCount.textContent = `${records.length} ${records.length !== 1 ? itemsFoundTxt : itemFoundTxt}`;
     DOM.recordsContainer.innerHTML = '';
 
@@ -718,7 +722,7 @@ function renderRecords(records) {
         if (t.free_tags) t.free_tags.forEach(tag => tagsHtml += `<span class="tag">${tag}</span>`); // Typically untranslated
 
         // Generate Buttons HTML
-        let buttonsHtml = `<a href="${ensureAbsoluteUrl(record.original_link)}" class="btn primary-btn" target="_blank" rel="noopener noreferrer">View Resource</a>`;
+        let buttonsHtml = `<a href="${ensureAbsoluteUrl(record.original_link)}" class="btn primary-btn" target="_blank" rel="noopener noreferrer">${viewResourceTxt}</a>`;
         if (record.extra_buttons) {
             record.extra_buttons.forEach(btn => {
                 buttonsHtml += `<a href="${ensureAbsoluteUrl(btn.link)}" class="btn secondary-btn" target="_blank" rel="noopener noreferrer">${btn.label}</a>`;
@@ -749,7 +753,7 @@ function renderRecords(records) {
                         </button>
                     </h3>
                     <div class="card-meta">
-                        Content Author: <a href="${ensureAbsoluteUrl(record.author_link)}" target="_blank" rel="noopener noreferrer">${record.author_name}</a> | Added: ${record.date_added}
+                        ${contentAuthorTxt} <a href="${ensureAbsoluteUrl(record.author_link)}" target="_blank" rel="noopener noreferrer">${record.author_name}</a> | ${addedTxt} ${record.date_added}
                     </div>
                 </div>
             ${descHtml}
