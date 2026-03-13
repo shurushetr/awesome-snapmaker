@@ -54,6 +54,7 @@ def generate_templates():
         template = {
             'name': f"{t('issue_submit_title', '👉 Add a New Resource')} ({lang.upper()})",
             'description': t('issue_submit_desc', 'Submit a new resource'),
+            'title': '[Submission] ',
             'labels': [f"lang:{lang}", "new-submission"],
             'body': [
                 {
