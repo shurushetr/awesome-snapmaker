@@ -4,6 +4,15 @@
 # It contains all the English static UI strings, bot comments, and Issue Template variables.
 # Codeberg Translate (Weblate) uses this file as the structural template when generating other language files.
 #
+# --- WEBLATE SETUP REMINDER ---
+# To prevent Weblate from throwing translation warnings on strings with heavy formatting
+# (like URLs, newlines, or markdown), navigate to Component -> Settings -> Translation flags
+# and paste the following regular expressions into the configuration box:
+#
+# ^bot_.*: md-text
+# ^issue_.*_body: md-text
+# ------------------------------
+#
 
 # --- Main UI Frontend Elements ---
 ui_title: "Awesome Snapmaker List"
@@ -11,34 +20,29 @@ ui_subtitle: "A curated list of awesome Snapmaker resources, mods, and guides."
 ui_contribute: "Contribute"
 ui_discuss: "Discuss"
 ui_contact_author: "Contact Author"
-btn_submit: "Submit a New Item"
-btn_show_favs: "★ Show Favorites"
-btn_share: "Share View"
-btn_clear_filters: "Clear All Filters"
-filter_machine: "Filter by Machine:"
-filter_tool: "Filter by Tool:"
-filter_type: "Filter by Type:"
-filter_official: "Filter by Official:"
-filter_difficulty: "Filter by Difficulty:"
-filter_cost: "Filter by Cost:"
-filter_lang: "Filter by Language:"
-filter_tips_prefix: "Filter Tips:"
-filter_tips_text1: "Tap a tag once to"
-filter_tips_include: "Include"
-filter_tips_text2: "it (green). Tap it again to"
-filter_tips_exclude: "Exclude"
-filter_tips_text3: "it (red)."
-sort_label: "Sort by:"
-sort_newest: "Newest to Oldest"
-sort_oldest: "Oldest to Newest"
-sort_alpha: "Alphabetical A-Z"
+ui_btn_submit: "Submit a New Item"
+ui_btn_show_favs: "★ Show Favorites"
+ui_btn_share: "Share View"
+ui_btn_clear_filters: "Clear All Filters"
+ui_filter_machine: "Filter by Machine:"
+ui_filter_tool: "Filter by Tool:"
+ui_filter_type: "Filter by Type:"
+ui_filter_official: "Filter by Official:"
+ui_filter_difficulty: "Filter by Difficulty:"
+ui_filter_cost: "Filter by Cost:"
+ui_filter_lang: "Filter by Language:"
+ui_filter_tips: "<strong>Filter Tips:</strong> Tap a tag once to <span style=\"color: #10b981; font-weight: bold;\">Include</span> it (green). Tap it again to <span style=\"color: #ef4444; font-weight: bold; text-decoration: line-through;\">Exclude</span> it (red)."
+ui_sort_label: "Sort by:"
+ui_sort_newest: "Newest to Oldest"
+ui_sort_oldest: "Oldest to Newest"
+ui_sort_alpha: "Alphabetical A-Z"
 ui_show_limit: "Show count limit:"
-limit_all: "All"
-search_placeholder: "Search resources..."
+ui_limit_all: "All"
+ui_search_placeholder: "Search resources..."
 ui_items_found: "items found"
 ui_item_found: "item found"
-tag_official: "OFFICIAL"
-tag_unofficial: "UNOFFICIAL"
+ui_tag_official: "OFFICIAL"
+ui_tag_unofficial: "UNOFFICIAL"
 
 # --- Bot Comments ---
 bot_duplicate: "Thanks for submitting! However, it looks like this resource already exists in our directory:\n\n🔗 https://awesome-sm-list.xyz/#"
