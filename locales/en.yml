@@ -23,6 +23,7 @@
 # 6. PRESERVE all newline characters (\n) exactly where they appear.
 # 7. Ensure all translated values remain wrapped in double quotes ("").
 # 8. PRESERVE the original Camel Case formatting wherever it is applied to technical terms.
+# 9. TONE AND STYLE: Translate in a friendly, engaging, and conversational tone suitable for a maker/3D-printing community. Avoid overly formal or corporate language. Use natural, idiomatic expressions specific to the target language rather than literal word-for-word translations, to minimize the need for human correction.
 # ----------------------------------------
 
 
