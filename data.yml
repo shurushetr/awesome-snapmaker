@@ -100,17 +100,19 @@ allowed_tags:
   - PAID
   - FREEMIUM
   language:
-  - EN
-  - DE
-  - ES
-  - IT
-  - PL
-  - FR
-  - HE
   - AR
   - DA
+  - DE
+  - EN
+  - ES
+  - FR
+  - HE
+  - IT
+  - PL
+  - RU
   - ZH-CN
   - ZH-HK
+  - EN-PIRATE
 
 ### records
 records:
