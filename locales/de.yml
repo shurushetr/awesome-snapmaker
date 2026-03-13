@@ -4,7 +4,8 @@
 
 # --- Main UI Frontend Elements ---
 ui_title: "Awesome Snapmaker List"
-ui_subtitle: "Eine kuratierte Liste mit großartigen Snapmaker-Ressourcen, Mods und Anleitungen."
+ui_subtitle: "Eine kuratierte Liste mit großartigen Snapmaker-Ressourcen, Mods und
+  Anleitungen."
 ui_contribute: "Beitragen"
 ui_discuss: "Diskutieren"
 ui_contact_author: "Autor kontaktieren"
@@ -20,9 +21,9 @@ ui_filter_official: "Nach Offiziell filtern:"
 ui_filter_difficulty: "Nach Schwierigkeitsgrad filtern:"
 ui_filter_cost: "Nach Kosten filtern:"
 ui_filter_lang: "Nach Sprache filtern:"
-ui_filter_tips: "<strong>Filtertipps:</strong> Einmal auf ein Tag tippen, um es <span style='color:
-  #10b981; font-weight: bold;'>einzuschließen</span> (grün). Nochmal tippen, um es <span style='\
-  color: #ef4444; font-weight: bold; text-decoration: line-through;'>auszuschließen</span>
+ui_filter_tips: "<strong>Filtertipps:</strong> Einmal auf ein Tag tippen, um es <span
+  style='color: #10b981; font-weight: bold;'>einzuschließen</span> (grün). Nochmal
+  tippen, um es <span style='color: #ef4444; font-weight: bold; text-decoration: line-through;'>auszuschließen</span>
   (rot)."
 ui_sort_label: "Sortieren nach:"
 ui_sort_newest: "Neueste zuerst"
@@ -81,21 +82,36 @@ tag_zh-hk: "ZH-HK"
 tag_en-pirate: "EN-PIRATE"
 
 # --- Bot Comments ---
-bot_duplicate: "Danke für deine Einreichung! Diese Ressource ist jedoch bereits in unserem Verzeichnis vorhanden:\n\n🔗 https://awesome-sm-list.xyz/#"
-bot_duplicate_issue: "Danke für deine Einreichung! Es sieht jedoch so aus, als hätte jemand anderes diese Ressource bereits eingereicht, und sie wird derzeit geprüft in "
-bot_rejected: "Danke für deine Einreichung! Aus Sicherheitsgründen akzeptieren wir keine direkten Links zu ausführbaren Dateien (.exe, .msi usw.). Bitte verlinke stattdessen auf die Projektwebseite oder das Repository."
-bot_unique: "Danke für deine Einreichung! Ein Maintainer wird sie in Kürze prüfen. Wir schätzen deinen Beitrag zur Awesome Snapmaker List! 🚀"
-bot_merged: "🎉 Deine Einreichung wurde erfolgreich in das Verzeichnis aufgenommen!\n\nDanke für deinen Beitrag zur Awesome Snapmaker List. Dieses Issue ist jetzt offiziell geschlossen."
+bot_duplicate: "Danke für deine Einreichung! Diese Ressource ist jedoch bereits in
+  unserem Verzeichnis vorhanden:\n\n🔗 https://awesome-sm-list.xyz/#"
+bot_duplicate_issue: "Danke für deine Einreichung! Es sieht jedoch so aus, als hätte
+  jemand anderes diese Ressource bereits eingereicht, und sie wird derzeit geprüft
+  in "
+bot_rejected: "Danke für deine Einreichung! Aus Sicherheitsgründen akzeptieren wir
+  keine direkten Links zu ausführbaren Dateien (.exe, .msi usw.). Bitte verlinke stattdessen
+  auf die Projektwebseite oder das Repository."
+bot_unique: "Danke für deine Einreichung! Ein Maintainer wird sie in Kürze prüfen.
+  Wir schätzen deinen Beitrag zur Awesome Snapmaker List! 🚀"
+bot_merged: "🎉 Deine Einreichung wurde erfolgreich in das Verzeichnis aufgenommen!\n\
+  \nDanke für deinen Beitrag zur Awesome Snapmaker List. Dieses Issue ist jetzt offiziell
+  geschlossen."
 
 # --- GitHub Issue Template (Submit) ---
 issue_submit_title: "👉 Neue Ressource hinzufügen"
-issue_submit_desc: "Reiche eine neue Ressource (Werkzeug, Anleitung, Mod usw.) für die Awesome Snapmaker List ein!"
-issue_submit_body: "Danke, dass du dir die Zeit nimmst, eine neue Ressource zur Awesome Snapmaker List einzureichen!\n\nBitte fülle das Formular unten aus. Nach der Einreichung erstellt unser automatisierter Bot einen Pull Request, um sie zur Datenbank hinzuzufügen – der Maintainer kann ihn dann mit einem Klick genehmigen!"
+issue_submit_desc: "Reiche eine neue Ressource (Werkzeug, Anleitung, Mod usw.) für
+  die Awesome Snapmaker List ein!"
+issue_submit_body: "Danke, dass du dir die Zeit nimmst, eine neue Ressource zur Awesome
+  Snapmaker List einzureichen!\n\nBitte fülle das Formular unten aus. Nach der Einreichung
+  erstellt unser automatisierter Bot einen Pull Request, um sie zur Datenbank hinzuzufügen
+  – der Maintainer kann ihn dann mit einem Klick genehmigen!"
 issue_description_label: "Ressourcenbeschreibung"
-issue_description_desc: "Gib eine kurze Zusammenfassung, worum es bei dieser Ressource geht."
-issue_description_placeholder: "Diese Anleitung behandelt die besten Einstellungen für…"
+issue_description_desc: "Gib eine kurze Zusammenfassung, worum es bei dieser Ressource
+  geht."
+issue_description_placeholder: "Diese Anleitung behandelt die besten Einstellungen
+  für…"
 issue_author_name_label: "Autorenname"
-issue_author_name_desc: "Wer hat diese Ressource erstellt? (Verwende deinen Namen oder Benutzernamen, wenn es deine ist)"
+issue_author_name_desc: "Wer hat diese Ressource erstellt? (Verwende deinen Namen
+  oder Benutzernamen, wenn es deine ist)"
 issue_author_link_label: "Autorenlink"
 issue_author_link_desc: "Link zum Profil des Autors (GitHub, Thingiverse, Forum usw.)"
 issue_original_link_label: "Inhaltslink (Original-URL)"
@@ -105,33 +121,46 @@ issue_cost_label: "Kosten"
 issue_language_label: "Sprache"
 issue_language_desc: "In welcher Hauptsprache ist diese Ressource verfasst?"
 issue_machine_type_label: "Maschinentyp(en)"
-issue_machine_type_desc: "Für welche Snapmaker-Maschinen gilt das? (Alle zutreffenden auswählen)"
+issue_machine_type_desc: "Für welche Snapmaker-Maschinen gilt das? (Alle zutreffenden
+  auswählen)"
 issue_machine_tool_type_label: "Maschinenwerkzeugtyp(en)"
-issue_machine_tool_type_desc: "Welche Module/Werkzeugköpfe sind relevant? (Alle zutreffenden auswählen)"
+issue_machine_tool_type_desc: "Welche Module/Werkzeugköpfe sind relevant? (Alle zutreffenden
+  auswählen)"
 issue_record_type_label: "Eintragstyp(en)"
-issue_record_type_desc: "Um welche Art von Ressource handelt es sich? (Alle zutreffenden auswählen)"
+issue_record_type_desc: "Um welche Art von Ressource handelt es sich? (Alle zutreffenden
+  auswählen)"
 issue_official_label: "Offizielle Snapmaker-Ressource?"
 issue_official_desc: "Ist dies eine offizielle Snapmaker-Ressource oder eine Community-Erstellung?"
 issue_official_no: "Nein"
 issue_official_yes: "Ja"
 issue_free_tags_label: "Freie Tags"
-issue_free_tags_desc: "Kommagetrennte Tags (z.B. OFFICIAL, UNOFFICIAL, enclosure, cooling)"
+issue_free_tags_desc: "Kommagetrennte Tags (z.B. OFFICIAL, UNOFFICIAL, enclosure,
+  cooling)"
 issue_extra_btn1_label: "(Optional) Zusätzlicher Button 1 - Bezeichnung"
 issue_extra_btn1_desc: "Nützlich für direkte PDF/STL-Downloads."
 issue_extra_btn1_link: "(Optional) Zusätzlicher Button 1 - Link"
-issue_confirm: "Mit dem Einreichen dieses Issues bestätigst du, dass der Link sicher und gültig ist."
+issue_confirm: "Mit dem Einreichen dieses Issues bestätigst du, dass der Link sicher
+  und gültig ist."
 
 # --- GitHub Issue Template (Modify/Remove) ---
 issue_modify_title: "✏️ Ressource bearbeiten oder entfernen"
-issue_modify_desc: "Korrekturen, Aktualisierungen oder das Entfernen einer bestehenden Ressource in der Awesome List beantragen."
-issue_modify_body: "Danke, dass du dabei hilfst, die Awesome Snapmaker List aktuell und korrekt zu halten!\n\nBitte gib die Details unten an, damit ein Maintainer die Änderungen prüfen und übernehmen kann."
+issue_modify_desc: "Korrekturen, Aktualisierungen oder das Entfernen einer bestehenden
+  Ressource in der Awesome List beantragen."
+issue_modify_body: "Danke, dass du dabei hilfst, die Awesome Snapmaker List aktuell
+  und korrekt zu halten!\n\nBitte gib die Details unten an, damit ein Maintainer die
+  Änderungen prüfen und übernehmen kann."
 issue_modify_type_label: "Was möchtest du tun?"
-issue_modify_type_update: "Eine bestehende Ressource aktualisieren (toter Link, falsche Tags, Tippfehler usw.)"
-issue_modify_type_remove: "Eine Ressource entfernen (existiert nicht mehr, unangemessen, veraltet)"
+issue_modify_type_update: "Eine bestehende Ressource aktualisieren (toter Link, falsche
+  Tags, Tippfehler usw.)"
+issue_modify_type_remove: "Eine Ressource entfernen (existiert nicht mehr, unangemessen,
+  veraltet)"
 issue_modify_current_link_label: "Aktueller Ressourcenlink"
-issue_modify_current_link_desc: "Füge den 'Inhaltslink' der Ressource ein, die sich aktuell auf der Website befindet."
+issue_modify_current_link_desc: "Füge den 'Inhaltslink' der Ressource ein, die sich
+  aktuell auf der Website befindet."
 issue_modify_new_link_label: "Neuer Ressourcenlink (falls zutreffend)"
-issue_modify_new_link_desc: "Falls die Ressource unter einer neuen URL erreichbar ist, füge den neuen Link hier ein. Leer lassen, wenn nicht zutreffend."
+issue_modify_new_link_desc: "Falls die Ressource unter einer neuen URL erreichbar
+  ist, füge den neuen Link hier ein. Leer lassen, wenn nicht zutreffend."
 issue_modify_reason_label: "Grund für die Änderung / Neue Details"
-issue_modify_reason_desc: "Erkläre, was geändert werden soll (z.B. 'Der Link ist tot' oder 'Bitte Kosten auf FREE und Maschine auf Artisan ändern')."
+issue_modify_reason_desc: "Erkläre, was geändert werden soll (z.B. 'Der Link ist tot'
+  oder 'Bitte Kosten auf FREE und Maschine auf Artisan ändern')."
 issue_modify_reason_placeholder: "Beschreibe die benötigte Korrektur kurz hier…"
