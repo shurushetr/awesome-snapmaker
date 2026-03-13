@@ -1,3 +1,11 @@
+/**
+ * app.js
+ * 
+ * Core frontend logic for the Awesome Snapmaker List SPA.
+ * Handles YAML data fetching, multi-lingual DOM mapping via HTML data-i18n attributes, 
+ * dynamic search/filtering, local storage persistence, and URL state routing.
+ */
+
 // Global State
 let allRecords = [];
 let fuse;
@@ -64,18 +72,19 @@ const TAGS = {
 async function init() {
     try {
         const prefix = document.querySelector('meta[name="is-localized"]') ? '../' : '';
-        const [dataResponse, transResponse] = await Promise.all([
+        const [dataResponse, enResponse] = await Promise.all([
             fetch(prefix + 'data.yml'),
-            fetch(prefix + 'translations.yml')
+            fetch(prefix + 'locales/en.yml')
         ]);
         if (!dataResponse.ok) throw new Error('data.yml network response was not ok');
-        if (!transResponse.ok) throw new Error('translations.yml network response was not ok');
+        if (!enResponse.ok) throw new Error('locales/en.yml network response was not ok');
         
         const dataYamlText = await dataResponse.text();
-        const transYamlText = await transResponse.text();
+        const enYamlText = await enResponse.text();
         
         const data = jsyaml.load(dataYamlText);
-        translations = jsyaml.load(transYamlText);
+        const enDict = jsyaml.load(enYamlText);
+        translations['en'] = enDict || {};
 
         setupProjectInfo(data.project_info);
 
@@ -104,7 +113,55 @@ async function init() {
             if (TAGS.cost.length === 0) TAGS.cost = Array.from(costs).sort();
         }
 
-        setupI18n();
+        // Detect Language & Fetch Target Locales
+        const languageNames = {
+            'en': '🌐 English (EN)', 'de': 'Deutsch (DE)', 'es': 'Español (ES)', 
+            'it': 'Italiano (IT)', 'pl': 'Polski (PL)', 'fr': 'Français (FR)', 
+            'he': 'עברית (HE)', 'ar': 'العربية (AR)', 'da': 'Dansk (DA)', 
+            'zh-CN': '简体中文 (ZH-CN)', 'zh-HK': '繁體中文 (ZH-HK)'
+        };
+        
+        let detectedLang = 'en';
+        const savedLang = localStorage.getItem('lang');
+        const pathSegments = window.location.pathname.split('/').filter(Boolean);
+        const pathLang = pathSegments.length > 0 && languageNames[pathSegments[0]] ? pathSegments[0] : null;
+
+        if (pathLang) {
+            detectedLang = pathLang;
+            localStorage.setItem('lang', detectedLang);
+        } else if (savedLang && languageNames[savedLang]) {
+            detectedLang = savedLang;
+        } else {
+            const browserLang = navigator.language.split('-')[0].toLowerCase();
+            if (languageNames[browserLang]) detectedLang = browserLang;
+        }
+
+        currentLang = detectedLang;
+
+        // Redirect to localized subfolder if required
+        if (currentLang !== 'en' && (window.location.pathname === '/' || window.location.pathname.endsWith('index.html'))) {
+            if (window.location.protocol.startsWith('http')) {
+                window.location.href = `/${currentLang}/` + window.location.hash + window.location.search;
+                return; // Stop execution to redirect
+            }
+        }
+
+        if (currentLang !== 'en') {
+            try {
+                const targetRes = await fetch(prefix + `locales/${currentLang}.yml`);
+                if (targetRes.ok) {
+                    const targetDict = jsyaml.load(await targetRes.text());
+                    translations[currentLang] = Object.assign({}, enDict, targetDict || {});
+                } else {
+                    translations[currentLang] = enDict;
+                }
+            } catch (e) {
+                console.warn(`Translation file locales/${currentLang}.yml missing, falling back to English.`);
+                translations[currentLang] = enDict;
+            }
+        }
+
+        setupI18n(languageNames);
         setupFilters();
         setupFuse();
 
@@ -141,19 +198,13 @@ async function init() {
 }
 
 // i18n Logic
-function setupI18n() {
+function setupI18n(languageNames) {
     const langDropdown = document.getElementById('lang-dropdown');
     
-    // Populate dropdown with available languages
-    if (langDropdown && translations) {
+    // Populate dropdown with available static languages
+    if (langDropdown && languageNames) {
         langDropdown.innerHTML = '';
-        const languageNames = {
-            'en': '🌐 English (EN)', 'de': 'Deutsch (DE)', 'es': 'Español (ES)', 
-            'it': 'Italiano (IT)', 'pl': 'Polski (PL)', 'fr': 'Français (FR)', 
-            'he': 'עברית (HE)', 'ar': 'العربية (AR)', 'da': 'Dansk (DA)', 
-            'zh-CN': '简体中文 (ZH-CN)', 'zh-HK': '繁體中文 (ZH-HK)'
-        };
-        for (const langKey in translations) {
+        for (const langKey in languageNames) {
             const displayName = languageNames[langKey] || langKey.toUpperCase();
             const option = document.createElement('option');
             option.value = langKey;
@@ -162,35 +213,6 @@ function setupI18n() {
         }
     }
 
-    // Detect Language Setting
-    let detectedLang = 'en';
-    const savedLang = localStorage.getItem('lang');
-    
-    // Are we physically in a parameterized subfolder like /de/ ?
-    const pathSegments = window.location.pathname.split('/').filter(Boolean);
-    const pathLang = pathSegments.length > 0 && translations[pathSegments[0]] ? pathSegments[0] : null;
-
-    if (pathLang) {
-        detectedLang = pathLang;
-        localStorage.setItem('lang', detectedLang);
-    } else if (savedLang && translations[savedLang]) {
-        detectedLang = savedLang;
-        // If we want a localized experience but we are on the global english root URL
-        if (detectedLang !== 'en' && (window.location.pathname === '/' || window.location.pathname.endsWith('index.html'))) {
-            if (window.location.protocol.startsWith('http')) {
-                window.location.href = `/${detectedLang}/` + window.location.hash + window.location.search;
-                return; // Stop execution to redirect
-            }
-        }
-    } else {
-        const browserLang = navigator.language.split('-')[0].toLowerCase();
-        if (translations[browserLang]) {
-            detectedLang = browserLang;
-        }
-    }
-
-    currentLang = detectedLang;
-    
     // Set Dropdown state and attach change listener
     if (langDropdown) {
         langDropdown.value = currentLang;
@@ -201,8 +223,7 @@ function setupI18n() {
                 const targetPath = newLang === 'en' ? '/' : `/${newLang}/`;
                 window.location.href = targetPath + window.location.hash + window.location.search;
             } else {
-                currentLang = newLang; // Fallback for local files
-                applyTranslationsDOM();
+                window.location.reload(); // Fallback for local file:// mode to reload the new JSON
             }
         });
     }

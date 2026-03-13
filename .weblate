@@ -1,8 +1,14 @@
+# .weblate
+#
+# This file automatically configures Codeberg Translate (Weblate) to parse the `locales/` directory.
+# Weblate will use `locales/en.yml` as the base language, and automatically discover/create other language files within `locales/`.
+#
 version: 1
 
 components:
   - name: Awesome Snapmaker List Translations
-    filemask: translations.yml
+    filemask: "locales/*.yml"
+    monolingual_base: "locales/en.yml"
     template: ""
-    file_format: yaml
+    file_format: "yaml"
     edit_template: false

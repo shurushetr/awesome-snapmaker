@@ -1,3 +1,10 @@
+"""
+on_pr_merged.py
+
+This script runs after a Pull Request is merged. It detects if the PR resolves an active community submission issue.
+If so, it posts a localized "Thank you" comment on the original issue (based on its `lang:` label) and closes it.
+"""
+
 import os
 import re
 import sys
@@ -6,17 +13,22 @@ from ruamel.yaml import YAML
 
 def get_translation(lang, key, default_en=''):
     base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-    trans_file = os.path.join(base_dir, 'translations.yml')
+    locales_dir = os.path.join(base_dir, 'locales')
     
     try:
-        with open(trans_file, 'r', encoding='utf-8') as f:
-            trans = YAML(typ='safe').load(f)
+        with open(os.path.join(locales_dir, 'en.yml'), 'r', encoding='utf-8') as f:
+            en_str = YAML(typ='safe').load(f).get(key, default_en)
             
-        en_str = trans.get('en', {}).get(key, default_en)
-        if lang == 'en' or lang not in trans:
+        if lang == 'en':
             return en_str
             
-        lang_str = trans.get(lang, {}).get(key, en_str)
+        lang_file = os.path.join(locales_dir, f"{lang}.yml")
+        if not os.path.exists(lang_file):
+            return en_str
+            
+        with open(lang_file, 'r', encoding='utf-8') as f:
+            lang_str = YAML(typ='safe').load(f).get(key, en_str)
+            
         if lang_str == en_str:
             return en_str
         return f"{en_str}\n\n---\n\n{lang_str}"

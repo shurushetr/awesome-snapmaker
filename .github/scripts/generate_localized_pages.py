@@ -1,3 +1,10 @@
+"""
+generate_localized_pages.py
+
+This script generates language-specific static HTML shells for the Awesome Snapmaker List during GitHub Actions deployment.
+It reads the base HTML template (`index.html`) and applies translations dynamically from the `locales/` directory.
+"""
+
 import os
 import re
 from ruamel.yaml import YAML
@@ -5,7 +12,7 @@ import shutil
 
 # Paths
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-TRANSLATIONS_FILE = os.path.join(BASE_DIR, 'translations.yml')
+LOCALES_DIR = os.path.join(BASE_DIR, 'locales')
 INDEX_FILE = os.path.join(BASE_DIR, 'index.html')
 
 def load_yaml(filepath):
@@ -21,23 +28,29 @@ def replace_inner(match, replacement):
     return match.group(1) + replacement + match.group(3)
 
 def generate_pages():
-    if not os.path.exists(TRANSLATIONS_FILE):
-        print("No translations.yml found, skipping.")
+    import glob
+    if not os.path.exists(LOCALES_DIR):
+        print("No locales folder found, skipping.")
         return
 
-    translations = load_yaml(TRANSLATIONS_FILE)
-    if not translations:
-        print("No translation dictionary found.")
+    en_file = os.path.join(LOCALES_DIR, 'en.yml')
+    if not os.path.exists(en_file):
+        print("Base en.yml not found.")
         return
+        
+    en_dict = load_yaml(en_file)
 
     with open(INDEX_FILE, 'r', encoding='utf-8') as f:
         html_template = f.read()
 
-    for lang_code, dict_vals in translations.items():
+    for locale_file in glob.glob(os.path.join(LOCALES_DIR, '*.yml')):
+        lang_code = os.path.basename(locale_file).split('.')[0]
         if lang_code == 'en':
             continue # English is root index.html
 
         print(f"Generating localized page for: {lang_code}")
+        dict_vals = en_dict.copy()
+        dict_vals.update(load_yaml(locale_file) or {})
         lang_html = html_template
         
         # Update <html lang="en"> to <html lang="xx">

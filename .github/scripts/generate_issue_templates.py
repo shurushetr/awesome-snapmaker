@@ -1,10 +1,17 @@
+"""
+generate_issue_templates.py
+
+This script dynamically generates GitHub Issue Templates for submitting new resources.
+It iterates through the active languages in the `locales/` directory to create a localized issue form for each supported language.
+"""
+
 import os
 from ruamel.yaml import YAML
 import glob
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 DATA_FILE = os.path.join(BASE_DIR, 'data.yml')
-TRANS_FILE = os.path.join(BASE_DIR, 'translations.yml')
+LOCALES_DIR = os.path.join(BASE_DIR, 'locales')
 ISSUE_DIR = os.path.join(BASE_DIR, '.github', 'ISSUE_TEMPLATE')
 
 def load_yaml(filepath):
@@ -12,12 +19,12 @@ def load_yaml(filepath):
         return YAML(typ='safe').load(f)
 
 def generate_templates():
-    if not os.path.exists(DATA_FILE) or not os.path.exists(TRANS_FILE):
+    if not os.path.exists(DATA_FILE) or not os.path.exists(LOCALES_DIR):
         print("Missing required yaml files.")
         return
 
     data = load_yaml(DATA_FILE)
-    trans = load_yaml(TRANS_FILE)
+    en_dict = load_yaml(os.path.join(LOCALES_DIR, 'en.yml')) or {}
     
     allowed_tags = data.get('allowed_tags', {})
 
@@ -31,17 +38,18 @@ def generate_templates():
 
     idx = 1
     # Ensure English is the first option in the GitHub issue chooser dropdown
-    langs = sorted(trans.keys())
+    locales = [os.path.basename(f).split('.')[0] for f in glob.glob(os.path.join(LOCALES_DIR, '*.yml'))]
+    langs = sorted(locales)
     if 'en' in langs:
         langs.remove('en')
         langs.insert(0, 'en')
 
     for lang in langs:
-        dic = trans[lang]
+        dic = load_yaml(os.path.join(LOCALES_DIR, f"{lang}.yml")) or {}
         
         # Fallback to English dictionary for any missing keys
         def t(key, default=''):
-            return dic.get(key, trans.get('en', {}).get(key, default))
+            return dic.get(key, en_dict.get(key, default))
         
         template = {
             'name': f"{t('issue_submit_title', '👉 Add a New Resource')} ({lang.upper()})",
