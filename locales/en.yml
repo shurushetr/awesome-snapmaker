@@ -31,37 +31,53 @@ ui_filter_official: "Filter by Official:"
 ui_filter_difficulty: "Filter by Difficulty:"
 ui_filter_cost: "Filter by Cost:"
 ui_filter_lang: "Filter by Language:"
-ui_filter_tips: "<strong>Filter Tips:</strong> Tap a tag once to <span style=\"color: #10b981; font-weight: bold;\">Include</span> it (green). Tap it again to <span style=\"color: #ef4444; font-weight: bold; text-decoration: line-through;\">Exclude</span> it (red)."
+ui_filter_tips: "<strong>Filter Tips:</strong> Tap a tag once to <span style=\"color:
+  #10b981; font-weight: bold;\">Include</span> it (green). Tap it again to <span style=\"\
+  color: #ef4444; font-weight: bold; text-decoration: line-through;\">Exclude</span>
+  it (red)."
 ui_sort_label: "Sort by:"
 ui_sort_newest: "Newest to Oldest"
 ui_sort_oldest: "Oldest to Newest"
 ui_sort_alpha: "Alphabetical A-Z"
 ui_show_limit: "Show count limit:"
 ui_limit_all: "All"
-ui_search_placeholder: "Search resources..."
+ui_search_placeholder: "Search resources…"
 ui_items_found: "items found"
 ui_item_found: "item found"
 ui_tag_official: "OFFICIAL"
 ui_tag_unofficial: "UNOFFICIAL"
 
 # --- Bot Comments ---
-bot_duplicate: "Thanks for submitting! However, it looks like this resource already exists in our directory:\n\n🔗 https://awesome-sm-list.xyz/#"
-bot_duplicate_issue: "Thanks for submitting! However, it looks like someone else has already submitted this resource and it is currently pending review in "
-bot_rejected: "Thanks for submitting! For the safety of our users, we do not accept direct links to executable files (.exe, .msi, etc.). Please link to the project's homepage or repository instead."
-bot_unique: "Thanks for submitting! A maintainer will review your submission shortly. We appreciate your contribution to the Awesome Snapmaker List! 🚀"
-bot_merged: "🎉 Your submission has been successfully merged into the directory!\n\nThank you for contributing to the Awesome Snapmaker List. This issue is now formally closed."
+bot_duplicate: "Thanks for submitting! However, it looks like this resource already
+  exists in our directory:\n\n🔗 https://awesome-sm-list.xyz/#"
+bot_duplicate_issue: "Thanks for submitting! However, it looks like someone else has
+  already submitted this resource and it is currently pending review in "
+bot_rejected: "Thanks for submitting! For the safety of our users, we do not accept
+  direct links to executable files (.exe, .msi, etc.). Please link to the project's
+  homepage or repository instead."
+bot_unique: "Thanks for submitting! A maintainer will review your submission shortly.
+  We appreciate your contribution to the Awesome Snapmaker List! 🚀"
+bot_merged: "🎉 Your submission has been successfully merged into the directory!\n\n\
+  Thank you for contributing to the Awesome Snapmaker List. This issue is now formally
+  closed."
 
 # --- GitHub Issue Template (Submit) ---
 issue_submit_title: "👉 Add a New Resource"
-issue_submit_desc: "Submit a new resource (tool, guide, mod, etc.) to the Awesome Snapmaker List!"
-issue_submit_body: "Thanks for taking the time to submit a new resource to the Awesome Snapmaker List!\n\nPlease fill out the form below. Once submitted, our automated bot will generate a Pull Request to add this to the database, so the maintainer can approve it with one click!"
+issue_submit_desc: "Submit a new resource (tool, guide, mod, etc.) to the Awesome
+  Snapmaker List!"
+issue_submit_body: "Thanks for taking the time to submit a new resource to the Awesome
+  Snapmaker List!\n\nPlease fill out the form below. Once submitted, our automated
+  bot will generate a Pull Request to add this to the database, so the maintainer
+  can approve it with one click!"
 issue_description_label: "Resource Description"
 issue_description_desc: "Provide a brief summary of what this resource is about."
-issue_description_placeholder: "This guide covers the best settings for..."
+issue_description_placeholder: "This guide covers the best settings for…"
 issue_author_name_label: "Author Name"
-issue_author_name_desc: "Who created this resource? (Use your name or username if it's yours)"
+issue_author_name_desc: "Who created this resource? (Use your name or username if
+  it's yours)"
 issue_author_link_label: "Author Link"
-issue_author_link_desc: "Link to the author's profile (GitHub, Thingiverse, Forum, etc.)"
+issue_author_link_desc: "Link to the author's profile (GitHub, Thingiverse, Forum,
+  etc.)"
 issue_original_link_label: "Content Link (Original URL)"
 issue_original_link_desc: "Where is this resource hosted?"
 issue_difficulty_label: "Difficulty Level"
@@ -69,9 +85,11 @@ issue_cost_label: "Cost"
 issue_language_label: "Language"
 issue_language_desc: "What primary language is this resource in?"
 issue_machine_type_label: "Machine Type(s)"
-issue_machine_type_desc: "Which Snapmaker machines does this apply to? (Select all that apply)"
+issue_machine_type_desc: "Which Snapmaker machines does this apply to? (Select all
+  that apply)"
 issue_machine_tool_type_label: "Machine Tool Type(s)"
-issue_machine_tool_type_desc: "Which modules/toolheads are relevant? (Select all that apply)"
+issue_machine_tool_type_desc: "Which modules/toolheads are relevant? (Select all that
+  apply)"
 issue_record_type_label: "Record Type(s)"
 issue_record_type_desc: "What kind of resource is this? (Select all that apply)"
 issue_official_label: "Official Snapmaker Resource?"
@@ -79,7 +97,8 @@ issue_official_desc: "Is this an official Snapmaker resource or a community crea
 issue_official_no: "No"
 issue_official_yes: "Yes"
 issue_free_tags_label: "Free Tags"
-issue_free_tags_desc: "Comma-separated tags (e.g. OFFICIAL, UNOFFICIAL, enclosure, cooling)"
+issue_free_tags_desc: "Comma-separated tags (e.g. OFFICIAL, UNOFFICIAL, enclosure,
+  cooling)"
 issue_extra_btn1_label: "(Optional) Extra Button 1 - Label"
 issue_extra_btn1_desc: "Useful for direct PDF/STL downloads."
 issue_extra_btn1_link: "(Optional) Extra Button 1 - Link"
@@ -87,15 +106,22 @@ issue_confirm: "By submitting this issue, you confirm the link is safe and valid
 
 # --- GitHub Issue Template (Modify/Remove) ---
 issue_modify_title: "✏️ Modify or Remove a Resource"
-issue_modify_desc: "Request a correction, update, or removal of an existing resource on the Awesome List."
-issue_modify_body: "Thank you for helping keep the Awesome Snapmaker List accurate and up to date!\n\nPlease provide the details below so a maintainer can review and apply the changes."
+issue_modify_desc: "Request a correction, update, or removal of an existing resource
+  on the Awesome List."
+issue_modify_body: "Thank you for helping keep the Awesome Snapmaker List accurate
+  and up to date!\n\nPlease provide the details below so a maintainer can review and
+  apply the changes."
 issue_modify_type_label: "What do you want to do?"
-issue_modify_type_update: "Update an existing resource (broken link, wrong tags, typo, etc.)"
+issue_modify_type_update: "Update an existing resource (broken link, wrong tags, typo,
+  etc.)"
 issue_modify_type_remove: "Remove a resource (no longer exists, inappropriate, obsolete)"
 issue_modify_current_link_label: "Current Resource Link"
-issue_modify_current_link_desc: "Paste the \"Content Link\" of the resource currently on the website."
+issue_modify_current_link_desc: "Paste the \"Content Link\" of the resource currently
+  on the website."
 issue_modify_new_link_label: "New Resource Link (if applicable)"
-issue_modify_new_link_desc: "If the resource moved to a new URL, paste the new link here. Leave blank if not applicable."
+issue_modify_new_link_desc: "If the resource moved to a new URL, paste the new link
+  here. Leave blank if not applicable."
 issue_modify_reason_label: "Reason for Change / New Details"
-issue_modify_reason_desc: "Explain what needs to be changed (e.g. \"The link is dead,\" or \"Please change the cost to FREE and machine to Artisan\")."
-issue_modify_reason_placeholder: "Briefly explain the needed correction here..."
+issue_modify_reason_desc: "Explain what needs to be changed (e.g. \"The link is dead,\"\
+  \ or \"Please change the cost to FREE and machine to Artisan\")."
+issue_modify_reason_placeholder: "Briefly explain the needed correction here…"
