@@ -1,5 +1,5 @@
 import os
-import yaml
+from ruamel.yaml import YAML
 import glob
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -9,7 +9,7 @@ ISSUE_DIR = os.path.join(BASE_DIR, '.github', 'ISSUE_TEMPLATE')
 
 def load_yaml(filepath):
     with open(filepath, 'r', encoding='utf-8') as f:
-        return yaml.safe_load(f)
+        return YAML(typ='safe').load(f)
 
 def generate_templates():
     if not os.path.exists(DATA_FILE) or not os.path.exists(TRANS_FILE):
@@ -199,7 +199,10 @@ def generate_templates():
         filepath = os.path.join(ISSUE_DIR, filename)
         
         with open(filepath, 'w', encoding='utf-8') as f:
-            yaml.dump(template, f, sort_keys=False, allow_unicode=True)
+            yml = YAML()
+            yml.indent(mapping=2, sequence=4, offset=2)
+            yml.preserve_quotes = True
+            yml.dump(template, f)
             
         print(f"Generated {filepath}")
         idx += 1

@@ -1,6 +1,6 @@
 import os
 import re
-import yaml
+from ruamel.yaml import YAML
 import html
 
 # Paths
@@ -12,7 +12,7 @@ DEFAULT_IMAGE = "https://awesome-sm-list.xyz/images/AwesomeList_TopImage.jpg"
 
 def load_yaml(filepath):
     with open(filepath, 'r', encoding='utf-8') as f:
-        return yaml.safe_load(f)
+        return YAML(typ='safe').load(f)
 
 def clean_description(markdown_text):
     if not markdown_text:

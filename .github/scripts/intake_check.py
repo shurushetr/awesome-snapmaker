@@ -10,7 +10,7 @@ import os
 import sys
 import json
 import subprocess
-import yaml
+from ruamel.yaml import YAML
 import re
 from urllib.parse import urlparse
 from url_utils import normalize_url
@@ -63,7 +63,7 @@ def check_for_duplicates(new_url, data_file='data.yml'):
 
     try:
         with open(data_file, 'r', encoding='utf-8') as f:
-            data = yaml.safe_load(f)
+            data = YAML(typ='safe').load(f)
     except Exception as e:
         print(f"Error reading data.yml: {e}")
         # Fail open (assume not duplicate if file cant be read)
@@ -127,7 +127,7 @@ def get_translation(key, default_en=''):
     
     try:
         with open(trans_file, 'r', encoding='utf-8') as f:
-            trans = yaml.safe_load(f)
+            trans = YAML(typ='safe').load(f)
             
         en_str = trans.get('en', {}).get(key, default_en)
         if lang == 'en' or lang not in trans:

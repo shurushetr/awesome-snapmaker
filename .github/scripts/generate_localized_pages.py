@@ -1,6 +1,6 @@
 import os
 import re
-import yaml
+from ruamel.yaml import YAML
 import shutil
 
 # Paths
@@ -10,7 +10,7 @@ INDEX_FILE = os.path.join(BASE_DIR, 'index.html')
 
 def load_yaml(filepath):
     with open(filepath, 'r', encoding='utf-8') as f:
-        return yaml.safe_load(f)
+        return YAML(typ='safe').load(f)
 
 def replace_placeholder(match, replacement):
     tag = match.group(0)

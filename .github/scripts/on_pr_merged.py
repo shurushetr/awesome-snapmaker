@@ -2,7 +2,7 @@ import os
 import re
 import sys
 import subprocess
-import yaml
+from ruamel.yaml import YAML
 
 def get_translation(lang, key, default_en=''):
     base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -10,7 +10,7 @@ def get_translation(lang, key, default_en=''):
     
     try:
         with open(trans_file, 'r', encoding='utf-8') as f:
-            trans = yaml.safe_load(f)
+            trans = YAML(typ='safe').load(f)
             
         en_str = trans.get('en', {}).get(key, default_en)
         if lang == 'en' or lang not in trans:
