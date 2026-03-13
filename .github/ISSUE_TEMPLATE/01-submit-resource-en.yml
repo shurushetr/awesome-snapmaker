@@ -124,8 +124,8 @@ body:
       description: Is this an official Snapmaker resource or a community 
         creation?
       options:
-        - No
-        - Yes
+        - "No"
+        - "Yes"
     validations:
       required: true
   - type: input
