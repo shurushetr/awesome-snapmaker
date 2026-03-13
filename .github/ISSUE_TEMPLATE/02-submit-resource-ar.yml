@@ -46,9 +46,9 @@ body:
     attributes:
       label: مستوى الصعوبة
       options:
-        - BEGINNER
-        - INTERMEDIATE
-        - ADVANCED
+        - مبتدئ
+        - متوسط
+        - متقدم
     validations:
       required: true
   - type: dropdown
@@ -56,9 +56,9 @@ body:
     attributes:
       label: التكلفة
       options:
-        - FREE
-        - PAID
-        - FREEMIUM
+        - مجاني
+        - مدفوع
+        - مجاني جزئياً
     validations:
       required: true
   - type: dropdown
@@ -101,26 +101,26 @@ body:
       description: ما الوحدات/رؤوس الأدوات ذات الصلة؟ (اختر كل ما ينطبق)
       options:
         - label: FDM
-        - label: LASER
+        - label: ليزر
         - label: CNC
-        - label: ROTARY
-        - label: COMBINED
+        - label: دوّار
+        - label: مدمج
   - type: checkboxes
     id: record_type
     attributes:
       label: نوع السجل
       description: ما نوع هذا المورد؟ (اختر كل ما ينطبق)
       options:
-        - label: ARTICLE
-        - label: CREATE
-        - label: DISCUSSION
-        - label: DOWNLOAD
-        - label: FIRMWARE
-        - label: MODS
-        - label: ONLINE TOOL
-        - label: REPAIR
-        - label: SHOP
-        - label: VIDEO
+        - label: مقالة
+        - label: إنشاء
+        - label: نقاش
+        - label: تنزيل
+        - label: برنامج ثابت
+        - label: تعديلات
+        - label: أداة إلكترونية
+        - label: إصلاح
+        - label: متجر
+        - label: فيديو
   - type: dropdown
     id: official_resource
     attributes:

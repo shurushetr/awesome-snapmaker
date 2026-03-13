@@ -44,9 +44,9 @@ body:
     attributes:
       label: 難度級別
       options:
-        - BEGINNER
-        - INTERMEDIATE
-        - ADVANCED
+        - 入門
+        - 進階
+        - 高級
     validations:
       required: true
   - type: dropdown
@@ -54,9 +54,9 @@ body:
     attributes:
       label: 費用
       options:
-        - FREE
-        - PAID
-        - FREEMIUM
+        - 免費
+        - 付費
+        - 部分免費
     validations:
       required: true
   - type: dropdown
@@ -99,26 +99,26 @@ body:
       description: 相關的模組/刀頭是什麼？（選擇所有適用項目）
       options:
         - label: FDM
-        - label: LASER
+        - label: 鐳射
         - label: CNC
-        - label: ROTARY
-        - label: COMBINED
+        - label: 旋轉
+        - label: 多功能
   - type: checkboxes
     id: record_type
     attributes:
       label: 記錄類型
       description: 這是什麼類型的資源？（選擇所有適用項目）
       options:
-        - label: ARTICLE
-        - label: CREATE
-        - label: DISCUSSION
-        - label: DOWNLOAD
-        - label: FIRMWARE
-        - label: MODS
-        - label: ONLINE TOOL
-        - label: REPAIR
-        - label: SHOP
-        - label: VIDEO
+        - label: 文章
+        - label: 創作
+        - label: 討論
+        - label: 下載
+        - label: 韌體
+        - label: 改裝
+        - label: 線上工具
+        - label: 維修
+        - label: 商店
+        - label: 影片
   - type: dropdown
     id: official_resource
     attributes:

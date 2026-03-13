@@ -48,9 +48,9 @@ body:
     attributes:
       label: Уровень сложности
       options:
-        - BEGINNER
-        - INTERMEDIATE
-        - ADVANCED
+        - НОВИЧОК
+        - СРЕДНИЙ
+        - ПРОДВИНУТЫЙ
     validations:
       required: true
   - type: dropdown
@@ -58,8 +58,8 @@ body:
     attributes:
       label: Стоимость
       options:
-        - FREE
-        - PAID
+        - БЕСПЛАТНО
+        - ПЛАТНО
         - FREEMIUM
     validations:
       required: true
@@ -104,26 +104,26 @@ body:
       description: Какие модули/насадки актуальны? (Выберите все подходящие)
       options:
         - label: FDM
-        - label: LASER
+        - label: ЛАЗЕР
         - label: CNC
-        - label: ROTARY
-        - label: COMBINED
+        - label: РОТАЦИОННЫЙ
+        - label: КОМБИНИРОВАННЫЙ
   - type: checkboxes
     id: record_type
     attributes:
       label: Тип(ы) записи
       description: Что это за ресурс? (Выберите все подходящие)
       options:
-        - label: ARTICLE
-        - label: CREATE
-        - label: DISCUSSION
-        - label: DOWNLOAD
-        - label: FIRMWARE
-        - label: MODS
-        - label: ONLINE TOOL
-        - label: REPAIR
-        - label: SHOP
-        - label: VIDEO
+        - label: СТАТЬЯ
+        - label: СОЗДАТЬ
+        - label: ОБСУЖДЕНИЕ
+        - label: СКАЧАТЬ
+        - label: ПРОШИВКА
+        - label: МОДЫ
+        - label: ОНЛАЙН-ИНСТРУМЕНТ
+        - label: РЕМОНТ
+        - label: МАГАЗИН
+        - label: ВИДЕО
   - type: dropdown
     id: official_resource
     attributes:

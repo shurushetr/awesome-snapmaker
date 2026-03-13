@@ -3,15 +3,73 @@ import sys
 import re
 import json
 import subprocess
+import glob
 from datetime import datetime
 from ruamel.yaml import YAML
 from intake_check import check_for_duplicates
 
+REVERSE_LABEL_MAP = None
+REVERSE_TAG_MAP = None
+
+def build_reverse_maps():
+    global REVERSE_LABEL_MAP, REVERSE_TAG_MAP
+    if REVERSE_LABEL_MAP is not None:
+        return
+        
+    yaml = YAML(typ='safe')
+    rev_label = {}
+    rev_tag = {}
+    
+    with open('data.yml', 'r', encoding='utf-8') as f:
+        data = yaml.load(f)
+        
+    allowed_tags = []
+    for category in ['difficulty', 'cost', 'language', 'machine_tool_type', 'record_type', 'machine_type']:
+        allowed_tags.extend(data.get('allowed_tags', {}).get(category, []))
+        
+    for f in glob.glob('locales/*.yml'):
+        with open(f, 'r', encoding='utf-8') as loc_f:
+            dic = yaml.load(loc_f) or {}
+            for key, val in dic.items():
+                if key.startswith('issue_') and key.endswith('_label') and isinstance(val, str):
+                    rev_label[val.strip().lower()] = key
+            
+            for en_opt in allowed_tags:
+                tag_key = f"tag_{en_opt.lower().replace(' ', '_')}"
+                translated = dic.get(tag_key)
+                if translated:
+                    clean_translated = translated.split(' (')[0].strip()
+                    rev_tag[clean_translated.lower()] = en_opt
+                    rev_tag[translated.lower()] = en_opt
+                    
+            yes_val = dic.get('issue_official_yes')
+            if yes_val: rev_tag[yes_val.lower()] = "OFFICIAL"
+            no_val = dic.get('issue_official_no')
+            if no_val: rev_tag[no_val.lower()] = "UNOFFICIAL"
+                    
+    for en_opt in allowed_tags:
+        rev_tag[en_opt.lower()] = en_opt
+        
+    REVERSE_LABEL_MAP = rev_label
+    REVERSE_TAG_MAP = rev_tag
+
+def map_tags(extracted_list):
+    build_reverse_maps()
+    mapped = []
+    for item in extracted_list:
+        clean_item = item.strip()
+        if clean_item.lower() in REVERSE_TAG_MAP:
+            mapped.append(REVERSE_TAG_MAP[clean_item.lower()])
+        else:
+            mapped.append(clean_item)
+    return mapped
+
 def parse_issue_body(body):
-    """Parses the GitHub Issue body based on the template structure."""
+    """Parses the GitHub Issue body based on the original or translated template structure."""
+    build_reverse_maps()
     record = {}
     lines = body.split('\n')
-    current_label = None
+    current_raw_label = None
     aggregated_value = []
     
     sections = {}
@@ -19,57 +77,72 @@ def parse_issue_body(body):
     for line in lines:
         match = re.search(r'^###\s+(.+)$', line.strip())
         if match:
-            if current_label:
-                sections[current_label] = '\n'.join(aggregated_value).strip()
-            current_label = match.group(1).lower().strip()
+            if current_raw_label:
+                mapped_key = REVERSE_LABEL_MAP.get(current_raw_label, current_raw_label)
+                sections[mapped_key] = '\n'.join(aggregated_value).strip()
+            # Clean up trailing asterisks or markdown in titles
+            current_raw_label = match.group(1).lower().replace('(*)', '').replace('*', '').strip()
             aggregated_value = []
-        elif current_label:
+        elif current_raw_label:
             aggregated_value.append(line)
             
-    if current_label:
-        sections[current_label] = '\n'.join(aggregated_value).strip()
+    if current_raw_label:
+        mapped_key = REVERSE_LABEL_MAP.get(current_raw_label, current_raw_label)
+        sections[mapped_key] = '\n'.join(aggregated_value).strip()
 
     for label, value in sections.items():
+        value = value.strip()
         if value == "_No response_" or value == "":
             continue
             
-        if "description" in label:
+        if label == "issue_description_label" or "description" in label:
             record["description"] = value
-        elif "author name" in label:
+        elif label == "issue_author_name_label" or "author name" in label:
             record["author_name"] = value
-        elif "author link" in label:
+        elif label == "issue_author_link_label" or "author link" in label:
             record["author_link"] = value
-        elif "content link" in label:
+        elif label == "issue_original_link_label" or "content link" in label:
             record["original_link"] = value
-        elif "difficulty" in label:
-            record["difficulty"] = value if value and value != "N/A" else None
-        elif "cost" in label:
-            record["cost"] = value if value and value != "N/A" else None
-        elif "machine type" in label:
+        elif label == "issue_difficulty_label" or "difficulty" in label:
+            record["difficulty"] = map_tags([value]) if value and value != "N/A" else []
+        elif label == "issue_cost_label" or "cost" in label:
+            record["cost"] = map_tags([value]) if value and value != "N/A" else []
+        elif label == "issue_language_label" or "language" in label:
+            record["language"] = map_tags([value]) if value and value != "N/A" else []
+        elif label == "issue_machine_type_label" or "machine type" in label:
             if "- [" in value:
-                record["machine_type"] = [v.replace('- [X]', '').replace('- [x]', '').strip() for v in value.split('\n') if '- [x]' in v.lower()]
+                extracted = [v.replace('- [X]', '').replace('- [x]', '').strip() for v in value.split('\n') if '- [x]' in v.lower()]
+                record["machine_type"] = map_tags(extracted)
             else:
-                record["machine_type"] = [x.strip() for x in value.split(',')] if value else []
-        elif "machine tool type" in label:
+                record["machine_type"] = map_tags([x.strip() for x in value.split(',')] if value else [])
+        elif label == "issue_machine_tool_type_label" or "machine tool type" in label:
             if "- [" in value:
-                record["machine_tool"] = [v.replace('- [X]', '').replace('- [x]', '').strip() for v in value.split('\n') if '- [x]' in v.lower()]
+                extracted = [v.replace('- [X]', '').replace('- [x]', '').strip() for v in value.split('\n') if '- [x]' in v.lower()]
+                record["machine_tool"] = map_tags(extracted)
             else:
-                record["machine_tool"] = [x.strip() for x in value.split(',')] if value else []
-        elif "record type" in label:
+                record["machine_tool"] = map_tags([x.strip() for x in value.split(',')] if value else [])
+        elif label == "issue_record_type_label" or "record type" in label:
             if "- [" in value:
-                record["record_type"] = [v.replace('- [X]', '').replace('- [x]', '').strip() for v in value.split('\n') if '- [x]' in v.lower()]
+                extracted = [v.replace('- [X]', '').replace('- [x]', '').strip() for v in value.split('\n') if '- [x]' in v.lower()]
+                record["record_type"] = map_tags(extracted)
             else:
-                record["record_type"] = [x.strip() for x in value.split(',')] if value else []
-        elif "official snapmaker resource" in label or "official flag" in label:
-            val = value.lower().strip()
-            record["official_flag"] = ["OFFICIAL"] if val in ['yes', 'true', '1'] else ["UNOFFICIAL"]
-        elif "free tags" in label:
+                record["record_type"] = map_tags([x.strip() for x in value.split(',')] if value else [])
+        elif label == "issue_official_label" or "official snapmaker resource" in label or "official flag" in label:
+            extracted = map_tags([value])
+            if extracted and extracted[0] == "OFFICIAL":
+                record["official_flag"] = ["OFFICIAL"]
+            elif extracted and extracted[0] == "UNOFFICIAL":
+                record["official_flag"] = ["UNOFFICIAL"]
+            else:
+                val = value.lower().strip()
+                record["official_flag"] = ["OFFICIAL"] if val in ['yes', 'true', '1'] else ["UNOFFICIAL"]
+        elif label == "issue_free_tags_label" or "free tags" in label:
             record["free_tags"] = [x.strip() for x in value.split(',') if x.strip()] if value else []
-        elif re.search(r'extra button (\d+)\s*-\s*label', label):
-            idx = re.search(r'extra button (\d+)\s*-\s*label', label).group(1)
+        elif label == "issue_extra_btn1_label" or re.search(r'extra button (\d+)\s*-\s*label', label):
+            idx = '1'
             record.setdefault("extra_buttons_dict", {}).setdefault(idx, {})["label"] = value
-        elif re.search(r'extra button (\d+)\s*-\s*link', label):
-            idx = re.search(r'extra button (\d+)\s*-\s*link', label).group(1)
+        elif label == "issue_extra_btn1_link" or re.search(r'extra button (\d+)\s*-\s*link', label):
+            idx = '1'
             record.setdefault("extra_buttons_dict", {}).setdefault(idx, {})["link"] = value
 
     if "extra_buttons_dict" in record:

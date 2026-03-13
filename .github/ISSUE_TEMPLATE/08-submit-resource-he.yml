@@ -45,9 +45,9 @@ body:
     attributes:
       label: רמת קושי
       options:
-        - BEGINNER
-        - INTERMEDIATE
-        - ADVANCED
+        - מתחיל
+        - בינוני
+        - מתקדם
     validations:
       required: true
   - type: dropdown
@@ -55,9 +55,9 @@ body:
     attributes:
       label: עלות
       options:
-        - FREE
-        - PAID
-        - FREEMIUM
+        - חינמי
+        - בתשלום
+        - פרימיום חלקי
     validations:
       required: true
   - type: dropdown
@@ -100,26 +100,26 @@ body:
       description: אילו מודולים/ראשי כלים רלוונטיים? (בחר את כל המתאימים)
       options:
         - label: FDM
-        - label: LASER
+        - label: לייזר
         - label: CNC
-        - label: ROTARY
-        - label: COMBINED
+        - label: סיבובי
+        - label: משולב
   - type: checkboxes
     id: record_type
     attributes:
       label: סוג רשומה
       description: מה סוג המשאב הזה? (בחר את כל המתאימים)
       options:
-        - label: ARTICLE
-        - label: CREATE
-        - label: DISCUSSION
-        - label: DOWNLOAD
-        - label: FIRMWARE
-        - label: MODS
-        - label: ONLINE TOOL
-        - label: REPAIR
-        - label: SHOP
-        - label: VIDEO
+        - label: מאמר
+        - label: יצירה
+        - label: דיון
+        - label: הורדה
+        - label: קושחה
+        - label: מודים
+        - label: כלי מקוון
+        - label: תיקון
+        - label: חנות
+        - label: וידאו
   - type: dropdown
     id: official_resource
     attributes:

@@ -50,9 +50,9 @@ body:
     attributes:
       label: Schwierigkeitsgrad
       options:
-        - BEGINNER
-        - INTERMEDIATE
-        - ADVANCED
+        - ANFÄNGER
+        - FORTGESCHRITTEN
+        - EXPERTE
     validations:
       required: true
   - type: dropdown
@@ -60,8 +60,8 @@ body:
     attributes:
       label: Kosten
       options:
-        - FREE
-        - PAID
+        - KOSTENLOS
+        - KOSTENPFLICHTIG
         - FREEMIUM
     validations:
       required: true
@@ -109,8 +109,8 @@ body:
         - label: FDM
         - label: LASER
         - label: CNC
-        - label: ROTARY
-        - label: COMBINED
+        - label: ROTIEREND
+        - label: KOMBINIERT
   - type: checkboxes
     id: record_type
     attributes:
@@ -118,14 +118,14 @@ body:
       description: Um welche Art von Ressource handelt es sich? (Alle 
         zutreffenden auswählen)
       options:
-        - label: ARTICLE
-        - label: CREATE
-        - label: DISCUSSION
+        - label: ARTIKEL
+        - label: ERSTELLEN
+        - label: DISKUSSION
         - label: DOWNLOAD
         - label: FIRMWARE
         - label: MODS
-        - label: ONLINE TOOL
-        - label: REPAIR
+        - label: ONLINE-TOOL
+        - label: REPARATUR
         - label: SHOP
         - label: VIDEO
   - type: dropdown

@@ -51,6 +51,12 @@ def generate_templates():
         # Fallback to English dictionary for any missing keys
         def t(key, default=''):
             return dic.get(key, en_dict.get(key, default))
+            
+        def t_opt(opt, category):
+            if category == 'machine_type' and opt.upper() != 'UNIVERSAL':
+                return opt
+            key = f"tag_{opt.lower().replace(' ', '_')}"
+            return t(key, opt)
         
         template = {
             'name': f"{t('issue_submit_title', '👉 Add a New Resource')} ({lang.upper()})",
@@ -107,7 +113,7 @@ def generate_templates():
                     'id': 'difficulty',
                     'attributes': {
                         'label': t('issue_difficulty_label', 'Difficulty Level'),
-                        'options': allowed_tags.get('difficulty', [])
+                        'options': [t_opt(opt, 'difficulty') for opt in allowed_tags.get('difficulty', [])]
                     },
                     'validations': {'required': True}
                 },
@@ -116,7 +122,7 @@ def generate_templates():
                     'id': 'cost',
                     'attributes': {
                         'label': t('issue_cost_label', 'Cost'),
-                        'options': allowed_tags.get('cost', [])
+                        'options': [t_opt(opt, 'cost') for opt in allowed_tags.get('cost', [])]
                     },
                     'validations': {'required': True}
                 },
@@ -126,7 +132,7 @@ def generate_templates():
                     'attributes': {
                         'label': t('issue_language_label', 'Language'),
                         'description': t('issue_language_desc', ''),
-                        'options': allowed_tags.get('language', [])
+                        'options': [t_opt(opt, 'language') for opt in allowed_tags.get('language', [])]
                     },
                     'validations': {'required': True}
                 },
@@ -136,7 +142,7 @@ def generate_templates():
                     'attributes': {
                         'label': t('issue_machine_type_label', 'Machine Type(s)'),
                         'description': t('issue_machine_type_desc', ''),
-                        'options': [{'label': opt} for opt in allowed_tags.get('machine_type', [])]
+                        'options': [{'label': t_opt(opt, 'machine_type')} for opt in allowed_tags.get('machine_type', [])]
                     }
                 },
                 {
@@ -145,7 +151,7 @@ def generate_templates():
                     'attributes': {
                         'label': t('issue_machine_tool_type_label', 'Machine Tool Type(s)'),
                         'description': t('issue_machine_tool_type_desc', ''),
-                        'options': [{'label': opt} for opt in allowed_tags.get('machine_tool_type', [])]
+                        'options': [{'label': t_opt(opt, 'machine_tool_type')} for opt in allowed_tags.get('machine_tool_type', [])]
                     }
                 },
                 {
@@ -154,7 +160,7 @@ def generate_templates():
                     'attributes': {
                         'label': t('issue_record_type_label', 'Record Type(s)'),
                         'description': t('issue_record_type_desc', ''),
-                        'options': [{'label': opt} for opt in allowed_tags.get('record_type', [])]
+                        'options': [{'label': t_opt(opt, 'record_type')} for opt in allowed_tags.get('record_type', [])]
                     }
                 },
                 {

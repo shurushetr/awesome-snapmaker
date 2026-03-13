@@ -44,9 +44,9 @@ body:
     attributes:
       label: 难度级别
       options:
-        - BEGINNER
-        - INTERMEDIATE
-        - ADVANCED
+        - 入门
+        - 进阶
+        - 高级
     validations:
       required: true
   - type: dropdown
@@ -54,9 +54,9 @@ body:
     attributes:
       label: 费用
       options:
-        - FREE
-        - PAID
-        - FREEMIUM
+        - 免费
+        - 付费
+        - 部分免费
     validations:
       required: true
   - type: dropdown
@@ -99,26 +99,26 @@ body:
       description: 相关的模块/刀头是什么？（选择所有适用项）
       options:
         - label: FDM
-        - label: LASER
+        - label: 激光
         - label: CNC
-        - label: ROTARY
-        - label: COMBINED
+        - label: 旋转
+        - label: 多功能
   - type: checkboxes
     id: record_type
     attributes:
       label: 记录类型
       description: 这是什么类型的资源？（选择所有适用项）
       options:
-        - label: ARTICLE
-        - label: CREATE
-        - label: DISCUSSION
-        - label: DOWNLOAD
-        - label: FIRMWARE
-        - label: MODS
-        - label: ONLINE TOOL
-        - label: REPAIR
-        - label: SHOP
-        - label: VIDEO
+        - label: 文章
+        - label: 创作
+        - label: 讨论
+        - label: 下载
+        - label: 固件
+        - label: 改装
+        - label: 在线工具
+        - label: 维修
+        - label: 商店
+        - label: 视频
   - type: dropdown
     id: official_resource
     attributes:

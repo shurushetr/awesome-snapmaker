@@ -49,9 +49,9 @@ body:
     attributes:
       label: Difficulty Level
       options:
-        - BEGINNER
-        - INTERMEDIATE
-        - ADVANCED
+        - LANDLUBBER
+        - SEA DOG
+        - CAPTAIN
     validations:
       required: true
   - type: dropdown
@@ -59,8 +59,8 @@ body:
     attributes:
       label: Cost
       options:
-        - FREE
-        - PAID
+        - FREE BOOTY
+        - COSTS DOUBLOONS
         - FREEMIUM
     validations:
       required: true
@@ -107,7 +107,7 @@ body:
         - label: FDM
         - label: LASER
         - label: CNC
-        - label: ROTARY
+        - label: SPINNIN'
         - label: COMBINED
   - type: checkboxes
     id: record_type
@@ -115,16 +115,16 @@ body:
       label: Record Type(s)
       description: What manner of treasure is this? (Mark all that be true)
       options:
-        - label: ARTICLE
-        - label: CREATE
-        - label: DISCUSSION
-        - label: DOWNLOAD
+        - label: SCROLL
+        - label: CRAFT
+        - label: PARLEY
+        - label: PLUNDER
         - label: FIRMWARE
         - label: MODS
         - label: ONLINE TOOL
-        - label: REPAIR
-        - label: SHOP
-        - label: VIDEO
+        - label: PATCH UP
+        - label: TRADINGPOST
+        - label: MOVIN' PICTURES
   - type: dropdown
     id: official_resource
     attributes:

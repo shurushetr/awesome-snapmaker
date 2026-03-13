@@ -49,9 +49,9 @@ body:
     attributes:
       label: Livello di difficoltà
       options:
-        - BEGINNER
-        - INTERMEDIATE
-        - ADVANCED
+        - PRINCIPIANTE
+        - INTERMEDIO
+        - AVANZATO
     validations:
       required: true
   - type: dropdown
@@ -59,8 +59,8 @@ body:
     attributes:
       label: Costo
       options:
-        - FREE
-        - PAID
+        - GRATUITO
+        - A PAGAMENTO
         - FREEMIUM
     validations:
       required: true
@@ -108,8 +108,8 @@ body:
         - label: FDM
         - label: LASER
         - label: CNC
-        - label: ROTARY
-        - label: COMBINED
+        - label: ROTATIVO
+        - label: COMBINATO
   - type: checkboxes
     id: record_type
     attributes:
@@ -117,15 +117,15 @@ body:
       description: Che tipo di risorsa è questa? (Seleziona tutti quelli 
         pertinenti)
       options:
-        - label: ARTICLE
-        - label: CREATE
-        - label: DISCUSSION
+        - label: ARTICOLO
+        - label: CREA
+        - label: DISCUSSIONE
         - label: DOWNLOAD
         - label: FIRMWARE
         - label: MODS
-        - label: ONLINE TOOL
-        - label: REPAIR
-        - label: SHOP
+        - label: STRUMENTO ONLINE
+        - label: RIPARAZIONE
+        - label: NEGOZIO
         - label: VIDEO
   - type: dropdown
     id: official_resource
