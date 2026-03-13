@@ -21,9 +21,8 @@ ui_filter_difficulty: "סנן לפי רמת קושי:"
 ui_filter_cost: "סנן לפי עלות:"
 ui_filter_lang: "סנן לפי שפה:"
 ui_filter_tips: "<strong>טיפים לסינון:</strong> הקש על תג פעם אחת כדי <span style='color:
-  #10b981; font-weight: bold;'>לכלול</span> אותו (ירוק). הקש שוב כדי <span style='\
-  color: #ef4444; font-weight: bold; text-decoration: line-through;'>להוציא</span>
-  אותו (אדום)."
+  #10b981; font-weight: bold;'>לכלול</span> אותו (ירוק). הקש שוב כדי <span style='color:
+  #ef4444; font-weight: bold; text-decoration: line-through;'>להוציא</span> אותו (אדום)."
 ui_sort_label: "מיין לפי:"
 ui_sort_newest: "מהחדש לישן"
 ui_sort_oldest: "מהישן לחדש"
@@ -82,20 +81,27 @@ tag_en-pirate: "EN-PIRATE"
 
 # --- Bot Comments ---
 bot_duplicate: "תודה על ההגשה! עם זאת, נראה שמשאב זה כבר קיים בספרייה שלנו:\n\n🔗 https://awesome-sm-list.xyz/#"
-bot_duplicate_issue: "תודה על ההגשה! עם זאת, נראה שמישהו אחר כבר הגיש משאב זה והוא נמצא כעת בבדיקה ב "
-bot_rejected: "תודה על ההגשה! לבטיחות המשתמשים שלנו, אנחנו לא מקבלים קישורים ישירים לקבצים הרצים (.exe, .msi וכו'). אנא קשר לדף הבית של הפרויקט או למאגר שלו."
-bot_unique: "תודה על ההגשה! מתחזק יסקור את הגשתך בקרוב. אנחנו מעריכים את תרומתך לרשימת Awesome Snapmaker! 🚀"
-bot_merged: "🎉 ההגשה שלך מוזגה בהצלחה לספרייה!\n\nתודה על תרומתך לרשימת Awesome Snapmaker. הנושא הזה סגור כעת רשמית."
+bot_duplicate_issue: "תודה על ההגשה! עם זאת, נראה שמישהו אחר כבר הגיש משאב זה והוא
+  נמצא כעת בבדיקה ב "
+bot_rejected: "תודה על ההגשה! לבטיחות המשתמשים שלנו, אנחנו לא מקבלים קישורים ישירים
+  לקבצים הרצים (.exe, .msi וכו'). אנא קשר לדף הבית של הפרויקט או למאגר שלו."
+bot_unique: "תודה על ההגשה! מתחזק יסקור את הגשתך בקרוב. אנחנו מעריכים את תרומתך לרשימת
+  Awesome Snapmaker! 🚀"
+bot_merged: "🎉 ההגשה שלך מוזגה בהצלחה לספרייה!\n\nתודה על תרומתך לרשימת Awesome Snapmaker.
+  הנושא הזה סגור כעת רשמית."
 
 # --- GitHub Issue Template (Submit) ---
 issue_submit_title: "👉 הוסף משאב חדש"
 issue_submit_desc: "הגש משאב חדש (כלי, מדריך, שינוי וכו') לרשימת Awesome Snapmaker!"
-issue_submit_body: "תודה שהקדשת את הזמן להגיש משאב חדש לרשימת Awesome Snapmaker!\n\nאנא מלא את הטופס למטה. לאחר ההגשה, הבוט האוטומטי שלנו ייצור Pull Request להוספתו לבסיס הנתונים, כך שהמתחזק יוכל לאשר זאת בלחיצה אחת!"
+issue_submit_body: "תודה שהקדשת את הזמן להגיש משאב חדש לרשימת Awesome Snapmaker!\n\
+  \nאנא מלא את הטופס למטה. לאחר ההגשה, הבוט האוטומטי שלנו ייצור Pull Request להוספתו
+  לבסיס הנתונים, כך שהמתחזק יוכל לאשר זאת בלחיצה אחת!"
 issue_description_label: "תיאור המשאב"
 issue_description_desc: "ספק סיכום קצר של מה שמשאב זה עוסק בו."
 issue_description_placeholder: "מדריך זה מכסה את ההגדרות הטובות ביותר עבור…"
 issue_author_name_label: "שם המחבר"
-issue_author_name_desc: "מי יצר את המשאב הזה? (השתמש בשמך או בשם המשתמש שלך אם זה שלך)"
+issue_author_name_desc: "מי יצר את המשאב הזה? (השתמש בשמך או בשם המשתמש שלך אם זה
+  שלך)"
 issue_author_link_label: "קישור למחבר"
 issue_author_link_desc: "קישור לפרופיל המחבר (GitHub, Thingiverse, פורום וכו')"
 issue_original_link_label: "קישור לתוכן (URL מקורי)"
@@ -115,7 +121,8 @@ issue_official_desc: "האם זהו משאב רשמי של Snapmaker או יצי
 issue_official_no: "לא"
 issue_official_yes: "כן"
 issue_free_tags_label: "תגים חופשיים"
-issue_free_tags_desc: "תגים מופרדים בפסיקים (למשל OFFICIAL, UNOFFICIAL, enclosure, cooling)"
+issue_free_tags_desc: "תגים מופרדים בפסיקים (למשל OFFICIAL, UNOFFICIAL, enclosure,
+  cooling)"
 issue_extra_btn1_label: "(אופציונלי) כפתור נוסף 1 - תווית"
 issue_extra_btn1_desc: "שימושי להורדות ישירות של PDF/STL."
 issue_extra_btn1_link: "(אופציונלי) כפתור נוסף 1 - קישור"
@@ -124,14 +131,17 @@ issue_confirm: "על ידי הגשת נושא זה, אתה מאשר שהקישו
 # --- GitHub Issue Template (Modify/Remove) ---
 issue_modify_title: "✏️ שנה או הסר משאב"
 issue_modify_desc: "בקש תיקון, עדכון או הסרה של משאב קיים ברשימת Awesome."
-issue_modify_body: "תודה שעוזר לשמור על דיוק ועדכניות רשימת Awesome Snapmaker!\n\nאנא ספק את הפרטים למטה כדי שמתחזק יוכל לסקור ולהחיל את השינויים."
+issue_modify_body: "תודה שעוזר לשמור על דיוק ועדכניות רשימת Awesome Snapmaker!\n\n\
+  אנא ספק את הפרטים למטה כדי שמתחזק יוכל לסקור ולהחיל את השינויים."
 issue_modify_type_label: "מה אתה רוצה לעשות?"
 issue_modify_type_update: "עדכן משאב קיים (קישור שבור, תגים שגויים, שגיאת הקלדה וכו')"
 issue_modify_type_remove: "הסר משאב (כבר לא קיים, לא מתאים, מיושן)"
 issue_modify_current_link_label: "קישור למשאב הנוכחי"
 issue_modify_current_link_desc: "הדבק את 'קישור התוכן' של המשאב הנמצא כעת באתר."
 issue_modify_new_link_label: "קישור למשאב חדש (אם רלוונטי)"
-issue_modify_new_link_desc: "אם המשאב עבר לכתובת URL חדשה, הדבק את הקישור החדש כאן. השאר ריק אם לא רלוונטי."
+issue_modify_new_link_desc: "אם המשאב עבר לכתובת URL חדשה, הדבק את הקישור החדש כאן.
+  השאר ריק אם לא רלוונטי."
 issue_modify_reason_label: "סיבה לשינוי / פרטים חדשים"
-issue_modify_reason_desc: "הסבר מה צריך להשתנות (למשל 'הקישור מת' או 'אנא שנה את העלות ל-FREE ואת המכונה ל-Artisan')."
+issue_modify_reason_desc: "הסבר מה צריך להשתנות (למשל 'הקישור מת' או 'אנא שנה את העלות
+  ל-FREE ואת המכונה ל-Artisan')."
 issue_modify_reason_placeholder: "הסבר בקצרה את התיקון הנדרש כאן…"
