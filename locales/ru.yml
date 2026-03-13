@@ -1,68 +1,67 @@
 # locales/ru.yml
-# 
-# Это основной монолингвальный файл локализации для кодовой базы Awesome Snapmaker List на русском языке.
-# Содержит все статические строки интерфейса на русском, комментарии бота и переменные шаблонов Issue.
+# Russian translation of the Awesome Snapmaker List UI strings.
+# Auto-generated from en.yml. Keys must not be translated.
 
-# --- Элементы основного интерфейса (Main UI) ---
-ui_title: "Snapmaker - Замечательный Список"
-ui_subtitle: "Курируемый список полезных ресурсов, модов и руководств для Snapmaker."
-ui_contribute: "Поучавствовать"
+# --- Main UI Frontend Elements ---
+ui_title: "Awesome Snapmaker List"
+ui_subtitle: "Тщательно подобранная коллекция ресурсов, модов и гайдов для Snapmaker."
+ui_contribute: "Внести вклад"
 ui_discuss: "Обсудить"
 ui_contact_author: "Связаться с автором"
 ui_translate_site: "Помочь с переводом"
-ui_btn_submit: "Добавить новую запись"
-ui_btn_show_favs: "★ Показать избранные"
-ui_btn_share: "Поделиться настройками"
-ui_btn_clear_filters: "Сбросить фильтры"
-ui_filter_machine: "Фильтр по Модели:"
-ui_filter_tool: "Фильтр по Инструменту:"
-ui_filter_type: "Фильтр по Типу:"
-ui_filter_official: "Фильтр по Источнику:"
-ui_filter_difficulty: "Фильтр по Сложности:"
-ui_filter_cost: "Фильтр по Стоимости:"
-ui_filter_lang: "Фильтр по Языку:"
-ui_filter_tips: "<strong>Как пользоваться:</strong> Нажмите на тэг один раз, чтобы
-  <span style=\"color: #10b981; font-weight: bold;\">ВКЛЮЧИТЬ</span> его (зеленый).
-  Нажмите еще раз, чтобы <span style=\"color: #ef4444; font-weight: bold; text-decoration:
-  line-through;\">ВЫКЛЮЧИТЬ</span> его (красный)."
+ui_btn_submit: "Добавить новый элемент"
+ui_btn_show_favs: "★ Показать избранное"
+ui_btn_share: "Поделиться видом"
+ui_btn_clear_filters: "Сбросить все фильтры"
+ui_filter_machine: "Фильтр по машине:"
+ui_filter_tool: "Фильтр по инструменту:"
+ui_filter_type: "Фильтр по типу:"
+ui_filter_official: "Фильтр по официальности:"
+ui_filter_difficulty: "Фильтр по сложности:"
+ui_filter_cost: "Фильтр по стоимости:"
+ui_filter_lang: "Фильтр по языку:"
+ui_filter_tips: "<strong>Советы по фильтрации:</strong> Нажмите на тег один раз, чтобы <span style=\"color:
+  #10b981; font-weight: bold;\">включить</span> его (зелёный). Нажмите ещё раз, чтобы <span style=\"\
+  color: #ef4444; font-weight: bold; text-decoration: line-through;\">исключить</span>
+  его (красный)."
 ui_sort_label: "Сортировать по:"
 ui_sort_newest: "Сначала новые"
 ui_sort_oldest: "Сначала старые"
-ui_sort_alpha: "По алфавиту А-Я"
+ui_sort_alpha: "По алфавиту A-Z"
 ui_show_limit: "Лимит отображения:"
 ui_limit_all: "Все"
 ui_search_placeholder: "Поиск ресурсов…"
-ui_items_found: "ресурсов найдено"
-ui_item_found: "ресурс найден"
+ui_items_found: "элементов найдено"
+ui_item_found: "элемент найден"
 
-# --- Теги (Tags) ---
-tag_fdm: "FDM ПЕЧАТЬ"
+# --- Tags ---
+tag_fdm: "FDM"
 tag_laser: "ЛАЗЕР"
-tag_cnc: "ФРЕЗА (CNC)"
-tag_rotary: "ПОВОРОТНЫЙ МОДУЛЬ"
+tag_cnc: "CNC"
+tag_rotary: "РОТАЦИОННЫЙ"
 tag_combined: "КОМБИНИРОВАННЫЙ"
 
 tag_article: "СТАТЬЯ"
-tag_create: "ИНСТРУКЦИЯ (CREATE)"
+tag_create: "СОЗДАТЬ"
 tag_discussion: "ОБСУЖДЕНИЕ"
 tag_download: "СКАЧАТЬ"
 tag_firmware: "ПРОШИВКА"
 tag_mods: "МОДЫ"
-tag_online_tool: "ОНЛАЙН ИНСТРУМЕНТ"
+tag_online_tool: "ОНЛАЙН-ИНСТРУМЕНТ"
 tag_repair: "РЕМОНТ"
 tag_shop: "МАГАЗИН"
 tag_video: "ВИДЕО"
 
-tag_official: "ОФИЦИАЛЬНО"
-tag_unofficial: "НЕОФИЦИАЛЬНО"
+tag_official: "ОФИЦИАЛЬНЫЙ"
+tag_unofficial: "НЕОФИЦИАЛЬНЫЙ"
 
-tag_beginner: "ДЛЯ НОВИЧКОВ"
-tag_intermediate: "СРЕДНИЙ УРОВЕНЬ"
-tag_advanced: "ОПЫТНЫЙ УРОВЕНЬ"
+tag_beginner: "НОВИЧОК"
+tag_intermediate: "СРЕДНИЙ"
+tag_advanced: "ПРОДВИНУТЫЙ"
 
 tag_free: "БЕСПЛАТНО"
 tag_paid: "ПЛАТНО"
-tag_freemium: "FREEMIUM (БАЗА БЕСПЛАТНО)"
+tag_freemium: "FREEMIUM"
 
 tag_ar: "AR"
 tag_da: "DA"
@@ -78,80 +77,58 @@ tag_zh-cn: "ZH-CN"
 tag_zh-hk: "ZH-HK"
 tag_en-pirate: "EN-PIRATE"
 
-# --- Комментарии бота (Bot Comments) ---
-bot_duplicate: "Спасибо за предложение! Однако, похоже, этот ресурс уже есть в нашем
-  каталоге:\n\n🔗 https://awesome-sm-list.xyz/#"
-bot_duplicate_issue: "Спасибо за предложение! Похоже, кто-то другой уже предложил
-  этот ресурс, и он ожидает проверки в "
-bot_rejected: "Спасибо за предложение! В целях безопасности пользователей мы не принимаем
-  прямые ссылки на исполняемые файлы (.exe, .msi и т.д.). Пожалуйста, дайте ссылку
-  на домашнюю страницу проекта или репозиторий."
-bot_unique: "Спасибо за предложение! Модератор рассмотрит вашу заявку в ближайшее
-  время. Мы ценим ваш вклад в Awesome Snapmaker List! 🚀"
-bot_merged: "🎉 Ваше предложение было успешно добавлено в каталог!\n\nСпасибо за вклад
-  в Awesome Snapmaker List. Эта заявка официально закрыта."
+# --- Bot Comments ---
+bot_duplicate: "Спасибо за отправку! Однако этот ресурс уже есть в нашем каталоге:\n\n🔗 https://awesome-sm-list.xyz/#"
+bot_duplicate_issue: "Спасибо за отправку! Однако кто-то другой уже отправил этот ресурс, и он ожидает рассмотрения в "
+bot_rejected: "Спасибо за отправку! Ради безопасности наших пользователей мы не принимаем прямые ссылки на исполняемые файлы (.exe, .msi и т.д.). Пожалуйста, укажите ссылку на главную страницу проекта или его репозиторий."
+bot_unique: "Спасибо за отправку! Модератор скоро рассмотрит вашу заявку. Ценим ваш вклад в Awesome Snapmaker List! 🚀"
+bot_merged: "🎉 Ваша заявка успешно добавлена в каталог!\n\nСпасибо за участие в развитии Awesome Snapmaker List. Этот тикет официально закрыт."
 
-# --- Шаблон GitHub Issue (Добавление) ---
+# --- GitHub Issue Template (Submit) ---
 issue_submit_title: "👉 Добавить новый ресурс"
-issue_submit_desc: "Предложите новый ресурс (инструмент, руководство, мод и т.д.)
-  для Awesome Snapmaker List!"
-issue_submit_body: "Спасибо, что нашли время предложить новый ресурс для Awesome Snapmaker
-  List!\n\nПожалуйста, заполните форму ниже. После отправки наш бот автоматически
-  создаст Pull Request для добавления в базу данных, чтобы модератор мог одобрить
-  его одним кликом!"
+issue_submit_desc: "Отправьте новый ресурс (инструмент, руководство, мод и т.д.) в Awesome Snapmaker List!"
+issue_submit_body: "Спасибо, что нашли время для добавления нового ресурса в Awesome Snapmaker List!\n\nПожалуйста, заполните форму ниже. После отправки наш автоматический бот создаст Pull Request для добавления в базу данных, и модератор сможет одобрить это одним кликом!"
 issue_description_label: "Описание ресурса"
-issue_description_desc: "Кратко опишите, о чем этот ресурс."
+issue_description_desc: "Дайте краткое описание, о чём этот ресурс."
 issue_description_placeholder: "Это руководство охватывает лучшие настройки для…"
 issue_author_name_label: "Имя автора"
-issue_author_name_desc: "Кто создал этот ресурс? (Используйте свое имя или никнейм,
-  если автор — вы)"
+issue_author_name_desc: "Кто создал этот ресурс? (Используйте своё имя или ник, если это ваш ресурс)"
 issue_author_link_label: "Ссылка на автора"
-issue_author_link_desc: "Ссылка на профиль автора (GitHub, Thingiverse, форум и т.д.)"
-issue_original_link_label: "Ссылка на контент (Original URL)"
-issue_original_link_desc: "Где размещен этот ресурс?"
+issue_author_link_desc: "Ссылка на профиль автора (GitHub, Thingiverse, Форум и т.д.)"
+issue_original_link_label: "Ссылка на контент (оригинальный URL)"
+issue_original_link_desc: "Где размещён этот ресурс?"
 issue_difficulty_label: "Уровень сложности"
 issue_cost_label: "Стоимость"
 issue_language_label: "Язык"
-issue_language_desc: "На каком языке этот ресурс?"
-issue_machine_type_label: "Тип устройства (устройств)"
-issue_machine_type_desc: "Для каких моделей Snapmaker это подходит? (Выберите все
-  подходящие)"
-issue_machine_tool_type_label: "Тип модуля/инструмента"
-issue_machine_tool_type_desc: "Какие модули или головки задействованы? (Выберите все
-  подходящие)"
-issue_record_type_label: "Тип записи"
+issue_language_desc: "На каком основном языке написан этот ресурс?"
+issue_machine_type_label: "Тип(ы) машины"
+issue_machine_type_desc: "К каким машинам Snapmaker это относится? (Выберите все подходящие)"
+issue_machine_tool_type_label: "Тип(ы) инструмента машины"
+issue_machine_tool_type_desc: "Какие модули/насадки актуальны? (Выберите все подходящие)"
+issue_record_type_label: "Тип(ы) записи"
 issue_record_type_desc: "Что это за ресурс? (Выберите все подходящие)"
 issue_official_label: "Официальный ресурс Snapmaker?"
-issue_official_desc: "Это официальный ресурс от Snapmaker или творение сообщества?"
+issue_official_desc: "Это официальный ресурс Snapmaker или созданный сообществом?"
 issue_official_no: "Нет"
 issue_official_yes: "Да"
 issue_free_tags_label: "Свободные теги"
-issue_free_tags_desc: "Теги через запятую (например: OFFICIAL, UNOFFICIAL, enclosure,
-  cooling)"
-issue_extra_btn1_label: "(Опционально) Доп. кнопка 1 — Текст"
-issue_extra_btn1_desc: "Полезно для прямых ссылок на скачивание PDF/STL."
-issue_extra_btn1_link: "(Опционально) Доп. кнопка 1 — Ссылка"
-issue_confirm: "Отправляя эту форму, вы подтверждаете, что ссылка безопасна и корректна."
+issue_free_tags_desc: "Теги через запятую (например OFFICIAL, UNOFFICIAL, enclosure, cooling)"
+issue_extra_btn1_label: "(Необязательно) Дополнительная кнопка 1 - Метка"
+issue_extra_btn1_desc: "Полезно для прямых загрузок PDF/STL."
+issue_extra_btn1_link: "(Необязательно) Дополнительная кнопка 1 - Ссылка"
+issue_confirm: "Отправляя этот тикет, вы подтверждаете, что ссылка безопасна и действительна."
 
-# --- Шаблон GitHub Issue (Изменение/Удаление) ---
+# --- GitHub Issue Template (Modify/Remove) ---
 issue_modify_title: "✏️ Изменить или удалить ресурс"
-issue_modify_desc: "Запросите исправление, обновление или удаление существующего ресурса
-  в Awesome List."
-issue_modify_body: "Спасибо за помощь в поддержании актуальности Awesome Snapmaker
-  List!\n\nПожалуйста, укажите детали ниже, чтобы модератор мог просмотреть и применить
-  изменения."
+issue_modify_desc: "Запросить исправление, обновление или удаление существующего ресурса из Awesome List."
+issue_modify_body: "Спасибо, что помогаете поддерживать Awesome Snapmaker List актуальным и точным!\n\nУкажите детали ниже, чтобы модератор мог рассмотреть и применить изменения."
 issue_modify_type_label: "Что вы хотите сделать?"
-issue_modify_type_update: "Обновить существующий ресурс (битая ссылка, неверные теги,
-  опечатка и т.д.)"
-issue_modify_type_remove: "Удалить ресурс (больше не существует, неприемлемый контент,
-  устарел)"
+issue_modify_type_update: "Обновить существующий ресурс (нерабочая ссылка, неверные теги, опечатка и т.д.)"
+issue_modify_type_remove: "Удалить ресурс (больше не существует, неуместен, устарел)"
 issue_modify_current_link_label: "Текущая ссылка на ресурс"
-issue_modify_current_link_desc: "Вставьте ссылку («Content Link») ресурса, который
-  сейчас отображается на сайте."
+issue_modify_current_link_desc: "Вставьте \"Ссылку на контент\" ресурса, который сейчас находится на сайте."
 issue_modify_new_link_label: "Новая ссылка на ресурс (если применимо)"
-issue_modify_new_link_desc: "Если ресурс переехал на новый URL, вставьте его здесь.
-  Оставьте пустым, если не требуется."
-issue_modify_reason_label: "Причина изменения / Новые данные"
-issue_modify_reason_desc: "Объясните, что нужно изменить (например, «Ссылка не работает»
-  или «Пожалуйста, измените стоимость на FREE и устройство на Artisan»)."
-issue_modify_reason_placeholder: "Кратко опишите необходимые исправления здесь…"
+issue_modify_new_link_desc: "Если ресурс переехал на новый URL, вставьте новую ссылку сюда. Оставьте пустым, если не применимо."
+issue_modify_reason_label: "Причина изменения / Новые детали"
+issue_modify_reason_desc: "Объясните, что нужно изменить (например «Ссылка не работает» или «Пожалуйста, измените стоимость на FREE и машину на Artisan»)."
+issue_modify_reason_placeholder: "Кратко опишите необходимое исправление здесь…"
