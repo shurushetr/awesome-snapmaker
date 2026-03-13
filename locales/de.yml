@@ -33,6 +33,9 @@ ui_limit_all: "Alle"
 ui_search_placeholder: "Ressourcen durchsuchen…"
 ui_items_found: "Einträge gefunden"
 ui_item_found: "Eintrag gefunden"
+ui_view_resource: "Ressource ansehen"
+ui_content_author: "Inhaltsautor:"
+ui_added: "Hinzugefügt:"
 
 # --- Tags ---
 tag_fdm: "FDM"

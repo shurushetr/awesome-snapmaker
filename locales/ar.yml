@@ -33,6 +33,9 @@ ui_limit_all: "الكل"
 ui_search_placeholder: "ابحث في الموارد…"
 ui_items_found: "عناصر موجودة"
 ui_item_found: "عنصر موجود"
+ui_view_resource: "عرض المورد"
+ui_content_author: "مؤلف المحتوى:"
+ui_added: "أُضيف:"
 
 # --- Tags ---
 tag_fdm: "FDM"

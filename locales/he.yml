@@ -33,6 +33,9 @@ ui_limit_all: "הכל"
 ui_search_placeholder: "חפש משאבים…"
 ui_items_found: "פריטים נמצאו"
 ui_item_found: "פריט נמצא"
+ui_view_resource: "צפה במשאב"
+ui_content_author: "מחבר התוכן:"
+ui_added: "נוסף:"
 
 # --- Tags ---
 tag_fdm: "FDM"

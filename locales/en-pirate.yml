@@ -33,6 +33,9 @@ ui_limit_all: "The Whole Fleet"
 ui_search_placeholder: "Hunt fer resources…"
 ui_items_found: "treasures found"
 ui_item_found: "treasure found"
+ui_view_resource: "View Treasure"
+ui_content_author: "Captain:"
+ui_added: "Looted:"
 
 # --- Tags ---
 tag_fdm: "FDM"

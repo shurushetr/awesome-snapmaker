@@ -33,6 +33,9 @@ ui_limit_all: "Alle"
 ui_search_placeholder: "Søg i ressourcer…"
 ui_items_found: "elementer fundet"
 ui_item_found: "element fundet"
+ui_view_resource: "Se ressource"
+ui_content_author: "Indholdsforfatter:"
+ui_added: "Tilføjet:"
 
 # --- Tags ---
 tag_fdm: "FDM"

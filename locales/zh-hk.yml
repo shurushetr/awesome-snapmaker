@@ -33,6 +33,9 @@ ui_limit_all: "全部"
 ui_search_placeholder: "搜尋資源…"
 ui_items_found: "個結果"
 ui_item_found: "個結果"
+ui_view_resource: "查看資源"
+ui_content_author: "內容作者："
+ui_added: "添加時間："
 
 # --- Tags ---
 tag_fdm: "FDM"

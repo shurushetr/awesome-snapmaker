@@ -33,6 +33,9 @@ ui_limit_all: "Все"
 ui_search_placeholder: "Поиск ресурсов…"
 ui_items_found: "элементов найдено"
 ui_item_found: "элемент найден"
+ui_view_resource: "Посмотреть ресурс"
+ui_content_author: "Автор контента:"
+ui_added: "Добавлено:"
 
 # --- Tags ---
 tag_fdm: "FDM"
