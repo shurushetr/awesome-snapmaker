@@ -70,10 +70,16 @@ body:
       description: На каком языке этот ресурс?
       options:
         - EN
-        - ZH
         - DE
-        - FR
         - ES
+        - IT
+        - PL
+        - FR
+        - HE
+        - AR
+        - DA
+        - ZH-CN
+        - ZH-HK
     validations:
       required: true
   - type: checkboxes

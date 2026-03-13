@@ -101,10 +101,16 @@ allowed_tags:
   - FREEMIUM
   language:
   - EN
-  - ZH
   - DE
-  - FR
   - ES
+  - IT
+  - PL
+  - FR
+  - HE
+  - AR
+  - DA
+  - ZH-CN
+  - ZH-HK
 
 ### records
 records:

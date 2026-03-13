@@ -71,10 +71,16 @@ body:
       description: What primary language is this resource in?
       options:
         - EN
-        - ZH
         - DE
-        - FR
         - ES
+        - IT
+        - PL
+        - FR
+        - HE
+        - AR
+        - DA
+        - ZH-CN
+        - ZH-HK
     validations:
       required: true
   - type: checkboxes

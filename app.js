@@ -247,6 +247,12 @@ function applyTranslationsDOM() {
     });
 }
 
+function getTranslatedTag(tag, category) {
+    if (category === 'machine' || !tag) return tag;
+    const key = 'tag_' + tag.toLowerCase().replace(/\s+/g, '_');
+    const dict = translations[currentLang] || translations['en'] || {};
+    return dict[key] || tag;
+}
 
 // Helper for URLs to ensure we don't accidentally treat hostnames as relative paths
 function ensureAbsoluteUrl(url) {
@@ -304,7 +310,7 @@ function createCheckboxGroup(container, category, tags) {
         btn.className = 'filter-btn';
         btn.dataset.value = tag;
         btn.dataset.category = category;
-        btn.textContent = tag;
+        btn.textContent = getTranslatedTag(tag, category);
 
         btn.addEventListener('click', handleFilterClick);
         container.appendChild(btn);
@@ -694,22 +700,22 @@ function renderRecords(records) {
         let tagsHtml = '';
         const t = record.tags || {};
 
-        if (t.machine_type) t.machine_type.forEach(tag => tagsHtml += `<span class="tag machine">${tag}</span>`);
-        if (t.machine_tool_type) t.machine_tool_type.forEach(tag => tagsHtml += `<span class="tag tool">${tag}</span>`);
-        if (t.record_type) t.record_type.forEach(tag => tagsHtml += `<span class="tag type">${tag}</span>`);
+        if (t.machine_type) t.machine_type.forEach(tag => tagsHtml += `<span class="tag machine">${tag}</span>`); // Do not translate
+        if (t.machine_tool_type) t.machine_tool_type.forEach(tag => tagsHtml += `<span class="tag tool">${getTranslatedTag(tag, 'tool')}</span>`);
+        if (t.record_type) t.record_type.forEach(tag => tagsHtml += `<span class="tag type">${getTranslatedTag(tag, 'type')}</span>`);
 
         if (t.official_flag) {
             t.official_flag.forEach(tag => {
                 let tagClass = tag === 'UNOFFICIAL' ? 'unofficial' : tag.toLowerCase(); // it'll be 'official' or 'unofficial'
-                tagsHtml += `<span class="tag ${tagClass}">${tag}</span>`;
+                tagsHtml += `<span class="tag ${tagClass}">${getTranslatedTag(tag, 'official')}</span>`;
             });
         }
 
-        if (record.difficulty && record.difficulty !== 'N/A') tagsHtml += `<span class="tag difficulty">${record.difficulty}</span>`;
-        if (record.cost && record.cost !== 'N/A') tagsHtml += `<span class="tag cost">${record.cost}</span>`;
-        if (record.language && record.language !== 'N/A') tagsHtml += `<span class="tag language">${record.language}</span>`;
+        if (record.difficulty && record.difficulty !== 'N/A') tagsHtml += `<span class="tag difficulty">${getTranslatedTag(record.difficulty, 'difficulty')}</span>`;
+        if (record.cost && record.cost !== 'N/A') tagsHtml += `<span class="tag cost">${getTranslatedTag(record.cost, 'cost')}</span>`;
+        if (record.language && record.language !== 'N/A') tagsHtml += `<span class="tag language">${getTranslatedTag(record.language, 'language')}</span>`;
 
-        if (t.free_tags) t.free_tags.forEach(tag => tagsHtml += `<span class="tag">${tag}</span>`);
+        if (t.free_tags) t.free_tags.forEach(tag => tagsHtml += `<span class="tag">${tag}</span>`); // Typically untranslated
 
         // Generate Buttons HTML
         let buttonsHtml = `<a href="${ensureAbsoluteUrl(record.original_link)}" class="btn primary-btn" target="_blank" rel="noopener noreferrer">View Resource</a>`;

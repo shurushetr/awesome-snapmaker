@@ -17,10 +17,12 @@
 # If you are an AI translating this file into a new language:
 # 1. ONLY translate the string values. DO NOT translate the YAML keys (e.g. keep `ui_title:` exactly as is).
 # 2. DO NOT translate the names of GitHub tags (e.g. OFFICIAL, UNOFFICIAL, enclosure).
-# 3. PRESERVE all Markdown syntax (like **, [], and () parentheses for links).
-# 4. PRESERVE all HTML tags exactly as they appear (like <strong> and <span style="...">).
-# 5. PRESERVE all newline characters (\n) exactly where they appear.
-# 6. Ensure all translated values remain wrapped in double quotes ("").
+# 3. DO NOT translate the names of Machine models (e.g. SM_2.0, Artisan, J1/J1s, Ray).
+# 4. PRESERVE all Markdown syntax (like **, [], and () parentheses for links).
+# 5. PRESERVE all HTML tags exactly as they appear (like <strong> and <span style="...">).
+# 6. PRESERVE all newline characters (\n) exactly where they appear.
+# 7. Ensure all translated values remain wrapped in double quotes ("").
+# 8. PRESERVE the original Camel Case formatting wherever it is applied to technical terms.
 # ----------------------------------------
 
 
@@ -30,6 +32,7 @@ ui_subtitle: "A curated list of awesome Snapmaker resources, mods, and guides."
 ui_contribute: "Contribute"
 ui_discuss: "Discuss"
 ui_contact_author: "Contact Author"
+ui_translate_site: "Help Translate"
 ui_btn_submit: "Submit a New Item"
 ui_btn_show_favs: "★ Show Favorites"
 ui_btn_share: "Share View"
@@ -54,8 +57,47 @@ ui_limit_all: "All"
 ui_search_placeholder: "Search resources…"
 ui_items_found: "items found"
 ui_item_found: "item found"
-ui_tag_official: "OFFICIAL"
-ui_tag_unofficial: "UNOFFICIAL"
+
+# --- Tags ---
+tag_fdm: "FDM"
+tag_laser: "LASER"
+tag_cnc: "CNC"
+tag_rotary: "ROTARY"
+tag_combined: "COMBINED"
+
+tag_article: "ARTICLE"
+tag_create: "CREATE"
+tag_discussion: "DISCUSSION"
+tag_download: "DOWNLOAD"
+tag_firmware: "FIRMWARE"
+tag_mods: "MODS"
+tag_online_tool: "ONLINE TOOL"
+tag_repair: "REPAIR"
+tag_shop: "SHOP"
+tag_video: "VIDEO"
+
+tag_official: "OFFICIAL"
+tag_unofficial: "UNOFFICIAL"
+
+tag_beginner: "BEGINNER"
+tag_intermediate: "INTERMEDIATE"
+tag_advanced: "ADVANCED"
+
+tag_free: "FREE"
+tag_paid: "PAID"
+tag_freemium: "FREEMIUM"
+
+tag_en: "EN"
+tag_de: "DE"
+tag_es: "ES"
+tag_it: "IT"
+tag_pl: "PL"
+tag_fr: "FR"
+tag_he: "HE"
+tag_ar: "AR"
+tag_da: "DA"
+tag_zh-cn: "ZH-CN"
+tag_zh-hk: "ZH-HK"
 
 # --- Bot Comments ---
 bot_duplicate: "Thanks for submitting! However, it looks like this resource already
