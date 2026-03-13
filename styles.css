@@ -191,23 +191,23 @@ a:hover {
 }
 
 .filters {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: minmax(150px, max-content) 1fr;
     gap: 1rem;
+    align-items: flex-start;
+}
+
+.filter-tips, .filter-actions {
+    grid-column: 1 / -1;
 }
 
 .filter-group {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    gap: 1rem;
+    display: contents;
 }
 
 .filter-group label {
     font-weight: bold;
     color: var(--header-bg);
-    width: 150px;
-    flex-shrink: 0;
     margin-top: 4px;
 }
 
