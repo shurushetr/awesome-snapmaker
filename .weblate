@@ -1,0 +1,8 @@
+version: 1
+
+components:
+  - name: Awesome Snapmaker List Translations
+    filemask: translations.yml
+    template: ""
+    file_format: yaml
+    edit_template: false
