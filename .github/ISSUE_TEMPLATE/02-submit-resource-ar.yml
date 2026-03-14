@@ -93,7 +93,7 @@ body:
         - label: U1
         - label: J1/J1s
         - label: RAY
-        - label: UNIVERSAL
+        - label: عالمي
   - type: checkboxes
     id: machine_tool_type
     attributes:

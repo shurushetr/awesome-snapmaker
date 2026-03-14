@@ -107,7 +107,7 @@ body:
         - label: FDM
         - label: LASER
         - label: CNC
-        - label: ROTARY
+        - label: ROTARY ATTACHMENT
         - label: COMBINED
   - type: checkboxes
     id: record_type
