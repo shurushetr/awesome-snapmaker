@@ -206,7 +206,10 @@ function setupI18n(languageNames) {
     if (langDropdown && languageNames) {
         langDropdown.innerHTML = '';
         for (const langKey in languageNames) {
-            const displayName = languageNames[langKey] || langKey.toUpperCase();
+            let displayName = languageNames[langKey] || langKey.toUpperCase();
+            if (langKey === 'en-pirate') {
+                displayName = '🏴‍☠️ ' + displayName;
+            }
             const option = document.createElement('option');
             option.value = langKey;
             option.textContent = displayName;
