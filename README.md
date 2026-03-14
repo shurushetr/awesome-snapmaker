@@ -6228,7 +6228,7 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 **Content Author:** Sidecar | **Added:** 2026-03-14
 
-**Tags:** U1, FDM, DISCUSSION, FIRMWARE, MODS, UNOFFICIAL, color changer, MMU
+**Tags:** INTERMEDIATE, PAID, U1, FDM, DISCUSSION, FIRMWARE, MODS, UNOFFICIAL, color changer, MMU
 
 ---
 
