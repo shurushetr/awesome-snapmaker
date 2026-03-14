@@ -119,7 +119,7 @@ async function init() {
             'it': 'Italiano (IT)', 'pl': 'Polski (PL)', 'fr': 'Français (FR)', 
             'he': 'עברית (HE)', 'ar': 'العربية (AR)', 'da': 'Dansk (DA)', 
             'ru': 'Русский (RU)', 'zh-CN': '简体中文 (ZH-CN)', 
-            'zh-HK': '繁體中文 (ZH-HK)', 'en-pirate': 'English Pirate (EN-PIRATE)'
+            'zh-HK': '繁體中文 (ZH-HK)', 'en-pirate': 'English Pirate'
         };
         
         let detectedLang = 'en';
