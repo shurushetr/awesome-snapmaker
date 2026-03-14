@@ -104,11 +104,14 @@ def parse_issue_body(body):
         elif label == "issue_original_link_label" or "content link" in label:
             record["original_link"] = value
         elif label == "issue_difficulty_label" or "difficulty" in label:
-            record["difficulty"] = map_tags([value]) if value and value != "N/A" else []
+            if value and value != "N/A" and value != "None":
+                record["difficulty"] = map_tags([value])[0]
         elif label == "issue_cost_label" or "cost" in label:
-            record["cost"] = map_tags([value]) if value and value != "N/A" else []
+            if value and value != "N/A" and value != "None":
+                record["cost"] = map_tags([value])[0]
         elif label == "issue_language_label" or "language" in label:
-            record["language"] = map_tags([value]) if value and value != "N/A" else []
+            if value and value != "N/A" and value != "None":
+                record["language"] = map_tags([value])[0]
         elif label == "issue_machine_type_label" or "machine type" in label:
             if "- [" in value:
                 extracted = [v.replace('- [X]', '').replace('- [x]', '').strip() for v in value.split('\n') if '- [x]' in v.lower()]

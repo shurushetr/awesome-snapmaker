@@ -28,8 +28,9 @@
 #   author_link: (string, optional) URL to author profile
 #   original_link: (string, required) The actual URL of the resource
 #   date_added: (string 'YYYY-MM-DD', required) Date it was added to the list
-#   difficulty: (string, optional) Beginner | Intermediate | Advanced
-#   cost: (string, optional) Free | Freemium | Paid
+#   difficulty: (string, optional) Beginner | Intermediate | Advanced (MUST be a single string, NOT a list)
+#   cost: (string, optional) Free | Freemium | Paid (MUST be a single string, NOT a list)
+#   language: (string, optional) EN | DE | FR | etc. (MUST be a single string, NOT a list)
 #   tags: (dict, required)
 #     machine_type: [list of allowed_tags]
 #     machine_tool_type: [list of allowed_tags]
@@ -6223,10 +6224,8 @@ records:
   author_link: https://forum.snapmaker.com/u/sidecar
   original_link: https://forum.snapmaker.com/t/sidecar-16-color-mmu-for-u1/41473
   date_added: '2026-03-14'
-  difficulty:
-  - INTERMEDIATE
-  cost:
-  - PAID
+  difficulty: INTERMEDIATE
+  cost: PAID
   tags:
     machine_type:
     - U1

@@ -259,9 +259,10 @@ function applyTranslationsDOM() {
 
 function getTranslatedTag(tag, category) {
     if (category === 'machine' || !tag) return tag;
-    const key = 'tag_' + tag.toLowerCase().replace(/\s+/g, '_');
+    const tagStr = String(tag);
+    const key = 'tag_' + tagStr.toLowerCase().replace(/\s+/g, '_');
     const dict = translations[currentLang] || translations['en'] || {};
-    return dict[key] || tag;
+    return dict[key] || tagStr;
 }
 
 // Helper for URLs to ensure we don't accidentally treat hostnames as relative paths
