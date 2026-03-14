@@ -57,6 +57,11 @@ def generate_templates():
                 return opt
             key = f"tag_{opt.lower().replace(' ', '_')}"
             return t(key, opt)
+            
+        try:
+            default_lang_idx = allowed_tags.get('language', []).index(lang.upper())
+        except ValueError:
+            default_lang_idx = None
         
         template = {
             'name': f"{t('issue_submit_title', '👉 Add a New Resource')} ({lang.upper()})",
@@ -209,6 +214,12 @@ def generate_templates():
                 }
             ]
         }
+        
+        if default_lang_idx is not None:
+            for item in template['body']:
+                if item.get('id') == 'language':
+                    item['attributes']['default'] = default_lang_idx
+                    break
         
         filename = f"{idx:02d}-submit-resource-{lang}.yml"
         filepath = os.path.join(ISSUE_DIR, filename)

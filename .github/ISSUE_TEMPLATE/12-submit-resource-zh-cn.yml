@@ -77,6 +77,7 @@ body:
         - ZH-CN
         - ZH-HK
         - EN-PIRATE
+      default: 10
     validations:
       required: true
   - type: checkboxes
