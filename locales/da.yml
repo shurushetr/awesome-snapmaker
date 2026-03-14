@@ -20,7 +20,10 @@ ui_filter_official: "Filtrer efter officiel:"
 ui_filter_difficulty: "Filtrer efter sværhedsgrad:"
 ui_filter_cost: "Filtrer efter pris:"
 ui_filter_lang: "Filtrer efter sprog:"
-ui_filter_tips: "<strong>Filtertips:</strong> Tryk på et tag én gang for at <span style='color: #10b981; font-weight: bold;'>inkludere</span> det (grønt). Tryk igen for at <span style='color: #ef4444; font-weight: bold; text-decoration: line-through;'>udelukke</span> det (rødt)."
+ui_filter_tips: "<strong>Filtertips:</strong> Tryk på et tag én gang for at <span
+  style='color: #10b981; font-weight: bold;'>inkludere</span> det (grønt). Tryk igen
+  for at <span style='color: #ef4444; font-weight: bold; text-decoration: line-through;'>udelukke</span>
+  det (rødt)."
 ui_sort_label: "Sortér efter:"
 ui_sort_newest: "Nyeste til ældste"
 ui_sort_oldest: "Ældste til nyeste"
@@ -78,23 +81,35 @@ tag_zh-hk: "ZH-HK"
 tag_en-pirate: "EN-PIRATE"
 
 # --- Bot Comments ---
-bot_duplicate: "Tak for dit bidrag! Det ser dog ud til, at denne ressource allerede findes i vores katalog:\n\n🔗 https://awesome-sm-list.xyz/#"
-bot_duplicate_issue: "Tak for dit bidrag! Det ser dog ud til, at en anden allerede har indsendt denne ressource, og den afventer i øjeblikket gennemgang i "
-bot_rejected: "Tak for dit bidrag! Af hensyn til vores brugeres sikkerhed accepterer vi ikke direkte links til eksekverbare filer (.exe, .msi osv.). Link venligst til projektets hjemmeside eller repository i stedet."
-bot_unique: "Tak for dit bidrag! En vedligeholder vil snart gennemgå din indsendelse. Vi sætter pris på dit bidrag til Awesome Snapmaker List! 🚀"
-bot_merged: "🎉 Din indsendelse er blevet flettet ind i kataloget!\n\nTak for dit bidrag til Awesome Snapmaker List. Dette issue er nu formelt lukket."
+bot_duplicate: "Tak for dit bidrag! Det ser dog ud til, at denne ressource allerede
+  findes i vores katalog:\n\n🔗 https://awesome-sm-list.xyz/#"
+bot_duplicate_issue: "Tak for dit bidrag! Det ser dog ud til, at en anden allerede
+  har indsendt denne ressource, og den afventer i øjeblikket gennemgang i "
+bot_rejected: "Tak for dit bidrag! Af hensyn til vores brugeres sikkerhed accepterer
+  vi ikke direkte links til eksekverbare filer (.exe, .msi osv.). Link venligst til
+  projektets hjemmeside eller repository i stedet."
+bot_unique: "Tak for dit bidrag! En vedligeholder vil snart gennemgå din indsendelse.
+  Vi sætter pris på dit bidrag til Awesome Snapmaker List! 🚀"
+bot_merged: "🎉 Din indsendelse er blevet flettet ind i kataloget!\n\nTak for dit bidrag
+  til Awesome Snapmaker List. Dette issue er nu formelt lukket."
 
 # --- GitHub Issue Template (Submit) ---
 issue_submit_title: "👉 Tilføj en ny ressource"
-issue_submit_desc: "Indsend en ny ressource (værktøj, guide, mod osv.) til Awesome Snapmaker List!"
-issue_submit_body: "Tak fordi du tager dig tid til at indsende en ny ressource til Awesome Snapmaker List!\n\nUdfyld venligst formularen nedenfor. Når den er indsendt, vil vores automatiserede bot generere en Pull Request for at tilføje den til databasen, så vedligeholderen kan godkende den med ét klik!"
+issue_submit_desc: "Indsend en ny ressource (værktøj, guide, mod osv.) til Awesome
+  Snapmaker List!"
+issue_submit_body: "Tak fordi du tager dig tid til at indsende en ny ressource til
+  Awesome Snapmaker List!\n\nUdfyld venligst formularen nedenfor. Når den er indsendt,
+  vil vores automatiserede bot generere en Pull Request for at tilføje den til databasen,
+  så vedligeholderen kan godkende den med ét klik!"
 issue_description_label: "Ressourcebeskrivelse"
 issue_description_desc: "Giv et kort resumé af, hvad denne ressource handler om."
 issue_description_placeholder: "Denne guide dækker de bedste indstillinger for…"
 issue_author_name_label: "Forfatternavn"
-issue_author_name_desc: "Hvem har lavet denne ressource? (Brug dit navn eller brugernavn, hvis det er dit)"
+issue_author_name_desc: "Hvem har lavet denne ressource? (Brug dit navn eller brugernavn,
+  hvis det er dit)"
 issue_author_link_label: "Forfatterlink"
-issue_author_link_desc: "Link til forfatterens profil (GitHub, Thingiverse, Forum osv.)"
+issue_author_link_desc: "Link til forfatterens profil (GitHub, Thingiverse, Forum
+  osv.)"
 issue_original_link_label: "Indholdslink (Original URL)"
 issue_original_link_desc: "Hvor er denne ressource hostet?"
 issue_difficulty_label: "Sværhedsgrad"
@@ -102,52 +117,89 @@ issue_cost_label: "Pris"
 issue_language_label: "Sprog"
 issue_language_desc: "Hvilket primært sprog er denne ressource på?"
 issue_machine_type_label: "Maskintype(r)"
-issue_machine_type_desc: "Hvilke Snapmaker-maskiner gælder dette for? (Vælg alle der passer)"
+issue_machine_type_desc: "Hvilke Snapmaker-maskiner gælder dette for? (Vælg alle der
+  passer)"
 issue_machine_tool_type_label: "Maskinværktøjstype(r)"
-issue_machine_tool_type_desc: "Hvilke moduler/værktøjshoveder er relevante? (Vælg alle der passer)"
+issue_machine_tool_type_desc: "Hvilke moduler/værktøjshoveder er relevante? (Vælg
+  alle der passer)"
 issue_record_type_label: "Posttype(r)"
 issue_record_type_desc: "Hvilken slags ressource er dette? (Vælg alle der passer)"
 issue_official_label: "Officiel Snapmaker-ressource?"
-issue_official_desc: "Er dette en officiel Snapmaker-ressource eller et community-skabt indhold?"
+issue_official_desc: "Er dette en officiel Snapmaker-ressource eller et community-skabt
+  indhold?"
 issue_official_no: "Nej"
 issue_official_yes: "Ja"
 issue_free_tags_label: "Frie tags"
-issue_free_tags_desc: "Kommaseparerede tags (f.eks. OFFICIAL, UNOFFICIAL, enclosure, cooling)"
+issue_free_tags_desc: "Kommaseparerede tags (f.eks. OFFICIAL, UNOFFICIAL, enclosure,
+  cooling)"
 issue_extra_btn1_label: "(Valgfrit) Ekstra knap 1 - Etiket"
 issue_extra_btn1_desc: "Nyttigt til direkte PDF/STL-downloads."
 issue_extra_btn1_link: "(Valgfrit) Ekstra knap 1 - Link"
-issue_confirm: "Ved at indsende dette issue bekræfter du, at linket er sikkert og gyldigt."
+issue_confirm: "Ved at indsende dette issue bekræfter du, at linket er sikkert og
+  gyldigt."
 
 # --- GitHub Issue Template (Modify/Remove) ---
 issue_modify_title: "✏️ Rediger eller fjern en ressource"
-issue_modify_desc: "Anmod om en rettelse, opdatering eller fjernelse af en eksisterende ressource på Awesome List."
-issue_modify_body: "Tak fordi du hjælper med at holde Awesome Snapmaker List nøjagtig og opdateret!\n\nAngiv venligst detaljerne nedenfor, så en vedligeholder kan gennemgå og anvende ændringerne."
+issue_modify_desc: "Anmod om en rettelse, opdatering eller fjernelse af en eksisterende
+  ressource på Awesome List."
+issue_modify_body: "Tak fordi du hjælper med at holde Awesome Snapmaker List nøjagtig
+  og opdateret!\n\nAngiv venligst detaljerne nedenfor, så en vedligeholder kan gennemgå
+  og anvende ændringerne."
 issue_modify_type_label: "Hvad vil du gøre?"
-issue_modify_type_update: "Opdater en eksisterende ressource (ødelagt link, forkerte tags, slåfejl osv.)"
+issue_modify_type_update: "Opdater en eksisterende ressource (ødelagt link, forkerte
+  tags, slåfejl osv.)"
 issue_modify_type_remove: "Fjern en ressource (findes ikke længere, upassende, forældet)"
 issue_modify_current_link_label: "Nuværende ressourcelink"
-issue_modify_current_link_desc: "Indsæt 'Indholdslinket' for ressourcen, der i øjeblikket er på hjemmesiden."
+issue_modify_current_link_desc: "Indsæt 'Indholdslinket' for ressourcen, der i øjeblikket
+  er på hjemmesiden."
 issue_modify_new_link_label: "Nyt ressourcelink (hvis relevant)"
-issue_modify_new_link_desc: "Hvis ressourcen er flyttet til en ny URL, indsæt det nye link her. Lad det være tomt, hvis det ikke er relevant."
+issue_modify_new_link_desc: "Hvis ressourcen er flyttet til en ny URL, indsæt det
+  nye link her. Lad det være tomt, hvis det ikke er relevant."
 issue_modify_reason_label: "Årsag til ændring / Nye detaljer"
-issue_modify_reason_desc: "Forklar hvad der skal ændres (f.eks. 'Linket er dødt' eller 'Skift venligst prisen til FREE og maskinen til Artisan')."
+issue_modify_reason_desc: "Forklar hvad der skal ændres (f.eks. 'Linket er dødt' eller
+  'Skift venligst prisen til FREE og maskinen til Artisan')."
 issue_modify_reason_placeholder: "Beskriv kort den nødvendige rettelse her…"
 tour_btn_next: Næste →
 tour_btn_prev: ← Tilbage
 tour_btn_done: Forstået!
 tour_step1_title: Velkommen til den fantastiske Snapmaker-liste!
-tour_step1_desc: Lad os tage en hurtig rundvisning for at lære, hvordan du nemt filtrerer og finder præcis det, du har brug for.
+tour_step1_desc: Lad os tage en hurtig rundvisning for at lære, hvordan du nemt 
+  filtrerer og finder præcis det, du har brug for.
 tour_step2_title: Fuzzy Søgning
-tour_step2_desc: Leder du efter specialiseret firmware? Prøv at skrive 'PAXX12' her. Fuzzy søgningen vil øjeblikkeligt finde de nærmeste match!
+tour_step2_desc: Leder du efter specialiseret firmware? Prøv at skrive 'PAXX12' 
+  her. Fuzzy søgningen vil øjeblikkeligt finde de nærmeste match!
 tour_step3_title: Filtrer efter maskine
-tour_step3_desc: Ryd nu søgefeltet, og lad os finde den samme PAXX12 firmware ved hjælp af tags i stedet. Klik først på 'U1' maskin-tagget.
+tour_step3_desc: Ryd nu søgefeltet, og lad os finde den samme PAXX12 firmware 
+  ved hjælp af tags i stedet. Klik først på 'U1' maskin-tagget.
 tour_step4_title: Filtrer efter type
-tour_step4_desc: Du kan kombinere filtre! Klik nu på 'FIRMWARE' for at finde U1 firmwareopdateringer.
+tour_step4_desc: Du kan kombinere filtre! Klik nu på 'FIRMWARE' for at finde U1 
+  firmwareopdateringer.
 tour_step5_title: Udelukkelsesfiltrering
-tour_step5_desc: Du kan dobbeltklikke på tags for at gøre dem røde og øjeblikkeligt EKSKLUDERE dem fra dine resultater. Dobbeltklik på andre maskintags for at ekskludere dem, og scroll derefter ned for at se PAXX12-rekorden!
+tour_step5_desc: Du kan dobbeltklikke på tags for at gøre dem røde og 
+  øjeblikkeligt EKSKLUDERE dem fra dine resultater. Dobbeltklik på andre 
+  maskintags for at ekskludere dem, og scroll derefter ned for at se 
+  PAXX12-rekorden!
 tour_step6_title: Gem favoritter
-tour_step6_desc: Klik på ★ på en ressource for at gemme den sikkert på din lokale enhed. Klik derefter på '★ Vis favoritter' heroppe for at filtrere hele listen ned til kun dine gemte elementer.
+tour_step6_desc: Klik på ★ på en ressource for at gemme den sikkert på din 
+  lokale enhed. Klik derefter på '★ Vis favoritter' heroppe for at filtrere hele
+  listen ned til kun dine gemte elementer.
 tour_step7_title: Del visninger
-tour_step7_desc: Har du fundet den perfekte opsætning? Klik på 'Del visning' for at kopiere dine nøjagtige filtre som et link.
+tour_step7_desc: Har du fundet den perfekte opsætning? Klik på 'Del visning' for
+  at kopiere dine nøjagtige filtre som et link.
 tour_step8_title: Del links
-tour_step8_desc: Du kan også bruge linkikonet på individuelle kort til direkte at dele en specifik ressource.
+tour_step8_desc: Du kan også bruge linkikonet på individuelle kort til direkte 
+  at dele en specifik ressource.
+tour_step2b_title: "Instant Results"
+tour_step2b_desc: "The list updates instantly, showing exactly how many records match."
+tour_step2c_title: "Match Found"
+tour_step2c_desc: "Here is the exact PAXX12 firmware we're looking for, highlighted
+  among the results!"
+tour_step5b_title: "Finding with Tags"
+tour_step5b_desc: "By combining inclusions and exclusions, we've filtered the entire
+  list down to the exact same PAXX12 firmware record without typing!"
+tour_step6b_title: "View Favorites"
+tour_step6b_desc: "Then, click '★ Show Favorites' up here to filter the entire list
+  down to just your saved items."
+tour_step9_title: "Clear Filters"
+tour_step9_desc: "You can quickly reset your view and see all resources by clicking
+  'Clear All Filters'. Enjoy exploring the list!"

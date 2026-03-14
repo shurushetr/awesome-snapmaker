@@ -20,7 +20,10 @@ ui_filter_official: "Filtrer par officiel :"
 ui_filter_difficulty: "Filtrer par difficulté :"
 ui_filter_cost: "Filtrer par coût :"
 ui_filter_lang: "Filtrer par langue :"
-ui_filter_tips: "<strong>Astuces de filtrage :</strong> Appuyez une fois sur un tag pour l'<span style='color: #10b981; font-weight: bold;'>inclure</span> (vert). Appuyez à nouveau pour l'<span style='color: #ef4444; font-weight: bold; text-decoration: line-through;'>exclure</span> (rouge)."
+ui_filter_tips: "<strong>Astuces de filtrage :</strong> Appuyez une fois sur un tag
+  pour l'<span style='color: #10b981; font-weight: bold;'>inclure</span> (vert). Appuyez
+  à nouveau pour l'<span style='color: #ef4444; font-weight: bold; text-decoration:
+  line-through;'>exclure</span> (rouge)."
 ui_sort_label: "Trier par :"
 ui_sort_newest: "Plus récent au plus ancien"
 ui_sort_oldest: "Plus ancien au plus récent"
@@ -78,41 +81,61 @@ tag_zh-hk: "ZH-HK"
 tag_en-pirate: "EN-PIRATE"
 
 # --- Bot Comments ---
-bot_duplicate: "Merci pour ta soumission ! Cependant, il semble que cette ressource existe déjà dans notre répertoire :\n\n🔗 https://awesome-sm-list.xyz/#"
-bot_duplicate_issue: "Merci pour ta soumission ! Cependant, il semble que quelqu'un d'autre a déjà soumis cette ressource et qu'elle est actuellement en attente de révision dans "
-bot_rejected: "Merci pour ta soumission ! Pour la sécurité de nos utilisateurs, nous n'acceptons pas les liens directs vers des fichiers exécutables (.exe, .msi, etc.). Merci de plutôt fournir un lien vers la page principale du projet ou son dépôt."
-bot_unique: "Merci pour ta soumission ! Un mainteneur examinera ta contribution sous peu. Nous apprécions ta participation à la Awesome Snapmaker List ! 🚀"
-bot_merged: "🎉 Ta soumission a été fusionnée avec succès dans le répertoire !\n\nMerci pour ta contribution à la Awesome Snapmaker List. Ce ticket est maintenant officiellement fermé."
+bot_duplicate: "Merci pour ta soumission ! Cependant, il semble que cette ressource
+  existe déjà dans notre répertoire :\n\n🔗 https://awesome-sm-list.xyz/#"
+bot_duplicate_issue: "Merci pour ta soumission ! Cependant, il semble que quelqu'un
+  d'autre a déjà soumis cette ressource et qu'elle est actuellement en attente de
+  révision dans "
+bot_rejected: "Merci pour ta soumission ! Pour la sécurité de nos utilisateurs, nous
+  n'acceptons pas les liens directs vers des fichiers exécutables (.exe, .msi, etc.).
+  Merci de plutôt fournir un lien vers la page principale du projet ou son dépôt."
+bot_unique: "Merci pour ta soumission ! Un mainteneur examinera ta contribution sous
+  peu. Nous apprécions ta participation à la Awesome Snapmaker List ! 🚀"
+bot_merged: "🎉 Ta soumission a été fusionnée avec succès dans le répertoire !\n\n\
+  Merci pour ta contribution à la Awesome Snapmaker List. Ce ticket est maintenant
+  officiellement fermé."
 
 # --- GitHub Issue Template (Submit) ---
 issue_submit_title: "👉 Ajouter une nouvelle ressource"
-issue_submit_desc: "Soumets une nouvelle ressource (outil, guide, mod, etc.) à la Awesome Snapmaker List !"
-issue_submit_body: "Merci de prendre le temps de soumettre une nouvelle ressource à la Awesome Snapmaker List !\n\nMerci de remplir le formulaire ci-dessous. Une fois soumis, notre bot automatisé générera une Pull Request pour l'ajouter à la base de données, afin que le mainteneur puisse l'approuver en un seul clic !"
+issue_submit_desc: "Soumets une nouvelle ressource (outil, guide, mod, etc.) à la
+  Awesome Snapmaker List !"
+issue_submit_body: "Merci de prendre le temps de soumettre une nouvelle ressource
+  à la Awesome Snapmaker List !\n\nMerci de remplir le formulaire ci-dessous. Une
+  fois soumis, notre bot automatisé générera une Pull Request pour l'ajouter à la
+  base de données, afin que le mainteneur puisse l'approuver en un seul clic !"
 issue_description_label: "Description de la ressource"
 issue_description_desc: "Fournis un bref résumé de ce dont traite cette ressource."
 issue_description_placeholder: "Ce guide couvre les meilleurs réglages pour…"
 issue_author_name_label: "Nom de l'auteur"
-issue_author_name_desc: "Qui a créé cette ressource ? (Utilise ton nom ou pseudo si c'est la tienne)"
+issue_author_name_desc: "Qui a créé cette ressource ? (Utilise ton nom ou pseudo si
+  c'est la tienne)"
 issue_author_link_label: "Lien de l'auteur"
-issue_author_link_desc: "Lien vers le profil de l'auteur (GitHub, Thingiverse, Forum, etc.)"
+issue_author_link_desc: "Lien vers le profil de l'auteur (GitHub, Thingiverse, Forum,
+  etc.)"
 issue_original_link_label: "Lien du contenu (URL d'origine)"
 issue_original_link_desc: "Où cette ressource est-elle hébergée ?"
 issue_difficulty_label: "Niveau de difficulté"
 issue_cost_label: "Coût"
 issue_language_label: "Langue"
-issue_language_desc: "Dans quelle langue principale cette ressource est-elle rédigée ?"
+issue_language_desc: "Dans quelle langue principale cette ressource est-elle rédigée
+  ?"
 issue_machine_type_label: "Type(s) de machine"
-issue_machine_type_desc: "À quelles machines Snapmaker cela s'applique-t-il ? (Sélectionne tout ce qui convient)"
+issue_machine_type_desc: "À quelles machines Snapmaker cela s'applique-t-il ? (Sélectionne
+  tout ce qui convient)"
 issue_machine_tool_type_label: "Type(s) d'outil machine"
-issue_machine_tool_type_desc: "Quels modules/têtes d'outil sont concernés ? (Sélectionne tout ce qui convient)"
+issue_machine_tool_type_desc: "Quels modules/têtes d'outil sont concernés ? (Sélectionne
+  tout ce qui convient)"
 issue_record_type_label: "Type(s) d'entrée"
-issue_record_type_desc: "De quel type de ressource s'agit-il ? (Sélectionne tout ce qui convient)"
+issue_record_type_desc: "De quel type de ressource s'agit-il ? (Sélectionne tout ce
+  qui convient)"
 issue_official_label: "Ressource officielle Snapmaker ?"
-issue_official_desc: "S'agit-il d'une ressource officielle Snapmaker ou d'une création communautaire ?"
+issue_official_desc: "S'agit-il d'une ressource officielle Snapmaker ou d'une création
+  communautaire ?"
 issue_official_no: "Non"
 issue_official_yes: "Oui"
 issue_free_tags_label: "Tags libres"
-issue_free_tags_desc: "Tags séparés par des virgules (ex. OFFICIAL, UNOFFICIAL, enclosure, cooling)"
+issue_free_tags_desc: "Tags séparés par des virgules (ex. OFFICIAL, UNOFFICIAL, enclosure,
+  cooling)"
 issue_extra_btn1_label: "(Optionnel) Bouton supplémentaire 1 - Libellé"
 issue_extra_btn1_desc: "Utile pour les téléchargements directs de PDF/STL."
 issue_extra_btn1_link: "(Optionnel) Bouton supplémentaire 1 - Lien"
@@ -120,34 +143,69 @@ issue_confirm: "En soumettant ce ticket, tu confirmes que le lien est sûr et va
 
 # --- GitHub Issue Template (Modify/Remove) ---
 issue_modify_title: "✏️ Modifier ou supprimer une ressource"
-issue_modify_desc: "Demande une correction, une mise à jour ou la suppression d'une ressource existante sur la Awesome List."
-issue_modify_body: "Merci d'aider à maintenir la Awesome Snapmaker List précise et à jour !\n\nMerci de fournir les détails ci-dessous afin qu'un mainteneur puisse examiner et appliquer les modifications."
+issue_modify_desc: "Demande une correction, une mise à jour ou la suppression d'une
+  ressource existante sur la Awesome List."
+issue_modify_body: "Merci d'aider à maintenir la Awesome Snapmaker List précise et
+  à jour !\n\nMerci de fournir les détails ci-dessous afin qu'un mainteneur puisse
+  examiner et appliquer les modifications."
 issue_modify_type_label: "Que souhaites-tu faire ?"
-issue_modify_type_update: "Mettre à jour une ressource existante (lien cassé, mauvais tags, faute de frappe, etc.)"
+issue_modify_type_update: "Mettre à jour une ressource existante (lien cassé, mauvais
+  tags, faute de frappe, etc.)"
 issue_modify_type_remove: "Supprimer une ressource (n'existe plus, inappropriée, obsolète)"
 issue_modify_current_link_label: "Lien de la ressource actuelle"
-issue_modify_current_link_desc: "Colle le 'Lien du contenu' de la ressource actuellement présente sur le site."
+issue_modify_current_link_desc: "Colle le 'Lien du contenu' de la ressource actuellement
+  présente sur le site."
 issue_modify_new_link_label: "Nouveau lien de la ressource (si applicable)"
-issue_modify_new_link_desc: "Si la ressource a déménagé vers une nouvelle URL, colle le nouveau lien ici. Laisse vide si non applicable."
+issue_modify_new_link_desc: "Si la ressource a déménagé vers une nouvelle URL, colle
+  le nouveau lien ici. Laisse vide si non applicable."
 issue_modify_reason_label: "Raison du changement / Nouveaux détails"
-issue_modify_reason_desc: "Explique ce qui doit être modifié (ex. 'Le lien est mort' ou 'Merci de changer le coût en FREE et la machine en Artisan')."
+issue_modify_reason_desc: "Explique ce qui doit être modifié (ex. 'Le lien est mort'
+  ou 'Merci de changer le coût en FREE et la machine en Artisan')."
 issue_modify_reason_placeholder: "Explique brièvement la correction nécessaire ici…"
 tour_btn_next: Suivant →
 tour_btn_prev: ← Retour
 tour_btn_done: J'ai compris !
 tour_step1_title: Bienvenue sur l'Exceptionnelle Liste Snapmaker !
-tour_step1_desc: Faisons une petite visite rapide pour apprendre à filtrer facilement et trouver exactement ce dont vous avez besoin.
+tour_step1_desc: Faisons une petite visite rapide pour apprendre à filtrer 
+  facilement et trouver exactement ce dont vous avez besoin.
 tour_step2_title: Recherche Approximative
-tour_step2_desc: Vous recherchez un firmware spécialisé ? Essayez de taper 'PAXX12' ici. La recherche approximative trouvera instantanément les correspondances les plus proches !
+tour_step2_desc: Vous recherchez un firmware spécialisé ? Essayez de taper 
+  'PAXX12' ici. La recherche approximative trouvera instantanément les 
+  correspondances les plus proches !
 tour_step3_title: Filtrer par Machine
-tour_step3_desc: Maintenant, effacez la barre de recherche et trouvons ce même firmware PAXX12 en utilisant plutôt les tags. D'abord, cliquez sur le tag de machine 'U1'.
+tour_step3_desc: Maintenant, effacez la barre de recherche et trouvons ce même 
+  firmware PAXX12 en utilisant plutôt les tags. D'abord, cliquez sur le tag de 
+  machine 'U1'.
 tour_step4_title: Filtrer par Type
-tour_step4_desc: Vous pouvez combiner les filtres ! Cliquez maintenant sur 'FIRMWARE' pour trouver les mises à jour de firmware U1.
+tour_step4_desc: Vous pouvez combiner les filtres ! Cliquez maintenant sur 
+  'FIRMWARE' pour trouver les mises à jour de firmware U1.
 tour_step5_title: Filtrage d'Exclusion
-tour_step5_desc: Vous pouvez double-cliquer sur les tags pour les rendre rouges et les EXCLUIR instantanément de vos résultats. Double-cliquez sur les autres tags de machines pour les exclure, puis descendez pour voir l'enregistrement PAXX12 !
+tour_step5_desc: Vous pouvez double-cliquer sur les tags pour les rendre rouges 
+  et les EXCLUIR instantanément de vos résultats. Double-cliquez sur les autres 
+  tags de machines pour les exclure, puis descendez pour voir l'enregistrement 
+  PAXX12 !
 tour_step6_title: Sauvegarder les Favoris
-tour_step6_desc: Cliquez sur la ★ de n'importe quelle ressource pour la sauvegarder en toute sécurité sur votre appareil. Ensuite, cliquez sur '★ Afficher les Favoris' ici pour filtrer toute la liste et ne montrer que vos éléments sauvegardés.
+tour_step6_desc: Cliquez sur la ★ de n'importe quelle ressource pour la 
+  sauvegarder en toute sécurité sur votre appareil. Ensuite, cliquez sur '★ 
+  Afficher les Favoris' ici pour filtrer toute la liste et ne montrer que vos 
+  éléments sauvegardés.
 tour_step7_title: Partager les Vues
-tour_step7_desc: Vous avez trouvé la configuration parfaite ? Cliquez sur 'Partager la Vue' pour copier vos filtres exactos sous forme de lien.
+tour_step7_desc: Vous avez trouvé la configuration parfaite ? Cliquez sur 
+  'Partager la Vue' pour copier vos filtres exactos sous forme de lien.
 tour_step8_title: Partager les Liens
-tour_step8_desc: Vous pouvez également utiliser l'icône de lien sur les cartes individuelles pour partager directement une ressource spécifique.
+tour_step8_desc: Vous pouvez également utiliser l'icône de lien sur les cartes 
+  individuelles pour partager directement une ressource spécifique.
+tour_step2b_title: "Instant Results"
+tour_step2b_desc: "The list updates instantly, showing exactly how many records match."
+tour_step2c_title: "Match Found"
+tour_step2c_desc: "Here is the exact PAXX12 firmware we're looking for, highlighted
+  among the results!"
+tour_step5b_title: "Finding with Tags"
+tour_step5b_desc: "By combining inclusions and exclusions, we've filtered the entire
+  list down to the exact same PAXX12 firmware record without typing!"
+tour_step6b_title: "View Favorites"
+tour_step6b_desc: "Then, click '★ Show Favorites' up here to filter the entire list
+  down to just your saved items."
+tour_step9_title: "Clear Filters"
+tour_step9_desc: "You can quickly reset your view and see all resources by clicking
+  'Clear All Filters'. Enjoy exploring the list!"

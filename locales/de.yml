@@ -4,7 +4,8 @@
 
 # --- Main UI Frontend Elements ---
 ui_title: "Awesome Snapmaker List"
-ui_subtitle: "Eine kuratierte Liste mit großartigen Snapmaker-Ressourcen, Mods und Anleitungen."
+ui_subtitle: "Eine kuratierte Liste mit großartigen Snapmaker-Ressourcen, Mods und
+  Anleitungen."
 ui_contribute: "Beitragen"
 ui_discuss: "Diskutieren"
 ui_contact_author: "Autor kontaktieren"
@@ -20,7 +21,10 @@ ui_filter_official: "Nach Offiziell filtern:"
 ui_filter_difficulty: "Nach Schwierigkeitsgrad filtern:"
 ui_filter_cost: "Nach Kosten filtern:"
 ui_filter_lang: "Nach Sprache filtern:"
-ui_filter_tips: "<strong>Filtertipps:</strong> Einmal auf ein Tag tippen, um es <span style='color: #10b981; font-weight: bold;'>einzuschließen</span> (grün). Nochmal tippen, um es <span style='color: #ef4444; font-weight: bold; text-decoration: line-through;'>auszuschließen</span> (rot)."
+ui_filter_tips: "<strong>Filtertipps:</strong> Einmal auf ein Tag tippen, um es <span
+  style='color: #10b981; font-weight: bold;'>einzuschließen</span> (grün). Nochmal
+  tippen, um es <span style='color: #ef4444; font-weight: bold; text-decoration: line-through;'>auszuschließen</span>
+  (rot)."
 ui_sort_label: "Sortieren nach:"
 ui_sort_newest: "Neueste zuerst"
 ui_sort_oldest: "Älteste zuerst"
@@ -78,21 +82,36 @@ tag_zh-hk: "ZH-HK"
 tag_en-pirate: "EN-PIRATE"
 
 # --- Bot Comments ---
-bot_duplicate: "Danke für deine Einreichung! Diese Ressource ist jedoch bereits in unserem Verzeichnis vorhanden:\n\n🔗 https://awesome-sm-list.xyz/#"
-bot_duplicate_issue: "Danke für deine Einreichung! Es sieht jedoch so aus, als hätte jemand anderes diese Ressource bereits eingereicht, und sie wird derzeit geprüft in "
-bot_rejected: "Danke für deine Einreichung! Aus Sicherheitsgründen akzeptieren wir keine direkten Links zu ausführbaren Dateien (.exe, .msi usw.). Bitte verlinke stattdessen auf die Projektwebseite oder das Repository."
-bot_unique: "Danke für deine Einreichung! Ein Maintainer wird sie in Kürze prüfen. Wir schätzen deinen Beitrag zur Awesome Snapmaker List! 🚀"
-bot_merged: "🎉 Deine Einreichung wurde erfolgreich in das Verzeichnis aufgenommen!\n\nDanke für deinen Beitrag zur Awesome Snapmaker List. Dieses Issue ist jetzt offiziell geschlossen."
+bot_duplicate: "Danke für deine Einreichung! Diese Ressource ist jedoch bereits in
+  unserem Verzeichnis vorhanden:\n\n🔗 https://awesome-sm-list.xyz/#"
+bot_duplicate_issue: "Danke für deine Einreichung! Es sieht jedoch so aus, als hätte
+  jemand anderes diese Ressource bereits eingereicht, und sie wird derzeit geprüft
+  in "
+bot_rejected: "Danke für deine Einreichung! Aus Sicherheitsgründen akzeptieren wir
+  keine direkten Links zu ausführbaren Dateien (.exe, .msi usw.). Bitte verlinke stattdessen
+  auf die Projektwebseite oder das Repository."
+bot_unique: "Danke für deine Einreichung! Ein Maintainer wird sie in Kürze prüfen.
+  Wir schätzen deinen Beitrag zur Awesome Snapmaker List! 🚀"
+bot_merged: "🎉 Deine Einreichung wurde erfolgreich in das Verzeichnis aufgenommen!\n\
+  \nDanke für deinen Beitrag zur Awesome Snapmaker List. Dieses Issue ist jetzt offiziell
+  geschlossen."
 
 # --- GitHub Issue Template (Submit) ---
 issue_submit_title: "👉 Neue Ressource hinzufügen"
-issue_submit_desc: "Reiche eine neue Ressource (Werkzeug, Anleitung, Mod usw.) für die Awesome Snapmaker List ein!"
-issue_submit_body: "Danke, dass du dir die Zeit nimmst, eine neue Ressource zur Awesome Snapmaker List einzureichen!\n\nBitte fülle das Formular unten aus. Nach der Einreichung erstellt unser automatisierter Bot einen Pull Request, um sie zur Datenbank hinzuzufügen – der Maintainer kann ihn dann mit einem Klick genehmigen!"
+issue_submit_desc: "Reiche eine neue Ressource (Werkzeug, Anleitung, Mod usw.) für
+  die Awesome Snapmaker List ein!"
+issue_submit_body: "Danke, dass du dir die Zeit nimmst, eine neue Ressource zur Awesome
+  Snapmaker List einzureichen!\n\nBitte fülle das Formular unten aus. Nach der Einreichung
+  erstellt unser automatisierter Bot einen Pull Request, um sie zur Datenbank hinzuzufügen
+  – der Maintainer kann ihn dann mit einem Klick genehmigen!"
 issue_description_label: "Ressourcenbeschreibung"
-issue_description_desc: "Gib eine kurze Zusammenfassung, worum es bei dieser Ressource geht."
-issue_description_placeholder: "Diese Anleitung behandelt die besten Einstellungen für…"
+issue_description_desc: "Gib eine kurze Zusammenfassung, worum es bei dieser Ressource
+  geht."
+issue_description_placeholder: "Diese Anleitung behandelt die besten Einstellungen
+  für…"
 issue_author_name_label: "Autorenname"
-issue_author_name_desc: "Wer hat diese Ressource erstellt? (Verwende deinen Namen oder Benutzernamen, wenn es deine ist)"
+issue_author_name_desc: "Wer hat diese Ressource erstellt? (Verwende deinen Namen
+  oder Benutzernamen, wenn es deine ist)"
 issue_author_link_label: "Autorenlink"
 issue_author_link_desc: "Link zum Profil des Autors (GitHub, Thingiverse, Forum usw.)"
 issue_original_link_label: "Inhaltslink (Original-URL)"
@@ -102,52 +121,91 @@ issue_cost_label: "Kosten"
 issue_language_label: "Sprache"
 issue_language_desc: "In welcher Hauptsprache ist diese Ressource verfasst?"
 issue_machine_type_label: "Maschinentyp(en)"
-issue_machine_type_desc: "Für welche Snapmaker-Maschinen gilt das? (Alle zutreffenden auswählen)"
+issue_machine_type_desc: "Für welche Snapmaker-Maschinen gilt das? (Alle zutreffenden
+  auswählen)"
 issue_machine_tool_type_label: "Maschinenwerkzeugtyp(en)"
-issue_machine_tool_type_desc: "Welche Module/Werkzeugköpfe sind relevant? (Alle zutreffenden auswählen)"
+issue_machine_tool_type_desc: "Welche Module/Werkzeugköpfe sind relevant? (Alle zutreffenden
+  auswählen)"
 issue_record_type_label: "Eintragstyp(en)"
-issue_record_type_desc: "Um welche Art von Ressource handelt es sich? (Alle zutreffenden auswählen)"
+issue_record_type_desc: "Um welche Art von Ressource handelt es sich? (Alle zutreffenden
+  auswählen)"
 issue_official_label: "Offizielle Snapmaker-Ressource?"
 issue_official_desc: "Ist dies eine offizielle Snapmaker-Ressource oder eine Community-Erstellung?"
 issue_official_no: "Nein"
 issue_official_yes: "Ja"
 issue_free_tags_label: "Freie Tags"
-issue_free_tags_desc: "Kommagetrennte Tags (z.B. OFFICIAL, UNOFFICIAL, enclosure, cooling)"
+issue_free_tags_desc: "Kommagetrennte Tags (z.B. OFFICIAL, UNOFFICIAL, enclosure,
+  cooling)"
 issue_extra_btn1_label: "(Optional) Zusätzlicher Button 1 - Bezeichnung"
 issue_extra_btn1_desc: "Nützlich für direkte PDF/STL-Downloads."
 issue_extra_btn1_link: "(Optional) Zusätzlicher Button 1 - Link"
-issue_confirm: "Mit dem Einreichen dieses Issues bestätigst du, dass der Link sicher und gültig ist."
+issue_confirm: "Mit dem Einreichen dieses Issues bestätigst du, dass der Link sicher
+  und gültig ist."
 
 # --- GitHub Issue Template (Modify/Remove) ---
 issue_modify_title: "✏️ Ressource bearbeiten oder entfernen"
-issue_modify_desc: "Korrekturen, Aktualisierungen oder das Entfernen einer bestehenden Ressource in der Awesome List beantragen."
-issue_modify_body: "Danke, dass du dabei hilfst, die Awesome Snapmaker List aktuell und korrekt zu halten!\n\nBitte gib die Details unten an, damit ein Maintainer die Änderungen prüfen und übernehmen kann."
+issue_modify_desc: "Korrekturen, Aktualisierungen oder das Entfernen einer bestehenden
+  Ressource in der Awesome List beantragen."
+issue_modify_body: "Danke, dass du dabei hilfst, die Awesome Snapmaker List aktuell
+  und korrekt zu halten!\n\nBitte gib die Details unten an, damit ein Maintainer die
+  Änderungen prüfen und übernehmen kann."
 issue_modify_type_label: "Was möchtest du tun?"
-issue_modify_type_update: "Eine bestehende Ressource aktualisieren (toter Link, falsche Tags, Tippfehler usw.)"
-issue_modify_type_remove: "Eine Ressource entfernen (existiert nicht mehr, unangemessen, veraltet)"
+issue_modify_type_update: "Eine bestehende Ressource aktualisieren (toter Link, falsche
+  Tags, Tippfehler usw.)"
+issue_modify_type_remove: "Eine Ressource entfernen (existiert nicht mehr, unangemessen,
+  veraltet)"
 issue_modify_current_link_label: "Aktueller Ressourcenlink"
-issue_modify_current_link_desc: "Füge den 'Inhaltslink' der Ressource ein, die sich aktuell auf der Website befindet."
+issue_modify_current_link_desc: "Füge den 'Inhaltslink' der Ressource ein, die sich
+  aktuell auf der Website befindet."
 issue_modify_new_link_label: "Neuer Ressourcenlink (falls zutreffend)"
-issue_modify_new_link_desc: "Falls die Ressource unter einer neuen URL erreichbar ist, füge den neuen Link hier ein. Leer lassen, wenn nicht zutreffend."
+issue_modify_new_link_desc: "Falls die Ressource unter einer neuen URL erreichbar
+  ist, füge den neuen Link hier ein. Leer lassen, wenn nicht zutreffend."
 issue_modify_reason_label: "Grund für die Änderung / Neue Details"
-issue_modify_reason_desc: "Erkläre, was geändert werden soll (z.B. 'Der Link ist tot' oder 'Bitte Kosten auf FREE und Maschine auf Artisan ändern')."
+issue_modify_reason_desc: "Erkläre, was geändert werden soll (z.B. 'Der Link ist tot'
+  oder 'Bitte Kosten auf FREE und Maschine auf Artisan ändern')."
 issue_modify_reason_placeholder: "Beschreibe die benötigte Korrektur kurz hier…"
 tour_btn_next: Weiter →
 tour_btn_prev: ← Zurück
 tour_btn_done: Verstanden!
 tour_step1_title: Willkommen bei der Awesome Snapmaker List!
-tour_step1_desc: Machen wir einen kurzen Rundgang, um zu lernen, wie Sie einfach filtern und genau das finden, was Sie brauchen.
+tour_step1_desc: Machen wir einen kurzen Rundgang, um zu lernen, wie Sie einfach
+  filtern und genau das finden, was Sie brauchen.
 tour_step2_title: Fuzzy-Suche
-tour_step2_desc: Suchen Sie eine spezielle Firmware? Versuchen Sie, hier 'PAXX12' einzugeben. Die Fuzzy-Suche findet sofort die besten Treffer!
+tour_step2_desc: Suchen Sie eine spezielle Firmware? Versuchen Sie, hier 
+  'PAXX12' einzugeben. Die Fuzzy-Suche findet sofort die besten Treffer!
 tour_step3_title: Nach Maschine filtern
-tour_step3_desc: Leeren Sie nun das Suchfeld und lassen Sie uns dieselbe PAXX12-Firmware stattdessen mithilfe von Tags finden. Klicken Sie zuerst auf das Maschinen-Tag 'U1'.
+tour_step3_desc: Leeren Sie nun das Suchfeld und lassen Sie uns dieselbe 
+  PAXX12-Firmware stattdessen mithilfe von Tags finden. Klicken Sie zuerst auf 
+  das Maschinen-Tag 'U1'.
 tour_step4_title: Nach Typ filtern
-tour_step4_desc: Sie können Filter kombinieren! Klicken Sie nun auf 'FIRMWARE', um U1-Firmware-Updates zu finden.
+tour_step4_desc: Sie können Filter kombinieren! Klicken Sie nun auf 'FIRMWARE', 
+  um U1-Firmware-Updates zu finden.
 tour_step5_title: Ausschlussfilterung
-tour_step5_desc: Sie können auf Tags doppelklicken, um sie rot zu färben und sofort aus Ihren Ergebnissen AUSZUSCHLIESSEN. Doppelklicken Sie auf andere Maschinen-Tags, um diese auszuschließen, und scrollen Sie dann nach unten, um den PAXX12-Eintrag zu sehen!
+tour_step5_desc: Sie können auf Tags doppelklicken, um sie rot zu färben und 
+  sofort aus Ihren Ergebnissen AUSZUSCHLIESSEN. Doppelklicken Sie auf andere 
+  Maschinen-Tags, um diese auszuschließen, und scrollen Sie dann nach unten, um 
+  den PAXX12-Eintrag zu sehen!
 tour_step6_title: Favoriten speichern
-tour_step6_desc: Klicken Sie auf den ★ bei einer Ressource, um sie sicher auf Ihrem Gerät zu speichern. Klicken Sie dann hier oben auf '★ Favoriten anzeigen', um Ihre Liste auf die gespeicherten Einträge zu filtern.
+tour_step6_desc: Klicken Sie auf den ★ bei einer Ressource, um sie sicher auf 
+  Ihrem Gerät zu speichern. Klicken Sie dann hier oben auf '★ Favoriten 
+  anzeigen', um Ihre Liste auf die gespeicherten Einträge zu filtern.
 tour_step7_title: Ansichten teilen
-tour_step7_desc: Haben Sie das perfekte Setup gefunden? Klicken Sie auf 'Ansicht teilen', um Ihre genauen Filter als Link zu kopieren.
+tour_step7_desc: Haben Sie das perfekte Setup gefunden? Klicken Sie auf 'Ansicht
+  teilen', um Ihre genauen Filter als Link zu kopieren.
 tour_step8_title: Links teilen
-tour_step8_desc: Sie können auch das Link-Symbol auf einzelnen Karten verwenden, um eine bestimmte Ressource direkt zu teilen.
+tour_step8_desc: Sie können auch das Link-Symbol auf einzelnen Karten verwenden,
+  um eine bestimmte Ressource direkt zu teilen.
+tour_step2b_title: "Instant Results"
+tour_step2b_desc: "The list updates instantly, showing exactly how many records match."
+tour_step2c_title: "Match Found"
+tour_step2c_desc: "Here is the exact PAXX12 firmware we're looking for, highlighted
+  among the results!"
+tour_step5b_title: "Finding with Tags"
+tour_step5b_desc: "By combining inclusions and exclusions, we've filtered the entire
+  list down to the exact same PAXX12 firmware record without typing!"
+tour_step6b_title: "View Favorites"
+tour_step6b_desc: "Then, click '★ Show Favorites' up here to filter the entire list
+  down to just your saved items."
+tour_step9_title: "Clear Filters"
+tour_step9_desc: "You can quickly reset your view and see all resources by clicking
+  'Clear All Filters'. Enjoy exploring the list!"

@@ -778,3 +778,60 @@ select {
 .driver-popover-arrow::before {
     border-color: var(--card-bg) !important;
 }
+
+/* --- RTL (Right-to-Left) Language Support --- */
+[dir="rtl"] {
+    text-align: right;
+}
+
+[dir="rtl"] .card-meta {
+    text-align: left;
+}
+
+/* Reverse markdown tables */
+[dir="rtl"] .card-description th,
+[dir="rtl"] .card-description td {
+    text-align: right;
+}
+
+/* Reverse floating images in descriptions */
+[dir="rtl"] .card-description img.float-right {
+    float: left;
+    margin-right: 1rem;
+    margin-left: 0;
+}
+
+[dir="rtl"] .card-description img.float-left {
+    float: right;
+    margin-left: 1rem;
+    margin-right: 0;
+}
+
+/* Adjust button icon and copy link spacing */
+[dir="rtl"] .copy-link-btn {
+    margin-right: 0.25rem;
+    margin-left: 0;
+}
+
+/* Flip fixed positioning for Jump to Top button */
+[dir="rtl"] #jump-top {
+    right: auto;
+    left: 30px;
+}
+
+/* RTL support for Driver.js Tour Popover */
+[dir="rtl"] .driver-popover-title,
+[dir="rtl"] .driver-popover-description {
+    text-align: right;
+}
+
+[dir="rtl"] .driver-popover-footer {
+    flex-direction: row-reverse;
+}
+
+/* Flip directional icons (arrows, etc.) */
+[dir="rtl"] .btn i.fa-arrow-right, 
+[dir="rtl"] .card-title a i {
+    transform: scaleX(-1);
+    display: inline-block;
+}

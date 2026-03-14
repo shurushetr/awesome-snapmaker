@@ -213,3 +213,4 @@ issue_modify_reason_label: "Reason for Change / New Details"
 issue_modify_reason_desc: "Explain what needs to be changed (e.g. 'The link is dead,'
   or 'Please change the cost to FREE and machine to Artisan')."
 issue_modify_reason_placeholder: "Briefly explain the needed correction here…"
+
