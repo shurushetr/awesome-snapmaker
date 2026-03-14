@@ -54,8 +54,9 @@ def generate_pages():
         dict_vals.update(load_yaml(locale_file) or {})
         lang_html = html_template
         
-        # Update <html lang="en"> to <html lang="xx">
-        lang_html = re.sub(r'<html lang="en">', f'<html lang="{lang_code}">', lang_html)
+        # Update <html lang="en"> to <html lang="xx"> with RTL support
+        dir_attr = 'dir="rtl"' if lang_code in ['ar', 'he'] else ''
+        lang_html = re.sub(r'<html lang="en"( dir="ltr")?>', f'<html lang="{lang_code}" {dir_attr}>', lang_html)
         
         # Rewrite asset paths to properly resolve relatively from their subdirectories.
         lang_html = re.sub(r'href="(styles\.css|favicon\.ico)"', r'href="../\1"', lang_html)

@@ -246,6 +246,13 @@ function applyTranslationsDOM() {
     if (!translations || !translations[currentLang]) return;
     const dict = translations[currentLang];
 
+    // Set document direction for RTL support
+    if (currentLang === 'ar' || currentLang === 'he') {
+        document.documentElement.dir = 'rtl';
+    } else {
+        document.documentElement.dir = 'ltr';
+    }
+
     document.querySelectorAll('[data-i18n]').forEach(el => {
         const key = el.getAttribute('data-i18n');
         if (dict[key]) el.innerHTML = dict[key];
