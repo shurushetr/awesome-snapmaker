@@ -38,7 +38,7 @@ ui_content_author: "Captain:"
 ui_added: "Looted:"
 
 # --- Tags ---
-tag_universal: "UNIVERSAL"
+tag_universal: "ANY SHIP"
 tag_fdm: "FDM"
 tag_laser: "LASER"
 tag_cnc: "CNC"

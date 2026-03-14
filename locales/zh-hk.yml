@@ -37,7 +37,7 @@ ui_content_author: "內容作者："
 ui_added: "添加時間："
 
 # --- Tags ---
-tag_universal: "UNIVERSAL"
+tag_universal: "通用"
 tag_fdm: "FDM"
 tag_laser: "鐳射"
 tag_cnc: "CNC"
