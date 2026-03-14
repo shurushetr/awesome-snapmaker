@@ -6214,3 +6214,33 @@ records:
     - UNOFFICIAL
     free_tags:
     - Education
+- id: sidecar-the-16-color-mmu-for-snapmaker-u1-42
+  title: Sidecar - the 16 color MMU for Snapmaker U1
+  description: The mode to rule all other modes - 16 spool color/material 
+    changer for Snapmaker U1, full auto. Check it out. This is the official 
+    forum thread, started by author.
+  author_name: Sidecar
+  author_link: https://forum.snapmaker.com/u/sidecar
+  original_link: https://forum.snapmaker.com/t/sidecar-16-color-mmu-for-u1/41473
+  date_added: '2026-03-14'
+  difficulty:
+  - INTERMEDIATE
+  cost:
+  - PAID
+  tags:
+    machine_type:
+    - U1
+    machine_tool_type:
+    - FDM
+    record_type:
+    - DISCUSSION
+    - FIRMWARE
+    - MODS
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - color changer
+    - MMU
+  extra_buttons:
+  - label: Video Demonstration
+    link: https://www.youtube.com/watch?v=7EH3QAjspt0
