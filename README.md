@@ -6223,6 +6223,15 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ### FDM
 
+#### [Sidecar - the 16 color MMU for Snapmaker U1](https://forum.snapmaker.com/t/sidecar-16-color-mmu-for-u1/41473)
+> The mode to rule all other modes - 16 spool color/material changer for Snapmaker U1, full auto. Check it out. This is the official forum thread, started by author.
+
+**Content Author:** Sidecar | **Added:** 2026-03-14
+
+**Tags:** U1, FDM, DISCUSSION, FIRMWARE, MODS, UNOFFICIAL, color changer, MMU
+
+---
+
 #### [Snapmaker U1 - Research Documentation](https://github.com/Snapmaker-U1-Extended-Firmware/Snapmaker-U1-Research)
 > This repository contains reverse engineering research and technical documentation for the Snapmaker U1 3D printer. The documentation is derived from analyzing the printer's firmware, configuration files, and Klipper source code.
 > 
