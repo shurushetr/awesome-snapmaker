@@ -37,6 +37,7 @@ ui_content_author: "מחבר התוכן:"
 ui_added: "נוסף:"
 
 # --- Tags ---
+tag_universal: "UNIVERSAL"
 tag_fdm: "FDM"
 tag_laser: "לייזר"
 tag_cnc: "CNC"

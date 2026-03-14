@@ -38,6 +38,7 @@ ui_content_author: "Автор контента:"
 ui_added: "Добавлено:"
 
 # --- Tags ---
+tag_universal: "UNIVERSAL"
 tag_fdm: "FDM"
 tag_laser: "ЛАЗЕР"
 tag_cnc: "CNC"

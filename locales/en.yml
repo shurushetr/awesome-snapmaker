@@ -63,10 +63,11 @@ ui_content_author: "Content Author:"
 ui_added: "Added:"
 
 # --- Tags ---
+tag_universal: "UNIVERSAL"
 tag_fdm: "FDM"
 tag_laser: "LASER"
 tag_cnc: "CNC"
-tag_rotary: "ROTARY"
+tag_rotary: "ROTARY ATTACHMENT"
 tag_combined: "COMBINED"
 
 tag_article: "ARTICLE"
