@@ -64,6 +64,25 @@ def generate_pages():
         # Inject metadata tag so app.js knows to fetch data.yml from parent directory
         lang_html = re.sub(r'<head>', '<head>\n    <meta name="is-localized" content="true">', lang_html)
         
+        # Translate Open Graph and Meta Tags
+        trans_title = dict_vals.get('ui_title', en_dict.get('ui_title', 'Awesome Snapmaker List'))
+        trans_desc = dict_vals.get('ui_subtitle', en_dict.get('ui_subtitle', 'A curated list of awesome Snapmaker resources, mods, and guides.'))
+        
+        # Replace <title>
+        lang_html = re.sub(r'<title>.*?</title>', f'<title>{trans_title} - 3D Printing, Laser, CNC</title>', lang_html, flags=re.DOTALL)
+        
+        # Replace og:title, twitter:title
+        lang_html = re.sub(r'(<meta property="og:title" content=")[^"]+(">)', rf'\g<1>{trans_title}\g<2>', lang_html)
+        lang_html = re.sub(r'(<meta name="twitter:title" content=")[^"]+(">)', rf'\g<1>{trans_title}\g<2>', lang_html)
+        
+        # Replace description, og:description, twitter:description
+        lang_html = re.sub(r'(<meta name="description"\s+content=")[^"]+(">)', rf'\g<1>{trans_desc}\g<2>', lang_html)
+        lang_html = re.sub(r'(<meta property="og:description" content=")[^"]+(">)', rf'\g<1>{trans_desc}\g<2>', lang_html)
+        lang_html = re.sub(r'(<meta name="twitter:description" content=")[^"]+(">)', rf'\g<1>{trans_desc}\g<2>', lang_html)
+        
+        # Update og:url to point to the localized directory
+        lang_html = re.sub(r'(<meta property="og:url" content="https://awesome-sm-list\.xyz)/(">)', rf'\g<1>/{lang_code}/\g<2>', lang_html)
+        
         for key, text in dict_vals.items():
             if not isinstance(text, str):
                 text = str(text)

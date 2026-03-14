@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+<head>
+    <meta name="is-localized" content="true">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Awesome Snapmaker List - 3D Printing, Laser, CNC</title>
+    <meta name="description"
+        content="精心整理的 Snapmaker 优质资源、改装方案与教程合集。">
+    <meta name="keywords"
+        content="Snapmaker, 3D printing, Laser Engraving, CNC, 3-in-1, mods, guides, resources, awesome-list, awesome-snapmaker">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../styles.css">
+
+    <!-- JS Dependencies (from CDN) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js/dist/fuse.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    
+    <!-- Auto-Generated Open Graph Meta Tags -->
+    <meta property="og:title" content="Awesome Snapmaker List">
+    <meta property="og:description" content="精心整理的 Snapmaker 优质资源、改装方案与教程合集。">
+    <meta property="og:image" content="https://awesome-sm-list.xyz/images/AwesomeList_TopImage.jpg">
+    <meta property="og:url" content="https://awesome-sm-list.xyz/zh-cn/">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Awesome Snapmaker List">
+    <meta name="twitter:description" content="精心整理的 Snapmaker 优质资源、改装方案与教程合集。">
+    <meta name="twitter:image" content="https://awesome-sm-list.xyz/images/AwesomeList_TopImage.jpg">
+    <!-- End Auto-Generated Meta Tags -->
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header id="site-header" class="header">
+        <div class="header-content">
+            <h1 id="site-title" data-i18n="ui_title">Awesome Snapmaker List</h1>
+            <p id="site-description" data-i18n="ui_subtitle">精心整理的 Snapmaker 优质资源、改装方案与教程合集。</p>
+            <div class="header-links">
+                <a id="author-link" href="#" target="_blank" rel="noopener noreferrer" data-i18n="ui_contact_author">联系作者</a>
+                <span style="margin: 0 8px; color: rgba(255,255,255,0.6);">|</span>
+                <a id="repo-link" href="#" target="_blank" rel="noopener noreferrer" data-i18n="ui_contribute">参与贡献</a>
+                <span style="margin: 0 8px; color: rgba(255,255,255,0.6);">|</span>
+                <a id="forum-link" href="#" target="_blank" rel="noopener noreferrer" data-i18n="ui_discuss">讨论</a>
+                <span style="margin: 0 8px; color: rgba(255,255,255,0.6);">|</span>
+                <a href="https://translate.codeberg.org/projects/awesome-sm-list-xyz/" target="_blank" rel="noopener noreferrer" data-i18n="ui_translate_site">帮助翻译</a>
+            </div>
+            <div class="header-actions">
+                <a href="https://github.com/shurushetr/awesome-snapmaker/issues/new/choose"
+                    class="btn primary-btn submit-btn" target="_blank" rel="noopener noreferrer" data-i18n="ui_btn_submit">提交新内容</a>
+                <select id="lang-dropdown" class="btn secondary-btn submit-btn theme-btn" aria-label="Select Language">
+                </select>
+                <button id="theme-toggle" class="btn secondary-btn submit-btn theme-btn"
+                    aria-label="Toggle Dark Mode">🌓</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Search Engine & NoScript Fallback -->
+        <noscript>
+            <div
+                style="background: var(--card-bg, #1e293b); color: var(--text-color, #f8fafc); padding: 1.5rem; border: 1px solid var(--card-border, #334155); border-radius: 8px; margin-bottom: 2rem;">
+                <h2 style="margin-top: 0;">JavaScript Required for Interactive Filtering</h2>
+                <p>This page uses JavaScript to load and filter the interactive database of Snapmaker resources.</p>
+                <p>Search engines and users without JavaScript can view the complete, text-based list of all 3D
+                    printing, laser, and CNC resources directly on the GitHub repository.</p>
+                <a href="https://github.com/shurushetr/awesome-snapmaker" class="btn primary-btn"
+                    style="display: inline-block; margin-top: 0.5rem;">View Full Resource List on GitHub</a>
+            </div>
+        </noscript>
+
+        <!-- Controls: Search & Filters -->
+        <section class="controls" aria-label="Search and filter controls">
+            <div class="search-bar">
+                <input type="search" id="search-input"
+                    placeholder="搜索资源…" aria-label="Search items" data-i18n-placeholder="搜索资源…">
+            </div>
+
+            <div class="filters">
+                <p
+                    style="grid-column: 1 / -1; margin-bottom: 0.5rem; text-align: center; color: var(--secondary-text); font-size: 0.95rem;">
+                    <span data-i18n="ui_filter_tips"><strong>筛选提示：</strong> 点击标签一次可<span style='color: #10b981; font-weight: bold;'>包含</span>该标签（绿色）。再次点击可<span style='color: #ef4444; font-weight: bold; text-decoration: line-through;'>排除</span> 该标签（红色）。</strong> Tap a tag once to <span style="color: #10b981; font-weight: bold;">Include</span> it (green). Tap it again to <span style="color: #ef4444; font-weight: bold; text-decoration: line-through;">Exclude</span> it (red).</span>
+                </p>
+
+                <div class="filter-group">
+                    <label data-i18n="ui_filter_machine">按机器筛选：</label>
+                    <div id="filter-machine" class="tag-filters">
+                        <!-- Checkboxes generated by JS -->
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <label data-i18n="ui_filter_tool">按工具筛选：</label>
+                    <div id="filter-tool" class="tag-filters">
+                        <!-- Checkboxes generated by JS -->
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <label data-i18n="ui_filter_type">按类型筛选：</label>
+                    <div id="filter-type" class="tag-filters">
+                        <!-- Checkboxes generated by JS -->
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <label data-i18n="ui_filter_official">按官方筛选：</label>
+                    <div id="filter-official" class="tag-filters">
+                        <!-- Checkboxes generated by JS -->
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <label data-i18n="ui_filter_difficulty">按难度筛选：</label>
+                    <div id="filter-difficulty" class="tag-filters">
+                        <!-- Checkboxes generated by JS -->
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <label data-i18n="ui_filter_cost">按费用筛选：</label>
+                    <div id="filter-cost" class="tag-filters">
+                        <!-- Checkboxes generated by JS -->
+                    </div>
+                </div>
+
+                <div class="filter-group">
+                    <label data-i18n="ui_filter_lang">按语言筛选：</label>
+                    <div id="filter-language" class="tag-filters">
+                        <!-- Checkboxes generated by JS -->
+                    </div>
+                </div>
+
+                <div class="filter-actions" style="display: flex; flex-wrap: wrap; gap: 1rem; align-items: center;">
+                    <div style="display: flex; gap: 1rem; flex-wrap: wrap; flex-grow: 1;">
+                        <div style="display: flex; align-items: center; gap: 0.5rem;">
+                            <label for="sort-select" style="font-weight: bold;" data-i18n="ui_sort_label">排序方式：</label>
+                            <select id="sort-select">
+                                <option value="newest" data-i18n="ui_sort_newest">最新到最旧</option>
+                                <option value="oldest" data-i18n="ui_sort_oldest">最旧到最新</option>
+                            </select>
+                        </div>
+
+                        <div style="display: flex; align-items: center; gap: 0.5rem;">
+                            <label for="limit-input" style="font-weight: bold;" data-i18n="ui_show_limit">显示数量限制：</label>
+                            <input type="number" id="limit-input" min="1" placeholder="全部" data-i18n-placeholder="全部"
+                                aria-label="Limit number of results"
+                                style="padding: 0.5rem; border-radius: 4px; border: 1px solid var(--card-border); background-color: var(--bg-color); color: var(--text-color); width: 140px; min-width: 80px;">
+                        </div>
+                    </div>
+
+                    <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+                        <button id="share-view-btn" class="btn secondary-btn"
+                            style="color: #3b82f6; font-weight: bold;" data-i18n="ui_btn_share">分享视图</button>
+                        <button id="show-favorites" class="btn secondary-btn" data-active="false"
+                            style="color: #f59e0b; font-weight: bold;" data-i18n="ui_btn_show_favs">★ 显示收藏</button>
+                        <button id="clear-filters" class="btn secondary-btn" data-i18n="ui_btn_clear_filters">清除所有筛选</button>
+                    </div>
+                    <span id="result-count" class="result-count">0 items found</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dynamic Records Container -->
+        <section id="records-container" class="records-grid" aria-live="polite">
+            <!-- Cards generated by JS -->
+        </section>
+    </main>
+
+    <!-- Floating Action Button -->
+    <button id="jump-top" aria-label="Jump to top of page" title="Jump to top">↑</button>
+
+    <!-- App Logic -->
+    <script src="../app.js"></script>
+</body>
+
+</html>
