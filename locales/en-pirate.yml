@@ -20,7 +20,10 @@ ui_filter_official: "Filter by Official:"
 ui_filter_difficulty: "Filter by Difficulty:"
 ui_filter_cost: "Filter by Cost:"
 ui_filter_lang: "Filter by Tongue:"
-ui_filter_tips: "<strong>Filter Tips, ye scallywag:</strong> Tap a tag once to <span style='color: #10b981; font-weight: bold;'>Claim</span> it (green). Tap again to <span style='color: #ef4444; font-weight: bold; text-decoration: line-through;'>Walk the Plank</span> (red)."
+ui_filter_tips: "<strong>Filter Tips, ye scallywag:</strong> Tap a tag once to <span
+  style='color: #10b981; font-weight: bold;'>Claim</span> it (green). Tap again to
+  <span style='color: #ef4444; font-weight: bold; text-decoration: line-through;'>Walk
+  the Plank</span> (red)."
 ui_sort_label: "Sort by:"
 ui_sort_newest: "Freshest Catch First"
 ui_sort_oldest: "Old as Davy Jones First"
@@ -78,23 +81,36 @@ tag_zh-hk: "ZH-HK"
 tag_en-pirate: "EN-PIRATE"
 
 # --- Bot Comments ---
-bot_duplicate: "Arr, thanks fer the submission, matey! But shiver me timbers, this treasure be already in our hold:\n\n🔗 https://awesome-sm-list.xyz/#"
-bot_duplicate_issue: "Arr, thanks fer the submission! But it seems another sea dog has already logged this treasure and it be waitin' fer review in "
-bot_rejected: "Arrr, thanks fer submitting! For the safety of our crew, we don't accept direct links to executable files (.exe, .msi, etc.). Please link to the project's port o' call or repository instead, ya hear?"
-bot_unique: "Ahoy and thanks fer submitting! A maintainer will review yer find shortly. We be grateful for yer contribution to the Awesome Snapmaker List! 🚀"
-bot_merged: "🎉 Yer submission has been welcomed into the fleet!\n\nThank ye for contributing to the Awesome Snapmaker List, brave sailor. This issue be now officially sealed in Davy Jones' locker."
+bot_duplicate: "Arr, thanks fer the submission, matey! But shiver me timbers, this
+  treasure be already in our hold:\n\n🔗 https://awesome-sm-list.xyz/#"
+bot_duplicate_issue: "Arr, thanks fer the submission! But it seems another sea dog
+  has already logged this treasure and it be waitin' fer review in "
+bot_rejected: "Arrr, thanks fer submitting! For the safety of our crew, we don't accept
+  direct links to executable files (.exe, .msi, etc.). Please link to the project's
+  port o' call or repository instead, ya hear?"
+bot_unique: "Ahoy and thanks fer submitting! A maintainer will review yer find shortly.
+  We be grateful for yer contribution to the Awesome Snapmaker List! 🚀"
+bot_merged: "🎉 Yer submission has been welcomed into the fleet!\n\nThank ye for contributing
+  to the Awesome Snapmaker List, brave sailor. This issue be now officially sealed
+  in Davy Jones' locker."
 
 # --- GitHub Issue Template (Submit) ---
 issue_submit_title: "👉 Log a New Treasure"
-issue_submit_desc: "Submit a new plunder (tool, guide, mod, etc.) to the Awesome Snapmaker List, ye scalawag!"
-issue_submit_body: "Ahoy, and thanks fer takin' the time to submit a new treasure to the Awesome Snapmaker List!\n\nFill out the form below, matey. Once submitted, our automated parrot will conjure up a Pull Request to add it to the map, so the maintainer can approve it with a single slash of the cutlass!"
+issue_submit_desc: "Submit a new plunder (tool, guide, mod, etc.) to the Awesome Snapmaker
+  List, ye scalawag!"
+issue_submit_body: "Ahoy, and thanks fer takin' the time to submit a new treasure
+  to the Awesome Snapmaker List!\n\nFill out the form below, matey. Once submitted,
+  our automated parrot will conjure up a Pull Request to add it to the map, so the
+  maintainer can approve it with a single slash of the cutlass!"
 issue_description_label: "Treasure Description"
 issue_description_desc: "Give a brief account of what this treasure be about."
 issue_description_placeholder: "This here guide covers the best settings fer…"
 issue_author_name_label: "Cap'n's Name"
-issue_author_name_desc: "Who crafted this treasure? (Use yer name or ship's alias if it be yers)"
+issue_author_name_desc: "Who crafted this treasure? (Use yer name or ship's alias
+  if it be yers)"
 issue_author_link_label: "Cap'n's Port"
-issue_author_link_desc: "Link to the cap'n's home port (GitHub, Thingiverse, Forum, etc.)"
+issue_author_link_desc: "Link to the cap'n's home port (GitHub, Thingiverse, Forum,
+  etc.)"
 issue_original_link_label: "Treasure Map (Original URL)"
 issue_original_link_desc: "Where be this treasure buried?"
 issue_difficulty_label: "Difficulty Level"
@@ -102,52 +118,91 @@ issue_cost_label: "Cost"
 issue_language_label: "Tongue"
 issue_language_desc: "What tongue be this treasure written in?"
 issue_machine_type_label: "Vessel Type(s)"
-issue_machine_type_desc: "Which Snapmaker ships does this apply to? (Mark all that be true)"
+issue_machine_type_desc: "Which Snapmaker ships does this apply to? (Mark all that
+  be true)"
 issue_machine_tool_type_label: "Weapon Type(s)"
-issue_machine_tool_type_desc: "Which modules/toolheads be relevant? (Mark all that be true)"
+issue_machine_tool_type_desc: "Which modules/toolheads be relevant? (Mark all that
+  be true)"
 issue_record_type_label: "Record Type(s)"
 issue_record_type_desc: "What manner of treasure is this? (Mark all that be true)"
 issue_official_label: "Official Snapmaker Treasure?"
-issue_official_desc: "Did Snapmaker's own crew make this, or be it the work of rogue pirates?"
+issue_official_desc: "Did Snapmaker's own crew make this, or be it the work of rogue
+  pirates?"
 issue_official_no: "Nay"
 issue_official_yes: "Aye"
 issue_free_tags_label: "Free Tags"
-issue_free_tags_desc: "Comma-separated tags (e.g. OFFICIAL, UNOFFICIAL, enclosure, cooling)"
+issue_free_tags_desc: "Comma-separated tags (e.g. OFFICIAL, UNOFFICIAL, enclosure,
+  cooling)"
 issue_extra_btn1_label: "(Optional) Extra Button 1 - Label"
 issue_extra_btn1_desc: "Handy fer direct PDF/STL plunder."
 issue_extra_btn1_link: "(Optional) Extra Button 1 - Link"
-issue_confirm: "By submitting this issue, ye swear on Davy Jones' beard that the link be safe and true."
+issue_confirm: "By submitting this issue, ye swear on Davy Jones' beard that the link
+  be safe and true."
 
 # --- GitHub Issue Template (Modify/Remove) ---
 issue_modify_title: "✏️ Alter or Scuttle a Resource"
-issue_modify_desc: "Request a fix, update, or removal of an existing resource from the Awesome List, sailor."
-issue_modify_body: "Thank ye fer helping keep the Awesome Snapmaker List ship-shape and up to date!\n\nProvide the details below so a maintainer can review and apply the changes, arrr."
+issue_modify_desc: "Request a fix, update, or removal of an existing resource from
+  the Awesome List, sailor."
+issue_modify_body: "Thank ye fer helping keep the Awesome Snapmaker List ship-shape
+  and up to date!\n\nProvide the details below so a maintainer can review and apply
+  the changes, arrr."
 issue_modify_type_label: "What be yer intention?"
-issue_modify_type_update: "Update an existing resource (broken link, wrong tags, typo, etc.)"
+issue_modify_type_update: "Update an existing resource (broken link, wrong tags, typo,
+  etc.)"
 issue_modify_type_remove: "Scuttle a resource (no longer exists, inappropriate, obsolete)"
 issue_modify_current_link_label: "Current Treasure Map Link"
-issue_modify_current_link_desc: "Paste the 'Treasure Map' link of the resource currently on the website."
+issue_modify_current_link_desc: "Paste the 'Treasure Map' link of the resource currently
+  on the website."
 issue_modify_new_link_label: "New Treasure Map Link (if applicable)"
-issue_modify_new_link_desc: "If the treasure moved to a new port, paste the new link here. Leave blank if not applicable."
+issue_modify_new_link_desc: "If the treasure moved to a new port, paste the new link
+  here. Leave blank if not applicable."
 issue_modify_reason_label: "Reason fer Change / New Details"
-issue_modify_reason_desc: "Explain what needs to be changed (e.g. 'The link be dead, arrr' or 'Please change the cost to FREE and machine to Artisan')."
+issue_modify_reason_desc: "Explain what needs to be changed (e.g. 'The link be dead,
+  arrr' or 'Please change the cost to FREE and machine to Artisan')."
 issue_modify_reason_placeholder: "Briefly explain the needed correction here, matey…"
-tour_btn_next: Next →
-tour_btn_prev: ← Back
+tour_btn_next: Onwarrd →
+tour_btn_prev: ← Retreat
 tour_btn_done: Arr, got it!
 tour_step1_title: Welcome aboard the Awesome Snapmaker List!
-tour_step1_desc: Let's take a quick sail to learn how to easily filter and spy exactly what ye be needin'.
+tour_step1_desc: Let's take a quick sail to learn how to easily filter and spy 
+  exactly what ye be needin'.
 tour_step2_title: Fuzzy Searchin'
-tour_step2_desc: Lookin' fer specialized firmware? Try tyin' 'PAXX12' here. The fuzzy search will instantly find the closest matches in the seven seas!
+tour_step2_desc: Lookin' fer specialized firmware? Try tyin' 'PAXX12' here. The 
+  fuzzy search will instantly find the closest matches in the seven seas!
 tour_step3_title: Filter by Vessel
-tour_step3_desc: Now clear the search box, and let's find that same PAXX12 firmware usin' flags instead. First, click the 'U1' machine flag.
+tour_step3_desc: Now clear the search box, and let's find that same PAXX12 
+  firmware usin' flags instead. First, click the 'U1' machine flag.
 tour_step4_title: Filter by Type
-tour_step4_desc: Ye can combine filters! Now click 'FIRMWARE' to find U1 firmware updates.
+tour_step4_desc: Ye can combine filters! Now click 'FIRMWARE' to find U1 
+  firmware updates.
 tour_step5_title: Exclusion Filterin'
-tour_step5_desc: Ye can double-click tags to turn 'em red and instantly BANISH 'em from yer results. Double-click other machine flags to exclude 'em, then scroll down to spy the PAXX12 treasure!
+tour_step5_desc: Ye can double-click tags to turn 'em red and instantly BANISH 
+  'em from yer results. Double-click other machine flags to exclude 'em, then 
+  scroll down to spy the PAXX12 treasure!
 tour_step6_title: Save Ye Favorites
-tour_step6_desc: Click the ★ on any booty to securely stash it on yer local ship. Then, click '★ Show Favorites' up 'ere to filter the entire list down to just yer saved plunder.
+tour_step6_desc: Click the ★ on any booty to securely stash it on yer local 
+  ship. Then, click '★ Show Favorites' up 'ere to filter the entire list down to
+  just yer saved plunder.
 tour_step7_title: Share Yer Spyglass
-tour_step7_desc: Found the perfect coordinates? Click 'Share View' to copy yer exact filters as a map link.
+tour_step7_desc: Found the perfect coordinates? Click 'Share View' to copy yer 
+  exact filters as a map link.
 tour_step8_title: Share Map Links
-tour_step8_desc: Ye can also use the link icon on individual cards to directly share a specific chest of gold.
+tour_step8_desc: Ye can also use the link icon on individual cards to directly 
+  share a specific chest of gold.
+tour_step2b_title: Instant Rewarrds
+tour_step2b_desc: The manifest shifts like the tides, showin the exact tally 
+  souls or spoils the moment they’re spotted!
+tour_step2c_title: Target Sighted!
+tour_step2c_desc: Behold! The PAXX12 cipher shines like a gold doubloon amidst 
+  the dross—the very key to the vessel's heart be right here!
+tour_step5b_title: Huntin' by the Markings
+tour_step5b_desc: By keepin' the gold and heavin' the stones to the deep, we’ve 
+  boiled the whole manifest down to the PAXX12 cipher—all without dippin' a 
+  single nib in the ink!
+tour_step6b_title: Prize Jewels!
+tour_step6b_desc: Now, strike the '★ Star of the Sea' aloft! It’ll scuttle the 
+  chaff and leave naught but your prized plunder in plain sight!
+tour_step9_title: Scour the Hull
+tour_step9_desc: Scuttle the lot! Strike the 'Purge the Fog' mark to bring the 
+  whole fleet back into sight. Now, go forth and pillage the manifest to your 
+  heart's content!
