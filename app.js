@@ -143,14 +143,14 @@ async function init() {
         // Redirect to localized subfolder if required
         if (currentLang !== 'en' && (window.location.pathname === '/' || window.location.pathname.endsWith('index.html'))) {
             if (window.location.protocol.startsWith('http')) {
-                window.location.href = `/${currentLang}/` + window.location.hash + window.location.search;
+                window.location.href = `/${currentLang.toLowerCase()}/` + window.location.hash + window.location.search;
                 return; // Stop execution to redirect
             }
         }
 
         if (currentLang !== 'en') {
             try {
-                const targetRes = await fetch(prefix + `locales/${currentLang}.yml`);
+                const targetRes = await fetch(prefix + `locales/${currentLang.toLowerCase()}.yml`);
                 if (targetRes.ok) {
                     const targetDict = jsyaml.load(await targetRes.text());
                     translations[currentLang] = Object.assign({}, enDict, targetDict || {});
@@ -158,7 +158,7 @@ async function init() {
                     translations[currentLang] = enDict;
                 }
             } catch (e) {
-                console.warn(`Translation file locales/${currentLang}.yml missing, falling back to English.`);
+                console.warn(`Translation file locales/${currentLang.toLowerCase()}.yml missing, falling back to English.`);
                 translations[currentLang] = enDict;
             }
         }
@@ -230,7 +230,7 @@ function setupI18n(languageNames) {
             const newLang = e.target.value;
             localStorage.setItem('lang', newLang);
             if (window.location.protocol.startsWith('http')) {
-                const targetPath = newLang === 'en' ? '/' : `/${newLang}/`;
+                const targetPath = newLang === 'en' ? '/' : `/${newLang.toLowerCase()}/`;
                 window.location.href = targetPath + window.location.hash + window.location.search;
             } else {
                 window.location.reload(); // Fallback for local file:// mode to reload the new JSON
