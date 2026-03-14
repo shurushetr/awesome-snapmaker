@@ -1,7 +1,6 @@
 name: 👉 Añadir un nuevo recurso (ES)
 description: ¡Envía un nuevo recurso (herramienta, guía, mod, etc.) a la Awesome
   Snapmaker List!
-title: '[Submission] '
 labels:
   - lang:es
   - new-submission

@@ -1,7 +1,6 @@
 name: 👉 Log a New Treasure (EN-PIRATE)
 description: Submit a new plunder (tool, guide, mod, etc.) to the Awesome 
   Snapmaker List, ye scalawag!
-title: '[Submission] '
 labels:
   - lang:en-pirate
   - new-submission

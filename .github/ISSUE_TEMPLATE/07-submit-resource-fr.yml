@@ -1,7 +1,6 @@
 name: 👉 Ajouter une nouvelle ressource (FR)
 description: Soumets une nouvelle ressource (outil, guide, mod, etc.) à la 
   Awesome Snapmaker List !
-title: '[Submission] '
 labels:
   - lang:fr
   - new-submission

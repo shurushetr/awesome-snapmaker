@@ -1,7 +1,6 @@
 name: 👉 Tilføj en ny ressource (DA)
 description: Indsend en ny ressource (værktøj, guide, mod osv.) til Awesome 
   Snapmaker List!
-title: '[Submission] '
 labels:
   - lang:da
   - new-submission

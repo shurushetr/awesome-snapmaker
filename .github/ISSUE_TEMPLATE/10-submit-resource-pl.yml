@@ -1,7 +1,6 @@
 name: 👉 Dodaj nowy zasób (PL)
 description: Prześlij nowy zasób (narzędzie, poradnik, modyfikację itp.) do 
   Awesome Snapmaker List!
-title: '[Submission] '
 labels:
   - lang:pl
   - new-submission

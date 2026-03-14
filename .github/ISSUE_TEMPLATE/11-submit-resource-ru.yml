@@ -1,7 +1,6 @@
 name: 👉 Добавить новый ресурс (RU)
 description: Отправьте новый ресурс (инструмент, руководство, мод и т.д.) в 
   Awesome Snapmaker List!
-title: '[Submission] '
 labels:
   - lang:ru
   - new-submission
