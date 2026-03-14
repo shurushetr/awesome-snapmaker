@@ -27,7 +27,6 @@ ui_filter_tips: "<strong>Astuces de filtrage :</strong> Appuyez une fois sur un 
 ui_sort_label: "Trier par :"
 ui_sort_newest: "Plus récent au plus ancien"
 ui_sort_oldest: "Plus ancien au plus récent"
-ui_sort_alpha: "Alphabétique A-Z"
 ui_show_limit: "Limite d'affichage :"
 ui_limit_all: "Tout"
 ui_search_placeholder: "Rechercher des ressources…"

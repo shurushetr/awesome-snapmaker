@@ -51,7 +51,6 @@ ui_filter_tips: "<strong>Filter Tips:</strong> Tap a tag once to <span style='co
 ui_sort_label: "Sort by:"
 ui_sort_newest: "Newest to Oldest"
 ui_sort_oldest: "Oldest to Newest"
-ui_sort_alpha: "Alphabetical A-Z"
 ui_show_limit: "Show count limit:"
 ui_limit_all: "All"
 ui_search_placeholder: "Search resources…"

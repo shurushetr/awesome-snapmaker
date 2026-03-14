@@ -27,7 +27,6 @@ ui_filter_tips: "<strong>Consejos de filtrado:</strong> Toca una etiqueta una ve
 ui_sort_label: "Ordenar por:"
 ui_sort_newest: "Más reciente primero"
 ui_sort_oldest: "Más antiguo primero"
-ui_sort_alpha: "Alfabético A-Z"
 ui_show_limit: "Límite de visualización:"
 ui_limit_all: "Todos"
 ui_search_placeholder: "Buscar recursos…"

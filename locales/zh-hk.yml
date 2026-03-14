@@ -26,7 +26,6 @@ ui_filter_tips: "<strong>篩選提示：</strong> 點擊標籤一次可<span sty
 ui_sort_label: "排序方式："
 ui_sort_newest: "最新到最舊"
 ui_sort_oldest: "最舊到最新"
-ui_sort_alpha: "字母順序 A-Z"
 ui_show_limit: "顯示數量限制："
 ui_limit_all: "全部"
 ui_search_placeholder: "搜尋資源…"

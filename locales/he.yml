@@ -26,7 +26,6 @@ ui_filter_tips: "<strong>טיפים לסינון:</strong> הקש על תג פע
 ui_sort_label: "מיין לפי:"
 ui_sort_newest: "מהחדש לישן"
 ui_sort_oldest: "מהישן לחדש"
-ui_sort_alpha: "אלפביתי A-Z"
 ui_show_limit: "הגבלת כמות תצוגה:"
 ui_limit_all: "הכל"
 ui_search_placeholder: "חפש משאבים…"

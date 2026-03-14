@@ -28,7 +28,6 @@ ui_filter_tips: "<strong>Wskazówki dotyczące filtrów:</strong> Dotknij tag ra
 ui_sort_label: "Sortuj według:"
 ui_sort_newest: "Od najnowszych"
 ui_sort_oldest: "Od najstarszych"
-ui_sort_alpha: "Alfabetycznie A-Z"
 ui_show_limit: "Limit wyświetlania:"
 ui_limit_all: "Wszystkie"
 ui_search_placeholder: "Szukaj zasobów…"

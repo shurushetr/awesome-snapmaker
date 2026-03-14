@@ -27,7 +27,6 @@ ui_filter_tips: "<strong>Советы по фильтрации:</strong> Наж
 ui_sort_label: "Сортировать по:"
 ui_sort_newest: "Сначала новые"
 ui_sort_oldest: "Сначала старые"
-ui_sort_alpha: "По алфавиту A-Z"
 ui_show_limit: "Лимит отображения:"
 ui_limit_all: "Все"
 ui_search_placeholder: "Поиск ресурсов…"

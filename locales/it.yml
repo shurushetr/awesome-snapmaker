@@ -27,7 +27,6 @@ ui_filter_tips: "<strong>Suggerimenti sui filtri:</strong> Tocca un tag una volt
 ui_sort_label: "Ordina per:"
 ui_sort_newest: "Dal più recente al più vecchio"
 ui_sort_oldest: "Dal più vecchio al più recente"
-ui_sort_alpha: "Alfabetico A-Z"
 ui_show_limit: "Limite di visualizzazione:"
 ui_limit_all: "Tutti"
 ui_search_placeholder: "Cerca risorse…"

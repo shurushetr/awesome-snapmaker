@@ -28,7 +28,6 @@ ui_filter_tips: "<strong>Filtertipps:</strong> Einmal auf ein Tag tippen, um es 
 ui_sort_label: "Sortieren nach:"
 ui_sort_newest: "Neueste zuerst"
 ui_sort_oldest: "Älteste zuerst"
-ui_sort_alpha: "Alphabetisch A-Z"
 ui_show_limit: "Anzeigelimit:"
 ui_limit_all: "Alle"
 ui_search_placeholder: "Ressourcen durchsuchen…"

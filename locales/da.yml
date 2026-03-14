@@ -27,7 +27,6 @@ ui_filter_tips: "<strong>Filtertips:</strong> Tryk på et tag én gang for at <s
 ui_sort_label: "Sortér efter:"
 ui_sort_newest: "Nyeste til ældste"
 ui_sort_oldest: "Ældste til nyeste"
-ui_sort_alpha: "Alfabetisk A-Z"
 ui_show_limit: "Vis antal grænse:"
 ui_limit_all: "Alle"
 ui_search_placeholder: "Søg i ressourcer…"

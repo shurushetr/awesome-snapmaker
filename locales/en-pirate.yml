@@ -27,7 +27,6 @@ ui_filter_tips: "<strong>Filter Tips, ye scallywag:</strong> Tap a tag once to <
 ui_sort_label: "Sort by:"
 ui_sort_newest: "Freshest Catch First"
 ui_sort_oldest: "Old as Davy Jones First"
-ui_sort_alpha: "Alphabetical A-Z"
 ui_show_limit: "Show count limit:"
 ui_limit_all: "The Whole Fleet"
 ui_search_placeholder: "Hunt fer resources…"
