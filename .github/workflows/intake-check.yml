@@ -1,4 +1,4 @@
-name: Issue Triage Intake Check
+name: "[Triage] Intake Check"
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true

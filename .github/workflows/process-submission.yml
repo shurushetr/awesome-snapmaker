@@ -1,4 +1,4 @@
-name: Process New Submission
+name: "[Triage] Process Approved Submission"
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true

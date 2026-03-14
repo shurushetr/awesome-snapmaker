@@ -4,7 +4,7 @@
 # It runs python scripts to generate the README, Issue Templates, and Localized HTML shells,
 # commits persistent assets (templates, README) back to the repo, and deploys the rest (HTML, ephemeral assets) to Pages.
 #
-name: Build and Deploy Pages
+name: "[System] Build & Deploy Pages"
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
