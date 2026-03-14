@@ -1056,9 +1056,9 @@ records:
     - ARTICLE
     official_flag:
     - UNOFFICIAL
-    extra_buttons:
-    - label: PDF Summary by Burgerboy
-      link: https://github.com/shurushetr/awesome-snapmaker/blob/main/files/pdf/Full_Lightburn_Control_Guide_v1.0.pdf
+  extra_buttons:
+  - label: PDF Summary by Burgerboy
+    link: https://github.com/shurushetr/awesome-snapmaker/blob/main/files/pdf/Full_Lightburn_Control_Guide_v1.0.pdf
 
 - id: full-control-lightburn-rotary-attachment-guide-b8dd
   title: Full Control Lightburn + Rotary Attachment Guide
