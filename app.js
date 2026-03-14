@@ -54,7 +54,8 @@ const DOM = {
     clearFiltersBtn: document.getElementById('clear-filters'),
     shareViewBtn: document.getElementById('share-view-btn'),
     resultCount: document.getElementById('result-count'),
-    jumpTopBtn: document.getElementById('jump-top')
+    jumpTopBtn: document.getElementById('jump-top'),
+    replayTourBtn: document.getElementById('tour-btn')
 };
 
 // Available Tags (Based on Schema)
@@ -190,6 +191,11 @@ async function init() {
                     }
                 }
             }, 300); // Short delay to allow DOM to paint
+        }
+        
+        // Launch Interactive Tour for First-time Visitors
+        if (!localStorage.getItem('awesomeTourCompleted')) {
+            setTimeout(initTour, 600);
         }
 
     } catch (error) {
@@ -408,6 +414,15 @@ function setupEventListeners() {
                 DOM.showFavoritesBtn.classList.add('primary-btn');
             }
             applyFiltersAndRender();
+        });
+    }
+
+    if (DOM.replayTourBtn) {
+        DOM.replayTourBtn.addEventListener('click', () => {
+            localStorage.removeItem('awesomeTourCompleted');
+            clearAllFilters();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+            setTimeout(initTour, 300);
         });
     }
 
@@ -830,6 +845,320 @@ function toggleFavorite(btnElement) {
     }
 
     localStorage.setItem('favorites', JSON.stringify(savedFavorites));
+}
+
+// UI Tour Animation Helpers
+function simulateClickAnimation(element, callback) {
+    if (!element) {
+        if (callback) callback();
+        return;
+    }
+    const originalTransition = element.style.transition;
+    const originalTransform = element.style.transform;
+    const originalFilter = element.style.filter;
+    
+    element.style.transition = 'transform 0.15s ease-in-out, filter 0.15s ease-in-out';
+    element.style.transform = 'scale(0.9)';
+    element.style.filter = 'brightness(0.8)';
+    
+    setTimeout(() => {
+        element.style.transform = originalTransform;
+        element.style.filter = originalFilter;
+        setTimeout(() => {
+            element.style.transition = originalTransition;
+            if (callback) callback();
+        }, 50);
+    }, 150);
+}
+
+function simulateTypewriting(inputElement, text, callback) {
+    if (!inputElement) return;
+    inputElement.value = '';
+    let i = 0;
+    const interval = setInterval(() => {
+        inputElement.value += text.charAt(i);
+        i++;
+        // Trigger input event so filters update dynamically
+        inputElement.dispatchEvent(new Event('input', { bubbles: true }));
+        if (i >= text.length) {
+            clearInterval(interval);
+            if (callback) callback();
+        }
+    }, 120);
+}
+
+function initTour() {
+    if (!window.driver) return; // safety net if CDN failed
+
+    const dict = translations[currentLang] || translations['en'] || {};
+    const t = (key) => dict[key] || key;
+
+    const driverObj = window.driver.js.driver({
+        showProgress: true,
+        showButtons: ['next', 'previous', 'close'],
+        nextBtnText: t('tour_btn_next'),
+        prevBtnText: t('tour_btn_prev'),
+        doneBtnText: t('tour_btn_done'),
+        closeBtnText: t('tour_btn_skip') || 'Skip',
+        onHighlighted: () => {
+            if (driverObj) {
+                const state = driverObj.getState();
+                const total = driverObj.getConfig().steps.length;
+                const pct = ((state.activeIndex + 1) / total) * 100;
+                const popover = document.querySelector('.driver-popover');
+                if (popover) {
+                    popover.style.setProperty('--progress-width', `${pct}%`);
+                }
+            }
+        },
+        onDestroyed: () => {
+            localStorage.setItem('awesomeTourCompleted', 'true');
+        },
+        steps: [
+            {
+                popover: {
+                    title: t('tour_step1_title'),
+                    description: t('tour_step1_desc')
+                },
+                onHighlightStarted: () => {
+                    clearAllFilters();
+                }
+            },
+            {
+                element: '#search-input',
+                popover: {
+                    title: t('tour_step2_title'),
+                    description: t('tour_step2_desc'),
+                    side: "bottom", 
+                    align: 'start'
+                },
+                onHighlightStarted: () => {
+                    clearAllFilters();
+                    simulateTypewriting(DOM.searchInput, 'PAXX12', () => applyFiltersAndRender());
+                }
+            },
+            {
+                element: '#result-count',
+                popover: {
+                    title: t('tour_step2b_title') || 'Instant Results',
+                    description: t('tour_step2b_desc') || 'The list updates instantly, showing exactly how many records match.',
+                    side: "bottom", 
+                    align: 'start'
+                }
+            },
+            {
+                element: '#paxx12-firmware-for-snapmaerk-u1-7',
+                popover: {
+                    title: t('tour_step2c_title') || 'Match Found',
+                    description: t('tour_step2c_desc') || 'Here is the closest match to our search query!',
+                    side: "top", 
+                    align: 'start'
+                }
+            },
+            {
+                element: '#filter-machine button[data-value="U1"]',
+                popover: {
+                    title: t('tour_step3_title'),
+                    description: t('tour_step3_desc'),
+                    side: "bottom", 
+                    align: 'start'
+                },
+                onPrevClick: () => {
+                    clearAllFilters();
+                    DOM.searchInput.value = 'PAXX12';
+                    applyFiltersAndRender();
+                    driverObj.movePrevious();
+                },
+                onHighlightStarted: () => {
+                    // IDEMPOTENCY & SCROLL JUMP FIX
+                    // Call clearAllFilters() directly. Using DOM.clearFiltersBtn.click() fires a literal href="#" anchor event, snapping the window to the top.
+                    clearAllFilters();
+                    window.scrollTo(0, 0);
+                    
+                    setTimeout(() => {
+                        const u1Btn = document.querySelector('#filter-machine button[data-value="U1"]');
+                        if (u1Btn && !u1Btn.classList.contains('included')) {
+                            simulateClickAnimation(u1Btn, () => u1Btn.click());
+                        }
+                    }, 400);
+                }
+            },
+            {
+                element: '#filter-type button[data-value="FIRMWARE"]',
+                popover: {
+                    title: t('tour_step4_title'),
+                    description: t('tour_step4_desc'),
+                    side: "bottom", 
+                    align: 'start'
+                },
+                onHighlightStarted: () => {
+                    // Idempotent reset for back-button compatibility
+                    clearAllFilters();
+                    window.scrollTo(0, 0);
+                    const u1Btn = document.querySelector('#filter-machine button[data-value="U1"]');
+                    if (u1Btn) u1Btn.click();
+
+                    setTimeout(() => {
+                        const fwBtn = document.querySelector('#filter-type button[data-value="FIRMWARE"]');
+                        if (fwBtn && !fwBtn.classList.contains('included')) {
+                            simulateClickAnimation(fwBtn, () => fwBtn.click());
+                        }
+                    }, 400);
+                }
+            },
+            {
+                element: '#filter-machine',
+                popover: {
+                    title: t('tour_step5_title'),
+                    description: t('tour_step5_desc'),
+                    side: "bottom", 
+                    align: 'start'
+                },
+                onHighlightStarted: () => {
+                    clearAllFilters();
+                    window.scrollTo(0, 0);
+                    const u1Btn = document.querySelector('#filter-machine button[data-value="U1"]');
+                    if (u1Btn) u1Btn.click();
+                    const fwBtn = document.querySelector('#filter-type button[data-value="FIRMWARE"]');
+                    if (fwBtn) fwBtn.click();
+
+                    const machineBtns = document.querySelectorAll('#filter-machine .filter-btn');
+                    let delay = 300;
+                    machineBtns.forEach(btn => {
+                        if (btn.dataset.value !== 'U1') {
+                            if (!btn.classList.contains('excluded')) {
+                                setTimeout(() => {
+                                    simulateClickAnimation(btn, () => {
+                                        btn.click(); // Select
+                                        setTimeout(() => {
+                                            simulateClickAnimation(btn, () => btn.click()); // Exclude
+                                        }, 200);
+                                    });
+                                }, delay);
+                                delay += 550; // Delay to accommodate double-click animation duration
+                            }
+                        }
+                    });
+                }
+            },
+            {
+                element: '#paxx12-firmware-for-snapmaerk-u1-7',
+                popover: {
+                    title: t('tour_step5b_title') || 'Finding with Tags',
+                    description: t('tour_step5b_desc') || 'By combining inclusions and exclusions, we have isolated the exact same PAXX12 firmware record without typing!',
+                    side: "top", 
+                    align: 'start'
+                }
+            },
+            {
+                element: '#paxx12-firmware-for-snapmaerk-u1-7 .favorite-btn',
+                popover: {
+                    title: t('tour_step6_title') || 'Save Favorites',
+                    description: t('tour_step6_desc') || 'Click the ★ on any resource to securely save it to your local device.',
+                    side: "top", 
+                    align: 'start'
+                },
+                onHighlightStarted: () => {
+                    setTimeout(() => {
+                        const firstStar = document.querySelector('#paxx12-firmware-for-snapmaerk-u1-7 .favorite-btn');
+                        if (firstStar && !firstStar.classList.contains('is-active')) {
+                            simulateClickAnimation(firstStar, () => firstStar.click());
+                        }
+                    }, 400);
+                }
+            },
+            {
+                element: '#show-favorites',
+                popover: {
+                    title: t('tour_step6b_title') || 'View Favorites',
+                    description: t('tour_step6b_desc') || "Then, click '★ Show Favorites' up here to filter the entire list down to just your saved items.",
+                    side: "bottom", 
+                    align: 'start'
+                },
+                onPrevClick: () => {
+                    clearAllFilters();
+                    const u1Btn = document.querySelector('#filter-machine button[data-value="U1"]');
+                    if (u1Btn) u1Btn.click();
+                    const fwBtn = document.querySelector('#filter-type button[data-value="FIRMWARE"]');
+                    if (fwBtn) fwBtn.click();
+                    driverObj.movePrevious();
+                },
+                onHighlightStarted: () => {
+                    const fwBtn = document.querySelector('#filter-type button[data-value="FIRMWARE"]');
+                    if (fwBtn && fwBtn.classList.contains('included')) {
+                        // Ensure we use internal method to avoid href="#" window jump backwards
+                        clearAllFilters(); 
+                    }
+
+                    setTimeout(() => {
+                        if (DOM.showFavoritesBtn.dataset.active !== 'true') {
+                            simulateClickAnimation(DOM.showFavoritesBtn, () => DOM.showFavoritesBtn.click());
+                        }
+                    }, 400);
+                }
+            },
+            {
+                element: '#share-view-btn',
+                popover: {
+                    title: t('tour_step7_title'),
+                    description: t('tour_step7_desc'),
+                    side: "bottom", 
+                    align: 'start'
+                },
+                onHighlightStarted: () => {
+                    setTimeout(() => {
+                        if (DOM.shareViewBtn) {
+                            simulateClickAnimation(DOM.shareViewBtn, () => DOM.shareViewBtn.click());
+                        }
+                    }, 400);
+                }
+            },
+            {
+                element: '#paxx12-firmware-for-snapmaerk-u1-7 .copy-link-btn',
+                popover: {
+                    title: t('tour_step8_title'),
+                    description: t('tour_step8_desc'),
+                    side: "top", 
+                    align: 'start'
+                },
+                onHighlightStarted: () => {
+                    setTimeout(() => {
+                        const btn = document.querySelector('#paxx12-firmware-for-snapmaerk-u1-7 .copy-link-btn');
+                        if (btn) simulateClickAnimation(btn, () => btn.click());
+                    }, 400);
+                }
+            },
+            {
+                element: '#clear-filters',
+                popover: {
+                    title: t('tour_step9_title') || 'Clear Filters',
+                    description: t('tour_step9_desc') || "You can quickly reset your view and see all resources by clicking 'Clear All Filters'. Enjoy exploring the list!",
+                    side: "bottom",
+                    align: 'start'
+                },
+                onPrevClick: () => {
+                    clearAllFilters();
+                    if (DOM.showFavoritesBtn && DOM.showFavoritesBtn.dataset.active !== 'true') {
+                        DOM.showFavoritesBtn.click();
+                    }
+                    driverObj.movePrevious();
+                },
+                onHighlightStarted: () => {
+                    setTimeout(() => {
+                        if (DOM.clearFiltersBtn) {
+                            // Call internal clearAllFilters() instead of .click() to prevent href="#" native window jumps
+                            simulateClickAnimation(DOM.clearFiltersBtn, () => {
+                                clearAllFilters();
+                                setTimeout(() => window.scrollTo({ top: 0, behavior: 'smooth' }), 2000);
+                            });
+                        }
+                    }, 400);
+                }
+            }
+        ]
+    });
+
+    driverObj.drive();
 }
 
 // Start application

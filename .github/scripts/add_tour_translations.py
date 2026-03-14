@@ -1,0 +1,282 @@
+import os
+import glob
+from ruamel.yaml import YAML
+
+yaml = YAML()
+yaml.preserve_quotes = True
+yaml.width = 4096
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+LOCALES_DIR = os.path.join(BASE_DIR, 'locales')
+
+translations = {
+    'ar': {
+        'tour_btn_next': "التالي ←",
+        'tour_btn_prev': "→ السابق",
+        'tour_btn_done': "أتفق!",
+        'tour_step1_title': "مرحباً بكم في قائمة Snapmaker الرائعة!",
+        'tour_step1_desc': "دعنا نأخذ جولة سريعة لمعرفة كيفية التصفية بسهولة والعثور على ما تحتاجه بالضبط.",
+        'tour_step2_title': "البحث المبسط",
+        'tour_step2_desc': "هل تبحث عن برنامج ثابت متخصص؟ جرب كتابة 'PAXX12' هنا. سيعثر البحث المبسط على أقرب التطابقات على الفور!",
+        'tour_step3_title': "تصفية حسب الآلة",
+        'tour_step3_desc': "الآن امسح مربع البحث، ودعنا نعثر على نفس البرنامج الثابت PAXX12 باستخدام العلامات بدلاً من ذلك. أولاً، انقر فوق علامة الآلة 'U1'.",
+        'tour_step4_title': "تصفية حسب النوع",
+        'tour_step4_desc': "يمكنك دمج عوامل التصفية! الآن انقر فوق 'FIRMWARE' للعثور على تحديثات البرنامج الثابت لـ U1.",
+        'tour_step5_title': "تصفية الاستبعاد",
+        'tour_step5_desc': "يمكنك النقر المزدوج فوق العلامات لتحويلها إلى اللون الأحمر واستبعادها من نتائجك على الفور. انقر نقرًا مزدوجًا فوق علامات الآلات الأخرى لاستبعادها، ثم قم بالتمرير لأسفل لرؤية سجل PAXX12!",
+        'tour_step6_title': "حفظ المفضلة",
+        'tour_step6_desc': "انقر فوق ★ في أي مورد لحفظه بأمان على جهازك المحلي. ثم، انقر فوق '★ عرض المفضلة' هنا لتصفية القائمة بأكملها لتقتصر على العناصر المحفوظة.",
+        'tour_step7_title': "مشاركة طرق العرض",
+        'tour_step7_desc': "هل وجدت الإعداد المثالي؟ انقر فوق 'مشاركة العرض' لنسخ عوامل التصفية الخاصة بك كـ رابط.",
+        'tour_step8_title': "مشاركة الروابط",
+        'tour_step8_desc': "يمكنك أيضًا استخدام رمز الارتباط الموجود على البطاقات الفردية لمشاركة مورد معين مباشرةً."
+    },
+    'da': {
+        'tour_btn_next': "Næste →",
+        'tour_btn_prev': "← Tilbage",
+        'tour_btn_done': "Forstået!",
+        'tour_step1_title': "Velkommen til den fantastiske Snapmaker-liste!",
+        'tour_step1_desc': "Lad os tage en hurtig rundvisning for at lære, hvordan du nemt filtrerer og finder præcis det, du har brug for.",
+        'tour_step2_title': "Fuzzy Søgning",
+        'tour_step2_desc': "Leder du efter specialiseret firmware? Prøv at skrive 'PAXX12' her. Fuzzy søgningen vil øjeblikkeligt finde de nærmeste match!",
+        'tour_step3_title': "Filtrer efter maskine",
+        'tour_step3_desc': "Ryd nu søgefeltet, og lad os finde den samme PAXX12 firmware ved hjælp af tags i stedet. Klik først på 'U1' maskin-tagget.",
+        'tour_step4_title': "Filtrer efter type",
+        'tour_step4_desc': "Du kan kombinere filtre! Klik nu på 'FIRMWARE' for at finde U1 firmwareopdateringer.",
+        'tour_step5_title': "Udelukkelsesfiltrering",
+        'tour_step5_desc': "Du kan dobbeltklikke på tags for at gøre dem røde og øjeblikkeligt EKSKLUDERE dem fra dine resultater. Dobbeltklik på andre maskintags for at ekskludere dem, og scroll derefter ned for at se PAXX12-rekorden!",
+        'tour_step6_title': "Gem favoritter",
+        'tour_step6_desc': "Klik på ★ på en ressource for at gemme den sikkert på din lokale enhed. Klik derefter på '★ Vis favoritter' heroppe for at filtrere hele listen ned til kun dine gemte elementer.",
+        'tour_step7_title': "Del visninger",
+        'tour_step7_desc': "Har du fundet den perfekte opsætning? Klik på 'Del visning' for at kopiere dine nøjagtige filtre som et link.",
+        'tour_step8_title': "Del links",
+        'tour_step8_desc': "Du kan også bruge linkikonet på individuelle kort til direkte at dele en specifik ressource."
+    },
+    'de': {
+        'tour_btn_next': "Weiter →",
+        'tour_btn_prev': "← Zurück",
+        'tour_btn_done': "Verstanden!",
+        'tour_step1_title': "Willkommen bei der Awesome Snapmaker List!",
+        'tour_step1_desc': "Machen wir einen kurzen Rundgang, um zu lernen, wie Sie einfach filtern und genau das finden, was Sie brauchen.",
+        'tour_step2_title': "Fuzzy-Suche",
+        'tour_step2_desc': "Suchen Sie eine spezielle Firmware? Versuchen Sie, hier 'PAXX12' einzugeben. Die Fuzzy-Suche findet sofort die besten Treffer!",
+        'tour_step3_title': "Nach Maschine filtern",
+        'tour_step3_desc': "Leeren Sie nun das Suchfeld und lassen Sie uns dieselbe PAXX12-Firmware stattdessen mithilfe von Tags finden. Klicken Sie zuerst auf das Maschinen-Tag 'U1'.",
+        'tour_step4_title': "Nach Typ filtern",
+        'tour_step4_desc': "Sie können Filter kombinieren! Klicken Sie nun auf 'FIRMWARE', um U1-Firmware-Updates zu finden.",
+        'tour_step5_title': "Ausschlussfilterung",
+        'tour_step5_desc': "Sie können auf Tags doppelklicken, um sie rot zu färben und sofort aus Ihren Ergebnissen AUSZUSCHLIESSEN. Doppelklicken Sie auf andere Maschinen-Tags, um diese auszuschließen, und scrollen Sie dann nach unten, um den PAXX12-Eintrag zu sehen!",
+        'tour_step6_title': "Favoriten speichern",
+        'tour_step6_desc': "Klicken Sie auf den ★ bei einer Ressource, um sie sicher auf Ihrem Gerät zu speichern. Klicken Sie dann hier oben auf '★ Favoriten anzeigen', um Ihre Liste auf die gespeicherten Einträge zu filtern.",
+        'tour_step7_title': "Ansichten teilen",
+        'tour_step7_desc': "Haben Sie das perfekte Setup gefunden? Klicken Sie auf 'Ansicht teilen', um Ihre genauen Filter als Link zu kopieren.",
+        'tour_step8_title': "Links teilen",
+        'tour_step8_desc': "Sie können auch das Link-Symbol auf einzelnen Karten verwenden, um eine bestimmte Ressource direkt zu teilen."
+    },
+    'en-pirate': {
+        'tour_btn_next': "Next →",
+        'tour_btn_prev': "← Back",
+        'tour_btn_done': "Arr, got it!",
+        'tour_step1_title': "Welcome aboard the Awesome Snapmaker List!",
+        'tour_step1_desc': "Let's take a quick sail to learn how to easily filter and spy exactly what ye be needin'.",
+        'tour_step2_title': "Fuzzy Searchin'",
+        'tour_step2_desc': "Lookin' fer specialized firmware? Try tyin' 'PAXX12' here. The fuzzy search will instantly find the closest matches in the seven seas!",
+        'tour_step3_title': "Filter by Vessel",
+        'tour_step3_desc': "Now clear the search box, and let's find that same PAXX12 firmware usin' flags instead. First, click the 'U1' machine flag.",
+        'tour_step4_title': "Filter by Type",
+        'tour_step4_desc': "Ye can combine filters! Now click 'FIRMWARE' to find U1 firmware updates.",
+        'tour_step5_title': "Exclusion Filterin'",
+        'tour_step5_desc': "Ye can double-click tags to turn 'em red and instantly BANISH 'em from yer results. Double-click other machine flags to exclude 'em, then scroll down to spy the PAXX12 treasure!",
+        'tour_step6_title': "Save Ye Favorites",
+        'tour_step6_desc': "Click the ★ on any booty to securely stash it on yer local ship. Then, click '★ Show Favorites' up 'ere to filter the entire list down to just yer saved plunder.",
+        'tour_step7_title': "Share Yer Spyglass",
+        'tour_step7_desc': "Found the perfect coordinates? Click 'Share View' to copy yer exact filters as a map link.",
+        'tour_step8_title': "Share Map Links",
+        'tour_step8_desc': "Ye can also use the link icon on individual cards to directly share a specific chest of gold."
+    },
+    'es': {
+        'tour_btn_next': "Siguiente →",
+        'tour_btn_prev': "← Atrás",
+        'tour_btn_done': "¡Entendido!",
+        'tour_step1_title': "¡Bienvenido a la Increíble Lista Snapmaker!",
+        'tour_step1_desc': "Demos un pequeño paseo para aprender a filtrar fácilmente y encontrar exactamente lo que necesitas.",
+        'tour_step2_title': "Búsqueda Difusa",
+        'tour_step2_desc': "¿Buscas un firmware especializado? Intenta escribir 'PAXX12' aquí. ¡La búsqueda difusa encontrará las coincidencias más cercanas al instante!",
+        'tour_step3_title': "Filtrar por Máquina",
+        'tour_step3_desc': "Ahora limpia el cuadro de búsqueda y busquemos ese mismo firmware PAXX12 usando etiquetas en su lugar. Primero, haz clic en la etiqueta de máquina 'U1'.",
+        'tour_step4_title': "Filtrar por Tipo",
+        'tour_step4_desc': "¡Puedes combinar filtros! Ahora haz clic en 'FIRMWARE' para encontrar actualizaciones de firmware para la U1.",
+        'tour_step5_title': "Filtro de Exclusión",
+        'tour_step5_desc': "Puedes hacer doble clic en las etiquetas para volverlas rojas y EXCLUIRLAS al instante de tus resultados. ¡Haz doble clic en otras etiquetas de máquinas para excluirlas y luego desplázate hacia abajo para ver el registro PAXX12!",
+        'tour_step6_title': "Guardar Favoritos",
+        'tour_step6_desc': "Haz clic en la ★ de cualquier recurso para guardarlo de forma segura en tu dispositivo. Luego, haz clic en '★ Mostrar Favoritos' aquí arriba para filtrar toda la lista y ver solo los elementos guardados.",
+        'tour_step7_title': "Compartir Vistas",
+        'tour_step7_desc': "¿Encontraste la configuración perfecta? Haz clic en 'Compartir Vista' para copiar tus filtros exactos como enlace.",
+        'tour_step8_title': "Compartir Enlaces",
+        'tour_step8_desc': "También puedes usar el ícono de enlace en tarjetas individuales para compartir directamente un recurso específico."
+    },
+    'fr': {
+        'tour_btn_next': "Suivant →",
+        'tour_btn_prev': "← Retour",
+        'tour_btn_done': "J'ai compris !",
+        'tour_step1_title': "Bienvenue sur l'Exceptionnelle Liste Snapmaker !",
+        'tour_step1_desc': "Faisons une petite visite rapide pour apprendre à filtrer facilement et trouver exactement ce dont vous avez besoin.",
+        'tour_step2_title': "Recherche Approximative",
+        'tour_step2_desc': "Vous recherchez un firmware spécialisé ? Essayez de taper 'PAXX12' ici. La recherche approximative trouvera instantanément les correspondances les plus proches !",
+        'tour_step3_title': "Filtrer par Machine",
+        'tour_step3_desc': "Maintenant, effacez la barre de recherche et trouvons ce même firmware PAXX12 en utilisant plutôt les tags. D'abord, cliquez sur le tag de machine 'U1'.",
+        'tour_step4_title': "Filtrer par Type",
+        'tour_step4_desc': "Vous pouvez combiner les filtres ! Cliquez maintenant sur 'FIRMWARE' pour trouver les mises à jour de firmware U1.",
+        'tour_step5_title': "Filtrage d'Exclusion",
+        'tour_step5_desc': "Vous pouvez double-cliquer sur les tags pour les rendre rouges et les EXCLUIR instantanément de vos résultats. Double-cliquez sur les autres tags de machines pour les exclure, puis descendez pour voir l'enregistrement PAXX12 !",
+        'tour_step6_title': "Sauvegarder les Favoris",
+        'tour_step6_desc': "Cliquez sur la ★ de n'importe quelle ressource pour la sauvegarder en toute sécurité sur votre appareil. Ensuite, cliquez sur '★ Afficher les Favoris' ici pour filtrer toute la liste et ne montrer que vos éléments sauvegardés.",
+        'tour_step7_title': "Partager les Vues",
+        'tour_step7_desc': "Vous avez trouvé la configuration parfaite ? Cliquez sur 'Partager la Vue' pour copier vos filtres exactos sous forme de lien.",
+        'tour_step8_title': "Partager les Liens",
+        'tour_step8_desc': "Vous pouvez également utiliser l'icône de lien sur les cartes individuelles pour partager directement une ressource spécifique."
+    },
+    'he': {
+        'tour_btn_next': "הבא ←",
+        'tour_btn_prev': "→ חזור",
+        'tour_btn_done': "הבנתי!",
+        'tour_step1_title': "ברוכים הבאים לרשימת סנאפמייקר המדהימה!",
+        'tour_step1_desc': "בואו נעשה סיור קצר כדי ללמוד כיצד לסנן בקלות ולמצוא בדיוק את מה שאתם צריכים.",
+        'tour_step2_title': "חיפוש מטושטש",
+        'tour_step2_desc': "מחפשים קושחה ייעודית? נסו להקליד 'PAXX12' כאן. החיפוש המטושטש ימצא באופן מיידי את ההתאמות הקרובות ביותר!",
+        'tour_step3_title': "סינון לפי מכונה",
+        'tour_step3_desc': "עכשיו נקו את תיבת החיפוש, ובואו נמצא את אותה קושחת PAXX12 באמצעות תגיות במקום. ראשית, לחצו על תגית המכונה 'U1'.",
+        'tour_step4_title': "סינון לפי סוג",
+        'tour_step4_desc': "ניתן לשלב מסננים! עכשיו לחצו על 'FIRMWARE' כדי למצוא עדכוני קושחה ל-U1.",
+        'tour_step5_title': "סינון הדרה",
+        'tour_step5_desc': "ניתן ללחוץ לחיצה כפולה על תגיות כדי להפוך אותן לאדומות ו-להדיר אותן מיד מהתוצאות שלכם. לחצו לחיצה כפולה על תגיות מכונות אחרות כדי לא לכלול אותן, ואז גללו למטה כדי לראות את רשומת PAXX12!",
+        'tour_step6_title': "שמירת מועדפים",
+        'tour_step6_desc': "לחצו על ה-★ בכל משאב כדי לשמור אותו בצורה מאובטחת במכשיר המקומי שלכם. לאחר מכן, לחצו על '★ הצג מועדפים' למעלה כדי לסנן את הרשימה כולה לפריטים השמורים שלכם בלבד.",
+        'tour_step7_title': "שיתוף תצוגות",
+        'tour_step7_desc': "מצאתם את ההגדרה המושלמת? לחצו על 'שתף תצוגה' כדי להעתיק את המסננים המדויקים שלכם כקישור.",
+        'tour_step8_title': "שיתוף קישורים",
+        'tour_step8_desc': "ניתן גם להשתמש בסמל הקישור בכרטיסים בודדים כדי לשתף משאב ספציפי ישירות."
+    },
+    'it': {
+        'tour_btn_next': "Avanti →",
+        'tour_btn_prev': "← Indietro",
+        'tour_btn_done': "Ricevuto!",
+        'tour_step1_title': "Benvenuti nella Fantastica Lista Snapmaker!",
+        'tour_step1_desc': "Facciamo un rapido tour per imparare come filtrare facilmente e trovare esattamente ciò di cui hai bisogno.",
+        'tour_step2_title': "Ricerca Vaga",
+        'tour_step2_desc': "Cerchi un firmware specializzato? Prova a digitare 'PAXX12' qui. La ricerca vaga troverà all'istante le corrispondenze più vicine!",
+        'tour_step3_title': "Filtra per Macchina",
+        'tour_step3_desc': "Ora cancella la casella di ricerca e proviamo a trovare quello stesso firmware PAXX12 usando invece i tag. Per prima cosa, clicca sul tag macchina 'U1'.",
+        'tour_step4_title': "Filtra per Tipo",
+        'tour_step4_desc': "Puoi combinare i filtri! Clicca ora su 'FIRMWARE' per trovare gli aggiornamenti del firmware U1.",
+        'tour_step5_title': "Filtro di Esclusione",
+        'tour_step5_desc': "Puoi fare doppio clic sui tag per farli diventare rossi ed ESCLUDERLI all'istante dai tuoi risultati. Fai doppio clic su altri tag di macchine per escluderli, poi scorri verso il basso per vedere il record PAXX12!",
+        'tour_step6_title': "Salva i Preferiti",
+        'tour_step6_desc': "Clicca sulla ★ di qualsiasi risorsa per salvarla in modo sicuro sul tuo dispositivo locale. Poi clicca su '★ Mostra Preferiti' quassù per filtrare l'intera lista e vedere solo i tuoi elementi salvati.",
+        'tour_step7_title': "Condividi Visualizzazioni",
+        'tour_step7_desc': "Hai trovato la configurazione perfetta? Clicca su 'Condividi Vista' per copiare i tuoi filtri esatti come link.",
+        'tour_step8_title': "Condividi Link",
+        'tour_step8_desc': "Puoi anche usare l'icona del link su singole schede per condividere direttamente una risorsa specifica."
+    },
+    'pl': {
+        'tour_btn_next': "Dalej →",
+        'tour_btn_prev': "← Wstecz",
+        'tour_btn_done': "Rozumiem!",
+        'tour_step1_title': "Witamy na Niesamowitej Liście Snapmaker!",
+        'tour_step1_desc': "Zróbmy krótką wycieczkę, aby dowiedzieć się, jak łatwo filtrować i znajdować dokładnie to, czego potrzebujesz.",
+        'tour_step2_title': "Wyszukiwanie Rozmyte",
+        'tour_step2_desc': "Szukasz specjalistycznego oprogramowania sprzętowego? Spróbuj wpisać tutaj 'PAXX12'. Wyszukiwanie rozmyte natychmiast znajdzie najbardziej dopasowane wyniki!",
+        'tour_step3_title': "Filtruj według maszyny",
+        'tour_step3_desc': "Teraz wyczyść pole wyszukiwania i znajdźmy to samo oprogramowanie sprzętowe PAXX12 za pomocą tagów. Najpierw kliknij tag urządzenia 'U1'.",
+        'tour_step4_title': "Filtruj według Typu",
+        'tour_step4_desc': "Możesz łączyć filtry! Teraz kliknij 'FIRMWARE', aby znaleźć aktualizacje oprogramowania układowego U1.",
+        'tour_step5_title': "Filtrowanie Wykluczające",
+        'tour_step5_desc': "Możesz kliknąć dwukrotnie tagi, aby zmieniły kolor na czerwony i natychmiastowo WYKLUCZYĆ je z wyników. Kliknij dwukrotnie inne tagi maszyn, aby je wykluczyć, a następnie przewiń w dół, aby zobaczyć rekord PAXX12!",
+        'tour_step6_title': "Zapisz Ulubione",
+        'tour_step6_desc': "Kliknij ★ na dowolnym zasobie, aby bezpiecznie zapisać go na swoim urządzeniu. Następnie kliknij '★ Pokaż Ulubione' tutaj, aby odfiltrować z całej listy tylko Twoje zapisane elementy.",
+        'tour_step7_title': "Udostępnij Widoki",
+        'tour_step7_desc': "Znalazłeś idealną konfigurację? Kliknij „Udostępnij Widok”, aby skopiować Twoje dokładne filtry w postaci linku.",
+        'tour_step8_title': "Udostępnij Linki",
+        'tour_step8_desc': "Możesz również użyć ikony linku na poszczególnych kartach, aby bezpośrednio udostępnić konkretny zasób."
+    },
+    'ru': {
+        'tour_btn_next': "Далее →",
+        'tour_btn_prev': "← Назад",
+        'tour_btn_done': "Понятно!",
+        'tour_step1_title': "Добро пожаловать в Snapmaker - Замечательный Список!",
+        'tour_step1_desc': "Давайте совершим короткую экскурсию, чтобы узнать, как легко фильтровать и находить именно то, что вам нужно.",
+        'tour_step2_title': "Нечеткий Поиск",
+        'tour_step2_desc': "Ищете специализированную прошивку? Попробуйте ввести «PAXX12» здесь. Нечеткий поиск мгновенно найдет самые близкие совпадения!",
+        'tour_step3_title': "Фильтр по Модели",
+        'tour_step3_desc': "Теперь очистите поле поиска, и давайте найдем ту же самую прошивку PAXX12 с помощью тегов. Сначала нажмите на тег модели 'U1'.",
+        'tour_step4_title': "Фильтр по Типу",
+        'tour_step4_desc': "Вы можете комбинировать фильтры! Теперь нажмите «FIRMWARE», чтобы найти обновления прошивки для U1.",
+        'tour_step5_title': "Исключающий Фильтр",
+        'tour_step5_desc': "Вы можете дважды щелкнуть на теги, чтобы выделить их красным и мгновенно ИСКЛЮЧИТЬ их из результатов. Дважды щелкните на другие теги моделей, чтобы исключить их, затем прокрутите вниз, чтобы увидеть запись PAXX12!",
+        'tour_step6_title': "Сохранить в Избранное",
+        'tour_step6_desc': "Нажмите на ★ на любом ресурсе, чтобы надежно сохранить его на вашем устройстве. Затем нажмите «★ Показать Избранное» здесь, чтобы отфильтровать весь список и оставить только сохраненные элементы.",
+        'tour_step7_title': "Поделиться Конфигурацией",
+        'tour_step7_desc': "Нашли идеальную конфигурацию? Нажмите «Поделиться Конфигурацией», чтобы скопировать ваши точные фильтры в виде ссылки.",
+        'tour_step8_title': "Поделиться Ссылками",
+        'tour_step8_desc': "Вы также можете использовать иконку ссылки на отдельных карточках для прямой публикации конкретного ресурса."
+    },
+    'zh-cn': {
+        'tour_btn_next': "下一步 →",
+        'tour_btn_prev': "← 返回",
+        'tour_btn_done': "明白了！",
+        'tour_step1_title': "欢迎来到 Awesome Snapmaker List！",
+        'tour_step1_desc': "让我们进行一次快速参观，了解如何轻松过滤和准确查找您需要的内容。",
+        'tour_step2_title': "模糊搜索",
+        'tour_step2_desc': "寻找特定的固件？尝试在这里输入'PAXX12'。模糊搜索会立刻找到最接近的匹配项！",
+        'tour_step3_title': "按机器类型过滤",
+        'tour_step3_desc': "现在清空搜索框，让我们尝试使用标签来寻找同一个 PAXX12 固件。首先，点击'U1'机器标签。",
+        'tour_step4_title': "按类型过滤",
+        'tour_step4_desc': "您可以组合过滤器！现在点击'FIRMWARE'以查找 U1 固件更新。",
+        'tour_step5_title': "排除过滤",
+        'tour_step5_desc': "您可以双击标签使其变红，并立即将其从您的结果中排除。双击其他机器标签将其排除，然后向下滚动查看 PAXX12 记录！",
+        'tour_step6_title': "保存我的最爱",
+        'tour_step6_desc': "点击任何资源上的 ★ 以将其安全地保存到您的本地设备。然后，点击这里的 '★ 显示我的最爱' 将整个列表过滤为仅显示您的保存项目。",
+        'tour_step7_title': "分享视图",
+        'tour_step7_desc': "找到完美的设置？点击'分享视图'以将您的精确过滤器复制为链接。",
+        'tour_step8_title': "分享链接",
+        'tour_step8_desc': "您还可以使用个别卡片上的链接图标直接分享特定的资源。"
+    },
+    'zh-hk': {
+        'tour_btn_next': "下一步 →",
+        'tour_btn_prev': "← 退出",
+        'tour_btn_done': "明白喇！",
+        'tour_step1_title': "歡迎來到 Awesome Snapmaker List！",
+        'tour_step1_desc': "等我地進行一次快速參觀，了解下點樣輕鬆過濾同準確搵到你需要既野。",
+        'tour_step2_title': "模糊搜尋",
+        'tour_step2_desc': "搵緊特定韌體？試下喺度輸入'PAXX12'。模糊搜尋會即刻搵到最接近既配對項！",
+        'tour_step3_title': "按機器類型過濾",
+        'tour_step3_desc': "而家清空搜尋框，等我地試下用標籤黎搵同一個 PAXX12 韌體。首先，撳'U1'機器標籤。",
+        'tour_step4_title': "按類型過濾",
+        'tour_step4_desc': "你可以組合過濾器！而家撳'FIRMWARE'以尋找 U1 韌體更新。",
+        'tour_step5_title': "排除過濾",
+        'tour_step5_desc': "你可以連撳兩下標籤令佢變紅，並即刻將佢從你既結果中排除。連撳兩下其他機器標籤將佢地排除，然後向下拉查看 PAXX12 紀錄！",
+        'tour_step6_title': "儲存我的最愛",
+        'tour_step6_desc': "撳任何資源上既 ★ 以將佢安全咁儲存到你既本地設備。然後，撳呢度既 '★ 顯示我的最愛' 將成個列表過濾為淨係顯示你既儲存項目。",
+        'tour_step7_title': "分享視圖",
+        'tour_step7_desc': "搵到完美既設置？撳'分享視圖'以將你既精確過濾器複製為連結。",
+        'tour_step8_title': "分享連結",
+        'tour_step8_desc': "你都可以使用個別卡片上既連結圖示直接分享特定既資源。"
+    }
+}
+
+for lang_code, trans_dict in translations.items():
+    loc_file = os.path.join(LOCALES_DIR, f"{lang_code}.yml")
+    if not os.path.exists(loc_file):
+        print(f"File {loc_file} not found, skipping.")
+        continue
+    
+    with open(loc_file, 'r', encoding='utf-8') as f:
+        data = yaml.load(f)
+        
+    for k, v in trans_dict.items():
+        data[k] = v
+        
+    with open(loc_file, 'w', encoding='utf-8') as f:
+        yaml.dump(data, f)
+        
+print("Updated all locale files with tour translations successfully.")

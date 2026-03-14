@@ -4,8 +4,7 @@
 
 # --- Main UI Frontend Elements ---
 ui_title: "Awesome Snapmaker List"
-ui_subtitle: "Starannie zebrana lista świetnych zasobów, modyfikacji i poradników
-  dla Snapmaker."
+ui_subtitle: "Starannie zebrana lista świetnych zasobów, modyfikacji i poradników dla Snapmaker."
 ui_contribute: "Dodaj swój wkład"
 ui_discuss: "Dyskutuj"
 ui_contact_author: "Skontaktuj się z autorem"
@@ -21,10 +20,7 @@ ui_filter_official: "Filtruj po oficjalności:"
 ui_filter_difficulty: "Filtruj po trudności:"
 ui_filter_cost: "Filtruj po koszcie:"
 ui_filter_lang: "Filtruj po języku:"
-ui_filter_tips: "<strong>Wskazówki dotyczące filtrów:</strong> Dotknij tag raz, aby
-  go <span style='color: #10b981; font-weight: bold;'>uwzględnić</span> (zielony).
-  Dotknij ponownie, aby go <span style='color: #ef4444; font-weight: bold; text-decoration:
-  line-through;'>wykluczyć</span> (czerwony)."
+ui_filter_tips: "<strong>Wskazówki dotyczące filtrów:</strong> Dotknij tag raz, aby go <span style='color: #10b981; font-weight: bold;'>uwzględnić</span> (zielony). Dotknij ponownie, aby go <span style='color: #ef4444; font-weight: bold; text-decoration: line-through;'>wykluczyć</span> (czerwony)."
 ui_sort_label: "Sortuj według:"
 ui_sort_newest: "Od najnowszych"
 ui_sort_oldest: "Od najstarszych"
@@ -82,32 +78,21 @@ tag_zh-hk: "ZH-HK"
 tag_en-pirate: "EN-PIRATE"
 
 # --- Bot Comments ---
-bot_duplicate: "Dzięki za przesłanie! Wygląda jednak na to, że ten zasób już istnieje
-  w naszym katalogu:\n\n🔗 https://awesome-sm-list.xyz/#"
-bot_duplicate_issue: "Dzięki za przesłanie! Wygląda jednak na to, że ktoś inny już
-  przesłał ten zasób i oczekuje on na recenzję w "
-bot_rejected: "Dzięki za przesłanie! Ze względu na bezpieczeństwo naszych użytkowników,
-  nie akceptujemy bezpośrednich linków do plików wykonywalnych (.exe, .msi itp.).
-  Prosimy, podaj link do strony głównej projektu lub jego repozytorium."
-bot_unique: "Dzięki za przesłanie! Opiekun wkrótce przejrzy Twój wpis. Doceniamy Twój
-  wkład do Awesome Snapmaker List! 🚀"
-bot_merged: "🎉 Twoje zgłoszenie zostało pomyślnie dodane do katalogu!\n\nDziękujemy
-  za wkład w Awesome Snapmaker List. Ten issue jest teraz oficjalnie zamknięty."
+bot_duplicate: "Dzięki za przesłanie! Wygląda jednak na to, że ten zasób już istnieje w naszym katalogu:\n\n🔗 https://awesome-sm-list.xyz/#"
+bot_duplicate_issue: "Dzięki za przesłanie! Wygląda jednak na to, że ktoś inny już przesłał ten zasób i oczekuje on na recenzję w "
+bot_rejected: "Dzięki za przesłanie! Ze względu na bezpieczeństwo naszych użytkowników, nie akceptujemy bezpośrednich linków do plików wykonywalnych (.exe, .msi itp.). Prosimy, podaj link do strony głównej projektu lub jego repozytorium."
+bot_unique: "Dzięki za przesłanie! Opiekun wkrótce przejrzy Twój wpis. Doceniamy Twój wkład do Awesome Snapmaker List! 🚀"
+bot_merged: "🎉 Twoje zgłoszenie zostało pomyślnie dodane do katalogu!\n\nDziękujemy za wkład w Awesome Snapmaker List. Ten issue jest teraz oficjalnie zamknięty."
 
 # --- GitHub Issue Template (Submit) ---
 issue_submit_title: "👉 Dodaj nowy zasób"
-issue_submit_desc: "Prześlij nowy zasób (narzędzie, poradnik, modyfikację itp.) do
-  Awesome Snapmaker List!"
-issue_submit_body: "Dzięki, że poświęcasz czas na dodanie nowego zasobu do Awesome
-  Snapmaker List!\n\nWypełnij poniższy formularz. Po przesłaniu nasz automatyczny
-  bot wygeneruje Pull Request, aby dodać go do bazy danych, a opiekun będzie mógł
-  zatwierdzić to jednym kliknięciem!"
+issue_submit_desc: "Prześlij nowy zasób (narzędzie, poradnik, modyfikację itp.) do Awesome Snapmaker List!"
+issue_submit_body: "Dzięki, że poświęcasz czas na dodanie nowego zasobu do Awesome Snapmaker List!\n\nWypełnij poniższy formularz. Po przesłaniu nasz automatyczny bot wygeneruje Pull Request, aby dodać go do bazy danych, a opiekun będzie mógł zatwierdzić to jednym kliknięciem!"
 issue_description_label: "Opis zasobu"
 issue_description_desc: "Podaj krótkie podsumowanie, czego dotyczy ten zasób."
 issue_description_placeholder: "Ten poradnik omawia najlepsze ustawienia dla…"
 issue_author_name_label: "Imię autora"
-issue_author_name_desc: "Kto stworzył ten zasób? (Użyj swojego imienia lub nazwy użytkownika,
-  jeśli to Twój zasób)"
+issue_author_name_desc: "Kto stworzył ten zasób? (Użyj swojego imienia lub nazwy użytkownika, jeśli to Twój zasób)"
 issue_author_link_label: "Link do autora"
 issue_author_link_desc: "Link do profilu autora (GitHub, Thingiverse, Forum itp.)"
 issue_original_link_label: "Link do treści (oryginalny URL)"
@@ -117,11 +102,9 @@ issue_cost_label: "Koszt"
 issue_language_label: "Język"
 issue_language_desc: "W jakim języku głównie napisany jest ten zasób?"
 issue_machine_type_label: "Typ/typy maszyny"
-issue_machine_type_desc: "Do których maszyn Snapmaker to pasuje? (Zaznacz wszystkie
-  odpowiednie)"
+issue_machine_type_desc: "Do których maszyn Snapmaker to pasuje? (Zaznacz wszystkie odpowiednie)"
 issue_machine_tool_type_label: "Typ/typy narzędzia maszyny"
-issue_machine_tool_type_desc: "Które moduły/głowice narzędziowe są istotne? (Zaznacz
-  wszystkie odpowiednie)"
+issue_machine_tool_type_desc: "Które moduły/głowice narzędziowe są istotne? (Zaznacz wszystkie odpowiednie)"
 issue_record_type_label: "Typ/typy rekordu"
 issue_record_type_desc: "Jakim rodzajem zasobu to jest? (Zaznacz wszystkie odpowiednie)"
 issue_official_label: "Oficjalny zasób Snapmaker?"
@@ -129,8 +112,7 @@ issue_official_desc: "Czy to oficjalny zasób Snapmaker, czy twór społecznośc
 issue_official_no: "Nie"
 issue_official_yes: "Tak"
 issue_free_tags_label: "Wolne tagi"
-issue_free_tags_desc: "Tagi oddzielone przecinkami (np. OFFICIAL, UNOFFICIAL, enclosure,
-  cooling)"
+issue_free_tags_desc: "Tagi oddzielone przecinkami (np. OFFICIAL, UNOFFICIAL, enclosure, cooling)"
 issue_extra_btn1_label: "(Opcjonalnie) Dodatkowy przycisk 1 - Etykieta"
 issue_extra_btn1_desc: "Przydatne do bezpośrednich pobrań PDF/STL."
 issue_extra_btn1_link: "(Opcjonalnie) Dodatkowy przycisk 1 - Link"
@@ -138,22 +120,34 @@ issue_confirm: "Przesyłając ten issue, potwierdzasz, że link jest bezpieczny 
 
 # --- GitHub Issue Template (Modify/Remove) ---
 issue_modify_title: "✏️ Zmodyfikuj lub usuń zasób"
-issue_modify_desc: "Zgłoś korektę, aktualizację lub usunięcie istniejącego zasobu
-  z Awesome List."
-issue_modify_body: "Dziękujemy za pomoc w utrzymaniu dokładności i aktualności Awesome
-  Snapmaker List!\n\nPodaj poniżej szczegóły, aby opiekun mógł przejrzeć i zastosować
-  zmiany."
+issue_modify_desc: "Zgłoś korektę, aktualizację lub usunięcie istniejącego zasobu z Awesome List."
+issue_modify_body: "Dziękujemy za pomoc w utrzymaniu dokładności i aktualności Awesome Snapmaker List!\n\nPodaj poniżej szczegóły, aby opiekun mógł przejrzeć i zastosować zmiany."
 issue_modify_type_label: "Co chcesz zrobić?"
-issue_modify_type_update: "Zaktualizować istniejący zasób (zepsuty link, błędne tagi,
-  literówka itp.)"
+issue_modify_type_update: "Zaktualizować istniejący zasób (zepsuty link, błędne tagi, literówka itp.)"
 issue_modify_type_remove: "Usunąć zasób (nie istnieje, nieodpowiedni, przestarzały)"
 issue_modify_current_link_label: "Aktualny link do zasobu"
-issue_modify_current_link_desc: "Wklej 'Link do treści' zasobu, który jest obecnie
-  na stronie."
+issue_modify_current_link_desc: "Wklej 'Link do treści' zasobu, który jest obecnie na stronie."
 issue_modify_new_link_label: "Nowy link do zasobu (jeśli dotyczy)"
-issue_modify_new_link_desc: "Jeśli zasób został przeniesiony pod nowy adres URL, wklej
-  nowy link tutaj. Zostaw puste, jeśli nie dotyczy."
+issue_modify_new_link_desc: "Jeśli zasób został przeniesiony pod nowy adres URL, wklej nowy link tutaj. Zostaw puste, jeśli nie dotyczy."
 issue_modify_reason_label: "Powód zmiany / Nowe szczegóły"
-issue_modify_reason_desc: "Wyjaśnij, co należy zmienić (np. 'Link nie działa' lub
-  'Proszę zmienić koszt na FREE i maszynę na Artisan')."
+issue_modify_reason_desc: "Wyjaśnij, co należy zmienić (np. 'Link nie działa' lub 'Proszę zmienić koszt na FREE i maszynę na Artisan')."
 issue_modify_reason_placeholder: "Krótko opisz potrzebną korektę tutaj…"
+tour_btn_next: Dalej →
+tour_btn_prev: ← Wstecz
+tour_btn_done: Rozumiem!
+tour_step1_title: Witamy na Niesamowitej Liście Snapmaker!
+tour_step1_desc: Zróbmy krótką wycieczkę, aby dowiedzieć się, jak łatwo filtrować i znajdować dokładnie to, czego potrzebujesz.
+tour_step2_title: Wyszukiwanie Rozmyte
+tour_step2_desc: Szukasz specjalistycznego oprogramowania sprzętowego? Spróbuj wpisać tutaj 'PAXX12'. Wyszukiwanie rozmyte natychmiast znajdzie najbardziej dopasowane wyniki!
+tour_step3_title: Filtruj według maszyny
+tour_step3_desc: Teraz wyczyść pole wyszukiwania i znajdźmy to samo oprogramowanie sprzętowe PAXX12 za pomocą tagów. Najpierw kliknij tag urządzenia 'U1'.
+tour_step4_title: Filtruj według Typu
+tour_step4_desc: Możesz łączyć filtry! Teraz kliknij 'FIRMWARE', aby znaleźć aktualizacje oprogramowania układowego U1.
+tour_step5_title: Filtrowanie Wykluczające
+tour_step5_desc: Możesz kliknąć dwukrotnie tagi, aby zmieniły kolor na czerwony i natychmiastowo WYKLUCZYĆ je z wyników. Kliknij dwukrotnie inne tagi maszyn, aby je wykluczyć, a następnie przewiń w dół, aby zobaczyć rekord PAXX12!
+tour_step6_title: Zapisz Ulubione
+tour_step6_desc: Kliknij ★ na dowolnym zasobie, aby bezpiecznie zapisać go na swoim urządzeniu. Następnie kliknij '★ Pokaż Ulubione' tutaj, aby odfiltrować z całej listy tylko Twoje zapisane elementy.
+tour_step7_title: Udostępnij Widoki
+tour_step7_desc: Znalazłeś idealną konfigurację? Kliknij „Udostępnij Widok”, aby skopiować Twoje dokładne filtry w postaci linku.
+tour_step8_title: Udostępnij Linki
+tour_step8_desc: Możesz również użyć ikony linku na poszczególnych kartach, aby bezpośrednio udostępnić konkretny zasób.

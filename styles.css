@@ -710,3 +710,71 @@ select {
 #jump-top:hover {
     background-color: var(--primary-hover);
 }
+
+/* Driver.js Theme Overrides */
+.driver-popover-progress-text {
+    display: none !important;
+}
+
+.driver-popover {
+    background-color: var(--card-bg) !important;
+    color: var(--text-color) !important;
+    border: 1px solid var(--card-border) !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) !important;
+    border-radius: 8px !important;
+    position: relative;
+    overflow: hidden !important; 
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+    font-size: 1.05rem !important;
+    line-height: 1.5 !important;
+    min-width: min(380px, 95vw) !important;
+}
+
+.driver-popover::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 4px;
+    background-color: var(--primary-color);
+    width: var(--progress-width, 0%);
+    transition: width 0.3s ease;
+}
+
+.driver-popover-title {
+    color: var(--text-color) !important;
+    font-weight: bold !important;
+    font-size: 1.25rem !important;
+}
+
+.driver-popover-description {
+    color: var(--text-color) !important;
+    font-size: 1.05rem !important;
+    margin-bottom: 0.5rem !important;
+}
+
+.driver-popover-footer button {
+    background-color: var(--bg-color) !important;
+    color: var(--text-color) !important;
+    border: 1px solid var(--card-border) !important;
+    text-shadow: none !important;
+    font-size: 1rem !important;
+    padding: 0.6rem 1.5rem !important;
+}
+
+.driver-popover-footer button:hover {
+    background-color: var(--secondary-bg) !important;
+}
+
+.driver-popover-navigation-btns {
+    gap: 0.5rem;
+}
+
+.driver-popover-arrow {
+    background-color: transparent !important;
+}
+
+/* Fix arrow coloring based on popover position */
+.driver-popover-arrow::before {
+    border-color: var(--card-bg) !important;
+}
