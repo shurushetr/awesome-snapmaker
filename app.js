@@ -200,7 +200,7 @@ async function init() {
 
     } catch (error) {
         console.error("Error loading YAML data:", error);
-        DOM.recordsContainer.innerHTML = `<p style="color: red;">Failed to load data. Please make sure data.yml and translations.yml exist and are valid.</p>`;
+        DOM.recordsContainer.innerHTML = `<p style="color: red;">Failed to load data. Please make sure data.yml and locales/en.yml exist and have valid YAML syntax.</p>`;
     }
 }
 
