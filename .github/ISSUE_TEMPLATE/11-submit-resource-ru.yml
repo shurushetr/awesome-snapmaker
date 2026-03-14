@@ -1,4 +1,4 @@
-name: 👉 Добавить новый ресурс (RU)
+name: 👉 Добавить новую запись (RU)
 description: Отправьте новый ресурс (инструмент, руководство, мод и т.д.) в 
   Awesome Snapmaker List!
 labels:
@@ -16,7 +16,7 @@ body:
     attributes:
       label: Описание ресурса
       description: Дайте краткое описание, о чём этот ресурс.
-      placeholder: Это руководство охватывает лучшие настройки для…
+      placeholder: ПРИМЕР - Это руководство охватывает лучшие настройки для…
     validations:
       required: true
   - type: input
@@ -86,7 +86,7 @@ body:
   - type: checkboxes
     id: machine_type
     attributes:
-      label: Тип(ы) машины
+      label: Модели
       description: К каким машинам Snapmaker это относится? (Выберите все 
         подходящие)
       options:
@@ -95,33 +95,33 @@ body:
         - label: U1
         - label: J1/J1s
         - label: RAY
-        - label: УНИВЕРСАЛЬНЫЙ
+        - label: УНИВЕРСАЛЬНО
   - type: checkboxes
     id: machine_tool_type
     attributes:
-      label: Тип(ы) инструмента машины
+      label: Тип(ы) инструмента
       description: Какие модули/насадки актуальны? (Выберите все подходящие)
       options:
-        - label: FDM
+        - label: ЭКСТРУДЕР
         - label: ЛАЗЕР
-        - label: CNC
-        - label: РОТАЦИОННЫЙ
-        - label: КОМБИНИРОВАННЫЙ
+        - label: ФРЕЗА
+        - label: ПОВОРОТНЫЙ МОДУЛЬ
+        - label: КОМБИНАЦИЯ
   - type: checkboxes
     id: record_type
     attributes:
-      label: Тип(ы) записи
+      label: Тип(ы) контента
       description: Что это за ресурс? (Выберите все подходящие)
       options:
         - label: СТАТЬЯ
-        - label: СОЗДАТЬ
+        - label: СДЕЛАТЬ
         - label: ОБСУЖДЕНИЕ
         - label: СКАЧАТЬ
         - label: ПРОШИВКА
         - label: МОДЫ
         - label: ОНЛАЙН-ИНСТРУМЕНТ
         - label: РЕМОНТ
-        - label: МАГАЗИН
+        - label: КУПИТЬ
         - label: ВИДЕО
   - type: dropdown
     id: official_resource
@@ -137,15 +137,15 @@ body:
     id: free_tags
     attributes:
       label: Свободные теги
-      description: Теги через запятую (например OFFICIAL, UNOFFICIAL, enclosure,
-        cooling)
+      description: Теги через запятую (например g-code, PETG, гравировка, 
+        охлаждение)
       placeholder: UNOFFICIAL, cooling, petg
     validations:
       required: false
   - type: input
     id: extra_button_1_label
     attributes:
-      label: (Необязательно) Дополнительная кнопка 1 - Метка
+      label: (Необязательно) Дополнительная кнопка 1 - НАДПИСЬ НА КНОПКЕ
       description: Полезно для прямых загрузок PDF/STL.
       placeholder: Download STL
     validations:
@@ -153,7 +153,7 @@ body:
   - type: input
     id: extra_button_1_link
     attributes:
-      label: (Необязательно) Дополнительная кнопка 1 - Ссылка
+      label: (Необязательно) Дополнительная кнопка 1 - ССЫЛКА
       placeholder: https://...
     validations:
       required: false
