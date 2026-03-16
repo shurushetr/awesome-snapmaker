@@ -109,31 +109,43 @@ tour_btn_next: "Next →"
 tour_btn_prev: "← Back"
 tour_btn_done: "Got it!"
 tour_step1_title: "Welcome to the Awesome Snapmaker List!"
-tour_step1_desc: "Let's take a quick tour to learn how to easily filter and find exactly what you need."
+tour_step1_desc: "Let's take a quick tour to learn how to easily filter and find exactly
+  what you need."
 tour_step2_title: "Fuzzy Search"
-tour_step2_desc: "Looking for specialized firmware? Try typing 'PAXX12' here. The fuzzy search will instantly find the closest matches!"
+tour_step2_desc: "Looking for specialized firmware? Try typing 'PAXX12' here. The
+  fuzzy search will instantly find the closest matches!"
 tour_step2b_title: "Instant Results"
 tour_step2b_desc: "The list updates instantly, showing exactly how many records match."
 tour_step2c_title: "Match Found"
-tour_step2c_desc: "Here is the exact PAXX12 firmware we're looking for, highlighted among the results!"
+tour_step2c_desc: "Here is the exact PAXX12 firmware we're looking for, highlighted
+  among the results!"
 tour_step3_title: "Filter by Machine"
-tour_step3_desc: "Now clear the search box, and let's find that same PAXX12 firmware using tags instead. First, click the 'U1' machine tag."
+tour_step3_desc: "Now clear the search box, and let's find that same PAXX12 firmware
+  using tags instead. First, click the 'U1' machine tag."
 tour_step4_title: "Filter by Type"
-tour_step4_desc: "You can combine filters! Now click 'FIRMWARE' to find U1 firmware updates."
+tour_step4_desc: "You can combine filters! Now click 'FIRMWARE' to find U1 firmware
+  updates."
 tour_step5_title: "Exclusion Filtering"
-tour_step5_desc: "You can double-click tags to turn them red and instantly EXCLUDE them from your results. Double-click other machine tags to exclude them, then scroll down to see the PAXX12 record!"
+tour_step5_desc: "You can double-click tags to turn them red and instantly EXCLUDE
+  them from your results. Double-click other machine tags to exclude them, then scroll
+  down to see the PAXX12 record!"
 tour_step5b_title: "Finding with Tags"
-tour_step5b_desc: "By combining inclusions and exclusions, we've filtered the entire list down to the exact same PAXX12 firmware record without typing!"
+tour_step5b_desc: "By combining inclusions and exclusions, we've filtered the entire
+  list down to the exact same PAXX12 firmware record without typing!"
 tour_step6_title: "Save Favorites"
 tour_step6_desc: "Click the ★ on any resource to securely save it to your local device."
 tour_step6b_title: "View Favorites"
-tour_step6b_desc: "Then, click '★ Show Favorites' up here to filter the entire list down to just your saved items."
+tour_step6b_desc: "Then, click '★ Show Favorites' up here to filter the entire list
+  down to just your saved items."
 tour_step7_title: "Share Views"
-tour_step7_desc: "Found the perfect setup? Click 'Share View' to copy your exact filters as a link."
+tour_step7_desc: "Found the perfect setup? Click 'Share View' to copy your exact filters
+  as a link."
 tour_step8_title: "Share Links"
-tour_step8_desc: "You can also use the link icon on individual cards to directly share a specific resource."
+tour_step8_desc: "You can also use the link icon on individual cards to directly share
+  a specific resource."
 tour_step9_title: "Clear Filters"
-tour_step9_desc: "You can quickly reset your view and see all resources by clicking 'Clear All Filters'. Enjoy exploring the list!"
+tour_step9_desc: "You can quickly reset your view and see all resources by clicking
+  'Clear All Filters'. Enjoy exploring the list!"
 
 # --- Bot Comments ---
 bot_duplicate: "Thanks for submitting! However, it looks like this resource already
