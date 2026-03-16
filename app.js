@@ -350,6 +350,7 @@ function setupFuse() {
             'cost'
         ],
         threshold: 0.3,
+        ignoreLocation: true,
         includeScore: true
     };
     fuse = new Fuse(allRecords, options);
