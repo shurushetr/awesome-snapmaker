@@ -6243,3 +6243,47 @@ records:
   extra_buttons:
   - label: Video Demonstration
     link: https://www.youtube.com/watch?v=7EH3QAjspt0
+- id: filament-profiles-from-sirayatech-for-snapmaker-u1-45
+  title: Filament profiles from SirayaTech for Snapmaker U1
+  description: Official profiles from Sirayatech filament manufacturer for 
+    Snapmaker U1
+  author_name: siraya.tech
+  author_link: https://siraya.tech
+  original_link: https://siraya.tech/pages/print-settings-download
+  date_added: '2026-03-16'
+  difficulty: BEGINNER
+  cost: FREE
+  tags:
+    machine_type:
+    - U1
+    machine_tool_type:
+    - FDM
+    record_type:
+    - DOWNLOAD
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - filament profile
+    - filament preset
+- id: filament-profiles-from-polymaker-for-snapmaker-u1-44
+  title: Filament profiles from Polymaker for Snapmaker U1
+  description: A bunch of official presets from Polymaker for Orcaslicer 
+    (Snapmaker Orca compatible) for U1.
+  author_name: Polymaker
+  author_link: polymaker.com
+  original_link: https://presets.polymaker.com/
+  date_added: '2026-03-16'
+  difficulty: BEGINNER
+  cost: FREE
+  tags:
+    machine_type:
+    - U1
+    machine_tool_type:
+    - FDM
+    record_type:
+    - DOWNLOAD
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - filament profile
+    - filament preset
