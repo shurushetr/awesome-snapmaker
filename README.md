@@ -6223,6 +6223,24 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ### FDM
 
+#### [Filament profiles from SirayaTech for Snapmaker U1](https://siraya.tech/pages/print-settings-download)
+> Official profiles from Sirayatech filament manufacturer for Snapmaker U1
+
+**Content Author:** siraya.tech | **Added:** 2026-03-16
+
+**Tags:** BEGINNER, FREE, U1, FDM, DOWNLOAD, UNOFFICIAL, filament profile, filament preset
+
+---
+
+#### [Filament profiles from Polymaker for Snapmaker U1](https://presets.polymaker.com/)
+> A bunch of official presets from Polymaker for Orcaslicer (Snapmaker Orca compatible) for U1.
+
+**Content Author:** Polymaker | **Added:** 2026-03-16
+
+**Tags:** BEGINNER, FREE, U1, FDM, DOWNLOAD, UNOFFICIAL, filament profile, filament preset
+
+---
+
 #### [Sidecar - the 16 color MMU for Snapmaker U1](https://forum.snapmaker.com/t/sidecar-16-color-mmu-for-u1/41473)
 > The mode to rule all other modes - 16 spool color/material changer for Snapmaker U1, full auto. Check it out. This is the official forum thread, started by author.
 
