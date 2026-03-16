@@ -339,15 +339,16 @@ function createCheckboxGroup(container, category, tags) {
 function setupFuse() {
     const options = {
         keys: [
-            'title',
-            'author_name',
-            'tags.machine_type',
-            'tags.machine_tool_type',
-            'tags.record_type',
-            'tags.official_flag',
-            'tags.free_tags',
-            'difficulty',
-            'cost'
+            { name: 'title', weight: 3 },
+            { name: 'description', weight: 1.5 },
+            { name: 'author_name', weight: 1 },
+            { name: 'tags.machine_type', weight: 1 },
+            { name: 'tags.machine_tool_type', weight: 1 },
+            { name: 'tags.record_type', weight: 1 },
+            { name: 'tags.official_flag', weight: 1 },
+            { name: 'tags.free_tags', weight: 1.5 },
+            { name: 'difficulty', weight: 1 },
+            { name: 'cost', weight: 1 }
         ],
         threshold: 0.3,
         ignoreLocation: true,
