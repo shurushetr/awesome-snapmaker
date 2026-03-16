@@ -339,19 +339,23 @@ function createCheckboxGroup(container, category, tags) {
 function setupFuse() {
     const options = {
         keys: [
-            { name: 'title', weight: 3 },
-            { name: 'description', weight: 1.5 },
+            { name: 'title', weight: 4 },
+            { name: 'description', weight: 2 },
             { name: 'author_name', weight: 1 },
-            { name: 'tags.machine_type', weight: 1 },
-            { name: 'tags.machine_tool_type', weight: 1 },
-            { name: 'tags.record_type', weight: 1 },
-            { name: 'tags.official_flag', weight: 1 },
-            { name: 'tags.free_tags', weight: 1.5 },
-            { name: 'difficulty', weight: 1 },
-            { name: 'cost', weight: 1 }
+            { name: 'tags.machine_type', weight: 1.5 },
+            { name: 'tags.machine_tool_type', weight: 1.5 },
+            { name: 'tags.record_type', weight: 1.5 },
+            { name: 'tags.official_flag', weight: 1.5 },
+            { name: 'tags.free_tags', weight: 2 },
+            { name: 'difficulty', weight: 0.5 },
+            { name: 'cost', weight: 0.5 },
+            { name: 'links.label', weight: 1 },
+            { name: 'links.link', weight: 0.5 }
         ],
         threshold: 0.3,
         ignoreLocation: true,
+        useExtendedSearch: true,
+        ignoreFieldNorm: false,
         includeScore: true
     };
     fuse = new Fuse(allRecords, options);
@@ -547,6 +551,14 @@ function applyFiltersAndRender() {
     if (query) {
         const searchResults = fuse.search(query);
         results = searchResults.map(result => result.item);
+        
+        // Auto-switch to relevance when searching
+        if (DOM.sortSelect.value !== 'relevance') {
+            DOM.sortSelect.value = 'relevance';
+        }
+    } else if (DOM.sortSelect.value === 'relevance') {
+        // Revert to newest if search is cleared
+        DOM.sortSelect.value = 'newest';
     }
 
     // 2. Tag Filtering (AND operation across categories, OR within categories)
@@ -615,11 +627,13 @@ function applyFiltersAndRender() {
 
     // 3. Sorting
     const sortOrder = DOM.sortSelect.value;
-    results.sort((a, b) => {
-        const dateA = new Date(a.date_added || 0);
-        const dateB = new Date(b.date_added || 0);
-        return sortOrder === 'newest' ? dateB - dateA : dateA - dateB;
-    });
+    if (sortOrder !== 'relevance') {
+        results.sort((a, b) => {
+            const dateA = new Date(a.date_added || 0);
+            const dateB = new Date(b.date_added || 0);
+            return sortOrder === 'newest' ? dateB - dateA : dateA - dateB;
+        });
+    }
 
     // 4. Limit count (Last N items)
     const limitStr = DOM.limitInput.value;
