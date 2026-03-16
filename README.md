@@ -51,24 +51,6 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ---
 
-#### [CNC self-impelled vacuum dust shoe (no external vacuum required)](https://forum.snapmaker.com/t/cnc-self-impelled-vacuum-dust-shoe-no-external-vacuum-required/24972)
-> Great design of a vacuumless dust removal shoe.
-
-**Content Author:** gil.a.ramirez | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, PAID, SM_2.0, ARTISAN, CNC, MODS, UNOFFICIAL, Dust Removal
-
----
-
-#### [CNC self-impelled vacuum dust shoe (no external vacuum required)](https://forum.snapmaker.com/t/cnc-self-impelled-vacuum-dust-shoe-no-external-vacuum-required/24972)
-> Great design of a vacuumless dust removal shoe.
-
-**Content Author:** gil.a.ramirez | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, PAID, SM_2.0, ARTISAN, CNC, MODS, UNOFFICIAL, Dust Removal
-
----
-
 #### [Kiri:Moto](https://grid.space/kiri/)
 > 3DP/Laser/CNC slicer in browser. It has some unique features, like slicing the model in layers for laser cutting
 
@@ -111,69 +93,6 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 **Content Author:** CNC Kitchen | **Added:** 2026-03-09
 
 **Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, FDM, LASER, CNC, ARTICLE, CREATE, VIDEO, UNOFFICIAL, G-Code
-
----
-
-#### [Collet ER11](https://www.maritool.com/Collets-And-Sleeves-ER-Collets-ER11-Collets/c21_56_60/index.html)
-> If you want to use 1/4 bits get a different collet. (not affiliated)
-
-**Content Author:** Community | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, CNC, MODS, SHOP, UNOFFICIAL, Parts
-
----
-
-#### [CNC Plastic cutting bits](https://www.amanatool.com/products/cnc-router-bits/plastic-cutting-cnc-router-bits.html)
-> Plastic Cutting Router Bits - Industrial, ZrN & Spektra Coated by Amana Tool. (not affiliated)
-
-**Content Author:** Community | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, CNC, SHOP, UNOFFICIAL, Tooling
-
----
-
-#### [Lakeshore Carbide](https://www.lakeshorecarbide.com/)
-> Good source of metalwork quality bits. (not affiliated)
-
-**Content Author:** Community | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, CNC, SHOP, UNOFFICIAL, Tooling
-
----
-
-#### [Edge of Arlington Saw & Tool](https://www.eoasaw.com/)
-> Good source of metalwork quality bits. (not affiliated)
-
-**Content Author:** Community | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, CNC, SHOP, UNOFFICIAL, Tooling
-
----
-
-#### [IDC Woodcraft](https://idcwoodcraft.com/)
-> Good source of woodwork quality bits. (not affiliated). Thanks to Robert Reade from FB group.
-
-**Content Author:** Community | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, CNC, SHOP, UNOFFICIAL, Tooling
-
----
-
-#### [Precise Bits](https://www.precisebits.com/)
-> Amazing store with ability to pick bits for your application. Has calculators and guides for bits. (not affiliated).
-
-**Content Author:** Community | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, CNC, SHOP, UNOFFICIAL, Tooling
-
----
-
-#### [Ocooch Hardwoods](https://ocoochhardwoods.com/)
-> Good source of quality precut wood for your projects. (not affiliated)
-
-**Content Author:** Community | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, RAY, LASER, CNC, SHOP, UNOFFICIAL, Material Source
 
 ---
 
@@ -669,24 +588,6 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ---
 
-#### [Fire extinguisher for your safety](https://www.whambamsystems.com/pages/the-cloud)
-> Passive fire extinguisher that sits very close to your work area and is activated by flame.
-
-**Content Author:** whambamsystems.com | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, SHOP, UNOFFICIAL
-
----
-
-#### [Pick Filament by Color](https://filamentcolors.xyz/)
-> Awesome website with color database for every filament in existance.
-
-**Content Author:** Community | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ONLINE TOOL, SHOP, UNOFFICIAL, Material Source
-
----
-
 #### [Collection of 3D Printing Settings and Profiles](https://awesome-sm-list.xyz/)
 > | Supported <br/> printers | Slicer | Support for Dual extruder (DE) <br> Single extruder (SE) | Author | Profiles download link | Link to publication post | Notes |
 > | --- | --- | :---:  | --- | --- | --- | --- |
@@ -959,42 +860,6 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ---
 
-#### [Add airassist to your 10W laser](https://www.facebook.com/groups/snapmaker/posts/1694540740964232/)
-> A facebook post that shows an implementation of internal air assist with external air pump, cheap and effective mod to make your laser path clean.
-
-**Content Author:** Raagnarix | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, LASER, MODS, UNOFFICIAL
-
----
-
-#### [Laser Calibration Tool](https://github.com/daniel-starke/LaserCalibrationTool)
-> Laser calibration pattern generator.
-
-**Content Author:** daniel-starke | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, RAY, LASER, ONLINE TOOL, UNOFFICIAL
-
----
-
-#### [Add airassist to your 10W laser](https://www.facebook.com/groups/snapmaker/posts/1694540740964232/)
-> A facebook post that shows an implementation of internal air assist with external air pump, cheap and effective mod to make your laser path clean.
-
-**Content Author:** Raagnarix | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, LASER, MODS, UNOFFICIAL
-
----
-
-#### [Laser Calibration Tool](https://github.com/daniel-starke/LaserCalibrationTool)
-> Laser calibration pattern generator.
-
-**Content Author:** daniel-starke | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, RAY, LASER, ONLINE TOOL, UNOFFICIAL
-
----
-
 #### [Kiri:Moto](https://grid.space/kiri/)
 > 3DP/Laser/CNC slicer in browser. It has some unique features, like slicing the model in layers for laser cutting
 
@@ -1064,51 +929,6 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 **Content Author:** BillFSmith | **Added:** 2026-03-09
 
 **Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, RAY, LASER, CREATE, ONLINE TOOL, UNOFFICIAL
-
----
-
-#### [Laser 40w Fan](https://github.com/shurushetr/awesome-snapmaker/blob/main/images/Snapmaker_Parts/Laser_40W/40w_Laser_Fan.jpg)
-> Detailed disassembly and analisys of internal componetns by @Geared - Standard 6025 fan, 24v DC, 0.34A.
-
-**Content Author:** Geared | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, RAY, LASER, DOWNLOAD, MODS, REPAIR, UNOFFICIAL
-
----
-
-#### [10W Laser Toolhead CAD model](https://www.printables.com/model/1097903-snapmaker-10w-laser-toolhead)
-> Fusion360 Model of the 10W Laser Head
-
-**Content Author:** nivekmai | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, LASER, DOWNLOAD, MODS, REPAIR, UNOFFICIAL
-
----
-
-#### [Antenna that sticks to top cover](https://s.click.aliexpress.com/e/_DeWSkup)
-> In case you print a custom cover for air assist. Look for P/N - TX2400-FPC-2509.
-
-**Content Author:** Florian Wick | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, LASER, MODS, REPAIR, SHOP, UNOFFICIAL, Parts
-
----
-
-#### [Fire extinguisher for your safety](https://www.whambamsystems.com/pages/the-cloud)
-> Passive fire extinguisher that sits very close to your work area and is activated by flame.
-
-**Content Author:** whambamsystems.com | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, SHOP, UNOFFICIAL
-
----
-
-#### [Ocooch Hardwoods](https://ocoochhardwoods.com/)
-> Good source of quality precut wood for your projects. (not affiliated)
-
-**Content Author:** Community | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, RAY, LASER, CNC, SHOP, UNOFFICIAL, Material Source
 
 ---
 
@@ -1421,15 +1241,6 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 **Content Author:** Community | **Added:** 2026-03-09
 
 **Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, CNC, ROTARY, CREATE, DOWNLOAD, ONLINE TOOL, UNOFFICIAL
-
----
-
-#### [Snapmaker 2.0 & Artisan Rotary Module](https://grabcad.com/library/snapmaker-2-0-artisan-rotary-module-slimtechcnc-1)
-> Thanks to Christopher Kalada for creating the model.
-
-**Content Author:** Christopher Kalada | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, ROTARY, DOWNLOAD, MODS, REPAIR, UNOFFICIAL, Files
 
 ---
 
@@ -1854,24 +1665,6 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ---
 
-#### [Fire extinguisher for your safety](https://www.whambamsystems.com/pages/the-cloud)
-> Passive fire extinguisher that sits very close to your work area and is activated by flame.
-
-**Content Author:** whambamsystems.com | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, SHOP, UNOFFICIAL
-
----
-
-#### [Pick Filament by Color](https://filamentcolors.xyz/)
-> Awesome website with color database for every filament in existance.
-
-**Content Author:** Community | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ONLINE TOOL, SHOP, UNOFFICIAL, Material Source
-
----
-
 #### [Collection of 3D Printing Settings and Profiles](https://awesome-sm-list.xyz/)
 > | Supported <br/> printers | Slicer | Support for Dual extruder (DE) <br> Single extruder (SE) | Author | Profiles download link | Link to publication post | Notes |
 > | --- | --- | :---:  | --- | --- | --- | --- |
@@ -2153,15 +1946,6 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ---
 
-#### [Fire extinguisher for your safety](https://www.whambamsystems.com/pages/the-cloud)
-> Passive fire extinguisher that sits very close to your work area and is activated by flame.
-
-**Content Author:** whambamsystems.com | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, SHOP, UNOFFICIAL
-
----
-
 #### [Snapmaker Luban](https://forum.snapmaker.com/t/snapmaker-luban-downloads-and-updates/4949)
 > Topic with Luban, the 3 in 1 software updates posted
 
@@ -2300,15 +2084,6 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 **Content Author:** CNC Kitchen | **Added:** 2026-03-09
 
 **Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, FDM, LASER, CNC, ARTICLE, CREATE, VIDEO, UNOFFICIAL, G-Code
-
----
-
-#### [Ocooch Hardwoods](https://ocoochhardwoods.com/)
-> Good source of quality precut wood for your projects. (not affiliated)
-
-**Content Author:** Community | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, RAY, LASER, CNC, SHOP, UNOFFICIAL, Material Source
 
 ---
 
@@ -2496,15 +2271,6 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ---
 
-#### [Fire extinguisher for your safety](https://www.whambamsystems.com/pages/the-cloud)
-> Passive fire extinguisher that sits very close to your work area and is activated by flame.
-
-**Content Author:** whambamsystems.com | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, SHOP, UNOFFICIAL
-
----
-
 #### [Snapmaker Luban](https://forum.snapmaker.com/t/snapmaker-luban-downloads-and-updates/4949)
 > Topic with Luban, the 3 in 1 software updates posted
 
@@ -2573,24 +2339,6 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 **Content Author:** John Johnson | **Added:** 2026-03-10
 
 **Tags:** BEGINNER, FREEMIUM, RAY, LASER, ARTICLE, DISCUSSION, DOWNLOAD, UNOFFICIAL, Lightburn, Settings
-
----
-
-#### [Laser Calibration Tool](https://github.com/daniel-starke/LaserCalibrationTool)
-> Laser calibration pattern generator.
-
-**Content Author:** daniel-starke | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, RAY, LASER, ONLINE TOOL, UNOFFICIAL
-
----
-
-#### [Laser Calibration Tool](https://github.com/daniel-starke/LaserCalibrationTool)
-> Laser calibration pattern generator.
-
-**Content Author:** daniel-starke | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, RAY, LASER, ONLINE TOOL, UNOFFICIAL
 
 ---
 
@@ -2672,33 +2420,6 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 **Content Author:** BillFSmith | **Added:** 2026-03-09
 
 **Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, RAY, LASER, CREATE, ONLINE TOOL, UNOFFICIAL
-
----
-
-#### [Laser 40w Fan](https://github.com/shurushetr/awesome-snapmaker/blob/main/images/Snapmaker_Parts/Laser_40W/40w_Laser_Fan.jpg)
-> Detailed disassembly and analisys of internal componetns by @Geared - Standard 6025 fan, 24v DC, 0.34A.
-
-**Content Author:** Geared | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, RAY, LASER, DOWNLOAD, MODS, REPAIR, UNOFFICIAL
-
----
-
-#### [Fire extinguisher for your safety](https://www.whambamsystems.com/pages/the-cloud)
-> Passive fire extinguisher that sits very close to your work area and is activated by flame.
-
-**Content Author:** whambamsystems.com | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, SHOP, UNOFFICIAL
-
----
-
-#### [Ocooch Hardwoods](https://ocoochhardwoods.com/)
-> Good source of quality precut wood for your projects. (not affiliated)
-
-**Content Author:** Community | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, RAY, LASER, CNC, SHOP, UNOFFICIAL, Material Source
 
 ---
 
@@ -3087,143 +2808,6 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ---
 
-#### [CNC self-impelled vacuum dust shoe (no external vacuum required)](https://forum.snapmaker.com/t/cnc-self-impelled-vacuum-dust-shoe-no-external-vacuum-required/24972)
-> Great design of a vacuumless dust removal shoe.
-
-**Content Author:** gil.a.ramirez | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, PAID, SM_2.0, ARTISAN, CNC, MODS, UNOFFICIAL, Dust Removal
-
----
-
-#### [Snapmaker Stiffy Kit by CTZcnc](https://github.com/christopz/snapmakerstiffy)
-> Make Snapmaker rigid for heavy load cnc work - Design by
-
-**Content Author:** christopz | **Added:** 2026-03-09
-
-**Tags:** INTERMEDIATE, FREE, SM_2.0, CNC, MODS, UNOFFICIAL
-
----
-
-#### [Fusion360 Post Processor](https://github.com/nunorvoliveira/snapmaker-2.0/tree/main/Fusion%20360)
-> Fusion360 postprocessor for machines in Snapmaker 2.0 family.
-
-**Content Author:** nunorvoliveira | **Added:** 2026-03-09
-
-**Tags:** INTERMEDIATE, FREE, SM_2.0, CNC, DOWNLOAD, UNOFFICIAL, Post Processor, Fusion360
-
----
-
-#### [Snapmaker2Postprocessor for FreeCAD](https://github.com/clsergent/Snapmaker2Postprocessor)
-> FreeCAD postprocessor.
-
-**Content Author:** clsergent. | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, CNC, DOWNLOAD, UNOFFICIAL, FreeCAD, Post Processor
-
----
-
-#### [CNC postprocessors for Snapmaker](https://github.com/Snapmaker/snapmaker_cnc_post_process)
-> Collection of developed by @whimsycwd - post processing tools.
-> Support for Fusion360 / FreeCAD / ArtCAM / Aspire / Vcarve.
-
-**Content Author:** whimsycwd | **Added:** 2026-03-09
-
-**Tags:** INTERMEDIATE, FREE, SM_2.0, CNC, DOWNLOAD, UNOFFICIAL, Fusion360, FreeCAD, ArtCAM, Aspire, Vcarve, Post Processor
-
----
-
-#### [3D Touchprobe controller for Snapmaker 2.0](https://github.com/brvdboss/3D-touchprobe-controller)
-> Designed to work with a 3D touch probe on the SnapMaker 2 device and a 3D touch probe.
-
-**Content Author:** brvdboss | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, CNC, DOWNLOAD, MODS, UNOFFICIAL
-
----
-
-#### [Snapmaker Command Line Tool (CLI)](https://github.com/hauti123/Snapmaker)
-> Control your snapmaker via command line.
-
-**Content Author:** hauti123 | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, UNOFFICIAL
-
----
-
-#### [Gamepad Controls for Snapmaker](https://github.com/PolymerPrints/snapmaker-gamepad-control)
-> Control your machine with an xbox controller.
-
-**Content Author:** PolymerPrints | **Added:** 2026-03-09
-
-**Tags:** INTERMEDIATE, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, MODS, UNOFFICIAL, G-Code
-
----
-
-#### [Serial UART Connection to a Snapmaker 2.0 Controller](https://forum.snapmaker.com/t/add-a-serial-uart-connection-to-a-snapmaker-2-0-controller/34030?u=seppo)
-> For adding a rotary encoder and other physical buttons, control your machine with an Xbox controller.
-
-**Content Author:** Seppo | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, MODS, UNOFFICIAL, G-Code
-
----
-
-#### [CNC self-impelled vacuum dust shoe (no external vacuum required)](https://forum.snapmaker.com/t/cnc-self-impelled-vacuum-dust-shoe-no-external-vacuum-required/24972)
-> Great design of a vacuumless dust removal shoe.
-
-**Content Author:** gil.a.ramirez | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, PAID, SM_2.0, ARTISAN, CNC, MODS, UNOFFICIAL, Dust Removal
-
----
-
-#### [Snapmaker Stiffy Kit by CTZcnc](https://github.com/christopz/snapmakerstiffy)
-> Make Snapmaker rigid for heavy load cnc work - Design by
-
-**Content Author:** christopz | **Added:** 2026-03-09
-
-**Tags:** INTERMEDIATE, FREE, SM_2.0, CNC, MODS, UNOFFICIAL
-
----
-
-#### [Fusion360 Post Processor](https://github.com/nunorvoliveira/snapmaker-2.0/tree/main/Fusion%20360)
-> Fusion360 postprocessor for machines in Snapmaker 2.0 family.
-
-**Content Author:** nunorvoliveira | **Added:** 2026-03-09
-
-**Tags:** INTERMEDIATE, FREE, SM_2.0, CNC, DOWNLOAD, UNOFFICIAL, Post Processor, Fusion360
-
----
-
-#### [Snapmaker2Postprocessor for FreeCAD](https://github.com/clsergent/Snapmaker2Postprocessor)
-> FreeCAD postprocessor.
-
-**Content Author:** clsergent. | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, CNC, DOWNLOAD, UNOFFICIAL, FreeCAD, Post Processor
-
----
-
-#### [CNC postprocessors for Snapmaker](https://github.com/Snapmaker/snapmaker_cnc_post_process)
-> Collection of developed by @whimsycwd - post processing tools.
-> Support for Fusion360 / FreeCAD / ArtCAM / Aspire / Vcarve.
-
-**Content Author:** whimsycwd | **Added:** 2026-03-09
-
-**Tags:** INTERMEDIATE, FREE, SM_2.0, CNC, DOWNLOAD, UNOFFICIAL, Fusion360, FreeCAD, ArtCAM, Aspire, Vcarve, Post Processor
-
----
-
-#### [3D Touchprobe controller for Snapmaker 2.0](https://github.com/brvdboss/3D-touchprobe-controller)
-> Designed to work with a 3D touch probe on the SnapMaker 2 device and a 3D touch probe.
-
-**Content Author:** brvdboss | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, CNC, DOWNLOAD, MODS, UNOFFICIAL
-
----
-
 #### [Snapmaker Command Line Tool (CLI)](https://github.com/hauti123/Snapmaker)
 > Control your snapmaker via command line.
 
@@ -3302,141 +2886,6 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 **Content Author:** Community | **Added:** 2026-03-09
 
 **Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, REPAIR, UNOFFICIAL
-
----
-
-#### [Snapmaker 2.0 A350 Model By Stefix](https://github.com/shurushetr/awesome-snapmaker/blob/main/files/models/Snapmaker_2.5_A351_v34_v9_by_stefix.f3d)
-> Created by forum member Stefix, he called his machine A351 after all the modes installed.
-
-**Content Author:** Stefix | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, MODS, REPAIR, UNOFFICIAL, Files
-
----
-
-#### [Snapmaker 2.0 A350 Model by Sebastien Deux Vagues](https://github.com/shurushetr/awesome-snapmaker/blob/main/files/models/Snapmaker_2_a350_v32_By_Sebastien_Deux_Vagues.f3d)
-> Created by FB Group member Sebastien, based on model by Stefix
-
-**Content Author:** Sebastien | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, MODS, REPAIR, UNOFFICIAL, Files
-
----
-
-#### [Snapmaker 2.0 A350 Model in OnShape](https://cad.onshape.com/documents/62cf14c42bffce0a7b08acf9/w/30314df13cc0199e746100d2/e/7a6692332d9c4b7e83c673c4)
-> Created by Ryan Tuscher in his video.
-
-**Content Author:** Ryan Tuscher | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, MODS, REPAIR, UNOFFICIAL
-
----
-
-#### [3D Models for A350,A250, A350T platforms and A350 Beds](https://cults3d.com/en/users/Namakemono/3d-models)
-> Created by Namakemono accurate models of platform and beds.
-
-**Content Author:** Namakemono | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, MODS, REPAIR, UNOFFICIAL, Files
-
----
-
-#### [Snapmaker 2.0 A250T - Fusion360 model](https://grabcad.com/library/snapmaker-2-0-a250t-1)
-> Fusion360 model - hosted at GrabCAD model of A250T.
-
-**Content Author:** Pokai Chang | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, MODS, REPAIR, UNOFFICIAL, Files
-
----
-
-#### [Snapmaker 2.0 A350 platform drawing](https://github.com/shurushetr/awesome-snapmaker/blob/main/files/files_from_snapmaker_team/Snapmake_2.0_A350_new_platform_design.dwg)
-> DWG file of the platform.
-
-**Content Author:** Snapmaker | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, MODS, REPAIR, OFFICIAL, Files
-
----
-
-#### [Model of the 200w CNC Shell](https://github.com/shurushetr/awesome-snapmaker/blob/main/files/files_from_snapmaker_team/200WCNC_Shell.STL)
-> STL file released by Snapmaker team to accelerate community contribution for accessories.
-
-**Content Author:** Snapmaker | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, CNC, DOWNLOAD, MODS, REPAIR, OFFICIAL, Files
-
----
-
-#### [Snapmaker 2.0 Axis bearings](https://s.click.aliexpress.com/e/_DEBBddP)
-> SG10 Groove bearings.
-
-**Content Author:** Community | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, REPAIR, SHOP, UNOFFICIAL, Parts
-
----
-
-#### [Collet ER11](https://www.maritool.com/Collets-And-Sleeves-ER-Collets-ER11-Collets/c21_56_60/index.html)
-> If you want to use 1/4 bits get a different collet. (not affiliated)
-
-**Content Author:** Community | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, CNC, MODS, SHOP, UNOFFICIAL, Parts
-
----
-
-#### [CNC Plastic cutting bits](https://www.amanatool.com/products/cnc-router-bits/plastic-cutting-cnc-router-bits.html)
-> Plastic Cutting Router Bits - Industrial, ZrN & Spektra Coated by Amana Tool. (not affiliated)
-
-**Content Author:** Community | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, CNC, SHOP, UNOFFICIAL, Tooling
-
----
-
-#### [Lakeshore Carbide](https://www.lakeshorecarbide.com/)
-> Good source of metalwork quality bits. (not affiliated)
-
-**Content Author:** Community | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, CNC, SHOP, UNOFFICIAL, Tooling
-
----
-
-#### [Edge of Arlington Saw & Tool](https://www.eoasaw.com/)
-> Good source of metalwork quality bits. (not affiliated)
-
-**Content Author:** Community | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, CNC, SHOP, UNOFFICIAL, Tooling
-
----
-
-#### [IDC Woodcraft](https://idcwoodcraft.com/)
-> Good source of woodwork quality bits. (not affiliated). Thanks to Robert Reade from FB group.
-
-**Content Author:** Community | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, CNC, SHOP, UNOFFICIAL, Tooling
-
----
-
-#### [Precise Bits](https://www.precisebits.com/)
-> Amazing store with ability to pick bits for your application. Has calculators and guides for bits. (not affiliated).
-
-**Content Author:** Community | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, CNC, SHOP, UNOFFICIAL, Tooling
-
----
-
-#### [Ocooch Hardwoods](https://ocoochhardwoods.com/)
-> Good source of quality precut wood for your projects. (not affiliated)
-
-**Content Author:** Community | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, RAY, LASER, CNC, SHOP, UNOFFICIAL, Material Source
 
 ---
 
@@ -3805,51 +3254,6 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ---
 
-#### [Snapmaker2 update bundle tools](https://github.com/zauguin/SnapmakerUpdate)
-> Toolkit to assemble snapmaker firmware, created by
-
-**Content Author:** zauguin | **Added:** 2026-03-08
-
-**Tags:** INTERMEDIATE, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, FIRMWARE, MODS, UNOFFICIAL
-
----
-
-#### [CNC Bracing For Added Rigidity & Other Mods](https://forum.snapmaker.com/t/cnc-bracing-for-added-rigidity-other-mods/29444)
-> Collection of mods designed by
-
-**Content Author:** Elliot | **Added:** 2026-03-08
-
-**Tags:** BEGINNER, FREE, SM_2.0, CNC, DISCUSSION, MODS, UNOFFICIAL
-
----
-
-#### [Snapmaker 2.0 Cable Chain Brackets](https://www.thingiverse.com/thing:4909694)
-> Stop your cables from flopping around during the print - reduce kinks and damage.
-
-**Content Author:** BluegrassBlaster | **Added:** 2026-03-08
-
-**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, MODS, UNOFFICIAL
-
----
-
-#### [Minimize bed rocking along Y axis at the forum](https://forum.snapmaker.com/t/minimize-rocking/19215/)
-> The biggest problem with the platform is its unstable bed that gets worse over time. Using pair of SBR16-800mm rails and printed adapters - this becomes a thing of a past.
-
-**Content Author:** Community | **Added:** 2026-03-08
-
-**Tags:** INTERMEDIATE, FREE, SM_2.0, FDM, LASER, CNC, MODS, UNOFFICIAL
-
----
-
-#### [Related to bed rocking - adjusting bearings in linear module](https://support.snapmaker.com/hc/en-us/articles/1500000110341-What-should-I-do-when-the-slider-of-the-Linear-Module-comes-loose-)
-> Adjusting bearings in linear module - official guide on how to disassemble the linear module and adjust bearings.
-
-**Content Author:** Snapmaker | **Added:** 2026-03-08
-
-**Tags:** INTERMEDIATE, FREE, SM_2.0, FDM, LASER, CNC, ARTICLE, REPAIR, UNOFFICIAL
-
----
-
 #### [DIY Enclosure controls](https://forum.snapmaker.com/t/diy-enclosure-controller-prototype-on-arduino/22094)
 > Awesome project by Ronin
 
@@ -4150,42 +3554,6 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ---
 
-#### [A Snapmaker 2.0 PrusaSlicer Post-Processor to create compatible files for the Snapmaker terminal.](https://github.com/daniel-starke/sm2pspp)
-> Another g-code postprocessor for Prusaslicer.
-
-**Content Author:** daniel-starke | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, FDM, DOWNLOAD, UNOFFICIAL, Post Processor, G-Code
-
----
-
-#### [Snapmaker Command Line Tool (CLI)](https://github.com/hauti123/Snapmaker)
-> Control your snapmaker via command line.
-
-**Content Author:** hauti123 | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, UNOFFICIAL
-
----
-
-#### [Gamepad Controls for Snapmaker](https://github.com/PolymerPrints/snapmaker-gamepad-control)
-> Control your machine with an xbox controller.
-
-**Content Author:** PolymerPrints | **Added:** 2026-03-09
-
-**Tags:** INTERMEDIATE, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, MODS, UNOFFICIAL, G-Code
-
----
-
-#### [Serial UART Connection to a Snapmaker 2.0 Controller](https://forum.snapmaker.com/t/add-a-serial-uart-connection-to-a-snapmaker-2-0-controller/34030?u=seppo)
-> For adding a rotary encoder and other physical buttons, control your machine with an Xbox controller.
-
-**Content Author:** Seppo | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, MODS, UNOFFICIAL, G-Code
-
----
-
 #### [Teaching Tech 3D Printer Calibration](https://teachingtechyt.github.io/calibration.html)
 > The go to for proper calibration. Use CAUTION.
 
@@ -4291,150 +3659,6 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 **Content Author:** Community | **Added:** 2026-03-09
 
 **Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, REPAIR, UNOFFICIAL
-
----
-
-#### [Snapmaker 2.0 A350 Model By Stefix](https://github.com/shurushetr/awesome-snapmaker/blob/main/files/models/Snapmaker_2.5_A351_v34_v9_by_stefix.f3d)
-> Created by forum member Stefix, he called his machine A351 after all the modes installed.
-
-**Content Author:** Stefix | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, MODS, REPAIR, UNOFFICIAL, Files
-
----
-
-#### [Snapmaker 2.0 A350 Model by Sebastien Deux Vagues](https://github.com/shurushetr/awesome-snapmaker/blob/main/files/models/Snapmaker_2_a350_v32_By_Sebastien_Deux_Vagues.f3d)
-> Created by FB Group member Sebastien, based on model by Stefix
-
-**Content Author:** Sebastien | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, MODS, REPAIR, UNOFFICIAL, Files
-
----
-
-#### [Snapmaker 2.0 A350 Model in OnShape](https://cad.onshape.com/documents/62cf14c42bffce0a7b08acf9/w/30314df13cc0199e746100d2/e/7a6692332d9c4b7e83c673c4)
-> Created by Ryan Tuscher in his video.
-
-**Content Author:** Ryan Tuscher | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, MODS, REPAIR, UNOFFICIAL
-
----
-
-#### [3D Models for A350,A250, A350T platforms and A350 Beds](https://cults3d.com/en/users/Namakemono/3d-models)
-> Created by Namakemono accurate models of platform and beds.
-
-**Content Author:** Namakemono | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, MODS, REPAIR, UNOFFICIAL, Files
-
----
-
-#### [Snapmaker 2.0 A250T - Fusion360 model](https://grabcad.com/library/snapmaker-2-0-a250t-1)
-> Fusion360 model - hosted at GrabCAD model of A250T.
-
-**Content Author:** Pokai Chang | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, MODS, REPAIR, UNOFFICIAL, Files
-
----
-
-#### [Snapmaker 2.0 A350 platform drawing](https://github.com/shurushetr/awesome-snapmaker/blob/main/files/files_from_snapmaker_team/Snapmake_2.0_A350_new_platform_design.dwg)
-> DWG file of the platform.
-
-**Content Author:** Snapmaker | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, MODS, REPAIR, OFFICIAL, Files
-
----
-
-#### [Model of the Dual Extruder Shell](https://github.com/shurushetr/awesome-snapmaker/blob/main/files/files_from_snapmaker_team/Dual_Extruder_Shell_3DP.STL)
-> STL file released by Snapmaker team to accelerate community contribution for accessories.
-
-**Content Author:** Snapmaker | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, FDM, DOWNLOAD, MODS, REPAIR, OFFICIAL
-
----
-
-#### [Snapmaker 2.0 Axis bearings](https://s.click.aliexpress.com/e/_DEBBddP)
-> SG10 Groove bearings.
-
-**Content Author:** Community | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, REPAIR, SHOP, UNOFFICIAL, Parts
-
----
-
-#### [Snapmaker 2.0 - Filament runout switch](https://www.digikey.com/short/5vw8wd9j)
-> Omron P/N D2F-01L3-D3
-
-**Content Author:** Community | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, FDM, MODS, REPAIR, SHOP, UNOFFICIAL, Parts
-
----
-
-#### [Snapmaker 2.0 - OEM proximity sensor for leveling](https://www.digikey.com/en/products/detail/panasonic-industrial-automation-sales/GX-H8A/3899742)
-> Look for Panasonic GX-H8A - According to
-
-**Content Author:** https://forum.snapmaker.com/u/dukkbutt | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, FDM, MODS, REPAIR, SHOP, UNOFFICIAL, Parts
-
----
-
-#### [Snapmaker 2.0 Aftermarket Capacitive proximity sensor for glass leveling](https://amzn.to/3NXl75n)
-> As described in the writeup.
-
-**Content Author:** TobIY | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, FDM, MODS, SHOP, UNOFFICIAL, Parts
-
----
-
-#### [Snapmaker 2.0 All Metal Heat break](https://s.click.aliexpress.com/e/_DC7Vg8h)
-> All metal heatbreak. Look for CR6-SE heatbreak. Matches overall dimensions. You will need an insert cut for the throat.
-
-**Content Author:** Community | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, FDM, MODS, SHOP, UNOFFICIAL, Parts, Single Extruder
-
----
-
-#### [Klicky Probe Snapmaker 2.0 components](https://www.ebay.com/itm/336064712479)
-> Klicky Probe components.
-
-**Content Author:** nweolu | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, FDM, MODS, SHOP, UNOFFICIAL, Parts, Single Extruder
-
----
-
-#### [Garolite G10 build surface for A350/F350](https://www.ebay.com/itm/335359670056)
-> Best material to print on.
-
-**Content Author:** nweolu | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, FDM, MODS, SHOP, UNOFFICIAL, Parts
-
----
-
-#### [Fire extinguisher for your safety](https://www.whambamsystems.com/pages/the-cloud)
-> Passive fire extinguisher that sits very close to your work area and is activated by flame.
-
-**Content Author:** whambamsystems.com | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, SHOP, UNOFFICIAL
-
----
-
-#### [Pick Filament by Color](https://filamentcolors.xyz/)
-> Awesome website with color database for every filament in existance.
-
-**Content Author:** Community | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ONLINE TOOL, SHOP, UNOFFICIAL, Material Source
 
 ---
 
@@ -4935,51 +4159,6 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ---
 
-#### [Snapmaker2 update bundle tools](https://github.com/zauguin/SnapmakerUpdate)
-> Toolkit to assemble snapmaker firmware, created by
-
-**Content Author:** zauguin | **Added:** 2026-03-08
-
-**Tags:** INTERMEDIATE, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, FIRMWARE, MODS, UNOFFICIAL
-
----
-
-#### [Use Dual Extruder to autolevel on any surface](https://github.com/Maycuz/Snapmaker2-Controller)
-> Read the readme.
-
-**Content Author:** Mayco | **Added:** 2026-03-08
-
-**Tags:** INTERMEDIATE, FREE, SM_2.0, FDM, DOWNLOAD, FIRMWARE, MODS, UNOFFICIAL
-
----
-
-#### [Snapmaker 2.0 Cable Chain Brackets](https://www.thingiverse.com/thing:4909694)
-> Stop your cables from flopping around during the print - reduce kinks and damage.
-
-**Content Author:** BluegrassBlaster | **Added:** 2026-03-08
-
-**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, MODS, UNOFFICIAL
-
----
-
-#### [Minimize bed rocking along Y axis at the forum](https://forum.snapmaker.com/t/minimize-rocking/19215/)
-> The biggest problem with the platform is its unstable bed that gets worse over time. Using pair of SBR16-800mm rails and printed adapters - this becomes a thing of a past.
-
-**Content Author:** Community | **Added:** 2026-03-08
-
-**Tags:** INTERMEDIATE, FREE, SM_2.0, FDM, LASER, CNC, MODS, UNOFFICIAL
-
----
-
-#### [Related to bed rocking - adjusting bearings in linear module](https://support.snapmaker.com/hc/en-us/articles/1500000110341-What-should-I-do-when-the-slider-of-the-Linear-Module-comes-loose-)
-> Adjusting bearings in linear module - official guide on how to disassemble the linear module and adjust bearings.
-
-**Content Author:** Snapmaker | **Added:** 2026-03-08
-
-**Tags:** INTERMEDIATE, FREE, SM_2.0, FDM, LASER, CNC, ARTICLE, REPAIR, UNOFFICIAL
-
----
-
 #### [DIY Fumes Filtration system - BentoBox](https://www.printables.com/model/272525-bentobox-v20-carbon-filter-for-bambu-lab-x1c-enclo)
 > BentoBox - Closedloop, combines a HEPA filter and an activated carbon filter.
 
@@ -5127,87 +4306,6 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ---
 
-#### [Add airassist to your 10W laser](https://www.facebook.com/groups/snapmaker/posts/1694540740964232/)
-> A facebook post that shows an implementation of internal air assist with external air pump, cheap and effective mod to make your laser path clean.
-
-**Content Author:** Raagnarix | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, LASER, MODS, UNOFFICIAL
-
----
-
-#### [Laser Test Grid Generator](https://github.com/nunorvoliveira/Snapmaker-Laser-Test-Grid)
-> Generates G-Code to test your materials best speed/power ratio.
-
-**Content Author:** nunorvoliveira | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, LASER, DOWNLOAD, UNOFFICIAL
-
----
-
-#### [Laser Calibration Tool](https://github.com/daniel-starke/LaserCalibrationTool)
-> Laser calibration pattern generator.
-
-**Content Author:** daniel-starke | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, RAY, LASER, ONLINE TOOL, UNOFFICIAL
-
----
-
-#### [Snapmaker Command Line Tool (CLI)](https://github.com/hauti123/Snapmaker)
-> Control your snapmaker via command line.
-
-**Content Author:** hauti123 | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, UNOFFICIAL
-
----
-
-#### [Gamepad Controls for Snapmaker](https://github.com/PolymerPrints/snapmaker-gamepad-control)
-> Control your machine with an xbox controller.
-
-**Content Author:** PolymerPrints | **Added:** 2026-03-09
-
-**Tags:** INTERMEDIATE, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, MODS, UNOFFICIAL, G-Code
-
----
-
-#### [Serial UART Connection to a Snapmaker 2.0 Controller](https://forum.snapmaker.com/t/add-a-serial-uart-connection-to-a-snapmaker-2-0-controller/34030?u=seppo)
-> For adding a rotary encoder and other physical buttons, control your machine with an Xbox controller.
-
-**Content Author:** Seppo | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, MODS, UNOFFICIAL, G-Code
-
----
-
-#### [Add airassist to your 10W laser](https://www.facebook.com/groups/snapmaker/posts/1694540740964232/)
-> A facebook post that shows an implementation of internal air assist with external air pump, cheap and effective mod to make your laser path clean.
-
-**Content Author:** Raagnarix | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, LASER, MODS, UNOFFICIAL
-
----
-
-#### [Laser Test Grid Generator](https://github.com/nunorvoliveira/Snapmaker-Laser-Test-Grid)
-> Generates G-Code to test your materials best speed/power ratio.
-
-**Content Author:** nunorvoliveira | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, LASER, DOWNLOAD, UNOFFICIAL
-
----
-
-#### [Laser Calibration Tool](https://github.com/daniel-starke/LaserCalibrationTool)
-> Laser calibration pattern generator.
-
-**Content Author:** daniel-starke | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, RAY, LASER, ONLINE TOOL, UNOFFICIAL
-
----
-
 #### [Snapmaker Command Line Tool (CLI)](https://github.com/hauti123/Snapmaker)
 > Control your snapmaker via command line.
 
@@ -5313,114 +4411,6 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 **Content Author:** Community | **Added:** 2026-03-09
 
 **Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, REPAIR, UNOFFICIAL
-
----
-
-#### [Laser 40w Fan](https://github.com/shurushetr/awesome-snapmaker/blob/main/images/Snapmaker_Parts/Laser_40W/40w_Laser_Fan.jpg)
-> Detailed disassembly and analisys of internal componetns by @Geared - Standard 6025 fan, 24v DC, 0.34A.
-
-**Content Author:** Geared | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, RAY, LASER, DOWNLOAD, MODS, REPAIR, UNOFFICIAL
-
----
-
-#### [10W Laser Toolhead CAD model](https://www.printables.com/model/1097903-snapmaker-10w-laser-toolhead)
-> Fusion360 Model of the 10W Laser Head
-
-**Content Author:** nivekmai | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, LASER, DOWNLOAD, MODS, REPAIR, UNOFFICIAL
-
----
-
-#### [Snapmaker 2.0 A350 Model By Stefix](https://github.com/shurushetr/awesome-snapmaker/blob/main/files/models/Snapmaker_2.5_A351_v34_v9_by_stefix.f3d)
-> Created by forum member Stefix, he called his machine A351 after all the modes installed.
-
-**Content Author:** Stefix | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, MODS, REPAIR, UNOFFICIAL, Files
-
----
-
-#### [Snapmaker 2.0 A350 Model by Sebastien Deux Vagues](https://github.com/shurushetr/awesome-snapmaker/blob/main/files/models/Snapmaker_2_a350_v32_By_Sebastien_Deux_Vagues.f3d)
-> Created by FB Group member Sebastien, based on model by Stefix
-
-**Content Author:** Sebastien | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, MODS, REPAIR, UNOFFICIAL, Files
-
----
-
-#### [Snapmaker 2.0 A350 Model in OnShape](https://cad.onshape.com/documents/62cf14c42bffce0a7b08acf9/w/30314df13cc0199e746100d2/e/7a6692332d9c4b7e83c673c4)
-> Created by Ryan Tuscher in his video.
-
-**Content Author:** Ryan Tuscher | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, MODS, REPAIR, UNOFFICIAL
-
----
-
-#### [3D Models for A350,A250, A350T platforms and A350 Beds](https://cults3d.com/en/users/Namakemono/3d-models)
-> Created by Namakemono accurate models of platform and beds.
-
-**Content Author:** Namakemono | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, MODS, REPAIR, UNOFFICIAL, Files
-
----
-
-#### [Snapmaker 2.0 A250T - Fusion360 model](https://grabcad.com/library/snapmaker-2-0-a250t-1)
-> Fusion360 model - hosted at GrabCAD model of A250T.
-
-**Content Author:** Pokai Chang | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, MODS, REPAIR, UNOFFICIAL, Files
-
----
-
-#### [Snapmaker 2.0 A350 platform drawing](https://github.com/shurushetr/awesome-snapmaker/blob/main/files/files_from_snapmaker_team/Snapmake_2.0_A350_new_platform_design.dwg)
-> DWG file of the platform.
-
-**Content Author:** Snapmaker | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, MODS, REPAIR, OFFICIAL, Files
-
----
-
-#### [Snapmaker 2.0 Axis bearings](https://s.click.aliexpress.com/e/_DEBBddP)
-> SG10 Groove bearings.
-
-**Content Author:** Community | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, REPAIR, SHOP, UNOFFICIAL, Parts
-
----
-
-#### [Antenna that sticks to top cover](https://s.click.aliexpress.com/e/_DeWSkup)
-> In case you print a custom cover for air assist. Look for P/N - TX2400-FPC-2509.
-
-**Content Author:** Florian Wick | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, LASER, MODS, REPAIR, SHOP, UNOFFICIAL, Parts
-
----
-
-#### [Fire extinguisher for your safety](https://www.whambamsystems.com/pages/the-cloud)
-> Passive fire extinguisher that sits very close to your work area and is activated by flame.
-
-**Content Author:** whambamsystems.com | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, SHOP, UNOFFICIAL
-
----
-
-#### [Ocooch Hardwoods](https://ocoochhardwoods.com/)
-> Good source of quality precut wood for your projects. (not affiliated)
-
-**Content Author:** Community | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, RAY, LASER, CNC, SHOP, UNOFFICIAL, Material Source
 
 ---
 
@@ -5934,42 +4924,6 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ---
 
-#### [Snapmaker2 update bundle tools](https://github.com/zauguin/SnapmakerUpdate)
-> Toolkit to assemble snapmaker firmware, created by
-
-**Content Author:** zauguin | **Added:** 2026-03-08
-
-**Tags:** INTERMEDIATE, FREE, SM_2.0, FDM, LASER, CNC, DOWNLOAD, FIRMWARE, MODS, UNOFFICIAL
-
----
-
-#### [Snapmaker 2.0 Cable Chain Brackets](https://www.thingiverse.com/thing:4909694)
-> Stop your cables from flopping around during the print - reduce kinks and damage.
-
-**Content Author:** BluegrassBlaster | **Added:** 2026-03-08
-
-**Tags:** BEGINNER, FREE, SM_2.0, FDM, LASER, CNC, MODS, UNOFFICIAL
-
----
-
-#### [Minimize bed rocking along Y axis at the forum](https://forum.snapmaker.com/t/minimize-rocking/19215/)
-> The biggest problem with the platform is its unstable bed that gets worse over time. Using pair of SBR16-800mm rails and printed adapters - this becomes a thing of a past.
-
-**Content Author:** Community | **Added:** 2026-03-08
-
-**Tags:** INTERMEDIATE, FREE, SM_2.0, FDM, LASER, CNC, MODS, UNOFFICIAL
-
----
-
-#### [Related to bed rocking - adjusting bearings in linear module](https://support.snapmaker.com/hc/en-us/articles/1500000110341-What-should-I-do-when-the-slider-of-the-Linear-Module-comes-loose-)
-> Adjusting bearings in linear module - official guide on how to disassemble the linear module and adjust bearings.
-
-**Content Author:** Snapmaker | **Added:** 2026-03-08
-
-**Tags:** INTERMEDIATE, FREE, SM_2.0, FDM, LASER, CNC, ARTICLE, REPAIR, UNOFFICIAL
-
----
-
 #### [DIY Enclosure controls](https://forum.snapmaker.com/t/diy-enclosure-controller-prototype-on-arduino/22094)
 > Awesome project by Ronin
 
@@ -5996,15 +4950,6 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 **Content Author:** Community | **Added:** 2026-03-09
 
 **Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, CNC, ROTARY, CREATE, DOWNLOAD, ONLINE TOOL, UNOFFICIAL
-
----
-
-#### [Snapmaker 2.0 & Artisan Rotary Module](https://grabcad.com/library/snapmaker-2-0-artisan-rotary-module-slimtechcnc-1)
-> Thanks to Christopher Kalada for creating the model.
-
-**Content Author:** Christopher Kalada | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, ROTARY, DOWNLOAD, MODS, REPAIR, UNOFFICIAL, Files
 
 ---
 
@@ -6455,24 +5400,6 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ---
 
-#### [Fire extinguisher for your safety](https://www.whambamsystems.com/pages/the-cloud)
-> Passive fire extinguisher that sits very close to your work area and is activated by flame.
-
-**Content Author:** whambamsystems.com | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, SHOP, UNOFFICIAL
-
----
-
-#### [Pick Filament by Color](https://filamentcolors.xyz/)
-> Awesome website with color database for every filament in existance.
-
-**Content Author:** Community | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, ONLINE TOOL, SHOP, UNOFFICIAL, Material Source
-
----
-
 #### [Collection of 3D Printing Settings and Profiles](https://awesome-sm-list.xyz/)
 > | Supported <br/> printers | Slicer | Support for Dual extruder (DE) <br> Single extruder (SE) | Author | Profiles download link | Link to publication post | Notes |
 > | --- | --- | :---:  | --- | --- | --- | --- |
@@ -6758,15 +5685,6 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ---
 
-#### [Fire extinguisher for your safety](https://www.whambamsystems.com/pages/the-cloud)
-> Passive fire extinguisher that sits very close to your work area and is activated by flame.
-
-**Content Author:** whambamsystems.com | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, SHOP, UNOFFICIAL
-
----
-
 #### [Snapmaker Forum](forum.snapmaker.com)
 > Official Community from Snapmaker
 
@@ -7029,15 +5947,6 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ---
 
-#### [Fire extinguisher for your safety](https://www.whambamsystems.com/pages/the-cloud)
-> Passive fire extinguisher that sits very close to your work area and is activated by flame.
-
-**Content Author:** whambamsystems.com | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, SHOP, UNOFFICIAL
-
----
-
 #### [Snapmaker Forum](forum.snapmaker.com)
 > Official Community from Snapmaker
 
@@ -7118,15 +6027,6 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 **Content Author:** FreeCAD | **Added:** 2026-03-09
 
 **Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, CNC, COMBINED, CREATE, DOWNLOAD, UNOFFICIAL, CAD, Modeling Software
-
----
-
-#### [Fire extinguisher for your safety](https://www.whambamsystems.com/pages/the-cloud)
-> Passive fire extinguisher that sits very close to your work area and is activated by flame.
-
-**Content Author:** whambamsystems.com | **Added:** 2026-03-09
-
-**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, RAY, UNIVERSAL, FDM, LASER, SHOP, UNOFFICIAL
 
 ---
 
