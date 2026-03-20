@@ -308,6 +308,34 @@ function setupProjectInfo(info) {
     }
 
     DOM.headerBg.style.backgroundImage = `url('${info.hero_image}')`;
+
+    // Dynamic Issue Template Linking for Submit Button
+    const submitBtn = document.querySelector('a.submit-btn[data-i18n="ui_btn_submit"]');
+    if (submitBtn && info.repo_url) {
+        const templateMap = {
+            'en': '01-submit-resource-en.yml',
+            'ar': '02-submit-resource-ar.yml',
+            'da': '03-submit-resource-da.yml',
+            'de': '04-submit-resource-de.yml',
+            'en-pirate': '05-submit-resource-en-pirate.yml',
+            'es': '06-submit-resource-es.yml',
+            'fr': '07-submit-resource-fr.yml',
+            'he': '08-submit-resource-he.yml',
+            'it': '09-submit-resource-it.yml',
+            'pl': '10-submit-resource-pl.yml',
+            'ru': '11-submit-resource-ru.yml',
+            'zh-cn': '12-submit-resource-zh-cn.yml',
+            'zh-hk': '13-submit-resource-zh-hk.yml'
+        };
+        const langKey = currentLang.toLowerCase();
+        const templateFile = templateMap[langKey] || templateMap['en'];
+        
+        let baseRepo = info.repo_url;
+        if (baseRepo.endsWith('/')) {
+            baseRepo = baseRepo.slice(0, -1);
+        }
+        submitBtn.href = `${baseRepo}/issues/new?template=${templateFile}`;
+    }
 }
 
 // Setup Checkbox Filters dynamically
