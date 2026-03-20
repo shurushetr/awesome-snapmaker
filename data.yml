@@ -4934,3 +4934,38 @@ records:
     free_tags:
     - filament profile
     - filament preset
+- id: add-color-gradient-to-and-3mf-file-47
+  title: Add Color Gradient to and 3MF file!
+  description: "Browser-based editor that lets you design multicolor gradients directly
+    from 3MF files.\nThe gradients are generated using a layer-based alpha system
+    per color.\nInstead of mixing filament colors physically, the gradients emerge
+    through fine layer structures - your eye blends the colors when looking at the
+    print.\nCurrent features include:\n• optical and geometric gradient types\n• multipart
+    gradient (one object splitted to different plates\n• alpha tracks per color\n\
+    • curated color themes (trend colors, design classics, color theory)\n• dominant
+    color extraction from images\n• filament palettes for Bambu Lab, Polymaker and
+    eSUN\nEverything runs directly in the browser and all data stays local on your
+    device."
+  author_name: Martin Lihs
+  author_link: https://www.facebook.com/groups/1025838316286881/user/716538065/
+  original_link: https://studioymr.com/colorizer/
+  date_added: '2026-03-20'
+  difficulty: INTERMEDIATE
+  cost: FREE
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - U1
+    - J1/J1s
+    - UNIVERSAL
+    machine_tool_type:
+    - FDM
+    record_type:
+    - ONLINE TOOL
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Multi-color print
+    - gradient
+    - coloring
