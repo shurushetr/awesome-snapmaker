@@ -409,6 +409,25 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ### FDM
 
+#### [Add Color Gradient to and 3MF file!](https://studioymr.com/colorizer/)
+> Browser-based editor that lets you design multicolor gradients directly from 3MF files.
+> The gradients are generated using a layer-based alpha system per color.
+> Instead of mixing filament colors physically, the gradients emerge through fine layer structures - your eye blends the colors when looking at the print.
+> Current features include:
+> • optical and geometric gradient types
+> • multipart gradient (one object splitted to different plates
+> • alpha tracks per color
+> • curated color themes (trend colors, design classics, color theory)
+> • dominant color extraction from images
+> • filament palettes for Bambu Lab, Polymaker and eSUN
+> Everything runs directly in the browser and all data stays local on your device.
+
+**Content Author:** Martin Lihs | **Added:** 2026-03-20
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, UNIVERSAL, FDM, ONLINE TOOL, UNOFFICIAL, Multi-color print, gradient, coloring
+
+---
+
 #### [STL Search Engine YEGGI - search for STLs across World Wide Web](https://www.yeggi.com)
 > Longest operating STL Indexer
 
@@ -1494,6 +1513,25 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 ---
 
 ### FDM
+
+#### [Add Color Gradient to and 3MF file!](https://studioymr.com/colorizer/)
+> Browser-based editor that lets you design multicolor gradients directly from 3MF files.
+> The gradients are generated using a layer-based alpha system per color.
+> Instead of mixing filament colors physically, the gradients emerge through fine layer structures - your eye blends the colors when looking at the print.
+> Current features include:
+> • optical and geometric gradient types
+> • multipart gradient (one object splitted to different plates
+> • alpha tracks per color
+> • curated color themes (trend colors, design classics, color theory)
+> • dominant color extraction from images
+> • filament palettes for Bambu Lab, Polymaker and eSUN
+> Everything runs directly in the browser and all data stays local on your device.
+
+**Content Author:** Martin Lihs | **Added:** 2026-03-20
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, UNIVERSAL, FDM, ONLINE TOOL, UNOFFICIAL, Multi-color print, gradient, coloring
+
+---
 
 #### [STL Search Engine YEGGI - search for STLs across World Wide Web](https://www.yeggi.com)
 > Longest operating STL Indexer
@@ -3447,6 +3485,25 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ### FDM
 
+#### [Add Color Gradient to and 3MF file!](https://studioymr.com/colorizer/)
+> Browser-based editor that lets you design multicolor gradients directly from 3MF files.
+> The gradients are generated using a layer-based alpha system per color.
+> Instead of mixing filament colors physically, the gradients emerge through fine layer structures - your eye blends the colors when looking at the print.
+> Current features include:
+> • optical and geometric gradient types
+> • multipart gradient (one object splitted to different plates
+> • alpha tracks per color
+> • curated color themes (trend colors, design classics, color theory)
+> • dominant color extraction from images
+> • filament palettes for Bambu Lab, Polymaker and eSUN
+> Everything runs directly in the browser and all data stays local on your device.
+
+**Content Author:** Martin Lihs | **Added:** 2026-03-20
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, UNIVERSAL, FDM, ONLINE TOOL, UNOFFICIAL, Multi-color print, gradient, coloring
+
+---
+
 #### [STL Search Engine YEGGI - search for STLs across World Wide Web](https://www.yeggi.com)
 > Longest operating STL Indexer
 
@@ -5168,6 +5225,25 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ### FDM
 
+#### [Add Color Gradient to and 3MF file!](https://studioymr.com/colorizer/)
+> Browser-based editor that lets you design multicolor gradients directly from 3MF files.
+> The gradients are generated using a layer-based alpha system per color.
+> Instead of mixing filament colors physically, the gradients emerge through fine layer structures - your eye blends the colors when looking at the print.
+> Current features include:
+> • optical and geometric gradient types
+> • multipart gradient (one object splitted to different plates
+> • alpha tracks per color
+> • curated color themes (trend colors, design classics, color theory)
+> • dominant color extraction from images
+> • filament palettes for Bambu Lab, Polymaker and eSUN
+> Everything runs directly in the browser and all data stays local on your device.
+
+**Content Author:** Martin Lihs | **Added:** 2026-03-20
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, UNIVERSAL, FDM, ONLINE TOOL, UNOFFICIAL, Multi-color print, gradient, coloring
+
+---
+
 #### [Filament profiles from SirayaTech for Snapmaker U1](https://siraya.tech/pages/print-settings-download)
 > Official profiles from Sirayatech filament manufacturer for Snapmaker U1
 
@@ -5919,6 +5995,25 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 ---
 
 ### FDM
+
+#### [Add Color Gradient to and 3MF file!](https://studioymr.com/colorizer/)
+> Browser-based editor that lets you design multicolor gradients directly from 3MF files.
+> The gradients are generated using a layer-based alpha system per color.
+> Instead of mixing filament colors physically, the gradients emerge through fine layer structures - your eye blends the colors when looking at the print.
+> Current features include:
+> • optical and geometric gradient types
+> • multipart gradient (one object splitted to different plates
+> • alpha tracks per color
+> • curated color themes (trend colors, design classics, color theory)
+> • dominant color extraction from images
+> • filament palettes for Bambu Lab, Polymaker and eSUN
+> Everything runs directly in the browser and all data stays local on your device.
+
+**Content Author:** Martin Lihs | **Added:** 2026-03-20
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, U1, J1/J1s, UNIVERSAL, FDM, ONLINE TOOL, UNOFFICIAL, Multi-color print, gradient, coloring
+
+---
 
 #### [Autodesk Fusion360](https://www.autodesk.com/products/fusion-360/personal-form)
 > CAD system. CNC toolpath generating. 3D Modeling.
