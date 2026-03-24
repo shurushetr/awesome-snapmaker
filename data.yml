@@ -4969,3 +4969,31 @@ records:
     - Multi-color print
     - gradient
     - coloring
+- id: learn-orca-slicer-with-this-awesome-set-of-video-tutrials-50
+  title: Learn Orca Slicer with this awesome set of video tutrials!
+  description: A Youtube Playlist with collection of Orca Slicer tutorials from 
+    0 to 100%.
+  author_name: Minimal 3DP
+  author_link: https://www.youtube.com/@minimal3dp
+  original_link: 
+    https://www.youtube.com/playlist?list=PLXcVv43EZh9D2qMndOhCnRsNkQEww_xcN
+  date_added: '2026-03-24'
+  difficulty: BEGINNER
+  cost: FREE
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - U1
+    - J1/J1s
+    machine_tool_type:
+    - FDM
+    record_type:
+    - CREATE
+    - VIDEO
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Tutorial
+    - Guide
+    - Orca Slicer
