@@ -34,14 +34,16 @@ def normalize_url(url):
             netloc = 'youtube.com'
             path = '/watch'
         else:
-            # https://youtube.com/watch?v=VIDEO_ID
+            # https://youtube.com/watch?v=VIDEO_ID or https://youtube.com/playlist?list=PLAYLIST_ID
             qs = parse_qs(parsed.query)
+            
+            params = []
             if 'v' in qs:
-                video_id = qs['v'][0]
-                query_string = f"v={video_id}"
-            else:
-                # E.g. /shorts/VIDEO_ID
-                query_string = ''
+                params.append(f"v={qs['v'][0]}")
+            if 'list' in qs:
+                params.append(f"list={qs['list'][0]}")
+                
+            query_string = '&'.join(params)
     else:
         # For non-YouTube, drop all query parameters (as they are usually tracking)
         query_string = ''
