@@ -409,6 +409,15 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ### FDM
 
+#### [Learn Orca Slicer with this awesome set of video tutrials!](https://www.youtube.com/playlist?list=PLXcVv43EZh9D2qMndOhCnRsNkQEww_xcN)
+> A Youtube Playlist with collection of Orca Slicer tutorials from 0 to 100%.
+
+**Content Author:** Minimal 3DP | **Added:** 2026-03-24
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, CREATE, VIDEO, UNOFFICIAL, Tutorial, Guide, Orca Slicer
+
+---
+
 #### [Add Color Gradient to and 3MF file!](https://studioymr.com/colorizer/)
 > Browser-based editor that lets you design multicolor gradients directly from 3MF files.
 > The gradients are generated using a layer-based alpha system per color.
@@ -1513,6 +1522,15 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 ---
 
 ### FDM
+
+#### [Learn Orca Slicer with this awesome set of video tutrials!](https://www.youtube.com/playlist?list=PLXcVv43EZh9D2qMndOhCnRsNkQEww_xcN)
+> A Youtube Playlist with collection of Orca Slicer tutorials from 0 to 100%.
+
+**Content Author:** Minimal 3DP | **Added:** 2026-03-24
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, CREATE, VIDEO, UNOFFICIAL, Tutorial, Guide, Orca Slicer
+
+---
 
 #### [Add Color Gradient to and 3MF file!](https://studioymr.com/colorizer/)
 > Browser-based editor that lets you design multicolor gradients directly from 3MF files.
@@ -3485,6 +3503,15 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ### FDM
 
+#### [Learn Orca Slicer with this awesome set of video tutrials!](https://www.youtube.com/playlist?list=PLXcVv43EZh9D2qMndOhCnRsNkQEww_xcN)
+> A Youtube Playlist with collection of Orca Slicer tutorials from 0 to 100%.
+
+**Content Author:** Minimal 3DP | **Added:** 2026-03-24
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, CREATE, VIDEO, UNOFFICIAL, Tutorial, Guide, Orca Slicer
+
+---
+
 #### [Add Color Gradient to and 3MF file!](https://studioymr.com/colorizer/)
 > Browser-based editor that lets you design multicolor gradients directly from 3MF files.
 > The gradients are generated using a layer-based alpha system per color.
@@ -5224,6 +5251,15 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 ---
 
 ### FDM
+
+#### [Learn Orca Slicer with this awesome set of video tutrials!](https://www.youtube.com/playlist?list=PLXcVv43EZh9D2qMndOhCnRsNkQEww_xcN)
+> A Youtube Playlist with collection of Orca Slicer tutorials from 0 to 100%.
+
+**Content Author:** Minimal 3DP | **Added:** 2026-03-24
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, CREATE, VIDEO, UNOFFICIAL, Tutorial, Guide, Orca Slicer
+
+---
 
 #### [Add Color Gradient to and 3MF file!](https://studioymr.com/colorizer/)
 > Browser-based editor that lets you design multicolor gradients directly from 3MF files.
