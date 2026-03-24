@@ -5261,6 +5261,16 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ---
 
+#### [Gradients.Garden - for Orca FullSpectrum](https://gradients.garden/)
+> Use with [FullSpectrum Orca Fork](https://awesome-sm-list.xyz/r/full-spectrum-layer-blending-with-orcaslicer-fork-12/).
+> Make smooth gradients using any kind of filament, to get results similar to ones you could get with rainbow filament (but with more control as you can specify the exact start and end colors and speed). You can interpolate between as many colors as you like, and also use color mixes containing multiple filaments as nodes on the gradient.
+
+**Content Author:** sentientstardust | **Added:** 2026-03-24
+
+**Tags:** INTERMEDIATE, FREE, U1, FDM, DISCUSSION, ONLINE TOOL, UNOFFICIAL, FullSpectrum, Slicer, Gradient
+
+---
+
 #### [Add Color Gradient to and 3MF file!](https://studioymr.com/colorizer/)
 > Browser-based editor that lets you design multicolor gradients directly from 3MF files.
 > The gradients are generated using a layer-based alpha system per color.
