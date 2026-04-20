@@ -5029,3 +5029,131 @@ records:
   - label: Forum Topic
     link: 
       https://forum.snapmaker.com/t/gradient-generator-tool-for-u1-fullspectrum-fork/
+- id: multiace-57
+  title: multiACE
+  description: "What is multiACE?\nmultiACE extends the [SnapACE](https://github.com/BlackFrogKok/SnapACE)
+    software to support multiple ACE Pro units on a single Snapmaker U1 printer. Switch
+    between ACE units to use different filament sets - for example, PLA on ACE 0 and
+    PETG on ACE 1 - without physically swapping spools.\n\nTypical Workflow\nSingle
+    Material (e.g. PLA on ACE 0)\nInsert spools into ACE 0\nPress ACEB__Load_0 → loads
+    all filled slots\nPrint normally\nMultiple Materials (e.g. PLA on ACE 0, PETG
+    on ACE 1)\nInsert PLA spools into ACE 0, PETG spools into ACE 1\nLoad PLA toolheads
+    (T0-T2) via display\nPress ACEA__Switch_1 → switch to ACE 1\nLoad PETG into desired
+    toolhead (e.g. T3) via display or ACEC__Load_T3\nToolchanges during print automatically
+    switch between ACEs\nSwitching Complete Filament Sets\nPress ACEC__Unload_All
+    → unloads everything\nPress ACEB__Load_1 → switch to ACE 1 and load all\nSwitching
+    ACE Units\nUse the Fluidd macros ACEA__Switch_0..3 to switch between ACE units.\n\
+    \nNote on macro names: The macro names use letter prefixes (ACEA, ACEB, ACEC...)
+    to ensure they appear in a logical order in Fluidd's alphabetical macro list.
+    If you prefer different names, you can rename them anytime in config/extended/ace.cfg.\n\
+    \nFeatures\nMulti-ACE Support - Connect up to 4 ACE Pro units simultaneously\n\
+    ACE Switching - Switch between ACE units via Fluidd macros or console\nAuto-Load
+    - Load all filled slots from selected ACE with one command\nUnload All - Unload
+    all toolheads, automatically switching to correct ACE for retract\nRFID Handling
+    - Automatic RFID detection and display across ACE switches\nManual Filament Support
+    - Works with both RFID and non-RFID spools\nPer-ACE Dryer Settings - Configurable
+    temperature and duration per ACE\nNormal Mode - Switch back to stock Snapmaker
+    operation at any time (only original files active, no ACE code running). Useful
+    for filaments the ACE Pro cannot handle, such as TPU/TPE\nAuto-Feed Control -
+    Automatic during print, disabled outside print to prevent unwanted preloads\n\
+    Print-Start Safety Check - Warns if a needed ACE is offline\nPAXX Firmware Compatible
+    - Works with PAXX firmware which provides display mirroring, allowing full load/unload
+    control from your computer\nClean Install/Uninstall - One-command scripts with
+    automatic backup and restore\nRequirements\nSnapmaker U1 printer\nSnapmaker firmware
+    or PAXX firmware (tested with Snapmaker 1.2 and PAXX 12-14)\n1-4 Anycubic ACE
+    Pro units connected via USB (tested with 3)\nSSH access to the printer\nFluidd
+    web interface\nPTFE tube splitters (1-to-N per toolhead) - also allows switching
+    to Normal Mode without recabling"
+  author_name: Decay71 - Postapocalyptic DIY
+  author_link: https://github.com/decay71
+  original_link: https://github.com/decay71/multiACE
+  date_added: '2026-04-20'
+  difficulty: INTERMEDIATE
+  cost: FREE
+  tags:
+    machine_type:
+    - U1
+    machine_tool_type:
+    - FDM
+    record_type:
+    - MODS
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Filament Drying
+    - Multicolor Printing
+- id: bumpmesh-apply-3d-textures-to-a-model-56
+  title: BumpMesh - Apply 3D textures to a model
+  description: "A browser-based tool for applying surface displacement textures to
+    3D meshes — no installation required.\nLoad an STL, OBJ, or 3MF file, pick a texture,
+    tune the parameters, and export a new displaced STL ready for slicing."
+  author_name: CNCKitchen
+  author_link: https://www.youtube.com/watch?v=rTBkjR7JvzI
+  original_link: https://bumpmesh.com/
+  date_added: '2026-04-20'
+  difficulty: BEGINNER
+  cost: FREE
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - U1
+    - J1/J1s
+    machine_tool_type:
+    - FDM
+    record_type:
+    - CREATE
+    - ONLINE TOOL
+    official_flag:
+    - UNOFFICIAL
+  extra_buttons:
+  - label: GitHUB Repo
+    link: https://github.com/CNCKitchen/stlTexturizer
+- id: mult1ace-use-multiple-acepro-units-with-snapmaker-u1-55
+  title: mUlt1ACE - use multiple AcePRO units with Snapmaker U1
+  description: multiACE extends the 
+    [SnapACE](https://awesome-sm-list.xyz/r/snapace-anycubic-ace-pro-with-the-snapmaker-u1-38/)
+    software to support multiple ACE Pro units on a single Snapmaker U1 printer.
+    Switch between ACE units to use different filament sets - for example, PLA 
+    on ACE 0 and PETG on ACE 1 - without physically swapping spools.
+  author_name: decay71
+  author_link: https://github.com/decay71
+  original_link: https://github.com/decay71/mUlt1ACE
+  date_added: '2026-04-20'
+  difficulty: ADVANCED
+  cost: FREE
+  tags:
+    machine_type:
+    - U1
+    machine_tool_type:
+    - FDM
+    record_type:
+    - FIRMWARE
+    - MODS
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - AcePRO
+    - SnapAce
+- id: ditherforge-54
+  title: DitherForge
+  description: ''
+  author_name: rtwfroody
+  author_link: https://github.com/rtwfroody
+  original_link: https://github.com/rtwfroody/ditherforge
+  date_added: '2026-04-20'
+  difficulty: INTERMEDIATE
+  cost: FREE
+  tags:
+    machine_type:
+    - U1
+    machine_tool_type:
+    - FDM
+    record_type:
+    - CREATE
+    - ONLINE TOOL
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Multi-color
+    - model coloring
