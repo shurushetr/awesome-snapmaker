@@ -409,6 +409,16 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ### FDM
 
+#### [BumpMesh - Apply 3D textures to a model](https://bumpmesh.com/)
+> A browser-based tool for applying surface displacement textures to 3D meshes — no installation required.
+> Load an STL, OBJ, or 3MF file, pick a texture, tune the parameters, and export a new displaced STL ready for slicing.
+
+**Content Author:** CNCKitchen | **Added:** 2026-04-20
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, CREATE, ONLINE TOOL, UNOFFICIAL
+
+---
+
 #### [Learn Orca Slicer with this awesome set of video tutrials!](https://www.youtube.com/playlist?list=PLXcVv43EZh9D2qMndOhCnRsNkQEww_xcN)
 > A Youtube Playlist with collection of Orca Slicer tutorials from 0 to 100%.
 
@@ -1522,6 +1532,16 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 ---
 
 ### FDM
+
+#### [BumpMesh - Apply 3D textures to a model](https://bumpmesh.com/)
+> A browser-based tool for applying surface displacement textures to 3D meshes — no installation required.
+> Load an STL, OBJ, or 3MF file, pick a texture, tune the parameters, and export a new displaced STL ready for slicing.
+
+**Content Author:** CNCKitchen | **Added:** 2026-04-20
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, CREATE, ONLINE TOOL, UNOFFICIAL
+
+---
 
 #### [Learn Orca Slicer with this awesome set of video tutrials!](https://www.youtube.com/playlist?list=PLXcVv43EZh9D2qMndOhCnRsNkQEww_xcN)
 > A Youtube Playlist with collection of Orca Slicer tutorials from 0 to 100%.
@@ -3503,6 +3523,16 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ### FDM
 
+#### [BumpMesh - Apply 3D textures to a model](https://bumpmesh.com/)
+> A browser-based tool for applying surface displacement textures to 3D meshes — no installation required.
+> Load an STL, OBJ, or 3MF file, pick a texture, tune the parameters, and export a new displaced STL ready for slicing.
+
+**Content Author:** CNCKitchen | **Added:** 2026-04-20
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, CREATE, ONLINE TOOL, UNOFFICIAL
+
+---
+
 #### [Learn Orca Slicer with this awesome set of video tutrials!](https://www.youtube.com/playlist?list=PLXcVv43EZh9D2qMndOhCnRsNkQEww_xcN)
 > A Youtube Playlist with collection of Orca Slicer tutorials from 0 to 100%.
 
@@ -5251,6 +5281,82 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 ---
 
 ### FDM
+
+#### [multiACE](https://github.com/decay71/multiACE)
+> What is multiACE?
+> multiACE extends the [SnapACE](https://github.com/BlackFrogKok/SnapACE) software to support multiple ACE Pro units on a single Snapmaker U1 printer. Switch between ACE units to use different filament sets - for example, PLA on ACE 0 and PETG on ACE 1 - without physically swapping spools.
+> 
+> Typical Workflow
+> Single Material (e.g. PLA on ACE 0)
+> Insert spools into ACE 0
+> Press ACEB__Load_0 → loads all filled slots
+> Print normally
+> Multiple Materials (e.g. PLA on ACE 0, PETG on ACE 1)
+> Insert PLA spools into ACE 0, PETG spools into ACE 1
+> Load PLA toolheads (T0-T2) via display
+> Press ACEA__Switch_1 → switch to ACE 1
+> Load PETG into desired toolhead (e.g. T3) via display or ACEC__Load_T3
+> Toolchanges during print automatically switch between ACEs
+> Switching Complete Filament Sets
+> Press ACEC__Unload_All → unloads everything
+> Press ACEB__Load_1 → switch to ACE 1 and load all
+> Switching ACE Units
+> Use the Fluidd macros ACEA__Switch_0..3 to switch between ACE units.
+> 
+> Note on macro names: The macro names use letter prefixes (ACEA, ACEB, ACEC...) to ensure they appear in a logical order in Fluidd's alphabetical macro list. If you prefer different names, you can rename them anytime in config/extended/ace.cfg.
+> 
+> Features
+> Multi-ACE Support - Connect up to 4 ACE Pro units simultaneously
+> ACE Switching - Switch between ACE units via Fluidd macros or console
+> Auto-Load - Load all filled slots from selected ACE with one command
+> Unload All - Unload all toolheads, automatically switching to correct ACE for retract
+> RFID Handling - Automatic RFID detection and display across ACE switches
+> Manual Filament Support - Works with both RFID and non-RFID spools
+> Per-ACE Dryer Settings - Configurable temperature and duration per ACE
+> Normal Mode - Switch back to stock Snapmaker operation at any time (only original files active, no ACE code running). Useful for filaments the ACE Pro cannot handle, such as TPU/TPE
+> Auto-Feed Control - Automatic during print, disabled outside print to prevent unwanted preloads
+> Print-Start Safety Check - Warns if a needed ACE is offline
+> PAXX Firmware Compatible - Works with PAXX firmware which provides display mirroring, allowing full load/unload control from your computer
+> Clean Install/Uninstall - One-command scripts with automatic backup and restore
+> Requirements
+> Snapmaker U1 printer
+> Snapmaker firmware or PAXX firmware (tested with Snapmaker 1.2 and PAXX 12-14)
+> 1-4 Anycubic ACE Pro units connected via USB (tested with 3)
+> SSH access to the printer
+> Fluidd web interface
+> PTFE tube splitters (1-to-N per toolhead) - also allows switching to Normal Mode without recabling
+
+**Content Author:** Decay71 - Postapocalyptic DIY | **Added:** 2026-04-20
+
+**Tags:** INTERMEDIATE, FREE, U1, FDM, MODS, UNOFFICIAL, Filament Drying, Multicolor Printing
+
+---
+
+#### [BumpMesh - Apply 3D textures to a model](https://bumpmesh.com/)
+> A browser-based tool for applying surface displacement textures to 3D meshes — no installation required.
+> Load an STL, OBJ, or 3MF file, pick a texture, tune the parameters, and export a new displaced STL ready for slicing.
+
+**Content Author:** CNCKitchen | **Added:** 2026-04-20
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, CREATE, ONLINE TOOL, UNOFFICIAL
+
+---
+
+#### [mUlt1ACE - use multiple AcePRO units with Snapmaker U1](https://github.com/decay71/mUlt1ACE)
+> multiACE extends the [SnapACE](https://awesome-sm-list.xyz/r/snapace-anycubic-ace-pro-with-the-snapmaker-u1-38/) software to support multiple ACE Pro units on a single Snapmaker U1 printer. Switch between ACE units to use different filament sets - for example, PLA on ACE 0 and PETG on ACE 1 - without physically swapping spools.
+
+**Content Author:** decay71 | **Added:** 2026-04-20
+
+**Tags:** ADVANCED, FREE, U1, FDM, FIRMWARE, MODS, UNOFFICIAL, AcePRO, SnapAce
+
+---
+
+#### [DitherForge](https://github.com/rtwfroody/ditherforge)
+**Content Author:** rtwfroody | **Added:** 2026-04-20
+
+**Tags:** INTERMEDIATE, FREE, U1, FDM, CREATE, ONLINE TOOL, UNOFFICIAL, Multi-color, model coloring
+
+---
 
 #### [Learn Orca Slicer with this awesome set of video tutrials!](https://www.youtube.com/playlist?list=PLXcVv43EZh9D2qMndOhCnRsNkQEww_xcN)
 > A Youtube Playlist with collection of Orca Slicer tutorials from 0 to 100%.
