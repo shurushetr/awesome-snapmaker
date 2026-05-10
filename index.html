@@ -180,6 +180,19 @@
         </section>
     </main>
 
+    <!-- Tour Prompt Overlay -->
+    <div id="tour-prompt-overlay" class="modal-overlay" style="display: none;">
+        <div class="modal-content">
+            <h2 data-i18n="tour_prompt_title">Welcome to Awesome Snapmaker List!</h2>
+            <p data-i18n="tour_prompt_desc">It seems like you are accessing the website for the first time. Would you like a quick tour to learn how to find what you need?</p>
+            <p style="font-size: 0.9em; color: var(--secondary-text); margin-bottom: 1.5rem;" data-i18n="tour_prompt_note">You can always start it later by pressing the ❓ button at the top.</p>
+            <div class="modal-actions">
+                <button id="tour-prompt-skip" class="btn secondary-btn" data-i18n="tour_btn_skip">Skip</button>
+                <button id="tour-prompt-take" class="btn primary-btn" data-i18n="tour_btn_take_tour">Take the tour</button>
+            </div>
+        </div>
+    </div>
+
     <!-- Floating Action Button -->
     <button id="jump-top" aria-label="Jump to top of page" title="Jump to top">↑</button>
 

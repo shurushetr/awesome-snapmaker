@@ -195,7 +195,12 @@ async function init() {
         
         // Launch Interactive Tour for First-time Visitors
         if (!localStorage.getItem('awesomeTourCompleted')) {
-            setTimeout(initTour, 600);
+            const hasParams = window.location.search.length > 0 || window.location.hash.length > 0;
+            if (!hasParams) {
+                setTimeout(initTour, 600);
+            } else {
+                setTimeout(showTourPrompt, 600);
+            }
         }
 
     } catch (error) {
@@ -940,6 +945,39 @@ function simulateTypewriting(inputElement, text, callback) {
     }, 120);
 }
 
+function showTourPrompt() {
+    const overlay = document.getElementById('tour-prompt-overlay');
+    if (!overlay) {
+        initTour();
+        return;
+    }
+    
+    // Quick fade in
+    overlay.style.display = 'flex';
+    overlay.style.opacity = '0';
+    setTimeout(() => overlay.style.opacity = '1', 50);
+    
+    document.getElementById('tour-prompt-skip').onclick = () => {
+        overlay.style.display = 'none';
+        localStorage.setItem('awesomeTourCompleted', 'true');
+    };
+    
+    document.getElementById('tour-prompt-take').onclick = () => {
+        overlay.style.display = 'none';
+        
+        // Remember current URL
+        const originalUrl = window.location.href;
+        localStorage.setItem('awesomeTourReturnUrl', originalUrl);
+        
+        // Clear parameters for tour
+        window.history.replaceState(null, '', window.location.pathname);
+        clearAllFilters();
+        
+        // Start tour
+        initTour();
+    };
+}
+
 function initTour() {
     if (!window.driver) return; // safety net if CDN failed
 
@@ -966,6 +1004,23 @@ function initTour() {
         },
         onDestroyed: () => {
             localStorage.setItem('awesomeTourCompleted', 'true');
+            const returnUrl = localStorage.getItem('awesomeTourReturnUrl');
+            if (returnUrl) {
+                localStorage.removeItem('awesomeTourReturnUrl');
+                
+                const dict = translations[currentLang] || translations['en'] || {};
+                const t = (key) => dict[key] || key;
+                
+                const overlay = document.createElement('div');
+                overlay.className = 'modal-overlay';
+                overlay.style.zIndex = '9999';
+                overlay.innerHTML = `<div class="modal-content"><p>${t('tour_return_msg') || 'Taking you back to the link information you came for...'}</p></div>`;
+                document.body.appendChild(overlay);
+                
+                setTimeout(() => {
+                    window.location.href = returnUrl;
+                }, 1500);
+            }
         },
         steps: [
             {

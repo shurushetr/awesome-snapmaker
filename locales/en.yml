@@ -146,6 +146,12 @@ tour_step8_desc: "You can also use the link icon on individual cards to directly
 tour_step9_title: "Clear Filters"
 tour_step9_desc: "You can quickly reset your view and see all resources by clicking
   'Clear All Filters'. Enjoy exploring the list!"
+tour_prompt_title: "Welcome to Awesome Snapmaker List!"
+tour_prompt_desc: "It seems like you are accessing the website for the first time. Would you like a quick tour to learn how to find what you need?"
+tour_prompt_note: "You can always start it later by pressing the ❓ button at the top."
+tour_btn_skip: "Skip"
+tour_btn_take_tour: "Take the tour"
+tour_return_msg: "Taking you back to the link information you came for..."
 
 # --- Bot Comments ---
 bot_duplicate: "Thanks for submitting! However, it looks like this resource already
@@ -170,8 +176,8 @@ issue_submit_body: "Thanks for taking the time to submit a new resource to the A
   bot will generate a Pull Request to add this to the database, so the maintainer
   can approve it with one click!"
 issue_description_label: "Resource Description"
-issue_description_desc: "Provide a brief summary of what this resource is about."
-issue_description_placeholder: "This guide covers the best settings for…"
+issue_description_desc: "Provide a brief summary of what this resource is about. (Max 500 characters, longer text will be truncated)."
+issue_description_placeholder: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Curabitur pretium tincidunt lacus. Nulla gravida."
 issue_author_name_label: "Author Name"
 issue_author_name_desc: "Who created this resource? (Use your name or username if
   it's yours)"

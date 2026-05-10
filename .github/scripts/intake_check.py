@@ -14,35 +14,7 @@ from ruamel.yaml import YAML
 import re
 from urllib.parse import urlparse
 from url_utils import normalize_url
-
-def parse_issue_for_url(body):
-    """Extracts the 'Content Link (Original URL)' from the issue body robustly."""
-    lines = body.split('\n')
-    current_label = None
-    aggregated_value = []
-    
-    sections = {}
-
-    for line in lines:
-        match = re.search(r'^###\s+(.+)$', line.strip())
-        if match:
-            if current_label:
-                sections[current_label] = '\n'.join(aggregated_value).strip()
-            current_label = match.group(1).lower().strip()
-            aggregated_value = []
-        elif current_label:
-            aggregated_value.append(line)
-            
-    if current_label:
-        sections[current_label] = '\n'.join(aggregated_value).strip()
-        
-    for label, value in sections.items():
-        if value == "_No response_" or not value:
-            continue
-        if "content link" in label or "original url" in label:
-            return value
-            
-    return None
+from issue_parser import parse_issue_body
 
 def check_for_executable(url):
     """Checks if the URL points directly to an executable file."""
@@ -105,7 +77,8 @@ def check_for_duplicate_issues(new_url):
             if current_issue and str(issue.get('number', '')) == str(current_issue):
                 continue
                 
-            issue_url = parse_issue_for_url(issue.get('body', ''))
+            parsed_issue = parse_issue_body(issue.get('body', ''))
+            issue_url = parsed_issue.get('original_link')
             if issue_url and normalize_url(issue_url) == norm_new:
                 return True, f"issue #{issue['number']}"
                 
@@ -180,7 +153,8 @@ def main():
         process_action(issue_num, 'UNIQUE')
         sys.exit(0)
         
-    submitted_url = parse_issue_for_url(issue_body)
+    parsed_submitted = parse_issue_body(issue_body)
+    submitted_url = parsed_submitted.get('original_link')
     
     if not submitted_url:
         process_action(issue_num, 'UNIQUE')
