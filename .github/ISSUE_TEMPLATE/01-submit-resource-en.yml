@@ -15,8 +15,16 @@ body:
     id: description
     attributes:
       label: Resource Description
-      description: Provide a brief summary of what this resource is about.
-      placeholder: This guide covers the best settings for…
+      description: Provide a brief summary of what this resource is about. (Max 
+        500 characters, longer text will be truncated).
+      placeholder: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed 
+        do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
+        ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
+        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit 
+        in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
+        officia deserunt mollit anim id est laborum. Curabitur pretium tincidunt
+        lacus. Nulla gravida.
     validations:
       required: true
   - type: input

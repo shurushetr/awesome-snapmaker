@@ -5351,13 +5351,6 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ---
 
-#### [DitherForge](https://github.com/rtwfroody/ditherforge)
-**Content Author:** rtwfroody | **Added:** 2026-04-20
-
-**Tags:** INTERMEDIATE, FREE, U1, FDM, CREATE, ONLINE TOOL, UNOFFICIAL, Multi-color, model coloring
-
----
-
 #### [Learn Orca Slicer with this awesome set of video tutrials!](https://www.youtube.com/playlist?list=PLXcVv43EZh9D2qMndOhCnRsNkQEww_xcN)
 > A Youtube Playlist with collection of Orca Slicer tutorials from 0 to 100%.
 
