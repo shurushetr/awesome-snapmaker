@@ -5372,3 +5372,36 @@ records:
     - Monitoring
     - HA
     - Home Assitant
+- id: fullspectrum-speed-palettes-69
+  title: FullSpectrum Speed Palettes
+  description: "A reduced-palette design based on the experience of [jusdisgi on Maker
+    World](https://makerworld.com/en/@jusdisgi) and me which we consider optimized
+    for quick-testing the blending of filament colors using the [FullSpectrum fork
+    of Snapmaker Orca slicer by ratdoux](https://github.com/ratdoux/OrcaSlicer-FullSpectrum).
+    Early versions of which were explained and shown in detail in [Part 2 (Ch. 4.1)
+    of our deep dive](https://youtu.be/tKfpaVk8jEw?t=917) into FullSpectrum color
+    layer stacking.\n\nThe pu..."
+  author_name: Wombley
+  author_link: https://www.printables.com/@Wombley_1614401
+  original_link: 
+    https://www.printables.com/model/1654016-fullspectrum-speed-palettes
+  date_added: '2026-05-10'
+  difficulty: BEGINNER
+  cost: FREE
+  tags:
+    machine_type:
+    - U1
+    machine_tool_type:
+    - FDM
+    record_type:
+    - ARTICLE
+    - CREATE
+    - DOWNLOAD
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Full Spectrum
+    - Full Color
+  extra_buttons:
+  - label: VIDEO
+    link: https://www.youtube.com/watch?v=uE1Su-FUvls
