@@ -5411,6 +5411,17 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ---
 
+#### [FullSpectrum Speed Palettes](https://www.printables.com/model/1654016-fullspectrum-speed-palettes)
+> A reduced-palette design based on the experience of [jusdisgi on Maker World](https://makerworld.com/en/@jusdisgi) and me which we consider optimized for quick-testing the blending of filament colors using the [FullSpectrum fork of Snapmaker Orca slicer by ratdoux](https://github.com/ratdoux/OrcaSlicer-FullSpectrum). Early versions of which were explained and shown in detail in [Part 2 (Ch. 4.1) of our deep dive](https://youtu.be/tKfpaVk8jEw?t=917) into FullSpectrum color layer stacking.
+> 
+> The pu...
+
+**Content Author:** Wombley | **Added:** 2026-05-10
+
+**Tags:** BEGINNER, FREE, U1, FDM, ARTICLE, CREATE, DOWNLOAD, UNOFFICIAL, Full Spectrum, Full Color
+
+---
+
 #### [multiACE](https://github.com/decay71/multiACE)
 > What is multiACE?
 > multiACE extends the [SnapACE](https://github.com/BlackFrogKok/SnapACE) software to support multiple ACE Pro units on a single Snapmaker U1 printer. Switch between ACE units to use different filament sets - for example, PLA on ACE 0 and PETG on ACE 1 - without physically swapping spools.
