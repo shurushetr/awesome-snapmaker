@@ -5135,3 +5135,240 @@ records:
     free_tags:
     - AcePRO
     - SnapAce
+- id: 
+    color-stack-turn-any-textured-or-vertex-painted-3d-model-into-a-print-ready-cmyw-k-ogv-obj-67
+  title: Color-Stack - Turn any textured or vertex painted 3D model into a 
+    print-ready CMYW/K - OGV OBJ
+  description: "Turn any textured or vertex painted 3D model into a print-ready CMYW/K
+    - OGV OBJ for multi-color printers with perfect blending between colors. Fast
+    and automatic.\n\nDrop in your OBJ. Drop in your texture(s). Click Run. Done.\n\
+    \nFrom the creators of the full-spectrum technique. [https://www.reddit.com/r/3Dprinting/s/ZwL9VcRyq](https://www.reddit.com/r/3Dprinting/s/ZwL9VcRyqy)y"
+  author_name: Javier Herrera & Chase Mussey
+  author_link: https://color-stack.com/
+  original_link: https://color-stack.com/
+  date_added: '2026-05-10'
+  difficulty: INTERMEDIATE
+  cost: FREEMIUM
+  tags:
+    machine_type:
+    - U1
+    machine_tool_type:
+    - FDM
+    record_type:
+    - CREATE
+    - DOWNLOAD
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - FULLCOLOR
+    - FULL-SPECTRUM
+  extra_buttons:
+  - label: VIDEO
+    link: https://www.youtube.com/watch?v=HJUjhsul6mA
+- id: 
+    ditherforge-convert-textured-3d-models-into-multi-color-3d-printable-files-for-multi-filament-printers-66
+  title: DitherForge - Convert textured 3D models into multi-color 3D-printable 
+    files for multi-filament printers.
+  description: <img width="1357" height="823" alt="Image" 
+    src="https://github.com/user-attachments/assets/f0b51249-5a3a-45ae-869d-86823ea3c998"
+    />
+  author_name: rtwfroody
+  author_link: https://github.com/rtwfroody
+  original_link: https://github.com/rtwfroody/ditherforge
+  date_added: '2026-05-10'
+  difficulty: INTERMEDIATE
+  cost: FREE
+  tags:
+    machine_type:
+    - U1
+    machine_tool_type:
+    - FDM
+    record_type:
+    - CREATE
+    - DOWNLOAD
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - FULL-COLOR
+    - FULL SPECTRUM
+- id: primed-3d-apply-any-image-to-print-surface-and-more-65
+  title: Primed 3D - Apply any image to Print surface and More
+  description: Primed3D allows you to paint and print ANY 3D model in ANY 
+    colour, and print the whole thing using just 3-5 filaments, and now it can 
+    do even mode!
+  author_name: 3D Revolution
+  author_link: https://www.youtube.com/3DRevolution
+  original_link: https://primed3d.com/
+  date_added: '2026-05-10'
+  difficulty: BEGINNER
+  cost: FREE
+  tags:
+    machine_type:
+    - U1
+    machine_tool_type:
+    - FDM
+    record_type:
+    - CREATE
+    - ONLINE TOOL
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - FULLCOLOR
+    - PHOTO 3D PRINT
+  extra_buttons:
+  - label: VIDEO
+    link: https://www.youtube.com/watch?v=hZe5zvMEsp0
+- id: snapmaker-u1-modular-stand-drawers-plate-holder-64
+  title: Snapmaker U1 Modular Stand, Drawers & Plate Holder
+  description: "This is not just a regular drawer or stand. It is an all-in-one modular
+    system with flexibility from A to Z.\n\n \n\nThe system combines:\n\nA printer
+    stand\nStorage drawer solution\nA build plates holder (up to 4)\nA Gridfinity
+    grid\nThanks to its modular design, the possible configurations are virtually
+    unlimited. You can build it as tall as you want (within reason — you are responsible
+    for the safety and stability of your printer and setup).\n\n \n\nThis project
+    provides the foundation and infrastructure: ..."
+  author_name: jerryninov
+  author_link: https://makerworld.com/en/@jerrylion77
+  original_link: 
+    https://makerworld.com/en/models/2508152-snapmaker-u1-modular-stand-drawers-plate-holder#profileId-2757951
+  date_added: '2026-05-10'
+  difficulty: BEGINNER
+  cost: FREE
+  tags:
+    machine_type:
+    - U1
+    machine_tool_type:
+    - FDM
+    record_type:
+    - CREATE
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - stand
+    - drawer
+    - gridfinity
+    - usb
+- id: 
+    bambu-to-snapmaker-u1-convertor-w-multi-colour-multi-plate-print-and-filament-settings-62
+  title: Bambu to Snapmaker U1 convertor w/ multi colour, multi plate, print and
+    filament settings
+  description: "**Resource Description**\nFree online and self-hostable web tool that
+    converts Bambu Lab/Bambu Studio .3mf projects to Snapmaker U1-compatible .3mf
+    format. It preserves the creator’s print intent, painted colour assignments, filament
+    setup, and multi-colour work while replacing Bambu-specific printer settings,
+    custom G-code, unsupported keys, and stale slice data with Snapmaker U1-safe equivalents.\n\
+    \n  **Features**\n\n  - Converts Bambu Lab/Bambu Studio .3mf files to Snapmaker
+    U1-compatible format\n ..."
+  author_name: thadius83
+  author_link: https://github.com/thadius83/bambu-to-snapmaker-u1
+  original_link: https://u1convert.com
+  date_added: '2026-05-10'
+  difficulty: BEGINNER
+  cost: FREE
+  tags:
+    machine_type:
+    - U1
+    machine_tool_type:
+    - FDM
+    record_type:
+    - DOWNLOAD
+    - ONLINE TOOL
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - bambu
+    - 3MF
+    - converter
+    - docker
+  extra_buttons:
+  - label: Support the creator
+    link: https://buymeacoffee.com/jdau
+- id: 3d-fuel-great-source-of-pctg-filament-61
+  title: 3D-Fuel - great source of PCTG filament
+  description: "3D-Fuel Pro PCTG is a high-performance PCTG 3D printing filament designed
+    as a superior alternative to PETG. It delivers exceptional toughness (up to 5
+    - 10× higher impact resistance than standard PETG), along with enhanced chemical
+    resistance, UV stability, and optical clarity.\nUnlike many engineering-grade
+    filaments, Pro PCTG remains easy to print, with low moisture absorption and excellent
+    layer adhesion. It prints reliably on open-frame printers and is fully compatible
+    with multi-material sy..."
+  author_name: 3dfuel
+  author_link: https://www.3dfuel.com
+  original_link: https://www.3dfuel.com/collections/1-75mm-pro-pctg
+  date_added: '2026-05-10'
+  difficulty: BEGINNER
+  cost: PAID
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - U1
+    - J1/J1s
+    machine_tool_type:
+    - FDM
+    record_type:
+    - SHOP
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Filament Source
+    - Filament Manufacturer
+    - Filament Store
+- id: snaptouch-wireless-snapmaker-u1-companion-60
+  title: SnapTouch - Wireless Snapmaker U1 Companion
+  description: "A dedicated 3.5\" touchscreen loaded with features and the flexibility
+    to match how you work. Mirror your Snapmaker U1 in near real time, send touch
+    back to the printer, check dryer readings when you want them, watch your printer
+    cameras while prints run, and use it as your RFID filament station—wireless setup
+    so everything is ready to go.\n\n<img width=\"1024\" height=\"768\" alt=\"Image\"\
+    \ src=\"https://github.com/user-attachments/assets/b24e28df-0414-4abc-8bfc-6e6e1b6cc4e2\"\
+    \ />"
+  author_name: Jerry Ninov
+  author_link: https://jerryninov.com/
+  original_link: https://www.snaptouch.net/
+  date_added: '2026-05-10'
+  difficulty: BEGINNER
+  cost: FREEMIUM
+  tags:
+    machine_type:
+    - U1
+    machine_tool_type:
+    - FDM
+    record_type:
+    - CREATE
+    - MODS
+    - SHOP
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Monitoring
+    - Mirror Display
+    - RFID
+- id: snapmaker-u1-card-for-home-assitant-59
+  title: Snapmaker U1 Card for Home Assitant
+  description: A Prism Dashboard-style Home Assistant Lovelace card for the 
+    Snapmaker U1 3D printer, pulling live data from the 
+    [Moonraker](https://moonraker.readthedocs.io/) REST API (Klipper / AFC Lite 
+    v2.x firmware). THIS CARD REQUIRES THAT EXTENDED FIRMWARE BE INSTALLED, AND 
+    AFC LITE BE ENABLED!
+  author_name: rickkollins
+  author_link: https://github.com/rickkollins
+  original_link: https://github.com/rickkollins/Snapmaker-U1-Card
+  date_added: '2026-05-10'
+  difficulty: INTERMEDIATE
+  cost: FREE
+  tags:
+    machine_type:
+    - U1
+    machine_tool_type:
+    - FDM
+    record_type:
+    - ARTICLE
+    - DOWNLOAD
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - HomeAssitant
+    - Monitoring
+    - HA
+    - Home Assitant
