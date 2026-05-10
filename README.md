@@ -409,6 +409,16 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ### FDM
 
+#### [3D-Fuel - great source of PCTG filament](https://www.3dfuel.com/collections/1-75mm-pro-pctg)
+> 3D-Fuel Pro PCTG is a high-performance PCTG 3D printing filament designed as a superior alternative to PETG. It delivers exceptional toughness (up to 5 - 10× higher impact resistance than standard PETG), along with enhanced chemical resistance, UV stability, and optical clarity.
+> Unlike many engineering-grade filaments, Pro PCTG remains easy to print, with low moisture absorption and excellent layer adhesion. It prints reliably on open-frame printers and is fully compatible with multi-material sy...
+
+**Content Author:** 3dfuel | **Added:** 2026-05-10
+
+**Tags:** BEGINNER, PAID, SM_2.0, ARTISAN, U1, J1/J1s, FDM, SHOP, UNOFFICIAL, Filament Source, Filament Manufacturer, Filament Store
+
+---
+
 #### [BumpMesh - Apply 3D textures to a model](https://bumpmesh.com/)
 > A browser-based tool for applying surface displacement textures to 3D meshes — no installation required.
 > Load an STL, OBJ, or 3MF file, pick a texture, tune the parameters, and export a new displaced STL ready for slicing.
@@ -1532,6 +1542,16 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 ---
 
 ### FDM
+
+#### [3D-Fuel - great source of PCTG filament](https://www.3dfuel.com/collections/1-75mm-pro-pctg)
+> 3D-Fuel Pro PCTG is a high-performance PCTG 3D printing filament designed as a superior alternative to PETG. It delivers exceptional toughness (up to 5 - 10× higher impact resistance than standard PETG), along with enhanced chemical resistance, UV stability, and optical clarity.
+> Unlike many engineering-grade filaments, Pro PCTG remains easy to print, with low moisture absorption and excellent layer adhesion. It prints reliably on open-frame printers and is fully compatible with multi-material sy...
+
+**Content Author:** 3dfuel | **Added:** 2026-05-10
+
+**Tags:** BEGINNER, PAID, SM_2.0, ARTISAN, U1, J1/J1s, FDM, SHOP, UNOFFICIAL, Filament Source, Filament Manufacturer, Filament Store
+
+---
 
 #### [BumpMesh - Apply 3D textures to a model](https://bumpmesh.com/)
 > A browser-based tool for applying surface displacement textures to 3D meshes — no installation required.
@@ -3523,6 +3543,16 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ### FDM
 
+#### [3D-Fuel - great source of PCTG filament](https://www.3dfuel.com/collections/1-75mm-pro-pctg)
+> 3D-Fuel Pro PCTG is a high-performance PCTG 3D printing filament designed as a superior alternative to PETG. It delivers exceptional toughness (up to 5 - 10× higher impact resistance than standard PETG), along with enhanced chemical resistance, UV stability, and optical clarity.
+> Unlike many engineering-grade filaments, Pro PCTG remains easy to print, with low moisture absorption and excellent layer adhesion. It prints reliably on open-frame printers and is fully compatible with multi-material sy...
+
+**Content Author:** 3dfuel | **Added:** 2026-05-10
+
+**Tags:** BEGINNER, PAID, SM_2.0, ARTISAN, U1, J1/J1s, FDM, SHOP, UNOFFICIAL, Filament Source, Filament Manufacturer, Filament Store
+
+---
+
 #### [BumpMesh - Apply 3D textures to a model](https://bumpmesh.com/)
 > A browser-based tool for applying surface displacement textures to 3D meshes — no installation required.
 > Load an STL, OBJ, or 3MF file, pick a texture, tune the parameters, and export a new displaced STL ready for slicing.
@@ -5281,6 +5311,105 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 ---
 
 ### FDM
+
+#### [Color-Stack - Turn any textured or vertex painted 3D model into a print-ready CMYW/K - OGV OBJ](https://color-stack.com/)
+> Turn any textured or vertex painted 3D model into a print-ready CMYW/K - OGV OBJ for multi-color printers with perfect blending between colors. Fast and automatic.
+> 
+> Drop in your OBJ. Drop in your texture(s). Click Run. Done.
+> 
+> From the creators of the full-spectrum technique. [https://www.reddit.com/r/3Dprinting/s/ZwL9VcRyq](https://www.reddit.com/r/3Dprinting/s/ZwL9VcRyqy)y
+
+**Content Author:** Javier Herrera & Chase Mussey | **Added:** 2026-05-10
+
+**Tags:** INTERMEDIATE, FREEMIUM, U1, FDM, CREATE, DOWNLOAD, UNOFFICIAL, FULLCOLOR, FULL-SPECTRUM
+
+---
+
+#### [DitherForge - Convert textured 3D models into multi-color 3D-printable files for multi-filament printers.](https://github.com/rtwfroody/ditherforge)
+> <img width="1357" height="823" alt="Image" src="https://github.com/user-attachments/assets/f0b51249-5a3a-45ae-869d-86823ea3c998" />
+
+**Content Author:** rtwfroody | **Added:** 2026-05-10
+
+**Tags:** INTERMEDIATE, FREE, U1, FDM, CREATE, DOWNLOAD, UNOFFICIAL, FULL-COLOR, FULL SPECTRUM
+
+---
+
+#### [Primed 3D - Apply any image to Print surface and More](https://primed3d.com/)
+> Primed3D allows you to paint and print ANY 3D model in ANY colour, and print the whole thing using just 3-5 filaments, and now it can do even mode!
+
+**Content Author:** 3D Revolution | **Added:** 2026-05-10
+
+**Tags:** BEGINNER, FREE, U1, FDM, CREATE, ONLINE TOOL, UNOFFICIAL, FULLCOLOR, PHOTO 3D PRINT
+
+---
+
+#### [Snapmaker U1 Modular Stand, Drawers & Plate Holder](https://makerworld.com/en/models/2508152-snapmaker-u1-modular-stand-drawers-plate-holder#profileId-2757951)
+> This is not just a regular drawer or stand. It is an all-in-one modular system with flexibility from A to Z.
+> 
+>  
+> 
+> The system combines:
+> 
+> A printer stand
+> Storage drawer solution
+> A build plates holder (up to 4)
+> A Gridfinity grid
+> Thanks to its modular design, the possible configurations are virtually unlimited. You can build it as tall as you want (within reason — you are responsible for the safety and stability of your printer and setup).
+> 
+>  
+> 
+> This project provides the foundation and infrastructure: ...
+
+**Content Author:** jerryninov | **Added:** 2026-05-10
+
+**Tags:** BEGINNER, FREE, U1, FDM, CREATE, UNOFFICIAL, stand, drawer, gridfinity, usb
+
+---
+
+#### [Bambu to Snapmaker U1 convertor w/ multi colour, multi plate, print and filament settings](https://u1convert.com)
+> **Resource Description**
+> Free online and self-hostable web tool that converts Bambu Lab/Bambu Studio .3mf projects to Snapmaker U1-compatible .3mf format. It preserves the creator’s print intent, painted colour assignments, filament setup, and multi-colour work while replacing Bambu-specific printer settings, custom G-code, unsupported keys, and stale slice data with Snapmaker U1-safe equivalents.
+> 
+>   **Features**
+> 
+>   - Converts Bambu Lab/Bambu Studio .3mf files to Snapmaker U1-compatible format
+>  ...
+
+**Content Author:** thadius83 | **Added:** 2026-05-10
+
+**Tags:** BEGINNER, FREE, U1, FDM, DOWNLOAD, ONLINE TOOL, UNOFFICIAL, bambu, 3MF, converter, docker
+
+---
+
+#### [3D-Fuel - great source of PCTG filament](https://www.3dfuel.com/collections/1-75mm-pro-pctg)
+> 3D-Fuel Pro PCTG is a high-performance PCTG 3D printing filament designed as a superior alternative to PETG. It delivers exceptional toughness (up to 5 - 10× higher impact resistance than standard PETG), along with enhanced chemical resistance, UV stability, and optical clarity.
+> Unlike many engineering-grade filaments, Pro PCTG remains easy to print, with low moisture absorption and excellent layer adhesion. It prints reliably on open-frame printers and is fully compatible with multi-material sy...
+
+**Content Author:** 3dfuel | **Added:** 2026-05-10
+
+**Tags:** BEGINNER, PAID, SM_2.0, ARTISAN, U1, J1/J1s, FDM, SHOP, UNOFFICIAL, Filament Source, Filament Manufacturer, Filament Store
+
+---
+
+#### [SnapTouch - Wireless Snapmaker U1 Companion](https://www.snaptouch.net/)
+> A dedicated 3.5" touchscreen loaded with features and the flexibility to match how you work. Mirror your Snapmaker U1 in near real time, send touch back to the printer, check dryer readings when you want them, watch your printer cameras while prints run, and use it as your RFID filament station—wireless setup so everything is ready to go.
+> 
+> <img width="1024" height="768" alt="Image" src="https://github.com/user-attachments/assets/b24e28df-0414-4abc-8bfc-6e6e1b6cc4e2" />
+
+**Content Author:** Jerry Ninov | **Added:** 2026-05-10
+
+**Tags:** BEGINNER, FREEMIUM, U1, FDM, CREATE, MODS, SHOP, UNOFFICIAL, Monitoring, Mirror Display, RFID
+
+---
+
+#### [Snapmaker U1 Card for Home Assitant](https://github.com/rickkollins/Snapmaker-U1-Card)
+> A Prism Dashboard-style Home Assistant Lovelace card for the Snapmaker U1 3D printer, pulling live data from the [Moonraker](https://moonraker.readthedocs.io/) REST API (Klipper / AFC Lite v2.x firmware). THIS CARD REQUIRES THAT EXTENDED FIRMWARE BE INSTALLED, AND AFC LITE BE ENABLED!
+
+**Content Author:** rickkollins | **Added:** 2026-05-10
+
+**Tags:** INTERMEDIATE, FREE, U1, FDM, ARTICLE, DOWNLOAD, UNOFFICIAL, HomeAssitant, Monitoring, HA, Home Assitant
+
+---
 
 #### [multiACE](https://github.com/decay71/multiACE)
 > What is multiACE?
