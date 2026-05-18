@@ -5405,3 +5405,64 @@ records:
   extra_buttons:
   - label: VIDEO
     link: https://www.youtube.com/watch?v=uE1Su-FUvls
+- id: spoolman-keep-track-of-your-inventory-of-3d-printer-filament-spools-72
+  title: Spoolman - Keep track of your inventory of 3D-printer filament spools.
+  description: Spoolman is a self-hosted web service designed to help you 
+    efficiently manage your 3D printer filament spools and monitor their usage. 
+    It acts as a centralized database that seamlessly integrates with popular 3D
+    printing software like [OctoPrint](https://octoprint.org/) and 
+    [Klipper](https://www.klipper3d.org/)/[Moonraker](https://moonraker.readthedocs.io/en/latest/).
+    When connected, it automatically updates spool weights as printing 
+    progresses, giving you real-time insights into filament usage.
+  author_name: Donkie
+  author_link: https://github.com/Donkie
+  original_link: https://github.com/Donkie/Spoolman
+  date_added: '2026-05-18'
+  difficulty: ADVANCED
+  cost: FREE
+  tags:
+    machine_type:
+    - U1
+    machine_tool_type:
+    - FDM
+    record_type:
+    - DOWNLOAD
+    - FIRMWARE
+    - MODS
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - FILAMENT TRACKING
+    - SPOOL TRACKING
+  extra_buttons:
+  - label: Buy Donkie a coffee
+    link: https://ko-fi.com/donkie
+- id: truflatplywood-good-source-for-lasering-plywood-in-us-71
+  title: TruFlatPlywood - good source for lasering plywood in US
+  description: "TruFlat Plywood (truflatplywood.com) is an online supplier specializing
+    in pre-finished, engineered plywood specifically designed for laser cutters, CNC
+    machines, scroll saws, and UV printers.  \nManufactured in Canada, their primary
+    claim to fame is their guarantee that the material will lay completely flat on
+    a laser bed, eliminating the warping issues commonly associated with standard
+    craft wood."
+  author_name: TruFlatPlywood
+  author_link: https://truflatplywood.com/
+  original_link: https://truflatplywood.com/
+  date_added: '2026-05-18'
+  difficulty: BEGINNER
+  cost: PAID
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - RAY
+    machine_tool_type:
+    - LASER
+    - CNC
+    - COMBINED
+    record_type:
+    - SHOP
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - PLYWOOD
