@@ -28,6 +28,16 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ### CNC
 
+#### [TruFlatPlywood - good source for lasering plywood in US](https://truflatplywood.com/)
+> TruFlat Plywood (truflatplywood.com) is an online supplier specializing in pre-finished, engineered plywood specifically designed for laser cutters, CNC machines, scroll saws, and UV printers.  
+> Manufactured in Canada, their primary claim to fame is their guarantee that the material will lay completely flat on a laser bed, eliminating the warping issues commonly associated with standard craft wood.
+
+**Content Author:** TruFlatPlywood | **Added:** 2026-05-18
+
+**Tags:** BEGINNER, PAID, SM_2.0, ARTISAN, RAY, LASER, CNC, COMBINED, SHOP, UNOFFICIAL, PLYWOOD
+
+---
+
 #### [CNC With Snapmaker ARTISAN](https://miwicnc.gitbook.io/miwicnc)
 > Practical CNC workflows, clear explanations, and shared experience — written so you can start where you are and go deeper when you want.
 > 
@@ -271,6 +281,16 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 ---
 
 ### COMBINED
+
+#### [TruFlatPlywood - good source for lasering plywood in US](https://truflatplywood.com/)
+> TruFlat Plywood (truflatplywood.com) is an online supplier specializing in pre-finished, engineered plywood specifically designed for laser cutters, CNC machines, scroll saws, and UV printers.  
+> Manufactured in Canada, their primary claim to fame is their guarantee that the material will lay completely flat on a laser bed, eliminating the warping issues commonly associated with standard craft wood.
+
+**Content Author:** TruFlatPlywood | **Added:** 2026-05-18
+
+**Tags:** BEGINNER, PAID, SM_2.0, ARTISAN, RAY, LASER, CNC, COMBINED, SHOP, UNOFFICIAL, PLYWOOD
+
+---
 
 #### [Autodesk Fusion360](https://www.autodesk.com/products/fusion-360/personal-form)
 > CAD system. CNC toolpath generating. 3D Modeling.
@@ -889,6 +909,16 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 ---
 
 ### LASER
+
+#### [TruFlatPlywood - good source for lasering plywood in US](https://truflatplywood.com/)
+> TruFlat Plywood (truflatplywood.com) is an online supplier specializing in pre-finished, engineered plywood specifically designed for laser cutters, CNC machines, scroll saws, and UV printers.  
+> Manufactured in Canada, their primary claim to fame is their guarantee that the material will lay completely flat on a laser bed, eliminating the warping issues commonly associated with standard craft wood.
+
+**Content Author:** TruFlatPlywood | **Added:** 2026-05-18
+
+**Tags:** BEGINNER, PAID, SM_2.0, ARTISAN, RAY, LASER, CNC, COMBINED, SHOP, UNOFFICIAL, PLYWOOD
+
+---
 
 #### [Add airassist to your 10W laser](https://www.facebook.com/groups/snapmaker/posts/1694540740964232/)
 > A facebook post that shows an implementation of internal air assist with external air pump, cheap and effective mod to make your laser path clean.
@@ -2147,6 +2177,16 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ### CNC
 
+#### [TruFlatPlywood - good source for lasering plywood in US](https://truflatplywood.com/)
+> TruFlat Plywood (truflatplywood.com) is an online supplier specializing in pre-finished, engineered plywood specifically designed for laser cutters, CNC machines, scroll saws, and UV printers.  
+> Manufactured in Canada, their primary claim to fame is their guarantee that the material will lay completely flat on a laser bed, eliminating the warping issues commonly associated with standard craft wood.
+
+**Content Author:** TruFlatPlywood | **Added:** 2026-05-18
+
+**Tags:** BEGINNER, PAID, SM_2.0, ARTISAN, RAY, LASER, CNC, COMBINED, SHOP, UNOFFICIAL, PLYWOOD
+
+---
+
 #### [Kiri:Moto](https://grid.space/kiri/)
 > 3DP/Laser/CNC slicer in browser. It has some unique features, like slicing the model in layers for laser cutting
 
@@ -2256,6 +2296,16 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 ---
 
 ### COMBINED
+
+#### [TruFlatPlywood - good source for lasering plywood in US](https://truflatplywood.com/)
+> TruFlat Plywood (truflatplywood.com) is an online supplier specializing in pre-finished, engineered plywood specifically designed for laser cutters, CNC machines, scroll saws, and UV printers.  
+> Manufactured in Canada, their primary claim to fame is their guarantee that the material will lay completely flat on a laser bed, eliminating the warping issues commonly associated with standard craft wood.
+
+**Content Author:** TruFlatPlywood | **Added:** 2026-05-18
+
+**Tags:** BEGINNER, PAID, SM_2.0, ARTISAN, RAY, LASER, CNC, COMBINED, SHOP, UNOFFICIAL, PLYWOOD
+
+---
 
 #### [Autodesk Fusion360](https://www.autodesk.com/products/fusion-360/personal-form)
 > CAD system. CNC toolpath generating. 3D Modeling.
@@ -2422,6 +2472,16 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 ---
 
 ### LASER
+
+#### [TruFlatPlywood - good source for lasering plywood in US](https://truflatplywood.com/)
+> TruFlat Plywood (truflatplywood.com) is an online supplier specializing in pre-finished, engineered plywood specifically designed for laser cutters, CNC machines, scroll saws, and UV printers.  
+> Manufactured in Canada, their primary claim to fame is their guarantee that the material will lay completely flat on a laser bed, eliminating the warping issues commonly associated with standard craft wood.
+
+**Content Author:** TruFlatPlywood | **Added:** 2026-05-18
+
+**Tags:** BEGINNER, PAID, SM_2.0, ARTISAN, RAY, LASER, CNC, COMBINED, SHOP, UNOFFICIAL, PLYWOOD
+
+---
 
 #### [Snapmaker Ray and Lightburn setup by Lightburn Team](https://forum.lightburnsoftware.com/t/snapmaker-ray-20w-40w-laser-with-lightburn-how-to-and-why/116291)
 > The Snapmaker Ray series engravers use standard GRBL in the controller.
@@ -2834,6 +2894,16 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 ## SM_2.0
 
 ### CNC
+
+#### [TruFlatPlywood - good source for lasering plywood in US](https://truflatplywood.com/)
+> TruFlat Plywood (truflatplywood.com) is an online supplier specializing in pre-finished, engineered plywood specifically designed for laser cutters, CNC machines, scroll saws, and UV printers.  
+> Manufactured in Canada, their primary claim to fame is their guarantee that the material will lay completely flat on a laser bed, eliminating the warping issues commonly associated with standard craft wood.
+
+**Content Author:** TruFlatPlywood | **Added:** 2026-05-18
+
+**Tags:** BEGINNER, PAID, SM_2.0, ARTISAN, RAY, LASER, CNC, COMBINED, SHOP, UNOFFICIAL, PLYWOOD
+
+---
 
 #### [CNC With Snapmaker ARTISAN](https://miwicnc.gitbook.io/miwicnc)
 > Practical CNC workflows, clear explanations, and shared experience — written so you can start where you are and go deeper when you want.
@@ -3369,6 +3439,16 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 ---
 
 ### COMBINED
+
+#### [TruFlatPlywood - good source for lasering plywood in US](https://truflatplywood.com/)
+> TruFlat Plywood (truflatplywood.com) is an online supplier specializing in pre-finished, engineered plywood specifically designed for laser cutters, CNC machines, scroll saws, and UV printers.  
+> Manufactured in Canada, their primary claim to fame is their guarantee that the material will lay completely flat on a laser bed, eliminating the warping issues commonly associated with standard craft wood.
+
+**Content Author:** TruFlatPlywood | **Added:** 2026-05-18
+
+**Tags:** BEGINNER, PAID, SM_2.0, ARTISAN, RAY, LASER, CNC, COMBINED, SHOP, UNOFFICIAL, PLYWOOD
+
+---
 
 #### [Autodesk Fusion360](https://www.autodesk.com/products/fusion-360/personal-form)
 > CAD system. CNC toolpath generating. 3D Modeling.
@@ -4423,6 +4503,16 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ### LASER
 
+#### [TruFlatPlywood - good source for lasering plywood in US](https://truflatplywood.com/)
+> TruFlat Plywood (truflatplywood.com) is an online supplier specializing in pre-finished, engineered plywood specifically designed for laser cutters, CNC machines, scroll saws, and UV printers.  
+> Manufactured in Canada, their primary claim to fame is their guarantee that the material will lay completely flat on a laser bed, eliminating the warping issues commonly associated with standard craft wood.
+
+**Content Author:** TruFlatPlywood | **Added:** 2026-05-18
+
+**Tags:** BEGINNER, PAID, SM_2.0, ARTISAN, RAY, LASER, CNC, COMBINED, SHOP, UNOFFICIAL, PLYWOOD
+
+---
+
 #### [Add airassist to your 10W laser](https://www.facebook.com/groups/snapmaker/posts/1694540740964232/)
 > A facebook post that shows an implementation of internal air assist with external air pump, cheap and effective mod to make your laser path clean.
 
@@ -5311,6 +5401,15 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 ---
 
 ### FDM
+
+#### [Spoolman - Keep track of your inventory of 3D-printer filament spools.](https://github.com/Donkie/Spoolman)
+> Spoolman is a self-hosted web service designed to help you efficiently manage your 3D printer filament spools and monitor their usage. It acts as a centralized database that seamlessly integrates with popular 3D printing software like [OctoPrint](https://octoprint.org/) and [Klipper](https://www.klipper3d.org/)/[Moonraker](https://moonraker.readthedocs.io/en/latest/). When connected, it automatically updates spool weights as printing progresses, giving you real-time insights into filament usage.
+
+**Content Author:** Donkie | **Added:** 2026-05-18
+
+**Tags:** ADVANCED, FREE, U1, FDM, DOWNLOAD, FIRMWARE, MODS, UNOFFICIAL, FILAMENT TRACKING, SPOOL TRACKING
+
+---
 
 #### [Color-Stack - Turn any textured or vertex painted 3D model into a print-ready CMYW/K - OGV OBJ](https://color-stack.com/)
 > Turn any textured or vertex painted 3D model into a print-ready CMYW/K - OGV OBJ for multi-color printers with perfect blending between colors. Fast and automatic.
