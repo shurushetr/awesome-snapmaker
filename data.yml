@@ -5466,3 +5466,146 @@ records:
     - UNOFFICIAL
     free_tags:
     - PLYWOOD
+- id: snaporca-cad-snapmaker-orca-with-cad-78
+  title: snaporca-cad - Snapmaker Orca with CAD
+  description: "Design it. Slice it. Print it. All in one window — no export, no re-import,
+    no round-trips.\n\nSnapOrca Design adds a full parametric, sketch-first CAD environment
+    directly inside Snapmaker Orca. A real geometric constraint solver (SolveSpace)
+    on an industrial OpenCASCADE B-rep kernel: 2D sketching with live constraints
+    + draw-then-edit value entry, and the complete solid-feature timeline — extrude,
+    revolve, sweep, loft, pattern, hole, thread, shell, draft, fillet, chamfer, boolean,
+    plane-cut, dat..."
+  author_name: tommasobbianchi
+  author_link: https://github.com/tommasobbianchi
+  original_link: https://github.com/tommasobbianchi/snaporca-cad
+  date_added: '2026-07-28'
+  difficulty: BEGINNER
+  cost: FREE
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - U1
+    - J1/J1s
+    machine_tool_type:
+    - FDM
+    record_type:
+    - DOWNLOAD
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - CAD
+  extra_buttons:
+  - label: Releases
+    link: https://github.com/tommasobbianchi/snaporca-cad/releases
+- id: 
+    orcaslicer-imagemap-print-an-image-using-overhang-modulation-tech-vertical-hueforge-77
+  title: OrcaSlicer-ImageMap - Print an image using Overhang Modulation tech 
+    (vertical hueforge)
+  description: "Apply image to the surface of your print!\n\n<img width=\"1786\" height=\"\
+    1113\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/8cf1856d-901f-491f-b4f1-1209129ff741\"\
+    \ />"
+  author_name: sentientstardust-dev
+  author_link: https://github.com/sentientstardust-dev
+  original_link: https://github.com/sentientstardust-dev/OrcaSlicer-ImageMap
+  date_added: '2026-07-28'
+  difficulty: INTERMEDIATE
+  cost: FREE
+  tags:
+    machine_type:
+    - U1
+    machine_tool_type:
+    - FDM
+    record_type:
+    - DOWNLOAD
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - multicolor
+    - image on print
+  extra_buttons:
+  - label: Downloads
+    link: https://github.com/sentientstardust-dev/OrcaSlicer-ImageMap/releases
+- id: casefinity-gridfinity-for-cases-like-pelican-and-apache-76
+  title: Casefinity - gridfinity for cases (like pelican and apache)
+  description: "A perfect example is hard cases, which are the generic version of
+    pelican cases. These are great because they are cheap, rugged, and come in all
+    different sizes and shapes. They also have the added benefit of being mobile.
+    I love just being able to grab a case and go, having everything I need to complete
+    a particular task. \n\nSo what's the problem then? Well the hard cases are great
+    but the pick and pull foam, that they come with, is absolutely awful. If you have
+    used one in the past you know wha..."
+  author_name: Unemployed Architect Unemployed Architect
+  author_link: https://www.youtube.com/@Unemployed_Architect
+  original_link: https://www.youtube.com/watch?v=YSqm821ekR4
+  date_added: '2026-07-28'
+  difficulty: BEGINNER
+  cost: FREE
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    - U1
+    - J1/J1s
+    machine_tool_type:
+    - FDM
+    record_type:
+    - DOWNLOAD
+    - ONLINE TOOL
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - casefinity
+    - gridfinity
+  extra_buttons:
+  - label: Online Generator
+    link: https://casefinity.net/
+- id: led-mod-for-snapmaker-u1-to-get-better-lights-in-diy-top-cover-75
+  title: LED Mod for Snapmaker U1 to get better lights in DIY top cover
+  description: "This mod allows to connect additional LED Strip to the built in supply.\
+    \  \n\n<img width=\"959\" height=\"848\" alt=\"Image\" src=\"https://github.com/user-attachments/assets/2648c94c-c0dd-4c2c-a423-afc1d4ba8a65\"\
+    \ />"
+  author_name: sfernan888
+  author_link: https://www.reddit.com/user/sfernan888/
+  original_link: 
+    https://www.reddit.com/r/snapmaker/comments/1u5gj2m/comment/orkx2be/
+  date_added: '2026-07-28'
+  difficulty: ADVANCED
+  cost: FREE
+  tags:
+    machine_type:
+    - U1
+    record_type:
+    - MODS
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - LED Mod
+    - DIY
+- id: black-box-dual-pwm-fan-mod-74
+  title: Black Box Dual PWM Fan Mod
+  description: "A custom Snapmaker U1 project to build my own external Black Box for
+    dual PWM fan control, based on reverse-engineering the U1 purifier firmware path.\n\
+    \nThis project started when I compared the old purifier config with the newer
+    V1.3.0 firmware version and found a very important change: PA9 used to be a tachometer
+    input, but in the newer config it became the PWM control output for the inner
+    fan, while tach feedback moved to PA6.\n\nThat discovery changed everything. Instead
+    of waiting for the offic..."
+  author_name: WilliamTheMaker
+  author_link: https://github.com/WilliamTheMaker
+  original_link: 
+    https://github.com/WilliamTheMaker/BuildMyOwnBlackBox_for_Snapmaker_U1
+  date_added: '2026-07-28'
+  difficulty: ADVANCED
+  cost: FREE
+  tags:
+    machine_type:
+    - U1
+    machine_tool_type:
+    - FDM
+    record_type:
+    - MODS
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - COOLING MOD
