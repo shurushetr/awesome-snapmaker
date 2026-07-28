@@ -429,6 +429,28 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ### FDM
 
+#### [snaporca-cad - Snapmaker Orca with CAD](https://github.com/tommasobbianchi/snaporca-cad)
+> Design it. Slice it. Print it. All in one window — no export, no re-import, no round-trips.
+> 
+> SnapOrca Design adds a full parametric, sketch-first CAD environment directly inside Snapmaker Orca. A real geometric constraint solver (SolveSpace) on an industrial OpenCASCADE B-rep kernel: 2D sketching with live constraints + draw-then-edit value entry, and the complete solid-feature timeline — extrude, revolve, sweep, loft, pattern, hole, thread, shell, draft, fillet, chamfer, boolean, plane-cut, dat...
+
+**Content Author:** tommasobbianchi | **Added:** 2026-07-28
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, DOWNLOAD, UNOFFICIAL, CAD
+
+---
+
+#### [Casefinity - gridfinity for cases (like pelican and apache)](https://www.youtube.com/watch?v=YSqm821ekR4)
+> A perfect example is hard cases, which are the generic version of pelican cases. These are great because they are cheap, rugged, and come in all different sizes and shapes. They also have the added benefit of being mobile. I love just being able to grab a case and go, having everything I need to complete a particular task. 
+> 
+> So what's the problem then? Well the hard cases are great but the pick and pull foam, that they come with, is absolutely awful. If you have used one in the past you know wha...
+
+**Content Author:** Unemployed Architect Unemployed Architect | **Added:** 2026-07-28
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, DOWNLOAD, ONLINE TOOL, UNOFFICIAL, casefinity, gridfinity
+
+---
+
 #### [3D-Fuel - great source of PCTG filament](https://www.3dfuel.com/collections/1-75mm-pro-pctg)
 > 3D-Fuel Pro PCTG is a high-performance PCTG 3D printing filament designed as a superior alternative to PETG. It delivers exceptional toughness (up to 5 - 10× higher impact resistance than standard PETG), along with enhanced chemical resistance, UV stability, and optical clarity.
 > Unlike many engineering-grade filaments, Pro PCTG remains easy to print, with low moisture absorption and excellent layer adhesion. It prints reliably on open-frame printers and is fully compatible with multi-material sy...
@@ -1572,6 +1594,28 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 ---
 
 ### FDM
+
+#### [snaporca-cad - Snapmaker Orca with CAD](https://github.com/tommasobbianchi/snaporca-cad)
+> Design it. Slice it. Print it. All in one window — no export, no re-import, no round-trips.
+> 
+> SnapOrca Design adds a full parametric, sketch-first CAD environment directly inside Snapmaker Orca. A real geometric constraint solver (SolveSpace) on an industrial OpenCASCADE B-rep kernel: 2D sketching with live constraints + draw-then-edit value entry, and the complete solid-feature timeline — extrude, revolve, sweep, loft, pattern, hole, thread, shell, draft, fillet, chamfer, boolean, plane-cut, dat...
+
+**Content Author:** tommasobbianchi | **Added:** 2026-07-28
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, DOWNLOAD, UNOFFICIAL, CAD
+
+---
+
+#### [Casefinity - gridfinity for cases (like pelican and apache)](https://www.youtube.com/watch?v=YSqm821ekR4)
+> A perfect example is hard cases, which are the generic version of pelican cases. These are great because they are cheap, rugged, and come in all different sizes and shapes. They also have the added benefit of being mobile. I love just being able to grab a case and go, having everything I need to complete a particular task. 
+> 
+> So what's the problem then? Well the hard cases are great but the pick and pull foam, that they come with, is absolutely awful. If you have used one in the past you know wha...
+
+**Content Author:** Unemployed Architect Unemployed Architect | **Added:** 2026-07-28
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, DOWNLOAD, ONLINE TOOL, UNOFFICIAL, casefinity, gridfinity
+
+---
 
 #### [3D-Fuel - great source of PCTG filament](https://www.3dfuel.com/collections/1-75mm-pro-pctg)
 > 3D-Fuel Pro PCTG is a high-performance PCTG 3D printing filament designed as a superior alternative to PETG. It delivers exceptional toughness (up to 5 - 10× higher impact resistance than standard PETG), along with enhanced chemical resistance, UV stability, and optical clarity.
@@ -3623,6 +3667,28 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ### FDM
 
+#### [snaporca-cad - Snapmaker Orca with CAD](https://github.com/tommasobbianchi/snaporca-cad)
+> Design it. Slice it. Print it. All in one window — no export, no re-import, no round-trips.
+> 
+> SnapOrca Design adds a full parametric, sketch-first CAD environment directly inside Snapmaker Orca. A real geometric constraint solver (SolveSpace) on an industrial OpenCASCADE B-rep kernel: 2D sketching with live constraints + draw-then-edit value entry, and the complete solid-feature timeline — extrude, revolve, sweep, loft, pattern, hole, thread, shell, draft, fillet, chamfer, boolean, plane-cut, dat...
+
+**Content Author:** tommasobbianchi | **Added:** 2026-07-28
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, DOWNLOAD, UNOFFICIAL, CAD
+
+---
+
+#### [Casefinity - gridfinity for cases (like pelican and apache)](https://www.youtube.com/watch?v=YSqm821ekR4)
+> A perfect example is hard cases, which are the generic version of pelican cases. These are great because they are cheap, rugged, and come in all different sizes and shapes. They also have the added benefit of being mobile. I love just being able to grab a case and go, having everything I need to complete a particular task. 
+> 
+> So what's the problem then? Well the hard cases are great but the pick and pull foam, that they come with, is absolutely awful. If you have used one in the past you know wha...
+
+**Content Author:** Unemployed Architect Unemployed Architect | **Added:** 2026-07-28
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, DOWNLOAD, ONLINE TOOL, UNOFFICIAL, casefinity, gridfinity
+
+---
+
 #### [3D-Fuel - great source of PCTG filament](https://www.3dfuel.com/collections/1-75mm-pro-pctg)
 > 3D-Fuel Pro PCTG is a high-performance PCTG 3D printing filament designed as a superior alternative to PETG. It delivers exceptional toughness (up to 5 - 10× higher impact resistance than standard PETG), along with enhanced chemical resistance, UV stability, and optical clarity.
 > Unlike many engineering-grade filaments, Pro PCTG remains easy to print, with low moisture absorption and excellent layer adhesion. It prints reliably on open-frame printers and is fully compatible with multi-material sy...
@@ -5402,6 +5468,52 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ### FDM
 
+#### [snaporca-cad - Snapmaker Orca with CAD](https://github.com/tommasobbianchi/snaporca-cad)
+> Design it. Slice it. Print it. All in one window — no export, no re-import, no round-trips.
+> 
+> SnapOrca Design adds a full parametric, sketch-first CAD environment directly inside Snapmaker Orca. A real geometric constraint solver (SolveSpace) on an industrial OpenCASCADE B-rep kernel: 2D sketching with live constraints + draw-then-edit value entry, and the complete solid-feature timeline — extrude, revolve, sweep, loft, pattern, hole, thread, shell, draft, fillet, chamfer, boolean, plane-cut, dat...
+
+**Content Author:** tommasobbianchi | **Added:** 2026-07-28
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, DOWNLOAD, UNOFFICIAL, CAD
+
+---
+
+#### [OrcaSlicer-ImageMap - Print an image using Overhang Modulation tech (vertical hueforge)](https://github.com/sentientstardust-dev/OrcaSlicer-ImageMap)
+> Apply image to the surface of your print!
+> 
+> <img width="1786" height="1113" alt="Image" src="https://github.com/user-attachments/assets/8cf1856d-901f-491f-b4f1-1209129ff741" />
+
+**Content Author:** sentientstardust-dev | **Added:** 2026-07-28
+
+**Tags:** INTERMEDIATE, FREE, U1, FDM, DOWNLOAD, UNOFFICIAL, multicolor, image on print
+
+---
+
+#### [Casefinity - gridfinity for cases (like pelican and apache)](https://www.youtube.com/watch?v=YSqm821ekR4)
+> A perfect example is hard cases, which are the generic version of pelican cases. These are great because they are cheap, rugged, and come in all different sizes and shapes. They also have the added benefit of being mobile. I love just being able to grab a case and go, having everything I need to complete a particular task. 
+> 
+> So what's the problem then? Well the hard cases are great but the pick and pull foam, that they come with, is absolutely awful. If you have used one in the past you know wha...
+
+**Content Author:** Unemployed Architect Unemployed Architect | **Added:** 2026-07-28
+
+**Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, J1/J1s, FDM, DOWNLOAD, ONLINE TOOL, UNOFFICIAL, casefinity, gridfinity
+
+---
+
+#### [Black Box Dual PWM Fan Mod](https://github.com/WilliamTheMaker/BuildMyOwnBlackBox_for_Snapmaker_U1)
+> A custom Snapmaker U1 project to build my own external Black Box for dual PWM fan control, based on reverse-engineering the U1 purifier firmware path.
+> 
+> This project started when I compared the old purifier config with the newer V1.3.0 firmware version and found a very important change: PA9 used to be a tachometer input, but in the newer config it became the PWM control output for the inner fan, while tach feedback moved to PA6.
+> 
+> That discovery changed everything. Instead of waiting for the offic...
+
+**Content Author:** WilliamTheMaker | **Added:** 2026-07-28
+
+**Tags:** ADVANCED, FREE, U1, FDM, MODS, UNOFFICIAL, COOLING MOD
+
+---
+
 #### [Spoolman - Keep track of your inventory of 3D-printer filament spools.](https://github.com/Donkie/Spoolman)
 > Spoolman is a self-hosted web service designed to help you efficiently manage your 3D printer filament spools and monitor their usage. It acts as a centralized database that seamlessly integrates with popular 3D printing software like [OctoPrint](https://octoprint.org/) and [Klipper](https://www.klipper3d.org/)/[Moonraker](https://moonraker.readthedocs.io/en/latest/). When connected, it automatically updates spool weights as printing progresses, giving you real-time insights into filament usage.
 
@@ -6095,6 +6207,19 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 **Content Author:** Snapmaker | **Added:** 2026-03-07
 
 **Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, UNIVERSAL, FDM, ARTICLE, OFFICIAL, Academy
+
+---
+
+### General
+
+#### [LED Mod for Snapmaker U1 to get better lights in DIY top cover](https://www.reddit.com/r/snapmaker/comments/1u5gj2m/comment/orkx2be/)
+> This mod allows to connect additional LED Strip to the built in supply.  
+> 
+> <img width="959" height="848" alt="Image" src="https://github.com/user-attachments/assets/2648c94c-c0dd-4c2c-a423-afc1d4ba8a65" />
+
+**Content Author:** sfernan888 | **Added:** 2026-07-28
+
+**Tags:** ADVANCED, FREE, U1, MODS, UNOFFICIAL, LED Mod, DIY
 
 ---
 
