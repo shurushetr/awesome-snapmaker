@@ -5468,6 +5468,29 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ### FDM
 
+#### [SnapCon - U1 Print Farm Management Solution](https://github.com/ezeitoun/SnapCon)
+> SnapCon is a local-first fleet management platform built primarily for Snapmaker U1 print farms.
+> 
+> The project was created to manage my own small farm of 25 Snapmaker U1 printers. Its architecture, interface, and ongoing development are centered around the capabilities, workflows, and operational needs of the U1.
+> 
+> SnapCon provides a single interface for monitoring, controlling, and managing multiple printers without requiring printer activity or operational data to be sent to a third-party cloud ...
+
+**Content Author:** ezeitoun | **Added:** 2026-08-01
+
+**Tags:** ADVANCED, FREE, U1, FDM, ONLINE TOOL, UNOFFICIAL, Print Farm Management, Dashboard
+
+---
+
+#### [FOrcaSlicer — Flexible OrcaSlicer](https://github.com/jiyang1018/FOrcaSlicer)
+> FOrcaSlicer — Flexible OrcaSlicer
+> A fork of [Snapmaker OrcaSlicer](https://github.com/Snapmaker/OrcaSlicer) for the Snapmaker U1, built on one idea: the U1 has four independent heads, so stop making them all do the same job. Give each head its own nozzle size, line width, and speed — a fine nozzle on the visible outer wall, coarser nozzles on everything behind it — and you spend precision where it shows and speed where it doesn't. It also adds a Color Patch pipeline that prints a painted surface...
+
+**Content Author:** jiyang1018 | **Added:** 2026-08-01
+
+**Tags:** INTERMEDIATE, FREE, U1, FDM, DOWNLOAD, UNOFFICIAL, Orca Fork, Different Nozzle Settings
+
+---
+
 #### [snaporca-cad - Snapmaker Orca with CAD](https://github.com/tommasobbianchi/snaporca-cad)
 > Design it. Slice it. Print it. All in one window — no export, no re-import, no round-trips.
 > 
