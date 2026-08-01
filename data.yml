@@ -5609,3 +5609,59 @@ records:
     - UNOFFICIAL
     free_tags:
     - COOLING MOD
+- id: snapcon-u1-print-farm-management-solution-81
+  title: SnapCon - U1 Print Farm Management Solution
+  description: "SnapCon is a local-first fleet management platform built primarily
+    for Snapmaker U1 print farms.\n\nThe project was created to manage my own small
+    farm of 25 Snapmaker U1 printers. Its architecture, interface, and ongoing development
+    are centered around the capabilities, workflows, and operational needs of the
+    U1.\n\nSnapCon provides a single interface for monitoring, controlling, and managing
+    multiple printers without requiring printer activity or operational data to be
+    sent to a third-party cloud ..."
+  author_name: ezeitoun
+  author_link: https://github.com/ezeitoun
+  original_link: https://github.com/ezeitoun/SnapCon
+  date_added: '2026-08-01'
+  difficulty: ADVANCED
+  cost: FREE
+  tags:
+    machine_type:
+    - U1
+    machine_tool_type:
+    - FDM
+    record_type:
+    - ONLINE TOOL
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Print Farm Management
+    - Dashboard
+- id: forcaslicer-flexible-orcaslicer-80
+  title: FOrcaSlicer — Flexible OrcaSlicer
+  description: "FOrcaSlicer — Flexible OrcaSlicer\nA fork of [Snapmaker OrcaSlicer](https://github.com/Snapmaker/OrcaSlicer)
+    for the Snapmaker U1, built on one idea: the U1 has four independent heads, so
+    stop making them all do the same job. Give each head its own nozzle size, line
+    width, and speed — a fine nozzle on the visible outer wall, coarser nozzles on
+    everything behind it — and you spend precision where it shows and speed where
+    it doesn't. It also adds a Color Patch pipeline that prints a painted surface..."
+  author_name: jiyang1018
+  author_link: https://github.com/jiyang1018
+  original_link: https://github.com/jiyang1018/FOrcaSlicer
+  date_added: '2026-08-01'
+  difficulty: INTERMEDIATE
+  cost: FREE
+  tags:
+    machine_type:
+    - U1
+    machine_tool_type:
+    - FDM
+    record_type:
+    - DOWNLOAD
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Orca Fork
+    - Different Nozzle Settings
+  extra_buttons:
+  - label: Demo Video
+    link: https://www.youtube.com/watch?v=5z-unU9aujo
