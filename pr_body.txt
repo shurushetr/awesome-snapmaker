@@ -3,5 +3,4 @@ When you merge this, all pending records will be added to `data.yml`.
 
 Latest additions:
 
-Closes #81
-Closes #80
+Closes #83

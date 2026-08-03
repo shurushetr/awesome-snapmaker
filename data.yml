@@ -5665,3 +5665,29 @@ records:
   extra_buttons:
   - label: Demo Video
     link: https://www.youtube.com/watch?v=5z-unU9aujo
+- id: topomiller-transform-any-landscape-into-cnc-relief-carvings-83
+  title: TopoMiller - Transform Any Landscape Into CNC Relief Carvings
+  description: Select any location worldwide, adjust your settings, and get a 
+    perfect STL file ready for your CNC machine. Create stunning topographic 
+    relief carvings in minutes.
+  author_name: Bright Land Milling
+  author_link: https://www.youtube.com/watch?v=yebzO76lWMo
+  original_link: https://www.topomiller.com/
+  date_added: '2026-08-03'
+  difficulty: INTERMEDIATE
+  cost: FREE
+  tags:
+    machine_type:
+    - SM_2.0
+    - ARTISAN
+    machine_tool_type:
+    - CNC
+    record_type:
+    - CREATE
+    - DOWNLOAD
+    - ONLINE TOOL
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Toolpath generator
+    - topographic relief
