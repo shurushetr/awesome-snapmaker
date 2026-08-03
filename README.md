@@ -28,6 +28,15 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ### CNC
 
+#### [TopoMiller - Transform Any Landscape Into CNC Relief Carvings](https://www.topomiller.com/)
+> Select any location worldwide, adjust your settings, and get a perfect STL file ready for your CNC machine. Create stunning topographic relief carvings in minutes.
+
+**Content Author:** Bright Land Milling | **Added:** 2026-08-03
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, CNC, CREATE, DOWNLOAD, ONLINE TOOL, UNOFFICIAL, Toolpath generator, topographic relief
+
+---
+
 #### [TruFlatPlywood - good source for lasering plywood in US](https://truflatplywood.com/)
 > TruFlat Plywood (truflatplywood.com) is an online supplier specializing in pre-finished, engineered plywood specifically designed for laser cutters, CNC machines, scroll saws, and UV printers.  
 > Manufactured in Canada, their primary claim to fame is their guarantee that the material will lay completely flat on a laser bed, eliminating the warping issues commonly associated with standard craft wood.
@@ -2938,6 +2947,15 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 ## SM_2.0
 
 ### CNC
+
+#### [TopoMiller - Transform Any Landscape Into CNC Relief Carvings](https://www.topomiller.com/)
+> Select any location worldwide, adjust your settings, and get a perfect STL file ready for your CNC machine. Create stunning topographic relief carvings in minutes.
+
+**Content Author:** Bright Land Milling | **Added:** 2026-08-03
+
+**Tags:** INTERMEDIATE, FREE, SM_2.0, ARTISAN, CNC, CREATE, DOWNLOAD, ONLINE TOOL, UNOFFICIAL, Toolpath generator, topographic relief
+
+---
 
 #### [TruFlatPlywood - good source for lasering plywood in US](https://truflatplywood.com/)
 > TruFlat Plywood (truflatplywood.com) is an online supplier specializing in pre-finished, engineered plywood specifically designed for laser cutters, CNC machines, scroll saws, and UV printers.  
