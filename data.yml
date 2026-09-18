@@ -5691,3 +5691,31 @@ records:
     free_tags:
     - Toolpath generator
     - topographic relief
+- id: bmcu-klipper-snapmaker-u1-87
+  title: BMCU-Klipper - Snapmaker U1
+  description: "Dedicated BMCU integration for the four-head Snapmaker U1.\n\nThe
+    integration uses the native U1 model of heads, feeders, sensors and states, while
+    adding BMCU channels as additional logical material sources. The entire workflow
+    remains consistent with Snapmaker mechanics: U1 handles its own heads and hotends,
+    while BMCU handles material transport, routing and source preparation."
+  author_name: jarczakpawel
+  author_link: https://github.com/jarczakpawel
+  original_link: https://github.com/jarczakpawel/BMCU-Klipper
+  date_added: '2026-09-18'
+  difficulty: ADVANCED
+  cost: FREE
+  tags:
+    machine_type:
+    - U1
+    machine_tool_type:
+    - FDM
+    record_type:
+    - CREATE
+    - DOWNLOAD
+    - FIRMWARE
+    - MODS
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - BMCU
+    - Multicolor
