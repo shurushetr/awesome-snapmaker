@@ -5486,6 +5486,17 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ### FDM
 
+#### [BMCU-Klipper - Snapmaker U1](https://github.com/jarczakpawel/BMCU-Klipper)
+> Dedicated BMCU integration for the four-head Snapmaker U1.
+> 
+> The integration uses the native U1 model of heads, feeders, sensors and states, while adding BMCU channels as additional logical material sources. The entire workflow remains consistent with Snapmaker mechanics: U1 handles its own heads and hotends, while BMCU handles material transport, routing and source preparation.
+
+**Content Author:** jarczakpawel | **Added:** 2026-09-18
+
+**Tags:** ADVANCED, FREE, U1, FDM, CREATE, DOWNLOAD, FIRMWARE, MODS, UNOFFICIAL, BMCU, Multicolor
+
+---
+
 #### [SnapCon - U1 Print Farm Management Solution](https://github.com/ezeitoun/SnapCon)
 > SnapCon is a local-first fleet management platform built primarily for Snapmaker U1 print farms.
 > 
