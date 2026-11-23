@@ -5719,3 +5719,60 @@ records:
     free_tags:
     - BMCU
     - Multicolor
+- id: 
+    stl2step-converter-universal-stl-mesh-to-step-b-rep-solid-conversion-engine-90
+  title: STL2STEP converter - Universal STL (mesh) to STEP (B-Rep solid) 
+    conversion engine.
+  description: 'Geometry definition — what converts well. stl2step works best on purely
+    geometric shapes: parts built from planes, cylinders, arcs, fillets and other
+    analytic surfaces — the kind of geometry a CAD kernel authored in the first place.
+    Organic, freeform, sculpted or 3D-scanned meshes still convert and still produce
+    a valid solid, but their curved surfaces stay faceted, because a parametric surface
+    can only be recovered where one actually existed. The set of shapes recognised
+    analytically is getting...'
+  author_name: BlinkingSun
+  author_link: https://github.com/BlinkingSun
+  original_link: https://github.com/BlinkingSun/stl2step
+  date_added: '2026-11-23'
+  difficulty: BEGINNER
+  cost: FREE
+  tags:
+    machine_type:
+    - UNIVERSAL
+    record_type:
+    - ONLINE TOOL
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - Converter
+  extra_buttons:
+  - label: Live Version
+    link: https://makerinparadise.com/solidout/
+- id: artisan-android-app-source-code-89
+  title: Artisan Android App source code
+  description: Snapmaker finally published the source code for Artisan screen - 
+    we can go wild all the way now :)
+  author_name: Snapmaker
+  author_link: https://github.com/Snapmaker/
+  original_link: https://github.com/Snapmaker/Snapmaker-Artisan-Screen-App
+  date_added: '2026-11-23'
+  difficulty: BEGINNER
+  cost: FREE
+  tags:
+    machine_type:
+    - ARTISAN
+    machine_tool_type:
+    - FDM
+    - LASER
+    - CNC
+    - ROTARY
+    - COMBINED
+    record_type:
+    - DOWNLOAD
+    - FIRMWARE
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - android
+    - source code
+    - screen app
