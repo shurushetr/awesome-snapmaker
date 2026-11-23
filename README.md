@@ -5531,6 +5531,15 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ### FDM
 
+#### [Printer Tools — Snapmaker U1 monitoring and control app](https://printertools.app/compatibility/snapmaker-u1)
+> Printer Tools is a native iOS, Android, and macOS dashboard for the Snapmaker U1. It connects over the local network to original or paxx12 firmware and shows print progress, up to four toolheads, the live camera, files, and print history. It can pause, resume, or stop jobs. Developed by FixoLab; the app also supports other printer brands.
+
+**Content Author:** FixoLab | **Added:** 2026-11-23
+
+**Tags:** BEGINNER, FREEMIUM, U1, FDM, DOWNLOAD, UNOFFICIAL, UNOFFICIAL, Snapmaker U1, dashboard, monitoring, camera
+
+---
+
 #### [BMCU-Klipper - Snapmaker U1](https://github.com/jarczakpawel/BMCU-Klipper)
 > Dedicated BMCU integration for the four-head Snapmaker U1.
 > 
