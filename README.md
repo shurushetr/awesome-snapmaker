@@ -28,6 +28,15 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ### CNC
 
+#### [Artisan Android App source code](https://github.com/Snapmaker/Snapmaker-Artisan-Screen-App)
+> Snapmaker finally published the source code for Artisan screen - we can go wild all the way now :)
+
+**Content Author:** Snapmaker | **Added:** 2026-11-23
+
+**Tags:** BEGINNER, FREE, ARTISAN, FDM, LASER, CNC, ROTARY, COMBINED, DOWNLOAD, FIRMWARE, UNOFFICIAL, android, source code, screen app
+
+---
+
 #### [TopoMiller - Transform Any Landscape Into CNC Relief Carvings](https://www.topomiller.com/)
 > Select any location worldwide, adjust your settings, and get a perfect STL file ready for your CNC machine. Create stunning topographic relief carvings in minutes.
 
@@ -291,6 +300,15 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ### COMBINED
 
+#### [Artisan Android App source code](https://github.com/Snapmaker/Snapmaker-Artisan-Screen-App)
+> Snapmaker finally published the source code for Artisan screen - we can go wild all the way now :)
+
+**Content Author:** Snapmaker | **Added:** 2026-11-23
+
+**Tags:** BEGINNER, FREE, ARTISAN, FDM, LASER, CNC, ROTARY, COMBINED, DOWNLOAD, FIRMWARE, UNOFFICIAL, android, source code, screen app
+
+---
+
 #### [TruFlatPlywood - good source for lasering plywood in US](https://truflatplywood.com/)
 > TruFlat Plywood (truflatplywood.com) is an online supplier specializing in pre-finished, engineered plywood specifically designed for laser cutters, CNC machines, scroll saws, and UV printers.  
 > Manufactured in Canada, their primary claim to fame is their guarantee that the material will lay completely flat on a laser bed, eliminating the warping issues commonly associated with standard craft wood.
@@ -437,6 +455,15 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 ---
 
 ### FDM
+
+#### [Artisan Android App source code](https://github.com/Snapmaker/Snapmaker-Artisan-Screen-App)
+> Snapmaker finally published the source code for Artisan screen - we can go wild all the way now :)
+
+**Content Author:** Snapmaker | **Added:** 2026-11-23
+
+**Tags:** BEGINNER, FREE, ARTISAN, FDM, LASER, CNC, ROTARY, COMBINED, DOWNLOAD, FIRMWARE, UNOFFICIAL, android, source code, screen app
+
+---
 
 #### [snaporca-cad - Snapmaker Orca with CAD](https://github.com/tommasobbianchi/snaporca-cad)
 > Design it. Slice it. Print it. All in one window — no export, no re-import, no round-trips.
@@ -941,6 +968,15 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 
 ### LASER
 
+#### [Artisan Android App source code](https://github.com/Snapmaker/Snapmaker-Artisan-Screen-App)
+> Snapmaker finally published the source code for Artisan screen - we can go wild all the way now :)
+
+**Content Author:** Snapmaker | **Added:** 2026-11-23
+
+**Tags:** BEGINNER, FREE, ARTISAN, FDM, LASER, CNC, ROTARY, COMBINED, DOWNLOAD, FIRMWARE, UNOFFICIAL, android, source code, screen app
+
+---
+
 #### [TruFlatPlywood - good source for lasering plywood in US](https://truflatplywood.com/)
 > TruFlat Plywood (truflatplywood.com) is an online supplier specializing in pre-finished, engineered plywood specifically designed for laser cutters, CNC machines, scroll saws, and UV printers.  
 > Manufactured in Canada, their primary claim to fame is their guarantee that the material will lay completely flat on a laser bed, eliminating the warping issues commonly associated with standard craft wood.
@@ -1334,6 +1370,15 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 ---
 
 ### ROTARY
+
+#### [Artisan Android App source code](https://github.com/Snapmaker/Snapmaker-Artisan-Screen-App)
+> Snapmaker finally published the source code for Artisan screen - we can go wild all the way now :)
+
+**Content Author:** Snapmaker | **Added:** 2026-11-23
+
+**Tags:** BEGINNER, FREE, ARTISAN, FDM, LASER, CNC, ROTARY, COMBINED, DOWNLOAD, FIRMWARE, UNOFFICIAL, android, source code, screen app
+
+---
 
 #### [Autodesk Fusion360](https://www.autodesk.com/products/fusion-360/personal-form)
 > CAD system. CNC toolpath generating. 3D Modeling.
@@ -6663,6 +6708,17 @@ Maintained by [Maintainers](https://github.com/shurushetr/awesome-snapmaker/grap
 **Content Author:** Snapmaker | **Added:** 2026-03-07
 
 **Tags:** BEGINNER, FREE, SM_2.0, ARTISAN, U1, UNIVERSAL, FDM, ARTICLE, OFFICIAL, Academy
+
+---
+
+### General
+
+#### [STL2STEP converter - Universal STL (mesh) to STEP (B-Rep solid) conversion engine.](https://github.com/BlinkingSun/stl2step)
+> Geometry definition — what converts well. stl2step works best on purely geometric shapes: parts built from planes, cylinders, arcs, fillets and other analytic surfaces — the kind of geometry a CAD kernel authored in the first place. Organic, freeform, sculpted or 3D-scanned meshes still convert and still produce a valid solid, but their curved surfaces stay faceted, because a parametric surface can only be recovered where one actually existed. The set of shapes recognised analytically is getting...
+
+**Content Author:** BlinkingSun | **Added:** 2026-11-23
+
+**Tags:** BEGINNER, FREE, UNIVERSAL, ONLINE TOOL, UNOFFICIAL, Converter
 
 ---
 
