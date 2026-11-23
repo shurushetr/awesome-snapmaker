@@ -5776,3 +5776,31 @@ records:
     - android
     - source code
     - screen app
+- id: printer-tools-snapmaker-u1-monitoring-and-control-app-92
+  title: Printer Tools — Snapmaker U1 monitoring and control app
+  description: Printer Tools is a native iOS, Android, and macOS dashboard for 
+    the Snapmaker U1. It connects over the local network to original or paxx12 
+    firmware and shows print progress, up to four toolheads, the live camera, 
+    files, and print history. It can pause, resume, or stop jobs. Developed by 
+    FixoLab; the app also supports other printer brands.
+  author_name: FixoLab
+  author_link: https://github.com/62fixolab
+  original_link: https://printertools.app/compatibility/snapmaker-u1
+  date_added: '2026-11-23'
+  difficulty: BEGINNER
+  cost: FREEMIUM
+  tags:
+    machine_type:
+    - U1
+    machine_tool_type:
+    - FDM
+    record_type:
+    - DOWNLOAD
+    official_flag:
+    - UNOFFICIAL
+    free_tags:
+    - UNOFFICIAL
+    - Snapmaker U1
+    - dashboard
+    - monitoring
+    - camera
